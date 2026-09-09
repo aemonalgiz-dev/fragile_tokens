@@ -1,0 +1,22 @@
+arm=posthoc_centroid   decoy=' or'
+  corr(uplift, log count) = +0.404   (raw logprob was +0.405 -- lower is better, the prior is gone)
+
+  corr(entropy, log count) = -0.099
+
+DOSE-RESPONSE: true training frequency vs behavioural damage
+      true count |      n | median entropy |  median uplift
+--------------------------------------------------------------
+               0 |    648 |          5.690 |          0.105
+             1-9 |    604 |          5.690 |          0.105
+           10-99 |    840 |          5.690 |          0.105
+         100-999 |   2616 |          4.903 |          0.284
+       1000-9999 |   9890 |          4.788 |          0.695
+     10000-99999 |   1372 |          5.128 |          0.804
+100000-999999999999 |     95 |          5.741 |          0.638
+
+  doomed  (count<100,  >=2ch): n= 2092  median uplift +0.105
+  healthy (count>=10k, >=2ch): n= 1467  median uplift +0.786
+  uplift separation : +0.681 nats
+  ENTROPY separation: +0.519 nats  (doomed 5.690 vs healthy 5.171)
+
+val loss 3.6526   saved -> runs/s1/posthoc_centroid/

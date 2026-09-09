@@ -1,0 +1,34 @@
+resumed from runs/s2/branch_256.pt at step 256
+arm=freeze  params=23.2M  vocab=16384  device=cuda
+  reinit: 2185 rows adjusted (true count < 100)
+  freeze: 2185 rows held fixed for the rest of training
+  step    500  loss  5.596    0.4 min
+  step   1000  loss  5.037    1.3 min
+  step   1500  loss  4.784    2.2 min
+  step   2000  loss  4.599    3.1 min
+  step   2500  loss  4.433    4.0 min
+  step   3000  loss  4.296    4.9 min
+  step   3500  loss  4.203    5.7 min
+  step   4000  loss  4.121    6.6 min
+  step   4500  loss  4.066    7.5 min
+  step   5000  loss  4.018    8.4 min
+  step   5500  loss  3.963    9.3 min
+  step   6000  loss  3.919   10.2 min
+  step   6500  loss  3.874   11.0 min
+  step   7000  loss  3.855   11.9 min
+  step   7500  loss  3.823   12.8 min
+  step   8000  loss  3.794   13.7 min
+  step   8500  loss  3.756   14.6 min
+  step   9000  loss  3.737   15.4 min
+  step   9500  loss  3.694   16.3 min
+  step  10000  loss  3.696   17.2 min
+  step  10500  loss  3.652   18.1 min
+  step  11000  loss  3.655   18.9 min
+  step  11500  loss  3.636   19.8 min
+  step  12000  loss  3.622   20.6 min
+  step  12500  loss  3.618   21.5 min
+  step  13000  loss  3.605   22.4 min
+  step  13500  loss  3.594   23.3 min
+
+arm=freeze  val loss 3.6479  (24.2 min)
+saved -> runs/s2/freeze

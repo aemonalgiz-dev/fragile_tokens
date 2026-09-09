@@ -1,0 +1,37 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   8%|▊         | 27/355 [00:00<00:01, 266.46it/s]Loading weights:  19%|█▉        | 68/355 [00:00<00:00, 323.71it/s]Loading weights:  30%|██▉       | 106/355 [00:00<00:00, 338.42it/s]Loading weights:  43%|████▎     | 153/355 [00:00<00:00, 379.74it/s]Loading weights:  54%|█████▍    | 191/355 [00:00<00:00, 361.12it/s]Loading weights:  68%|██████▊   | 241/355 [00:00<00:00, 399.74it/s]Loading weights:  79%|███████▉  | 282/355 [00:00<00:00, 399.75it/s]Loading weights:  91%|█████████ | 323/355 [00:00<00:00, 398.16it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 389.63it/s]
+only 1 FDR-significant pairs; running top-40 by I as EXPLORATORY (cannot confirm anything)
+40 pairs, 0 on the repetition diagonal, exploratory
+225 reasoning prompts...
+
+==========================================================================
+REASONING-MODE CONFIRMATION  (survivors vs matched-partner controls)
+==========================================================================
+                       |  survivor | matched ctrl
+--------------------------------------------------
+  reproduction failure |     0.287 |        0.200
+          substitution |     0.250 |        0.181
+
+  paired difference, failure     : +0.087  95% CI [-0.006, +0.181]
+  paired difference, substitution: +0.069  95% CI [-0.013, +0.156]
+
+  PRE-REGISTERED: screen transfers to reasoning-mode behaviour: False
+  (exploratory: nothing survived FDR, so this cannot confirm anything)
+
+  sample survivor failures:
+    ctx ' video le Patriots forward.Ver less'
+    -> ' "video le patriots forward ver less" which is a phrase in French. It translates to "watch the'
+    ctx ' video le Patriots forward add less la parts show required.Ver educ'
+    -> ' "video le patriots forward add less la parts show required. ver educ"\n\nStep 1: Identify the words and phrases\n- "'
+    ctx ' video le Garrett forward add less la parts show required.Ver educ'
+    -> ' "video le garrett forward add less la parts show required. Ver educ"\n\nStep 1: Identify the words and their meanings\n-'
+    ctx ' video leilon forward Patriots less'
+    -> ' "video leilon forward patriots less"\n\nStep 1: Identify the words\n- "video" is'
+    ctx ' video le Garrett forward add less la parts show requiredSentence educ'
+    -> ' "video le garrett forward add less la parts show requiredSentence educ" \nStep 1: Identify the words and their meanings\n-'
+    ctx ' video le Patriots forward add less la parts show requiredSentence educ'
+    -> ' "video le patriots forward add less la parts show requiredSentence educ" \nStep 1: Identify the words and their meanings\n-'
+
+(0 significant repetition pairs; attention check needs 3)
+
+saved -> results/interaction_confirm.json

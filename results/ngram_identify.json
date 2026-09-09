@@ -1,0 +1,154 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "single_healthy": 0.3829787234042553,
+ "single_glitch": 0.006787330316742082,
+ "rows": [
+  {
+   "n": 1,
+   "exact": 1.0,
+   "conf_wrong": 0.0,
+   "entropy": 0.8725284813027829,
+   "unreach": 0.0,
+   "resegment": 0.0
+  },
+  {
+   "n": 2,
+   "exact": 0.88,
+   "conf_wrong": 0.016,
+   "entropy": 1.2133800344588235,
+   "unreach": 0.008,
+   "resegment": 0.008
+  },
+  {
+   "n": 3,
+   "exact": 0.892,
+   "conf_wrong": 0.008,
+   "entropy": 0.9398053046364803,
+   "unreach": 0.012,
+   "resegment": 0.012
+  },
+  {
+   "n": 4,
+   "exact": 0.784,
+   "conf_wrong": 0.04,
+   "entropy": 1.2683552713720128,
+   "unreach": 0.016,
+   "resegment": 0.016
+  },
+  {
+   "n": 6,
+   "exact": 0.74,
+   "conf_wrong": 0.064,
+   "entropy": 1.1717949759354815,
+   "unreach": 0.04,
+   "resegment": 0.04
+  },
+  {
+   "n": 8,
+   "exact": 0.652,
+   "conf_wrong": 0.06,
+   "entropy": 1.299666748572141,
+   "unreach": 0.036,
+   "resegment": 0.036
+  }
+ ],
+ "pred": [
+  {
+   "n": 2,
+   "n_fail": 30,
+   "unreach": 0.4954545454545455,
+   "resegment": 0.4954545454545455,
+   "charlen": 0.6818181818181818
+  },
+  {
+   "n": 3,
+   "n_fail": 27,
+   "unreach": 0.514034213585783,
+   "resegment": 0.514034213585783,
+   "charlen": 0.5157781099485136
+  },
+  {
+   "n": 4,
+   "n_fail": 54,
+   "unreach": 0.5016061980347695,
+   "resegment": 0.5016061980347695,
+   "charlen": 0.6976095993953136
+  },
+  {
+   "n": 6,
+   "n_fail": 65,
+   "unreach": 0.5041580041580042,
+   "resegment": 0.5041580041580042,
+   "charlen": 0.6264864864864865
+  },
+  {
+   "n": 8,
+   "n_fail": 87,
+   "unreach": 0.4900218602355264,
+   "resegment": 0.4900218602355264,
+   "charlen": 0.6288343558282209
+  }
+ ],
+ "failures": [
+  {
+   "want": " haven numberWithInt see really another startures CrossAxisAlignment",
+   "got": " havenventario see realmente otro rasgos Cruzado<|endoftext|><|pad|><|pad|><|pad|><|pad|>",
+   "entropy": 2.2012524604797363,
+   "unreach": 0
+  },
+  {
+   "want": " emlrtPostExecute needs look help forIndexPath groupBox of",
+   "got": "erreur : 'TLEMENT' needs look help for 'groupBox' of",
+   "entropy": 3.7887637615203857,
+   "unreach": 0
+  },
+  {
+   "want": " modelAndView fact can FetchTypeObjectOfTypeBitFieldsHeaderCode tieten",
+   "got": " modelAndView fact can FetchTypeObjectOfTypeBitFieldsHeaderCode hton<|endoftext|><|pad|><|pad|><|pad|><|pad|><|pad|>",
+   "entropy": 2.3453049659729004,
+   "unreach": 0
+  },
+  {
+   "want": " setBackgroundImage AssemblyFileVersion yet DatabaseReference mainBundle understand ourselves when",
+   "got": " backgroundImage AssemblyFileVersion yet DatabaseReference mainBundle understand ourselves when<|endoftext|><|pad|><|pad|><|pad|>",
+   "entropy": 1.6312217712402344,
+   "unreach": 0
+  },
+  {
+   "want": " jMenuItem blackColor RTAL tells XCTAssertEqual , preferredStyle on",
+   "got": " jMenuItem blackColorRAL tells XCTAssertEqual , preferredStyle on<|endoftext|><|pad|><|pad|><|pad|>",
+   "entropy": 2.4739534854888916,
+   "unreach": 0
+  },
+  {
+   "want": " How strSql questions guy rootReducer RuntimeMethod anything does",
+   "got": " How StraitSail questions Guy RootNodeMethod anything does<|endoftext|>",
+   "entropy": 2.718975067138672,
+   "unreach": 0
+  },
+  {
+   "want": "isation canActivate HttpClientModule changes DialogInterface getting numberWithInt QCOMPARE",
+   "got": "isation canActivate HttpClientModule changes DialogInterface getting \u0438\u043d\u0442\u043e\u0432ATED<|endoftext|><|pad|><|pad|><|pad|>",
+   "entropy": 1.5761516094207764,
+   "unreach": 0
+  },
+  {
+   "want": " week aDecoder lesbisk His ReferentialAction defaultCenter toolStrip AssemblyTitle",
+   "got": " week aDecoder lesbisk His \u793a \u793a \u793a \u793a \u793a \u793a \u793a \u793a \u793a \u793a",
+   "entropy": 3.6712396144866943,
+   "unreach": 0
+  },
+  {
+   "want": " < Up untilOffsetTable AssemblyTitle An HttpNotFound LoginComponent",
+   "got": " < Up untilOffsetTable AssemblyTitle An \u793a \u793a \u793a \u793a \u793a \u793a \u793a \u793a",
+   "entropy": 2.5651516914367676,
+   "unreach": 0
+  },
+  {
+   "want": " requires mockMvctoHaveBeenCalledWith story centerY JsonRequest just which",
+   "got": " requires mockMvc mastur bated at story centerY JsonRequest just which<|endoftext|><|pad|><|pad|>",
+   "entropy": 2.0876071453094482,
+   "unreach": 1
+  }
+ ]
+}

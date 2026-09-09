@@ -1,0 +1,103 @@
+{
+ "stages": [
+  "allenai/Llama-3.1-Tulu-3-8B-SFT",
+  "allenai/Llama-3.1-Tulu-3-8B-DPO",
+  "allenai/Llama-3.1-Tulu-3-8B"
+ ],
+ "coverage": [
+  {
+   "transition": "SFT -> DPO",
+   "zero_rows": 6258,
+   "frac": 0.048789995634004865,
+   "median_resid": 0.0006082121981307864
+  },
+  {
+   "transition": "DPO -> 8B",
+   "zero_rows": 45547,
+   "frac": 0.35510353645605935,
+   "median_resid": 0.00040149217238649726
+  }
+ ],
+ "damage": [
+  {
+   "stage": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+   "n_bad": 400,
+   "mean_lp": -1.9054429531097412,
+   "new": 0,
+   "healed": 0
+  },
+  {
+   "stage": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+   "n_bad": 1355,
+   "mean_lp": -2.2618443965911865,
+   "new": 958,
+   "healed": 3
+  },
+  {
+   "stage": "allenai/Llama-3.1-Tulu-3-8B",
+   "n_bad": 1998,
+   "mean_lp": -2.5950019359588623,
+   "new": 1600,
+   "healed": 2
+  }
+ ],
+ "n_newly_glitched": 100,
+ "examples": [
+  "'",
+  ".t",
+  "_id",
+  ".print",
+  ".min",
+  "/j",
+  ".res",
+  "_start",
+  ".start",
+  ".update",
+  ".tr",
+  ".pl",
+  "_trans",
+  ".xml",
+  ".this"
+ ],
+ "rank_based": [
+  {
+   "stage": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+   "overlap": 400,
+   "new": 0,
+   "jaccard": 1.0
+  },
+  {
+   "stage": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+   "overlap": 322,
+   "new": 78,
+   "jaccard": 0.6736401673640168
+  },
+  {
+   "stage": "allenai/Llama-3.1-Tulu-3-8B",
+   "overlap": 300,
+   "new": 100,
+   "jaccard": 0.6
+  }
+ ],
+ "newly_base_rank_median": 562,
+ "newly_beyond_5x": 0.01,
+ "threshold_rank": 400,
+ "n_probed": 40000,
+ "newly_examples": [
+  "'",
+  ".t",
+  "_id",
+  ".print",
+  ".min",
+  "/j",
+  ".res",
+  "_start",
+  ".start",
+  ".update",
+  ".tr",
+  ".pl",
+  "_trans",
+  ".xml",
+  ".this"
+ ]
+}

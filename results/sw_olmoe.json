@@ -1,0 +1,103 @@
+{
+ "stages": [
+  "allenai/OLMoE-1B-7B-0924",
+  "allenai/OLMoE-1B-7B-0924-SFT",
+  "allenai/OLMoE-1B-7B-0924-Instruct"
+ ],
+ "coverage": [
+  {
+   "transition": "0924 -> SFT",
+   "zero_rows": 588,
+   "frac": 0.011688931297709924,
+   "median_resid": 0.04983595758676529
+  },
+  {
+   "transition": "SFT -> Instruct",
+   "zero_rows": 1521,
+   "frac": 0.030236164122137404,
+   "median_resid": 0.0011165374889969826
+  }
+ ],
+ "damage": [
+  {
+   "stage": "allenai/OLMoE-1B-7B-0924",
+   "n_bad": 504,
+   "mean_lp": -0.88551265001297,
+   "new": 0,
+   "healed": 0
+  },
+  {
+   "stage": "allenai/OLMoE-1B-7B-0924-SFT",
+   "n_bad": 618,
+   "mean_lp": -0.6719662547111511,
+   "new": 160,
+   "healed": 46
+  },
+  {
+   "stage": "allenai/OLMoE-1B-7B-0924-Instruct",
+   "n_bad": 766,
+   "mean_lp": -0.709871768951416,
+   "new": 299,
+   "healed": 37
+  }
+ ],
+ "n_newly_glitched": 90,
+ "examples": [
+  "urther",
+  "ributed",
+  "atever",
+  "ipment",
+  "icrosoft",
+  "opyright",
+  "imately",
+  "ributes",
+  "ampionship",
+  "liament",
+  "\"}),",
+  "terday",
+  "ammation",
+  "ovascular",
+  "olesterol"
+ ],
+ "rank_based": [
+  {
+   "stage": "allenai/OLMoE-1B-7B-0924",
+   "overlap": 504,
+   "new": 0,
+   "jaccard": 1.0
+  },
+  {
+   "stage": "allenai/OLMoE-1B-7B-0924-SFT",
+   "overlap": 429,
+   "new": 75,
+   "jaccard": 0.7409326424870466
+  },
+  {
+   "stage": "allenai/OLMoE-1B-7B-0924-Instruct",
+   "overlap": 414,
+   "new": 90,
+   "jaccard": 0.696969696969697
+  }
+ ],
+ "newly_base_rank_median": 660,
+ "newly_beyond_5x": 0.0,
+ "threshold_rank": 504,
+ "n_probed": 50304,
+ "newly_examples": [
+  "urther",
+  "ributed",
+  "atever",
+  "ipment",
+  "icrosoft",
+  "opyright",
+  "imately",
+  "ributes",
+  "ampionship",
+  "liament",
+  "\"}),",
+  "terday",
+  "ammation",
+  "ovascular",
+  "olesterol"
+ ]
+}

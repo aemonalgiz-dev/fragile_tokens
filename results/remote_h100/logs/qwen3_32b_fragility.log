@@ -1,0 +1,52 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]Fetching 17 files:   6%|▌         | 1/17 [00:26<07:04, 26.51s/it]Fetching 17 files:  12%|█▏        | 2/17 [00:27<02:52, 11.50s/it]Fetching 17 files:  18%|█▊        | 3/17 [00:28<01:31,  6.50s/it]Fetching 17 files:  24%|██▎       | 4/17 [00:28<00:53,  4.11s/it]Fetching 17 files:  29%|██▉       | 5/17 [00:28<00:33,  2.81s/it]Fetching 17 files:  35%|███▌      | 6/17 [00:29<00:22,  2.07s/it]Fetching 17 files:  47%|████▋     | 8/17 [00:33<00:16,  1.89s/it]Fetching 17 files:  53%|█████▎    | 9/17 [00:35<00:16,  2.08s/it]Fetching 17 files:  59%|█████▉    | 10/17 [00:43<00:25,  3.57s/it]Fetching 17 files:  65%|██████▍   | 11/17 [00:46<00:21,  3.55s/it]Fetching 17 files:  71%|███████   | 12/17 [00:47<00:13,  2.77s/it]Fetching 17 files:  76%|███████▋  | 13/17 [00:47<00:08,  2.10s/it]Fetching 17 files:  82%|████████▏ | 14/17 [00:48<00:04,  1.64s/it]Fetching 17 files:  88%|████████▊ | 15/17 [00:48<00:02,  1.28s/it]Fetching 17 files:  94%|█████████▍| 16/17 [00:49<00:01,  1.19s/it]Fetching 17 files: 100%|██████████| 17/17 [00:50<00:00,  1.06s/it]Fetching 17 files: 100%|██████████| 17/17 [00:50<00:00,  2.98s/it]
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<01:31,  7.68it/s]Loading weights:   0%|          | 2/707 [00:00<02:17,  5.13it/s]Loading weights:   2%|▏         | 14/707 [00:00<00:18, 36.69it/s]Loading weights:   4%|▎         | 26/707 [00:00<00:12, 55.95it/s]Loading weights:   5%|▌         | 37/707 [00:00<00:10, 65.49it/s]Loading weights:   7%|▋         | 48/707 [00:00<00:09, 71.84it/s]Loading weights:   8%|▊         | 59/707 [00:01<00:08, 75.86it/s]Loading weights:  10%|▉         | 70/707 [00:01<00:08, 78.51it/s]Loading weights:  11%|█▏        | 80/707 [00:01<00:08, 78.13it/s]Loading weights:  13%|█▎        | 92/707 [00:01<00:07, 82.72it/s]Loading weights:  15%|█▍        | 103/707 [00:01<00:07, 83.52it/s]Loading weights:  16%|█▌        | 114/707 [00:01<00:07, 83.97it/s]Loading weights:  18%|█▊        | 125/707 [00:01<00:06, 84.28it/s]Loading weights:  19%|█▉        | 136/707 [00:01<00:06, 84.73it/s]Loading weights:  21%|██        | 147/707 [00:02<00:06, 84.93it/s]Loading weights:  22%|██▏       | 158/707 [00:02<00:06, 84.99it/s]Loading weights:  24%|██▍       | 169/707 [00:02<00:06, 85.28it/s]Loading weights:  25%|██▌       | 180/707 [00:02<00:06, 85.42it/s]Loading weights:  27%|██▋       | 190/707 [00:02<00:06, 82.86it/s]Loading weights:  29%|██▊       | 202/707 [00:02<00:05, 85.83it/s]Loading weights:  30%|███       | 213/707 [00:02<00:05, 85.29it/s]Loading weights:  32%|███▏      | 224/707 [00:02<00:05, 85.27it/s]Loading weights:  33%|███▎      | 235/707 [00:03<00:05, 85.18it/s]Loading weights:  35%|███▍      | 246/707 [00:03<00:05, 85.06it/s]Loading weights:  36%|███▋      | 257/707 [00:03<00:05, 78.63it/s]Loading weights:  38%|███▊      | 269/707 [00:03<00:05, 82.60it/s]Loading weights:  40%|███▉      | 280/707 [00:03<00:05, 83.62it/s]Loading weights:  41%|████      | 291/707 [00:03<00:04, 84.21it/s]Loading weights:  43%|████▎     | 302/707 [00:03<00:04, 84.48it/s]Loading weights:  44%|████▍     | 313/707 [00:04<00:04, 85.02it/s]Loading weights:  46%|████▌     | 324/707 [00:04<00:04, 84.94it/s]Loading weights:  47%|████▋     | 334/707 [00:04<00:04, 82.90it/s]Loading weights:  49%|████▉     | 346/707 [00:04<00:04, 85.86it/s]Loading weights:  50%|█████     | 357/707 [00:04<00:04, 85.61it/s]Loading weights:  52%|█████▏    | 368/707 [00:04<00:03, 85.52it/s]Loading weights:  54%|█████▎    | 379/707 [00:04<00:03, 85.59it/s]Loading weights:  55%|█████▌    | 390/707 [00:04<00:03, 85.42it/s]Loading weights:  57%|█████▋    | 401/707 [00:05<00:03, 85.15it/s]Loading weights:  58%|█████▊    | 412/707 [00:05<00:03, 84.95it/s]Loading weights:  60%|█████▉    | 423/707 [00:05<00:03, 85.05it/s]Loading weights:  61%|██████    | 433/707 [00:05<00:03, 82.89it/s]Loading weights:  63%|██████▎   | 445/707 [00:05<00:03, 85.77it/s]Loading weights:  64%|██████▍   | 456/707 [00:05<00:02, 85.62it/s]Loading weights:  66%|██████▌   | 467/707 [00:05<00:02, 85.55it/s]Loading weights:  68%|██████▊   | 478/707 [00:05<00:02, 85.50it/s]Loading weights:  69%|██████▉   | 489/707 [00:06<00:02, 85.32it/s]Loading weights:  71%|███████   | 500/707 [00:06<00:02, 85.22it/s]Loading weights:  72%|███████▏  | 511/707 [00:06<00:02, 85.49it/s]Loading weights:  74%|███████▍  | 522/707 [00:06<00:02, 85.47it/s]Loading weights:  75%|███████▌  | 533/707 [00:06<00:02, 85.20it/s]Loading weights:  77%|███████▋  | 544/707 [00:06<00:01, 84.97it/s]Loading weights:  79%|███████▊  | 555/707 [00:06<00:01, 84.96it/s]Loading weights:  80%|████████  | 566/707 [00:06<00:01, 84.93it/s]Loading weights:  82%|████████▏ | 577/707 [00:07<00:01, 85.10it/s]Loading weights:  83%|████████▎ | 588/707 [00:07<00:01, 85.31it/s]Loading weights:  85%|████████▍ | 599/707 [00:07<00:01, 85.40it/s]Loading weights:  86%|████████▋ | 610/707 [00:07<00:01, 85.07it/s]Loading weights:  88%|████████▊ | 621/707 [00:07<00:01, 84.95it/s]Loading weights:  89%|████████▉ | 632/707 [00:07<00:00, 84.98it/s]Loading weights:  91%|█████████ | 643/707 [00:07<00:00, 85.00it/s]Loading weights:  93%|█████████▎| 654/707 [00:08<00:00, 84.97it/s]Loading weights:  94%|█████████▍| 665/707 [00:08<00:00, 85.12it/s]Loading weights:  96%|█████████▌| 676/707 [00:08<00:00, 85.24it/s]Loading weights:  97%|█████████▋| 687/707 [00:08<00:00, 85.26it/s]Loading weights:  99%|█████████▊| 698/707 [00:08<00:00, 84.81it/s]Loading weights: 100%|██████████| 707/707 [00:08<00:00, 82.19it/s]
+  no label file (); running label-free, no glitch reference class
+Qwen/Qwen3-32B: 4200 random/entity tokens (0 added from None) + 0 verified glitch = 4200
+  filler pool: 1939 clean common words
+  context bank: 24 contexts, lengths [8, 16, 32, 64] x 6, random interior slot
+  standard single probe: 353/4200 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/24  K=8  slot=2  mean lp -0.468  fail rate 0.099
+    context 9/24  K=16  slot=7  mean lp -0.372  fail rate 0.067
+    context 17/24  K=32  slot=16  mean lp -0.371  fail rate 0.064
+/home/ubuntu/glitch/src/cut/fragility.py:254: RuntimeWarning: Mean of empty slice.
+  "frag_summary": {nm: {"mean": float(frag[m].mean()),
+/home/ubuntu/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/glitch/src/cut/fragility.py:255: RuntimeWarning: Mean of empty slice.
+  "ge10": float((frag[m] >= 0.1).mean()),
+/home/ubuntu/glitch/src/cut/fragility.py:256: RuntimeWarning: Mean of empty slice.
+  "ge25": float((frag[m] >= 0.25).mean())}
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 0.956   context 0.001   interaction 0.043
+        all tokens, fail indicator:  token 0.735   context 0.004   interaction 0.262
+     clean-looking tokens, logprob:  token 0.141   context 0.022   interaction 0.838
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 24 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=4200): mean frag 0.077   frag>=0.10: 0.119   frag>=0.25: 0.093   frag==0: 0.792
+   verified glitch (reference): (none)
+   clean-looking random tokens (n= 353): mean frag 0.001   frag>=0.10: 0.000   frag>=0.25: 0.000   frag==0: 0.986
+
+  context hostility (fraction of tokens failing): min 0.055  median 0.074  max 0.137
+  clean-looking fail rate by context length: K=8: 0.002  K=16: 0.000  K=32: 0.000  K=64: 0.000
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+                   '祚'  single -0.073  frag 0.04  mean lp -0.065   worst: lp -0.96 in ...' random chat incre [祚]  across edge levels'
+          ' formation'  single -0.050  frag 0.04  mean lp -0.048   worst: lp -1.14 in ...' random chat incre [ formation]  across edge levels'
+                '当たり前'  single -0.066  frag 0.04  mean lp -0.055   worst: lp -0.86 in ...' random chat incre [当たり前]  across edge levels'
+    ' //----------------'  single -0.097  frag 0.04  mean lp -0.092   worst: lp -0.66 in ...' house [ //----------------]  tried win far'
+                   '⬛'  single -0.059  frag 0.04  mean lp -0.040   worst: lp -0.60 in ...' lib didn [⬛]  bed another column'
+                 ' do'  single -0.064  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' house [ do]  tried win far'
+                 ' en'  single -0.073  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' even [ en]  necessary es imp'
+                  ' W'  single -0.051  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' random chat incre [ W]  across edge levels'
+                  ' D'  single -0.065  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' even [ D]  necessary es imp'
+                 ' ^='  single -0.065  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' house [ ^=]  tried win far'
+              ' Initi'  single -0.028  frag 0.00  mean lp -0.005   worst: lp -0.02 in ...' val sales std [ Initi]  throws uses js'
+    ' MessageBoxButtons'  single -0.055  frag 0.00  mean lp -0.001   worst: lp -0.01 in ...' even [ MessageBoxButtons]  necessary es imp'
+
+saved -> results/fragility_qwen3_32b.json, results/fragility_qwen3_32b.pt

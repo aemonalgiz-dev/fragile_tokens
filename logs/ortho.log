@@ -1,0 +1,43 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 45/355 [00:00<00:00, 436.14it/s]Loading weights:  26%|██▌       | 91/355 [00:00<00:00, 432.76it/s]Loading weights:  38%|███▊      | 135/355 [00:00<00:00, 413.87it/s]Loading weights:  50%|████▉     | 177/355 [00:00<00:00, 414.86it/s]Loading weights:  63%|██████▎   | 223/355 [00:00<00:00, 423.88it/s]Loading weights:  75%|███████▌  | 267/355 [00:00<00:00, 419.66it/s]Loading weights:  87%|████████▋ | 309/355 [00:00<00:00, 417.81it/s]Loading weights:  99%|█████████▉| 351/355 [00:00<00:00, 418.06it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 424.17it/s]
+lexicon from the model's own vocabulary: 31004 words
+copy probe on 4000 tokens...
+failures: 846/4000 (0.211)
+
+==========================================================================
+H1  DOES 'COMPLETABLE FRAGMENT' PREDICT REPRODUCTION FAILURE?
+==========================================================================
+                   feature |     AUC | fail|feat=1 | fail|feat=0
+----------------------------------------------------------------
+                   is_word |   0.147 |       0.013 |       0.502
+                     alpha |   0.219 |       0.085 |       0.572
+                       len |   0.531 |           - |           -
+                 suffix_of |   0.431 |       0.128 |       0.243
+                 prefix_of |   0.322 |       0.015 |       0.297
+             n_completions |   0.328 |           - |           -
+      completable_fragment |   0.545 |       0.389 |       0.195
+
+==========================================================================
+H2  IS THE SUBSTITUTE THE COMPLETION?
+==========================================================================
+scored failures: 695
+  output CONTAINS the token (padded fragment): 0.201
+  output is an exact lexicon completion       : 0.112
+  output is a real word at all                : 0.488
+
+           token |                    emitted | shortest completions
+--------------------------------------------------------------------------
+             '�' |                       ' ȳ' | []
+         'ction' |                    ' tion' | ['action', 'faction', 'qaction']
+            '*/' |                      ' /*' | []
+         'ience' |                 ' science' | ['science', 'patience', 'audience']
+          '.Add' |                       ' .' | []
+       'osition' |                ' position' | ['position', 'exposition', 'imposition']
+           '++)' |                      ' ))' | []
+        'ension' |                 ' tension' | ['tension', 'pension', 'dimension']
+       'plement' |              ' supplement' | ['implement', 'supplement', 'simplement']
+         'erver' |                    ' ever' | ['server', 'observer', 'addobserver']
+      'structor' |              ' instructor' | ['destructor', 'instructor', 'constructor']
+         "'),\n" | " ('apple pie is good', '" | []
+
+saved -> results/orthographic.json

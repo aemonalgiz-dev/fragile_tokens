@@ -1,0 +1,383 @@
+{
+ "ABANDONED (verified glitch, bare fragments)": [
+  {
+   "id": 3274,
+   "tok": "ecause",
+   "entropy": 4.617205619812012,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " because\nText:quick brown"
+  },
+  {
+   "id": 3421,
+   "tok": "ccording",
+   "entropy": 1.1484086513519287,
+   "zero2": "yes",
+   "zero64": "no",
+   "gen": " according\nText:to\n"
+  },
+  {
+   "id": 4844,
+   "tok": "atever",
+   "entropy": 5.87004280090332,
+   "zero2": "yes",
+   "zero64": "no",
+   "gen": " whatever\nText:whatever\n"
+  },
+  {
+   "id": 6241,
+   "tok": "ilarly",
+   "entropy": 5.280561923980713,
+   "zero2": "yes",
+   "zero64": "no",
+   "gen": " similarly\nText:quick brown"
+  },
+  {
+   "id": 6599,
+   "tok": "icrosoft",
+   "entropy": 6.323483467102051,
+   "zero2": "yes",
+   "zero64": "no",
+   "gen": " Microsoft\nText:microsoft\n"
+  },
+  {
+   "id": 6761,
+   "tok": "ortunately",
+   "entropy": 4.230229377746582,
+   "zero2": "yes",
+   "zero64": "no",
+   "gen": " fortunately\nText: the"
+  },
+  {
+   "id": 15138,
+   "tok": "bably",
+   "entropy": 6.189520359039307,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " probably\nText: quick brown"
+  },
+  {
+   "id": 19865,
+   "tok": "pendicular",
+   "entropy": 5.473874092102051,
+   "zero2": "yes",
+   "zero64": "no",
+   "gen": " perpendicular\nText: parallel\n"
+  },
+  {
+   "id": 20386,
+   "tok": "CHANTABILITY",
+   "entropy": 4.477466583251953,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " quick brown fox\nText:"
+  },
+  {
+   "id": 22120,
+   "tok": "emetery",
+   "entropy": 5.183770179748535,
+   "zero2": "yes",
+   "zero64": "no",
+   "gen": " cemetery\nText:dogs"
+  }
+ ],
+ "STILLBORN (unreachable multi-token)": [
+  {
+   "id": 477,
+   "tok": "\n   ",
+   "entropy": 6.152216911315918,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " beef\nText: beef\n"
+  },
+  {
+   "id": 542,
+   "tok": "                                ",
+   "entropy": 6.228062629699707,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " \nText: \n"
+  },
+  {
+   "id": 576,
+   "tok": "\n        ",
+   "entropy": 6.618805885314941,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " quick brown fox\nText:"
+  },
+  {
+   "id": 648,
+   "tok": "\n       ",
+   "entropy": 5.701133728027344,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " \nText: \n"
+  },
+  {
+   "id": 935,
+   "tok": "\n           ",
+   "entropy": 6.139199256896973,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " \nText: \n"
+  },
+  {
+   "id": 1015,
+   "tok": "\n               ",
+   "entropy": 5.950000762939453,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " fox\nText: brown\n"
+  },
+  {
+   "id": 1043,
+   "tok": "\n     ",
+   "entropy": 6.3865647315979,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " \nText: \n"
+  },
+  {
+   "id": 1085,
+   "tok": "                                                                ",
+   "entropy": 6.4030938148498535,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " fox\nText: fox\n"
+  },
+  {
+   "id": 1188,
+   "tok": "\n                ",
+   "entropy": 5.971546173095703,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " \nText: \n"
+  },
+  {
+   "id": 1496,
+   "tok": "\n\n   ",
+   "entropy": 6.137632369995117,
+   "zero2": "yes",
+   "zero64": "yes",
+   "gen": " fox\nText: fox\n"
+  }
+ ],
+ "HEALTHY (random OK)": [
+  {
+   "id": 42799,
+   "tok": " originates",
+   "entropy": 2.6992249488830566,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " originates\nText: from\n"
+  },
+  {
+   "id": 40945,
+   "tok": "Gender",
+   "entropy": 5.952070236206055,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " gender\nText:Gender\n"
+  },
+  {
+   "id": 32100,
+   "tok": "Chief",
+   "entropy": 5.5777177810668945,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " Chief\nText:Chief\n"
+  },
+  {
+   "id": 25788,
+   "tok": "IDENT",
+   "entropy": 1.9609559774398804,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " IDENT\nText:IDENT"
+  },
+  {
+   "id": 13666,
+   "tok": " Typ",
+   "entropy": 3.7083754539489746,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " Typ\nText: Typ\n"
+  },
+  {
+   "id": 2180,
+   "tok": " period",
+   "entropy": 3.969979763031006,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " period\nText: quick brown"
+  },
+  {
+   "id": 951,
+   "tok": "cy",
+   "entropy": 4.305508613586426,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " quick brown fox\nText:"
+  },
+  {
+   "id": 15582,
+   "tok": " inhibit",
+   "entropy": 5.978810787200928,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " inhibit\nText: inhibit\n"
+  },
+  {
+   "id": 8916,
+   "tok": " Power",
+   "entropy": 5.385581016540527,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": " Power\nText: apple\n"
+  },
+  {
+   "id": 3899,
+   "tok": "met",
+   "entropy": 5.5524444580078125,
+   "zero2": "no",
+   "zero64": "no",
+   "gen": "met\nText:met\n"
+  }
+ ],
+ "trajectory": {
+  "picks": {
+   "abandoned": "ecause",
+   "stillborn": "\n   ",
+   "healthy": " originates"
+  },
+  "rows": {
+   "abandoned": [
+    {
+     "step": 2,
+     "total": 5.59141142275621e-07,
+     "resid": 5.55972064830712e-07
+    },
+    {
+     "step": 8,
+     "total": 9.545601642457768e-05,
+     "resid": 7.318414282053709e-05
+    },
+    {
+     "step": 32,
+     "total": 0.0019628675654530525,
+     "resid": 0.0001928759302245453
+    },
+    {
+     "step": 64,
+     "total": 0.007720635738223791,
+     "resid": 0.0009573723655194044
+    },
+    {
+     "step": 256,
+     "total": 0.08950641006231308,
+     "resid": 0.023207826539874077
+    },
+    {
+     "step": 1000,
+     "total": 0.33378636837005615,
+     "resid": 0.32260552048683167
+    },
+    {
+     "step": 16000,
+     "total": 0.5177980065345764,
+     "resid": 0.5093200206756592
+    },
+    {
+     "step": 143000,
+     "total": 0.22805657982826233,
+     "resid": 0.18097800016403198
+    }
+   ],
+   "stillborn": [
+    {
+     "step": 2,
+     "total": 7.152557373046875e-07,
+     "resid": 7.089941505000752e-07
+    },
+    {
+     "step": 8,
+     "total": 9.775505168363452e-05,
+     "resid": 7.391406688839197e-05
+    },
+    {
+     "step": 32,
+     "total": 0.0019515568856149912,
+     "resid": 0.0002093008952215314
+    },
+    {
+     "step": 64,
+     "total": 0.007960369810461998,
+     "resid": 0.0007542719249613583
+    },
+    {
+     "step": 256,
+     "total": 0.09344501793384552,
+     "resid": 0.0192604698240757
+    },
+    {
+     "step": 1000,
+     "total": 0.1820477843284607,
+     "resid": 0.16374050080776215
+    },
+    {
+     "step": 16000,
+     "total": 0.10651058703660965,
+     "resid": 0.10396089404821396
+    },
+    {
+     "step": 143000,
+     "total": 0.09849363565444946,
+     "resid": 0.05968507379293442
+    }
+   ],
+   "healthy": [
+    {
+     "step": 2,
+     "total": 5.960464477539062e-07,
+     "resid": 5.92276762745314e-07
+    },
+    {
+     "step": 8,
+     "total": 9.426562610315159e-05,
+     "resid": 7.280621503014117e-05
+    },
+    {
+     "step": 32,
+     "total": 0.00190092867705971,
+     "resid": 0.0002056950470432639
+    },
+    {
+     "step": 64,
+     "total": 0.007535891607403755,
+     "resid": 0.0007427844684571028
+    },
+    {
+     "step": 256,
+     "total": 0.0647650882601738,
+     "resid": 0.04155829921364784
+    },
+    {
+     "step": 1000,
+     "total": 0.2552163600921631,
+     "resid": 0.2409064620733261
+    },
+    {
+     "step": 16000,
+     "total": 0.46674633026123047,
+     "resid": 0.45576295256614685
+    },
+    {
+     "step": 143000,
+     "total": 0.18664228916168213,
+     "resid": 0.15355266630649567
+    }
+   ]
+  }
+ }
+}

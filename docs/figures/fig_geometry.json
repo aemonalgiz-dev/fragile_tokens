@@ -1,0 +1,66 @@
+{
+ "qwen3_1_7b": {
+  "n_gated": 1666,
+  "n_fragile": 40,
+  "auc_glitch_direction": 0.6005381303813039,
+  "auc_glitch_proximity": 0.52380073800738,
+  "auc_token_id": 0.7317958179581796,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ },
+ "qwen25_7b": {
+  "n_gated": 4217,
+  "n_fragile": 294,
+  "auc_glitch_direction": 0.7675040446971549,
+  "auc_glitch_proximity": 0.8032465089018018,
+  "auc_token_id": 0.7993951595422771,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ },
+ "L": {
+  "n_gated": 2183,
+  "n_fragile": 58,
+  "auc_glitch_direction": 0.878815415821501,
+  "auc_glitch_proximity": 0.5284462474645031,
+  "auc_token_id": 0.6645922920892495,
+  "reference": "verified glitch"
+ },
+ "qwen38_27b": {
+  "n_gated": 3766,
+  "n_fragile": 57,
+  "auc_glitch_direction": 0.7815460733256706,
+  "auc_glitch_proximity": 0.7187022557742428,
+  "auc_token_id": 0.7178319214050224,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ },
+ "qwen3_32b": {
+  "n_gated": 1597,
+  "n_fragile": 15,
+  "auc_glitch_direction": 0.897850821744627,
+  "auc_glitch_proximity": 0.808259587020649,
+  "auc_token_id": 0.8553729456384324,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ },
+ "qwen25_72b": {
+  "n_gated": 3998,
+  "n_fragile": 417,
+  "auc_glitch_direction": 0.5986772715310019,
+  "auc_glitch_proximity": 0.798335472922974,
+  "auc_token_id": 0.8623858801816409,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ },
+ "qwen38_flash": {
+  "n_gated": 4047,
+  "n_fragile": 15,
+  "auc_glitch_direction": 0.8387070105820105,
+  "auc_glitch_proximity": 0.832556216931217,
+  "auc_token_id": 0.6910218253968254,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ },
+ "qwen3_235b": {
+  "n_gated": 6277,
+  "n_fragile": 682,
+  "auc_glitch_direction": 0.7395045324821334,
+  "auc_glitch_proximity": 0.7526027375720361,
+  "auc_token_id": 0.8710387626153431,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ }
+}

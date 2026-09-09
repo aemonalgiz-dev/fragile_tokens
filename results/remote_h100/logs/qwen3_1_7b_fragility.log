@@ -1,0 +1,52 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:06<00:06,  6.91s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.47s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.69s/it]
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<00:47,  6.48it/s]Loading weights:  27%|██▋       | 83/311 [00:00<00:00, 390.70it/s]Loading weights:  54%|█████▍    | 169/311 [00:00<00:00, 574.13it/s]Loading weights:  80%|███████▉  | 248/311 [00:00<00:00, 645.71it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 576.07it/s]
+  no label file (); running label-free, no glitch reference class
+Qwen/Qwen3-1.7B: 4200 random/entity tokens (0 added from None) + 0 verified glitch = 4200
+  filler pool: 1946 clean common words
+  context bank: 24 contexts, lengths [8, 16, 32, 64] x 6, random interior slot
+  standard single probe: 1418/4200 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/24  K=8  slot=2  mean lp -0.465  fail rate 0.044
+    context 9/24  K=16  slot=7  mean lp -0.324  fail rate 0.044
+    context 17/24  K=32  slot=14  mean lp -0.425  fail rate 0.043
+/home/ubuntu/glitch/src/cut/fragility.py:254: RuntimeWarning: Mean of empty slice.
+  "frag_summary": {nm: {"mean": float(frag[m].mean()),
+/home/ubuntu/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/glitch/src/cut/fragility.py:255: RuntimeWarning: Mean of empty slice.
+  "ge10": float((frag[m] >= 0.1).mean()),
+/home/ubuntu/glitch/src/cut/fragility.py:256: RuntimeWarning: Mean of empty slice.
+  "ge25": float((frag[m] >= 0.25).mean())}
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 0.913   context 0.002   interaction 0.086
+        all tokens, fail indicator:  token 0.764   context 0.004   interaction 0.232
+     clean-looking tokens, logprob:  token 0.351   context 0.002   interaction 0.647
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 24 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=4200): mean frag 0.050   frag>=0.10: 0.073   frag>=0.25: 0.054   frag==0: 0.849
+   verified glitch (reference): (none)
+   clean-looking random tokens (n=1418): mean frag 0.005   frag>=0.10: 0.013   frag>=0.25: 0.005   frag==0: 0.952
+
+  context hostility (fraction of tokens failing): min 0.039  median 0.046  max 0.110
+  clean-looking fail rate by context length: K=8: 0.008  K=16: 0.004  K=32: 0.003  K=64: 0.007
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+                 ' 방법'  single -0.045  frag 0.75  mean lp -1.242   worst: lp -3.53 in ...' material events customer [ 방법]  air email serial'
+                  ' �'  single -0.055  frag 0.67  mean lp -3.567   worst: lp -12.75 in ...' col our server [ �]  into fine son'
+                 ' או'  single -0.073  frag 0.58  mean lp -0.974   worst: lp -2.76 in ...' msg [ או]  loaded win far'
+            ' Marshal'  single -0.074  frag 0.46  mean lp -2.114   worst: lp -6.13 in ...' queue check patients [ Marshal]  extrem education friend'
+                ' לכל'  single -0.025  frag 0.33  mean lp -0.410   worst: lp -1.68 in ...' arr exper bul [ לכל]  among write evid'
+                   'ो'  single -0.040  frag 0.33  mean lp -0.671   worst: lp -5.31 in ...' accept repe incre [ो]  fire prem qual'
+               ' Dịch'  single -0.001  frag 0.33  mean lp -0.752   worst: lp -3.03 in ...' mat abs cool [ Dịch]  wom tem foreign'
+                  ' �'  single -0.000  frag 0.21  mean lp -0.263   worst: lp -2.24 in ...' col our server [ �]  into fine son'
+                ' אית'  single -0.022  frag 0.21  mean lp -0.317   worst: lp -2.87 in ...' accept repe incre [ אית]  fire prem qual'
+                  ' ש'  single -0.013  frag 0.21  mean lp -0.352   worst: lp -2.10 in ...' arr exper bul [ ש]  among write evid'
+    ' PropertyChanged'  single -0.026  frag 0.17  mean lp -0.261   worst: lp -2.13 in ...' different contin selection [ PropertyChanged]  how sem link'
+           ' naprawdę'  single -0.050  frag 0.12  mean lp -0.207   worst: lp -1.30 in ...' child vs [ naprawdę]  long my opp'
+
+saved -> results/fragility_qwen3_1_7b.json, results/fragility_qwen3_1_7b.pt

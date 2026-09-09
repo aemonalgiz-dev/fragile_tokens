@@ -1,0 +1,70 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<02:51,  4.12it/s]Loading weights:   0%|          | 2/707 [00:00<04:05,  2.87it/s]Loading weights:   1%|▏         | 10/707 [00:00<00:39, 17.80it/s]Loading weights:   2%|▏         | 15/707 [00:00<00:35, 19.37it/s]Loading weights:   4%|▎         | 26/707 [00:01<00:18, 36.58it/s]Loading weights:   5%|▍         | 32/707 [00:01<00:18, 35.71it/s]Loading weights:   5%|▌         | 38/707 [00:01<00:18, 35.66it/s]Loading weights:   6%|▌         | 43/707 [00:01<00:17, 38.24it/s]Loading weights:   7%|▋         | 49/707 [00:01<00:17, 37.15it/s]Loading weights:   8%|▊         | 56/707 [00:01<00:15, 42.08it/s]Loading weights:   9%|▊         | 61/707 [00:02<00:18, 35.49it/s]Loading weights:  10%|▉         | 70/707 [00:02<00:13, 46.02it/s]Loading weights:  11%|█         | 76/707 [00:02<00:14, 42.95it/s]Loading weights:  12%|█▏        | 82/707 [00:02<00:17, 34.95it/s]Loading weights:  13%|█▎        | 91/707 [00:02<00:15, 41.01it/s]Loading weights:  14%|█▍        | 98/707 [00:02<00:13, 46.37it/s]Loading weights:  15%|█▍        | 104/707 [00:03<00:14, 42.02it/s]Loading weights:  15%|█▌        | 109/707 [00:03<00:13, 43.22it/s]Loading weights:  16%|█▌        | 114/707 [00:03<00:13, 44.22it/s]Loading weights:  17%|█▋        | 119/707 [00:03<00:14, 39.20it/s]Loading weights:  18%|█▊        | 125/707 [00:03<00:17, 33.99it/s]Loading weights:  19%|█▉        | 135/707 [00:03<00:12, 44.30it/s]Loading weights:  20%|█▉        | 140/707 [00:03<00:13, 40.90it/s]Loading weights:  21%|██        | 146/707 [00:04<00:13, 42.02it/s]Loading weights:  21%|██▏       | 151/707 [00:04<00:14, 38.96it/s]Loading weights:  22%|██▏       | 157/707 [00:04<00:13, 41.09it/s]Loading weights:  23%|██▎       | 162/707 [00:04<00:14, 38.34it/s]Loading weights:  24%|██▍       | 169/707 [00:04<00:12, 43.29it/s]Loading weights:  25%|██▍       | 174/707 [00:04<00:13, 38.55it/s]Loading weights:  25%|██▌       | 179/707 [00:04<00:13, 38.02it/s]Loading weights:  26%|██▌       | 185/707 [00:05<00:12, 42.70it/s]Loading weights:  27%|██▋       | 191/707 [00:05<00:11, 46.75it/s]Loading weights:  28%|██▊       | 196/707 [00:05<00:13, 37.76it/s]Loading weights:  29%|██▊       | 203/707 [00:05<00:12, 41.60it/s]Loading weights:  29%|██▉       | 208/707 [00:05<00:11, 42.99it/s]Loading weights:  30%|███       | 213/707 [00:05<00:11, 44.26it/s]Loading weights:  31%|███       | 218/707 [00:05<00:12, 40.05it/s]Loading weights:  32%|███▏      | 223/707 [00:05<00:12, 39.57it/s]Loading weights:  32%|███▏      | 228/707 [00:06<00:12, 37.40it/s]Loading weights:  33%|███▎      | 235/707 [00:06<00:11, 42.43it/s]Loading weights:  34%|███▍      | 240/707 [00:06<00:11, 39.17it/s]Loading weights:  35%|███▍      | 246/707 [00:06<00:11, 41.07it/s]Loading weights:  36%|███▌      | 251/707 [00:06<00:11, 38.18it/s]Loading weights:  36%|███▋      | 257/707 [00:06<00:11, 40.79it/s]Loading weights:  37%|███▋      | 262/707 [00:06<00:11, 37.98it/s]Loading weights:  38%|███▊      | 267/707 [00:07<00:11, 38.08it/s]Loading weights:  38%|███▊      | 271/707 [00:07<00:12, 34.80it/s]Loading weights:  39%|███▉      | 279/707 [00:07<00:10, 42.32it/s]Loading weights:  40%|████      | 284/707 [00:07<00:10, 38.84it/s]Loading weights:  41%|████      | 290/707 [00:07<00:10, 40.93it/s]Loading weights:  42%|████▏     | 295/707 [00:07<00:10, 38.08it/s]Loading weights:  43%|████▎     | 301/707 [00:07<00:10, 40.31it/s]Loading weights:  43%|████▎     | 306/707 [00:08<00:10, 37.86it/s]Loading weights:  44%|████▍     | 311/707 [00:08<00:10, 38.32it/s]Loading weights:  45%|████▍     | 315/707 [00:08<00:11, 34.48it/s]Loading weights:  46%|████▌     | 323/707 [00:08<00:10, 36.61it/s]Loading weights:  47%|████▋     | 329/707 [00:08<00:09, 41.33it/s]Loading weights:  47%|████▋     | 334/707 [00:08<00:08, 42.59it/s]Loading weights:  48%|████▊     | 339/707 [00:08<00:09, 39.11it/s]Loading weights:  49%|████▉     | 345/707 [00:09<00:08, 42.16it/s]Loading weights:  50%|████▉     | 350/707 [00:09<00:09, 38.72it/s]Loading weights:  50%|█████     | 356/707 [00:09<00:08, 41.51it/s]Loading weights:  51%|█████     | 361/707 [00:09<00:08, 38.45it/s]Loading weights:  52%|█████▏    | 367/707 [00:09<00:08, 40.75it/s]Loading weights:  53%|█████▎    | 372/707 [00:09<00:08, 37.96it/s]Loading weights:  53%|█████▎    | 378/707 [00:09<00:07, 41.20it/s]Loading weights:  54%|█████▍    | 383/707 [00:10<00:08, 37.99it/s]Loading weights:  55%|█████▍    | 388/707 [00:10<00:08, 37.89it/s]Loading weights:  56%|█████▌    | 396/707 [00:10<00:06, 46.05it/s]Loading weights:  57%|█████▋    | 401/707 [00:10<00:07, 39.01it/s]Loading weights:  58%|█████▊    | 411/707 [00:10<00:05, 49.34it/s]Loading weights:  59%|█████▉    | 417/707 [00:10<00:06, 43.30it/s]Loading weights:  60%|█████▉    | 422/707 [00:10<00:06, 44.65it/s]Loading weights:  60%|██████    | 427/707 [00:11<00:06, 40.40it/s]Loading weights:  61%|██████    | 433/707 [00:11<00:06, 42.78it/s]Loading weights:  62%|██████▏   | 438/707 [00:11<00:06, 39.71it/s]Loading weights:  63%|██████▎   | 444/707 [00:11<00:06, 41.65it/s]Loading weights:  64%|██████▎   | 449/707 [00:11<00:06, 38.38it/s]Loading weights:  64%|██████▍   | 455/707 [00:11<00:07, 34.72it/s]Loading weights:  65%|██████▌   | 461/707 [00:11<00:06, 39.54it/s]Loading weights:  66%|██████▌   | 466/707 [00:12<00:05, 41.59it/s]Loading weights:  67%|██████▋   | 471/707 [00:12<00:06, 37.48it/s]Loading weights:  68%|██████▊   | 478/707 [00:12<00:05, 40.43it/s]Loading weights:  68%|██████▊   | 483/707 [00:12<00:07, 30.97it/s]Loading weights:  70%|███████   | 498/707 [00:12<00:04, 50.51it/s]Loading weights:  71%|███████▏  | 504/707 [00:12<00:04, 47.08it/s]Loading weights:  72%|███████▏  | 510/707 [00:13<00:04, 48.84it/s]Loading weights:  73%|███████▎  | 516/707 [00:13<00:04, 44.59it/s]Loading weights:  74%|███████▎  | 521/707 [00:13<00:04, 45.14it/s]Loading weights:  74%|███████▍  | 526/707 [00:13<00:04, 39.29it/s]Loading weights:  75%|███████▌  | 532/707 [00:13<00:04, 39.70it/s]Loading weights:  76%|███████▌  | 538/707 [00:13<00:03, 44.02it/s]Loading weights:  77%|███████▋  | 543/707 [00:13<00:03, 45.23it/s]Loading weights:  78%|███████▊  | 548/707 [00:13<00:04, 37.27it/s]Loading weights:  79%|███████▊  | 555/707 [00:14<00:03, 41.67it/s]Loading weights:  80%|███████▉  | 563/707 [00:14<00:02, 50.50it/s]Loading weights:  80%|████████  | 569/707 [00:14<00:03, 38.45it/s]Loading weights:  82%|████████▏ | 577/707 [00:14<00:02, 43.67it/s]Loading weights:  83%|████████▎ | 584/707 [00:14<00:02, 48.80it/s]Loading weights:  83%|████████▎ | 590/707 [00:14<00:02, 40.84it/s]Loading weights:  85%|████████▍ | 598/707 [00:15<00:02, 43.18it/s]Loading weights:  85%|████████▌ | 604/707 [00:15<00:02, 43.88it/s]Loading weights:  86%|████████▌ | 609/707 [00:15<00:02, 40.63it/s]Loading weights:  87%|████████▋ | 615/707 [00:15<00:02, 41.80it/s]Loading weights:  88%|████████▊ | 620/707 [00:15<00:02, 38.77it/s]Loading weights:  89%|████████▊ | 626/707 [00:15<00:01, 42.85it/s]Loading weights:  89%|████████▉ | 631/707 [00:15<00:01, 44.30it/s]Loading weights:  90%|████████▉ | 636/707 [00:16<00:01, 39.89it/s]Loading weights:  91%|█████████ | 642/707 [00:16<00:02, 32.21it/s]Loading weights:  92%|█████████▏| 653/707 [00:16<00:01, 45.06it/s]Loading weights:  93%|█████████▎| 659/707 [00:16<00:01, 41.75it/s]Loading weights:  94%|█████████▍| 664/707 [00:16<00:01, 38.88it/s]Loading weights:  95%|█████████▍| 670/707 [00:16<00:00, 43.08it/s]Loading weights:  95%|█████████▌| 675/707 [00:16<00:00, 43.83it/s]Loading weights:  96%|█████████▌| 680/707 [00:17<00:00, 39.77it/s]Loading weights:  97%|█████████▋| 686/707 [00:17<00:00, 42.04it/s]Loading weights:  98%|█████████▊| 691/707 [00:17<00:00, 38.57it/s]Loading weights:  99%|█████████▊| 697/707 [00:17<00:00, 40.68it/s]Loading weights:  99%|█████████▉| 702/707 [00:17<00:00, 36.92it/s]Loading weights: 100%|██████████| 707/707 [00:17<00:00, 39.81it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+label-free sets from results/fragility_qwen3_32b_r2.pt: worst-32 by single probe (lp -20.98..-18.36) vs 32 clean
+Qwen/Qwen3-32B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["'ớ'", "'เปอร์'", "'อังกฤษ'", "'ใช่'", "'แม้'", "'ล่า'"]
+  healthy: ["' 만들'", "' Abbey'", "' Lucas'", "' Australia'", "' Al'", "' libertine'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.636      3.249  -2.613 |   0.0517   0.0305
+     2 |      3.682      3.348   0.334 |   0.1350   0.0120
+     4 |      2.540      2.199   0.342 |   0.1902   0.0011
+     8 |      1.870      2.054  -0.184 |   0.0110   0.0016
+
+  distinct scripts in output : glitch 1.00  healthy 1.06
+  token-repetition rate      : glitch 0.039  healthy 0.039
+  reproduced the seed token  : glitch 0.000  healthy 0.031   (exact id)
+  seed string in output      : glitch 0.000  healthy 0.031   (any segmentation)
+
+  --- sample generations (completion) ---
+  [GLITCH] 'ớ' -> '\\n\\nThe word "the" is an'
+  [GLITCH] 'เปอร์' -> '\\n\\nThe word "the" is an'
+  [GLITCH] 'อังกฤษ' -> '\\n\\nThe word "algorithm" is derived'
+  [HEALTHY] ' 만들' -> '\\ub2e4 is a Korean verb meaning "to'
+  [HEALTHY] ' Abbey' -> ' is used in the name of many businesses'
+
+==========================================================================
+REGIME: reasoning   (512 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      2.791      1.928   0.863 |   0.3811   0.0170
+     2 |      2.333      1.802   0.531 |   0.4124   0.0681
+     4 |      3.563      1.654   1.909 |   0.1259   0.0019
+     8 |      1.775      1.029   0.747 |   0.3580   0.0255
+    16 |      1.128      0.925   0.202 |   0.0124   0.0153
+    32 |      0.481      0.861  -0.381 |   0.0262   0.0061
+    64 |      0.320      0.702  -0.382 |   0.0093   0.0045
+   128 |      0.441      0.620  -0.179 |   0.0062   0.0066
+   192 |      0.101      0.403  -0.302 |   0.0034   0.0019
+   255 |      0.223      0.552  -0.329 |   0.0037   0.0008
+   383 |      0.182      0.534  -0.352 |   0.0067   0.0049
+   511 |      0.364      0.260   0.103 |   0.0046   0.0033
+
+  distinct scripts in output : glitch 1.31  healthy 1.16
+  token-repetition rate      : glitch 0.704  healthy 0.582
+  reproduced the seed token  : glitch 0.000  healthy 0.719   (exact id)
+  seed string in output      : glitch 0.000  healthy 1.000   (any segmentation)
+
+  --- sample generations (reasoning) ---
+  [GLITCH] 'ớ' -> ' I need to be cautious about what I say regarding this topic, as it is highly sensitive and political. I should avoid taking sides or making statements that cou'
+  [GLITCH] 'เปอร์' -> ' I need to determine if the statement "The sum of the first n odd numbers is n\\xb2" is true or false.\\n\\nThe first n odd numbers are: 1, 3, 5, 7, ..., (2n-1)\\n\\nLet\'s '
+  [GLITCH] 'อังกฤษ' -> ' I need to determine if the statement "The set of all real numbers is a subset of the set of all rational numbers" is true or false.\\n\\nFirst, let me recall the d'
+  [HEALTHY] ' 만들' -> ' The user just wrote "\\ub9cc\\ub4e4" which is the Korean word for "make" or "create" but it\'s cut off. They might be asking me to create something, but I need more informa'
+  [HEALTHY] ' Abbey' -> ' I need to understand what the user is asking for. The message just says "Abbey" - that\'s very brief. I should consider different possibilities:\\n\\n1. The user mi'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   -0.184
+  entropy gap, reasoning   @step8   +0.747
+  entropy gap, reasoning   @step511 +0.103
+  glitch chain alignment,  step1 -> step511   0.3811 -> 0.0046
+  healthy chain alignment, step1 -> step511   0.0170 -> 0.0033
+
+saved -> results/reasoning_qwen3_32b_r2_think.json

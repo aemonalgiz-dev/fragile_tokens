@@ -1,0 +1,11 @@
+fla installed
+#### 7d. Qwen3.8-Flash-Next-FP8 rung (v6, 56GiB/card cap + fp8 embedding rescale + indexer fast path), N_TOK=8400, chat framing, teacher-forced only  (00:27:19)
+   Flash-Next rung exit 0  (01:49:34)
+  qwen4_exp QSA indexer: exact fast path for key lengths <= budget
+  fp8 embedding model.layers.1.ple.ple_embedding.ngram_embedding: lookup rescaled by 0.0001993 to torch.bfloat16
+  filler pool: 1925 clean common words
+  standard single probe: 3483/8400 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+   specimens (no continuation) exit 0  (01:52:43)
+   greedy specimens (no continuation) exit 0  (01:55:57)
+QWEN38 FLASH DONE4 Tue Sep  8 01:55:57 UTC 2026

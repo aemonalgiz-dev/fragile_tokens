@@ -1,0 +1,33 @@
+resumed from runs/s4/branch_256.pt at step 256
+arm=mask  params=23.2M  vocab=16384  device=cuda
+  mask: 711 never-occurring tokens removed from softmax
+  step    500  loss  5.580    0.4 min
+  step   1000  loss  5.018    1.2 min
+  step   1500  loss  4.765    2.1 min
+  step   2000  loss  4.595    2.9 min
+  step   2500  loss  4.432    3.7 min
+  step   3000  loss  4.297    4.6 min
+  step   3500  loss  4.193    5.4 min
+  step   4000  loss  4.112    6.2 min
+  step   4500  loss  4.057    7.0 min
+  step   5000  loss  3.985    7.9 min
+  step   5500  loss  3.958    8.7 min
+  step   6000  loss  3.914    9.5 min
+  step   6500  loss  3.876   10.4 min
+  step   7000  loss  3.827   11.2 min
+  step   7500  loss  3.811   12.0 min
+  step   8000  loss  3.767   12.8 min
+  step   8500  loss  3.734   13.7 min
+  step   9000  loss  3.732   14.5 min
+  step   9500  loss  3.695   15.3 min
+  step  10000  loss  3.680   16.1 min
+  step  10500  loss  3.655   16.9 min
+  step  11000  loss  3.651   17.7 min
+  step  11500  loss  3.625   18.5 min
+  step  12000  loss  3.609   19.3 min
+  step  12500  loss  3.598   20.1 min
+  step  13000  loss  3.594   20.9 min
+  step  13500  loss  3.598   21.7 min
+
+arm=mask  val loss 3.6362  (22.3 min)
+saved -> runs/s4/mask

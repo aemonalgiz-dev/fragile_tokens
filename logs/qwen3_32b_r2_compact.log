@@ -1,0 +1,3 @@
+results/fragility_qwen3_32b_r2.pt (6.19 GB) -> results/compact/fragility_qwen3_32b_r2_compact.pt (1.5 MB)
+  kept: tokens, is_glitch, single, M, bank, layers, fail_thr
+  dropped: states (3097M elems)

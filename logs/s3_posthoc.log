@@ -1,0 +1,4 @@
+=== python3 -m src.rig.posthoc --src baseline --mode centroid --runs runs/s3 ===
+posthoc_centroid: repaired 2185 rows from baseline -> runs/s3/posthoc_centroid
+=== python3 -m src.rig.posthoc --src baseline --mode knn --runs runs/s3 ===
+posthoc_knn: repaired 2185 rows from baseline -> runs/s3/posthoc_knn

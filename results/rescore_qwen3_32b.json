@@ -1,0 +1,1528 @@
+{
+ "model": "Qwen/Qwen3-32B",
+ "pt": "results/fragility_qwen3_32b.pt",
+ "model_info": {
+  "model": "Qwen/Qwen3-32B",
+  "commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "num_layers": 64,
+  "hidden_size": 5120,
+  "vocab_size": 151936,
+  "tie_word_embeddings": false,
+  "architecture": "Qwen3ForCausalLM",
+  "quantized": false,
+  "tokenizer_class": "Qwen2Tokenizer"
+ },
+ "n_tokens": 165,
+ "n_contexts": 24,
+ "fail_thr": -0.5,
+ "cell_abs_diff": {
+  "median": 6.175755697768182e-05,
+  "p90": 0.04347515106201172,
+  "max": 0.5369815826416016
+ },
+ "cell_fail_agreement": 0.998989898989899,
+ "fragility_corr": 0.9998612111281777,
+ "fragility_mean_stored_vs_rescored": {
+  "fragile": [
+   0.325,
+   0.325
+  ],
+  "clean": [
+   0.0,
+   0.0
+  ],
+  "reference": [
+   1.0,
+   1.0
+  ]
+ },
+ "per_token": [
+  {
+   "id": 92029,
+   "string": " след",
+   "kind": "fragile",
+   "frag_stored": 0.8333333333333334,
+   "frag_rescored": 0.8333333333333334,
+   "mean_lp_stored": -5.032524427568812,
+   "mean_lp_rescored": -5.036372661590576
+  },
+  {
+   "id": 92120,
+   "string": "��",
+   "kind": "fragile",
+   "frag_stored": 0.7916666666666666,
+   "frag_rescored": 0.7916666666666666,
+   "mean_lp_stored": -1.8825011573111017,
+   "mean_lp_rescored": -1.9008580446243286
+  },
+  {
+   "id": 133258,
+   "string": " והת",
+   "kind": "fragile",
+   "frag_stored": 0.5416666666666666,
+   "frag_rescored": 0.5416666666666666,
+   "mean_lp_stored": -0.6357849792887768,
+   "mean_lp_rescored": -0.6508520841598511
+  },
+  {
+   "id": 147474,
+   "string": "ཀ",
+   "kind": "fragile",
+   "frag_stored": 0.4166666666666667,
+   "frag_rescored": 0.4166666666666667,
+   "mean_lp_stored": -0.6172650426936647,
+   "mean_lp_rescored": -0.6171911954879761
+  },
+  {
+   "id": 132343,
+   "string": "자는",
+   "kind": "fragile",
+   "frag_stored": 0.4166666666666667,
+   "frag_rescored": 0.375,
+   "mean_lp_stored": -0.5174429027441269,
+   "mean_lp_rescored": -0.5165213942527771
+  },
+  {
+   "id": 134523,
+   "string": " realtà",
+   "kind": "fragile",
+   "frag_stored": 0.375,
+   "frag_rescored": 0.375,
+   "mean_lp_stored": -0.6529802614822984,
+   "mean_lp_rescored": -0.6507006883621216
+  },
+  {
+   "id": 127961,
+   "string": "بدو",
+   "kind": "fragile",
+   "frag_stored": 0.3333333333333333,
+   "frag_rescored": 0.375,
+   "mean_lp_stored": -0.5155974004107217,
+   "mean_lp_rescored": -0.5022526383399963
+  },
+  {
+   "id": 141080,
+   "string": " прогн",
+   "kind": "fragile",
+   "frag_stored": 0.20833333333333334,
+   "frag_rescored": 0.20833333333333334,
+   "mean_lp_stored": -0.3550375331930506,
+   "mean_lp_rescored": -0.3556884527206421
+  },
+  {
+   "id": 121316,
+   "string": "慊",
+   "kind": "fragile",
+   "frag_stored": 0.16666666666666666,
+   "frag_rescored": 0.16666666666666666,
+   "mean_lp_stored": -0.18519704409360807,
+   "mean_lp_rescored": -0.18298101425170898
+  },
+  {
+   "id": 2127,
+   "string": "ee",
+   "kind": "fragile",
+   "frag_stored": 0.16666666666666666,
+   "frag_rescored": 0.125,
+   "mean_lp_stored": -0.31359230388148757,
+   "mean_lp_rescored": -0.2955491244792938
+  },
+  {
+   "id": 134089,
+   "string": "נע",
+   "kind": "fragile",
+   "frag_stored": 0.125,
+   "frag_rescored": 0.125,
+   "mean_lp_stored": -0.1708772010266936,
+   "mean_lp_rescored": -0.17509908974170685
+  },
+  {
+   "id": 131194,
+   "string": " اليمن",
+   "kind": "fragile",
+   "frag_stored": 0.125,
+   "frag_rescored": 0.16666666666666666,
+   "mean_lp_stored": -0.23040911105150977,
+   "mean_lp_rescored": -0.23274075984954834
+  },
+  {
+   "id": 94513,
+   "string": "stdexcept",
+   "kind": "fragile",
+   "frag_stored": 0.125,
+   "frag_rescored": 0.125,
+   "mean_lp_stored": -0.17221221186385569,
+   "mean_lp_rescored": -0.1779966801404953
+  },
+  {
+   "id": 147910,
+   "string": "𝓪",
+   "kind": "fragile",
+   "frag_stored": 0.125,
+   "frag_rescored": 0.125,
+   "mean_lp_stored": -0.24004707066342235,
+   "mean_lp_rescored": -0.24175871908664703
+  },
+  {
+   "id": 148571,
+   "string": "ঙ",
+   "kind": "fragile",
+   "frag_stored": 0.125,
+   "frag_rescored": 0.125,
+   "mean_lp_stored": -0.4149914624285884,
+   "mean_lp_rescored": -0.4147243797779083
+  },
+  {
+   "id": 27383,
+   "string": " theft",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.000500527900309559,
+   "mean_lp_rescored": -0.00048745478852652013
+  },
+  {
+   "id": 56923,
+   "string": " sacrifices",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0002472981545717327,
+   "mean_lp_rescored": -0.0002489089092705399
+  },
+  {
+   "id": 52460,
+   "string": " ure",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0004859669893069925,
+   "mean_lp_rescored": -0.0005014683702029288
+  },
+  {
+   "id": 49666,
+   "string": " Peg",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00040841329094594886,
+   "mean_lp_rescored": -0.0004192126216366887
+  },
+  {
+   "id": 40260,
+   "string": " wordt",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0009105383572508193,
+   "mean_lp_rescored": -0.0008974059601314366
+  },
+  {
+   "id": 7602,
+   "string": " internet",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00022211342343325668,
+   "mean_lp_rescored": -0.0002136331022484228
+  },
+  {
+   "id": 40371,
+   "string": "CASE",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0029533964067619913,
+   "mean_lp_rescored": -0.0029505465645343065
+  },
+  {
+   "id": 89588,
+   "string": " Formatting",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.006457289956112315,
+   "mean_lp_rescored": -0.0063983299769461155
+  },
+  {
+   "id": 63232,
+   "string": " SOAP",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0026950645545487837,
+   "mean_lp_rescored": -0.0026392017025500536
+  },
+  {
+   "id": 3110,
+   "string": " example",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00029074910662529874,
+   "mean_lp_rescored": -0.00029868519050069153
+  },
+  {
+   "id": 57342,
+   "string": "PRI",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.006347941824060399,
+   "mean_lp_rescored": -0.0062391371466219425
+  },
+  {
+   "id": 62532,
+   "string": " nw",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0016823193142651387,
+   "mean_lp_rescored": -0.0016750497743487358
+  },
+  {
+   "id": 41209,
+   "string": " Skype",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0015056832304859806,
+   "mean_lp_rescored": -0.0014905004063621163
+  },
+  {
+   "id": 42396,
+   "string": " confirms",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00012011898832042789,
+   "mean_lp_rescored": -0.00012001924915239215
+  },
+  {
+   "id": 14805,
+   "string": "ICT",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.004246679331724105,
+   "mean_lp_rescored": -0.004234088119119406
+  },
+  {
+   "id": 122128,
+   "string": "彳",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0026948871433584523,
+   "mean_lp_rescored": -0.0027376895304769278
+  },
+  {
+   "id": 70221,
+   "string": " patriarch",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006287251747683816,
+   "mean_lp_rescored": -0.0006254149484448135
+  },
+  {
+   "id": 7898,
+   "string": " sb",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0005072504990645635,
+   "mean_lp_rescored": -0.0004856847517658025
+  },
+  {
+   "id": 58314,
+   "string": " Miranda",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0005198534787875057,
+   "mean_lp_rescored": -0.0005265938816592097
+  },
+  {
+   "id": 91949,
+   "string": " Adjustment",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.004404822037031408,
+   "mean_lp_rescored": -0.004306832794100046
+  },
+  {
+   "id": 2323,
+   "string": "Style",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0017940891618006087,
+   "mean_lp_rescored": -0.0018749883165583014
+  },
+  {
+   "id": 38653,
+   "string": " kb",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0002459711803150337,
+   "mean_lp_rescored": -0.0002572304510977119
+  },
+  {
+   "id": 26111,
+   "string": " clips",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006648231440825233,
+   "mean_lp_rescored": -0.0006955706630833447
+  },
+  {
+   "id": 65801,
+   "string": " ration",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00016263964422099283,
+   "mean_lp_rescored": -0.00016206363216042519
+  },
+  {
+   "id": 48650,
+   "string": " caffeine",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00039157666598536406,
+   "mean_lp_rescored": -0.00039894707151688635
+  },
+  {
+   "id": 26333,
+   "string": " Sud",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006599199938743064,
+   "mean_lp_rescored": -0.0006721492973156273
+  },
+  {
+   "id": 41490,
+   "string": " transc",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0016697937053322676,
+   "mean_lp_rescored": -0.0016615428030490875
+  },
+  {
+   "id": 603,
+   "string": "one",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0034990047818913204,
+   "mean_lp_rescored": -0.0034387167543172836
+  },
+  {
+   "id": 76471,
+   "string": " Meditation",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.002648867204091706,
+   "mean_lp_rescored": -0.0027678310871124268
+  },
+  {
+   "id": 100880,
+   "string": "杆",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.02925676782130419,
+   "mean_lp_rescored": -0.030216259881854057
+  },
+  {
+   "id": 7529,
+   "string": " scen",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0004242975135563635,
+   "mean_lp_rescored": -0.0004424684157129377
+  },
+  {
+   "id": 99456,
+   "string": "�",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.033665951756120194,
+   "mean_lp_rescored": -0.03309838846325874
+  },
+  {
+   "id": 65248,
+   "string": "managedType",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.003405081604796578,
+   "mean_lp_rescored": -0.0030070145148783922
+  },
+  {
+   "id": 90964,
+   "string": " innovate",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0022933300885294252,
+   "mean_lp_rescored": -0.002395138144493103
+  },
+  {
+   "id": 82180,
+   "string": " articulated",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0011333375490115334,
+   "mean_lp_rescored": -0.0011187182972207665
+  },
+  {
+   "id": 7981,
+   "string": "Our",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.003012992503499845,
+   "mean_lp_rescored": -0.0029544327408075333
+  },
+  {
+   "id": 98656,
+   "string": " forIndexPath",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.003883255187550579,
+   "mean_lp_rescored": -0.0036634188145399094
+  },
+  {
+   "id": 52230,
+   "string": " Launcher",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0020406001143176886,
+   "mean_lp_rescored": -0.0020471299067139626
+  },
+  {
+   "id": 142466,
+   "string": " Świat",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.011245165379174674,
+   "mean_lp_rescored": -0.011604037135839462
+  },
+  {
+   "id": 86946,
+   "string": " sluggish",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0010271561007660541,
+   "mean_lp_rescored": -0.0009949114173650742
+  },
+  {
+   "id": 63704,
+   "string": " craving",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.002003302988972185,
+   "mean_lp_rescored": -0.0019203758565708995
+  },
+  {
+   "id": 88695,
+   "string": " ais",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0012978554717240816,
+   "mean_lp_rescored": -0.0012729944428429008
+  },
+  {
+   "id": 45184,
+   "string": " feminine",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0010785114623862075,
+   "mean_lp_rescored": -0.0011559039121493697
+  },
+  {
+   "id": 66168,
+   "string": " altri",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.05606939810483406,
+   "mean_lp_rescored": -0.05712123587727547
+  },
+  {
+   "id": 11925,
+   "string": " pregn",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.005309822264583393,
+   "mean_lp_rescored": -0.005503521766513586
+  },
+  {
+   "id": 79479,
+   "string": " phẩm",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.005737433961257921,
+   "mean_lp_rescored": -0.005842607468366623
+  },
+  {
+   "id": 55075,
+   "string": "OfDay",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0030944550768860304,
+   "mean_lp_rescored": -0.0029597776010632515
+  },
+  {
+   "id": 74126,
+   "string": " Genetic",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0022045112588481666,
+   "mean_lp_rescored": -0.0022338498383760452
+  },
+  {
+   "id": 56153,
+   "string": " autoc",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0003767020468027719,
+   "mean_lp_rescored": -0.00037920824252068996
+  },
+  {
+   "id": 142976,
+   "string": " 특정",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0013986110067586803,
+   "mean_lp_rescored": -0.0013819035375490785
+  },
+  {
+   "id": 78731,
+   "string": " getRequest",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0022428374240917037,
+   "mean_lp_rescored": -0.0023386236280202866
+  },
+  {
+   "id": 5470,
+   "string": " March",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0005217669346772406,
+   "mean_lp_rescored": -0.0005170674412511289
+  },
+  {
+   "id": 34682,
+   "string": " trajectory",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00031903941696024657,
+   "mean_lp_rescored": -0.0003362581192050129
+  },
+  {
+   "id": 6793,
+   "string": "stylesheet",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0106834680227621,
+   "mean_lp_rescored": -0.010231172665953636
+  },
+  {
+   "id": 89709,
+   "string": " GAS",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0011915165136239618,
+   "mean_lp_rescored": -0.0012049736687913537
+  },
+  {
+   "id": 87794,
+   "string": " getResource",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.001450057534687706,
+   "mean_lp_rescored": -0.0014646729687228799
+  },
+  {
+   "id": 130734,
+   "string": " hà",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0050143193487504805,
+   "mean_lp_rescored": -0.0048275962471961975
+  },
+  {
+   "id": 6864,
+   "string": " Canada",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0003758719526558707,
+   "mean_lp_rescored": -0.0003653822059277445
+  },
+  {
+   "id": 88043,
+   "string": " Bison",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0016238033871710893,
+   "mean_lp_rescored": -0.0016574837500229478
+  },
+  {
+   "id": 125839,
+   "string": "وقف",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.05669956830388401,
+   "mean_lp_rescored": -0.05712064728140831
+  },
+  {
+   "id": 23291,
+   "string": " Ta",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0010110557541338494,
+   "mean_lp_rescored": -0.0009928856743499637
+  },
+  {
+   "id": 16358,
+   "string": " Ak",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006146134672538514,
+   "mean_lp_rescored": -0.0006149140535853803
+  },
+  {
+   "id": 1615,
+   "string": " mon",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0001807942621780967,
+   "mean_lp_rescored": -0.00017585237219464034
+  },
+  {
+   "id": 97986,
+   "string": " braz",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0028507044977838327,
+   "mean_lp_rescored": -0.0027918212581425905
+  },
+  {
+   "id": 92549,
+   "string": " jTable",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -7.702232253829304e-05,
+   "mean_lp_rescored": -7.91774145909585e-05
+  },
+  {
+   "id": 73561,
+   "string": "nginx",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.01371092879647525,
+   "mean_lp_rescored": -0.014019180089235306
+  },
+  {
+   "id": 69032,
+   "string": " Clubs",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0033279917188338004,
+   "mean_lp_rescored": -0.0032973680645227432
+  },
+  {
+   "id": 5147,
+   "string": " subs",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0001456999246537786,
+   "mean_lp_rescored": -0.00014935254876036197
+  },
+  {
+   "id": 35623,
+   "string": " rebels",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006431556954945942,
+   "mean_lp_rescored": -0.0006102433544583619
+  },
+  {
+   "id": 106902,
+   "string": "深受",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.001668766574766778,
+   "mean_lp_rescored": -0.0017777535831555724
+  },
+  {
+   "id": 77125,
+   "string": " Enumeration",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0025560312503027185,
+   "mean_lp_rescored": -0.0026106175500899553
+  },
+  {
+   "id": 25211,
+   "string": " wholes",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0002642218187247636,
+   "mean_lp_rescored": -0.000254860264249146
+  },
+  {
+   "id": 73035,
+   "string": " shel",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0008382236919715069,
+   "mean_lp_rescored": -0.0008383126114495099
+  },
+  {
+   "id": 56900,
+   "string": " rods",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00025937485207805366,
+   "mean_lp_rescored": -0.0002661784819792956
+  },
+  {
+   "id": 68656,
+   "string": " Katrina",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.000183079076540101,
+   "mean_lp_rescored": -0.00018850040214601904
+  },
+  {
+   "id": 123913,
+   "string": " الس",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0057751610086900955,
+   "mean_lp_rescored": -0.005805787164717913
+  },
+  {
+   "id": 50921,
+   "string": " tonnes",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0007765913173140385,
+   "mean_lp_rescored": -0.0007582668331451714
+  },
+  {
+   "id": 16467,
+   "string": " fet",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00015032060798603197,
+   "mean_lp_rescored": -0.00015036218974273652
+  },
+  {
+   "id": 69958,
+   "string": " Carmen",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00040094384191509863,
+   "mean_lp_rescored": -0.00040982748032547534
+  },
+  {
+   "id": 62766,
+   "string": " dataTable",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0013483009094367542,
+   "mean_lp_rescored": -0.0013554906472563744
+  },
+  {
+   "id": 142645,
+   "string": " универ",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.002817276660304439,
+   "mean_lp_rescored": -0.0028441231697797775
+  },
+  {
+   "id": 65888,
+   "string": "ascar",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.004550242673682685,
+   "mean_lp_rescored": -0.004609968047589064
+  },
+  {
+   "id": 57833,
+   "string": " ridge",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0005113627606381973,
+   "mean_lp_rescored": -0.0005145981558598578
+  },
+  {
+   "id": 83230,
+   "string": " COMMIT",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0064214664525934495,
+   "mean_lp_rescored": -0.006729558110237122
+  },
+  {
+   "id": 79343,
+   "string": " FRIEND",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0010931464236515847,
+   "mean_lp_rescored": -0.0011123275617137551
+  },
+  {
+   "id": 91216,
+   "string": "uids",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00024608826964822583,
+   "mean_lp_rescored": -0.00024909674539230764
+  },
+  {
+   "id": 135693,
+   "string": " вопросы",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.009456238515364626,
+   "mean_lp_rescored": -0.0089735621586442
+  },
+  {
+   "id": 33314,
+   "string": "boss",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0014508118747471599,
+   "mean_lp_rescored": -0.001498797326348722
+  },
+  {
+   "id": 33233,
+   "string": " proprietary",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.000879793236435944,
+   "mean_lp_rescored": -0.000880547973793
+  },
+  {
+   "id": 29792,
+   "string": " dalam",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.002468840078715099,
+   "mean_lp_rescored": -0.002399708377197385
+  },
+  {
+   "id": 71381,
+   "string": "AsStream",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00044271271888144764,
+   "mean_lp_rescored": -0.00043563032522797585
+  },
+  {
+   "id": 58877,
+   "string": " compressor",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006230235580915178,
+   "mean_lp_rescored": -0.0006047651986591518
+  },
+  {
+   "id": 85048,
+   "string": " Emerging",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0024715672370803077,
+   "mean_lp_rescored": -0.002579626627266407
+  },
+  {
+   "id": 828,
+   "string": "AT",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0014048457619537658,
+   "mean_lp_rescored": -0.00140984111931175
+  },
+  {
+   "id": 2664,
+   "string": " better",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00011313316747418867,
+   "mean_lp_rescored": -0.00010812795517267659
+  },
+  {
+   "id": 44362,
+   "string": " violating",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0010415273003066734,
+   "mean_lp_rescored": -0.0010587637079879642
+  },
+  {
+   "id": 42532,
+   "string": " smiles",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006223301964685864,
+   "mean_lp_rescored": -0.0006403599982149899
+  },
+  {
+   "id": 78751,
+   "string": " ApiService",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0006732458711364112,
+   "mean_lp_rescored": -0.0006835483945906162
+  },
+  {
+   "id": 76017,
+   "string": "Downloading",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.01257963670650497,
+   "mean_lp_rescored": -0.012706746347248554
+  },
+  {
+   "id": 40702,
+   "string": " pushes",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0004911266318003982,
+   "mean_lp_rescored": -0.0005101956776343286
+  },
+  {
+   "id": 119957,
+   "string": "泯",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00245166821332532,
+   "mean_lp_rescored": -0.0023590708151459694
+  },
+  {
+   "id": 97522,
+   "string": " whipping",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.000827175304038974,
+   "mean_lp_rescored": -0.0008118503610603511
+  },
+  {
+   "id": 29686,
+   "string": " startDate",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0018166615942997548,
+   "mean_lp_rescored": -0.0018365830183029175
+  },
+  {
+   "id": 3946,
+   "string": " official",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00028371251911115297,
+   "mean_lp_rescored": -0.0002845540002454072
+  },
+  {
+   "id": 41285,
+   "string": " ATT",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0014114355356772041,
+   "mean_lp_rescored": -0.0014114626683294773
+  },
+  {
+   "id": 72917,
+   "string": " overcoming",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0005874883731848968,
+   "mean_lp_rescored": -0.00058534718118608
+  },
+  {
+   "id": 87612,
+   "string": " isError",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.001731995899111401,
+   "mean_lp_rescored": -0.0017131305066868663
+  },
+  {
+   "id": 4849,
+   "string": "izing",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00010112736823468065,
+   "mean_lp_rescored": -0.00010334133548894897
+  },
+  {
+   "id": 52405,
+   "string": " Pirates",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.001402926647036414,
+   "mean_lp_rescored": -0.0013913913862779737
+  },
+  {
+   "id": 94351,
+   "string": " Sonata",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0002606090866379418,
+   "mean_lp_rescored": -0.0002633587864693254
+  },
+  {
+   "id": 93663,
+   "string": " Suarez",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.001958200059865097,
+   "mean_lp_rescored": -0.002138507319614291
+  },
+  {
+   "id": 44016,
+   "string": " counterpart",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0017491255963856627,
+   "mean_lp_rescored": -0.0017397115007042885
+  },
+  {
+   "id": 12847,
+   "string": "ENTER",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0662890157836955,
+   "mean_lp_rescored": -0.06705095618963242
+  },
+  {
+   "id": 31577,
+   "string": " absurd",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0003729906639667509,
+   "mean_lp_rescored": -0.00039324755198322237
+  },
+  {
+   "id": 67953,
+   "string": " FAT",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00037928281127127167,
+   "mean_lp_rescored": -0.00039613177068531513
+  },
+  {
+   "id": 35824,
+   "string": "τ",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.010389419493246047,
+   "mean_lp_rescored": -0.010045141912996769
+  },
+  {
+   "id": 422,
+   "string": " D",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.00021694519030764545,
+   "mean_lp_rescored": -0.00022133604215923697
+  },
+  {
+   "id": 24334,
+   "string": " Diamond",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0012064853029490525,
+   "mean_lp_rescored": -0.0011515786172822118
+  },
+  {
+   "id": 25691,
+   "string": " Ry",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -0.0019673970388491093,
+   "mean_lp_rescored": -0.0019773587118834257
+  },
+  {
+   "id": 93803,
+   "string": " Fiesta",
+   "kind": "clean",
+   "frag_stored": 0.0,
+   "frag_rescored": 0.0,
+   "mean_lp_stored": -2.7268081552733747e-05,
+   "mean_lp_rescored": -2.653303999977652e-05
+  },
+  {
+   "id": 141628,
+   "string": "ớ",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.528016130129496,
+   "mean_lp_rescored": -14.540928840637207
+  },
+  {
+   "id": 127887,
+   "string": "อังกฤษ",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.499001860618591,
+   "mean_lp_rescored": -14.519989013671875
+  },
+  {
+   "id": 126984,
+   "string": "ใช่",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.54478677113851,
+   "mean_lp_rescored": -13.533522605895996
+  },
+  {
+   "id": 126892,
+   "string": "ล่า",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.919929504394531,
+   "mean_lp_rescored": -13.925679206848145
+  },
+  {
+   "id": 142447,
+   "string": " สิงหาคม",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.863656719525656,
+   "mean_lp_rescored": -13.861937522888184
+  },
+  {
+   "id": 123637,
+   "string": "𬸪",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -15.975989500681559,
+   "mean_lp_rescored": -15.994967460632324
+  },
+  {
+   "id": 149983,
+   "string": "웛",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.096151431401571,
+   "mean_lp_rescored": -14.094978332519531
+  },
+  {
+   "id": 143828,
+   "string": "แก้ปัญหา",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.047016700108847,
+   "mean_lp_rescored": -14.03548812866211
+  },
+  {
+   "id": 140665,
+   "string": "อัพ",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.373627662658691,
+   "mean_lp_rescored": -14.39776611328125
+  },
+  {
+   "id": 133355,
+   "string": "ค้น",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.186516722043356,
+   "mean_lp_rescored": -14.212260246276855
+  },
+  {
+   "id": 136695,
+   "string": "กระเป๋า",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.746789693832397,
+   "mean_lp_rescored": -14.736747741699219
+  },
+  {
+   "id": 139599,
+   "string": " แต่ก็",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.789780298868815,
+   "mean_lp_rescored": -14.8218412399292
+  },
+  {
+   "id": 130320,
+   "string": "พ่อ",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.18919555346171,
+   "mean_lp_rescored": -14.205096244812012
+  },
+  {
+   "id": 151297,
+   "string": "𝇗",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -22.856534878412884,
+   "mean_lp_rescored": -22.858596801757812
+  },
+  {
+   "id": 133153,
+   "string": "บุรี",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.96525808175405,
+   "mean_lp_rescored": -13.967482566833496
+  },
+  {
+   "id": 138059,
+   "string": "สมบู",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.828893502553305,
+   "mean_lp_rescored": -13.810816764831543
+  },
+  {
+   "id": 138415,
+   "string": "ราคาถูก",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.063364942868551,
+   "mean_lp_rescored": -14.05799388885498
+  },
+  {
+   "id": 129910,
+   "string": "เต็ม",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.93283462524414,
+   "mean_lp_rescored": -13.932112693786621
+  },
+  {
+   "id": 127932,
+   "string": "แข็",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.188764731089273,
+   "mean_lp_rescored": -14.193424224853516
+  },
+  {
+   "id": 133219,
+   "string": "บอกว่า",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.52423588434855,
+   "mean_lp_rescored": -13.525208473205566
+  },
+  {
+   "id": 141156,
+   "string": "ผู้น",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.303811073303223,
+   "mean_lp_rescored": -14.282588005065918
+  },
+  {
+   "id": 132811,
+   "string": "ไฟฟ้า",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.20303455988566,
+   "mean_lp_rescored": -14.195304870605469
+  },
+  {
+   "id": 131787,
+   "string": "บริเว",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.411004503568014,
+   "mean_lp_rescored": -13.420832633972168
+  },
+  {
+   "id": 134220,
+   "string": "ตัน",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.266414999961853,
+   "mean_lp_rescored": -14.251678466796875
+  },
+  {
+   "id": 140750,
+   "string": "ได้ง่าย",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.505081733067831,
+   "mean_lp_rescored": -14.541157722473145
+  },
+  {
+   "id": 139407,
+   "string": "อ้าง",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.153435548146566,
+   "mean_lp_rescored": -14.159652709960938
+  },
+  {
+   "id": 132136,
+   "string": "ดังกล่าว",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.186596592267355,
+   "mean_lp_rescored": -14.200175285339355
+  },
+  {
+   "id": 136890,
+   "string": "รหัส",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.73968537648519,
+   "mean_lp_rescored": -14.757426261901855
+  },
+  {
+   "id": 147225,
+   "string": "量",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -13.633050560951233,
+   "mean_lp_rescored": -13.635360717773438
+  },
+  {
+   "id": 127813,
+   "string": "ลงทุน",
+   "kind": "reference",
+   "frag_stored": 1.0,
+   "frag_rescored": 1.0,
+   "mean_lp_stored": -14.690556565920511,
+   "mean_lp_rescored": -14.698196411132812
+  }
+ ]
+}

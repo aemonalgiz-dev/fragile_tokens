@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 47/355 [00:00<00:00, 462.37it/s]Loading weights:  26%|██▋       | 94/355 [00:00<00:00, 460.05it/s]Loading weights:  40%|███▉      | 141/355 [00:00<00:00, 438.70it/s]Loading weights:  52%|█████▏    | 185/355 [00:00<00:00, 414.11it/s]Loading weights:  64%|██████▍   | 227/355 [00:00<00:00, 415.27it/s]Loading weights:  76%|███████▌  | 269/355 [00:00<00:00, 397.76it/s]Loading weights:  87%|████████▋ | 310/355 [00:00<00:00, 395.06it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 418.00it/s]
+allenai/OLMo-2-1124-7B-Instruct: healthy pool 2400, verified glitch 442, cuda
+single healthy tokens reproduced exactly: 0.610
+single verified-glitch tokens reproduced : 0.007
+pool restricted to individually-reproducible tokens: 1464
+
+==============================================================================
+Q1  REPRODUCTION vs SEQUENCE LENGTH (all members individually clean)
+==============================================================================
+  n |   exact | conf-wrong |  entropy | mean unreach adj
+------------------------------------------------------------
+  1 |   1.000 |      0.000 |    0.172 |             0.00
+  2 |   0.936 |      0.000 |    0.122 |             0.02
+  3 |   0.936 |      0.004 |    0.106 |             0.05
+  4 |   0.912 |      0.000 |    0.111 |             0.06
+  6 |   0.916 |      0.008 |    0.104 |             0.07
+  8 |   0.900 |      0.000 |    0.085 |             0.13
+
+==============================================================================
+Q2  IS FAILURE PREDICTABLE WITHOUT RUNNING THE MODEL?
+AUC for predicting reproduction FAILURE, within each n
+==============================================================================
+  n | n_fail | unreach adj | re-segments | seq char len
+--------------------------------------------------------
+  1 |      0 | (degenerate)
+  2 |     16 |       0.491 |       0.491 |        0.425
+  3 |     16 |       0.474 |       0.474 |        0.488
+  4 |     22 |       0.517 |       0.517 |        0.478
+  6 |     21 |       0.565 |       0.565 |        0.509
+  8 |     25 |       0.632 |       0.633 |        0.418
+
+==============================================================================
+Q3  WHAT DOES FAILURE LOOK LIKE? (n=8)
+==============================================================================
+  want ' social charged WITH experienceready Rich lines vul'
+  got  ' social charged WITH experience ready Rich lines vul<|endoft'   H=0.20 unreach=1
+  want ' site listener flow cover permissions should che yet'
+  got  ' site listener flow cover permissions should check yet<|endo'   H=0.10 unreach=0
+  want 'Sheetorrow paramsPage allowingIGN configuration aria'
+  got  ' Sheetorrow paramsPage allowingIGN configuration aria<|endof'   H=0.41 unreach=0
+  want ' tryingsearch CONDITIONS forg onto LE Pat Med'
+  got  ' tryingsearch CONDITIONS for g onto LE Pat Med<|endoftext|>'   H=0.52 unreach=0
+  want 'valid Here par Light urorrowasks girls'
+  got  ' valid Here par Light urorrowasks girls<|endoftext|>'   H=0.16 unreach=0
+  want 'side comb bo Masteratal satisf forcedyear'
+  got  ' side comb bo Masteratal satisf forcedyear<|endoftext|>'   H=0.14 unreach=0
+  want 'required anal Prof involvedolution Cong align military'
+  got  ' required anal Prof involvedolution Cong align military<|end'   H=0.07 unreach=0
+  want 'Scope target relationshippu transaction Auto sp pun'
+  got  ' Scope target relationshippu transaction Auto sp pun<|endoft'   H=0.21 unreach=0
+  want 'isation personal thus enhinteger Sou it against'
+  got  ' isation personal thus enhinteger Sou it against<|endoftext|'   H=0.29 unreach=0
+  want 'uploadPagerown mp independacing Thursday bill'
+  got  ' uploadPagerown mp independancing Thursday bill<|endoftext|>'   H=0.38 unreach=1
+  OK   ' preClass conference continued Chicago loop goods domain'
+  OK   ' eventsead also olderkeys randomkeys lines'
+  OK   ' fat avoidReference suc permitABILITY Science pi'
+
+saved -> results/ngram_identify_common.json

@@ -1,0 +1,76 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:29<02:27, 29.52s/it]Fetching 6 files:  33%|███▎      | 2/6 [00:31<00:52, 13.14s/it]Fetching 6 files:  50%|█████     | 3/6 [00:31<00:22,  7.47s/it]Fetching 6 files:  67%|██████▋   | 4/6 [00:32<00:09,  4.57s/it]Fetching 6 files:  83%|████████▎ | 5/6 [00:32<00:03,  3.07s/it]Fetching 6 files: 100%|██████████| 6/6 [00:38<00:00,  4.07s/it]Fetching 6 files: 100%|██████████| 6/6 [00:38<00:00,  6.41s/it]
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  11%|█         | 38/355 [00:00<00:00, 375.06it/s]Loading weights:  23%|██▎       | 81/355 [00:00<00:00, 394.35it/s]Loading weights:  35%|███▌      | 125/355 [00:00<00:00, 413.25it/s]Loading weights:  47%|████▋     | 168/355 [00:00<00:00, 409.29it/s]Loading weights:  59%|█████▉    | 210/355 [00:00<00:00, 400.38it/s]Loading weights:  72%|███████▏  | 257/355 [00:00<00:00, 419.43it/s]Loading weights:  85%|████████▍ | 300/355 [00:00<00:00, 420.62it/s]Loading weights:  97%|█████████▋| 345/355 [00:00<00:00, 425.26it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 424.12it/s]
+allenai/OLMo-2-1124-7B: V=100352 tied=False probe=40000 |E_in| 7.4232
+  copy probe...
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:12<00:24, 12.33s/it]Fetching 3 files:  67%|██████▋   | 2/3 [00:13<00:05,  5.60s/it]Fetching 3 files: 100%|██████████| 3/3 [00:21<00:00,  6.79s/it]Fetching 3 files: 100%|██████████| 3/3 [00:21<00:00,  7.14s/it]
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   1%|          | 2/355 [00:00<00:20, 17.52it/s]Loading weights:  19%|█▉        | 68/355 [00:00<00:00, 360.01it/s]Loading weights:  34%|███▍      | 120/355 [00:00<00:00, 429.01it/s]Loading weights:  47%|████▋     | 166/355 [00:00<00:00, 434.34it/s]Loading weights:  62%|██████▏   | 219/355 [00:00<00:00, 465.67it/s]Loading weights:  75%|███████▍  | 266/355 [00:00<00:00, 465.79it/s]Loading weights:  88%|████████▊ | 313/355 [00:00<00:00, 465.23it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 444.13it/s]
+allenai/OLMo-2-1124-7B-SFT: V=100352 tied=False probe=40000 |E_in| 7.4234
+  copy probe...
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:14<00:28, 14.32s/it]Fetching 3 files:  67%|██████▋   | 2/3 [00:14<00:06,  6.03s/it]Fetching 3 files: 100%|██████████| 3/3 [00:15<00:00,  3.93s/it]Fetching 3 files: 100%|██████████| 3/3 [00:15<00:00,  5.33s/it]
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   0%|          | 1/355 [00:00<00:41,  8.55it/s]Loading weights:  17%|█▋        | 60/355 [00:00<00:00, 325.47it/s]Loading weights:  32%|███▏      | 113/355 [00:00<00:00, 408.22it/s]Loading weights:  47%|████▋     | 166/355 [00:00<00:00, 448.81it/s]Loading weights:  60%|█████▉    | 212/355 [00:00<00:00, 449.14it/s]Loading weights:  74%|███████▍  | 263/355 [00:00<00:00, 465.98it/s]Loading weights:  88%|████████▊ | 311/355 [00:00<00:00, 466.06it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 434.69it/s]
+allenai/OLMo-2-1124-7B-DPO: V=100352 tied=False probe=40000 |E_in| 7.4234
+  copy probe...
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:11<00:23, 11.61s/it]Fetching 3 files:  67%|██████▋   | 2/3 [00:12<00:05,  5.35s/it]Fetching 3 files: 100%|██████████| 3/3 [00:13<00:00,  3.35s/it]Fetching 3 files: 100%|██████████| 3/3 [00:13<00:00,  4.52s/it]
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   1%|          | 2/355 [00:00<00:19, 18.28it/s]Loading weights:  16%|█▌        | 56/355 [00:00<00:00, 300.07it/s]Loading weights:  28%|██▊       | 98/355 [00:00<00:00, 350.97it/s]Loading weights:  40%|████      | 142/355 [00:00<00:00, 384.42it/s]Loading weights:  51%|█████     | 181/355 [00:00<00:00, 386.13it/s]Loading weights:  63%|██████▎   | 223/355 [00:00<00:00, 396.72it/s]Loading weights:  75%|███████▍  | 265/355 [00:00<00:00, 394.45it/s]Loading weights:  86%|████████▌ | 305/355 [00:00<00:00, 393.41it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 382.98it/s]
+allenai/OLMo-2-1124-7B-Instruct: V=100352 tied=False probe=40000 |E_in| 7.4234
+  copy probe...
+
+==============================================================================
+1. COVERAGE -- how much of the vocabulary does each stage actually touch?
+==============================================================================
+                        transition | zero-resid rows |    frac | median resid
+------------------------------------------------------------------------------
+                         7B -> SFT |               0 |  0.0000 |    8.511e-02
+                        SFT -> DPO |            2769 |  0.0276 |    6.571e-04
+                   DPO -> Instruct |           23139 |  0.2306 |    1.741e-04
+
+==============================================================================
+2. DAMAGE -- glitch sets per stage, defined by the copy probe
+==============================================================================
+threshold = base-model 1.0th pct of copy-logprob = -9.939
+                             stage | n below thr |   mean lp | new vs base |  healed
+----------------------------------------------------------------------------------
+            allenai/OLMo-2-1124-7B |         400 |    -1.719 |           0 |       0
+        allenai/OLMo-2-1124-7B-SFT |        1330 |    -2.594 |        1001 |      71
+        allenai/OLMo-2-1124-7B-DPO |        3424 |    -3.441 |        3065 |      41
+   allenai/OLMo-2-1124-7B-Instruct |        4453 |    -3.783 |        4087 |      34
+
+rank-based (worst 1.0% WITHIN each stage, shift-invariant):
+                             stage | overlap w/ base |    new |  jaccard
+------------------------------------------------------------------------
+            allenai/OLMo-2-1124-7B |             400 |      0 |    1.000
+        allenai/OLMo-2-1124-7B-SFT |             220 |    180 |    0.379
+        allenai/OLMo-2-1124-7B-DPO |             170 |    230 |    0.270
+   allenai/OLMo-2-1124-7B-Instruct |             158 |    242 |    0.246
+
+  rank-based newly-glitched examples: ["'\\\\'", "'�'", "'�'", "'�'", "'.t'", "'.S'", "'.l'", "'.L'", "'.M'", "':\\n\\n'", "'.B'", "'.to'", "'.pro'", "'.on'", "'\\\\u'"]
+
+  base-model rank of the 242 newly-glitched (threshold at rank 400, vocab 40000):
+    median 1901   quartiles 884/4655   max 17665
+    beyond 2x the threshold rank: 0.773
+    beyond 5x the threshold rank: 0.479
+    beyond 10x the threshold rank: 0.310
+  final-model rank of the 242 healed: median 1485, beyond 5x threshold 0.380
+
+tokens healthy at base but below threshold after post-training: 242
+  examples: ["'\\\\'", "'�'", "'�'", "'�'", "'.t'", "'.S'", "'.l'", "'.L'", "'.M'", "':\\n\\n'", "'.B'", "'.to'", "'.pro'", "'.on'", "'\\\\u'"]
+
+==============================================================================
+3. DOES POST-TRAINING GRADIENT SPARSITY PREDICT THE DAMAGE?
+AUC of (low token-specific residual during post-training) vs (degraded)
+==============================================================================
+                         predictor |  AUC vs newly-glitched |  spearman vs delta lp
+----------------------------------------------------------------------------------
+         total post-train residual |                  0.753 |                 0.333
+                 base copy-logprob |                  0.914 |                 0.543
+             residual, non-ws only |                  0.736 |                 0.333
+
+CONTROL: how much do glitch rows move during post-training at all?
+                        transition | total ratio | resid ratio
+--------------------------------------------------------------
+                         7B -> SFT |       0.613 |       0.613
+                        SFT -> DPO |       0.575 |       0.575
+                   DPO -> Instruct |       0.359 |       0.359
+
+saved -> results/sw_olmo2_7b.json

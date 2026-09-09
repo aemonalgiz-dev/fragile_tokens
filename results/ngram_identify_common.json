@@ -1,0 +1,154 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "single_healthy": 0.61,
+ "single_glitch": 0.006787330316742082,
+ "rows": [
+  {
+   "n": 1,
+   "exact": 1.0,
+   "conf_wrong": 0.0,
+   "entropy": 0.17169404035061597,
+   "unreach": 0.0,
+   "resegment": 0.0
+  },
+  {
+   "n": 2,
+   "exact": 0.936,
+   "conf_wrong": 0.0,
+   "entropy": 0.12165038288803771,
+   "unreach": 0.016,
+   "resegment": 0.016
+  },
+  {
+   "n": 3,
+   "exact": 0.936,
+   "conf_wrong": 0.004,
+   "entropy": 0.10607791359070688,
+   "unreach": 0.052,
+   "resegment": 0.048
+  },
+  {
+   "n": 4,
+   "exact": 0.912,
+   "conf_wrong": 0.0,
+   "entropy": 0.11125766766723245,
+   "unreach": 0.06,
+   "resegment": 0.06
+  },
+  {
+   "n": 6,
+   "exact": 0.916,
+   "conf_wrong": 0.008,
+   "entropy": 0.10419739435659721,
+   "unreach": 0.072,
+   "resegment": 0.072
+  },
+  {
+   "n": 8,
+   "exact": 0.9,
+   "conf_wrong": 0.0,
+   "entropy": 0.08508795449743048,
+   "unreach": 0.128,
+   "resegment": 0.12
+  }
+ ],
+ "pred": [
+  {
+   "n": 2,
+   "n_fail": 16,
+   "unreach": 0.49145299145299143,
+   "resegment": 0.49145299145299143,
+   "charlen": 0.4253472222222222
+  },
+  {
+   "n": 3,
+   "n_fail": 16,
+   "unreach": 0.47435897435897434,
+   "resegment": 0.47435897435897434,
+   "charlen": 0.48824786324786323
+  },
+  {
+   "n": 4,
+   "n_fail": 22,
+   "unreach": 0.5169457735247209,
+   "resegment": 0.5169457735247209,
+   "charlen": 0.47816985645933013
+  },
+  {
+   "n": 6,
+   "n_fail": 21,
+   "unreach": 0.5646704096485756,
+   "resegment": 0.5646704096485756,
+   "charlen": 0.508525681014764
+  },
+  {
+   "n": 8,
+   "n_fail": 25,
+   "unreach": 0.6317333333333334,
+   "resegment": 0.6333333333333333,
+   "charlen": 0.41786666666666666
+  }
+ ],
+ "failures": [
+  {
+   "want": " social charged WITH experienceready Rich lines vul",
+   "got": " social charged WITH experience ready Rich lines vul<|endoftext|>",
+   "entropy": 0.19811050593852997,
+   "unreach": 1
+  },
+  {
+   "want": " site listener flow cover permissions should che yet",
+   "got": " site listener flow cover permissions should check yet<|endoftext|>",
+   "entropy": 0.09602288901805878,
+   "unreach": 0
+  },
+  {
+   "want": "Sheetorrow paramsPage allowingIGN configuration aria",
+   "got": " Sheetorrow paramsPage allowingIGN configuration aria<|endoftext|>",
+   "entropy": 0.41164278984069824,
+   "unreach": 0
+  },
+  {
+   "want": " tryingsearch CONDITIONS forg onto LE Pat Med",
+   "got": " tryingsearch CONDITIONS for g onto LE Pat Med<|endoftext|>",
+   "entropy": 0.5229678153991699,
+   "unreach": 0
+  },
+  {
+   "want": "valid Here par Light urorrowasks girls",
+   "got": " valid Here par Light urorrowasks girls<|endoftext|>",
+   "entropy": 0.16412055492401123,
+   "unreach": 0
+  },
+  {
+   "want": "side comb bo Masteratal satisf forcedyear",
+   "got": " side comb bo Masteratal satisf forcedyear<|endoftext|>",
+   "entropy": 0.13768374919891357,
+   "unreach": 0
+  },
+  {
+   "want": "required anal Prof involvedolution Cong align military",
+   "got": " required anal Prof involvedolution Cong align military<|endoftext|>",
+   "entropy": 0.07196986675262451,
+   "unreach": 0
+  },
+  {
+   "want": "Scope target relationshippu transaction Auto sp pun",
+   "got": " Scope target relationshippu transaction Auto sp pun<|endoftext|>",
+   "entropy": 0.20610766112804413,
+   "unreach": 0
+  },
+  {
+   "want": "isation personal thus enhinteger Sou it against",
+   "got": " isation personal thus enhinteger Sou it against<|endoftext|>",
+   "entropy": 0.28894495964050293,
+   "unreach": 0
+  },
+  {
+   "want": "uploadPagerown mp independacing Thursday bill",
+   "got": " uploadPagerown mp independancing Thursday bill<|endoftext|><|pad|>",
+   "entropy": 0.3800663352012634,
+   "unreach": 1
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Fetching 18 files: 100%|██████████| 18/18 [00:00<00:00, 939.20it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<05:32,  2.56it/s]Loading weights:   0%|          | 2/851 [00:00<06:24,  2.21it/s]Loading weights:   1%|▏         | 12/851 [00:01<00:50, 16.51it/s]Loading weights:   3%|▎         | 24/851 [00:01<00:26, 31.43it/s]Loading weights:   4%|▍         | 34/851 [00:01<00:20, 40.19it/s]Loading weights:   5%|▍         | 42/851 [00:01<00:17, 46.02it/s]Loading weights:   6%|▌         | 48/851 [00:01<00:20, 39.03it/s]Loading weights:   7%|▋         | 59/851 [00:01<00:15, 52.64it/s]Loading weights:   8%|▊         | 66/851 [00:01<00:14, 52.94it/s]Loading weights:   9%|▉         | 79/851 [00:02<00:11, 67.84it/s]Loading weights:  10%|█         | 87/851 [00:02<00:12, 60.57it/s]Loading weights:  11%|█         | 94/851 [00:02<00:12, 59.34it/s]Loading weights:  12%|█▏        | 101/851 [00:02<00:17, 44.05it/s]Loading weights:  14%|█▎        | 116/851 [00:02<00:12, 60.47it/s]Loading weights:  15%|█▍        | 124/851 [00:02<00:12, 57.94it/s]Loading weights:  16%|█▌        | 133/851 [00:03<00:11, 60.99it/s]Loading weights:  16%|█▋        | 140/851 [00:03<00:11, 61.07it/s]Loading weights:  17%|█▋        | 147/851 [00:03<00:12, 54.37it/s]Loading weights:  18%|█▊        | 153/851 [00:03<00:13, 51.86it/s]Loading weights:  19%|█▊        | 159/851 [00:03<00:13, 51.80it/s]Loading weights:  20%|██        | 172/851 [00:03<00:10, 65.44it/s]Loading weights:  21%|██        | 179/851 [00:03<00:10, 64.11it/s]Loading weights:  22%|██▏       | 186/851 [00:03<00:10, 61.54it/s]Loading weights:  23%|██▎       | 193/851 [00:04<00:10, 60.77it/s]Loading weights:  24%|██▎       | 200/851 [00:04<00:10, 59.25it/s]Loading weights:  24%|██▍       | 206/851 [00:04<00:13, 46.29it/s]Loading weights:  25%|██▌       | 213/851 [00:04<00:12, 49.96it/s]Loading weights:  26%|██▋       | 225/851 [00:04<00:10, 61.95it/s]Loading weights:  27%|██▋       | 232/851 [00:04<00:10, 61.46it/s]Loading weights:  28%|██▊       | 239/851 [00:04<00:10, 59.41it/s]Loading weights:  29%|██▉       | 246/851 [00:04<00:10, 59.45it/s]Loading weights:  30%|██▉       | 253/851 [00:05<00:11, 51.45it/s]Loading weights:  30%|███       | 259/851 [00:05<00:12, 47.89it/s]Loading weights:  31%|███       | 264/851 [00:05<00:12, 46.53it/s]Loading weights:  33%|███▎      | 278/851 [00:05<00:09, 63.60it/s]Loading weights:  33%|███▎      | 285/851 [00:05<00:09, 62.81it/s]Loading weights:  34%|███▍      | 292/851 [00:05<00:10, 53.79it/s]Loading weights:  36%|███▌      | 303/851 [00:05<00:08, 64.64it/s]Loading weights:  36%|███▋      | 310/851 [00:06<00:09, 54.53it/s]Loading weights:  37%|███▋      | 316/851 [00:06<00:10, 50.84it/s]Loading weights:  38%|███▊      | 327/851 [00:06<00:08, 60.88it/s]Loading weights:  39%|███▉      | 334/851 [00:06<00:09, 52.59it/s]Loading weights:  41%|████      | 345/851 [00:06<00:08, 61.08it/s]Loading weights:  41%|████▏     | 352/851 [00:06<00:08, 60.98it/s]Loading weights:  42%|████▏     | 359/851 [00:06<00:08, 59.42it/s]Loading weights:  43%|████▎     | 366/851 [00:07<00:10, 44.62it/s]Loading weights:  45%|████▍     | 380/851 [00:07<00:07, 60.34it/s]Loading weights:  45%|████▌     | 387/851 [00:07<00:08, 52.47it/s]Loading weights:  47%|████▋     | 398/851 [00:07<00:07, 60.84it/s]Loading weights:  48%|████▊     | 405/851 [00:07<00:07, 62.02it/s]Loading weights:  48%|████▊     | 412/851 [00:07<00:07, 61.86it/s]Loading weights:  49%|████▉     | 419/851 [00:08<00:09, 47.90it/s]Loading weights:  51%|█████     | 433/851 [00:08<00:07, 55.49it/s]Loading weights:  52%|█████▏    | 439/851 [00:08<00:07, 55.29it/s]Loading weights:  53%|█████▎    | 451/851 [00:08<00:06, 64.78it/s]Loading weights:  54%|█████▍    | 458/851 [00:08<00:06, 63.57it/s]Loading weights:  55%|█████▍    | 465/851 [00:08<00:06, 56.85it/s]Loading weights:  55%|█████▌    | 471/851 [00:09<00:08, 45.33it/s]Loading weights:  57%|█████▋    | 486/851 [00:09<00:05, 66.14it/s]Loading weights:  58%|█████▊    | 494/851 [00:09<00:06, 55.81it/s]Loading weights:  59%|█████▉    | 504/851 [00:09<00:05, 61.18it/s]Loading weights:  60%|██████    | 511/851 [00:09<00:05, 60.97it/s]Loading weights:  61%|██████    | 518/851 [00:09<00:05, 59.91it/s]Loading weights:  62%|██████▏   | 525/851 [00:10<00:07, 44.73it/s]Loading weights:  63%|██████▎   | 537/851 [00:10<00:05, 56.96it/s]Loading weights:  64%|██████▍   | 544/851 [00:10<00:05, 56.49it/s]Loading weights:  65%|██████▌   | 556/851 [00:10<00:04, 69.58it/s]Loading weights:  66%|██████▋   | 564/851 [00:10<00:04, 62.13it/s]Loading weights:  67%|██████▋   | 571/851 [00:10<00:04, 60.66it/s]Loading weights:  68%|██████▊   | 578/851 [00:10<00:06, 45.37it/s]Loading weights:  69%|██████▉   | 589/851 [00:11<00:04, 55.44it/s]Loading weights:  70%|███████   | 596/851 [00:11<00:04, 55.14it/s]Loading weights:  71%|███████   | 606/851 [00:11<00:04, 60.39it/s]Loading weights:  72%|███████▏  | 613/851 [00:11<00:04, 54.11it/s]Loading weights:  73%|███████▎  | 624/851 [00:11<00:04, 55.64it/s]Loading weights:  74%|███████▍  | 630/851 [00:11<00:04, 49.87it/s]Loading weights:  75%|███████▍  | 637/851 [00:11<00:04, 52.00it/s]Loading weights:  76%|███████▋  | 649/851 [00:12<00:03, 61.68it/s]Loading weights:  77%|███████▋  | 656/851 [00:12<00:03, 61.11it/s]Loading weights:  78%|███████▊  | 663/851 [00:12<00:03, 59.28it/s]Loading weights:  79%|███████▊  | 669/851 [00:12<00:03, 56.93it/s]Loading weights:  79%|███████▉  | 675/851 [00:12<00:03, 54.51it/s]Loading weights:  80%|████████  | 681/851 [00:12<00:03, 45.88it/s]Loading weights:  81%|████████  | 690/851 [00:12<00:02, 53.83it/s]Loading weights:  82%|████████▏ | 702/851 [00:13<00:02, 64.40it/s]Loading weights:  83%|████████▎ | 709/851 [00:13<00:02, 63.23it/s]Loading weights:  84%|████████▍ | 716/851 [00:13<00:02, 60.91it/s]Loading weights:  85%|████████▍ | 723/851 [00:13<00:02, 60.52it/s]Loading weights:  86%|████████▌ | 730/851 [00:13<00:02, 52.23it/s]Loading weights:  86%|████████▋ | 736/851 [00:13<00:02, 47.01it/s]Loading weights:  87%|████████▋ | 742/851 [00:13<00:02, 47.90it/s]Loading weights:  89%|████████▊ | 755/851 [00:13<00:01, 61.80it/s]Loading weights:  90%|████████▉ | 762/851 [00:14<00:01, 61.12it/s]Loading weights:  90%|█████████ | 769/851 [00:14<00:01, 60.74it/s]Loading weights:  91%|█████████ | 776/851 [00:14<00:01, 53.42it/s]Loading weights:  92%|█████████▏| 784/851 [00:14<00:01, 56.51it/s]Loading weights:  93%|█████████▎| 790/851 [00:14<00:01, 45.59it/s]Loading weights:  94%|█████████▍| 804/851 [00:14<00:00, 62.08it/s]Loading weights:  95%|█████████▌| 811/851 [00:15<00:00, 53.31it/s]Loading weights:  97%|█████████▋| 822/851 [00:15<00:00, 61.06it/s]Loading weights:  97%|█████████▋| 829/851 [00:15<00:00, 60.46it/s]Loading weights:  98%|█████████▊| 836/851 [00:15<00:00, 58.95it/s]Loading weights:  99%|█████████▉| 843/851 [00:15<00:00, 43.87it/s]Loading weights: 100%|██████████| 851/851 [00:15<00:00, 53.99it/s]
+43 fragile clean-looking tokens, 20 glitch tokens
+                  ' 아버지' frag 0.92  modes: truncation, truncation, truncation, correct
+             ' половину' frag 0.62  modes: substitution, substitution, substitution, correct
+               ' الديمق' frag 0.58  modes: correct, correct, correct, correct
+              ' المناسب' frag 0.58  modes: substitution, substitution, substitution, correct
+             ' директор' frag 0.54  modes: truncation, truncation, truncation, correct
+           ' diinginkan' frag 0.46  modes: substitution, substitution, substitution, correct
+               ' وزيادة' frag 0.42  modes: substitution, substitution, substitution, correct
+            ' acidentes' frag 0.38  modes: substitution, substitution, substitution, correct
+             ' универса' frag 0.33  modes: correct, correct, correct, correct
+                   ' సి' frag 0.29  modes: substitution, substitution, substitution, correct
+                    ' 불' frag 0.29  modes: substitution, substitution, substitution, correct
+                   ' 세상' frag 0.25  modes: truncation, truncation, truncation, correct
+               ' membut' frag 0.21  modes: correct, correct, correct, correct
+                ' الصحف' frag 0.21  modes: substitution, correct, correct, correct
+            ' ближайшее' frag 0.21  modes: substitution, deletion, substitution, correct
+                   ' โร' frag 0.21  modes: substitution, correct, correct, correct
+               ' الملكي' frag 0.21  modes: substitution, substitution, correct, correct
+          ' investitori' frag 0.21  modes: correct, correct, correct, correct
+              ' persegu' frag 0.17  modes: substitution, correct, correct, correct
+              ' територ' frag 0.17  modes: substitution, correct, correct, correct
+              ' اليومية' frag 0.17  modes: substitution, substitution, correct, correct
+                   ' まと' frag 0.17  modes: substitution, substitution, correct, correct
+                  ' 있었다' frag 0.17  modes: substitution, truncation, truncation, correct
+              ' bestimm' frag 0.17  modes: substitution, substitution, correct, correct
+              ' ricette' frag 0.12  modes: correct, correct, correct, correct
+                   ' 주도' frag 0.12  modes: truncation, truncation, truncation, correct
+               ' стране' frag 0.12  modes: substitution, substitution, correct, correct
+              ' удобным' frag 0.12  modes: substitution, substitution, substitution, correct
+              ' объемом' frag 0.08  modes: correct, correct, correct, correct
+            ' WebDriver' frag 0.08  modes: substitution, substitution, correct, correct
+               ' sindac' frag 0.08  modes: correct, correct, correct, correct
+             ' cambiato' frag 0.08  modes: truncation, correct, correct, correct
+           ' présentent' frag 0.08  modes: truncation, correct, correct, correct
+             ' конкурса' frag 0.08  modes: truncation, correct, correct, correct
+        ' dichiarazioni' frag 0.08  modes: substitution, substitution, correct, correct
+             ' ежегодно' frag 0.08  modes: substitution, substitution, correct, correct
+             ' kokemuks' frag 0.08  modes: correct, correct, correct, correct
+                ' Китая' frag 0.08  modes: substitution, correct, correct, correct
+                  ' تحد' frag 0.08  modes: truncation, truncation, correct, correct
+                ' النقد' frag 0.08  modes: substitution, correct, correct, correct
+              ' фруктов' frag 0.08  modes: substitution, substitution, correct, correct
+              ' unseres' frag 0.08  modes: correct, correct, correct, correct
+                   ' رو' frag 0.08  modes: substitution, substitution, correct, correct
+    ' ForCanBeConverted' frag 1.00  modes: deletion, deletion, deletion, substitution
+             'echslungs' frag 1.00  modes: substitution, substitution, substitution, substitution
+                ' szexf' frag 1.00  modes: deletion, deletion, deletion, deletion
+              ' Несмотр' frag 1.00  modes: substitution, substitution, substitution, correct
+              ' долгове' frag 1.00  modes: substitution, substitution, substitution, substitution
+          '<|im_start|>' frag 1.00  modes: substitution, deletion, deletion, deletion
+                '@index' frag 0.04  modes: correct, correct, correct, correct
+                 'снове' frag 0.96  modes: substitution, substitution, substitution, correct
+       ' โรงแรมบรรยากาศ' frag 1.00  modes: substitution, substitution, substitution, substitution
+                '(stypy' frag 1.00  modes: substitution, substitution, truncation, correct
+             '$category' frag 0.00  modes: correct, correct, correct, correct
+               '.xticks' frag 0.00  modes: correct, correct, correct, correct
+                 '.byId' frag 0.00  modes: correct, correct, correct, correct
+                 '.icon' frag 0.00  modes: correct, correct, correct, correct
+         '.fromFunction' frag 0.04  modes: correct, correct, correct, correct
+                  '.syn' frag 0.00  modes: correct, correct, correct, correct
+                   '_ET' frag 0.00  modes: correct, correct, correct, correct
+               '赞赏功能被关闭' frag 1.00  modes: substitution, substitution, substitution, substitution
+                   '_SU' frag 0.00  modes: correct, correct, correct, correct
+                '.react' frag 0.00  modes: correct, correct, correct, correct
+
+252 specimen records -> results/specimens_qwen38_27b.jsonl
+markdown -> docs/specimens_qwen38_27b.md

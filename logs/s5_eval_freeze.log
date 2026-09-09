@@ -1,0 +1,22 @@
+arm=freeze   decoy=' or'
+  corr(uplift, log count) = +0.436   (raw logprob was +0.405 -- lower is better, the prior is gone)
+
+  corr(entropy, log count) = -0.300
+
+DOSE-RESPONSE: true training frequency vs behavioural damage
+      true count |      n | median entropy |  median uplift
+--------------------------------------------------------------
+               0 |    648 |          7.086 |          0.474
+             1-9 |    604 |          7.098 |          0.456
+           10-99 |    840 |          7.083 |          0.426
+         100-999 |   2616 |          4.871 |          0.610
+       1000-9999 |   9890 |          4.767 |          1.643
+     10000-99999 |   1372 |          5.099 |          2.528
+100000-999999999999 |     95 |          5.838 |          1.601
+
+  doomed  (count<100,  >=2ch): n= 2092  median uplift +0.447
+  healthy (count>=10k, >=2ch): n= 1467  median uplift +2.498
+  uplift separation : +2.051 nats
+  ENTROPY separation: +1.960 nats  (doomed 7.089 vs healthy 5.129)
+
+val loss 3.6710   saved -> runs/s5/freeze/

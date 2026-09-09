@@ -1,0 +1,479 @@
+{
+ "model": "EleutherAI/pythia-1.4b",
+ "n_layers": 24,
+ "n_per_group": 36,
+ "layers": [
+  {
+   "layer": 0,
+   "glitch": 1.0,
+   "healthy": 1.0,
+   "gap": 0.0
+  },
+  {
+   "layer": 1,
+   "glitch": 1.0,
+   "healthy": 0.9998194590336136,
+   "gap": -0.00018054096638642214
+  },
+  {
+   "layer": 2,
+   "glitch": 1.0,
+   "healthy": 0.9993270745798319,
+   "gap": -0.0006729254201680579
+  },
+  {
+   "layer": 3,
+   "glitch": 1.0,
+   "healthy": 0.9983094800420167,
+   "gap": -0.0016905199579833052
+  },
+  {
+   "layer": 4,
+   "glitch": 1.0,
+   "healthy": 0.9962086397058824,
+   "gap": -0.0037913602941176405
+  },
+  {
+   "layer": 5,
+   "glitch": 1.0,
+   "healthy": 0.9948463760504204,
+   "gap": -0.005153623949579633
+  },
+  {
+   "layer": 6,
+   "glitch": 0.9995039682539684,
+   "healthy": 0.992794774159664,
+   "gap": -0.0067091940943043715
+  },
+  {
+   "layer": 7,
+   "glitch": 1.0,
+   "healthy": 0.9912027310924368,
+   "gap": -0.00879726890756316
+  },
+  {
+   "layer": 8,
+   "glitch": 0.9985119047619047,
+   "healthy": 0.9894465598739496,
+   "gap": -0.009065344887955074
+  },
+  {
+   "layer": 9,
+   "glitch": 1.0,
+   "healthy": 0.9896271008403362,
+   "gap": -0.010372899159663773
+  },
+  {
+   "layer": 10,
+   "glitch": 1.0,
+   "healthy": 0.9896435136554622,
+   "gap": -0.010356486344537785
+  },
+  {
+   "layer": 11,
+   "glitch": 0.998015873015873,
+   "healthy": 0.9880350577731091,
+   "gap": -0.009980815242763952
+  },
+  {
+   "layer": 12,
+   "glitch": 0.9995039682539684,
+   "healthy": 0.988297662815126,
+   "gap": -0.011206305438842379
+  },
+  {
+   "layer": 13,
+   "glitch": 0.9995039682539684,
+   "healthy": 0.9873785451680672,
+   "gap": -0.012125423085901144
+  },
+  {
+   "layer": 14,
+   "glitch": 0.9970238095238096,
+   "healthy": 0.9852284663865547,
+   "gap": -0.011795343137254943
+  },
+  {
+   "layer": 15,
+   "glitch": 0.9955357142857143,
+   "healthy": 0.9825367647058824,
+   "gap": -0.012998949579831942
+  },
+  {
+   "layer": 16,
+   "glitch": 0.9955357142857143,
+   "healthy": 0.980189732142857,
+   "gap": -0.015345982142857317
+  },
+  {
+   "layer": 17,
+   "glitch": 0.9875992063492062,
+   "healthy": 0.9719997373949579,
+   "gap": -0.015599468954248241
+  },
+  {
+   "layer": 18,
+   "glitch": 0.9791666666666666,
+   "healthy": 0.9649750525210086,
+   "gap": -0.01419161414565806
+  },
+  {
+   "layer": 19,
+   "glitch": 0.9618055555555556,
+   "healthy": 0.9536830357142856,
+   "gap": -0.008122519841269993
+  },
+  {
+   "layer": 20,
+   "glitch": 0.9444444444444442,
+   "healthy": 0.9422925420168068,
+   "gap": -0.002151902427637409
+  },
+  {
+   "layer": 21,
+   "glitch": 0.9330357142857143,
+   "healthy": 0.9296382615546218,
+   "gap": -0.0033974527310924874
+  },
+  {
+   "layer": 22,
+   "glitch": 0.9250992063492062,
+   "healthy": 0.9213005514705882,
+   "gap": -0.0037986548786179686
+  },
+  {
+   "layer": 23,
+   "glitch": 0.9161706349206349,
+   "healthy": 0.9105829831932774,
+   "gap": -0.005587651727357534
+  },
+  {
+   "layer": 24,
+   "glitch": 0.8799603174603176,
+   "healthy": 0.8737526260504201,
+   "gap": -0.006207691409897409
+  }
+ ],
+ "dissociation": {
+  "glitch": {
+   "id0": 1.0,
+   "idmid": 0.9995039682539684,
+   "entropy": 4.6291184425354
+  },
+  "healthy": {
+   "id0": 1.0,
+   "idmid": 0.988297662815126,
+   "entropy": 4.842970848083496
+  }
+ },
+ "specimens": [
+  {
+   "group": "GLITCH",
+   "id": 4844,
+   "tok": "atever",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "IPT",
+    "1": "oc",
+    "2": " contents",
+    "6": "tha",
+    "12": "l",
+    "18": ",",
+    "24": " is"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 47167,
+   "tok": "IGENCE",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "tee",
+    "1": " Ga",
+    "2": " met",
+    "6": " vet",
+    "12": " is",
+    "18": ",",
+    "24": " is"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 42010,
+   "tok": " BytePtrFromString",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "elin",
+    "1": "(",
+    "2": "(",
+    "6": "(",
+    "12": "is",
+    "18": "-",
+    "24": " is"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 3274,
+   "tok": "ecause",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": " Sett",
+    "1": "ization",
+    "2": "os",
+    "6": "R",
+    "12": "n",
+    "18": "\n",
+    "24": " is"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 3421,
+   "tok": "ccording",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": " come",
+    "1": "ly",
+    "2": "ly",
+    "6": "ly",
+    "12": "ly",
+    "18": " to",
+    "24": " to"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 32013,
+   "tok": "idepress",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "\ufffd",
+    "1": "ant",
+    "2": "ant",
+    "6": "ant",
+    "12": "ant",
+    "18": "ant",
+    "24": "ant"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 39598,
+   "tok": "oneliness",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "rupt",
+    "1": "hip",
+    "2": "om",
+    "6": " and",
+    "12": " in",
+    "18": " is",
+    "24": " is"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 28696,
+   "tok": "FFIRMED",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "amas",
+    "1": "ers",
+    "2": "s",
+    "6": " against",
+    "12": "U",
+    "18": " (",
+    "24": " is"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 14798,
+   "tok": " affidav",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "isine",
+    "1": "y",
+    "2": "y",
+    "6": "y",
+    "12": "y",
+    "18": "is",
+    "24": "ite"
+   }
+  },
+  {
+   "group": "GLITCH",
+   "id": 1,
+   "tok": "<|padding|>",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "amss",
+    "1": "y",
+    "2": "s",
+    "6": " process",
+    "12": "ge",
+    "18": " (",
+    "24": " means"
+   }
+  },
+  {
+   "group": "HEALTHY",
+   "id": 203,
+   "tok": "\u001a",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": " else",
+    "1": "\n",
+    "2": " binding",
+    "6": " Commit",
+    "12": "OUT",
+    "18": "n",
+    "24": "\""
+   }
+  },
+  {
+   "group": "HEALTHY",
+   "id": 30491,
+   "tok": "OMNI",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "\u0165",
+    "1": "erta",
+    "2": "ado",
+    "6": "ums",
+    "12": "_",
+    "18": "-",
+    "24": " is"
+   }
+  },
+  {
+   "group": "HEALTHY",
+   "id": 31609,
+   "tok": "inki",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "iatric",
+    "1": "\u00e0",
+    "2": " circuit",
+    "6": "est",
+    "12": "os",
+    "18": "-",
+    "24": " is"
+   }
+  },
+  {
+   "group": "HEALTHY",
+   "id": 37898,
+   "tok": "uilt",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "type",
+    "1": " Inv",
+    "2": "ick",
+    "6": "ies",
+    "12": "out",
+    "18": "-",
+    "24": " is"
+   }
+  },
+  {
+   "group": "HEALTHY",
+   "id": 26976,
+   "tok": "munition",
+   "id_retrieval": 1.0,
+   "readout": {
+    "0": "ace",
+    "1": "ization",
+    "2": "ous",
+    "6": "p",
+    "12": " (",
+    "18": " is",
+    "24": " is"
+   }
+  }
+ ],
+ "predecessor": [
+  {
+   "pred": "space",
+   "glitch": 1.0,
+   "healthy": 0.9834558823529411,
+   "gap": -0.016544117647058876
+  },
+  {
+   "pred": "newline",
+   "glitch": 1.0,
+   "healthy": 0.9742647058823529,
+   "gap": -0.02573529411764708
+  },
+  {
+   "pred": "tab",
+   "glitch": 1.0,
+   "healthy": 0.9761029411764706,
+   "gap": -0.023897058823529438
+  },
+  {
+   "pred": "dquote",
+   "glitch": 1.0,
+   "healthy": 0.9880514705882353,
+   "gap": -0.011948529411764719
+  },
+  {
+   "pred": "lparen",
+   "glitch": 1.0,
+   "healthy": 0.9816176470588235,
+   "gap": -0.018382352941176516
+  },
+  {
+   "pred": "word ' the'",
+   "glitch": 1.0,
+   "healthy": 0.9935661764705882,
+   "gap": -0.006433823529411797
+  },
+  {
+   "pred": "self (doubled)",
+   "glitch": 1.0,
+   "healthy": 0.9834558823529411,
+   "gap": -0.016544117647058876
+  }
+ ],
+ "identity_retained": [
+  "atever",
+  "IGENCE",
+  " BytePtrFromString",
+  "ecause",
+  "ccording",
+  "idepress",
+  "oneliness",
+  "FFIRMED",
+  " affidav",
+  "<|padding|>",
+  "<|endoftext|>",
+  "ritory",
+  "14514500",
+  " questionna",
+  " encoun",
+  "icrosoft",
+  "GLIGENCE",
+  "innati",
+  " researc",
+  "CHANTABILITY",
+  "NdEx",
+  "bably",
+  "ciparum",
+  " biomark",
+  "ortunately",
+  "ilarly",
+  "emetery",
+  "ferroni",
+  " taxp",
+  "VERTISEMENT",
+  "visiae",
+  "\u03af\u03bd\u03b1\u03b9",
+  "chrane",
+  "ioxidants",
+  "pendicular",
+  "renthood"
+ ],
+ "identity_lost": []
+}

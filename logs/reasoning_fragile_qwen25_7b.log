@@ -1,0 +1,69 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  75%|███████▌  | 3/4 [00:09<00:03,  3.22s/it]Fetching 4 files: 100%|██████████| 4/4 [00:09<00:00,  2.28s/it]Fetching 4 files: 100%|██████████| 4/4 [00:09<00:00,  2.49s/it]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<01:30,  3.73it/s]Loading weights:   3%|▎         | 11/339 [00:00<00:08, 36.95it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:07, 40.32it/s]Loading weights:   7%|▋         | 24/339 [00:00<00:07, 43.83it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:03, 77.64it/s]Loading weights:  15%|█▌        | 51/339 [00:00<00:04, 68.95it/s]Loading weights:  19%|█▉        | 64/339 [00:01<00:03, 83.58it/s]Loading weights:  22%|██▏       | 76/339 [00:01<00:02, 91.60it/s]Loading weights:  26%|██▌       | 87/339 [00:01<00:02, 86.00it/s]Loading weights:  29%|██▊       | 97/339 [00:01<00:02, 88.16it/s]Loading weights:  32%|███▏      | 107/339 [00:01<00:02, 82.85it/s]Loading weights:  34%|███▍      | 116/339 [00:01<00:02, 76.98it/s]Loading weights:  37%|███▋      | 125/339 [00:01<00:02, 79.68it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 70.91it/s]Loading weights:  44%|████▍     | 149/339 [00:02<00:02, 83.62it/s]Loading weights:  47%|████▋     | 160/339 [00:02<00:02, 80.19it/s]Loading weights:  50%|█████     | 171/339 [00:02<00:02, 77.98it/s]Loading weights:  54%|█████▍    | 184/339 [00:02<00:01, 88.77it/s]Loading weights:  57%|█████▋    | 194/339 [00:02<00:01, 90.15it/s]Loading weights:  60%|██████    | 204/339 [00:02<00:01, 81.28it/s]Loading weights:  63%|██████▎   | 213/339 [00:02<00:01, 77.38it/s]Loading weights:  65%|██████▌   | 221/339 [00:02<00:01, 77.32it/s]Loading weights:  68%|██████▊   | 232/339 [00:03<00:01, 76.16it/s]Loading weights:  71%|███████   | 240/339 [00:03<00:01, 65.58it/s]Loading weights:  76%|███████▌  | 257/339 [00:03<00:00, 88.06it/s]Loading weights:  79%|███████▉  | 268/339 [00:03<00:00, 91.95it/s]Loading weights:  82%|████████▏ | 278/339 [00:03<00:00, 92.20it/s]Loading weights:  85%|████████▍ | 288/339 [00:03<00:00, 84.16it/s]Loading weights:  88%|████████▊ | 297/339 [00:03<00:00, 78.82it/s]Loading weights:  90%|█████████ | 306/339 [00:04<00:00, 73.37it/s]Loading weights:  94%|█████████▎| 317/339 [00:04<00:00, 73.77it/s]Loading weights:  97%|█████████▋| 329/339 [00:04<00:00, 75.42it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 77.90it/s]
+fragile sets from results/compact/fragility_qwen25_7b_compact.pt: 32 most fragile clean-looking tokens (fragility 1.00..1.00) vs 32 stable
+Qwen/Qwen2.5-7B-Instruct: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["'ঈ'", "'圊'", "'𬀩'", "'柷'", "'冔'", "'郈'"]
+  healthy: ["' phụ'", "' pals'", "' MAKE'", "' flat'", "' better'", "' Genuine'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      4.988      4.391   0.596 |   0.0026   0.0190
+     2 |      3.610      3.266   0.343 |   0.0080   0.0064
+     4 |      2.123      1.844   0.279 |   0.0038   0.0091
+     8 |      2.379      1.728   0.651 |   0.0021   0.0012
+
+  distinct scripts in output : glitch 1.16  healthy 1.12
+  token-repetition rate      : glitch 0.008  healthy 0.008
+  reproduced the seed token  : glitch 0.000  healthy 0.062   (exact id)
+  seed string in output      : glitch 0.000  healthy 0.062   (any segmentation)
+
+  --- sample generations (completion) ---
+  [GLITCH] 'ঈ' -> '\\u09b6\\u09cd\\u09ac\\u09b0\\u0983 (I'
+  [GLITCH] '圊' -> '\\u5b57 is related to which of the following'
+  [GLITCH] '𬀩' -> '\\nA. is a prefix\\nB'
+  [HEALTHY] ' phụ' -> ' n\\u1eef in Vietnamese means \\u201cwoman\\u201d or'
+  [HEALTHY] ' pals' -> ' is a shortened form of the word "'
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.973      1.401  -0.429 |   0.0164   0.0009
+     2 |      1.398      0.379   1.019 |   0.0095   0.0005
+     4 |      1.219      0.403   0.815 |   0.0028   0.0015
+     8 |      0.641      0.538   0.103 |   0.0026   0.0004
+    16 |      0.489      0.400   0.089 |   0.0012   0.0010
+    32 |      0.619      0.633  -0.014 |   0.0006   0.0010
+    64 |      0.827      0.555   0.272 |   0.0012   0.0012
+   128 |      0.576      0.823  -0.248 |   0.0004   0.0018
+   192 |      0.457      0.457  -0.000 |   0.0013   0.0021
+   255 |      0.327      0.312   0.015 |   0.0014   0.0010
+
+  distinct scripts in output : glitch 1.94  healthy 1.31
+  token-repetition rate      : glitch 0.485  healthy 0.501
+  reproduced the seed token  : glitch 0.656  healthy 0.656   (exact id)
+  seed string in output      : glitch 0.812  healthy 0.938   (any segmentation)
+
+  --- sample generations (reasoning) ---
+  [GLITCH] 'ঈ' -> ' The character you\'ve written is "\\u0988" which is a vowel sign in Bengali script. It represents the long \'i\' sound, similar to the \'ee\' in \'see\'. \\n\\nIf you have any '
+  [GLITCH] '圊' -> ' The character "\\u570a" is not commonly used and does not appear to be a standard Chinese character. It might be a variant form or a misspelling. Could you provide m'
+  [GLITCH] '𬀩' -> ' The text "\\U0002c029" is a Chinese character. It can be found in some names or specific contexts. Without more context, it\'s difficult to provide much information. Coul'
+  [HEALTHY] ' phụ' -> ' "Ph\\u1ee5" is a Vietnamese word that can have different meanings depending on the context. It can mean:\\n\\n1. Supporting or auxiliary (as in "ph\\u1ee5 tr\\u1ee3" - support or as'
+  [HEALTHY] ' pals' -> ' "Pals" is a casual term for friends. If you\'re looking to make new friends or want advice on friendships, I\'d be happy to help! Or perhaps you have a specific '
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   +0.651
+  entropy gap, reasoning   @step8   +0.103
+  entropy gap, reasoning   @step255 +0.015
+  glitch chain alignment,  step1 -> step255   0.0164 -> 0.0014
+  healthy chain alignment, step1 -> step255   0.0009 -> 0.0010
+
+saved -> results/reasoning_fragile_qwen25_7b.json

@@ -1,0 +1,76 @@
+{
+ "stages": [
+  "allenai/OLMo-2-0425-1B",
+  "allenai/OLMo-2-0425-1B-SFT",
+  "allenai/OLMo-2-0425-1B-DPO",
+  "allenai/OLMo-2-0425-1B-Instruct"
+ ],
+ "coverage": [
+  {
+   "transition": "1B -> SFT",
+   "zero_rows": 2,
+   "frac": 1.992984693877551e-05,
+   "median_resid": 14.391828536987305
+  },
+  {
+   "transition": "SFT -> DPO",
+   "zero_rows": 2696,
+   "frac": 0.02686543367346939,
+   "median_resid": 0.0014114787336438894
+  },
+  {
+   "transition": "DPO -> Instruct",
+   "zero_rows": 1683,
+   "frac": 0.01677096619897959,
+   "median_resid": 0.0003621162031777203
+  }
+ ],
+ "damage": [
+  {
+   "stage": "allenai/OLMo-2-0425-1B",
+   "n_bad": 1004,
+   "mean_lp": -3.704103946685791,
+   "new": 0,
+   "healed": 0
+  },
+  {
+   "stage": "allenai/OLMo-2-0425-1B-SFT",
+   "n_bad": 523,
+   "mean_lp": -3.0128397941589355,
+   "new": 178,
+   "healed": 659
+  },
+  {
+   "stage": "allenai/OLMo-2-0425-1B-DPO",
+   "n_bad": 763,
+   "mean_lp": -3.3534224033355713,
+   "new": 401,
+   "healed": 642
+  },
+  {
+   "stage": "allenai/OLMo-2-0425-1B-Instruct",
+   "n_bad": 924,
+   "mean_lp": -3.600348711013794,
+   "new": 522,
+   "healed": 602
+  }
+ ],
+ "n_newly_glitched": 586,
+ "examples": [
+  "{\r\n",
+  ".Add",
+  "\tthis",
+  "\tString",
+  "ccording",
+  "\tswitch",
+  "\tvirtual",
+  "\tget",
+  "/************************************************************************",
+  "ESSAGE",
+  "(){\r\n",
+  "*/\r\n",
+  "=>{\n",
+  "\\Request",
+  "spNet"
+ ]
+}

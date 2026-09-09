@@ -1,0 +1,2286 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "n_pairs": 40,
+ "exploratory": true,
+ "pairs": [
+  [
+   31380,
+   73988,
+   -0.24376127818410562
+  ],
+  [
+   33617,
+   43605,
+   -0.19601338765816462
+  ],
+  [
+   43605,
+   85664,
+   -0.1707100593440005
+  ],
+  [
+   43605,
+   44029,
+   -0.14229595242173196
+  ],
+  [
+   58716,
+   43605,
+   -0.13866007961077492
+  ],
+  [
+   87576,
+   58716,
+   -0.13343036893639867
+  ],
+  [
+   17346,
+   58716,
+   -0.12612300165209314
+  ],
+  [
+   17346,
+   33617,
+   -0.12524033642695204
+  ],
+  [
+   75491,
+   92428,
+   -0.11854255662348935
+  ],
+  [
+   43605,
+   76949,
+   -0.11576568195476153
+  ],
+  [
+   58716,
+   85664,
+   -0.11425735805443894
+  ],
+  [
+   10544,
+   92428,
+   -0.11112177005236934
+  ],
+  [
+   43605,
+   49227,
+   -0.09886233979411715
+  ],
+  [
+   33617,
+   85664,
+   -0.0940412060711835
+  ],
+  [
+   76949,
+   87576,
+   -0.08995496904183364
+  ],
+  [
+   20108,
+   87576,
+   -0.08378320848369404
+  ],
+  [
+   58797,
+   58716,
+   -0.0817248844202173
+  ],
+  [
+   85664,
+   87576,
+   -0.07453277174050484
+  ],
+  [
+   92428,
+   85664,
+   -0.0740580129436564
+  ],
+  [
+   10364,
+   58716,
+   -0.07357718308405006
+  ],
+  [
+   10544,
+   20434,
+   -0.07258964532611789
+  ],
+  [
+   64573,
+   58716,
+   -0.07031143355077672
+  ],
+  [
+   13227,
+   43605,
+   -0.06863969095139684
+  ],
+  [
+   43605,
+   64813,
+   -0.06389393101425238
+  ],
+  [
+   33617,
+   44029,
+   -0.06169558196832743
+  ],
+  [
+   10544,
+   10796,
+   -0.05818889354262474
+  ],
+  [
+   50940,
+   87576,
+   -0.05714935440276003
+  ],
+  [
+   65331,
+   73988,
+   -0.05676318895262695
+  ],
+  [
+   50438,
+   85664,
+   -0.055361822427336116
+  ],
+  [
+   76949,
+   10796,
+   -0.05512426623734729
+  ],
+  [
+   2986,
+   80070,
+   -0.0535652705692168
+  ],
+  [
+   43605,
+   31969,
+   -0.05288068742258171
+  ],
+  [
+   33617,
+   93106,
+   -0.05121904956919415
+  ],
+  [
+   43605,
+   50940,
+   -0.05112539744473429
+  ],
+  [
+   33617,
+   92428,
+   -0.05042959096006901
+  ],
+  [
+   2986,
+   26475,
+   -0.04843401127264511
+  ],
+  [
+   8160,
+   58716,
+   -0.048133245415697065
+  ],
+  [
+   43605,
+   46840,
+   -0.0479596271530963
+  ],
+  [
+   2986,
+   69804,
+   -0.046864877005570335
+  ],
+  [
+   43605,
+   58716,
+   -0.04672649366798829
+  ]
+ ],
+ "fail_surv": 0.1,
+ "fail_ctrl": 0.0875,
+ "fail_strict_surv": 0.2875,
+ "fail_strict_ctrl": 0.2,
+ "outputs": [
+  {
+   "group": "surv",
+   "pair": 0,
+   "ctx": " video lePython forward add less la parts show requiredAppBundle educ",
+   "out": " \"video lePython forward add less la parts show requiredAppBundle educ\"\n\nStep 1: Break down the text into individual words and identify their",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " video lePython forward add less la parts show required Restaurants educ",
+   "out": " \"video lePython forward add less la parts show required Restaurants education\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " video le parte forward add less la parts show requiredAppBundle educ",
+   "out": " \"video le parte forward add less la parts show requiredAppBundle educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 0,
+   "ctx": " video lePython forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr ourAppBundle like",
+   "out": " \"video lePython forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc p",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " video lePython forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr our Restaurants like",
+   "out": " \"video lePython forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc p",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " video le parte forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr ourAppBundle like",
+   "out": " \"video le parte forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc p",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 1,
+   "ctx": " video le Patriots forward.Ver less",
+   "out": " \"video le patriots forward ver less\" which is a phrase in French. It translates to \"watch the",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " video le Patriots forward Disc less",
+   "out": " \"video le patriots forward disc less\"\n\nStep 1: Identify the words\n- \"video\" is",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " video le zi forward.Ver less",
+   "out": " \"video le zi forward. Ver less\"\n\nStep 1: Identify the words\n- \"video\" refers",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 1,
+   "ctx": " video le Patriots forward add less la parts show required.Ver educ",
+   "out": " \"video le patriots forward add less la parts show required. ver educ\"\n\nStep 1: Identify the words and phrases\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " video le Patriots forward add less la parts show required Disc educ",
+   "out": " \"video le Patriots forward add less la parts show required Disc educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " video le zi forward add less la parts show required.Ver educ",
+   "out": " \"video le zi forward add less la parts show required. Ver educ\"\n\nStep 1: Identify the key components of the text.\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 2,
+   "ctx": " video le.Ver forward add less la parts show requiredSentence educ",
+   "out": " \"video le.Ver forward add less la parts show requiredSentence educ\" \nStep 1: Identify the words and their meanings\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 2,
+   "ctx": " video le.Ver forward add less la parts show required Associated educ",
+   "out": " \"video le.Ver forward add less la parts show required Associated educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 2,
+   "ctx": " video lechema forward add less la parts show requiredSentence educ",
+   "out": " \"video lechema forward add less la parts show requiredSentence educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 3,
+   "ctx": " video le.Ver forward broadly less",
+   "out": " \"video le.Ver forward broadly less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " video le.Ver forward brisk less",
+   "out": " \"video le.Ver forward brisk less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " video lechema forward broadly less",
+   "out": " \"video lechema forward broadly less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 3,
+   "ctx": " video le.Ver forward add less la parts show required broadly educ",
+   "out": " \"video le.Ver forward add less la parts show required broadly educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " video le.Ver forward add less la parts show required brisk educ",
+   "out": " \"video le.Ver forward add less la parts show required brisk educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " video lechema forward add less la parts show required broadly educ",
+   "out": " \"video lechema forward add less la parts show required broadly educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 4,
+   "ctx": " video le Garrett forward add less la parts show required.Ver educ",
+   "out": " \"video le garrett forward add less la parts show required. Ver educ\"\n\nStep 1: Identify the words and their meanings\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 4,
+   "ctx": " video le Garrett forward add less la parts show required tou educ",
+   "out": " \"video le garrett forward add less la parts show required tou educ\"\n\nStep 1: Identify the words and their meanings\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 4,
+   "ctx": " video le Hop forward add less la parts show required.Ver educ",
+   "out": " \"video le Hop forward add less la parts show required.Ver educ\"\n\nStep 1: Identify the words and phrases\n- \"video le",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 5,
+   "ctx": " video lecallee forward Garrett less",
+   "out": " \"video lecallee forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " video lecallee forward cref less",
+   "out": " \"video lecallee forward cref less\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " video leXP forward Garrett less",
+   "out": " \"video leXP forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 5,
+   "ctx": " video lecallee forward add less la parts show required Garrett educ",
+   "out": " \"video lecallee forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " video lecallee forward add less la parts show required cref educ",
+   "out": " \"video lecallee forward add less la parts show required cref educ\"\n\nStep 1: Break down the text into individual words and understand their",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " video leXP forward add less la parts show required Garrett educ",
+   "out": " \"video leXP forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 6,
+   "ctx": " video leilon forward Garrett less",
+   "out": " \"video leilon forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " video leilon forward antioxid less",
+   "out": " \"video leilon forward antioxid less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " video leSentence forward Garrett less",
+   "out": " \"video leSentence forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 6,
+   "ctx": " video leilon forward add less la parts show required Garrett educ",
+   "out": " \"video leilon forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " video leilon forward add less la parts show required antioxid educ",
+   "out": " \"video leilon forward add less la parts show required antioxid educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " video leSentence forward add less la parts show required Garrett educ",
+   "out": " \"video less parts show required garrett educ\"\n\nStep 1: Identify the words and their meanings\n- Video: a recording of moving",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 7,
+   "ctx": " video leilon forward Patriots less",
+   "out": " \"video leilon forward patriots less\"\n\nStep 1: Identify the words\n- \"video\" is",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " video leilon forward views less",
+   "out": " \"video leilon forward views less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " video le elephant forward Patriots less",
+   "out": " \"video le elephant forward Patriots less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 7,
+   "ctx": " video leilon forward add less la parts show required Patriots educ",
+   "out": " \"video leilon forward add less la parts show required Patriots educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " video leilon forward add less la parts show required views educ",
+   "out": " \"video leilon forward add less la parts show required views educ\"\n\nStep 1: Identify the words that seem to be misspelled",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " video le elephant forward add less la parts show required Patriots educ",
+   "out": " \"video le elephant forward add less la parts show required Patriots educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 8,
+   "ctx": " video le brisk forward_cum less",
+   "out": " \"video le brisk forward_cum less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " video le brisk forward elephant less",
+   "out": " \"video le brisk forward elephant less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " video le LB forward_cum less",
+   "out": " \"video le LB forward_cum less\"\n\nStep 1: Identify the components of the text\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 8,
+   "ctx": " video le brisk forward add less la parts show required_cum educ",
+   "out": " \"video le brisk forward add less la parts show required_cum educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " video le brisk forward add less la parts show required elephant educ",
+   "out": " \"video le brisk forward add less la parts show required elephant education\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " video le LB forward add less la parts show required_cum educ",
+   "out": " \"video le LB forward add less la parts show required_cum educ\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 9,
+   "ctx": " video le.Ver forward mildly less",
+   "out": " \"video le.Ver forward mildly less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " video le.Ver forward parte less",
+   "out": " \"video le.Ver forward parte less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " video le Hop forward mildly less",
+   "out": " \"video le Hop forward mildly less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 9,
+   "ctx": " video le.Ver forward add less la parts show required mildly educ",
+   "out": " \"video le.Ver forward add less la parts show required mildly educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " video le.Ver forward add less la parts show required parte educ",
+   "out": " \"video le.Ver forward add less la parts show required parte educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " video le Hop forward add less la parts show required mildly educ",
+   "out": " \"video le Hop forward add less la parts show required mildly educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 10,
+   "ctx": " video le Garrett forward add less la parts show requiredSentence educ",
+   "out": " \"video le garrett forward add less la parts show requiredSentence educ\" \nStep 1: Identify the words and their meanings\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 10,
+   "ctx": " video le Garrett forward add less la parts show required parte educ",
+   "out": " \"video le garrett forward add less la parts show required parte educ\"\n\nStep 1: Identify the words and their meanings\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 10,
+   "ctx": " video leuil forward add less la parts show requiredSentence educ",
+   "out": " \"video loop forward add less la parts show required\" \nStep 1: Break down the sentence into its components. \n- \"video",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 11,
+   "ctx": " video leBlue forward_cum less",
+   "out": " \"video leBlue forward_cum less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " video leBlue forward voor less",
+   "out": " \"video leBlue forward voor less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " video le Disc forward_cum less",
+   "out": " \"video le disc forward_cum less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 11,
+   "ctx": " video leBlue forward add less la parts show required_cum educ",
+   "out": " \"video leBlue forward add less la parts show required_cum educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " video leBlue forward add less la parts show required voor educ",
+   "out": " \"video leBlue forward add less la parts show required voor educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " video le Disc forward add less la parts show required_cum educ",
+   "out": " \"video le disc forward add less la parts show required cum educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 12,
+   "ctx": " video le.Ver forward sounding less",
+   "out": " \"video le.Ver forward sounding less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " video le.Ver forward grav less",
+   "out": " \"video le.Ver forward grav less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " video le068 forward sounding less",
+   "out": " \"video le068 forward sounding less\"\n\nStep 1: Identify the components of the text.\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 12,
+   "ctx": " video le.Ver forward add less la parts show required sounding educ",
+   "out": " \"video le.Ver forward add less la parts show required sounding educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " video le.Ver forward add less la parts show required grav educ",
+   "out": " \"video le.Ver forward add less la parts show required grav educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " video le068 forward add less la parts show required sounding educ",
+   "out": " \"video le068 forward add less la parts show required sounding educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 13,
+   "ctx": " video le Patriots forward add less la parts show requiredSentence educ",
+   "out": " \"video le patriots forward add less la parts show requiredSentence educ\" \nStep 1: Identify the words and their meanings\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 13,
+   "ctx": " video le Patriots forward add less la parts show required ImGui educ",
+   "out": " \"video le patriots forward add less la parts show required ImGui educ\"\n\nStep 1: Break down the text into individual words and identify",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 13,
+   "ctx": " video le mildly forward add less la parts show requiredSentence educ",
+   "out": " \"video le mildly forward add less la parts show required\" \nStep 1: Break down the sentence into its components. \n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 14,
+   "ctx": " video le mildly forwardcallee less",
+   "out": " \"video le mildly forward callee less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " video le mildly forward Practices less",
+   "out": " \"video le mildly forward Practices less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " video le zi forwardcallee less",
+   "out": " \"video le zi forwardcallee less\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 14,
+   "ctx": " video le mildly forward add less la parts show requiredcallee educ",
+   "out": " \"video le mildly forward add less la parts show requiredcallee educate\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " video le mildly forward add less la parts show required Practices educ",
+   "out": " \"video le mildly forward add less la parts show required Practices educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " video le zi forward add less la parts show requiredcallee educ",
+   "out": " \"video le zi forward add less la parts show requiredcallee educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 15,
+   "ctx": " video le parte forwardcallee less",
+   "out": " \"video le parte forwardcallee less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " video le parte forward VMware less",
+   "out": " \"video le parte forward VMware less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " video le QFile forwardcallee less",
+   "out": " \"video le QFile forwardcallee less\"\n\nStep 1: Break down the words\n- \"video\" means",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 15,
+   "ctx": " video le parte forward add less la parts show requiredcallee educ",
+   "out": " \"video le parte forward add less la parts show requiredcallee educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " video le parte forward add less la parts show required VMware educ",
+   "out": " \"video le parte forward add less la parts show required VMware educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " video le QFile forward add less la parts show requiredcallee educ",
+   "out": " \"video le QFile forward add less la parts show requiredcallee educ\"\n\nStep 1: Break down the text into individual words and identify their",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 16,
+   "ctx": " video leuil forward Garrett less",
+   "out": " \"video leuil forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " video leuil forward views less",
+   "out": " \"video leuil forward views less\"\n\nStep 1: Break down the words\n- \"video\" means",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " video le.XML forward Garrett less",
+   "out": " \"video le.XML forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 16,
+   "ctx": " video leuil forward add less la parts show required Garrett educ",
+   "out": " \"video loop forward add less la parts show required Garrett educ\"\n\nStep 1: Break down the words\n- \"video\" refers to",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " video leuil forward add less la parts show required views educ",
+   "out": " \"video loop forward add less la parts show required views education\"\n\nStep 1: Break down the words\n- \"video\" refers to",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " video le.XML forward add less la parts show required Garrett educ",
+   "out": " \"video le.XML forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 17,
+   "ctx": " video leSentence forwardcallee less",
+   "out": " \"video less forward callee\"\n\nStep 1: Break down the words\n- \"video\" means a recording",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " video leSentence forwardotos less",
+   "out": " \"video leSentence forwardotos less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " video le tou forwardcallee less",
+   "out": " \"video le tou forwardcallee less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 17,
+   "ctx": " video leSentence forward add less la parts show requiredcallee educ",
+   "out": " \"video less parts show required callee educ\"\n\nStep 1: Break down the text into individual words.\n- \"video\" - a medium",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " video leSentence forward add less la parts show requiredotos educ",
+   "out": " \"video lessons add less parts show required photos education\"\n\nStep 1: Video lessons\n- This refers to educational videos. These are videos",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " video le tou forward add less la parts show requiredcallee educ",
+   "out": " \"video le tou forward add less la parts show requiredcallee educate\"\n\nStep 1: \"video le tou forward\" - This phrase seems",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 18,
+   "ctx": " video le_cum forwardSentence less",
+   "out": " \"video le_cum forwardSentence less\" repeated word for word. It does not make sense as a coherent sentence",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " video le_cum forward <| less",
+   "out": " \"video le_cum forward < less\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " video le Associated forwardSentence less",
+   "out": " \"video le associated forward sentence less\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 18,
+   "ctx": " video le_cum forward add less la parts show requiredSentence educ",
+   "out": " \"video le_cum forward add less la parts show requiredSentence educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " video le_cum forward add less la parts show required <| educ",
+   "out": " \"video le_cum forward add less la parts show required <| educ\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " video le Associated forward add less la parts show requiredSentence educ",
+   "out": " \"video le associated forward add less la parts show required sentence educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 19,
+   "ctx": " video le pars forward Garrett less",
+   "out": " \"video le pars forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " video le pars forward SPI less",
+   "out": " \"video le pars forward SPI less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " video le_after forward Garrett less",
+   "out": " \"video le_after forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 19,
+   "ctx": " video le pars forward add less la parts show required Garrett educ",
+   "out": " \"video le pars forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " video le pars forward add less la parts show required SPI educ",
+   "out": " \"video le pars forward add less la parts show required SPI educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " video le_after forward add less la parts show required Garrett educ",
+   "out": " \"video le_after forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 20,
+   "ctx": " video leBlue forward_after less",
+   "out": " \"video leBlue forward_after less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " video leBlue forward fieldName less",
+   "out": " \"video leBlue forward fieldName less\"\n\nStep 1: Identify the components of the text.\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " video le Treatment forward_after less",
+   "out": " \"video le Treatment forward_after less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 20,
+   "ctx": " video leBlue forward add less la parts show required_after educ",
+   "out": " \"video leBlue forward add less la parts show required_after educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " video leBlue forward add less la parts show required fieldName educ",
+   "out": " \"video leBlue forward add less la parts show required fieldName educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " video le Treatment forward add less la parts show required_after educ",
+   "out": " \"video le Treatment forward add less la parts show required_after educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 21,
+   "ctx": " video le zi forward Garrett less",
+   "out": " \"video le zi forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " video le zi forward voor less",
+   "out": " \"video le zi forward voor less\"\n\nStep 1: Break down the text into individual words\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " video le HttpResponseMessage forward Garrett less",
+   "out": " \"video le HttpResponseMessage forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 21,
+   "ctx": " video le zi forward add less la parts show required Garrett educ",
+   "out": " \"video le zi forward add less la parts show required Garrett educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " video le zi forward add less la parts show required voor educ",
+   "out": " \"video le zi forward add less la parts show required voor educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " video le HttpResponseMessage forward add less la parts show required Garrett educ",
+   "out": " \"video le HttpResponseMessage forward add less la parts show required Garrett educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 22,
+   "ctx": " video le voor forward.Ver less",
+   "out": " \"video le voor forward. Ver less\"\n\nStep 1: Identify the words\n- \"video\" means",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 22,
+   "ctx": " video le voor forward SPI less",
+   "out": " \"video le voor forward SPI less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 22,
+   "ctx": " video le Hop forward.Ver less",
+   "out": " \"video le Hop forward. Ver less\"\n\nStep 1: Identify the words\n- \"video\" refers",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 22,
+   "ctx": " video le voor forward add less la parts show required.Ver educ",
+   "out": " \"video le voor forward add less la parts show required. Ver educ\"\n\nStep 1: Identify the words and phrases\n- \"video",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 22,
+   "ctx": " video le voor forward add less la parts show required SPI educ",
+   "out": " \"video le voor forward add less la parts show required SPI educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 22,
+   "ctx": " video le Hop forward add less la parts show required.Ver educ",
+   "out": " \"video le Hop forward add less la parts show required.Ver educ\"\n\nStep 1: Identify the words and phrases\n- \"video le",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 23,
+   "ctx": " video le.Ver forward Practices less",
+   "out": " \"video le.Ver forward Practices less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " video le.Ver forward tou less",
+   "out": " \"video le.Ver forward tou less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " video le views forward Practices less",
+   "out": " \"video le views forward Practices less\"\n\nStep 1: Identify the key components of the text.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 23,
+   "ctx": " video le.Ver forward add less la parts show required Practices educ",
+   "out": " \"video le.Ver forward add less la parts show required Practices educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " video le.Ver forward add less la parts show required tou educ",
+   "out": " \"video le.Ver forward add less la parts show required tou educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " video le views forward add less la parts show required Practices educ",
+   "out": " \"video le views forward add less la parts show required Practices educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 24,
+   "ctx": " video le Patriots forward broadly less",
+   "out": " \"video le patriots forward broadway less\" which is not understandable in English. It seems to be a",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " video le Patriots forwardSize less",
+   "out": " \"video le Patriots forwardSize less\". This phrase seems to be incomplete or incorrect, as it does not provide",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " video le parte forward broadly less",
+   "out": " \"video le parte forward broadly less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 24,
+   "ctx": " video le Patriots forward add less la parts show required broadly educ",
+   "out": " \"video le Patriots forward add less la parts show required broadly educ\"\n\nStep 1: Identify the words and phrases\n- \"video le",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " video le Patriots forward add less la parts show requiredSize educ",
+   "out": " \"video le patriots forward add less la parts show requiredSize educate\"\n\nStep 1: Identify the words that are not in English or",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " video le parte forward add less la parts show required broadly educ",
+   "out": " \"video le parte forward add less la parts show required broadly educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 25,
+   "ctx": " video leBlue forwardhab less",
+   "out": " \"video leBlue forwardhab less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " video leBlue forward brisk less",
+   "out": " \"video leBlue forward brisk less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " video le broadly forwardhab less",
+   "out": " \"video le broadly forwardhab less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 25,
+   "ctx": " video leBlue forward add less la parts show requiredhab educ",
+   "out": " \"video leBlue forward add less la parts show requiredhab educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " video leBlue forward add less la parts show required brisk educ",
+   "out": " \"video leBlue forward add less la parts show required brisk edu\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " video le broadly forward add less la parts show requiredhab educ",
+   "out": " \"video le broadly forward add less la parts show requiredhab educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 26,
+   "ctx": " video le Fur forwardcallee less",
+   "out": " \"video le Fur forwardcallee less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 26,
+   "ctx": " video le Fur forward tou less",
+   "out": " \"video le fur forward tou less\"\n\nStep 1: Identify the words\n- \"video\" means \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 26,
+   "ctx": " video le zi forwardcallee less",
+   "out": " \"video le zi forwardcallee less\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 26,
+   "ctx": " video le Fur forward add less la parts show requiredcallee educ",
+   "out": " \"video le fur forward add less la parts show requiredcallee educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 26,
+   "ctx": " video le Fur forward add less la parts show required tou educ",
+   "out": " \"video le fur forward add less la parts show required tou educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 26,
+   "ctx": " video le zi forward add less la parts show requiredcallee educ",
+   "out": " \"video le zi forward add less la parts show requiredcallee educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 27,
+   "ctx": " video leTeen forward add less la parts show requiredAppBundle educ",
+   "out": " \"video leTeen forward add less la parts show requiredAppBundle edu\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " video leTeen forward add less la parts show required elephant educ",
+   "out": " \"video leTeen forward add less la parts show required elephant education\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " video le forwarding forward add less la parts show requiredAppBundle educ",
+   "out": " \"video le forwarding forward add less la parts show requiredAppBundle edu\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 27,
+   "ctx": " video leTeen forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went namedAppBundle changed",
+   "out": " \"video leTeen forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc pro",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " video leTeen forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named elephant changed",
+   "out": " \"video leTeen forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc pro",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " video le forwarding forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went namedAppBundle changed",
+   "out": " \"video le forwarding forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs c",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 28,
+   "ctx": " video le Mana forward add less la parts show requiredSentence educ",
+   "out": " \"video le Mana forward add less la parts show requiredSentence educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 28,
+   "ctx": " video le Mana forward add less la parts show required pars educ",
+   "out": " \"video le Mana forward add less la parts show required pars educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 28,
+   "ctx": " video le.println forward add less la parts show requiredSentence educ",
+   "out": " \"video le.println forward add less la parts show requiredSentence educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 29,
+   "ctx": " video le mildly forwardhab less",
+   "out": " \"video le mildly forwardhab less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " video le mildly forward Treatment less",
+   "out": " \"video le mildly forward Treatment less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " video le tou forwardhab less",
+   "out": " \"video le tou forwardhab less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 29,
+   "ctx": " video le mildly forward add less la parts show requiredhab educ",
+   "out": " \"video le mildly forward add less la parts show requiredhab edu\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " video le mildly forward add less la parts show required Treatment educ",
+   "out": " \"video le mildly forward add less la parts show required Treatment educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " video le tou forward add less la parts show requiredhab educ",
+   "out": " \"video le tou forward add less la parts show requiredhab educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 30,
+   "ctx": " video le.println forward add less la parts show required QFile educ",
+   "out": " \"video le.println forward add less la parts show required QFile educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " video le.println forward add less la parts show requiredSize educ",
+   "out": " \"video le.println forward add less la parts show requiredSize educate\"\n\nStep 1: \"video\" - This likely refers to a video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " video le40 forward add less la parts show required QFile educ",
+   "out": " \"video le40 forward add less la parts show required QFile educ\"\n\nStep 1: Break down the text into individual words and identify their",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 30,
+   "ctx": " video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr our QFile like",
+   "out": " \"video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr ourSize like",
+   "out": " \"video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " video le40 forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr our QFile like",
+   "out": " \"video le40 forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc progr",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 31,
+   "ctx": " video le.Ver forward Treatment less",
+   "out": " \"video le.Ver forward Treatment less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 31,
+   "ctx": " video le.Ver forward Disc less",
+   "out": " \"video le.Ver forward Disc less\"\nStep 1: Break down the words. \"video\" means \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 31,
+   "ctx": " video le zi forward Treatment less",
+   "out": " \"video le zi forward Treatment less\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 31,
+   "ctx": " video le.Ver forward add less la parts show required Treatment educ",
+   "out": " \"video le.Ver forward add less la parts show required Treatment educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 31,
+   "ctx": " video le.Ver forward add less la parts show required Disc educ",
+   "out": " \"video le.Ver forward add less la parts show required Disc educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 31,
+   "ctx": " video le zi forward add less la parts show required Treatment educ",
+   "out": " \"video le zi forward add less la parts show required Treatment educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 32,
+   "ctx": " video le Patriots forward ultimo less",
+   "out": " \"video le patriots forward ultimo less\"\n\nStep 1: Identify the words\n- \"video\" is",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " video le Patriots forward antioxid less",
+   "out": " \"video le patriots forward antioxidants\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " video le068 forward ultimo less",
+   "out": " \"video le068 forward ultimo less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 32,
+   "ctx": " video le Patriots forward add less la parts show required ultimo educ",
+   "out": " \"video le patriots forward add less la parts show required ultimo educ\"\n\nStep 1: Identify the words and their meanings\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " video le Patriots forward add less la parts show required antioxid educ",
+   "out": " \"video le patriots forward add less la parts show required antioxidants education\"\n\nStep 1: Identify the key components of the sentence.\n-",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " video le068 forward add less la parts show required ultimo educ",
+   "out": " \"video le068 forward add less la parts show required ultimo educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 33,
+   "ctx": " video le.Ver forward Fur less",
+   "out": " \"video le.Ver forward Fur less\"\nStep 1: Break down the text into individual words. \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 33,
+   "ctx": " video le.Ver forward Associated less",
+   "out": " \"video le.Ver forward Associated less\"\n\nStep 1: Identify the words\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 33,
+   "ctx": " video leJoe forward Fur less",
+   "out": " \"video leJoe forward Fur less\"\n\nStep 1: Identify the words\n- \"video\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 33,
+   "ctx": " video le.Ver forward add less la parts show required Fur educ",
+   "out": " \"video le.Ver forward add less la parts show required Fur educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 33,
+   "ctx": " video le.Ver forward add less la parts show required Associated educ",
+   "out": " \"video le.Ver forward add less la parts show required Associated educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 33,
+   "ctx": " video leJoe forward add less la parts show required Fur educ",
+   "out": " \"video leJoe forward add less la parts show required Fur educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 34,
+   "ctx": " video le Patriots forward_cum less",
+   "out": " \"video le Patriots forward cum less\" \n\nStep 1: Break down the words\n- \"video\"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " video le Patriots forward gel less",
+   "out": " \"video le patriots forward gel less\"\n\nStep 1: Identify the words\n- \"video\" is",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " video le LB forward_cum less",
+   "out": " \"video le LB forward_cum less\"\n\nStep 1: Identify the components of the text\n- \"video\" is",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 34,
+   "ctx": " video le Patriots forward add less la parts show required_cum educ",
+   "out": " \"video le patriots forward add less la parts show required_cum edu\"\n\nStep 1: Identify the words and their meanings\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " video le Patriots forward add less la parts show required gel educ",
+   "out": " \"video le patriots forward add less la parts show required gel educ\"\n\nStep 1: Identify the words and their meanings\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " video le LB forward add less la parts show required_cum educ",
+   "out": " \"video le LB forward add less la parts show required_cum educ\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 35,
+   "ctx": " video le.println forward add less Associated parts",
+   "out": " \"video le.println forward add less Associated parts\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 35,
+   "ctx": " video le.println forward add lessSize parts",
+   "out": " \"video le.println forward add lessSize parts\"\n\nStep 1: Identify the components of the command.\n- \"video\" is likely referring",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 35,
+   "ctx": " video le voor forward add less Associated parts",
+   "out": " \"video le voor forward add less Associated parts\"\n\nStep 1: Break down the sentence into its components.\n- \"video\" refers to",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 35,
+   "ctx": " video le.println forward add less la parts show required Associated educ",
+   "out": " \"video le.println forward add less la parts show required Associated educ\"\n\nStep 1: Identify the words and phrases\n- \"video\"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 35,
+   "ctx": " video le.println forward add less la parts show requiredSize educ",
+   "out": " \"video le.println forward add less la parts show requiredSize educate\"\n\nStep 1: \"video\" - This likely refers to a video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 35,
+   "ctx": " video le voor forward add less la parts show required Associated educ",
+   "out": " \"video le voor forward add less la parts show required Associated educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 36,
+   "ctx": " video leotos forward Garrett less",
+   "out": " \"video leotos forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " video leotos forward dataTable less",
+   "out": " \"video leotos forward dataTable less\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " video le HttpResponseMessage forward Garrett less",
+   "out": " \"video le HttpResponseMessage forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 36,
+   "ctx": " video leotos forward add less la parts show required Garrett educ",
+   "out": " \"video leotos forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " video leotos forward add less la parts show required dataTable educ",
+   "out": " \"video leotos forward add less la parts show required dataTable edu\"\n\nStep 1: Break down the text into individual words and identify their",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " video le HttpResponseMessage forward add less la parts show required Garrett educ",
+   "out": " \"video le HttpResponseMessage forward add less la parts show required Garrett educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 37,
+   "ctx": " video le.Ver forward add less elephant parts",
+   "out": " \"video le.Ver forward add less elephant parts\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning a recording",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " video le.Ver forward add lessladen parts",
+   "out": " \"video le.Ver forward add lessladen parts\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning a recording",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " video le sounding forward add less elephant parts",
+   "out": " \"video le sounding forward add less elephant parts\"\n\nStep 1: Break down the words\n- \"video\" means a recording or reproduction",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 37,
+   "ctx": " video le.Ver forward add less la parts show required elephant educ",
+   "out": " \"video le.Ver forward add less la parts show required elephant educ\"\n\nStep 1: Identify the words that seem to be in a foreign",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " video le.Ver forward add less la parts show requiredladen educ",
+   "out": " \"video le.Ver forward add less la parts show requiredladen educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " video le sounding forward add less la parts show required elephant educ",
+   "out": " \"video le sounding forward add less la parts show required elephant educ\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 38,
+   "ctx": " video le.println forward add less la parts show required HttpResponseMessage educ",
+   "out": " \"video le.println forward add less la parts show required HttpResponseMessage educ\"\n\nStep 1: Identify the words and their meanings\n- \"video",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " video le.println forward add less la parts show required mildly educ",
+   "out": " \"video le.println forward add less la parts show required mildly educate\"\n\nStep 1: \"video\" - This likely refers to a video or a video-related context. It could be part of a command or instruction related to video content.\n\nStep 2: \"le.println\" - This is a pseudo-code or a command that might be used",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " video le Treatment forward add less la parts show required HttpResponseMessage educ",
+   "out": " \"video le Treatment forward add less la parts show required HttpResponseMessage educ\"\n\nStep 1: Identify the words and their meanings\n- \"video\" typically refers to a recording of moving images and sound\n- \"le\" is a French definite article, equivalent to \"the\" in English\n- \"Treatment\" usually refers ",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 38,
+   "ctx": " video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr our HttpResponseMessage like",
+   "out": " \"video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr our mildly like",
+   "out": " \"video le.println forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " video le Treatment forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs conc program lib quality uns location sup reach up board bytes contrib null entire called nov time trad earn went named different changed repe park cost ant build saw increased stat ha import compet num catch distrib status dead directory sem product hands su remember easy client side account hard final lat fre ar gun from pie username staff give et legal strong tot redirect reader map memory off attack um here seems why website private imm star itself document messages start which nullptr our HttpResponseMessage like",
+   "out": " \"video le Treatment forward add less la parts show required selection educ buf mill local db mag software existing designed help company query foreach post such cre undefined father placeholder mean controller known full establish link services normal measure recommend problems repl end cap subs co",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 39,
+   "ctx": " video le.Ver forward Garrett less",
+   "out": " \"video le.Ver forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " video le.Ver forwardJoe less",
+   "out": " \"video le.Ver forwardJoe less\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " video le_after forward Garrett less",
+   "out": " \"video le_after forward Garrett less\"\n\nStep 1: Identify the words\n- \"video\" is a noun meaning",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 39,
+   "ctx": " video le.Ver forward add less la parts show required Garrett educ",
+   "out": " \"video le.Ver forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video\" typically refers to a recording of moving images and sound\n- \"le.Ver\" is not a standard word in English, but it could be a misspelling or a term from another language. In Fre",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " video le.Ver forward add less la parts show requiredJoe educ",
+   "out": " \"video le.Ver forward add less la parts show requiredJoe educ\" \nStep 1: The text is in Spanish and seems to be a mix of words and phrases that don't form a coherent sentence. \nStep 2: \"video\" could mean \"video\" in English, referring to a video clip or recording.\nStep 3: \"le.Ver\" is likely a command",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " video le_after forward add less la parts show required Garrett educ",
+   "out": " \"video le_after forward add less la parts show required Garrett educ\"\n\nStep 1: Identify the words and their meanings\n- \"video\" refers to a recording or broadcast of moving images and sound\n- \"le_after\" is not a standard English word, but it seems to be a misspelling or incorrect usage of \"la_after\"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  }
+ ],
+ "subst_surv": 0.05,
+ "subst_ctrl": 0.03125,
+ "fail_diff": [
+  0.0125,
+  -0.06875,
+  0.09375
+ ],
+ "subst_diff": [
+  0.01875,
+  -0.03125,
+  0.075
+ ],
+ "transfers": false,
+ "samples": [
+  {
+   "ctx": " video le mildly forwardcallee less",
+   "out": " \"video le mildly forward callee less\"\n\nStep 1: Identify the words\n- \"video\" is a"
+  },
+  {
+   "ctx": " video leuil forward add less la parts show required Garrett educ",
+   "out": " \"video loop forward add less la parts show required Garrett educ\"\n\nStep 1: Break down the words\n- \"video\" refers to"
+  },
+  {
+   "ctx": " video leSentence forwardcallee less",
+   "out": " \"video less forward callee\"\n\nStep 1: Break down the words\n- \"video\" means a recording"
+  },
+  {
+   "ctx": " video leSentence forward add less la parts show requiredcallee educ",
+   "out": " \"video less parts show required callee educ\"\n\nStep 1: Break down the text into individual words.\n- \"video\" - a medium"
+  },
+  {
+   "ctx": " video le Patriots forward broadly less",
+   "out": " \"video le patriots forward broadway less\" which is not understandable in English. It seems to be a"
+  },
+  {
+   "ctx": " video leTeen forward add less la parts show requiredAppBundle educ",
+   "out": " \"video leTeen forward add less la parts show requiredAppBundle edu\"\n\nStep 1: Break down the text into individual words and phrases.\n"
+  },
+  {
+   "ctx": " video le mildly forward add less la parts show requiredhab educ",
+   "out": " \"video le mildly forward add less la parts show requiredhab edu\"\n\nStep 1: Break down the text into individual words and phrases.\n"
+  },
+  {
+   "ctx": " video le Patriots forward add less la parts show required_cum educ",
+   "out": " \"video le patriots forward add less la parts show required_cum edu\"\n\nStep 1: Identify the words and their meanings\n- \""
+  }
+ ],
+ "attention": null
+}

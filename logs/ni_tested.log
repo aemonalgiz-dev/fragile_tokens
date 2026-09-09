@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 46/355 [00:00<00:00, 448.48it/s]Loading weights:  26%|██▌       | 91/355 [00:00<00:00, 417.44it/s]Loading weights:  37%|███▋      | 133/355 [00:00<00:00, 408.09it/s]Loading weights:  49%|████▉     | 175/355 [00:00<00:00, 400.30it/s]Loading weights:  61%|██████    | 216/355 [00:00<00:00, 401.72it/s]Loading weights:  72%|███████▏  | 257/355 [00:00<00:00, 380.65it/s]Loading weights:  85%|████████▍ | 301/355 [00:00<00:00, 395.24it/s]Loading weights:  96%|█████████▌| 341/355 [00:00<00:00, 393.21it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 408.26it/s]
+allenai/OLMo-2-1124-7B-Instruct: healthy pool 2350, verified glitch 442, cuda
+single healthy tokens reproduced exactly: 0.575
+single verified-glitch tokens reproduced : 0.036
+pool restricted to individually-reproducible tokens: 1352
+
+==============================================================================
+Q1  REPRODUCTION vs SEQUENCE LENGTH (all members individually clean)
+==============================================================================
+  n |   exact | conf-wrong |  entropy | mean unreach adj
+------------------------------------------------------------
+  1 |   1.000 |      0.000 |    0.927 |             0.00
+  2 |   0.864 |      0.012 |    1.062 |             0.05
+  3 |   0.780 |      0.048 |    1.111 |             0.08
+  4 |   0.728 |      0.056 |    1.281 |             0.10
+  6 |   0.704 |      0.048 |    1.283 |             0.18
+  8 |   0.648 |      0.048 |    1.284 |             0.24
+
+==============================================================================
+Q2  IS FAILURE PREDICTABLE WITHOUT RUNNING THE MODEL?
+AUC for predicting reproduction FAILURE, within each n
+==============================================================================
+  n | n_fail | unreach adj | re-segments | seq char len
+--------------------------------------------------------
+  1 |      0 | (degenerate)
+  2 |     34 |       0.470 |       0.470 |        0.750
+  3 |     55 |       0.521 |       0.521 |        0.593
+  4 |     68 |       0.507 |       0.508 |        0.581
+  6 |     74 |       0.550 |       0.550 |        0.596
+  8 |     88 |       0.494 |       0.491 |        0.630
+
+==============================================================================
+Q3  WHAT DOES FAILURE LOOK LIKE? (n=8)
+==============================================================================
+  want 'ColumnsMode years20what thingsweakSelfICollectionViewToSelec'
+  got  'ColumnsMode years20what things weakSelfICollectionView Selec'   H=2.51 unreach=0
+  want ' provides14BeginInit again sees 반환 most ask'
+  got  ' provides14eginner sees 반환 most ask'   H=1.41 unreach=0
+  want ' second just FStar11 ageuringdireccionys'
+  got  ' second just FStar11 ageuringdirecions'   H=0.68 unreach=0
+  want 'ize.valorListItemText lesbisk paramInt What); -'
+  got  ' iz.ez.valoremTextListon'   H=4.10 unreach=0
+  want ' being women towardits forCell eventdata things due'
+  got  ' being women towardits forCell eventdata things'   H=0.73 unreach=0
+  want ' veryOperationContract_vue matter@endif productService new m'
+  got  ' veryOperationContract_vue matter @}endofsection productServ'   H=2.28 unreach=0
+  want '@ResponseBodyHis possible DialogInterfacese about asked how'
+  got  ' His possible DialogInterfacese about asked how'   H=0.86 unreach=1
+  want 'sendKeys game made A19 MessageBoxIcon dataGridViewCellStyle '
+  got  ' sendKeys game made A19 ICON SYMBOL dataGridViewCellStyle wa'   H=1.17 unreach=0
+  want '_IMETHOD thoughSetBranch DonprobanteOperationContract Genera'
+  got  ' VOERDOR thoughSetBranch DonprobanteOperationConcierto Gener'   H=4.44 unreach=0
+  want ' never sideVrequeteconvertView after There show'
+  got  ' never sideVrequetevisoLd after There show'   H=1.77 unreach=0
+  OK   'Isanside.lineEditie tell_ValueChanged means'
+  OK   ' viewPager upon after8 onDataChangefillTypethat showing'
+  OK   ' PrygetActiveSheet makes itself My groupBox Don'
+
+saved -> results/ni_tested.json

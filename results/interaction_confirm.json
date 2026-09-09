@@ -1,0 +1,257 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "n_pairs": 40,
+ "exploratory": true,
+ "pairs": [
+  [
+   31380,
+   73988,
+   -0.24376127818410562
+  ],
+  [
+   33617,
+   43605,
+   -0.19601338765816462
+  ],
+  [
+   43605,
+   85664,
+   -0.1707100593440005
+  ],
+  [
+   43605,
+   44029,
+   -0.14229595242173196
+  ],
+  [
+   58716,
+   43605,
+   -0.13866007961077492
+  ],
+  [
+   87576,
+   58716,
+   -0.13343036893639867
+  ],
+  [
+   17346,
+   58716,
+   -0.12612300165209314
+  ],
+  [
+   17346,
+   33617,
+   -0.12524033642695204
+  ],
+  [
+   75491,
+   92428,
+   -0.11854255662348935
+  ],
+  [
+   43605,
+   76949,
+   -0.11576568195476153
+  ],
+  [
+   58716,
+   85664,
+   -0.11425735805443894
+  ],
+  [
+   10544,
+   92428,
+   -0.11112177005236934
+  ],
+  [
+   43605,
+   49227,
+   -0.09886233979411715
+  ],
+  [
+   33617,
+   85664,
+   -0.0940412060711835
+  ],
+  [
+   76949,
+   87576,
+   -0.08995496904183364
+  ],
+  [
+   20108,
+   87576,
+   -0.08378320848369404
+  ],
+  [
+   58797,
+   58716,
+   -0.0817248844202173
+  ],
+  [
+   85664,
+   87576,
+   -0.07453277174050484
+  ],
+  [
+   92428,
+   85664,
+   -0.0740580129436564
+  ],
+  [
+   10364,
+   58716,
+   -0.07357718308405006
+  ],
+  [
+   10544,
+   20434,
+   -0.07258964532611789
+  ],
+  [
+   64573,
+   58716,
+   -0.07031143355077672
+  ],
+  [
+   13227,
+   43605,
+   -0.06863969095139684
+  ],
+  [
+   43605,
+   64813,
+   -0.06389393101425238
+  ],
+  [
+   33617,
+   44029,
+   -0.06169558196832743
+  ],
+  [
+   10544,
+   10796,
+   -0.05818889354262474
+  ],
+  [
+   50940,
+   87576,
+   -0.05714935440276003
+  ],
+  [
+   65331,
+   73988,
+   -0.05676318895262695
+  ],
+  [
+   50438,
+   85664,
+   -0.055361822427336116
+  ],
+  [
+   76949,
+   10796,
+   -0.05512426623734729
+  ],
+  [
+   2986,
+   80070,
+   -0.0535652705692168
+  ],
+  [
+   43605,
+   31969,
+   -0.05288068742258171
+  ],
+  [
+   33617,
+   93106,
+   -0.05121904956919415
+  ],
+  [
+   43605,
+   50940,
+   -0.05112539744473429
+  ],
+  [
+   33617,
+   92428,
+   -0.05042959096006901
+  ],
+  [
+   2986,
+   26475,
+   -0.04843401127264511
+  ],
+  [
+   8160,
+   58716,
+   -0.048133245415697065
+  ],
+  [
+   43605,
+   46840,
+   -0.0479596271530963
+  ],
+  [
+   2986,
+   69804,
+   -0.046864877005570335
+  ],
+  [
+   43605,
+   58716,
+   -0.04672649366798829
+  ]
+ ],
+ "fail_surv": 0.2875,
+ "fail_ctrl": 0.2,
+ "subst_surv": 0.25,
+ "subst_ctrl": 0.18125,
+ "fail_diff": [
+  0.0875,
+  -0.00625,
+  0.18125
+ ],
+ "subst_diff": [
+  0.06875,
+  -0.0125,
+  0.15625
+ ],
+ "transfers": false,
+ "samples": [
+  {
+   "ctx": " video le Patriots forward.Ver less",
+   "out": " \"video le patriots forward ver less\" which is a phrase in French. It translates to \"watch the"
+  },
+  {
+   "ctx": " video le Patriots forward add less la parts show required.Ver educ",
+   "out": " \"video le patriots forward add less la parts show required. ver educ\"\n\nStep 1: Identify the words and phrases\n- \""
+  },
+  {
+   "ctx": " video le Garrett forward add less la parts show required.Ver educ",
+   "out": " \"video le garrett forward add less la parts show required. Ver educ\"\n\nStep 1: Identify the words and their meanings\n-"
+  },
+  {
+   "ctx": " video leilon forward Patriots less",
+   "out": " \"video leilon forward patriots less\"\n\nStep 1: Identify the words\n- \"video\" is"
+  },
+  {
+   "ctx": " video le Garrett forward add less la parts show requiredSentence educ",
+   "out": " \"video le garrett forward add less la parts show requiredSentence educ\" \nStep 1: Identify the words and their meanings\n-"
+  },
+  {
+   "ctx": " video le Patriots forward add less la parts show requiredSentence educ",
+   "out": " \"video le patriots forward add less la parts show requiredSentence educ\" \nStep 1: Identify the words and their meanings\n-"
+  },
+  {
+   "ctx": " video le mildly forwardcallee less",
+   "out": " \"video le mildly forward callee less\"\n\nStep 1: Identify the words\n- \"video\" is a"
+  },
+  {
+   "ctx": " video leuil forward add less la parts show required Garrett educ",
+   "out": " \"video loop forward add less la parts show required Garrett educ\"\n\nStep 1: Break down the words\n- \"video\" refers to"
+  }
+ ],
+ "attention": null
+}

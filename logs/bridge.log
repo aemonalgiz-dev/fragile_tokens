@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1255 entities with fragility for every constituent token
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  14%|█▎        | 48/355 [00:00<00:00, 479.87it/s]Loading weights:  27%|██▋       | 96/355 [00:00<00:00, 458.60it/s]Loading weights:  40%|████      | 142/355 [00:00<00:00, 429.02it/s]Loading weights:  52%|█████▏    | 186/355 [00:00<00:00, 427.58it/s]Loading weights:  65%|██████▍   | 229/355 [00:00<00:00, 421.03it/s]Loading weights:  77%|███████▋  | 272/355 [00:00<00:00, 412.54it/s]Loading weights:  88%|████████▊ | 314/355 [00:00<00:00, 407.62it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 429.29it/s]
+generating...
+
+==============================================================================
+OUTCOMES  (0 exact, 1 near-miss = the hallucination, 2 miss)
+==============================================================================
+   code (n=1100): exact 0.252   near-miss 0.235   miss 0.514
+   noun (n= 155): exact 0.987   near-miss 0.006   miss 0.006
+
+  near-miss specimens:
+    'ssl.ALERT_DESCRIPTION_PROTOCOL_VERSION' -> 'ALERT_DESCRIPTION_PROTOCOL_VERSION'     frag_max 1.00 fam -7.54
+                                'Nukuʻalofa' -> "Nuku'alofa"                             frag_max 0.96 fam -2.42
+                         'asyncio.Transport' -> 'asyncio.transport'                      frag_max 0.92 fam -8.44
+                   'numpy.ravel_multi_index' -> 'np.ravel_multi_index'                   frag_max 0.88 fam -6.56
+      'transformers.DepthEstimationPipeline' -> 'DepthEstimationPipeline'                frag_max 0.83 fam -8.30
+      'transformers.IMAGE_PROCESSOR_MAPPING' -> 'IMAGE_PROCESSOR_MAPPING'                frag_max 0.75 fam -7.89
+             'socket.TIPC_MEDIUM_IMPORTANCE' -> 'sock.TIPC_MEDIUM_IMPORTANCE'            frag_max 0.75 fam -8.92
+                'socket.TIPC_LOW_IMPORTANCE' -> 'sock.TIPC_LOW_IMPORTANCE'               frag_max 0.75 fam -7.74
+                    'curses.BUTTON5_PRESSED' -> 'curses.C_BUTTON5_PRESSED'               frag_max 0.71 fam -7.23
+        'transformers.PeVideoVideoProcessor' -> 'PeVideoVideoProcessor'                  frag_max 0.71 fam -8.05
+
+==============================================================================
+PER-FEATURE AUC   target A: any failure   target B: near-miss vs everything else
+==============================================================================
+       feature | AUC fail | AUC near | spearman(fail)
+--------------------------------------------------------
+         n_tok |    0.379 |    0.423 |         -0.043
+       n_chars |    0.760 |    0.692 |         +0.157
+   log_id_mean |    0.582 |    0.650 |         +0.211
+    log_id_max |    0.552 |    0.623 |         +0.114
+    single_min |    0.677 |    0.523 |         -0.120
+   single_mean |    0.633 |    0.526 |         -0.109
+   familiarity |    0.667 |    0.572 |         -0.237
+      frag_max |    0.567 |    0.558 |         +0.048
+     frag_mean |    0.558 |    0.553 |         +0.041
+      frag_any |    0.544 |    0.540 |         +0.047
+       is_code |    0.677 |    0.575 |         +0.344
+
+==============================================================================
+CROSS-VALIDATED LOGISTIC: does fragility add to the controls?
+==============================================================================
+
+  target = any failure  (825 positives / 1255)
+                                   rarity only: AUC 0.780 [0.752, 0.809]
+                         rarity + single probe: AUC 0.781 [0.754, 0.809]
+      rarity + single + familiarity (controls): AUC 0.792 [0.766, 0.820]
+                          controls + fragility: AUC 0.797 [0.770, 0.824]
+                                fragility only: AUC 0.539 [0.508, 0.573]
+    improvement from adding fragility: +0.005  95% CI [-0.001, +0.012]
+
+  target = near-miss  (259 positives / 1255)
+                                   rarity only: AUC 0.741 [0.709, 0.772]
+                         rarity + single probe: AUC 0.741 [0.708, 0.772]
+      rarity + single + familiarity (controls): AUC 0.739 [0.706, 0.769]
+                          controls + fragility: AUC 0.741 [0.709, 0.771]
+                                fragility only: AUC 0.554 [0.513, 0.597]
+    improvement from adding fragility: +0.002  95% CI [-0.005, +0.009]
+
+==============================================================================
+VERDICT
+==============================================================================
+  fragility does NOT reliably add over the controls for near-miss (+0.002, CI [-0.005, +0.009]). The two phenomena share a cause (rarity) but fragility is not an independent predictor here.
+
+saved -> results/hallucination_bridge.json

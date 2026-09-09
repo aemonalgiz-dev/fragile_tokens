@@ -1,0 +1,68 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   1%|          | 2/311 [00:00<00:22, 13.93it/s]Loading weights:  26%|██▌       | 81/311 [00:00<00:00, 390.20it/s]Loading weights:  51%|█████▏    | 160/311 [00:00<00:00, 547.56it/s]Loading weights:  77%|███████▋  | 240/311 [00:00<00:00, 639.24it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 570.16it/s]
+label-free sets from results/fragility_qwen3_1_7b.pt: worst-32 by single probe (lp -19.00..-16.86) vs 32 clean
+Qwen/Qwen3-1.7B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["'.currentTarge", "'.r'", "'格會員'", "'.y'", "'웛'", "'เน็ต'"]
+  healthy: ["' hà'", "' 参数'", "' Rol'", "' majority'", "' output'", "' già'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      1.148      2.675  -1.527 |   0.5691   0.0344
+     2 |      1.575      2.853  -1.278 |   0.5725   0.0139
+     4 |      0.919      2.101  -1.182 |   0.5398   0.0070
+     8 |      0.258      3.098  -2.840 |   0.4207   0.0089
+
+  distinct scripts in output : glitch 1.00  healthy 1.03
+  token-repetition rate      : glitch 0.301  healthy 0.031
+  reproduced the seed token  : glitch 0.000  healthy 0.000
+
+  --- sample generations (completion) ---
+  [GLITCH] '.currentTarget' -> ' is not a valid property of the element'
+  [GLITCH] '.r' -> 'am is a 4-letter word.'
+  [GLITCH] '格會員' -> ' is a term used in the context of'
+  [HEALTHY] ' hà' -> 'm is used in Vietnamese to mean "'
+  [HEALTHY] ' 参数' -> ' is used in Chinese to mean "parameters'
+
+==========================================================================
+REGIME: reasoning   (512 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.086      0.180  -0.094 |   0.5398   0.0025
+     2 |      0.012      0.021  -0.009 |   0.5038   0.0024
+     4 |      0.097      0.185  -0.088 |   0.6295   0.0088
+     8 |      0.034      0.867  -0.833 |   0.6743   0.0019
+    16 |      0.052      0.685  -0.633 |   0.6814   0.0032
+    32 |      0.021      0.728  -0.707 |   0.6957   0.0072
+    64 |      0.809      0.541   0.267 |   0.0088   0.0028
+   128 |      0.635      0.484   0.151 |   0.2829   0.0021
+   192 |      0.522      0.581  -0.059 |   0.0040   0.0069
+   255 |      0.534      0.258   0.276 |   0.0069   0.0034
+   383 |      0.007      0.420  -0.413 |   0.0062   0.0023
+   511 |      0.041      0.259  -0.218 |   0.0169   0.0023
+
+  distinct scripts in output : glitch 1.00  healthy 1.19
+  token-repetition rate      : glitch 0.779  healthy 0.636
+  reproduced the seed token  : glitch 0.000  healthy 0.500
+
+  --- sample generations (reasoning) ---
+  [GLITCH] '.currentTarget' -> ' The user is asking about ".target" in JavaScript. I need to explain what it is and how it\'s used.\\n\\nFirst, I remember that in JavaScript, the "this" keyword ref'
+  [GLITCH] '.r' -> ' The user wrote ".r" which is a single character. I need to figure out what they\'re asking for. Maybe they want to know what that character represents or what i'
+  [GLITCH] '格會員' -> ' The user wrote "</think>\\n\\n</think>\\n\\nIt seems like you might have made a typo or there\'s a formatting issue. Could you please clarify what you\'re asking? Are yo'
+  [HEALTHY] ' hà' -> ' The user wrote "h\\xe0" which is a Vietnamese word meaning "how" or "what". But they might be asking for a specific answer related to a topic they\'re interested in'
+  [HEALTHY] ' 参数' -> ' The user mentioned "\\u53c2\\u6570" which is Chinese for "parameters." In the context of a programming or mathematical problem, parameters usually refer to variables that '
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   -2.840
+  entropy gap, reasoning   @step8   -0.833
+  entropy gap, reasoning   @step511 -0.218
+  glitch chain alignment,  step1 -> step511   0.5398 -> 0.0169
+  healthy chain alignment, step1 -> step511   0.0025 -> 0.0023
+
+saved -> results/reasoning_qwen3_1_7b_think_v2.json

@@ -1,0 +1,4 @@
+results/fragility_qwen3_235b.pt: N=8400 gate p>0.5 -> n_clean 6277; single pct50 -0.040 pct90 -0.003; ctx median -0.0007
+  fail_p61: frag>=0.10 0.109 (n=684)  never 0.799  mean 0.0571  half-corr 0.952
+  fail_p50: frag>=0.10 0.099 (n=623)  never 0.814  mean 0.0521  half-corr 0.951
+  shares (clean, lp): token 0.653 context 0.010 interaction 0.337

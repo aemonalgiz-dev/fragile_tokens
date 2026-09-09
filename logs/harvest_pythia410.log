@@ -1,0 +1,64 @@
+EleutherAI/pythia-410m: 20 checkpoints
+   step 0         step0
+   step 1         step1
+   step 2         step2
+   step 4         step4
+   step 8         step8
+   step 16        step16
+   step 32        step32
+   step 64        step64
+   step 128       step128
+   step 256       step256
+   step 512       step512
+   step 1000      step1000
+   step 2000      step2000
+   step 4000      step4000
+   step 8000      step8000
+   step 16000     step16000
+   step 32000     step32000
+   step 64000     step64000
+   step 100000    step100000
+   step 143000    step143000
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 8082.04it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  step 0         |W| 0.6323 centered 0.6323 delta 0.00000 hub_max 26
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4811.42it/s]
+  step 1         |W| 0.6323 centered 0.6323 delta 0.00000 hub_max 26
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 5003.68it/s]
+  step 2         |W| 0.6323 centered 0.6323 delta 0.00000 hub_max 26
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 5001.82it/s]
+  step 4         |W| 0.6323 centered 0.6323 delta 0.00002 hub_max 26
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4793.83it/s]
+  step 8         |W| 0.6323 centered 0.6323 delta 0.00012 hub_max 26
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4838.31it/s]
+  step 16        |W| 0.6322 centered 0.6322 delta 0.00051 hub_max 26
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4906.23it/s]
+  step 32        |W| 0.6322 centered 0.6322 delta 0.00195 hub_max 25
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 5233.49it/s]
+  step 64        |W| 0.6322 centered 0.6321 delta 0.00747 hub_max 25
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4908.17it/s]
+  step 128       |W| 0.6329 centered 0.6322 delta 0.02978 hub_max 32
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 5029.86it/s]
+  step 256       |W| 0.6419 centered 0.6353 delta 0.08569 hub_max 116
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4871.28it/s]
+  step 512       |W| 0.6870 centered 0.6676 delta 0.19264 hub_max 619
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 8273.18it/s]
+  step 1000      |W| 0.8194 centered 0.7869 delta 0.34473 hub_max 102
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4855.83it/s]
+  step 2000      |W| 1.0066 centered 0.9673 delta 0.49375 hub_max 102
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4805.19it/s]
+  step 4000      |W| 1.1047 centered 1.0584 delta 0.47272 hub_max 169
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4969.21it/s]
+  step 8000      |W| 1.1577 centered 1.1045 delta 0.47751 hub_max 351
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 5089.46it/s]
+  step 16000     |W| 1.1673 centered 1.1097 delta 0.47920 hub_max 549
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4891.36it/s]
+  step 32000     |W| 1.1180 centered 1.0634 delta 0.47803 hub_max 534
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4788.84it/s]
+  step 64000     |W| 0.9803 centered 0.9389 delta 0.47858 hub_max 382
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4864.93it/s]
+  step 100000    |W| 0.8470 centered 0.8088 delta 0.33062 hub_max 516
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4847.33it/s]
+  step 143000    |W| 0.7855 centered 0.7491 delta 0.18535 hub_max 823
+
+saved -> results/traj_pythia410m.pt  shape (20, 50304)

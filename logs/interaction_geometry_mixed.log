@@ -1,0 +1,42 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+64x64 pairs, R=14, 1 FDR-significant off-diagonal
+fewer than 5 significant pairs: AUCs vs the significance mask are not meaningful; Spearman with continuous I is the informative column
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   1%|          | 2/355 [00:00<00:20, 17.10it/s]Loading weights:  14%|█▎        | 48/355 [00:00<00:01, 252.42it/s]Loading weights:  21%|██▏       | 76/355 [00:00<00:01, 249.31it/s]Loading weights:  29%|██▉       | 104/355 [00:00<00:01, 236.84it/s]Loading weights:  38%|███▊      | 136/355 [00:00<00:00, 247.71it/s]Loading weights:  47%|████▋     | 168/355 [00:00<00:00, 260.44it/s]Loading weights:  55%|█████▍    | 195/355 [00:00<00:00, 255.33it/s]Loading weights:  63%|██████▎   | 223/355 [00:00<00:00, 260.50it/s]Loading weights:  72%|███████▏  | 255/355 [00:01<00:00, 270.73it/s]Loading weights:  80%|███████▉  | 283/355 [00:01<00:00, 260.47it/s]Loading weights:  87%|████████▋ | 310/355 [00:01<00:00, 261.60it/s]Loading weights:  95%|█████████▍| 337/355 [00:01<00:00, 253.83it/s]Loading weights: 100%|██████████| 355/355 [00:01<00:00, 256.13it/s]
+
+====================================================================================
+GEOMETRIC PREDICTORS OF THE INTERACTION  (off-diagonal, pooled over distance)
+====================================================================================
+             predictor | spearman(I) | AUC(sig) |           95% CI
+----------------------------------------------------------------------
+                cos_in |      +0.053 |      nan | [nan, nan]
+              cross_ab |      +0.078 |      nan | [nan, nan]
+              cross_ba |      -0.069 |      nan | [nan, nan]
+             cross_max |      +0.007 |      nan | [nan, nan]
+   norm_min (baseline) |      +0.059 |      nan | [nan, nan]
+   norm_max (baseline) |      -0.006 |      nan | [nan, nan]
+     id_min (baseline) |      -0.041 |      nan | [nan, nan]
+     id_max (baseline) |      +0.045 |      nan | [nan, nan]
+          R_copy_i_mid |      +0.018 |      nan | [nan, nan]
+          R_copy_j_mid |      +0.080 |      nan | [nan, nan]
+          R_text_j_mid |      +0.079 |      nan | [nan, nan]
+         R_copy_i_last |      -0.030 |      nan | [nan, nan]
+         R_copy_j_last |      +0.054 |      nan | [nan, nan]
+         R_text_j_last |      +0.043 |      nan | [nan, nan]
+
+====================================================================================
+ACTIVATION-SPACE INTERFERENCE BY DISTANCE BAND  (last layer, copy span)
+====================================================================================
+  band |  R | mean R copy_i | spearman(I_band) | AUC(sig)
+--------------------------------------------------------------
+ short |  6 |        0.0501 |           -0.069 |      nan
+   mid |  4 |        0.0089 |           -0.053 |      nan
+  long |  4 |        0.0049 |           +0.130 |      nan
+
+====================================================================================
+PRE-REGISTERED VERDICT
+====================================================================================
+  best rarity-baseline AUC: 0.500
+  NO geometric predictor passes. Interaction, if present, is not
+  predictable by these static or activation-space features.
+
+saved -> results/interaction_geometry_mixed.json

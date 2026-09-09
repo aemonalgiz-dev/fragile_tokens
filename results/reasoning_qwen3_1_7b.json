@@ -1,0 +1,394 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "n": 32,
+ "thinking": false,
+ "model_info": {
+  "model": "Qwen/Qwen3-1.7B",
+  "commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "num_layers": 28,
+  "hidden_size": 2048,
+  "vocab_size": 151936,
+  "tie_word_embeddings": true,
+  "architecture": "Qwen3ForCausalLM",
+  "quantized": false,
+  "tokenizer_class": "Qwen2Tokenizer"
+ },
+ "glitch_ids": [
+  37010,
+  1746,
+  116355,
+  151297,
+  71848,
+  2384,
+  27487,
+  149983,
+  138923,
+  148360,
+  143420,
+  137490,
+  136628,
+  130320,
+  129910,
+  133587,
+  129114,
+  143828,
+  138662,
+  149806,
+  147225,
+  132349,
+  133219,
+  137791,
+  141686,
+  126984,
+  127008,
+  131787,
+  134894,
+  134220,
+  136695,
+  127932
+ ],
+ "control_ids": [
+  131184,
+  71361,
+  30942,
+  8686,
+  2550,
+  71543,
+  62966,
+  29186,
+  138493,
+  97876,
+  68343,
+  5106,
+  88057,
+  44141,
+  61245,
+  34167,
+  127723,
+  467,
+  98656,
+  93469,
+  4462,
+  76617,
+  84376,
+  92150,
+  72788,
+  56565,
+  19228,
+  19610,
+  83669,
+  96180,
+  62837,
+  56836
+ ],
+ "completion": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 1.3755035400390625,
+    "ent_h": 3.0603485107421875,
+    "gap": -1.684844970703125,
+    "pcos_g": 0.44910213447386216,
+    "pcos_h": 0.059652882658185497
+   },
+   {
+    "step": 2,
+    "ent_g": 1.57138991355896,
+    "ent_h": 3.2757492065429688,
+    "gap": -1.7043592929840088,
+    "pcos_g": 0.4488751301842351,
+    "pcos_h": 0.012464377127828136
+   },
+   {
+    "step": 4,
+    "ent_g": 0.9543793797492981,
+    "ent_h": 2.310210704803467,
+    "gap": -1.3558313846588135,
+    "pcos_g": 0.4369729468899388,
+    "pcos_h": 0.02085796094709827
+   },
+   {
+    "step": 8,
+    "ent_g": 0.40325111150741577,
+    "ent_h": 2.307861328125,
+    "gap": -1.9046101570129395,
+    "pcos_g": 0.2542809853630681,
+    "pcos_h": 0.002051902033628955
+   }
+  ],
+  "scripts": [
+   1.0,
+   1.03125
+  ],
+  "rep": [
+   0.265625,
+   0.0546875
+  ],
+  "self": [
+   0.0,
+   0.03125
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": ".currentTarget",
+    "gen": " is not a valid property of the element"
+   },
+   {
+    "group": "glitch",
+    "tok": ".r",
+    "gen": "am is a 4-letter word."
+   },
+   {
+    "group": "glitch",
+    "tok": "\u683c\u6703\u54e1",
+    "gen": " is a term used in the context of"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ud834\uddd7",
+    "gen": "\nThe word \"crastination\" is"
+   },
+   {
+    "group": "glitch",
+    "tok": "'#",
+    "gen": "' is used to denote the operation of"
+   },
+   {
+    "group": "glitch",
+    "tok": ".y",
+    "gen": "es is used in the following sentences."
+   },
+   {
+    "group": "glitch",
+    "tok": "\ufffd\ufffd\u53d6",
+    "gen": "\n\nThe word \"water\" is spelled"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": "\n\nThe word \"triumph\""
+   },
+   {
+    "group": "healthy",
+    "tok": " \u05d3\u05d1\u05e8\u05d9\u05dd",
+    "gen": " is a Hebrew word that means \"things"
+   },
+   {
+    "group": "healthy",
+    "tok": " fatally",
+    "gen": " is used in the following sentence. "
+   },
+   {
+    "group": "healthy",
+    "tok": " Colon",
+    "gen": "ies is used in the context of the"
+   },
+   {
+    "group": "healthy",
+    "tok": " majority",
+    "gen": " is used in the following way: it"
+   },
+   {
+    "group": "healthy",
+    "tok": " output",
+    "gen": " is the result of the following code:\n\n"
+   },
+   {
+    "group": "healthy",
+    "tok": " farewell",
+    "gen": " is used in the following sentences. "
+   },
+   {
+    "group": "healthy",
+    "tok": " Lobby",
+    "gen": " is a bit of a red herring"
+   },
+   {
+    "group": "healthy",
+    "tok": " \u015b",
+    "gen": "r\u012b is used in the Vedas"
+   }
+  ]
+ },
+ "reasoning": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 0.09071235358715057,
+    "ent_h": 0.1941765546798706,
+    "gap": -0.10346420109272003,
+    "pcos_g": 0.48624882198149155,
+    "pcos_h": 0.005079745345057979
+   },
+   {
+    "step": 2,
+    "ent_g": 0.011823185719549656,
+    "ent_h": 0.02107260562479496,
+    "gap": -0.009249419905245304,
+    "pcos_g": 0.44625896311575364,
+    "pcos_h": 0.0030330727177281525
+   },
+   {
+    "step": 4,
+    "ent_g": 0.10624207556247711,
+    "ent_h": 0.12338477373123169,
+    "gap": -0.017142698168754578,
+    "pcos_g": 0.553888649709763,
+    "pcos_h": 0.005657319940866962
+   },
+   {
+    "step": 8,
+    "ent_g": 0.057134732604026794,
+    "ent_h": 0.916744589805603,
+    "gap": -0.859609842300415,
+    "pcos_g": 0.5880428264217992,
+    "pcos_h": 0.0037812842356581833
+   },
+   {
+    "step": 16,
+    "ent_g": 0.09566736221313477,
+    "ent_h": 0.6761800050735474,
+    "gap": -0.5805126428604126,
+    "pcos_g": 0.5943533489781041,
+    "pcos_h": 0.0022894582080264236
+   },
+   {
+    "step": 32,
+    "ent_g": 0.025564607232809067,
+    "ent_h": 0.6257011294364929,
+    "gap": -0.6001365184783936,
+    "pcos_g": 0.6147411177235265,
+    "pcos_h": 0.004453967355432048
+   },
+   {
+    "step": 64,
+    "ent_g": 0.7811245918273926,
+    "ent_h": 0.6949199438095093,
+    "gap": 0.0862046480178833,
+    "pcos_g": 0.013255414583029285,
+    "pcos_h": 0.0019653616773505356
+   },
+   {
+    "step": 128,
+    "ent_g": 0.5581417083740234,
+    "ent_h": 0.5115319490432739,
+    "gap": 0.04660975933074951,
+    "pcos_g": 0.2714708755093236,
+    "pcos_h": 0.006380519859733119
+   },
+   {
+    "step": 192,
+    "ent_g": 0.5774760842323303,
+    "ent_h": 0.420015811920166,
+    "gap": 0.1574602723121643,
+    "pcos_g": 0.00835468902462913,
+    "pcos_h": 0.0023285737561602737
+   },
+   {
+    "step": 255,
+    "ent_g": 0.5225012302398682,
+    "ent_h": 0.5235602855682373,
+    "gap": -0.0010590553283691406,
+    "pcos_g": 0.01949856898957683,
+    "pcos_h": 0.0028026672380585815
+   }
+  ],
+  "scripts": [
+   1.0,
+   1.15625
+  ],
+  "rep": [
+   0.5869140625,
+   0.515625
+  ],
+  "self": [
+   0.0,
+   0.46875
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": ".currentTarget",
+    "gen": " The user is asking about \".target\" in JavaScript. I need to explain what it is and how it's used.\n\nFirst, I remember that in JavaScript, the \"this\" keyword refers to the object that the function is called on. But the user is asking about \".target\", which is a property in the Event object. So I should explain that \".target\" is a property of the event object that holds the element that triggered th"
+   },
+   {
+    "group": "glitch",
+    "tok": ".r",
+    "gen": " The user wrote \".r\" which is a single character. I need to figure out what they're asking for. Maybe they want to know what that character represents or what it's used for. In some contexts, like in programming or data, a single character like \"r\" could stand for \"read\" or \"record\" in certain systems. But without more context, it's hard to say. Could they be asking about the ASCII value of \"r\"? L"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u683c\u6703\u54e1",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific question, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you have any text or a question in mind, feel free to share it, and I'll do my best to help! \ud83c\udf1f\n\nFor example:\n- Are you asking for h"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ud834\uddd7",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific problem, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you're referring to a particular topic or concept, feel free to share more details, and I'll do my best to help. \ud83c\udf1f\n\nFor example:\n- A"
+   },
+   {
+    "group": "glitch",
+    "tok": "'#",
+    "gen": " The user just sent a single '#' character. I need to respond appropriately. Since the user hasn't provided any content, I should ask them to provide more information or clarify their request. It's important to be polite and helpful. I'll make sure to respond in a way that invites them to share more details so I can assist them effectively.\n</think>\n\nI'm sorry, but I don't have any content to work"
+   },
+   {
+    "group": "glitch",
+    "tok": ".y",
+    "gen": " The user wrote \"y\" and then left it blank. I need to figure out what they meant. Maybe they meant to type something else, like a letter or a number. But since it's just \"y\" and then a blank, I should ask for clarification. I can't proceed without more information. Let me check if there's any context I'm missing. If it's a typo, maybe they meant \"a\" or \"b\" or another letter. Alternatively, it coul"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ufffd\ufffd\u53d6",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific problem, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you're referring to a particular topic or concept, feel free to share more details, and I'll do my best to help. \ud83c\udf1f\n\nFor example:\n- A"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific problem, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you're referring to a particular topic or question, feel free to share it, and I'll do my best to help. \ud83c\udf1f\n\nFor example:\n- Are you as"
+   },
+   {
+    "group": "healthy",
+    "tok": " \u05d3\u05d1\u05e8\u05d9\u05dd",
+    "gen": " The user wrote \"things\" in Hebrew, which is \"\u05d3\u05d1\u05e8\u05d9\u05dd\" (davarim). But the user might be referring to \"things\" in a more general sense, like \"things\" in the sense of \"things\" in the Hebrew language. However, the user might be asking for a translation or explanation of the word \"davarim\" in Hebrew.\n\nAlternatively, the user might be asking for a list of things, but the word \"davarim\" is not a list of t"
+   },
+   {
+    "group": "healthy",
+    "tok": " fatally",
+    "gen": " The user wrote \"fatally\" in the query. I need to understand what they're asking. Maybe they want to know the meaning of the word \"fatally\" or how to use it correctly. Alternatively, they might be asking about a specific context where \"fatally\" is used. Since the query is short, I should ask for more details to provide an accurate response. I should also consider if there's a specific topic they'r"
+   },
+   {
+    "group": "healthy",
+    "tok": " Colon",
+    "gen": " The user wrote \"Colon\" in the query. I need to understand what they're asking about. The colon is a punctuation mark, often used to introduce a list, a quote, or a definition. In some contexts, it can also be used in programming or other technical fields.\n\nI should consider the possible interpretations. If they're asking about the use of the colon in writing, I can explain its common uses, like i"
+   },
+   {
+    "group": "healthy",
+    "tok": " majority",
+    "gen": " The user wrote \"majority\" and I need to respond in Chinese. First, I should check if there's any specific context they're referring to. Since the user didn't provide any additional information, I should assume they're asking about the term \"majority\" in general.\n\nThe word \"majority\" in English refers to the larger group or the majority of a group. In Chinese, the equivalent term is \"\u591a\u6570\" (du\u014dsh\u00f9)."
+   },
+   {
+    "group": "healthy",
+    "tok": " output",
+    "gen": " The user just said \"output\" without any additional context. I need to figure out what they're asking for. \n\nFirst, I should consider the possible interpretations of \"output.\" In programming, output refers to the data produced by a program, like print statements. But the user might be referring to something else, like a result from a calculation or a specific action.\n\nSince the user hasn't provide"
+   },
+   {
+    "group": "healthy",
+    "tok": " farewell",
+    "gen": " The user just said \"farewell\" and I need to respond appropriately. First, I should acknowledge their departure and express my goodbyes. I should make sure to be polite and friendly, even though it's a farewell. I should also keep the tone light and positive, maybe add a bit of humor or a warm message. I need to make sure the response is concise but meaningful. Let me check if there's any specific"
+   },
+   {
+    "group": "healthy",
+    "tok": " Lobby",
+    "gen": " The user wrote \"Lobby\" in the query. I need to understand what they're asking for. \"Lobby\" can mean different things depending on the context. In a general sense, it could refer to a place where people gather to discuss or influence decisions, like a lobby in a building or a legislative chamber. It could also refer to a group of people who work to influence a particular cause or policy, such as a"
+   },
+   {
+    "group": "healthy",
+    "tok": " \u015b",
+    "gen": " The user wrote \"\u015b\" which is a letter in the Latin alphabet, used in various languages like Polish, Russian, and others. It's a diacritic mark, specifically the acute accent, which is used to indicate a vowel sound in these languages. In Polish, for example, the letter \"\u015b\" is used to represent the sound \"s\" in the word \"\u015bwiat\" (world), which is a soft \"s\" sound. In Russian, it's used in some words"
+   }
+  ]
+ }
+}

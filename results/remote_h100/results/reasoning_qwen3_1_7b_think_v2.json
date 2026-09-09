@@ -1,0 +1,410 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "n": 32,
+ "thinking": true,
+ "model_info": {
+  "model": "Qwen/Qwen3-1.7B",
+  "commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "num_layers": 28,
+  "hidden_size": 2048,
+  "vocab_size": 151936,
+  "tie_word_embeddings": true,
+  "architecture": "Qwen3ForCausalLM",
+  "quantized": false,
+  "tokenizer_class": "Qwen2Tokenizer"
+ },
+ "glitch_ids": [
+  37010,
+  1746,
+  116355,
+  2384,
+  149983,
+  138923,
+  148360,
+  143420,
+  137490,
+  136628,
+  130320,
+  129910,
+  133587,
+  129114,
+  143828,
+  138662,
+  149806,
+  147225,
+  132349,
+  133219,
+  137791,
+  141686,
+  126984,
+  127008,
+  131787,
+  134894,
+  134220,
+  136695,
+  127932,
+  135529,
+  151159,
+  151145
+ ],
+ "control_ids": [
+  130734,
+  70969,
+  30976,
+  8686,
+  2550,
+  71452,
+  62837,
+  29398,
+  137201,
+  97674,
+  68131,
+  5147,
+  87904,
+  44315,
+  61110,
+  34278,
+  127504,
+  470,
+  98431,
+  93105,
+  4462,
+  76499,
+  84213,
+  91859,
+  72642,
+  56259,
+  19531,
+  19755,
+  83261,
+  95723,
+  62683,
+  56799
+ ],
+ "completion": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 1.1481300592422485,
+    "ent_h": 2.6749510765075684,
+    "gap": -1.5268210172653198,
+    "pcos_g": 0.569081098802628,
+    "pcos_h": 0.03437927461439563
+   },
+   {
+    "step": 2,
+    "ent_g": 1.5745360851287842,
+    "ent_h": 2.85263729095459,
+    "gap": -1.2781012058258057,
+    "pcos_g": 0.572535962827744,
+    "pcos_h": 0.013852107368649974
+   },
+   {
+    "step": 4,
+    "ent_g": 0.9188868999481201,
+    "ent_h": 2.1011922359466553,
+    "gap": -1.1823053359985352,
+    "pcos_g": 0.5398456165867467,
+    "pcos_h": 0.00697059652978374
+   },
+   {
+    "step": 8,
+    "ent_g": 0.25809478759765625,
+    "ent_h": 3.09818172454834,
+    "gap": -2.8400869369506836,
+    "pcos_g": 0.42072421408468674,
+    "pcos_h": 0.00888712427789165
+   }
+  ],
+  "scripts": [
+   1.0,
+   1.03125
+  ],
+  "rep": [
+   0.30078125,
+   0.03125
+  ],
+  "self": [
+   0.0,
+   0.0
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": ".currentTarget",
+    "gen": " is not a valid property of the element"
+   },
+   {
+    "group": "glitch",
+    "tok": ".r",
+    "gen": "am is a 4-letter word."
+   },
+   {
+    "group": "glitch",
+    "tok": "\u683c\u6703\u54e1",
+    "gen": " is a term used in the context of"
+   },
+   {
+    "group": "glitch",
+    "tok": ".y",
+    "gen": "es is used in the following sentences."
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": "\n\nThe word \"triumph\""
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e40\u0e19\u0e47\u0e15",
+    "gen": "\n\nThe word \"</think>\n\nIt seems"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uf9a7",
+    "gen": "\n\nThe word \"</think>\n\nIt seems"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e2b\u0e48\u0e32\u0e07",
+    "gen": "\n\nThe word \"</think>\n\nThe word"
+   },
+   {
+    "group": "healthy",
+    "tok": " h\u00e0",
+    "gen": "m is used in Vietnamese to mean \""
+   },
+   {
+    "group": "healthy",
+    "tok": " \u53c2\u6570",
+    "gen": " is used in Chinese to mean \"parameters"
+   },
+   {
+    "group": "healthy",
+    "tok": " Rol",
+    "gen": "le's theorem is used in the context"
+   },
+   {
+    "group": "healthy",
+    "tok": " majority",
+    "gen": " is used in the following way: it"
+   },
+   {
+    "group": "healthy",
+    "tok": " output",
+    "gen": " is the result of the following code:\n\n"
+   },
+   {
+    "group": "healthy",
+    "tok": " gi\u00e0",
+    "gen": " is used in Italian to indicate that something"
+   },
+   {
+    "group": "healthy",
+    "tok": " urges",
+    "gen": " us to think about the importance of the"
+   },
+   {
+    "group": "healthy",
+    "tok": " ambit",
+    "gen": "iously is an adjective, but it can"
+   }
+  ]
+ },
+ "reasoning": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 0.08611666411161423,
+    "ent_h": 0.18044337630271912,
+    "gap": -0.09432671219110489,
+    "pcos_g": 0.5397998402195592,
+    "pcos_h": 0.0025118245112319137
+   },
+   {
+    "step": 2,
+    "ent_g": 0.012285307049751282,
+    "ent_h": 0.02137499488890171,
+    "gap": -0.009089687839150429,
+    "pcos_g": 0.5037673721390385,
+    "pcos_h": 0.0024344297426362183
+   },
+   {
+    "step": 4,
+    "ent_g": 0.09693372249603271,
+    "ent_h": 0.18504482507705688,
+    "gap": -0.08811110258102417,
+    "pcos_g": 0.6295338580685277,
+    "pcos_h": 0.00879005066329433
+   },
+   {
+    "step": 8,
+    "ent_g": 0.0339251384139061,
+    "ent_h": 0.866611123085022,
+    "gap": -0.8326860070228577,
+    "pcos_g": 0.6743132779675145,
+    "pcos_h": 0.0018994482534546997
+   },
+   {
+    "step": 16,
+    "ent_g": 0.05229056254029274,
+    "ent_h": 0.6848607659339905,
+    "gap": -0.632570207118988,
+    "pcos_g": 0.6813758323269505,
+    "pcos_h": 0.0031536026226897385
+   },
+   {
+    "step": 32,
+    "ent_g": 0.020718086510896683,
+    "ent_h": 0.7280408143997192,
+    "gap": -0.7073227167129517,
+    "pcos_g": 0.6956762979107518,
+    "pcos_h": 0.007153171144666209
+   },
+   {
+    "step": 64,
+    "ent_g": 0.8086597919464111,
+    "ent_h": 0.5413682460784912,
+    "gap": 0.2672915458679199,
+    "pcos_g": 0.00879818855995132,
+    "pcos_h": 0.0027934415566344406
+   },
+   {
+    "step": 128,
+    "ent_g": 0.6348311901092529,
+    "ent_h": 0.4841057360172272,
+    "gap": 0.15072545409202576,
+    "pcos_g": 0.28289860583120774,
+    "pcos_h": 0.0021261973606963303
+   },
+   {
+    "step": 192,
+    "ent_g": 0.5218849182128906,
+    "ent_h": 0.5806854367256165,
+    "gap": -0.05880051851272583,
+    "pcos_g": 0.004001910828294292,
+    "pcos_h": 0.006859871588887706
+   },
+   {
+    "step": 255,
+    "ent_g": 0.5344001054763794,
+    "ent_h": 0.258142352104187,
+    "gap": 0.2762577533721924,
+    "pcos_g": 0.0069169914650340225,
+    "pcos_h": 0.0033863308208604004
+   },
+   {
+    "step": 383,
+    "ent_g": 0.006930784322321415,
+    "ent_h": 0.41987118124961853,
+    "gap": -0.4129403829574585,
+    "pcos_g": 0.0062192725318093445,
+    "pcos_h": 0.002342199005426898
+   },
+   {
+    "step": 511,
+    "ent_g": 0.04074791073799133,
+    "ent_h": 0.2590389847755432,
+    "gap": -0.21829107403755188,
+    "pcos_g": 0.016865506798269286,
+    "pcos_h": 0.0022879233884234573
+   }
+  ],
+  "scripts": [
+   1.0,
+   1.1875
+  ],
+  "rep": [
+   0.77947998046875,
+   0.6361083984375
+  ],
+  "self": [
+   0.0,
+   0.5
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": ".currentTarget",
+    "gen": " The user is asking about \".target\" in JavaScript. I need to explain what it is and how it's used.\n\nFirst, I remember that in JavaScript, the \"this\" keyword refers to the object that the function is called on. But the user is asking about \".target\", which is a property in the Event object. So I should explain that \".target\" is a property of the event object that holds the element that triggered th"
+   },
+   {
+    "group": "glitch",
+    "tok": ".r",
+    "gen": " The user wrote \".r\" which is a single character. I need to figure out what they're asking for. Maybe they want to know what that character represents or what it's used for. In some contexts, like in programming or data, a single character like \"r\" could stand for \"read\" or \"record\" in certain systems. But without more context, it's hard to say. Could they be asking about the ASCII value of \"r\"? L"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u683c\u6703\u54e1",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific question, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you have any text or a question in mind, feel free to share it, and I'll do my best to help! \ud83c\udf1f\n\nFor example:\n- Are you asking for h"
+   },
+   {
+    "group": "glitch",
+    "tok": ".y",
+    "gen": " The user wrote \"y\" and then left it blank. I need to figure out what they meant. Maybe they meant to type something else, like a letter or a number. But since it's just \"y\" and then a blank, I should ask for clarification. I can't proceed without more information. Let me check if there's any context I'm missing. If it's a typo, maybe they meant \"a\" or \"b\" or another letter. Alternatively, it coul"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific problem, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you're referring to a particular topic or question, feel free to share it, and I'll do my best to help. \ud83c\udf1f\n\nFor example:\n- Are you as"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e40\u0e19\u0e47\u0e15",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific problem, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you're referring to a particular topic or question, feel free to share it, and I'll do my best to help. \ud83c\udf1f\n\nFor example:\n- Are you as"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uf9a7",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific problem, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you're referring to a particular topic or question, feel free to share it, and I'll do my best to help. \ud83c\udf1f\n\nFor example:\n- Are you as"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e2b\u0e48\u0e32\u0e07",
+    "gen": " The user wrote \"</think>\n\n</think>\n\nIt seems like you might have made a typo or there's a formatting issue. Could you please clarify what you're asking? Are you looking for help with a specific question, a translation, or something else? I'm here to assist you! \ud83d\ude0a\n\nIf you have any text or a question in mind, feel free to share it, and I'll do my best to help! \ud83c\udf1f\n\n--- \n\nIf you're referring to a spec"
+   },
+   {
+    "group": "healthy",
+    "tok": " h\u00e0",
+    "gen": " The user wrote \"h\u00e0\" which is a Vietnamese word meaning \"how\" or \"what\". But they might be asking for a specific answer related to a topic they're interested in. Since the query is incomplete, I need to ask for more details.\n\nMaybe they want to know \"how to do something\" or \"what is something\". Without more context, it's hard to provide an accurate answer. I should respond by asking them to clarif"
+   },
+   {
+    "group": "healthy",
+    "tok": " \u53c2\u6570",
+    "gen": " The user mentioned \"\u53c2\u6570\" which is Chinese for \"parameters.\" In the context of a programming or mathematical problem, parameters usually refer to variables that define the behavior or constraints of a function or algorithm. However, the user hasn't provided any specific problem or context, so I need to ask for more details.\n\nFirst, I should check if there's any previous conversation or context that"
+   },
+   {
+    "group": "healthy",
+    "tok": " Rol",
+    "gen": " The user wrote \"Rol\" in the query, which is a Swedish word meaning \"role\" or \"position.\" They might be asking about the concept of a role in a specific context, such as in psychology, sociology, or a particular field. However, the query is incomplete, and there's no clear indication of what they're asking for.\n\nFirst, I need to consider possible interpretations. If they're asking about the role o"
+   },
+   {
+    "group": "healthy",
+    "tok": " majority",
+    "gen": " The user wrote \"majority\" and I need to respond in Chinese. First, I should check if there's any specific context they're referring to. Since the user didn't provide any additional information, I should assume they're asking about the term \"majority\" in general.\n\nThe word \"majority\" in English refers to the larger group or the majority of a group. In Chinese, the equivalent term is \"\u591a\u6570\" (du\u014dsh\u00f9)."
+   },
+   {
+    "group": "healthy",
+    "tok": " output",
+    "gen": " The user just said \"output\" without any additional context. I need to figure out what they're asking for. \n\nFirst, I should consider the possible interpretations of \"output.\" In programming, output refers to the data produced by a program, like print statements. But the user might be referring to something else, like a result from a calculation or a specific action.\n\nSince the user hasn't provide"
+   },
+   {
+    "group": "healthy",
+    "tok": " gi\u00e0",
+    "gen": " The user wrote \"gi\u00e0\" which is Italian for \"already\" or \"already\". They might be asking a question in Italian, but the response needs to be in English. However, the user might be testing if I can understand the context or if they want a response in Italian. I should check the original query again.\n\nThe user wrote: \"gi\u00e0\" and then the assistant's response was in Italian. But the user might have inte"
+   },
+   {
+    "group": "healthy",
+    "tok": " urges",
+    "gen": " The user wrote \"urges\" in all caps, which is a strong indicator that they're looking for a specific type of response. In the context of a chatbot, \"urges\" could refer to various things, but given the previous conversation, it's likely related to a specific topic or scenario.\n\nFirst, I need to consider the possible interpretations of \"urges\" in this context. It could be a request for help, a quest"
+   },
+   {
+    "group": "healthy",
+    "tok": " ambit",
+    "gen": " The user wrote \"ambit\" in Chinese, but I need to understand the context. \"Ambit\" is a word that can have multiple meanings. In English, \"ambit\" can mean a wide range of possibilities, a field of study, or a large area of influence. In Chinese, the word \"ambit\" is often translated as \"\u9886\u57df\" (field) or \"\u8303\u56f4\" (scope). \n\nThe user might be asking about the meaning of \"ambit\" in Chinese, or they might be "
+   }
+  ]
+ }
+}

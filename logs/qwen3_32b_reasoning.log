@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<01:33,  7.55it/s]Loading weights:   0%|          | 2/707 [00:00<02:04,  5.65it/s]Loading weights:   1%|          | 6/707 [00:00<00:42, 16.47it/s]Loading weights:   2%|▏         | 17/707 [00:00<00:16, 41.83it/s]Loading weights:   4%|▍         | 28/707 [00:00<00:11, 56.73it/s]Loading weights:   6%|▌         | 39/707 [00:00<00:10, 65.96it/s]Loading weights:   7%|▋         | 50/707 [00:00<00:09, 71.91it/s]Loading weights:   9%|▊         | 61/707 [00:01<00:08, 75.57it/s]Loading weights:  10%|█         | 72/707 [00:01<00:08, 78.13it/s]Loading weights:  12%|█▏        | 83/707 [00:01<00:07, 80.12it/s]Loading weights:  13%|█▎        | 94/707 [00:01<00:07, 81.45it/s]Loading weights:  15%|█▍        | 103/707 [00:01<00:07, 81.78it/s]Loading weights:  16%|█▋        | 115/707 [00:01<00:06, 85.17it/s]Loading weights:  18%|█▊        | 126/707 [00:01<00:06, 84.78it/s]Loading weights:  19%|█▉        | 137/707 [00:01<00:06, 84.74it/s]Loading weights:  21%|██        | 148/707 [00:02<00:06, 84.80it/s]Loading weights:  22%|██▏       | 159/707 [00:02<00:06, 84.89it/s]Loading weights:  24%|██▍       | 170/707 [00:02<00:06, 84.98it/s]Loading weights:  26%|██▌       | 181/707 [00:02<00:06, 84.88it/s]Loading weights:  27%|██▋       | 192/707 [00:02<00:06, 84.80it/s]Loading weights:  29%|██▊       | 203/707 [00:02<00:05, 84.48it/s]Loading weights:  30%|███       | 214/707 [00:02<00:05, 84.49it/s]Loading weights:  32%|███▏      | 225/707 [00:03<00:05, 84.50it/s]Loading weights:  33%|███▎      | 236/707 [00:03<00:05, 84.28it/s]Loading weights:  35%|███▍      | 247/707 [00:03<00:05, 84.34it/s]Loading weights:  36%|███▋      | 258/707 [00:03<00:05, 84.23it/s]Loading weights:  38%|███▊      | 269/707 [00:03<00:05, 84.14it/s]Loading weights:  40%|███▉      | 280/707 [00:03<00:05, 78.10it/s]Loading weights:  41%|████▏     | 292/707 [00:03<00:05, 82.01it/s]Loading weights:  43%|████▎     | 303/707 [00:03<00:04, 82.82it/s]Loading weights:  44%|████▍     | 314/707 [00:04<00:04, 83.60it/s]Loading weights:  46%|████▌     | 325/707 [00:04<00:04, 83.79it/s]Loading weights:  48%|████▊     | 336/707 [00:04<00:04, 84.00it/s]Loading weights:  49%|████▉     | 347/707 [00:04<00:04, 84.23it/s]Loading weights:  51%|█████     | 358/707 [00:04<00:04, 84.07it/s]Loading weights:  52%|█████▏    | 369/707 [00:04<00:04, 84.24it/s]Loading weights:  54%|█████▎    | 380/707 [00:04<00:03, 84.40it/s]Loading weights:  55%|█████▌    | 391/707 [00:05<00:03, 84.32it/s]Loading weights:  57%|█████▋    | 402/707 [00:05<00:03, 84.14it/s]Loading weights:  58%|█████▊    | 413/707 [00:05<00:03, 84.20it/s]Loading weights:  60%|█████▉    | 424/707 [00:05<00:03, 84.31it/s]Loading weights:  62%|██████▏   | 435/707 [00:05<00:03, 84.41it/s]Loading weights:  63%|██████▎   | 446/707 [00:05<00:03, 84.55it/s]Loading weights:  65%|██████▍   | 457/707 [00:05<00:02, 84.35it/s]Loading weights:  66%|██████▌   | 468/707 [00:05<00:02, 84.55it/s]Loading weights:  68%|██████▊   | 479/707 [00:06<00:02, 84.38it/s]Loading weights:  69%|██████▉   | 490/707 [00:06<00:02, 84.21it/s]Loading weights:  71%|███████   | 501/707 [00:06<00:02, 84.40it/s]Loading weights:  72%|███████▏  | 512/707 [00:06<00:02, 84.65it/s]Loading weights:  74%|███████▍  | 523/707 [00:06<00:02, 84.54it/s]Loading weights:  76%|███████▌  | 534/707 [00:06<00:02, 84.41it/s]Loading weights:  77%|███████▋  | 545/707 [00:06<00:01, 84.22it/s]Loading weights:  79%|███████▊  | 556/707 [00:06<00:01, 84.30it/s]Loading weights:  80%|████████  | 567/707 [00:07<00:01, 84.19it/s]Loading weights:  82%|████████▏ | 578/707 [00:07<00:01, 84.49it/s]Loading weights:  83%|████████▎ | 589/707 [00:07<00:01, 84.69it/s]Loading weights:  85%|████████▍ | 600/707 [00:07<00:01, 84.56it/s]Loading weights:  86%|████████▋ | 611/707 [00:07<00:01, 84.32it/s]Loading weights:  88%|████████▊ | 622/707 [00:07<00:01, 84.23it/s]Loading weights:  90%|████████▉ | 633/707 [00:07<00:00, 84.21it/s]Loading weights:  91%|█████████ | 644/707 [00:08<00:00, 84.41it/s]Loading weights:  93%|█████████▎| 655/707 [00:08<00:00, 84.24it/s]Loading weights:  94%|█████████▍| 666/707 [00:08<00:00, 84.25it/s]Loading weights:  96%|█████████▌| 677/707 [00:08<00:00, 84.58it/s]Loading weights:  97%|█████████▋| 688/707 [00:08<00:00, 84.35it/s]Loading weights:  99%|█████████▉| 699/707 [00:08<00:00, 84.01it/s]Loading weights: 100%|██████████| 707/707 [00:08<00:00, 81.33it/s]
+label-free sets from results/fragility_qwen3_32b.pt: worst-32 by single probe (lp -20.98..-17.13) vs 32 clean
+Qwen/Qwen3-32B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["'ớ'", "'อังกฤษ'", "'ใช่'", "'ล่า'", "' สิงหาคม'", "'𬸪'"]
+  healthy: ["' programma'", "' ANSI'", "' Tampa'", "' platform'", "' Al'", "' inhibit'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.578      3.098  -2.520 |   0.0629   0.0184
+     2 |      3.523      3.169   0.354 |   0.2204   0.0120
+     4 |      2.551      1.624   0.926 |   0.1567   0.0023
+     8 |      2.019      1.731   0.288 |   0.0239   0.0011
+
+  distinct scripts in output : glitch 1.00  healthy 1.03
+  token-repetition rate      : glitch 0.020  healthy 0.023
+  reproduced the seed token  : glitch 0.000  healthy 0.031
+
+  --- sample generations (completion) ---
+  [GLITCH] 'ớ' -> '\\n\\nThe word "the" is an'
+  [GLITCH] 'อังกฤษ' -> '\\n\\nThe word "algorithm" is derived'
+  [GLITCH] 'ใช่' -> '\\n\\nThe word is a noun meaning "'
+  [HEALTHY] ' programma' -> ' is a Dutch word meaning program. The'
+  [HEALTHY] ' ANSI' -> ' is an acronym for the American National Standards'
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      3.241      2.167   1.074 |   0.1963   0.0222
+     2 |      4.096      1.939   2.157 |   0.2610   0.0080
+     4 |      1.755      0.704   1.051 |   0.1799   0.0032
+     8 |      0.637      0.788  -0.150 |   0.2198   0.0086
+    16 |      1.170      1.008   0.162 |   0.0229   0.0038
+    32 |      0.399      0.656  -0.257 |   0.0380   0.0013
+    64 |      0.265      0.522  -0.256 |   0.0094   0.0018
+   128 |      0.466      0.727  -0.260 |   0.0176   0.0008
+   192 |      0.163      0.467  -0.304 |   0.0239   0.0030
+   255 |      0.267      0.714  -0.447 |   0.0040   0.0024
+
+  distinct scripts in output : glitch 1.03  healthy 1.12
+  token-repetition rate      : glitch 0.662  healthy 0.451
+  reproduced the seed token  : glitch 0.000  healthy 0.562
+
+  --- sample generations (reasoning) ---
+  [GLITCH] 'ớ' -> ' The question is asking for the value of $ \\\\cos(\\\\theta) $ given that $ \\\\cos(2\\\\theta) = \\\\frac{1}{3} $.\\n\\n### Step 1: Use the double angle identity\\nWe know the ide'
+  [GLITCH] 'อังกฤษ' -> ' The question is asking for the value of $ \\\\frac{1}{2} + \\\\frac{1}{4} + \\\\frac{1}{8} + \\\\frac{1}{16} + \\\\cdots $, which is an infinite geometric series.\\n\\n---\\n\\n### S'
+  [GLITCH] 'ใช่' -> " The problem is to find the value of the expression:\\n\\n$$\\n\\\\frac{1}{1 + \\\\frac{1}{2 + \\\\frac{1}{3 + \\\\frac{1}{4 + \\\\frac{1}{5}}}}}\\n$$\\n\\nWe'll evaluate this from the **"
+  [HEALTHY] ' programma' -> ' You\'ve written "programma" which is Italian for "program" or "programme". However, you haven\'t specified what kind of program you\'re looking for or what it sho'
+  [HEALTHY] ' ANSI' -> ' The term "ANSI" can refer to different things depending on the context:\\n\\n1. **American National Standards Institute (ANSI)** - This is a private, non-profit or'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   +0.288
+  entropy gap, reasoning   @step8   -0.150
+  entropy gap, reasoning   @step255 -0.447
+  glitch chain alignment,  step1 -> step255   0.1963 -> 0.0040
+  healthy chain alignment, step1 -> step255   0.0222 -> 0.0024
+
+saved -> results/reasoning_qwen3_32b.json

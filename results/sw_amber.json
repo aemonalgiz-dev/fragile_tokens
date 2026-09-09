@@ -1,0 +1,103 @@
+{
+ "stages": [
+  "LLM360/Amber",
+  "LLM360/AmberChat",
+  "LLM360/AmberSafe"
+ ],
+ "coverage": [
+  {
+   "transition": "LLM360/Amber -> LLM360/AmberChat",
+   "zero_rows": 1,
+   "frac": 3.125e-05,
+   "median_resid": 0.0824991911649704
+  },
+  {
+   "transition": "LLM360/AmberChat -> LLM360/AmberSafe",
+   "zero_rows": 1,
+   "frac": 3.125e-05,
+   "median_resid": 0.08566468209028244
+  }
+ ],
+ "damage": [
+  {
+   "stage": "LLM360/Amber",
+   "n_bad": 320,
+   "mean_lp": -0.6981894373893738,
+   "new": 0,
+   "healed": 0
+  },
+  {
+   "stage": "LLM360/AmberChat",
+   "n_bad": 446,
+   "mean_lp": -1.258164882659912,
+   "new": 154,
+   "healed": 28
+  },
+  {
+   "stage": "LLM360/AmberSafe",
+   "n_bad": 964,
+   "mean_lp": -1.962631106376648,
+   "new": 657,
+   "healed": 13
+  }
+ ],
+ "n_newly_glitched": 78,
+ "examples": [
+  "ource",
+  "ackage",
+  "){",
+  "icture",
+  "irl",
+  "bernate",
+  "ensional",
+  "ugins",
+  "\u043f\u0435\u0434\u0438",
+  "enschapp",
+  "ynomial",
+  "plements",
+  "liament",
+  "\u0431\u0443\u0440",
+  ")}{"
+ ],
+ "rank_based": [
+  {
+   "stage": "LLM360/Amber",
+   "overlap": 320,
+   "new": 0,
+   "jaccard": 1.0
+  },
+  {
+   "stage": "LLM360/AmberChat",
+   "overlap": 262,
+   "new": 58,
+   "jaccard": 0.6931216931216931
+  },
+  {
+   "stage": "LLM360/AmberSafe",
+   "overlap": 242,
+   "new": 78,
+   "jaccard": 0.6080402010050251
+  }
+ ],
+ "newly_base_rank_median": 656,
+ "newly_beyond_5x": 0.15384615384615385,
+ "threshold_rank": 320,
+ "n_probed": 32000,
+ "newly_examples": [
+  "ource",
+  "ackage",
+  "){",
+  "icture",
+  "irl",
+  "bernate",
+  "ensional",
+  "ugins",
+  "\u043f\u0435\u0434\u0438",
+  "enschapp",
+  "ynomial",
+  "plements",
+  "liament",
+  "\u0431\u0443\u0440",
+  ")}{"
+ ]
+}

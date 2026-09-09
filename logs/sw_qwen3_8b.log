@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files:  20%|██        | 1/5 [00:12<00:50, 12.60s/it]Fetching 5 files:  40%|████      | 2/5 [00:16<00:22,  7.48s/it]Fetching 5 files:  60%|██████    | 3/5 [00:18<00:10,  5.07s/it]Fetching 5 files:  80%|████████  | 4/5 [00:19<00:03,  3.30s/it]Fetching 5 files: 100%|██████████| 5/5 [00:19<00:00,  2.22s/it]Fetching 5 files: 100%|██████████| 5/5 [00:19<00:00,  3.92s/it]
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 48/399 [00:00<00:00, 450.00it/s]Loading weights:  25%|██▍       | 98/399 [00:00<00:00, 465.43it/s]Loading weights:  37%|███▋      | 148/399 [00:00<00:00, 469.95it/s]Loading weights:  50%|████▉     | 198/399 [00:00<00:00, 474.71it/s]Loading weights:  62%|██████▏   | 246/399 [00:00<00:00, 450.16it/s]Loading weights:  73%|███████▎  | 292/399 [00:00<00:00, 435.62it/s]Loading weights:  86%|████████▌ | 342/399 [00:00<00:00, 448.84it/s]Loading weights:  97%|█████████▋| 389/399 [00:00<00:00, 443.81it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 458.41it/s]
+Qwen/Qwen3-8B-Base: V=151936 tied=False probe=40000 |E_in| 1.3924
+  copy probe...
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files:  20%|██        | 1/5 [00:04<00:16,  4.15s/it]Fetching 5 files:  40%|████      | 2/5 [00:07<00:11,  3.93s/it]Fetching 5 files:  60%|██████    | 3/5 [00:09<00:05,  2.96s/it]Fetching 5 files: 100%|██████████| 5/5 [00:10<00:00,  1.44s/it]Fetching 5 files: 100%|██████████| 5/5 [00:10<00:00,  2.06s/it]
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<00:57,  6.93it/s]Loading weights:  15%|█▌        | 61/399 [00:00<00:01, 287.70it/s]Loading weights:  28%|██▊       | 111/399 [00:00<00:00, 370.73it/s]Loading weights:  40%|███▉      | 159/399 [00:00<00:00, 402.43it/s]Loading weights:  51%|█████     | 204/399 [00:00<00:00, 417.51it/s]Loading weights:  65%|██████▍   | 259/399 [00:00<00:00, 442.19it/s]Loading weights:  79%|███████▊  | 314/399 [00:00<00:00, 460.91it/s]Loading weights:  92%|█████████▏| 367/399 [00:00<00:00, 476.74it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 423.46it/s]
+Qwen/Qwen3-8B: V=151936 tied=False probe=40000 |E_in| 1.3758
+  copy probe...
+
+==============================================================================
+1. COVERAGE -- how much of the vocabulary does each stage actually touch?
+==============================================================================
+                        transition | zero-resid rows |    frac | median resid
+------------------------------------------------------------------------------
+                        Base -> 8B |               0 |  0.0000 |    9.425e-02
+
+==============================================================================
+2. DAMAGE -- glitch sets per stage, defined by the copy probe
+==============================================================================
+threshold = base-model 1.0th pct of copy-logprob = -18.655
+                             stage | n below thr |   mean lp | new vs base |  healed
+----------------------------------------------------------------------------------
+                Qwen/Qwen3-8B-Base |         400 |    -2.124 |           0 |       0
+                     Qwen/Qwen3-8B |         569 |    -2.503 |         240 |      71
+
+rank-based (worst 1.0% WITHIN each stage, shift-invariant):
+                             stage | overlap w/ base |    new |  jaccard
+------------------------------------------------------------------------
+                Qwen/Qwen3-8B-Base |             400 |      0 |    1.000
+                     Qwen/Qwen3-8B |             215 |    185 |    0.368
+
+  rank-based newly-glitched examples: ["'�'", "'.net'", "'.btn'", "'.Net'", "'��取'", "'-dimensional'", "'農'", "'𨚕'", "'𫠊'", "'𬍛'", "'𪨰'", "'𫟅'", "'𬘯'", "'�'", "'𬤝'"]
+
+  base-model rank of the 185 newly-glitched (threshold at rank 400, vocab 40000):
+    median 520   quartiles 461/578   max 17420
+    beyond 2x the threshold rank: 0.054
+    beyond 5x the threshold rank: 0.038
+    beyond 10x the threshold rank: 0.022
+  final-model rank of the 185 healed: median 531, beyond 5x threshold 0.005
+
+tokens healthy at base but below threshold after post-training: 185
+  examples: ["'�'", "'.net'", "'.btn'", "'.Net'", "'��取'", "'-dimensional'", "'農'", "'𨚕'", "'𫠊'", "'𬍛'", "'𪨰'", "'𫟅'", "'𬘯'", "'�'", "'𬤝'"]
+
+==============================================================================
+3. DOES POST-TRAINING GRADIENT SPARSITY PREDICT THE DAMAGE?
+AUC of (low token-specific residual during post-training) vs (degraded)
+==============================================================================
+                         predictor |  AUC vs newly-glitched |  spearman vs delta lp
+----------------------------------------------------------------------------------
+         total post-train residual |                  0.974 |                -0.033
+                 base copy-logprob |                  0.983 |                 0.036
+             residual, non-ws only |                  0.973 |                -0.030
+
+CONTROL: how much do glitch rows move during post-training at all?
+                        transition | total ratio | resid ratio
+--------------------------------------------------------------
+                        Base -> 8B |       0.102 |       0.101
+
+saved -> results/sw_qwen3_8b.json

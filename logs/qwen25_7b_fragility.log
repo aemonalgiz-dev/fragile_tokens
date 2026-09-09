@@ -1,0 +1,53 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:13<00:39, 13.17s/it]Fetching 4 files:  50%|█████     | 2/4 [00:13<00:11,  5.70s/it]Fetching 4 files:  75%|███████▌  | 3/4 [00:16<00:04,  4.46s/it]Fetching 4 files: 100%|██████████| 4/4 [00:17<00:00,  3.15s/it]Fetching 4 files: 100%|██████████| 4/4 [00:17<00:00,  4.44s/it]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   5%|▌         | 18/339 [00:00<00:01, 160.94it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:01, 185.61it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:01, 196.70it/s]Loading weights:  25%|██▍       | 84/339 [00:00<00:01, 188.10it/s]Loading weights:  30%|███       | 103/339 [00:00<00:01, 174.14it/s]Loading weights:  37%|███▋      | 125/339 [00:00<00:01, 180.38it/s]Loading weights:  43%|████▎     | 147/339 [00:00<00:01, 184.67it/s]Loading weights:  49%|████▉     | 166/339 [00:00<00:00, 183.71it/s]Loading weights:  55%|█████▍    | 185/339 [00:01<00:00, 171.37it/s]Loading weights:  62%|██████▏   | 209/339 [00:01<00:00, 183.39it/s]Loading weights:  68%|██████▊   | 232/339 [00:01<00:00, 189.21it/s]Loading weights:  74%|███████▍  | 252/339 [00:01<00:00, 185.20it/s]Loading weights:  80%|███████▉  | 271/339 [00:01<00:00, 174.31it/s]Loading weights:  86%|████████▋ | 293/339 [00:01<00:00, 179.98it/s]Loading weights:  93%|█████████▎| 315/339 [00:01<00:00, 184.27it/s]Loading weights:  99%|█████████▊| 334/339 [00:01<00:00, 180.92it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 183.99it/s]
+  no label file (); running label-free, no glitch reference class
+  token sample extended 4200 -> 8400 (first 4200 ids unchanged)
+Qwen/Qwen2.5-7B-Instruct: 8400 random/entity tokens (0 added from None) + 0 verified glitch = 8400
+  filler pool: 1879 clean common words
+  context bank: 24 contexts, lengths [8, 16, 32, 64] x 6, random interior slot
+  standard single probe: 3483/8400 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/24  K=8  slot=6  mean lp -0.641  fail rate 0.106
+    context 9/24  K=16  slot=6  mean lp -0.622  fail rate 0.107
+    context 17/24  K=32  slot=22  mean lp -0.643  fail rate 0.114
+/home/ubuntu/glitch/src/cut/fragility.py:271: RuntimeWarning: Mean of empty slice.
+  "frag_summary": {nm: {"mean": float(frag[m].mean()),
+/home/ubuntu/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/glitch/src/cut/fragility.py:272: RuntimeWarning: Mean of empty slice.
+  "ge10": float((frag[m] >= 0.1).mean()),
+/home/ubuntu/glitch/src/cut/fragility.py:273: RuntimeWarning: Mean of empty slice.
+  "ge25": float((frag[m] >= 0.25).mean())}
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 0.978   context 0.000   interaction 0.022
+        all tokens, fail indicator:  token 0.792   context 0.001   interaction 0.207
+     clean-looking tokens, logprob:  token 0.400   context 0.001   interaction 0.598
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 24 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=8400): mean frag 0.110   frag>=0.10: 0.157   frag>=0.25: 0.130   frag==0: 0.766
+   verified glitch (reference): (none)
+   clean-looking random tokens (n=3483): mean frag 0.016   frag>=0.10: 0.037   frag>=0.25: 0.020   frag==0: 0.896
+
+  context hostility (fraction of tokens failing): min 0.092  median 0.111  max 0.126
+  clean-looking fail rate by context length: K=8: 0.014  K=16: 0.014  K=32: 0.015  K=64: 0.021
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+                   '柷'  single -0.090  frag 1.00  mean lp -2.524   worst: lp -4.85 in ...' data javax it [柷]  when her panel'
+                   '郈'  single -0.037  frag 1.00  mean lp -2.013   worst: lp -4.84 in ...' data javax it [郈]  when her panel'
+                   '稌'  single -0.022  frag 1.00  mean lp -2.201   worst: lp -4.72 in ...' touch recently np [稌]  won eng tell'
+                   '崾'  single -0.089  frag 1.00  mean lp -2.850   worst: lp -5.29 in ...' beg echo state [崾]  either fun context'
+    'interopRequireDefault'  single -0.012  frag 0.92  mean lp -1.911   worst: lp -4.17 in ...' api turn men [interopRequireDefault]  sem'
+             'amacare'  single -0.030  frag 0.88  mean lp -2.310   worst: lp -5.01 in ...' data javax it [amacare]  when her panel'
+                   '纴'  single -0.048  frag 0.88  mean lp -1.304   worst: lp -2.83 in ...' data javax it [纴]  when her panel'
+            ' поможет'  single -0.067  frag 0.88  mean lp -1.498   worst: lp -4.36 in ...' ne things sy [ поможет]  between dam mult'
+            ' navCtrl'  single -0.071  frag 0.83  mean lp -0.947   worst: lp -1.81 in ...' conditions lat easily [ navCtrl]  inf hor must'
+                   '猹'  single -0.069  frag 0.83  mean lp -1.987   worst: lp -5.74 in ...' stand organ to [猹]  future often counter'
+                   '锼'  single -0.000  frag 0.79  mean lp -1.732   worst: lp -5.37 in ...' customers massage auth [锼]  addition'
+                 '落到实'  single -0.035  frag 0.75  mean lp -0.879   worst: lp -2.39 in ...' options right along [落到实]  war hash your'
+
+saved -> results/fragility_qwen25_7b.json, results/fragility_qwen25_7b.pt

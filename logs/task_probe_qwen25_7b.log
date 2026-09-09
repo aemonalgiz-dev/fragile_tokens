@@ -1,0 +1,40 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   5%|▌         | 18/339 [00:00<00:02, 155.92it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:01, 182.52it/s]Loading weights:  19%|█▊        | 63/339 [00:00<00:01, 189.74it/s]Loading weights:  24%|██▍       | 82/339 [00:00<00:01, 182.81it/s]Loading weights:  30%|██▉       | 101/339 [00:00<00:01, 178.57it/s]Loading weights:  37%|███▋      | 124/339 [00:00<00:01, 175.91it/s]Loading weights:  44%|████▎     | 148/339 [00:00<00:01, 186.80it/s]Loading weights:  49%|████▉     | 167/339 [00:00<00:00, 182.72it/s]Loading weights:  55%|█████▍    | 186/339 [00:01<00:00, 171.95it/s]Loading weights:  61%|██████▏   | 208/339 [00:01<00:00, 178.16it/s]Loading weights:  68%|██████▊   | 232/339 [00:01<00:00, 187.94it/s]Loading weights:  74%|███████▍  | 251/339 [00:01<00:00, 183.36it/s]Loading weights:  80%|███████▉  | 270/339 [00:01<00:00, 172.65it/s]Loading weights:  86%|████████▋ | 293/339 [00:01<00:00, 181.33it/s]Loading weights:  93%|█████████▎| 316/339 [00:01<00:00, 187.19it/s]Loading weights:  99%|█████████▉| 335/339 [00:01<00:00, 182.33it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 182.76it/s]
+Qwen/Qwen2.5-7B-Instruct: tasks ['code_name', 'quote_title', 'list_item', 'fix_spelling', 'summarize']; groups fragile 10, glitch 10, stable 10; thinking=False
+   fragile: 'ঈ', '⌕', '��', '圊', '𬀩', '柷', '冔', '郈', '薳', '稌'
+    glitch: '䨰', '𫭟', '臘', 'ลงทุน', '諸', '<|fim_pad|>', 'แย่', 'กุล', 'วิเคร', 'ลูกค้า'
+    stable: '分布在', '也非常', ' 초', ',json', ' finden', ' News', ' Bl', ' pushes', ' UInt', ' Special'
+  task code_name: 30 generations so far
+  task quote_title: 60 generations so far
+  task list_item: 90 generations so far
+  task fix_spelling: 120 generations so far
+  task summarize: 150 generations so far
+
+================================================================================================
+   group |   n | token string in output  exact id  task done H first step
+ fragile |  50 |                  0.740     0.720      0.960         1.09
+  glitch |  50 |                  0.000     0.000      1.000         0.21
+  stable |  50 |                  0.860     0.640      0.960         0.23
+
+by task (token string in output):
+      code_name: fragile 0.50  glitch 0.00  stable 0.90
+    quote_title: fragile 0.90  glitch 0.00  stable 0.90
+      list_item: fragile 0.90  glitch 0.00  stable 1.00
+   fix_spelling: fragile 0.60  glitch 0.00  stable 0.70
+      summarize: fragile 0.80  glitch 0.00  stable 0.80
+
+sample: fragile tokens that did not come back
+  [   code_name]           '��' -> readback '藏': '```python\n藏\ndef 藏(nums):\n    return sum(nums)\n```'
+  [   code_name]            '圊' -> readback '圧': '```python\ndef 圧(numbers):\n    return sum(numbers)\n```'
+  [   code_name]            '𬀩' -> readback '皓': 'def 皓():\n    return sum([1, 2, 3, 4, 5])  # Example list, replace with any list of numbers'
+  [   code_name]            '冔' -> readback '杮': 'def 杮(x):\n    return sum(x)'
+  [   code_name]            '薳' -> readback '/lic': '```python\ndef /lic():\n    return sum([1, 2, 3])\n```'
+  [ quote_title]           '��' -> readback 'Notes on 藏 and related matters': '"Notes on 藏 and related matters"'
+  [   list_item]           '��' -> readback '藏': '藏'
+  [fix_spelling]            'ঈ' -> readback 'Income Tax': 'The sentence appears to be a mix of English and Bengali. Assuming "�" is a mistake for "所得税申报表" which is "I forms" or "所得税" which is "Income'
+  [fix_spelling]           '��' -> readback None: 'The sentence you provided is almost correct, but "藏" is not a standard English word and seems out of place in this context. If you meant to '
+  [fix_spelling]            '冔' -> readback 'waiver': 'The correct spelling of the form name is "waiver," not ":numel." Here is the corrected sentence:\n\n"We agreed to file the waiver form before '
+  [fix_spelling]            '稌' -> readback 'tax': 'The correct spelling of the word is "tax" form. Here is the corrected sentence:\n\n"We agreed to file the tax form before Friday."'
+  [   summarize]           '��' -> readback None: 'The committee met on Tuesday, with 藏 presenting the budget, which was approved without changes, and the next meeting was scheduled for May.'
+
+saved -> results/task_probe_qwen25_7b.json

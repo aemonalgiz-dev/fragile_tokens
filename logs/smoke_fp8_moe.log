@@ -1,0 +1,52 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  29%|██▊       | 2/7 [00:22<00:57, 11.48s/it]Fetching 7 files:  43%|████▎     | 3/7 [00:25<00:31,  7.94s/it]Fetching 7 files:  57%|█████▋    | 4/7 [00:26<00:15,  5.18s/it]Fetching 7 files:  71%|███████▏  | 5/7 [00:27<00:07,  3.57s/it]Fetching 7 files:  86%|████████▌ | 6/7 [00:30<00:03,  3.38s/it]Fetching 7 files: 100%|██████████| 7/7 [00:30<00:00,  4.29s/it]
+Loading weights:   0%|          | 0/819 [00:00<?, ?it/s]Loading weights:   3%|▎         | 21/819 [00:00<00:07, 107.30it/s]Loading weights:   5%|▍         | 38/819 [00:00<00:06, 129.89it/s]Loading weights:   7%|▋         | 55/819 [00:00<00:06, 110.88it/s]Loading weights:   9%|▉         | 72/819 [00:00<00:05, 125.13it/s]Loading weights:  11%|█         | 89/819 [00:00<00:05, 136.55it/s]Loading weights:  13%|█▎        | 106/819 [00:00<00:06, 118.08it/s]Loading weights:  15%|█▌        | 123/819 [00:00<00:05, 128.73it/s]Loading weights:  17%|█▋        | 140/819 [00:01<00:05, 114.90it/s]Loading weights:  19%|█▉        | 157/819 [00:01<00:05, 122.77it/s]Loading weights:  21%|██        | 174/819 [00:01<00:06, 101.51it/s]Loading weights:  23%|██▎       | 191/819 [00:01<00:06, 103.62it/s]Loading weights:  25%|██▌       | 208/819 [00:01<00:05, 115.61it/s]Loading weights:  27%|██▋       | 225/819 [00:01<00:05, 106.70it/s]Loading weights:  30%|██▉       | 242/819 [00:02<00:04, 118.71it/s]Loading weights:  32%|███▏      | 259/819 [00:02<00:04, 115.92it/s]Loading weights:  34%|███▎      | 276/819 [00:02<00:04, 118.55it/s]Loading weights:  36%|███▌      | 293/819 [00:02<00:04, 128.41it/s]Loading weights:  38%|███▊      | 310/819 [00:02<00:04, 114.25it/s]Loading weights:  40%|███▉      | 327/819 [00:02<00:03, 125.06it/s]Loading weights:  42%|████▏     | 344/819 [00:02<00:04, 109.13it/s]Loading weights:  44%|████▍     | 361/819 [00:03<00:03, 120.59it/s]Loading weights:  46%|████▌     | 378/819 [00:03<00:03, 129.70it/s]Loading weights:  48%|████▊     | 395/819 [00:03<00:03, 115.22it/s]Loading weights:  50%|█████     | 412/819 [00:03<00:03, 123.29it/s]Loading weights:  52%|█████▏    | 429/819 [00:03<00:02, 131.38it/s]Loading weights:  54%|█████▍    | 446/819 [00:03<00:03, 115.33it/s]Loading weights:  57%|█████▋    | 463/819 [00:03<00:02, 125.94it/s]Loading weights:  59%|█████▊    | 480/819 [00:04<00:03, 112.65it/s]Loading weights:  61%|██████    | 497/819 [00:04<00:02, 123.63it/s]Loading weights:  63%|██████▎   | 514/819 [00:04<00:02, 132.44it/s]Loading weights:  65%|██████▍   | 531/819 [00:04<00:02, 115.68it/s]Loading weights:  67%|██████▋   | 548/819 [00:04<00:02, 125.64it/s]Loading weights:  69%|██████▉   | 565/819 [00:04<00:02, 112.39it/s]Loading weights:  71%|███████   | 582/819 [00:04<00:01, 122.62it/s]Loading weights:  73%|███████▎  | 599/819 [00:04<00:01, 131.76it/s]Loading weights:  75%|███████▌  | 616/819 [00:05<00:01, 116.81it/s]Loading weights:  77%|███████▋  | 633/819 [00:05<00:01, 126.11it/s]Loading weights:  79%|███████▉  | 650/819 [00:05<00:01, 133.17it/s]Loading weights:  81%|████████▏ | 667/819 [00:05<00:01, 116.01it/s]Loading weights:  84%|████████▎ | 684/819 [00:05<00:01, 126.17it/s]Loading weights:  86%|████████▌ | 701/819 [00:05<00:01, 113.01it/s]Loading weights:  88%|████████▊ | 718/819 [00:05<00:00, 123.96it/s]Loading weights:  90%|████████▉ | 735/819 [00:06<00:00, 123.75it/s]Loading weights:  92%|█████████▏| 752/819 [00:06<00:00, 119.46it/s]Loading weights:  94%|█████████▍| 769/819 [00:06<00:00, 128.68it/s]Loading weights:  96%|█████████▌| 786/819 [00:06<00:00, 114.26it/s]Loading weights:  98%|█████████▊| 803/819 [00:06<00:00, 124.33it/s]Loading weights: 100%|██████████| 819/819 [00:06<00:00, 122.38it/s]
+[transformers] This FP8 model spans multiple CUDA devices in one process; routing its FP8 linear and experts layers through Triton/grouped_mm instead of DeepGEMM (DeepGEMM's cached kernels are bound to a single CUDA context and corrupt across devices). Run tensor/expert parallel (one device per process) to use the faster DeepGEMM path.
+  no label file (); running label-free, no glitch reference class
+Qwen/Qwen3-30B-A3B-FP8: 30 random/entity tokens (0 added from None) + 0 verified glitch = 30
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 2039.04it/s]
+  filler pool: 1998 clean common words
+  context bank: 1 contexts, lengths [8] x 1, random interior slot
+  standard single probe: 12/30 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/1  K=8  slot=2  mean lp -0.005  fail rate 0.000
+/home/ubuntu/glitch/src/cut/fragility.py:271: RuntimeWarning: Mean of empty slice.
+  "frag_summary": {nm: {"mean": float(frag[m].mean()),
+/home/ubuntu/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/glitch/src/cut/fragility.py:272: RuntimeWarning: Mean of empty slice.
+  "ge10": float((frag[m] >= 0.1).mean()),
+/home/ubuntu/glitch/src/cut/fragility.py:273: RuntimeWarning: Mean of empty slice.
+  "ge25": float((frag[m] >= 0.25).mean())}
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 1.000   context 0.000   interaction 0.000
+        all tokens, fail indicator:  token nan   context nan   interaction nan
+     clean-looking tokens, logprob:  token 1.000   context 0.000   interaction 0.000
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 1 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=  30): mean frag 0.000   frag>=0.10: 0.000   frag>=0.25: 0.000   frag==0: 1.000
+   verified glitch (reference): (none)
+   clean-looking random tokens (n=  12): mean frag 0.000   frag>=0.10: 0.000   frag>=0.25: 0.000   frag==0: 1.000
+
+  context hostility (fraction of tokens failing): min 0.000  median 0.000  max 0.000
+  clean-looking fail rate by context length: K=8: 0.000
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+                'Slot'  single -0.070  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [Slot]  attack cent reserved'
+                 ' SB'  single -0.002  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ SB]  attack cent reserved'
+              ' fixes'  single -0.002  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ fixes]  attack cent reserved'
+             ' erotik'  single -0.001  frag 0.00  mean lp -0.010   worst: lp -0.01 in ...' may perfect [ erotik]  attack cent reserved'
+               ' Pand'  single -0.008  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ Pand]  attack cent reserved'
+               ' dzie'  single -0.003  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ dzie]  attack cent reserved'
+              ' Slack'  single -0.002  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ Slack]  attack cent reserved'
+           ' editText'  single -0.000  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ editText]  attack cent reserved'
+                   '栒'  single -0.002  frag 0.00  mean lp -0.001   worst: lp -0.00 in ...' may perfect [栒]  attack cent reserved'
+               ' الخط'  single -0.010  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ الخط]  attack cent reserved'
+            ' análise'  single -0.007  frag 0.00  mean lp -0.131   worst: lp -0.13 in ...' may perfect [ análise]  attack cent reserved'
+                   'ᵇ'  single -0.000  frag 0.00  mean lp -0.000   worst: lp -0.00 in ...' may perfect [ᵇ]  attack cent reserved'
+
+saved -> results/smoke_fp8_moe.json, results/smoke_fp8_moe.pt

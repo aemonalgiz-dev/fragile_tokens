@@ -1,0 +1,18 @@
+{
+ "qwen3_32b": {
+  "n_gated": 1597,
+  "n_fragile": 15,
+  "auc_glitch_direction": 0.897850821744627,
+  "auc_glitch_proximity": 0.808259587020649,
+  "auc_token_id": 0.8553729456384324,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ },
+ "qwen25_72b": {
+  "n_gated": 3998,
+  "n_fragile": 417,
+  "auc_glitch_direction": 0.5986772715310019,
+  "auc_glitch_proximity": 0.798335472922974,
+  "auc_token_id": 0.8623858801816409,
+  "reference": "glitch, label-free:\nfails alone and in\n\u2265 90% of contexts"
+ }
+}

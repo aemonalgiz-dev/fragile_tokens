@@ -1,0 +1,69 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Fetching 18 files: 100%|██████████| 18/18 [00:00<00:00, 767.28it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<11:30,  1.23it/s]Loading weights:   2%|▏         | 13/851 [00:00<00:44, 18.74it/s]Loading weights:   2%|▏         | 20/851 [00:01<00:30, 27.14it/s]Loading weights:   3%|▎         | 27/851 [00:01<00:24, 33.39it/s]Loading weights:   4%|▍         | 33/851 [00:01<00:21, 37.28it/s]Loading weights:   5%|▍         | 41/851 [00:01<00:18, 43.88it/s]Loading weights:   6%|▌         | 47/851 [00:01<00:21, 37.58it/s]Loading weights:   6%|▌         | 52/851 [00:01<00:20, 38.46it/s]Loading weights:   8%|▊         | 66/851 [00:01<00:13, 56.66it/s]Loading weights:   9%|▊         | 73/851 [00:02<00:13, 57.16it/s]Loading weights:   9%|▉         | 80/851 [00:02<00:15, 50.18it/s]Loading weights:  11%|█         | 90/851 [00:02<00:12, 59.39it/s]Loading weights:  11%|█▏        | 97/851 [00:02<00:14, 51.35it/s]Loading weights:  12%|█▏        | 103/851 [00:02<00:16, 46.48it/s]Loading weights:  13%|█▎        | 113/851 [00:02<00:13, 52.97it/s]Loading weights:  14%|█▍        | 119/851 [00:02<00:15, 48.76it/s]Loading weights:  16%|█▌        | 133/851 [00:03<00:11, 63.95it/s]Loading weights:  16%|█▋        | 140/851 [00:03<00:12, 56.44it/s]Loading weights:  17%|█▋        | 146/851 [00:03<00:12, 55.22it/s]Loading weights:  18%|█▊        | 152/851 [00:03<00:12, 54.93it/s]Loading weights:  19%|█▊        | 158/851 [00:03<00:12, 53.40it/s]Loading weights:  20%|█▉        | 168/851 [00:03<00:10, 64.43it/s]Loading weights:  21%|██        | 175/851 [00:03<00:12, 53.22it/s]Loading weights:  22%|██▏       | 183/851 [00:04<00:11, 57.64it/s]Loading weights:  23%|██▎       | 196/851 [00:04<00:10, 65.24it/s]Loading weights:  24%|██▍       | 203/851 [00:04<00:11, 57.41it/s]Loading weights:  25%|██▍       | 209/851 [00:04<00:12, 50.42it/s]Loading weights:  26%|██▌       | 220/851 [00:04<00:10, 62.69it/s]Loading weights:  27%|██▋       | 227/851 [00:04<00:12, 51.17it/s]Loading weights:  28%|██▊       | 239/851 [00:04<00:09, 61.69it/s]Loading weights:  29%|██▉       | 246/851 [00:05<00:09, 60.61it/s]Loading weights:  30%|██▉       | 253/851 [00:05<00:10, 59.31it/s]Loading weights:  31%|███       | 260/851 [00:05<00:13, 43.73it/s]Loading weights:  32%|███▏      | 274/851 [00:05<00:09, 61.92it/s]Loading weights:  33%|███▎      | 282/851 [00:05<00:10, 52.96it/s]Loading weights:  34%|███▍      | 292/851 [00:05<00:09, 58.47it/s]Loading weights:  35%|███▌      | 299/851 [00:06<00:09, 58.81it/s]Loading weights:  36%|███▌      | 306/851 [00:06<00:11, 48.40it/s]Loading weights:  37%|███▋      | 313/851 [00:06<00:11, 48.69it/s]Loading weights:  38%|███▊      | 326/851 [00:06<00:09, 55.36it/s]Loading weights:  40%|████      | 341/851 [00:06<00:07, 67.31it/s]Loading weights:  41%|████      | 349/851 [00:06<00:08, 58.86it/s]Loading weights:  42%|████▏     | 356/851 [00:07<00:09, 53.64it/s]Loading weights:  43%|████▎     | 364/851 [00:07<00:08, 57.62it/s]Loading weights:  44%|████▎     | 371/851 [00:07<00:08, 57.24it/s]Loading weights:  45%|████▍     | 379/851 [00:07<00:07, 62.29it/s]Loading weights:  45%|████▌     | 386/851 [00:07<00:08, 55.44it/s]Loading weights:  47%|████▋     | 398/851 [00:07<00:06, 65.28it/s]Loading weights:  48%|████▊     | 405/851 [00:07<00:06, 64.33it/s]Loading weights:  48%|████▊     | 412/851 [00:08<00:10, 41.60it/s]Loading weights:  51%|█████▏    | 437/851 [00:08<00:06, 67.76it/s]Loading weights:  52%|█████▏    | 445/851 [00:08<00:05, 68.39it/s]Loading weights:  53%|█████▎    | 453/851 [00:08<00:06, 62.24it/s]Loading weights:  55%|█████▍    | 465/851 [00:08<00:05, 69.25it/s]Loading weights:  56%|█████▌    | 473/851 [00:09<00:07, 52.28it/s]Loading weights:  57%|█████▋    | 487/851 [00:09<00:06, 58.95it/s]Loading weights:  59%|█████▉    | 500/851 [00:09<00:05, 66.38it/s]Loading weights:  60%|█████▉    | 508/851 [00:09<00:05, 59.39it/s]Loading weights:  61%|██████    | 518/851 [00:09<00:05, 64.12it/s]Loading weights:  62%|██████▏   | 525/851 [00:09<00:06, 48.46it/s]Loading weights:  63%|██████▎   | 539/851 [00:10<00:05, 55.19it/s]Loading weights:  64%|██████▍   | 546/851 [00:10<00:05, 56.60it/s]Loading weights:  65%|██████▌   | 557/851 [00:10<00:04, 63.07it/s]Loading weights:  66%|██████▋   | 564/851 [00:10<00:04, 62.39it/s]Loading weights:  67%|██████▋   | 571/851 [00:10<00:04, 61.15it/s]Loading weights:  68%|██████▊   | 578/851 [00:10<00:06, 44.98it/s]Loading weights:  70%|██████▉   | 592/851 [00:11<00:04, 62.84it/s]Loading weights:  71%|███████   | 600/851 [00:11<00:04, 53.99it/s]Loading weights:  72%|███████▏  | 610/851 [00:11<00:04, 59.97it/s]Loading weights:  73%|███████▎  | 617/851 [00:11<00:03, 61.12it/s]Loading weights:  73%|███████▎  | 624/851 [00:11<00:04, 53.54it/s]Loading weights:  74%|███████▍  | 630/851 [00:11<00:05, 43.53it/s]Loading weights:  75%|███████▌  | 642/851 [00:11<00:03, 58.24it/s]Loading weights:  76%|███████▋  | 650/851 [00:12<00:03, 56.99it/s]Loading weights:  77%|███████▋  | 659/851 [00:12<00:03, 56.53it/s]Loading weights:  78%|███████▊  | 666/851 [00:12<00:03, 57.47it/s]Loading weights:  79%|███████▉  | 674/851 [00:12<00:03, 51.70it/s]Loading weights:  80%|████████  | 683/851 [00:12<00:02, 59.47it/s]Loading weights:  81%|████████  | 690/851 [00:12<00:02, 59.35it/s]Loading weights:  82%|████████▏ | 702/851 [00:12<00:02, 67.86it/s]Loading weights:  83%|████████▎ | 710/851 [00:13<00:02, 60.61it/s]Loading weights:  84%|████████▍ | 717/851 [00:13<00:02, 59.45it/s]Loading weights:  86%|████████▌ | 730/851 [00:13<00:01, 67.31it/s]Loading weights:  87%|████████▋ | 737/851 [00:13<00:02, 49.34it/s]Loading weights:  88%|████████▊ | 750/851 [00:13<00:01, 62.10it/s]Loading weights:  89%|████████▉ | 758/851 [00:13<00:01, 57.59it/s]Loading weights:  90%|█████████ | 769/851 [00:14<00:01, 65.04it/s]Loading weights:  91%|█████████▏| 777/851 [00:14<00:01, 65.72it/s]Loading weights:  92%|█████████▏| 784/851 [00:14<00:01, 55.87it/s]Loading weights:  93%|█████████▎| 791/851 [00:14<00:01, 46.97it/s]Loading weights:  94%|█████████▍| 801/851 [00:14<00:00, 57.07it/s]Loading weights:  95%|█████████▌| 809/851 [00:14<00:00, 55.73it/s]Loading weights:  96%|█████████▌| 816/851 [00:14<00:00, 57.19it/s]Loading weights:  97%|█████████▋| 823/851 [00:15<00:00, 51.30it/s]Loading weights:  98%|█████████▊| 836/851 [00:15<00:00, 65.55it/s]Loading weights:  99%|█████████▉| 844/851 [00:15<00:00, 49.13it/s]Loading weights: 100%|██████████| 851/851 [00:15<00:00, 54.51it/s]
+fragile sets from results/compact/fragility_qwen38_27b_compact.pt: 32 most fragile clean-looking tokens (fragility 1.00..1.00) vs 32 stable
+Qwen/Qwen3.8-27B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["' оказаться'", "' Председа'", "'стит'", "' 아버지'", "'мой'", "' грунт'"]
+  healthy: ["' leeft'", "' poten'", "' monarch'", "' Oak'", "' chall'", "' lít'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      3.978      3.802   0.177 |   0.0120   0.0153
+     2 |      3.672      3.175   0.498 |   0.0104   0.0056
+     4 |      2.378      2.338   0.040 |   0.0045   0.0034
+     8 |      1.993      2.231  -0.238 |   0.0012   0.0008
+
+  distinct scripts in output : glitch 1.12  healthy 1.12
+  token-repetition rate      : glitch 0.004  healthy 0.016
+  reproduced the seed token  : glitch 0.000  healthy 0.000   (exact id)
+  seed string in output      : glitch 0.000  healthy 0.000   (any segmentation)
+
+  --- sample generations (completion) ---
+  [GLITCH] ' оказаться' -> ' is a reflexive verb, and it'
+  [GLITCH] ' Председа' -> ' is a noun, and it means "'
+  [GLITCH] 'стит' -> ' is a noun, and it means "'
+  [HEALTHY] ' leeft' -> ' is a Dutch word that means "l'
+  [HEALTHY] ' poten' -> '\\xadti\\xadal\\xadly is an'
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      1.495      1.491   0.004 |   0.1360   0.0021
+     2 |      1.000      1.184  -0.184 |   0.1271   0.0011
+     4 |      1.880      1.882  -0.002 |   0.0099   0.0428
+     8 |      0.691      0.558   0.133 |   0.0019   0.0072
+    16 |      0.484      0.800  -0.315 |   0.0014   0.0017
+    32 |      0.680      0.796  -0.116 |   0.0018   0.0012
+    64 |      0.492      0.704  -0.212 |   0.0005   0.0007
+   128 |      0.546      0.531   0.015 |   0.0008   0.0005
+   192 |      0.587      0.639  -0.052 |   0.0024   0.0026
+   255 |      0.546      0.685  -0.139 |   0.0012   0.0015
+
+  distinct scripts in output : glitch 1.72  healthy 1.22
+  token-repetition rate      : glitch 0.495  healthy 0.468
+  reproduced the seed token  : glitch 0.219  healthy 0.312   (exact id)
+  seed string in output      : glitch 0.844  healthy 1.000   (any segmentation)
+
+  --- sample generations (reasoning) ---
+  [GLITCH] ' оказаться' -> '\\n\\nThe word "\\u043e\\u043a\\u0430\\u0437\\u0430\\u0442\\u044c\\u0441\\u044f" is a Russian verb. Let me break it down:\\n\\n- "\\u043e\\u043a\\u0430\\u0437\\u0430\\u0442\\u044c\\u0441\\u044f" is a perfective verb meaning "to turn out to be," "to find oneself," or "to happe'
+  [GLITCH] ' Председа' -> ' The user has written "Predseda" which is a word that appears in several Slavic languages. Let me consider what this might mean and what the user might be looki'
+  [GLITCH] 'стит' -> ' The user has written "\\u0441\\u0442\\u0438\\u0442" which appears to be a Russian word. Let me analyze what this could mean:\\n\\n1. "\\u0441\\u0442\\u0438\\u0442" is not a standard Russian word in its base form'
+  [HEALTHY] ' leeft' -> ' The user has written "leeft" which appears to be a Dutch word. Let me consider what this could mean and what the user might be asking.\\n\\n"Leeft" is the third pe'
+  [HEALTHY] ' poten' -> '\\n\\nThe user has typed "poten" which appears to be an incomplete word. Let me consider what they might be asking about:\\n\\n1. **"Poten"** could be a typo or incompl'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   -0.238
+  entropy gap, reasoning   @step8   +0.133
+  entropy gap, reasoning   @step255 -0.139
+  glitch chain alignment,  step1 -> step255   0.1360 -> 0.0012
+  healthy chain alignment, step1 -> step255   0.0021 -> 0.0015
+
+saved -> results/reasoning_fragile_qwen38_27b.json

@@ -1,0 +1,22 @@
+arm=mask   decoy=' or'
+  corr(uplift, log count) = +0.011   (raw logprob was +0.405 -- lower is better, the prior is gone)
+
+  corr(entropy, log count) = -0.106
+
+DOSE-RESPONSE: true training frequency vs behavioural damage
+      true count |      n | median entropy |  median uplift
+--------------------------------------------------------------
+               0 |    648 |          7.085 |         -0.325
+             1-9 |    604 |          6.972 |          1.468
+           10-99 |    840 |          6.420 |          0.867
+         100-999 |   2616 |          5.522 |          0.491
+       1000-9999 |   9890 |          5.601 |          0.789
+     10000-99999 |   1372 |          5.851 |          1.142
+100000-999999999999 |     95 |          6.290 |          0.482
+
+  doomed  (count<100,  >=2ch): n= 2092  median uplift +0.485
+  healthy (count>=10k, >=2ch): n= 1467  median uplift +1.095
+  uplift separation : +0.610 nats
+  ENTROPY separation: +0.993 nats  (doomed 6.876 vs healthy 5.883)
+
+val loss 3.6362   saved -> runs/s4/mask/

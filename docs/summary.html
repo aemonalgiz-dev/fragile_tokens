@@ -1,0 +1,385 @@
+<title>The Abandonment Signal</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap">
+<style>
+:root{
+  --ground:#F1F4F4; --surface:#FFFFFF; --surface-2:#F8FAFA;
+  --ink:#141C1F; --ink-2:#3C4A4E; --muted:#617074; --rule:#DBE2E3; --rule-2:#EDF1F1;
+  --c1:#0087A0; --c2:#C4552B; --c3:#6B5CA5;
+  --pos:#1F6F4A; --neg:#A33B2A;
+  --measure:34rem;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#12181A; --surface:#1A2124; --surface-2:#161D20;
+  --ink:#E8EEEF; --ink-2:#BFCACD; --muted:#8E9DA1; --rule:#2A3336; --rule-2:#222A2D;
+  --c1:#2A9DB5; --c2:#D96A3E; --c3:#8A78C0;
+  --pos:#5FBE8C; --neg:#E38774;
+}}
+:root[data-theme="dark"]{
+  --ground:#12181A; --surface:#1A2124; --surface-2:#161D20;
+  --ink:#E8EEEF; --ink-2:#BFCACD; --muted:#8E9DA1; --rule:#2A3336; --rule-2:#222A2D;
+  --c1:#2A9DB5; --c2:#D96A3E; --c3:#8A78C0;
+  --pos:#5FBE8C; --neg:#E38774;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);
+  font-family:"IBM Plex Serif",Georgia,serif;font-size:16.5px;line-height:1.62;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem 6rem}
+.col{max-width:var(--measure);margin-inline:auto}
+h1,h2,h3,.ui{font-family:"IBM Plex Sans",system-ui,sans-serif}
+.mono,code{font-family:"IBM Plex Mono",ui-monospace,monospace}
+
+/* ---- masthead ---- */
+header{padding:4.5rem 0 2.5rem}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(2.1rem,5.2vw,3.1rem);line-height:1.05;font-weight:600;
+  letter-spacing:-.022em;margin:.7rem 0 0;text-wrap:balance}
+.dek{font-size:1.12rem;color:var(--ink-2);margin:1rem 0 0;text-wrap:pretty}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;margin-top:1.6rem;
+  font-family:"IBM Plex Mono",monospace;font-size:.76rem;color:var(--muted)}
+
+/* ---- verdict strip: two research directions, opposite outcomes ---- */
+.verdicts{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);margin:2.5rem 0 0}
+.verdict{background:var(--surface);padding:1.4rem 1.5rem}
+.verdict .tag{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.12em;
+  text-transform:uppercase;display:flex;align-items:center;gap:.5rem}
+.verdict .tag::before{content:"";width:7px;height:7px;border-radius:50%}
+.verdict.dead .tag{color:var(--neg)} .verdict.dead .tag::before{background:var(--neg)}
+.verdict.live .tag{color:var(--pos)} .verdict.live .tag::before{background:var(--pos)}
+.verdict h3{font-size:1.02rem;font-weight:600;margin:.6rem 0 .4rem;letter-spacing:-.01em}
+.verdict p{margin:0;font-size:.92rem;color:var(--ink-2);line-height:1.5}
+
+section{padding-top:3.4rem}
+h2{font-size:1.55rem;font-weight:600;letter-spacing:-.018em;margin:0 0 .2rem;text-wrap:balance}
+h2 .num{font-family:"IBM Plex Mono",monospace;font-size:.78rem;color:var(--muted);
+  display:block;letter-spacing:.1em;margin-bottom:.5rem;font-weight:500}
+h3.sub{font-size:1.02rem;font-weight:600;margin:2.2rem 0 .3rem;letter-spacing:-.01em}
+p{margin:.85rem 0}
+strong{font-weight:600}
+em.term{font-style:italic;color:var(--ink)}
+code{font-size:.86em;background:var(--surface-2);border:1px solid var(--rule-2);
+  padding:.08em .34em;border-radius:3px;color:var(--ink-2)}
+
+/* ---- figures break out of the reading measure ---- */
+figure{margin:2.2rem 0 0;background:var(--surface);border:1px solid var(--rule);padding:1.4rem 1.3rem 1.1rem}
+figcaption{font-size:.85rem;color:var(--muted);line-height:1.5;margin-top:.9rem;
+  padding-top:.85rem;border-top:1px solid var(--rule-2)}
+figcaption b{color:var(--ink-2);font-weight:600}
+.chart-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+  flex-wrap:wrap;margin-bottom:.9rem}
+.chart-title{font-family:"IBM Plex Sans",sans-serif;font-size:.98rem;font-weight:600;letter-spacing:-.008em}
+.legend{display:flex;gap:1rem;flex-wrap:wrap;font-family:"IBM Plex Mono",monospace;
+  font-size:.74rem;color:var(--muted)}
+.legend span{display:flex;align-items:center;gap:.4rem}
+.legend i{width:14px;height:2.5px;border-radius:2px;display:block}
+.chart-scroll{overflow-x:auto}
+svg{display:block;width:100%;height:auto;min-width:520px}
+.tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--rule);
+  padding:.5rem .6rem;font-family:"IBM Plex Mono",monospace;font-size:.73rem;line-height:1.5;
+  color:var(--ink);box-shadow:0 4px 14px rgba(0,0,0,.13);opacity:0;transition:opacity .1s;
+  white-space:nowrap;border-radius:3px;z-index:5}
+.holder{position:relative}
+
+/* ---- stat contrast ---- */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);margin:2rem 0 0}
+.stat{background:var(--surface);padding:1.2rem 1.3rem}
+.stat .k{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.5rem}
+.stat .v{font-family:"IBM Plex Sans",sans-serif;font-size:1.9rem;font-weight:600;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1}
+.stat .u{font-size:.8rem;color:var(--muted);margin-left:.25rem;font-weight:400}
+.stat .n{font-size:.83rem;color:var(--ink-2);margin-top:.45rem;line-height:1.45;
+  font-family:"IBM Plex Serif",serif}
+
+table{width:100%;border-collapse:collapse;font-size:.87rem;margin:1.6rem 0 0;
+  font-family:"IBM Plex Sans",sans-serif}
+caption{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:.72rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-bottom:.6rem}
+th,td{padding:.5rem .7rem;text-align:right;border-bottom:1px solid var(--rule-2);
+  font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:.82rem}
+thead th{font-size:.74rem;font-weight:600;color:var(--muted);border-bottom:1px solid var(--rule)}
+tbody tr:last-child td{border-bottom:none}
+td.hi{color:var(--c1);font-weight:600}
+td.lo{color:var(--c2);font-weight:600}
+.tbl-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--rule);
+  padding:1.1rem 1.2rem;margin-top:1.8rem}
+
+blockquote{margin:2rem 0 0;padding:1.1rem 0 1.1rem 1.3rem;border-left:2px solid var(--c1);
+  font-size:1.06rem;line-height:1.55;color:var(--ink)}
+blockquote p{margin:0}
+.caveat{margin-top:2.2rem;padding:1.1rem 1.2rem;background:var(--surface-2);
+  border:1px solid var(--rule);font-size:.91rem;color:var(--ink-2);line-height:1.55}
+.caveat b{font-family:"IBM Plex Sans",sans-serif;color:var(--ink);font-weight:600}
+footer{margin-top:4rem;padding-top:1.4rem;border-top:1px solid var(--rule);
+  font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:var(--muted);line-height:1.7}
+a{color:var(--c1);text-underline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+:focus-visible{outline:2px solid var(--c1);outline-offset:2px}
+</style>
+
+<div class="wrap">
+<header class="col">
+  <div class="eyebrow">Pretraining dynamics · Pythia 160m &amp; 1.4b</div>
+  <h1>The Abandonment Signal</h1>
+  <p class="dek">Two untried attacks on glitch-token detection. One died under a well-powered
+  null. The other says you can name the doomed tokens after 256 of 143,000 steps — and that
+  the standard detectors are blind exactly when it would matter.</p>
+  <div class="meta">
+    <span>50,304-token vocabulary</span><span>20 checkpoints</span>
+    <span>behavioural ground truth</span><span>2026-09-04</span>
+  </div>
+</header>
+
+<div class="verdicts col">
+  <div class="verdict dead">
+    <div class="tag">Falsified</div>
+    <h3>Compositional under-training</h3>
+    <p>n-grams of healthy tokens welded into near-deterministic units. Violating the weld
+    does essentially nothing — even at <span class="mono">p=1e-5</span>.</p>
+  </div>
+  <div class="verdict live">
+    <div class="tag">Confirmed</div>
+    <h3>Training-time detection</h3>
+    <p>Final glitch status is predictable from embedding geometry at 0.18% of training,
+    on both model sizes.</p>
+  </div>
+</div>
+
+<section class="col">
+  <h2><span class="num">Direction 01 — falsified</span>Confidence is cheap to contradict</h2>
+  <p>The hypothesis: compositional under-training is not the <em class="term">absence of data</em>
+  but the <em class="term">absence of variation</em>. Find n-grams the model has welded into
+  atomic units — where every constituent token is common and healthy — then violate the weld.</p>
+  <p>The welds are real. A single O(|V|) sweep over the vocabulary found
+  <code> prerequ</code>→<code>isites</code> at p=0.994, <code> pione</code>→<code>ers</code>
+  at p=0.997, and a memorised citation template at <strong>p=1.000</strong>. No
+  |V|<sup>n</sup> search required.</p>
+  <p>Violating them does nothing. Across 1,200 chains spanning commitment from p=0.036 to
+  p=1.000, inserting a token the model assigns p=1e-5 produced a copy-logprob drop
+  uncorrelated with how committed the model was:
+  <strong>r = &minus;0.003</strong>.</p>
+</section>
+
+<div class="col">
+<div class="stats">
+  <div class="stat"><span class="k">Known single-token glitch</span>
+    <div class="v">3.176<span class="u">nats</span></div>
+    <div class="n">What the copy probe detects. 90.0% → 0.0% exact match.</div></div>
+  <div class="stat"><span class="k">Seam violation</span>
+    <div class="v">0.005<span class="u">nats</span></div>
+    <div class="n">What maximal weld violation produces. CI spans zero.</div></div>
+  <div class="stat"><span class="k">Ratio</span>
+    <div class="v">≈600×</div>
+    <div class="n">The instrument had headroom and the effect used none of it.</div></div>
+</div>
+</div>
+
+<section class="col">
+  <blockquote><p>Commitment and fragility are decoupled. A model's confidence structure has
+  no measurable relationship to its robustness structure.</p></blockquote>
+  <p>That extends <em>Broken Tokens</em> from “models tolerate non-canonical tokenizations” to
+  the stronger “models tolerate maximal violation of their own most confident predictions.”</p>
+</section>
+
+<section class="col">
+  <h2><span class="num">Direction 02 — confirmed</span>Doomed tokens are legible at step 256</h2>
+  <p>Ground truth here is <strong>behavioural</strong>, not an embedding heuristic: the same
+  validated copy probe run over all 50,304 tokens of the final model, worst 1% = glitch.
+  Features come only from checkpoint <em>t</em>; a logistic regression over eight embedding
+  statistics is fit on half the vocabulary and scored on the held-out half.</p>
+</section>
+
+<figure>
+  <div class="chart-head">
+    <div class="chart-title">Predicting final glitch status from checkpoint <i>t</i></div>
+    <div class="legend">
+      <span><i style="background:var(--c1)"></i>pythia-160m</span>
+      <span><i style="background:var(--c2)"></i>pythia-1.4b</span>
+    </div>
+  </div>
+  <div class="chart-scroll holder"><svg id="auc" viewBox="0 0 880 340" role="img"
+    aria-label="AUC rises from chance at step 0 to above 0.9 by step 256 for both models"></svg>
+    <div class="tip" id="tip1"></div></div>
+  <figcaption><b>Chance at steps 0–1, as it must be — no information exists yet.</b> Then 0.87
+  after two optimizer steps, and past 0.90 by step 256 on both models. The classic static
+  detectors sit at chance this early: on 1.4b, unembedding norm never reaches 0.90 at
+  <i>any</i> checkpoint.</figcaption>
+</figure>
+
+<section class="col">
+  <h3 class="sub">The early signal is gradient sparsity, not clairvoyance</h3>
+  <p>One indicator carries everything early — the token-specific residual of the
+  <em>input</em> embedding update (AUC 0.842 at step 2, everything else at chance). Input-embedding
+  gradients are sparse: only tokens actually present in a batch get a token-specific update.
+  So this is corpus-free frequency estimation read off the optimizer. Useful — it needs no
+  corpus counts and no behavioural testing — but it is not the model knowing anything.</p>
+
+  <h3 class="sub">Raw update magnitude actively hides the mechanism</h3>
+  <p>The obvious question is whether glitch rows are simply never updated. Measured directly,
+  they appear to be updated <em>as much as healthy rows</em> — ratio ≥ 1.0 through step 512 in
+  both models. That parity is an illusion.</p>
+</section>
+
+<figure>
+  <div class="chart-head">
+    <div class="chart-title">Update magnitude, glitch ÷ healthy — pythia-1.4b</div>
+    <div class="legend">
+      <span><i style="background:var(--c3)"></i>total |dW|</span>
+      <span><i style="background:var(--c2)"></i>shared drift</span>
+      <span><i style="background:var(--c1)"></i>token-specific residual</span>
+    </div>
+  </div>
+  <div class="chart-scroll holder"><svg id="ratio" viewBox="0 0 880 340" role="img"
+    aria-label="Total update ratio stays near one while the token-specific residual collapses from step 32"></svg>
+    <div class="tip" id="tip2"></div></div>
+  <figcaption><b>Decomposing each row's update into the global drift direction and the
+  token-specific residual.</b> Glitch rows are swept along the shared direction <i>more</i> than
+  healthy rows (up to 2.4×) while their actual learning collapses from step 32. Above the
+  <span class="mono">1.0</span> line means glitch rows moved more than healthy ones.</figcaption>
+</figure>
+
+<section class="col">
+  <p>The residual ratio at step 32 is <strong>0.727</strong> on 160m and <strong>0.736</strong>
+  on 1.4b — essentially the same number across a 9× size difference. The masking effect is not
+  a small-model artifact.</p>
+  <p>This settles a live disagreement. The folk model — glitch tokens are rows that never
+  received gradient — is wrong; they receive large updates. <em>Hub of Short Rows</em> is right
+  that the rows <i>were</i> updated, and this says what those updates were: shared drift, not
+  learning.</p>
+</section>
+
+<div class="col">
+<div class="tbl-wrap"><table>
+  <caption>Two populations — tokens with zero token-specific input update</caption>
+  <thead><tr><th>step</th><th>all vocab</th><th>glitch set</th><th>healthy</th></tr></thead>
+  <tbody>
+    <tr><td>2</td><td>3.34%</td><td class="lo">59.52%</td><td>2.78%</td></tr>
+    <tr><td>32</td><td>0.63%</td><td class="lo">51.19%</td><td>0.12%</td></tr>
+    <tr><td>128</td><td>0.58%</td><td class="lo">50.40%</td><td>0.04%</td></tr>
+  </tbody>
+</table></div>
+</div>
+
+<section class="col">
+  <p>About half the glitch set is <strong>stillborn</strong> — never appears, zero
+  token-specific gradient. The other half <strong>appears, receives gradient, and degrades
+  anyway.</strong> That second population is invisible to any “was it updated?” test, and it is
+  the one the residual signal catches.</p>
+
+  <div class="caveat"><b>What this doesn't show.</b> Aggregate ratio separation at step 32 is not
+  per-token discriminability — individual prediction still needs step 256. Severity and
+  earliness track together (worst 0.5% reach AUC 0.95 at step 2; worst 5% not until step 2000),
+  so “detectable early” means the severe tail first. And the zero-update fractions go to 0.00%
+  after step 128, which is almost certainly optimizer-state numerics rather than real learning.</div>
+</section>
+
+<footer class="col">
+  Behavioural ground truth: teacher-forced copy probe, token-id level, no decode–re-encode.
+  Checkpoints: the log-spaced Pythia ladder, step 0 → 143,000.<br>
+  Falsification record and prior-art survey in <span class="mono">docs/</span>.
+</footer>
+</div>
+
+<script>
+const D = {
+ auc160:[[0,.487],[1,.487],[2,.873],[4,.885],[8,.879],[16,.827],[32,.826],[64,.86],[128,.845],[256,.96],[512,.941],[1000,.975],[2000,.972],[4000,.927],[8000,.97],[16000,.972],[32000,.963],[64000,.958],[100000,.995],[143000,.995]],
+ auc14:[[0,.512],[1,.512],[2,.832],[4,.843],[8,.836],[16,.814],[32,.821],[64,.828],[128,.84],[256,.926],[512,.936],[1000,.96],[2000,.968],[4000,.954],[8000,.95],[16000,.963],[32000,.969],[64000,.96],[100000,.954],[143000,.946]],
+ ratio:[[2,1.032,1.351,1.031],[4,1.073,1.384,1.067],[8,1.051,1.355,1.026],[16,1.062,1.391,.882],[32,1.091,1.463,.736],[64,1.093,1.454,.607],[128,1.14,1.439,.573],[256,1.28,1.949,.653],[512,1.233,2.435,.81],[1000,.846,1.38,.816],[2000,.547,-.195,.547],[4000,.479,.175,.481],[8000,.593,.9,.582],[16000,.663,.639,.664],[32000,.763,.613,.768],[64000,.827,1.024,.815],[100000,.793,1.062,.75],[143000,.929,1.243,.808]]
+};
+const SVGNS="http://www.w3.org/2000/svg";
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el=(n,a)=>{const e=document.createElementNS(SVGNS,n);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const fmtStep=s=>s>=1000?(s/1000)+"k":""+s;
+
+function draw(id,tipId,steps,series,yLo,yHi,ticks,refs,yFmt){
+  const svg=document.getElementById(id); svg.textContent="";
+  const W=880,H=340,L=52,R=104,T=18,B=44;
+  const iw=W-L-R, ih=H-T-B;
+  const X=i=>L+(steps.length===1?0:i*iw/(steps.length-1));
+  const Y=v=>T+ih-(v-yLo)/(yHi-yLo)*ih;
+  const ink=css("--ink"),muted=css("--muted"),rule=css("--rule-2"),ruleS=css("--rule");
+
+  ticks.forEach(t=>{ const y=Y(t);
+    svg.appendChild(el("line",{x1:L,x2:L+iw,y1:y,y2:y,stroke:rule,"stroke-width":1}));
+    const tx=el("text",{x:L-10,y:y+4,fill:muted,"font-size":11,"text-anchor":"end",
+      "font-family":"IBM Plex Mono, monospace"}); tx.textContent=yFmt(t); svg.appendChild(tx);
+  });
+  refs.forEach(r=>{ const y=Y(r.v);
+    svg.appendChild(el("line",{x1:L,x2:L+iw,y1:y,y2:y,stroke:r.c,"stroke-width":1.5,
+      "stroke-dasharray":"3 4",opacity:.85}));
+    // label sits inside the plot at the left, clear of the right-hand end labels
+    const tx=el("text",{x:L+6,y:y-6,fill:r.c,"font-size":10.5,
+      "font-family":"IBM Plex Mono, monospace","letter-spacing":".05em"});
+    tx.textContent=r.label; svg.appendChild(tx);
+  });
+  svg.appendChild(el("line",{x1:L,x2:L+iw,y1:T+ih,y2:T+ih,stroke:ruleS,"stroke-width":1}));
+
+  steps.forEach((s,i)=>{ if(i%2&&steps.length>12) return;
+    const tx=el("text",{x:X(i),y:H-22,fill:muted,"font-size":10.5,"text-anchor":"middle",
+      "font-family":"IBM Plex Mono, monospace"}); tx.textContent=fmtStep(s); svg.appendChild(tx);
+  });
+  const ax=el("text",{x:L+iw/2,y:H-4,fill:muted,"font-size":10.5,"text-anchor":"middle",
+    "font-family":"IBM Plex Mono, monospace","letter-spacing":".08em"});
+  ax.textContent="PYTHIA CHECKPOINT LADDER (LOG-SPACED)"; svg.appendChild(ax);
+
+  const ends=[];
+  series.forEach(se=>{
+    const col=css(se.c);
+    const d=se.v.map((v,i)=>(i?"L":"M")+X(i)+" "+Y(Math.max(yLo,Math.min(yHi,v)))).join(" ");
+    svg.appendChild(el("path",{d,fill:"none",stroke:col,"stroke-width":2,
+      "stroke-linejoin":"round","stroke-linecap":"round"}));
+    se.v.forEach((v,i)=>svg.appendChild(el("circle",{cx:X(i),cy:Y(Math.max(yLo,Math.min(yHi,v))),
+      r:2.6,fill:col,stroke:css("--surface"),"stroke-width":1.5})));
+    const last=se.v.length-1;
+    ends.push({y:Y(se.v[last]),x:X(last)+9,col,n:se.n});
+  });
+
+  // push apart end labels that would overlap, keeping their vertical order
+  ends.sort((a,b)=>a.y-b.y);
+  for(let i=1;i<ends.length;i++)
+    if(ends[i].y-ends[i-1].y<13) ends[i].y=ends[i-1].y+13;
+  ends.forEach(e=>{
+    const lb=el("text",{x:e.x,y:e.y+4,fill:e.col,"font-size":11.5,
+      "font-family":"IBM Plex Mono, monospace","font-weight":600});
+    lb.textContent=e.n; svg.appendChild(lb);
+  });
+
+  const cross=el("line",{x1:0,x2:0,y1:T,y2:T+ih,stroke:css("--muted"),"stroke-width":1,opacity:0});
+  svg.appendChild(cross);
+  const tip=document.getElementById(tipId), holder=svg.parentElement;
+  svg.addEventListener("pointermove",ev=>{
+    const b=svg.getBoundingClientRect(), px=(ev.clientX-b.left)/b.width*W;
+    let i=Math.round((px-L)/(iw/(steps.length-1))); i=Math.max(0,Math.min(steps.length-1,i));
+    cross.setAttribute("x1",X(i)); cross.setAttribute("x2",X(i)); cross.setAttribute("opacity",.45);
+    tip.style.opacity=1;
+    tip.innerHTML="<b>step "+steps[i].toLocaleString()+"</b><br>"+
+      series.map(se=>se.n+" &nbsp;"+se.v[i].toFixed(3)).join("<br>");
+    const hx=X(i)/W*b.width;
+    tip.style.left=Math.min(b.width-tip.offsetWidth-6,Math.max(0,hx+12))+"px";
+    tip.style.top="14px";
+  });
+  svg.addEventListener("pointerleave",()=>{cross.setAttribute("opacity",0);tip.style.opacity=0;});
+}
+
+function render(){
+  draw("auc","tip1",D.auc160.map(r=>r[0]),
+    [{n:"160m",c:"--c1",v:D.auc160.map(r=>r[1])},
+     {n:"1.4b",c:"--c2",v:D.auc14.map(r=>r[1])}],
+    .45,1.0,[.5,.6,.7,.8,.9,1.0],
+    [{v:.5,c:css("--muted"),label:"chance"},{v:.95,c:css("--c3"),label:"0.95"}],
+    v=>v.toFixed(2));
+  draw("ratio","tip2",D.ratio.map(r=>r[0]),
+    [{n:"total",c:"--c3",v:D.ratio.map(r=>r[1])},
+     {n:"shared",c:"--c2",v:D.ratio.map(r=>r[2])},
+     {n:"residual",c:"--c1",v:D.ratio.map(r=>r[3])}],
+    -.3,2.6,[0,.5,1.0,1.5,2.0,2.5],
+    [{v:1,c:css("--muted"),label:"parity"}],
+    v=>v.toFixed(1));
+}
+render();
+matchMedia("(prefers-color-scheme:dark)").addEventListener("change",render);
+</script>

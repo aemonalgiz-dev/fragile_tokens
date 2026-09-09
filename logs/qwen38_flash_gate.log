@@ -1,0 +1,4 @@
+results/fragility_qwen38_flash.pt: N=8400 gate p>0.5 -> n_clean 4047; single pct50 -0.792 pct90 -0.003; ctx median -0.0005
+  fail_p61: frag>=0.10 0.004 (n=15)  never 0.992  mean 0.0018  half-corr 0.938
+  fail_p50: frag>=0.10 0.003 (n=13)  never 0.994  mean 0.0013  half-corr 0.923
+  shares (clean, lp): token 0.626 context 0.000 interaction 0.373

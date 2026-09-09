@@ -1,0 +1,113 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/1601 [00:00<?, ?it/s]Loading weights:   2%|▏         | 38/1601 [00:00<00:18, 82.97it/s]Loading weights:   3%|▎         | 55/1601 [00:00<00:25, 61.46it/s]Loading weights:   4%|▍         | 72/1601 [00:01<00:28, 53.63it/s]Loading weights:   6%|▌         | 89/1601 [00:01<00:30, 50.02it/s]Loading weights:   7%|▋         | 106/1601 [00:02<00:31, 48.05it/s]Loading weights:   8%|▊         | 123/1601 [00:02<00:31, 46.95it/s]Loading weights:   9%|▊         | 140/1601 [00:02<00:31, 46.15it/s]Loading weights:  10%|▉         | 157/1601 [00:03<00:31, 45.36it/s]Loading weights:  11%|█         | 174/1601 [00:03<00:31, 44.75it/s]Loading weights:  12%|█▏        | 191/1601 [00:03<00:31, 44.40it/s]Loading weights:  13%|█▎        | 208/1601 [00:04<00:31, 44.03it/s]Loading weights:  14%|█▍        | 225/1601 [00:04<00:31, 43.87it/s]Loading weights:  15%|█▌        | 242/1601 [00:05<00:31, 43.82it/s]Loading weights:  16%|█▌        | 259/1601 [00:05<00:30, 44.09it/s]Loading weights:  17%|█▋        | 276/1601 [00:05<00:29, 44.21it/s]Loading weights:  18%|█▊        | 293/1601 [00:06<00:29, 44.34it/s]Loading weights:  19%|█▉        | 310/1601 [00:06<00:29, 44.36it/s]Loading weights:  20%|██        | 327/1601 [00:07<00:28, 44.46it/s]Loading weights:  21%|██▏       | 344/1601 [00:07<00:28, 44.14it/s]Loading weights:  23%|██▎       | 361/1601 [00:07<00:28, 43.93it/s]Loading weights:  24%|██▎       | 378/1601 [00:08<00:28, 43.49it/s]Loading weights:  25%|██▍       | 395/1601 [00:08<00:27, 43.88it/s]Loading weights:  26%|██▌       | 412/1601 [00:08<00:26, 44.09it/s]Loading weights:  27%|██▋       | 429/1601 [00:09<00:26, 44.26it/s]Loading weights:  28%|██▊       | 446/1601 [00:09<00:26, 44.15it/s]Loading weights:  29%|██▉       | 463/1601 [00:10<00:25, 44.17it/s]Loading weights:  30%|██▉       | 480/1601 [00:10<00:25, 44.29it/s]Loading weights:  31%|███       | 497/1601 [00:10<00:24, 44.39it/s]Loading weights:  32%|███▏      | 514/1601 [00:11<00:24, 44.52it/s]Loading weights:  33%|███▎      | 531/1601 [00:11<00:24, 44.50it/s]Loading weights:  34%|███▍      | 548/1601 [00:12<00:23, 44.55it/s]Loading weights:  35%|███▌      | 565/1601 [00:12<00:23, 44.77it/s]Loading weights:  36%|███▋      | 582/1601 [00:12<00:22, 44.72it/s]Loading weights:  37%|███▋      | 599/1601 [00:13<00:22, 44.84it/s]Loading weights:  38%|███▊      | 616/1601 [00:13<00:22, 44.68it/s]Loading weights:  40%|███▉      | 633/1601 [00:13<00:21, 44.63it/s]Loading weights:  41%|████      | 650/1601 [00:14<00:21, 44.61it/s]Loading weights:  42%|████▏     | 667/1601 [00:14<00:20, 44.75it/s]Loading weights:  43%|████▎     | 684/1601 [00:15<00:20, 44.63it/s]Loading weights:  44%|████▍     | 701/1601 [00:15<00:20, 44.60it/s]Loading weights:  45%|████▍     | 718/1601 [00:15<00:19, 44.48it/s]Loading weights:  46%|████▌     | 735/1601 [00:16<00:19, 44.56it/s]Loading weights:  47%|████▋     | 752/1601 [00:16<00:19, 44.04it/s]Loading weights:  48%|████▊     | 769/1601 [00:16<00:19, 43.70it/s]Loading weights:  49%|████▉     | 786/1601 [00:17<00:18, 43.92it/s]Loading weights:  50%|█████     | 803/1601 [00:17<00:18, 44.02it/s]Loading weights:  51%|█████     | 820/1601 [00:18<00:17, 44.11it/s]Loading weights:  52%|█████▏    | 837/1601 [00:18<00:17, 44.39it/s]Loading weights:  53%|█████▎    | 854/1601 [00:18<00:16, 44.46it/s]Loading weights:  54%|█████▍    | 871/1601 [00:19<00:16, 44.45it/s]Loading weights:  55%|█████▌    | 888/1601 [00:19<00:15, 44.59it/s]Loading weights:  57%|█████▋    | 905/1601 [00:20<00:15, 44.69it/s]Loading weights:  58%|█████▊    | 922/1601 [00:20<00:15, 44.70it/s]Loading weights:  59%|█████▊    | 939/1601 [00:20<00:14, 44.73it/s]Loading weights:  60%|█████▉    | 956/1601 [00:21<00:14, 44.68it/s]Loading weights:  61%|██████    | 973/1601 [00:21<00:14, 44.81it/s]Loading weights:  62%|██████▏   | 990/1601 [00:21<00:13, 44.87it/s]Loading weights:  63%|██████▎   | 1007/1601 [00:22<00:13, 44.85it/s]Loading weights:  64%|██████▍   | 1024/1601 [00:22<00:12, 44.65it/s]Loading weights:  65%|██████▌   | 1041/1601 [00:23<00:12, 44.34it/s]Loading weights:  66%|██████▌   | 1058/1601 [00:23<00:12, 44.37it/s]Loading weights:  67%|██████▋   | 1075/1601 [00:23<00:11, 44.31it/s]Loading weights:  68%|██████▊   | 1092/1601 [00:24<00:11, 44.51it/s]Loading weights:  69%|██████▉   | 1109/1601 [00:24<00:10, 44.74it/s]Loading weights:  70%|███████   | 1126/1601 [00:24<00:10, 44.75it/s]Loading weights:  71%|███████▏  | 1143/1601 [00:25<00:10, 44.73it/s]Loading weights:  72%|███████▏  | 1160/1601 [00:25<00:09, 44.78it/s]Loading weights:  74%|███████▎  | 1177/1601 [00:26<00:09, 44.78it/s]Loading weights:  75%|███████▍  | 1194/1601 [00:26<00:09, 44.73it/s]Loading weights:  76%|███████▌  | 1211/1601 [00:26<00:08, 44.82it/s]Loading weights:  77%|███████▋  | 1228/1601 [00:27<00:08, 44.66it/s]Loading weights:  78%|███████▊  | 1245/1601 [00:27<00:07, 44.73it/s]Loading weights:  79%|███████▉  | 1262/1601 [00:28<00:07, 44.72it/s]Loading weights:  80%|███████▉  | 1279/1601 [00:28<00:07, 44.66it/s]Loading weights:  81%|████████  | 1296/1601 [00:28<00:06, 44.77it/s]Loading weights:  82%|████████▏ | 1313/1601 [00:29<00:06, 44.86it/s]Loading weights:  83%|████████▎ | 1330/1601 [00:29<00:06, 44.89it/s]Loading weights:  84%|████████▍ | 1347/1601 [00:29<00:05, 44.88it/s]Loading weights:  85%|████████▌ | 1364/1601 [00:30<00:05, 44.86it/s]Loading weights:  86%|████████▋ | 1381/1601 [00:30<00:04, 44.87it/s]Loading weights:  87%|████████▋ | 1398/1601 [00:31<00:04, 44.65it/s]Loading weights:  88%|████████▊ | 1415/1601 [00:31<00:04, 44.61it/s]Loading weights:  89%|████████▉ | 1432/1601 [00:31<00:03, 44.55it/s]Loading weights:  91%|█████████ | 1449/1601 [00:32<00:03, 44.68it/s]Loading weights:  92%|█████████▏| 1466/1601 [00:32<00:03, 44.65it/s]Loading weights:  93%|█████████▎| 1483/1601 [00:32<00:02, 44.55it/s]Loading weights:  94%|█████████▎| 1500/1601 [00:33<00:02, 44.57it/s]Loading weights:  95%|█████████▍| 1517/1601 [00:33<00:01, 44.59it/s]Loading weights:  96%|█████████▌| 1534/1601 [00:34<00:01, 44.44it/s]Loading weights:  97%|█████████▋| 1551/1601 [00:34<00:01, 44.52it/s]Loading weights:  98%|█████████▊| 1568/1601 [00:34<00:00, 44.17it/s]Loading weights:  99%|█████████▉| 1585/1601 [00:35<00:00, 43.74it/s]Loading weights: 100%|██████████| 1601/1601 [00:35<00:00, 45.33it/s]
+[transformers] This FP8 model spans multiple CUDA devices in one process; routing its FP8 linear and experts layers through Triton/grouped_mm instead of DeepGEMM (DeepGEMM's cached kernels are bound to a single CUDA context and corrupt across devices). Run tensor/expert parallel (one device per process) to use the faster DeepGEMM path.
+  no label file (); no verified-glitch positive controls this run
+Qwen/Qwen3-235B-A22B-FP8: 600 candidates -> single-token reproduction filter...
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 2135.79it/s]
+  individually clean: 532/600; weak (copy lp in (-3.0,-0.3)): 100; pool N=48 = 24 weak + 24 clean
+  weak sample: ["'.Monad':-0.71", '"=\'-":-1.11', "'hare':-1.06", "'预售':-0.48", "'<li':-2.87", "'_HIDE':-2.72"]
+  sample: ["' ©'", "' Application'", "'<li'", "' lb'", "'.ws'", "'dater'", "'ADA'", "'ICH'"]
+  filler: 1995 clean common words -> 3 sequences of 132
+  F1 starts:  getting much qu recomm il gen myself game
+  positive-control glitch tokens: []
+  replicates R=14 (distances [2, 4, 8, 16, 32, 64, 128] x 2 fillers), cells 36330
+  scoring replicate 1/14  d=2 filler=0  (2595 cells)
+  scoring replicate 2/14  d=2 filler=1  (2595 cells)
+  scoring replicate 3/14  d=4 filler=0  (2595 cells)
+  scoring replicate 4/14  d=4 filler=1  (2595 cells)
+  scoring replicate 5/14  d=8 filler=0  (2595 cells)
+  scoring replicate 6/14  d=8 filler=1  (2595 cells)
+  scoring replicate 7/14  d=16 filler=0  (2595 cells)
+  scoring replicate 8/14  d=16 filler=1  (2595 cells)
+  scoring replicate 9/14  d=32 filler=0  (2595 cells)
+  scoring replicate 10/14  d=32 filler=1  (2595 cells)
+  scoring replicate 11/14  d=64 filler=0  (2595 cells)
+  scoring replicate 12/14  d=64 filler=1  (2595 cells)
+  scoring replicate 13/14  d=128 filler=0  (2595 cells)
+  scoring replicate 14/14  d=128 filler=1  (2595 cells)
+
+==============================================================================
+SCORER SANITY -- positive control (slot-position copy logprob)
+==============================================================================
+  clean pool singles: S10 -0.266  S01 -0.437   controls S00 -0.000 (replicate sd 0.000)
+  -> positive controls fall >2 sd below the clean pool: None  (no labelled controls this run)
+
+  simulating matched no-interaction datasets for the verdict threshold...
+
+==============================================================================
+INTERACTION SCREEN  (pooled over all replicates)
+==============================================================================
+  pool N=48, replicates R=14, control pairs 3, permutations 1000
+  corr(control-based I, additive residual): 0.761
+  I off-diagonal: mean +0.0405  sd 0.1879    diagonal (repetition): mean +0.1982  sd 0.5617
+  median cell noise sd 0.0526 logprob
+
+  BH-FDR q=0.05: 1 significant off-diagonal of 2256, 1 diagonal of 48
+  matched-null simulations (20): rejections [2, 4, 5, 5, 5, 6, 7, 7, 7, 9, 10, 10, 10, 11, 13, 15, 15, 18, 20, 20]  -> 95th pct 20
+  family-wise: max|z| 7.119 vs 95% threshold 7.162   p = 0.059
+  power (recovery of an injected effect, 5 sims each): 1.0x noise -> 0.0  1.5x noise -> 0.6  2.0x noise -> 1.0  3.0x noise -> 1.0
+
+  repetition diagonal as a group: mean z +0.807, mean I +0.1982, permutation p 0.000
+
+==============================================================================
+INTERACTION BY DISTANCE
+==============================================================================
+    d | I off-diag mean       sd | I repetition mean       sd | filler agreement
+----------------------------------------------------------------------------------
+    2 |         +0.0802   0.3882 |           +0.2700   0.7556 |            0.173
+    4 |         +0.0321   0.2647 |           +0.1533   0.5398 |            0.145
+    8 |         +0.0538   0.2625 |           +0.1893   0.6472 |           -0.035
+   16 |         +0.0139   0.1913 |           +0.0744   0.4070 |            0.374
+   32 |         +0.0152   0.3099 |           +0.2754   0.8408 |            0.283
+   64 |         +0.0595   0.2533 |           +0.2282   0.5908 |            0.513
+  128 |         +0.0289   0.2260 |           +0.1966   0.7020 |            0.085
+
+  banded tests (each band its own permutation null):
+  band |   R | sig off | sig diag |  fwer p
+----------------------------------------------
+ short |   6 |       0 |        0 |   0.864
+   mid |   4 |       1 |        1 |   0.014
+  long |   4 |       3 |        2 |   0.006
+
+==============================================================================
+PRE-REGISTERED VERDICT
+==============================================================================
+  NO detectable non-contiguous interaction at this power:
+    significant pairs 1 vs matched-null 95th pct 20;  family-wise p 0.059
+    power: effects of [2.0, 3.0]x cell noise (0.053 logprob) would have been recovered
+
+  most negative I (pair worse than its parts):
+               '𝕛' @i + 'なくなる'         @j  I=-1.2609  p_adj=0.065  worst d=128
+               '𝘇' @i + 'صد'           @j  I=-1.0553  p_adj=0.236  worst d=32
+               '𝕛' @i + ' kị'          @j  I=-0.9396  p_adj=0.221  worst d=4
+               '𝕛' @i + 'صد'           @j  I=-0.8112  p_adj=0.256  worst d=32
+               '𝕛' @i + "'),'"         @j  I=-0.7990  p_adj=0.203  worst d=2
+              'صد' @i + ' kị'          @j  I=-0.7629  p_adj=0.210  worst d=32
+               '𝕛' @i + '留住'           @j  I=-0.6940  p_adj=0.236  worst d=32
+               '𝘇' @i + 'なくなる'         @j  I=-0.6825  p_adj=0.210  worst d=128
+               '𝕛' @i + '消费需求'         @j  I=-0.6549  p_adj=0.256  worst d=4
+               '淖' @i + 'صد'           @j  I=-0.6028  p_adj=0.256  worst d=32
+
+==============================================================================
+FRAGILITY -- tokens that fail to copy in SOME contexts (S11 slot lp < -0.5)
+==============================================================================
+  failing cells: 5554 of 32256 (0.1722)
+                 '𝕛'  as a:  672   as b:  672   (weak)
+                 '𝘇'  as a:  672   as b:  671   (weak)
+                 '�'  as a:  525   as b:  511   (weak)
+                'صد'  as a:  372   as b:  509   (weak)
+               ' kị'  as a:   78   as b:  413   (weak)
+                 '뚜'  as a:   76   as b:  299   (clean)
+              'なくなる'  as a:  184   as b:  125   (clean)
+                 '淖'  as a:   73   as b:  234   (weak)
+  share of failing cells in the 5 most fragile tokens: 0.459
+  same-d failures across fillers (d, f0, f1, both): (2, 505, 290, 248)  (4, 341, 498, 288)  (8, 377, 402, 312)  (16, 322, 334, 273)  (32, 409, 310, 260)  (64, 431, 441, 367)  (128, 365, 529, 334)
+
+  cell-type breakdown (a-kind x b-kind):
+             type |     n |   mean I | mean S11 |  sig
+    clean x clean |   552 |  +0.0140 |   -0.062 |    0
+     clean x weak |   576 |  +0.0831 |   -0.749 |    1
+     weak x clean |   576 |  +0.0084 |   -0.565 |    0
+      weak x weak |   552 |  +0.0562 |   -1.273 |    0
+
+saved -> results/interaction_screen_qwen3_235b.json, results/interaction_screen_qwen3_235b.pt

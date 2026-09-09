@@ -1,0 +1,43 @@
+HuggingFaceFW/ablation-model-fineweb-v1: 10 checkpoints, step-001000-2BT .. step-167000-350BT
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  33%|███▎      | 71/218 [00:00<00:00, 665.77it/s]Loading weights:  64%|██████▍   | 139/218 [00:00<00:00, 656.91it/s]Loading weights:  94%|█████████▍| 205/218 [00:00<00:00, 649.47it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 660.97it/s]
+  step-001000-2BT          |W| 1.1026  d 0.00000
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  25%|██▍       | 54/218 [00:00<00:00, 531.50it/s]Loading weights:  54%|█████▍    | 118/218 [00:00<00:00, 592.08it/s]Loading weights:  83%|████████▎ | 181/218 [00:00<00:00, 609.09it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 618.82it/s]
+  step-002000-4BT          |W| 1.2056  d 0.41933
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  25%|██▌       | 55/218 [00:00<00:00, 527.71it/s]Loading weights:  56%|█████▌    | 121/218 [00:00<00:00, 603.45it/s]Loading weights:  87%|████████▋ | 190/218 [00:00<00:00, 638.17it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 632.56it/s]
+  step-003000-6BT          |W| 1.2707  d 0.32655
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  29%|██▉       | 63/218 [00:00<00:00, 594.99it/s]Loading weights:  60%|█████▉    | 130/218 [00:00<00:00, 636.16it/s]Loading weights:  91%|█████████ | 198/218 [00:00<00:00, 627.74it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 650.08it/s]
+  step-006000-13BT         |W| 1.3964  d 0.53922
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  25%|██▌       | 55/218 [00:00<00:00, 506.17it/s]Loading weights:  55%|█████▌    | 120/218 [00:00<00:00, 586.96it/s]Loading weights:  86%|████████▌ | 188/218 [00:00<00:00, 609.99it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 617.45it/s]
+  step-010000-21BT         |W| 1.4934  d 0.50721
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 60/218 [00:00<00:00, 574.91it/s]Loading weights:  60%|██████    | 131/218 [00:00<00:00, 650.98it/s]Loading weights:  91%|█████████▏| 199/218 [00:00<00:00, 647.70it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 658.77it/s]
+  step-017000-36BT         |W| 1.5849  d 0.57355
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  25%|██▌       | 55/218 [00:00<00:00, 539.98it/s]Loading weights:  54%|█████▍    | 118/218 [00:00<00:00, 590.77it/s]Loading weights:  85%|████████▍ | 185/218 [00:00<00:00, 606.29it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 630.86it/s]
+  step-030000-63BT         |W| 1.6496  d 0.64909
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 59/218 [00:00<00:00, 574.26it/s]Loading weights:  59%|█████▉    | 129/218 [00:00<00:00, 642.62it/s]Loading weights:  89%|████████▉ | 194/218 [00:00<00:00, 623.32it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 651.84it/s]
+  step-054000-113BT        |W| 1.6385  d 0.70674
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  26%|██▌       | 57/218 [00:00<00:00, 563.35it/s]Loading weights:  58%|█████▊    | 127/218 [00:00<00:00, 628.58it/s]Loading weights:  88%|████████▊ | 192/218 [00:00<00:00, 630.29it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 645.51it/s]
+  step-095000-199BT        |W| 1.4818  d 0.70310
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  24%|██▍       | 53/218 [00:00<00:00, 529.45it/s]Loading weights:  57%|█████▋    | 124/218 [00:00<00:00, 635.45it/s]Loading weights:  86%|████████▌ | 188/218 [00:00<00:00, 628.31it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 646.13it/s]
+  step-167000-350BT        |W| 1.2581  d 0.56822
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:  44%|████▎     | 95/218 [00:00<00:00, 940.07it/s]Loading weights:  93%|█████████▎| 202/218 [00:00<00:00, 999.25it/s]Loading weights: 100%|██████████| 218/218 [00:00<00:00, 1014.83it/s]
+
+defining glitch set on the final checkpoint (copy probe over 50272 tokens)...
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer GPT2Tokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+glitch = worst 1.0% copy-logprob -> 503 tokens
+  examples: ["'{'", "'�'", "'�'", "'�'", "'�'", "'�'", "'�'", "'�'", "'�'", "'�'"]
+
+      ckpt |    total |   shared |  residual | resid (non-ws)
+--------------------------------------------------------------
+      2000 |    0.688 |    1.570 |     0.585 |          0.605
+      3000 |    0.643 |    1.265 |     0.598 |          0.619
+      6000 |    0.666 |    1.022 |     0.643 |          0.664
+     10000 |    0.710 |    1.069 |     0.687 |          0.709
+     17000 |    0.791 |    1.277 |     0.739 |          0.761
+     30000 |    0.898 |    1.364 |     0.803 |          0.826
+     54000 |    1.007 |    1.352 |     0.878 |          0.901
+     95000 |    1.126 |    1.436 |     0.925 |          0.946
+    167000 |    1.294 |    1.579 |     1.040 |          1.050
+
+-> early-half mean residual ratio 0.628   (non-whitespace only 0.649)
+saved -> results/f2_fineweb.json

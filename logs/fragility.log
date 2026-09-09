@@ -1,0 +1,45 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 42/355 [00:00<00:00, 367.19it/s]Loading weights:  25%|██▌       | 90/355 [00:00<00:00, 429.12it/s]Loading weights:  38%|███▊      | 134/355 [00:00<00:00, 427.68it/s]Loading weights:  50%|████▉     | 177/355 [00:00<00:00, 416.42it/s]Loading weights:  62%|██████▏   | 219/355 [00:00<00:00, 395.62it/s]Loading weights:  73%|███████▎  | 259/355 [00:00<00:00, 391.63it/s]Loading weights:  86%|████████▌ | 306/355 [00:00<00:00, 411.52it/s]Loading weights:  98%|█████████▊| 348/355 [00:00<00:00, 404.10it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 413.39it/s]
+allenai/OLMo-2-1124-7B-Instruct: 1998 random tokens (id-stratified) + 100 verified glitch = 2098
+  filler pool: 1944 clean common words
+  context bank: 48 contexts, lengths [8, 16, 32, 64] x 12, random interior slot
+  standard single probe: 873/2098 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/48  K=8  slot=3  mean lp -0.702  fail rate 0.134
+    context 9/48  K=8  slot=5  mean lp -0.693  fail rate 0.126
+    context 17/48  K=16  slot=10  mean lp -0.644  fail rate 0.119
+    context 25/48  K=32  slot=13  mean lp -0.777  fail rate 0.165
+    context 33/48  K=32  slot=17  mean lp -0.602  fail rate 0.098
+    context 41/48  K=64  slot=47  mean lp -0.624  fail rate 0.110
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 0.952   context 0.001   interaction 0.047
+        all tokens, fail indicator:  token 0.743   context 0.004   interaction 0.254
+     clean-looking tokens, logprob:  token 0.717   context 0.000   interaction 0.282
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 48 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=1998): mean frag 0.090   frag>=0.10: 0.175   frag>=0.25: 0.119   frag==0: 0.670
+   verified glitch (reference) (n= 100): mean frag 0.993   frag>=0.10: 1.000   frag>=0.25: 1.000   frag==0: 0.000
+   clean-looking random tokens (n= 873): mean frag 0.007   frag>=0.10: 0.016   frag>=0.25: 0.008   frag==0: 0.921
+
+  context hostility (fraction of tokens failing): min 0.098  median 0.130  max 0.186
+  clean-looking fail rate by context length: K=8: 0.005  K=16: 0.008  K=32: 0.008  K=64: 0.008
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+          ' according'  single -0.001  frag 0.92  mean lp -11.912   worst: lp -22.78 in ...' deliver rel behind [ according]  sent floor wrong'
+             ' pueden'  single -0.030  frag 0.62  mean lp -0.885   worst: lp -3.60 in ...' became financial contains [ pueden]  dim writing why'
+            ' abbiamo'  single -0.020  frag 0.60  mean lp -1.080   worst: lp -5.23 in ...' nullptr park popular [ abbiamo]  seems living wrong'
+               ' sólo'  single -0.032  frag 0.48  mean lp -0.648   worst: lp -2.65 in ...' vot [ sólo]  ext gr writ'
+    ' getSystemService'  single -0.053  frag 0.38  mean lp -0.536   worst: lp -2.57 in ...' hope where sales [ getSystemService]  neg models several'
+               ' será'  single -0.048  frag 0.29  mean lp -0.404   worst: lp -1.72 in ...' includ music inter [ será]  response frame make'
+                 ' 如果'  single -0.035  frag 0.27  mean lp -0.511   worst: lp -5.50 in ...' headers mag incre [ 如果]  placeholder star distributed'
+               ' карт'  single -0.005  frag 0.21  mean lp -0.295   worst: lp -2.14 in ...' py [ карт]  stuff stage editor'
+     ' setContentView'  single -0.094  frag 0.19  mean lp -0.290   worst: lp -1.31 in ...' shared sus printf [ setContentView]  rev dev sender'
+    ' ParameterDirection'  single -0.028  frag 0.19  mean lp -0.328   worst: lp -1.10 in ...' leave [ ParameterDirection]  need provid tag'
+               ' ocor'  single -0.016  frag 0.17  mean lp -0.301   worst: lp -1.72 in ...' father exists stud [ ocor]  scient member download'
+               ' così'  single -0.002  frag 0.10  mean lp -0.216   worst: lp -2.09 in ...' nullptr park popular [ così]  seems living wrong'
+
+saved -> results/fragility.json, results/fragility.pt

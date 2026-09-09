@@ -1,0 +1,61 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/resolve-cache/models/allenai/OLMo-2-1124-13B/3fefddc1bf18a30e1d9b91000271630718f2aa8b/tokenizer.json?%2Fallenai%2FOLMo-2-1124-13B%2Fresolve%2Fmain%2Ftokenizer.json=&etag=%225fe172127988c3709a49d8d2ce20e11bb266cd57%22
+Retrying in 1s [Retry 1/5].
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/resolve-cache/models/allenai/OLMo-2-1124-13B/3fefddc1bf18a30e1d9b91000271630718f2aa8b/special_tokens_map.json?%2Fallenai%2FOLMo-2-1124-13B%2Fresolve%2Fmain%2Fspecial_tokens_map.json=&etag=%2268a9a42af03ba45d68358595d49dc70b10159c12%22
+Retrying in 1s [Retry 1/5].
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 808, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://huggingface.co/api/models/allenai/OLMo-2-1124-13B/tree/3fefddc1bf18a30e1d9b91000271630718f2aa8b?recursive=true&expand=false'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/utils/hub.py", line 453, in cached_files
+    snapshot_download(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/huggingface_hub/_snapshot_download.py", line 386, in snapshot_download
+    tree_entries = {
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/huggingface_hub/_snapshot_download.py", line 386, in <dictcomp>
+    tree_entries = {
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 4106, in list_repo_tree
+    for path_info in paginate(path=tree_url, headers=headers, params={"recursive": recursive, "expand": expand}):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/huggingface_hub/utils/_pagination.py", line 37, in paginate
+    hf_raise_for_status(r)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 929, in hf_raise_for_status
+    raise _format(HfHubHTTPError, message, response) from e
+huggingface_hub.errors.HfHubHTTPError: (Request ID: Root=1-6a9c501f-2fb211e13c2eff5e57ad3b79;72dc79af-ccde-4cff-8041-f4d8fc57d75e)
+
+429 Too Many Requests for url: https://huggingface.co/api/models/allenai/OLMo-2-1124-13B/tree/3fefddc1bf18a30e1d9b91000271630718f2aa8b?recursive=true&expand=false.
+maximum queue size reached
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/glitch/src/cut/stagewise.py", line 283, in <module>
+    main()
+  File "/home/ubuntu/glitch/src/cut/stagewise.py", line 113, in main
+    m = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4293, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 795, in _get_resolved_checkpoint_files
+    checkpoint_files, sharded_metadata = get_checkpoint_shard_files(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/utils/hub.py", line 902, in get_checkpoint_shard_files
+    cached_filenames = cached_files(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/utils/hub.py", line 531, in cached_files
+    raise OSError(f"There was a specific connection error when trying to load {path_or_repo_id}:\n{e}") from e
+OSError: There was a specific connection error when trying to load allenai/OLMo-2-1124-13B:
+(Request ID: Root=1-6a9c501f-2fb211e13c2eff5e57ad3b79;72dc79af-ccde-4cff-8041-f4d8fc57d75e)
+
+429 Too Many Requests for url: https://huggingface.co/api/models/allenai/OLMo-2-1124-13B/tree/3fefddc1bf18a30e1d9b91000271630718f2aa8b?recursive=true&expand=false.
+maximum queue size reached

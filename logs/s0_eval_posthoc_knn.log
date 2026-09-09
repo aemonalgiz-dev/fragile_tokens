@@ -1,0 +1,22 @@
+arm=posthoc_knn   decoy=' or'
+  corr(uplift, log count) = +0.528   (raw logprob was +0.405 -- lower is better, the prior is gone)
+
+  corr(entropy, log count) = -0.029
+
+DOSE-RESPONSE: true training frequency vs behavioural damage
+      true count |      n | median entropy |  median uplift
+--------------------------------------------------------------
+               0 |    648 |          5.734 |         -0.349
+             1-9 |    604 |          5.602 |         -0.371
+           10-99 |    840 |          4.937 |         -0.373
+         100-999 |   2616 |          4.862 |          0.185
+       1000-9999 |   9890 |          4.646 |          0.892
+     10000-99999 |   1372 |          5.010 |          1.215
+100000-999999999999 |     95 |          5.873 |          0.867
+
+  doomed  (count<100,  >=2ch): n= 2092  median uplift -0.366
+  healthy (count>=10k, >=2ch): n= 1467  median uplift +1.184
+  uplift separation : +1.550 nats
+  ENTROPY separation: +0.311 nats  (doomed 5.362 vs healthy 5.052)
+
+val loss 3.6313   saved -> runs/s0/posthoc_knn/

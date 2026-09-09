@@ -1,0 +1,113 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:43,  7.70it/s]Loading weights:   2%|▏         | 8/339 [00:00<00:12, 26.23it/s]Loading weights:   5%|▌         | 18/339 [00:00<00:06, 48.61it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 67.83it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:04, 70.83it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 83.77it/s]Loading weights:  18%|█▊        | 62/339 [00:00<00:03, 87.36it/s]Loading weights:  21%|██        | 72/339 [00:01<00:03, 81.02it/s]Loading weights:  24%|██▍       | 81/339 [00:01<00:03, 77.19it/s]Loading weights:  27%|██▋       | 90/339 [00:01<00:03, 72.27it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 80.82it/s]Loading weights:  33%|███▎      | 112/339 [00:01<00:02, 87.64it/s]Loading weights:  36%|███▌      | 122/339 [00:01<00:02, 89.97it/s]Loading weights:  39%|███▉      | 132/339 [00:01<00:02, 82.46it/s]Loading weights:  42%|████▏     | 141/339 [00:01<00:02, 76.95it/s]Loading weights:  44%|████▍     | 150/339 [00:02<00:02, 73.15it/s]Loading weights:  47%|████▋     | 160/339 [00:02<00:02, 79.25it/s]Loading weights:  51%|█████     | 172/339 [00:02<00:01, 88.59it/s]Loading weights:  54%|█████▎    | 182/339 [00:02<00:01, 90.85it/s]Loading weights:  57%|█████▋    | 192/339 [00:02<00:01, 82.75it/s]Loading weights:  59%|█████▉    | 201/339 [00:02<00:01, 78.20it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 73.01it/s]Loading weights:  65%|██████▌   | 221/339 [00:02<00:01, 81.23it/s]Loading weights:  68%|██████▊   | 232/339 [00:03<00:01, 78.47it/s]Loading weights:  72%|███████▏  | 244/339 [00:03<00:01, 87.94it/s]Loading weights:  75%|███████▍  | 254/339 [00:03<00:00, 89.76it/s]Loading weights:  78%|███████▊  | 264/339 [00:03<00:00, 82.43it/s]Loading weights:  81%|████████  | 273/339 [00:03<00:00, 78.04it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 73.20it/s]Loading weights:  86%|████████▋ | 293/339 [00:03<00:00, 81.76it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 88.37it/s]Loading weights:  93%|█████████▎| 314/339 [00:04<00:00, 90.53it/s]Loading weights:  96%|█████████▌| 324/339 [00:04<00:00, 82.92it/s]Loading weights:  98%|█████████▊| 333/339 [00:04<00:00, 76.83it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 78.82it/s]
+80 fragile clean-looking tokens, 20 glitch tokens
+                     '柷' frag 1.00  modes: substitution, substitution, substitution, correct
+                     '郈' frag 1.00  modes: substitution, substitution, substitution, correct
+                     '稌' frag 1.00  modes: substitution, substitution, substitution, correct
+                     '崾' frag 1.00  modes: substitution, substitution, substitution, substitution
+  'interopRequireDefault' frag 0.92  modes: substitution, substitution, substitution, correct
+               'amacare' frag 0.88  modes: substitution, substitution, substitution, correct
+                     '纴' frag 0.88  modes: substitution, substitution, substitution, correct
+              ' поможет' frag 0.88  modes: substitution, substitution, substitution, correct
+              ' navCtrl' frag 0.83  modes: substitution, substitution, substitution, correct
+                     '猹' frag 0.83  modes: substitution, substitution, substitution, correct
+                     '锼' frag 0.79  modes: substitution, substitution, substitution, correct
+                   '落到实' frag 0.75  modes: substitution, correct, substitution, correct
+                   ' הק' frag 0.75  modes: substitution, correct, correct, correct
+                     '岣' frag 0.75  modes: substitution, substitution, correct, correct
+                     '襞' frag 0.71  modes: substitution, substitution, substitution, correct
+              'เทคโนโลย' frag 0.67  modes: substitution, substitution, substitution, correct
+              ' الاثنين' frag 0.67  modes: correct, correct, substitution, correct
+                  '了大量的' frag 0.62  modes: substitution, substitution, substitution, correct
+           ' Başkanlığı' frag 0.62  modes: substitution, substitution, substitution, correct
+               ' średni' frag 0.62  modes: substitution, substitution, substitution, correct
+                ' הפועל' frag 0.58  modes: correct, correct, correct, correct
+                     '旆' frag 0.58  modes: substitution, substitution, substitution, correct
+                     '埯' frag 0.58  modes: substitution, substitution, substitution, correct
+                   ' יל' frag 0.54  modes: deletion, substitution, correct, correct
+                  '此基础上' frag 0.54  modes: substitution, substitution, substitution, correct
+                     '禘' frag 0.50  modes: substitution, substitution, correct, correct
+                  ' קצת' frag 0.50  modes: substitution, correct, correct, correct
+                     '剞' frag 0.50  modes: correct, correct, correct, correct
+                  ' קצר' frag 0.50  modes: correct, correct, correct, correct
+                     '滹' frag 0.50  modes: correct, correct, correct, correct
+                     '岨' frag 0.46  modes: substitution, substitution, substitution, correct
+                  ' مجل' frag 0.46  modes: correct, correct, correct, correct
+                  ' فرص' frag 0.46  modes: substitution, substitution, correct, correct
+                 ' כולל' frag 0.42  modes: substitution, substitution, substitution, correct
+                   '千方百' frag 0.42  modes: substitution, substitution, substitution, correct
+                     '🎹' frag 0.38  modes: substitution, correct, correct, correct
+                     '雊' frag 0.38  modes: correct, correct, correct, correct
+                ' אלינו' frag 0.38  modes: substitution, substitution, correct, correct
+    ' AssemblyTrademark' frag 0.33  modes: substitution, substitution, correct, correct
+                     '嬿' frag 0.33  modes: correct, substitution, correct, correct
+                     '膦' frag 0.33  modes: substitution, substitution, substitution, correct
+                   'ถอน' frag 0.33  modes: deletion, correct, correct, correct
+                     '镤' frag 0.33  modes: substitution, substitution, correct, correct
+                   ' мя' frag 0.33  modes: substitution, substitution, substitution, correct
+                 ' الوا' frag 0.33  modes: substitution, correct, correct, correct
+                     '鹱' frag 0.33  modes: substitution, substitution, substitution, correct
+                     '悫' frag 0.33  modes: substitution, correct, correct, correct
+              'увеличен' frag 0.29  modes: substitution, substitution, correct, correct
+                   ' הה' frag 0.29  modes: deletion, correct, correct, correct
+                     '熇' frag 0.29  modes: correct, correct, correct, correct
+    ' stringByAppending' frag 0.29  modes: substitution, correct, correct, correct
+          ' Accordingly' frag 0.29  modes: substitution, substitution, substitution, correct
+                     '遴' frag 0.29  modes: substitution, substitution, correct, correct
+                   ' מי' frag 0.29  modes: correct, correct, correct, correct
+              ' السياسي' frag 0.29  modes: substitution, correct, correct, correct
+            ' Translate' frag 0.29  modes: substitution, substitution, substitution, correct
+                     '😦' frag 0.29  modes: substitution, substitution, substitution, correct
+               ' Replay' frag 0.29  modes: substitution, substitution, substitution, correct
+               ' практи' frag 0.25  modes: substitution, substitution, substitution, correct
+                     '旴' frag 0.25  modes: substitution, correct, correct, correct
+                  ' гер' frag 0.25  modes: deletion, correct, correct, correct
+                   ' הן' frag 0.25  modes: substitution, correct, correct, correct
+                    'รณ' frag 0.25  modes: correct, correct, correct, correct
+                     '洇' frag 0.25  modes: correct, correct, correct, correct
+                ' wykon' frag 0.25  modes: substitution, correct, correct, correct
+              ' endTime' frag 0.25  modes: substitution, substitution, substitution, correct
+                     'ằ' frag 0.25  modes: correct, correct, correct, correct
+                   ' יו' frag 0.25  modes: substitution, deletion, correct, correct
+                    ' �' frag 0.21  modes: deletion, deletion, deletion, correct
+              ' Starter' frag 0.21  modes: substitution, substitution, substitution, correct
+                   'יקה' frag 0.21  modes: substitution, substitution, correct, correct
+           ' setuptools' frag 0.21  modes: substitution, correct, correct, correct
+                 ' Trên' frag 0.21  modes: substitution, substitution, correct, correct
+            ' Presenter' frag 0.21  modes: substitution, substitution, substitution, correct
+              ' Passage' frag 0.21  modes: substitution, substitution, substitution, correct
+                     '枨' frag 0.21  modes: substitution, correct, correct, correct
+                    '通過' frag 0.21  modes: substitution, substitution, substitution, correct
+                     '❛' frag 0.21  modes: correct, correct, correct, correct
+                     '铯' frag 0.21  modes: substitution, correct, correct, correct
+                     '赀' frag 0.17  modes: correct, correct, correct, correct
+                     '䨰' frag 1.00  modes: deletion, deletion, deletion, substitution
+               '$insert' frag 0.75  modes: substitution, substitution, substitution, correct
+              '$product' frag 0.00  modes: correct, correct, correct, correct
+                     '𫭟' frag 1.00  modes: substitution, substitution, substitution, substitution
+                     '臘' frag 1.00  modes: substitution, substitution, substitution, substitution
+                 'ลงทุน' frag 1.00  modes: substitution, substitution, substitution, substitution
+                     '諸' frag 1.00  modes: substitution, substitution, substitution, substitution
+           '<|fim_pad|>' frag 1.00  modes: substitution, substitution, substitution, substitution
+                   'แย่' frag 1.00  modes: substitution, substitution, substitution, substitution
+                   'กุล' frag 1.00  modes: substitution, substitution, substitution, substitution
+                 'วิเคร' frag 1.00  modes: substitution, substitution, substitution, substitution
+                'ลูกค้า' frag 1.00  modes: substitution, substitution, substitution, substitution
+                ' พร้อม' frag 1.00  modes: substitution, substitution, substitution, substitution
+              'สิ่งแวดล' frag 1.00  modes: substitution, substitution, substitution, substitution
+                   'ส้ม' frag 1.00  modes: substitution, substitution, substitution, substitution
+                     '麟' frag 1.00  modes: substitution, substitution, substitution, substitution
+                  'ชั่ว' frag 1.00  modes: substitution, substitution, substitution, substitution
+                 'ควบคุ' frag 1.00  modes: substitution, substitution, substitution, substitution
+                'ปรับปร' frag 1.00  modes: substitution, substitution, substitution, substitution
+               'การผลิต' frag 1.00  modes: substitution, substitution, substitution, substitution
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/glitch/src/cut/specimens.py", line 251, in <module>
+    main()
+  File "/home/ubuntu/glitch/src/cut/specimens.py", line 208, in main
+    L.append(f"| {r['cell']} | `{r['left']!r} [·] {r['right']!r}` | {r['context_length']} | "
+TypeError: unsupported format string passed to NoneType.__format__

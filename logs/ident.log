@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 65/355 [00:00<00:00, 587.03it/s]Loading weights:  35%|███▍      | 124/355 [00:00<00:00, 485.03it/s]Loading weights:  49%|████▉     | 174/355 [00:00<00:00, 454.40it/s]Loading weights:  62%|██████▏   | 220/355 [00:00<00:00, 428.47it/s]Loading weights:  74%|███████▍  | 263/355 [00:00<00:00, 425.87it/s]Loading weights:  86%|████████▌ | 306/355 [00:00<00:00, 409.31it/s]Loading weights:  98%|█████████▊| 347/355 [00:00<00:00, 396.50it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 432.95it/s]
+allenai/OLMo-2-1124-7B-Instruct: healthy pool 2350, verified glitch 442, cuda
+single healthy tokens reproduced exactly: 0.383
+single verified-glitch tokens reproduced : 0.007
+pool restricted to individually-reproducible tokens: 900
+
+==============================================================================
+Q1  REPRODUCTION vs SEQUENCE LENGTH (all members individually clean)
+==============================================================================
+  n |   exact | conf-wrong |  entropy | mean unreach adj
+------------------------------------------------------------
+  1 |   1.000 |      0.000 |    0.873 |             0.00
+  2 |   0.880 |      0.016 |    1.213 |             0.01
+  3 |   0.892 |      0.008 |    0.940 |             0.01
+  4 |   0.784 |      0.040 |    1.268 |             0.02
+  6 |   0.740 |      0.064 |    1.172 |             0.04
+  8 |   0.652 |      0.060 |    1.300 |             0.04
+
+==============================================================================
+Q2  IS FAILURE PREDICTABLE WITHOUT RUNNING THE MODEL?
+AUC for predicting reproduction FAILURE, within each n
+==============================================================================
+  n | n_fail | unreach adj | re-segments | seq char len
+--------------------------------------------------------
+  1 |      0 | (degenerate)
+  2 |     30 |       0.495 |       0.495 |        0.682
+  3 |     27 |       0.514 |       0.514 |        0.516
+  4 |     54 |       0.502 |       0.502 |        0.698
+  6 |     65 |       0.504 |       0.504 |        0.626
+  8 |     87 |       0.490 |       0.490 |        0.629
+
+==============================================================================
+Q3  WHAT DOES FAILURE LOOK LIKE? (n=8)
+==============================================================================
+  want ' haven numberWithInt see really another startures CrossAxisA'
+  got  ' havenventario see realmente otro rasgos Cruzado<|endoftext|'   H=2.20 unreach=0
+  want ' emlrtPostExecute needs look help forIndexPath groupBox of'
+  got  "erreur : 'TLEMENT' needs look help for 'groupBox' of"   H=3.79 unreach=0
+  want ' modelAndView fact can FetchTypeObjectOfTypeBitFieldsHeaderC'
+  got  ' modelAndView fact can FetchTypeObjectOfTypeBitFieldsHeaderC'   H=2.35 unreach=0
+  want ' setBackgroundImage AssemblyFileVersion yet DatabaseReferenc'
+  got  ' backgroundImage AssemblyFileVersion yet DatabaseReference m'   H=1.63 unreach=0
+  want ' jMenuItem blackColor RTAL tells XCTAssertEqual , preferredS'
+  got  ' jMenuItem blackColorRAL tells XCTAssertEqual , preferredSty'   H=2.47 unreach=0
+  want ' How strSql questions guy rootReducer RuntimeMethod anything'
+  got  ' How StraitSail questions Guy RootNodeMethod anything does<|'   H=2.72 unreach=0
+  want 'isation canActivate HttpClientModule changes DialogInterface'
+  got  'isation canActivate HttpClientModule changes DialogInterface'   H=1.58 unreach=0
+  want ' week aDecoder lesbisk His ReferentialAction defaultCenter t'
+  got  ' week aDecoder lesbisk His 示 示 示 示 示 示 示 示 示 示'   H=3.67 unreach=0
+  want ' < Up untilOffsetTable AssemblyTitle An HttpNotFound LoginCo'
+  got  ' < Up untilOffsetTable AssemblyTitle An 示 示 示 示 示 示 示 示'   H=2.57 unreach=0
+  want ' requires mockMvctoHaveBeenCalledWith story centerY JsonRequ'
+  got  ' requires mockMvc mastur bated at story centerY JsonRequest '   H=2.09 unreach=1
+  OK   ' good said had productServiceuringThis Her AssemblyTitle'
+  OK   ' might This dialogRef_CheckedChanged fact throughell there'
+  OK   ' Up leaving dataSnapshot himself locationManager usePostalCo'
+
+saved -> results/ngram_identify.json

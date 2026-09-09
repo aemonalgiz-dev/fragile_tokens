@@ -1,0 +1,9 @@
+== task_probe olmo2_7b (16:35:50)
+   exit 0 (16:38:12)
+== task_probe qwen25_7b (16:38:12)
+   exit 0 (16:39:55)
+== task_probe qwen3_32b (16:39:55)
+   exit 0 (16:44:32)
+== task_probe qwen3_32b_think (16:44:32)
+   exit 0 (17:35:48)
+TASK PROBE DONE Mon Sep  7 17:35:48 UTC 2026

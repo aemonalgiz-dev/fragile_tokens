@@ -1,0 +1,39 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   8%|▊         | 27/355 [00:00<00:01, 234.65it/s]Loading weights:  22%|██▏       | 78/355 [00:00<00:00, 361.36it/s]Loading weights:  35%|███▍      | 124/355 [00:00<00:00, 381.81it/s]Loading weights:  47%|████▋     | 167/355 [00:00<00:00, 398.98it/s]Loading weights:  59%|█████▊    | 208/355 [00:00<00:00, 392.28it/s]Loading weights:  71%|███████   | 252/355 [00:00<00:00, 400.96it/s]Loading weights:  84%|████████▍ | 298/355 [00:00<00:00, 394.48it/s]Loading weights:  97%|█████████▋| 343/355 [00:00<00:00, 402.62it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 396.63it/s]
+allenai/OLMo-2-1124-7B-Instruct: 32 glitch vs 32 healthy seeds, 192 steps, cuda
+  0/64
+  16/64
+  32/64
+  48/64
+
+==========================================================================
+TOPOLOGY OF THE COMPLETION TRAJECTORY
+==========================================================================
+     feature |     glitch |    healthy |     AUC
+------------------------------------------------
+      H0_sum |    88.6496 |    84.9095 |   0.538
+      H0_max |     0.8306 |     0.8126 |   0.597
+        H0_n |   190.2500 |   185.1250 |   0.548
+      H1_sum |    12.1004 |    11.6722 |   0.480
+      H1_max |     0.2587 |     0.2496 |   0.597
+        H1_n |    91.2500 |    87.0312 |   0.522
+         rep |     0.4697 |     0.4884 |   0.500
+    distinct |   101.8125 |    98.2188 |   0.500
+
+==========================================================================
+CONTROL: is H1 just measuring repetition?
+==========================================================================
+  corr(H1_sum, repetition rate) = -0.494
+  corr(H1_max, repetition rate) = -0.226
+  corr(H1_n, repetition rate) = -0.510
+  corr(H0_sum, repetition rate) = -0.752
+  AUC of repetition rate alone = 0.500
+
+  within-stratum AUC (median repetition split at 0.464):
+     feature |   low-rep |  high-rep
+------------------------------------
+      H1_sum |     0.421 |     0.564
+      H1_max |     0.677 |     0.538
+        H1_n |     0.432 |     0.637
+
+saved -> results/traj_topology.json

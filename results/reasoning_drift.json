@@ -1,0 +1,312 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "n": 32,
+ "completion": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 4.326171875,
+    "ent_h": 3.7568912506103516,
+    "gap": 0.5692806243896484,
+    "pcos_g": 0.0246195099616964,
+    "pcos_h": 0.0032682875471730377
+   },
+   {
+    "step": 2,
+    "ent_g": 3.4434092044830322,
+    "ent_h": 3.3121395111083984,
+    "gap": 0.1312696933746338,
+    "pcos_g": 0.006737348653616443,
+    "pcos_h": 0.0016679102855343964
+   },
+   {
+    "step": 4,
+    "ent_g": 2.3152647018432617,
+    "ent_h": 2.595881938934326,
+    "gap": -0.28061723709106445,
+    "pcos_g": 0.00043832606846286315,
+    "pcos_h": 0.0005373703616280701
+   },
+   {
+    "step": 8,
+    "ent_g": 1.8990315198898315,
+    "ent_h": 2.12770938873291,
+    "gap": -0.2286778688430786,
+    "pcos_g": 0.00024390689307643432,
+    "pcos_h": 0.0003431598024983551
+   }
+  ],
+  "scripts": [
+   1.0,
+   1.03125
+  ],
+  "rep": [
+   0.01953125,
+   0.03125
+  ],
+  "self": [
+   0.0,
+   0.0
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": ".XtraLayout",
+    "gen": " is a portmanteau of \""
+   },
+   {
+    "group": "glitch",
+    "tok": "\")){\r\n",
+    "gen": "    // do something with the word\r\n"
+   },
+   {
+    "group": "glitch",
+    "tok": " Hexatrigesimal",
+    "gen": " is a portmanteau of \""
+   },
+   {
+    "group": "glitch",
+    "tok": "\u96c5\u9ed1",
+    "gen": " is a palindrome, meaning it reads the"
+   },
+   {
+    "group": "glitch",
+    "tok": " didn",
+    "gen": "assistant is a placeholder name for the AI"
+   },
+   {
+    "group": "glitch",
+    "tok": ".AddModelError",
+    "gen": "() method is used to add an error"
+   },
+   {
+    "group": "glitch",
+    "tok": ".JpaRepository",
+    "gen": " is a noun, often used in the"
+   },
+   {
+    "group": "glitch",
+    "tok": ".ContextCompat",
+    "gen": " is not recognized. I am using Xamarin"
+   },
+   {
+    "group": "healthy",
+    "tok": " woman",
+    "gen": " comes from the Old English w\u012bf"
+   },
+   {
+    "group": "healthy",
+    "tok": " life",
+    "gen": " is used in many different ways, both"
+   },
+   {
+    "group": "healthy",
+    "tok": " rumpe",
+    "gen": " (n.) means:\n\na) a"
+   },
+   {
+    "group": "healthy",
+    "tok": " start",
+    "gen": "le comes from the Old French estour"
+   },
+   {
+    "group": "healthy",
+    "tok": " actually",
+    "gen": " comes from the Latin word \"fasc"
+   },
+   {
+    "group": "healthy",
+    "tok": " way",
+    "gen": "farer comes from the Old English word"
+   },
+   {
+    "group": "healthy",
+    "tok": ",\r\n",
+    "gen": "\"magnanimity\" \r\nmeans"
+   },
+   {
+    "group": "healthy",
+    "tok": ".onOptionsItemSelected",
+    "gen": " is a verb in Japanese that means \""
+   }
+  ]
+ },
+ "reasoning": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 3.3226709365844727,
+    "ent_h": 3.2467246055603027,
+    "gap": 0.07594633102416992,
+    "pcos_g": 0.01583461932116939,
+    "pcos_h": 0.01730788129592134
+   },
+   {
+    "step": 2,
+    "ent_g": 0.4985347092151642,
+    "ent_h": 0.4578810930252075,
+    "gap": 0.040653616189956665,
+    "pcos_g": 0.0021194881128688003,
+    "pcos_h": 0.014794054471196666
+   },
+   {
+    "step": 4,
+    "ent_g": 2.759981632232666,
+    "ent_h": 0.9274086356163025,
+    "gap": 1.8325729370117188,
+    "pcos_g": 0.006774102367701068,
+    "pcos_h": 0.003662397183718219
+   },
+   {
+    "step": 8,
+    "ent_g": 1.7907778024673462,
+    "ent_h": 1.5179532766342163,
+    "gap": 0.2728245258331299,
+    "pcos_g": 0.0008056545930524017,
+    "pcos_h": 0.0007943408864159729
+   },
+   {
+    "step": 16,
+    "ent_g": 1.2457926273345947,
+    "ent_h": 1.046037197113037,
+    "gap": 0.19975543022155762,
+    "pcos_g": 0.0002292255240101959,
+    "pcos_h": 0.00018924943381740111
+   },
+   {
+    "step": 32,
+    "ent_g": 1.254593849182129,
+    "ent_h": 0.8937485814094543,
+    "gap": 0.36084526777267456,
+    "pcos_g": 0.00034337959462596435,
+    "pcos_h": 0.0003222944515366699
+   },
+   {
+    "step": 64,
+    "ent_g": 0.9481537938117981,
+    "ent_h": 0.9304063320159912,
+    "gap": 0.017747461795806885,
+    "pcos_g": 0.00020581207448436278,
+    "pcos_h": 0.0002131061928887512
+   },
+   {
+    "step": 128,
+    "ent_g": 0.8709467649459839,
+    "ent_h": 0.7906445264816284,
+    "gap": 0.08030223846435547,
+    "pcos_g": 0.00018612764054729003,
+    "pcos_h": 9.21720939297821e-05
+   },
+   {
+    "step": 192,
+    "ent_g": 0.9781129360198975,
+    "ent_h": 1.0666614770889282,
+    "gap": -0.08854854106903076,
+    "pcos_g": 0.0001490498262066986,
+    "pcos_h": 0.00010828024918033141
+   },
+   {
+    "step": 255,
+    "ent_g": 0.8536984920501709,
+    "ent_h": 1.1417162418365479,
+    "gap": -0.28801774978637695,
+    "pcos_g": 0.00014581627422763366,
+    "pcos_h": 0.00016158542806102294
+   }
+  ],
+  "scripts": [
+   1.0625,
+   1.03125
+  ],
+  "rep": [
+   0.48193359375,
+   0.4798583984375
+  ],
+  "self": [
+   0.0,
+   0.53125
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": ".XtraLayout",
+    "gen": " The token \"layui\" refers to a lightweight, modular, and flexible JavaScript framework primarily used for building web interfaces. It is designed to simplify the development process and enhance the user experience by providing a set of reusable UI components and a powerful grid system.\n\nHere's a step-by-step explanation of what \"layui\" means:\n\n1. **Lightweight**: The framework is optimized for per"
+   },
+   {
+    "group": "glitch",
+    "tok": "\")){\r\n",
+    "gen": " The token you've provided, `){`, is a closing curly brace (`}`) in programming syntax. In many programming languages, curly braces are used to denote the beginning and end of a block of code. This block can contain statements, expressions, or other code structures that should be executed together.\n\nHere's a step-by-step explanation:\n\n1. **Syntax Role**: In programming, curly braces `{}` are used "
+   },
+   {
+    "group": "glitch",
+    "tok": " Hexatrigesimal",
+    "gen": " The token \"Calculus\" refers to a branch of mathematics that deals with the study of change, motion, and accumulation. It involves the concepts of limits, derivatives, integrals, and infinite series. Calculus is fundamental in many areas of science, engineering, economics, and mathematics, providing tools to model and analyze dynamic systems.\n\nHere's a step-by-step explanation of what calculus enc"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u96c5\u9ed1",
+    "gen": " The token \"\ud131\" (ttuk) in Korean Hangul script represents the consonant sound \"t\" or \"d\" depending on the context, and it is combined with the vowel \"u\" (\u315c) to form the syllable \"ttuk\" or \"tuk,\" which sounds like \"tuck\" in English. In the context of Hangul, this syllable is written as \u3137\u315c\u3131.\n\nHere's a step-by-step explanation:\n\n1. **Consonant Block (\ud131, \u3137):** The left part of the character is the cons"
+   },
+   {
+    "group": "glitch",
+    "tok": " didn",
+    "gen": " The token \"don\" is a short form or abbreviation of \"do not.\" It is commonly used in English as a command or directive to tell someone not to do something. Here's a step-by-step explanation:\n\n1. **Identify the Token**: The token provided is \"don.\"\n\n2. **Understand the Origin**: \"Don\" is derived from \"do not,\" which is a negation used to instruct someone not to perform an action.\n\n3. **Usage in Lan"
+   },
+   {
+    "group": "glitch",
+    "tok": ".AddModelError",
+    "gen": " The token `ErrorDictionary` is not a standard token in programming languages like C#, Java, Python, or JavaScript. However, it might be a misunderstanding or a typo. The term \"ErrorDictionary\" doesn't directly correspond to a well-known concept or keyword in programming.\n\nIf we consider the possibility of a typo or misunderstanding, here are a few possibilities:\n\n1. **`Dictionary`**: This is a co"
+   },
+   {
+    "group": "glitch",
+    "tok": ".JpaRepository",
+    "gen": " The token \"IpaRepository\" does not directly correspond to a widely recognized term or acronym in English. However, breaking down the components might help us understand its possible meaning:\n\n1. **I**: In programming, \"I\" often stands for \"interface\" in Java. Interfaces define a contract that a class must adhere to, specifying what methods a class must implement.\n\n2. **Repository**: In the contex"
+   },
+   {
+    "group": "glitch",
+    "tok": ".ContextCompat",
+    "gen": " The token `ContextCompat` refers to a static utility class in the Android SDK that provides a way to access the current theme context for drawing operations. This class is part of the `android.content.Context` package and is specifically designed to help developers work with themes and styles in a more consistent and theme-aware manner across different versions of Android.\n\nHere's a step-by-step "
+   },
+   {
+    "group": "healthy",
+    "tok": " woman",
+    "gen": " The token \"woman\" is a noun in the English language. Here's a step-by-step explanation:\n\n1. **Token Identification**: The token \"woman\" is a written or printed symbol that represents a concept, idea, or object. In this case, it is a single word consisting of 6 letters: w-o-m-a-n.\n\n2. **Part of Speech**: \"Woman\" is a noun. Nouns are words that name people, places, things, or ideas. They can be pro"
+   },
+   {
+    "group": "healthy",
+    "tok": " life",
+    "gen": " The token \"life\" is a concept that has been extensively explored across various disciplines, including philosophy, biology, psychology, and linguistics. Here's a step-by-step explanation of what \"life\" means:\n\n1. **Biological Definition**: In a biological context, life is a characteristic that distinguishes organisms from inorganic objects and dead organisms, having attributes such as growth, rep"
+   },
+   {
+    "group": "healthy",
+    "tok": " rumpe",
+    "gen": " The token \"r rumpe\" does not immediately correspond to a widely recognized term or abbreviation in English or any other language that I am aware of up to my last knowledge update in early 2023. However, breaking down the token into its components might help in understanding its possible meaning or context:\n\n1. \"r\": This could represent a variety of things depending on the context. In mathematics,"
+   },
+   {
+    "group": "healthy",
+    "tok": " start",
+    "gen": " The token \"start\" in various contexts can have different meanings, but in a general computing or programming context, it often refers to the beginning of an operation or process.\n\n**Step-by-step explanation:**\n\n1. **Literal Interpretation**: In its simplest form, \"start\" is a verb that denotes the beginning of an action or process. In many command-line interfaces or programming languages, \"start\""
+   },
+   {
+    "group": "healthy",
+    "tok": " actually",
+    "gen": " The token \"actually\" is an adverb in the English language. Adverbs modify verbs, adjectives, or other adverbs, often providing additional information about manner, place, time, frequency, degree, level of certainty, etc.\n\nHere's a step-by-step explanation of what \"actually\" means and how it is used:\n\n1. **Basic Meaning**: The word \"actually\" is used to indicate that something is happening in fact"
+   },
+   {
+    "group": "healthy",
+    "tok": " way",
+    "gen": " The token \"way\" can be interpreted in several contexts, depending on the field or discipline it is used in. Here are a few possibilities:\n\n1. **Mathematics and Logic**: In mathematics, \"way\" could refer to a method or approach to solving a problem. It might imply a particular strategy or technique used to find a solution.\n\n2. **Computer Science**: In programming, \"way\" could be used to describe a"
+   },
+   {
+    "group": "healthy",
+    "tok": ",\r\n",
+    "gen": " The token you've provided, `\",` is a quotation mark or double quote character in ASCII. Here's a step-by-step explanation:\n\n1. **Character Identification**: The token is a double quote character (\")\". In ASCII, this character is represented by the decimal number 34.\n\n2. **Usage in Text**: In text, double quotes are commonly used to denote the beginning and end of a quoted passage. For example, in"
+   },
+   {
+    "group": "healthy",
+    "tok": ".onOptionsItemSelected",
+    "gen": " The token \"OptionsItemSelected\" is not a standalone token with a universally recognized meaning in the context of programming languages or computer science. Instead, it appears to be a combination of words that could be related to a specific context, such as within the Android development framework.\n\nBreaking down the token:\n\n- \"On\" is often used in programming to denote a method or function that"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/507 [00:00<?, ?it/s]Loading weights:  61%|██████    | 308/507 [00:00<00:00, 3078.26it/s]Loading weights: 100%|██████████| 507/507 [00:00<00:00, 3529.09it/s]
+  no label file (); running label-free, no glitch reference class
+Qwen/Qwen3-0.6B-FP8: 30 random/entity tokens (0 added from None) + 0 verified glitch = 30
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files:   9%|▉         | 1/11 [00:00<00:01,  9.07it/s]Fetching 11 files:  91%|█████████ | 10/11 [00:00<00:00, 50.90it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 46.50it/s]
+  filler pool: 2000 clean common words
+  context bank: 1 contexts, lengths [8] x 1, random interior slot
+  standard single probe: 5/30 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/1  K=8  slot=2  mean lp -2.280  fail rate 0.833
+/home/ubuntu/glitch/src/cut/fragility.py:271: RuntimeWarning: Mean of empty slice.
+  "frag_summary": {nm: {"mean": float(frag[m].mean()),
+/home/ubuntu/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/glitch/src/cut/fragility.py:272: RuntimeWarning: Mean of empty slice.
+  "ge10": float((frag[m] >= 0.1).mean()),
+/home/ubuntu/glitch/src/cut/fragility.py:273: RuntimeWarning: Mean of empty slice.
+  "ge25": float((frag[m] >= 0.25).mean())}
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 1.000   context 0.000   interaction 0.000
+        all tokens, fail indicator:  token 1.000   context 0.000   interaction 0.000
+     clean-looking tokens, logprob:  token 1.000   context 0.000   interaction 0.000
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 1 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=  30): mean frag 0.833   frag>=0.10: 0.833   frag>=0.25: 0.833   frag==0: 0.167
+   verified glitch (reference): (none)
+   clean-looking random tokens (n=   5): mean frag 0.600   frag>=0.10: 0.600   frag>=0.25: 0.600   frag==0: 0.400
+
+  context hostility (fraction of tokens failing): min 0.833  median 0.833  max 0.833
+  clean-looking fail rate by context length: K=8: 0.600
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+                 ' SB'  single -0.083  frag 1.00  mean lp -1.583   worst: lp -1.58 in ...' may lower [ SB]  polit cent general'
+               ' dzie'  single -0.097  frag 1.00  mean lp -1.208   worst: lp -1.21 in ...' may lower [ dzie]  polit cent general'
+            ' análise'  single -0.065  frag 1.00  mean lp -2.315   worst: lp -2.31 in ...' may lower [ análise]  polit cent general'
+           ' editText'  single -0.046  frag 0.00  mean lp -0.126   worst: lp -0.13 in ...' may lower [ editText]  polit cent general'
+              ' fixes'  single -0.017  frag 0.00  mean lp -0.077   worst: lp -0.08 in ...' may lower [ fixes]  polit cent general'
+
+saved -> results/smoke_fp8.json, results/smoke_fp8.pt

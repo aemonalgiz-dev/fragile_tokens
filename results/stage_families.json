@@ -1,0 +1,83 @@
+{
+ "OLMo2-1B": {
+  "models": [
+   "allenai/OLMo-2-0425-1B",
+   "allenai/OLMo-2-0425-1B-SFT",
+   "allenai/OLMo-2-0425-1B-DPO",
+   "allenai/OLMo-2-0425-1B-Instruct"
+  ],
+  "vocab": 100352,
+  "tied": false
+ },
+ "OLMo2-7B": {
+  "models": [
+   "allenai/OLMo-2-1124-7B",
+   "allenai/OLMo-2-1124-7B-SFT",
+   "allenai/OLMo-2-1124-7B-DPO",
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "vocab": 100352,
+  "tied": false
+ },
+ "OLMo2-13B": {
+  "models": [
+   "allenai/OLMo-2-1124-13B",
+   "allenai/OLMo-2-1124-13B-SFT",
+   "allenai/OLMo-2-1124-13B-DPO",
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "vocab": 100352,
+  "tied": false
+ },
+ "OLMoE": {
+  "models": [
+   "allenai/OLMoE-1B-7B-0924",
+   "allenai/OLMoE-1B-7B-0924-SFT",
+   "allenai/OLMoE-1B-7B-0924-Instruct"
+  ],
+  "vocab": 50304,
+  "tied": false
+ },
+ "Tulu3-8B": {
+  "models": [
+   "allenai/Llama-3.1-Tulu-3-8B-SFT",
+   "allenai/Llama-3.1-Tulu-3-8B-DPO",
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "vocab": 128264,
+  "tied": false
+ },
+ "Amber": {
+  "models": [
+   "LLM360/Amber",
+   "LLM360/AmberChat",
+   "LLM360/AmberSafe"
+  ],
+  "vocab": 32000,
+  "tied": false
+ },
+ "Qwen2.5-7B": {
+  "models": [
+   "Qwen/Qwen2.5-7B",
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "vocab": 152064,
+  "tied": false
+ },
+ "Qwen2.5-1.5B": {
+  "models": [
+   "Qwen/Qwen2.5-1.5B",
+   "Qwen/Qwen2.5-1.5B-Instruct"
+  ],
+  "vocab": 151936,
+  "tied": true
+ },
+ "Qwen3-8B": {
+  "models": [
+   "Qwen/Qwen3-8B-Base",
+   "Qwen/Qwen3-8B"
+  ],
+  "vocab": 151936,
+  "tied": false
+ }
+}

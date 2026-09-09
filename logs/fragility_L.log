@@ -1,0 +1,42 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  11%|█         | 38/355 [00:00<00:00, 359.29it/s]Loading weights:  23%|██▎       | 82/355 [00:00<00:00, 398.67it/s]Loading weights:  37%|███▋      | 131/355 [00:00<00:00, 429.56it/s]Loading weights:  49%|████▉     | 174/355 [00:00<00:00, 419.66it/s]Loading weights:  61%|██████    | 216/355 [00:00<00:00, 402.18it/s]Loading weights:  72%|███████▏  | 257/355 [00:00<00:00, 392.28it/s]Loading weights:  85%|████████▌ | 303/355 [00:00<00:00, 399.07it/s]Loading weights: 100%|█████████▉| 354/355 [00:00<00:00, 430.17it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 414.72it/s]
+allenai/OLMo-2-1124-7B-Instruct: 6173 random/entity tokens (1973 added from results/entities.json) + 100 verified glitch = 6273
+  filler pool: 1893 clean common words
+  context bank: 24 contexts, lengths [8, 16, 32, 64] x 6, random interior slot
+  standard single probe: 1888/6273 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/24  K=8  slot=6  mean lp -0.455  fail rate 0.108
+    context 9/24  K=16  slot=5  mean lp -0.326  fail rate 0.075
+    context 17/24  K=32  slot=8  mean lp -0.322  fail rate 0.080
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 0.920   context 0.002   interaction 0.078
+        all tokens, fail indicator:  token 0.670   context 0.007   interaction 0.323
+     clean-looking tokens, logprob:  token 0.613   context 0.001   interaction 0.386
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 24 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=6173): mean frag 0.075   frag>=0.10: 0.144   frag>=0.25: 0.095   frag==0: 0.740
+   verified glitch (reference) (n= 100): mean frag 0.987   frag>=0.10: 1.000   frag>=0.25: 0.990   frag==0: 0.000
+   clean-looking random tokens (n=1888): mean frag 0.006   frag>=0.10: 0.015   frag>=0.25: 0.008   frag==0: 0.950
+
+  context hostility (fraction of tokens failing): min 0.056  median 0.080  max 0.135
+  clean-looking fail rate by context length: K=8: 0.005  K=16: 0.008  K=32: 0.004  K=64: 0.007
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+          ' according'  single -0.001  frag 0.92  mean lp -13.262   worst: lp -21.31 in ...' kn she qual [ according]  window qu drive'
+            ' который'  single -0.017  frag 0.71  mean lp -0.984   worst: lp -3.16 in ...' whether more redu [ который]  was attr load'
+              ' única'  single -0.024  frag 0.54  mean lp -0.775   worst: lp -2.94 in ...' night server comple [ única]  inv bet deg'
+                 ' 查询'  single -0.015  frag 0.46  mean lp -0.951   worst: lp -8.69 in ...' comment began influ [ 查询]  look consider dest'
+             ' tienen'  single -0.028  frag 0.46  mean lp -0.618   worst: lp -1.74 in ...' loss has class [ tienen]  edit birth gold'
+                ' due'  single -0.000  frag 0.42  mean lp -7.509   worst: lp -23.80 in ...' dif signific while [ due]  money tre express'
+         ' allerdings'  single -0.092  frag 0.42  mean lp -0.570   worst: lp -2.09 in ...' night server comple [ allerdings]  inv bet deg'
+               ' może'  single -0.010  frag 0.42  mean lp -0.510   worst: lp -1.76 in ...' deter imp med [ może]  road install aud'
+          ' использов'  single -0.007  frag 0.33  mean lp -0.509   worst: lp -1.76 in ...' comment began influ [ использов]  look consider dest'
+             ' strSQL'  single -0.076  frag 0.29  mean lp -0.478   worst: lp -3.06 in ...' comment began influ [ strSQL]  look consider dest'
+     ' setContentView'  single -0.094  frag 0.25  mean lp -0.381   worst: lp -1.49 in ...' night server comple [ setContentView]  inv bet deg'
+             ' mentre'  single -0.002  frag 0.25  mean lp -0.436   worst: lp -2.03 in ...' deter imp med [ mentre]  road install aud'
+
+saved -> results/fragility_L.json, results/fragility_L.pt

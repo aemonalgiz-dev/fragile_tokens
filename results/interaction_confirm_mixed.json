@@ -1,0 +1,2291 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "n_pairs": 40,
+ "exploratory": true,
+ "pairs": [
+  [
+   98105,
+   83739,
+   -0.7592090874540666
+  ],
+  [
+   98105,
+   98105,
+   -0.6926925123620356
+  ],
+  [
+   98105,
+   61816,
+   -0.563096315193737
+  ],
+  [
+   41950,
+   78900,
+   -0.5429462125076887
+  ],
+  [
+   98105,
+   20668,
+   -0.5305820191984129
+  ],
+  [
+   98105,
+   40821,
+   -0.41746737659784794
+  ],
+  [
+   41950,
+   13227,
+   -0.4050741450889853
+  ],
+  [
+   98105,
+   31380,
+   -0.37257618449439184
+  ],
+  [
+   11094,
+   20668,
+   -0.3150364035514247
+  ],
+  [
+   61816,
+   64131,
+   -0.30413172090092777
+  ],
+  [
+   11094,
+   11094,
+   -0.29919081277867443
+  ],
+  [
+   61816,
+   78900,
+   -0.2894393336732936
+  ],
+  [
+   71890,
+   20668,
+   -0.2817286424256703
+  ],
+  [
+   69804,
+   20668,
+   -0.2796809210570549
+  ],
+  [
+   41950,
+   40821,
+   -0.272846686990046
+  ],
+  [
+   98105,
+   12429,
+   -0.25608948075577725
+  ],
+  [
+   98105,
+   33617,
+   -0.24353128627695875
+  ],
+  [
+   8160,
+   45488,
+   -0.23370710679817078
+  ],
+  [
+   41555,
+   40821,
+   -0.22887077056501373
+  ],
+  [
+   8160,
+   40821,
+   -0.22105266103175203
+  ],
+  [
+   41950,
+   64131,
+   -0.21449285406197305
+  ],
+  [
+   10364,
+   98105,
+   -0.2110293964286116
+  ],
+  [
+   75491,
+   98105,
+   -0.20597650476347118
+  ],
+  [
+   98105,
+   99332,
+   -0.2045658757129527
+  ],
+  [
+   41950,
+   15363,
+   -0.20240383338694384
+  ],
+  [
+   83230,
+   71890,
+   -0.20051174847408434
+  ],
+  [
+   93106,
+   98105,
+   -0.1982264054439882
+  ],
+  [
+   13227,
+   41950,
+   -0.19462892112243854
+  ],
+  [
+   20668,
+   61816,
+   -0.19443196767142149
+  ],
+  [
+   98105,
+   50289,
+   -0.17976234997955293
+  ],
+  [
+   20668,
+   20668,
+   -0.1715398176524364
+  ],
+  [
+   39641,
+   41950,
+   -0.17126351401020654
+  ],
+  [
+   41950,
+   11094,
+   -0.17000782502093761
+  ],
+  [
+   83230,
+   39641,
+   -0.16780285750515064
+  ],
+  [
+   58716,
+   78900,
+   -0.1641888427338494
+  ],
+  [
+   69804,
+   71890,
+   -0.1632250694353951
+  ],
+  [
+   78900,
+   20668,
+   -0.1620673682092664
+  ],
+  [
+   61816,
+   20668,
+   -0.1583708430059362
+  ],
+  [
+   98105,
+   63204,
+   -0.158101016868646
+  ],
+  [
+   40821,
+   45488,
+   -0.15717155132369953
+  ]
+ ],
+ "fail_surv": 0.6875,
+ "fail_ctrl": 0.45,
+ "fail_strict_surv": 0.8625,
+ "fail_strict_ctrl": 0.5875,
+ "outputs": [
+  {
+   "group": "surv",
+   "pair": 0,
+   "ctx": " no contact /************************************************************************ history <| em",
+   "out": " \"no contact\" followed by \"history <| em\". This phrase seems incomplete or fragmented, as it lacks context",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " no contact /************************************************************************ history ImGui em",
+   "out": " \"no contact\" followed by \"ImGui em\". This phrase seems incomplete or fragmented, making it difficult to provide",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " no contactStrategy history <| em",
+   "out": " \"no contactStrategy history <| em\" \nStep 1: Break down the text into its components. \n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 0,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per <| went",
+   "out": " \"no contact\" \n\nStep 1: Break down the sentence into its components.\n- \"no contact\" is a simple, straightforward command",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per ImGui went",
+   "out": " \"no contact / ** history beg em running statement equal per ImGui went\" \n\nStep 1: Break down the text into individual words or",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 0,
+   "ctx": " no contactStrategy history beg em running statement equal per <| went",
+   "out": " \"no contact strategy history beg em running statement equal per <| went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 1,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contact / ** history beg em running statement equal per ** / went\" It seems to be a fragment of a conversation or a coded",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal perTools went",
+   "out": " \"no contact / ** history beg em running statement equal perTools went\" \n\nStep 1: Break down the text into parts.\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " no contact mildly history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contact mildly history beg em running statement equal per / **went\"\n\nStep 1: Break down the text into parts for easier understanding",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 1,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program changes taken worth moving le opt area leave add days door av la figure show having dispatch resources prec less pow behind war indic know ens both track help ver allow several cv mix completely evidence requ gold value remember move currently quick tour wer child character una comple company sent hard middle intern zu field prote product end coun nation done grand load term skin driver void easily install sup goal up federal necess db null finally games /************************************************************************ time",
+   "out": " \"no contact / ** history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program chan",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program changes taken worth moving le opt area leave add days door av la figure show having dispatch resources prec less pow behind war indic know ens both track help ver allow several cv mix completely evidence requ gold value remember move currently quick tour wer child character una comple company sent hard middle intern zu field prote product end coun nation done grand load term skin driver void easily install sup goal up federal necess db null finally gamesTools time",
+   "out": " \"no contact / ** history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program chan",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 1,
+   "ctx": " no contact mildly history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program changes taken worth moving le opt area leave add days door av la figure show having dispatch resources prec less pow behind war indic know ens both track help ver allow several cv mix completely evidence requ gold value remember move currently quick tour wer child character una comple company sent hard middle intern zu field prote product end coun nation done grand load term skin driver void easily install sup goal up federal necess db null finally games /************************************************************************ time",
+   "out": " \"no contact mildly history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program ch",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 2,
+   "ctx": " no contact /************************************************************************ history beg em \ud574 statement",
+   "out": " \"no contact / history beg em \ud574 statement\"\n\nStep 1: Break down the text into parts\n- \"no",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 2,
+   "ctx": " no contact /************************************************************************ history beg em Associated statement",
+   "out": " \"no contact\" followed by \"Associated statement\". This phrase could be used in a legal or formal context, where \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 2,
+   "ctx": " no contactCap history beg em \ud574 statement",
+   "out": " \"no contact cap history beg em \ud574 statement\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 2,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per \ud574 went",
+   "out": " \"no contact / ** history beg em running statement equal per \ud574 went\" \n\nStep 1: Break down the text into individual words or",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 2,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per Associated went",
+   "out": " \"no contact\" \n\nStep 1: Identify the key words\nThe key words in this text are \"no contact\".\n\nStep 2",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 2,
+   "ctx": " no contactCap history beg em running statement equal per \ud574 went",
+   "out": " \"no contact cap history beg em running statement equal per \ud574 went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 3,
+   "ctx": " no contact carbohydr history estava em",
+   "out": " \"no contact carbohydrate history estava em\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " no contact carbohydr historyiesel em",
+   "out": " \"no contact carbohydrate historyiesel em\"\n\nStep 1: Break down the words\n- \"no contact\"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " no contactml history estava em",
+   "out": " \"no contact history estaba en\"\n\nStep 1: Break down the text into two parts for easier understanding.\n",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 3,
+   "ctx": " no contact carbohydr history beg em running statement equal per estava went",
+   "out": " \"No contact carbohydrate history beg em running statement equal per est\u00e1 nada.\"\n\nStep 1: Break down the text into smaller parts for easier understanding",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " no contact carbohydr history beg em running statement equal periesel went",
+   "out": " \"no contact carbohydrate history beg em running statement equal perisiel went\"\n\nStep 1: Break down the text into individual words and phrases",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 3,
+   "ctx": " no contactml history beg em running statement equal per estava went",
+   "out": " \"No contact, ml history beg em running statement equal per est\u00e1\u00f1\u00e1.\"\n\nStep 1: Break down the text into individual words or",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 4,
+   "ctx": " no contact /************************************************************************ history stringWithFormat em",
+   "out": " \"no contact\" followed by \"************************************************************************ history stringWithFormat em\". This phrase seems incomplete and lacks context, making it",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 4,
+   "ctx": " no contact /************************************************************************ history Fur em",
+   "out": " \"no contact / *** history Fur em\" The text seems to be incomplete or fragmented, making it difficult to",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 4,
+   "ctx": " no contact broadly history stringWithFormat em",
+   "out": " \"no contact broadly history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 4,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact\" \n\nStep 1: Identify the key words\nThe key words in this text are \"no contact\".\n\nStep 2",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 4,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per Fur went",
+   "out": " \"no contact\" \n\nStep 1: Break down the sentence into its components.\n- \"no contact\" is a simple, straightforward command",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 4,
+   "ctx": " no contact broadly history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact broadly history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 5,
+   "ctx": " no contact /************************************************************************ history simplify em",
+   "out": " \"no contact\" followed by \"**************************************************************************\" and then \"history simplify em\". This phrase seems incomplete or",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " no contact /************************************************************************ historyHey em",
+   "out": " \"no contact\" followed by \"historyHey em\". This phrase seems incomplete or fragmented, as it lacks context",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " no contactTools history simplify em",
+   "out": " \"no contactTools history simplify em\"\n\nStep 1: Break down the words\n- \"no\" is",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 5,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per simplify went",
+   "out": " \"no contact\" \n\nStep 1: Break down the sentence into individual words. \n- \"no\" is a negative word that means",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal perHey went",
+   "out": " \"no contact\" \n\nStep 1: Identify the key words\nThe key words in this text are \"no contact\".\n\nStep 2",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 5,
+   "ctx": " no contactTools history beg em running statement equal per simplify went",
+   "out": " \"no contactTools history beg em running statement equal per simplify went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 6,
+   "ctx": " no contact carbohydr history beg em voor statement",
+   "out": " \"no contact carbohydrate history beg em voor statement\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " no contact carbohydr history beg em);\\ statement",
+   "out": " \"no contact carbohydrate history beg em); statement\"\n\nStep 1: Break down the text into parts for better understanding.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " no contactertil history beg em voor statement",
+   "out": " \"no contact with a criminal history, but I am willing to make a statement.\"\n\nStep 1: Break down the",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 6,
+   "ctx": " no contact carbohydr history beg em running statement equal per voor went",
+   "out": " \"No contact carbohydrate history beg em running statement equal per voor went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " no contact carbohydr history beg em running statement equal per);\\ went",
+   "out": " \"No contact carbohydrate history beg em running statement equal per); went\"\n\nStep 1: Break down the text into smaller parts for easier understanding",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 6,
+   "ctx": " no contactertil history beg em running statement equal per voor went",
+   "out": " \"no contact with a criminal history, beg em running statement, equal parts vodka and red bull, for the win.\"\n\nStep 1:",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 7,
+   "ctx": " no contact /************************************************************************ historyPython em",
+   "out": " \"no contact\" followed by \"*/ historyPython em\". This instruction seems to be incomplete or incorrect, as",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " no contact /************************************************************************ history sounding em",
+   "out": " \"no contact\" repeated three times, followed by \"history sounding em\". It does not appear to form a",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " no contact sounding historyPython em",
+   "out": " \"no contact sounding historyPython em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 7,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal perPython went",
+   "out": " \"no contact\" \n\nStep 1: Break down the sentence into its components.\n- \"no contact\" is the complete sentence.\n-",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per sounding went",
+   "out": " \"no contact\" repeated three times, followed by \"history beg em running statement equal per sounding went\". This phrase does not form a coherent",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 7,
+   "ctx": " no contact sounding history beg em running statement equal perPython went",
+   "out": " \"no contact sounding history beg em running statement equal perPython went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 8,
+   "ctx": " no contact \"${ history stringWithFormat em",
+   "out": " \"no contact `${ history stringWithFormat em\" \n\nStep 1: Break down the text into parts.\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " no contact \"${ history);\\ em",
+   "out": " \"no contact [history);\" \n\nStep 1: Identify the syntax and structure of the text.\nThe text",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " no contact LB history stringWithFormat em",
+   "out": " \"no contact LB history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 8,
+   "ctx": " no contact \"${ history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact [history beg] em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into its components.\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " no contact \"${ history beg em running statement equal per);\\ went",
+   "out": " \"no contact [history beg em running statement equal per]; went\"\n\nStep 1: Identify the punctuation marks\nThe text contains several punctuation",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 8,
+   "ctx": " no contact LB history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact LB history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 9,
+   "ctx": " no contact \ud574 history beg em running statement equal perrazione went",
+   "out": " \"no contact, history beg, em running, statement equal, perrazione went\"\n\nStep 1: Break down each word or phrase for",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " no contact \ud574 history beg em running statement equal per pars went",
+   "out": " \"no contact, history beg, em running, statement equal, per pars, went\"\n\nStep 1: Break down each word or phrase",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " no contactchema history beg em running statement equal perrazione went",
+   "out": " \"no contact schema history beg em running statement equal perrazione went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 9,
+   "ctx": " no contact \ud574 history beg em running statement equal per gen went pred loc sched sol tf interestrazione now",
+   "out": " \"no contact, history beg, em running, statement equal per gen, went pred loc sched sol tf interestrazione now\"\n\nStep 1: \"no contact\" - This phrase",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " no contact \ud574 history beg em running statement equal per gen went pred loc sched sol tf interest pars now",
+   "out": " \"no contact, history beg, em running, statement equal, per gen went, pred loc sched sol, tf interest pars, now.\"\n\nStep 1: \"no contact\"",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 9,
+   "ctx": " no contactchema history beg em running statement equal per gen went pred loc sched sol tf interestrazione now",
+   "out": " \"no contact schema history beg em running statement equal per gen went pred loc sched sol tf interestrazione now\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 10,
+   "ctx": " no contact \"${ history \"${ em",
+   "out": " \"no contact \"${ history \"${ em\"\n\nStep 1: Identify the structure of the text\nThe text is",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 10,
+   "ctx": " no contact \"${ history pars em",
+   "out": " \"no contact ${ history pars em\". This phrase seems incomplete and lacks context, making it difficult to provide a",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 10,
+   "ctx": " no contactPython history \"${ em",
+   "out": " \"no contactPython history \"${ em\n\nStep 1: Identify the components of the text\nThe text consists",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 10,
+   "ctx": " no contact \"${ history beg em running statement equal per \"${ went",
+   "out": " \"no contact ${ history beg em running statement equal per \"${ went\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 10,
+   "ctx": " no contact \"${ history beg em running statement equal per pars went",
+   "out": " \"no contact [history beg em running statement equal per pars went]\" \n\nStep 1: Break down the text into individual words and phrases",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 10,
+   "ctx": " no contactPython history beg em running statement equal per \"${ went",
+   "out": " \"no contactPython history beg em running statement equal per \"${ went\" \n\nStep 1: Break down the text into individual words or phrases",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 11,
+   "ctx": " no contact \ud574 history beg em running statement equal per estava went",
+   "out": " \"no contact, he history beg, em running statement, equal per est\u00e1m, went\"\n\nStep 1: Break down the text into",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " no contact \ud574 history beg em running statement equal per Garrett went",
+   "out": " \"no contact, he history beg, em running statement, equal per Garrett went.\"\n\nStep 1: Break down the text into individual words",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " no contact VMware history beg em running statement equal per estava went",
+   "out": " \"no contact VMware history beg em running statement equal per estava went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 11,
+   "ctx": " no contact \ud574 history beg em running statement equal per gen went pred loc sched sol tf interest estava now",
+   "out": " \"no contact, history beg, em running, statement equal, per gen went, pred loc sched sol tf, interest estaba, now\"\n\nStep 1: \"no contact\" - This phrase suggests that there should be no communication or interaction with someone or something. It implies a lack of connection or engagement.\n\nStep 2: \"his",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " no contact \ud574 history beg em running statement equal per gen went pred loc sched sol tf interest Garrett now",
+   "out": " \"no contact, history beg, em running, statement equal, per gen went, pred loc sched sol, tf interest, Garrett now.\"\n\nStep 1: \"no contact\" - This phrase suggests that there should be no communication or interaction between two parties. It implies a lack of communication or connection.\n\nStep 2: \"hist",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 11,
+   "ctx": " no contact VMware history beg em running statement equal per gen went pred loc sched sol tf interest estava now",
+   "out": " \"No contact VMware history beg em running statement equal per gen went pred loc sched sol tf interest est\u00e1 ahora.\"\n\nStep 1: \"No contact\" - This phrase means that there should be no communication or interaction with someone or something. In this context, it suggests that there should be no communica",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 12,
+   "ctx": " no contact\u7ad9 history stringWithFormat em",
+   "out": " \"no contact\u7ad9 history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " no contact\u7ad9 historyCouncil em",
+   "out": " \"no contact\u7ad9 historyCouncil em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " no contact Garrett history stringWithFormat em",
+   "out": " \"no contact Garrett history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 12,
+   "ctx": " no contact\u7ad9 history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact [space] history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words or",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " no contact\u7ad9 history beg em running statement equal perCouncil went",
+   "out": " \"no contact, history beg, em running, statement equal, perCouncil went\"\n\nStep 1: Break down each word or phrase\n",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 12,
+   "ctx": " no contact Garrett history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact Garrett history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 13,
+   "ctx": " no contact HttpResponseMessage history stringWithFormat em",
+   "out": " \"no contact HttpResponseMessage history stringWithFormat em\". This phrase seems to be a mix of English and some unknown language or",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 13,
+   "ctx": " no contact HttpResponseMessage historychema em",
+   "out": " \"no contact HttpResponseMessage historychema em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 13,
+   "ctx": " no contact pars history stringWithFormat em",
+   "out": " \"no contact pars history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 13,
+   "ctx": " no contact HttpResponseMessage history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact HttpResponseMessage history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 13,
+   "ctx": " no contact HttpResponseMessage history beg em running statement equal perchema went",
+   "out": " \"no contact HttpResponseMessage history beg em running statement equal perchema went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 13,
+   "ctx": " no contact pars history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact pars history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 14,
+   "ctx": " no contact carbohydr history simplify em",
+   "out": " \"no contact carbohydrate history simplify em\"\n\nStep 1: Break down the phrase \"no contact carbohydrate history simplify",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " no contact carbohydr historydistrict em",
+   "out": " \"no contact carbohydrate history district em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " no contactFolderPath history simplify em",
+   "out": " \"no contactFolderPath history simplify em\"\n\nStep 1: Break down the text into individual words.\n- no",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 14,
+   "ctx": " no contact carbohydr history beg em running statement equal per simplify went",
+   "out": " \"No contact carbohydrate history beg em running statement equal per simplify went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " no contact carbohydr history beg em running statement equal perdistrict went",
+   "out": " \"no contact carbohydrate history beg em running statement equal perdistrict went\"\n\nStep 1: Break down the text into individual words and phrases:\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 14,
+   "ctx": " no contactFolderPath history beg em running statement equal per simplify went",
+   "out": " \"no contactFolderPath history beg em running statement equal per simplify went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 15,
+   "ctx": " no contact /************************************************************************ historyritten em",
+   "out": " \"no contact\" followed by \"historyritten em\". This phrase does not make sense in English as it seems",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " no contact /************************************************************************ historyTools em",
+   "out": " \"no contact\" followed by \"historyTools em\". This instruction likely comes from a software or programming context,",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " no contact Garrett historyritten em",
+   "out": " \"no contact Garrett historyritten em\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 15,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal perritten went",
+   "out": " \"no contact\" \n\nStep 1: Break down the sentence into individual words. \n- \"no\" is a negative word that means",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal perTools went",
+   "out": " \"no contact / ** history beg em running statement equal perTools went\" \n\nStep 1: Break down the text into parts.\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 15,
+   "ctx": " no contact Garrett history beg em running statement equal perritten went",
+   "out": " \"no contact Garrett history beg em running statement equal perritten went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 16,
+   "ctx": " no contact /************************************************************************ history Patriots em",
+   "out": " \"no contact / Patriots em\". This phrase seems incomplete and lacks context to provide a detailed explanation. However,",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " no contact /************************************************************************ historycovered em",
+   "out": " \"no contact\" followed by \"historycovered em\". This phrase does not convey a clear meaning on its own",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " no contactTools history Patriots em",
+   "out": " \"no contactTools history Patriots em\". This phrase seems to be incomplete or incorrect, as it does not form",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 16,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per Patriots went",
+   "out": " \"no contact\" / **The phrase \"no contact\" means that there should be no physical interaction or communication between two people or groups.",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal percovered went",
+   "out": " \"no contact\" \n\nStep 1: Break down the sentence into its components.\n- \"no contact\" is a simple, straightforward command",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 16,
+   "ctx": " no contactTools history beg em running statement equal per Patriots went",
+   "out": " \"no contactTools history beg em running statement equal per Patriots went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 17,
+   "ctx": " no contactotos history);\\ em",
+   "out": " \"no contactotos history); em\" \n\nStep 1: Break down the text into parts.\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " no contactotos historyrazione em",
+   "out": " \"no contactotos historyrazione em\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " no contact HttpResponseMessage history);\\ em",
+   "out": " \"no contact HttpResponseMessage history\"); \n\nStep 1: Break down the text into its components.\n- \"no",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 17,
+   "ctx": " no contactotos history beg em running statement equal per);\\ went",
+   "out": " \"no contactotos history beg em running statement equal per);\\ went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " no contactotos history beg em running statement equal perrazione went",
+   "out": " \"No contactotos history beg em running statement equal perrazione went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 17,
+   "ctx": " no contact HttpResponseMessage history beg em running statement equal per);\\ went",
+   "out": " \"no contact HttpResponseMessage history beg em running statement equal per);\\ went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 18,
+   "ctx": " no contactlosion history beg em simplify statement",
+   "out": " \"No contactlosion history. Beg em simplify statement.\"\n\nStep 1: Break down the first part of the text:",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " no contactlosion history beg em broadly statement",
+   "out": " \"no contactlosion history beg em broadly statement\"\n\nStep 1: Break down the words\n- \"no\" means",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " no contactPython history beg em simplify statement",
+   "out": " \"no contact Python history beg em simplify statement\"\n\nStep 1: Break down the phrase \"no contact\"\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 18,
+   "ctx": " no contactlosion history beg em running statement equal per simplify went",
+   "out": " \"No contact explosion history beg em running statement equal per simplify went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " no contactlosion history beg em running statement equal per broadly went",
+   "out": " \"No contactlosion history beg em running statement equal per broadly went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 18,
+   "ctx": " no contactPython history beg em running statement equal per simplify went",
+   "out": " \"no contactPython history beg em running statement equal per simplify went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 19,
+   "ctx": " no contactotos history simplify em",
+   "out": " \"no contactotos history simplify em\"\n\nStep 1: Break down the words\n- \"no\" is",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " no contactotos history Hop em",
+   "out": " \"no contactotos history Hop em\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " no contactFolderPath history simplify em",
+   "out": " \"no contactFolderPath history simplify em\"\n\nStep 1: Break down the text into individual words.\n- no",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 19,
+   "ctx": " no contactotos history beg em running statement equal per simplify went",
+   "out": " \"No contactoto's history beg em running statement equal per simplify went.\"\n\nStep 1: Break down the text into individual words and phrases",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " no contactotos history beg em running statement equal per Hop went",
+   "out": " \"no contactotos history beg em running statement equal per Hop went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 19,
+   "ctx": " no contactFolderPath history beg em running statement equal per simplify went",
+   "out": " \"no contactFolderPath history beg em running statement equal per simplify went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 20,
+   "ctx": " no contact carbohydr history beg emrazione statement",
+   "out": " \"no contact carbohydrate history beg emigration statement\"\n\nStep 1: Break down the words\n- \"no\" means",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " no contact carbohydr history beg em tou statement",
+   "out": " \"no contact carbohydrate history beg em tou statement\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " no contact Restaurants history beg emrazione statement",
+   "out": " \"no contact Restaurants history beg emigration statement\"\n\nStep 1: Break down the words\n- \"no\" is",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 20,
+   "ctx": " no contact carbohydr history beg em running statement equal perrazione went",
+   "out": " \"No contact carbohydrate history beg em running statement equal perrazione went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " no contact carbohydr history beg em running statement equal per tou went",
+   "out": " \"No contact carbohydrate history, beg em running statement, equal per tou went.\"\n\nStep 1: Break down the text into smaller parts for",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 20,
+   "ctx": " no contact Restaurants history beg em running statement equal perrazione went",
+   "out": " \"no contact restaurants history beg em running statement equal perrazione went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 21,
+   "ctx": " no contact pars history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contact pars history beg em running statement equal per /**went**\n\nStep 1: Break down the text into parts\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " no contact pars history beg em running statement equal per voor went",
+   "out": " \"no contact, part of history, beg em running, statement equal per voor went\"\n\nStep 1: Break down the text into smaller",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " no contact broadly history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contact broadly history beg em running statement equal per /**went**/\".\n\nStep 1: Break down the text into its components",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 21,
+   "ctx": " no contact pars history beg em running statement equal per gen went pred loc sched sol tf interest /************************************************************************ now",
+   "out": " \"no contact pars history beg em running statement equal per gen went pred loc sched sol tf interest\"\n\nStep 1: \"no contact\" - This phrase suggests that there should be no communication or interaction between two parties. It implies a separation or a decision to not engage with each other.\n\nStep 2: \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " no contact pars history beg em running statement equal per gen went pred loc sched sol tf interest voor now",
+   "out": " \"no contact, part of history, beg em running statement, equal per gene, went pre-determined location scheduled solution, total field interest for now.\"\n\nStep 1: \"no contact\" - This phrase suggests that there should be no communication or interaction between two parties or entities. It implies a sep",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 21,
+   "ctx": " no contact broadly history beg em running statement equal per gen went pred loc sched sol tf interest /************************************************************************ now",
+   "out": " \"no contact broadly history beg em running statement equal per gen went pred loc sched sol tf interest\"\n\nStep 1: \"no contact\" - This phrase suggests that there should be no communication or interaction between two or more parties. It implies a separation or distance maintained between individuals o",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 22,
+   "ctx": " no contact brisk history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contact brisk history beg em running statement equal per */\" This is a series of commands or instructions, likely related to programming or coding",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 22,
+   "ctx": " no contact brisk history beg em running statement equal per Restaurants went",
+   "out": " \"No contact. Brisk history. Beg em running. Statement equal per Restaurants went.\"\n\nStep 1: No contact\nThis means that",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 22,
+   "ctx": " no contactiesel history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contactiesel history beg em running statement equal per /**went**\n\nStep 1: Identify the words and phrases\n- \"no",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 23,
+   "ctx": " no contact /************************************************************************ history beg emLaughs statement",
+   "out": " \"no contact / ** history beg emLaughs statement\" \n\nStep 1: Break down the text into two parts:",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " no contact /************************************************************************ history beg em grav statement",
+   "out": " \"no contact\" followed by \" HISTORY BEGINS WITH A GRAVE STATEMENT\". This phrase seems to be a",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " no contact brisk history beg emLaughs statement",
+   "out": " \"no contact brisk history beg emLaughs statement\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 23,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal perLaughs went",
+   "out": " \"no contact / ** history beg em running statement equal perLaughs went\" \n\nStep 1: Break down the text into individual words or",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per grav went",
+   "out": " \"no contact\" \n\nStep 1: Break down the words\n- \"no\" means not or absence of something.\n- \"contact",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 23,
+   "ctx": " no contact brisk history beg em running statement equal perLaughs went",
+   "out": " \"no contact brisk history beg em running statement equal perLaughs went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 24,
+   "ctx": " no contact carbohydr history beg emazione statement",
+   "out": " \"No contact carbohydrate history beg emazione statement.\"\n\nStep 1: Break down the words.\n\"No\" - This is",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " no contact carbohydr history beg em gel statement",
+   "out": " \"No contact carbohydrate history beg em gel statement.\"\n\nStep 1: Break down the text into individual words.\n\"No\" - This is a",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " no contact VMware history beg emazione statement",
+   "out": " \"no contact VMware history beg emazione statement\"\n\nStep 1: Break down the text into individual words.\n- \"no\" is a",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 24,
+   "ctx": " no contact carbohydr history beg em running statement equal perazione went",
+   "out": " \"No contact carbohydrate history beg em running statement equal perazione went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " no contact carbohydr history beg em running statement equal per gel went",
+   "out": " \"No contact carbohydrate history beg em running statement equal per gel went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 24,
+   "ctx": " no contact VMware history beg em running statement equal perazione went",
+   "out": " \"no contact VMware history beg em running statement equal perazione went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 25,
+   "ctx": " no contactiesel history\u7ad9 em",
+   "out": " \"no contactisel history\u7ad9 em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " no contactiesel history forwarding em",
+   "out": " \"no contact history forwarding em\"\n\nStep 1: Break down the text into individual words.\n- \"no",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " no contact Hop history\u7ad9 em",
+   "out": " \"no contact Hop history\u7ad9 em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 25,
+   "ctx": " no contactiesel history beg em running statement equal per\u7ad9 went",
+   "out": " \"no contactisel history beg em running statement equal per\u7ad9 went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " no contactiesel history beg em running statement equal per forwarding went",
+   "out": " \"no contactiesel history beg em running statement equal per forwarding went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 25,
+   "ctx": " no contact Hop history beg em running statement equal per\u7ad9 went",
+   "out": " \"no contact hop history beg em running statement equal per\u7ad9 went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 26,
+   "ctx": " no contact ultimo history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contact ultimo history beg em running statement equal per /**went**\n\nStep 1: Break down the text into parts\n- \"",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 26,
+   "ctx": " no contact ultimo history beg em running statement equal per Fur went",
+   "out": " \"no contact ultimo history beg em running statement equal per Fur went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 26,
+   "ctx": " no contact \ud574 history beg em running statement equal per /************************************************************************ went",
+   "out": " \"no contact, history beg, em running, statement equal, per **went**.\" This phrase seems to be a series of unrelated words",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 27,
+   "ctx": " no contact voor history carbohydr em",
+   "out": " \"no contact for history carbohydrates\"\n\nStep 1: Break down the sentence into its components.\n- \"no",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " no contact voor history VMware em",
+   "out": " \"no contact voor history VMware em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " no contactritten history carbohydr em",
+   "out": " \"no contactritten history carbohydrate em\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 27,
+   "ctx": " no contact voor history beg em running statement equal per carbohydr went",
+   "out": " \"no contact for history beg em running statement equal per carbohydrate went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " no contact voor history beg em running statement equal per VMware went",
+   "out": " \"no contact for history beg em running statement equal per VMware went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 27,
+   "ctx": " no contactritten history beg em running statement equal per carbohydr went",
+   "out": " \"no contactritten history beg em running statement equal per carbohydrate went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 28,
+   "ctx": " no contact stringWithFormat history \ud574 em",
+   "out": " \"no contact formatter history 'hange 'em\"\n\nStep 1: Break down the text into its components",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 28,
+   "ctx": " no contact stringWithFormat historyml em",
+   "out": " \"no contact\" followed by \"formatString\" and \"historyml\" with \"em\" at the end",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 28,
+   "ctx": " no contactCap history \ud574 em",
+   "out": " \"no contact Cap history \ud574 em\". This phrase seems to be a mix of Korean and English, and it",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 28,
+   "ctx": " no contact stringWithFormat history beg em running statement equal per \ud574 went",
+   "out": " \"no contact formatter history beg em running statement equal per \ud574 went\"\n\nStep 1: \"no contact\" - This phrase suggests that there",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 28,
+   "ctx": " no contact stringWithFormat history beg em running statement equal perml went",
+   "out": " \"no contact formatter history beg em running statement equal perml went\"\n\nStep 1: Break down the text into individual words or phrases:\n",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 28,
+   "ctx": " no contactCap history beg em running statement equal per \ud574 went",
+   "out": " \"no contact cap history beg em running statement equal per \ud574 went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 29,
+   "ctx": " no contact /************************************************************************ historyiset em",
+   "out": " \"no contact\" \n\nStep 1: Understand the meaning of each word\n- \"no\" is a",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " no contact /************************************************************************ history grav em",
+   "out": " \"no contact / ** history grav em\" The text seems to be a mix of words that don't form",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " no contactchema historyiset em",
+   "out": " \"no contactchema historyiset em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 29,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal periset went",
+   "out": " \"no contact / ** history beg em running statement equal periset went\" \n\nStep 1: Break down the text into individual words or",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per grav went",
+   "out": " \"no contact\" \n\nStep 1: Break down the words\n- \"no\" means not or absence of something.\n- \"contact",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 29,
+   "ctx": " no contactchema history beg em running statement equal periset went",
+   "out": " \"no contact schema history beg em running statement equal periset went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 30,
+   "ctx": " no contact stringWithFormat history stringWithFormat em",
+   "out": " \"no contact\" \"formatString\" \"history\" \"formatString\" \"em\"\n\nStep 1:",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " no contact stringWithFormat historyml em",
+   "out": " \"no contact\" followed by \"formatString\" and \"historyml\" with \"em\" at the end",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " no contact pars history stringWithFormat em",
+   "out": " \"no contact pars history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 30,
+   "ctx": " no contact stringWithFormat history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact formatter history beg em running statement equal per formatter went\"\n\nStep 1: Break down the text into individual words or phrases for",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " no contact stringWithFormat history beg em running statement equal perml went",
+   "out": " \"no contact formatter history beg em running statement equal perml went\"\n\nStep 1: Break down the text into individual words or phrases:\n",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 30,
+   "ctx": " no contact pars history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact pars history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 31,
+   "ctx": " no contact ImGui history beg em running statement equal per carbohydr went",
+   "out": " \"no contact ImGui history beg em running statement equal per carbohydrate went\"\n\nStep 1: Break down the text into individual words and phrases for",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 31,
+   "ctx": " no contact ImGui history beg em running statement equal per forwarding went",
+   "out": " \"no contact ImGui history beg em running statement equal per forwarding went\"\n\nStep 1: Break down the text into individual words and phrases:\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 31,
+   "ctx": " no contact broadly history beg em running statement equal per carbohydr went",
+   "out": " \"no contact broadly history beg em running statement equal per carbohydrate went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 32,
+   "ctx": " no contact carbohydr history \"${ em",
+   "out": " \"no contact carbohydrate history \"${ em\n\nStep 1: Identify the error\nThe text contains a typographical",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " no contact carbohydr historyXP em",
+   "out": " \"no contact carbohydrate history XP em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " no contact ultimo history \"${ em",
+   "out": " \"no contact ultimo history \"${ em\n\nStep 1: Identify the words and their meanings\n- \"no",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 32,
+   "ctx": " no contact carbohydr history beg em running statement equal per \"${ went",
+   "out": " \"no contact carbohydrate history beg em running statement equal per \"${ went\n\nStep 1: Break down the text into smaller parts for easier understanding",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " no contact carbohydr history beg em running statement equal perXP went",
+   "out": " \"No contact carbohydrate history beg em running statement equal perXP went.\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 32,
+   "ctx": " no contact ultimo history beg em running statement equal per \"${ went",
+   "out": " \"no contact ultimo history beg em running statement equal per \"${ went\n\nStep 1: Break down the text into smaller parts for easier understanding",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 33,
+   "ctx": " no contactiesel history beg em running statement equal per ImGui went",
+   "out": " \"no contactiesel history beg em running statement equal per ImGui went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 33,
+   "ctx": " no contactiesel history beg em running statement equal per Fur went",
+   "out": " \"no contact is evil history beg em running statement equal per Fur went\"\n\nStep 1: Break down the text into individual words and phrases",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 33,
+   "ctx": " no contact Disc history beg em running statement equal per ImGui went",
+   "out": " \"no contact Disc history beg em running statement equal per ImGui went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 34,
+   "ctx": " no contact Garrett history beg em estava statement",
+   "out": " \"no contact Garrett history beg em est\u00e1 statement\"\n\nStep 1: Break down the text into individual words and phrases.\n- \"no contact",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " no contact Garrett history beg emFolderPath statement",
+   "out": " \"no contact Garrett history beg emFolderPath statement\"\n\nStep 1: Break down the text into individual words and phrases.\n- \"no contact",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " no contactml history beg em estava statement",
+   "out": " \"no contact ml history beg em est\u00e1 statement\"\n\nStep 1: Break down the text into individual words.\n- \"no\" is a",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 34,
+   "ctx": " no contact Garrett history beg em running statement equal per estava went",
+   "out": " \"no contact Garrett history beg em running statement equal per est\u00e1 com vontade.\"\n\nStep 1: Break down the Portuguese sentence into smaller parts",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " no contact Garrett history beg em running statement equal perFolderPath went",
+   "out": " \"no contact Garrett history beg em running statement equal perFolderPath went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 34,
+   "ctx": " no contactml history beg em running statement equal per estava went",
+   "out": " \"No contact, ml history beg em running statement equal per est\u00e1\u00f1\u00e1.\"\n\nStep 1: Break down the text into individual words or",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "surv",
+   "pair": 35,
+   "ctx": " no contact HttpResponseMessage history beg em running statement equal per\u7ad9 went",
+   "out": " \"no contact RESPOND MESSAGE HISTORY beg em running STATEMENT equal per\u7ad9 went\"\n\nStep 1: Break down the text into individual words",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 35,
+   "ctx": " no contact HttpResponseMessage history beg em running statement equal per mildly went",
+   "out": " \"no contact HttpResponseMessage history beg em running statement equal per mildly went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 35,
+   "ctx": " no contact Practices history beg em running statement equal per\u7ad9 went",
+   "out": " \"no contact Practices history beg em running statement equal per\u7ad9 went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 36,
+   "ctx": " no contact estava history stringWithFormat em",
+   "out": " \"no contact est\u00e1 hist\u00f3ria fmt:format\" \n\nStep 1: Break down the text into its components.\n",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " no contact estava history HttpResponseMessage em",
+   "out": " \"no contact estava history HttpResponseMessage em\"\n\nStep 1: Break down the text into individual words.\n- no",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " no contactHey history stringWithFormat em",
+   "out": " \"no contact\" followed by \"Hey history stringWithFormat em\". This phrase seems to be a mix of English and",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 36,
+   "ctx": " no contact estava history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact estava history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " no contact estava history beg em running statement equal per HttpResponseMessage went",
+   "out": " \"no contact estava history beg em running statement equal per HttpResponseMessage went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 36,
+   "ctx": " no contactHey history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contactHey history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 37,
+   "ctx": " no contact \ud574 history stringWithFormat em",
+   "out": " \"no contact \ud574 history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " no contact \ud574 history forwarding em",
+   "out": " \"no contact, history forwarding em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " no contact grav history stringWithFormat em",
+   "out": " \"no contact grav history stringWithFormat em\"\n\nStep 1: Break down the text into its components.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 37,
+   "ctx": " no contact \ud574 history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact, history beg, em running, statement equal, per stringWithFormat, went\"\n\nStep 1: Break down each phrase\n-",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " no contact \ud574 history beg em running statement equal per forwarding went",
+   "out": " \"no contact, he history beg, em running statement, equal per forwarding went.\"\n\nStep 1: Break down the text into individual words",
+   "strict": false,
+   "repro": false,
+   "subst": true
+  },
+  {
+   "group": "ctrl",
+   "pair": 37,
+   "ctx": " no contact grav history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact grav history beg em running statement equal per stringWithFormat went\"\n\nStep 1: Break down the text into individual words and phrases.\n",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 38,
+   "ctx": " no contact /************************************************************************ history forwarding em",
+   "out": " \"no contact / **history forwarding enabled**\" This message indicates that the sender has disabled all forms of contact",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " no contact /************************************************************************ historydistrict em",
+   "out": " \"no contact\" followed by \"historydistrict em\". This phrase seems to instruct someone not to initiate or engage",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " no contactStrategy history forwarding em",
+   "out": " \"no contactStrategy history forwarding em\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 38,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per forwarding went",
+   "out": " \"no contact\". It seems to be a command or instruction, telling someone not to initiate or maintain any form of communication with another person or",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " no contact /************************************************************************ history beg em running statement equal perdistrict went",
+   "out": " \"no contact / ** history beg em running statement equal perdistrict went\" \n\nStep 1: Break down the text into individual words or phrases.\n- \"no contact\" -",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 38,
+   "ctx": " no contactStrategy history beg em running statement equal per forwarding went",
+   "out": " \"no contactStrategy history beg em running statement equal per forwarding went\"\n\nStep 1: Break down the text into individual words and phrases.\n- \"no contact\" suggests not engaging",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 39,
+   "ctx": " no contact simplify history);\\ em",
+   "out": " \"no contact simplify history);\" \n\nStep 1: Break down the text into its components.\n- \"no",
+   "strict": false,
+   "repro": false,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " no contact simplify history ImGui em",
+   "out": " \"no contact simplify history ImGui em\"\n\nStep 1: Break down the text into individual words.\n- \"",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " no contact cref history);\\ em",
+   "out": " \"no contact cref history); em\" \n\nStep 1: Break down the text into its components.\n-",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "surv",
+   "pair": 39,
+   "ctx": " no contact simplify history beg em running statement equal per);\\ went",
+   "out": " \"no contact simplify history beg em running statement equal per);\\ went\"\n\nStep 1: Break down the text into individual words and phrases.\n- \"no contact\" suggests the absence",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " no contact simplify history beg em running statement equal per ImGui went",
+   "out": " \"no contact simplify history beg em running statement equal per ImGui went\"\n\nStep 1: Break down the text into individual words and phrases.\n- \"no contact\" suggests the absence",
+   "strict": true,
+   "repro": true,
+   "subst": false
+  },
+  {
+   "group": "ctrl",
+   "pair": 39,
+   "ctx": " no contact cref history beg em running statement equal per);\\ went",
+   "out": " \"no contact, cref history, beg em running statement, equal per;\\ went\"\n\nStep 1: Break down the text into smaller parts for easier understanding.\n- \"no contact",
+   "strict": false,
+   "repro": true,
+   "subst": false
+  }
+ ],
+ "subst_surv": 0.2625,
+ "subst_ctrl": 0.175,
+ "fail_diff": [
+  0.2375,
+  0.1,
+  0.36875
+ ],
+ "subst_diff": [
+  0.0875,
+  -0.0125,
+  0.19375
+ ],
+ "transfers": false,
+ "samples": [
+  {
+   "ctx": " no contact /************************************************************************ history <| em",
+   "out": " \"no contact\" followed by \"history <| em\". This phrase seems incomplete or fragmented, as it lacks context"
+  },
+  {
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per <| went",
+   "out": " \"no contact\" \n\nStep 1: Break down the sentence into its components.\n- \"no contact\" is a simple, straightforward command"
+  },
+  {
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program changes taken worth moving le opt area leave add days door av la figure show having dispatch resources prec less pow behind war indic know ens both track help ver allow several cv mix completely evidence requ gold value remember move currently quick tour wer child character una comple company sent hard middle intern zu field prote product end coun nation done grand load term skin driver void easily install sup goal up federal necess db null finally games /************************************************************************ time",
+   "out": " \"no contact / ** history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nic"
+  },
+  {
+   "ctx": " no contact carbohydr history estava em",
+   "out": " \"no contact carbohydrate history estava em\"\n\nStep 1: Break down the text into individual words.\n- \""
+  },
+  {
+   "ctx": " no contact carbohydr history beg em running statement equal per estava went",
+   "out": " \"No contact carbohydrate history beg em running statement equal per est\u00e1 nada.\"\n\nStep 1: Break down the text into smaller parts for easier understanding"
+  },
+  {
+   "ctx": " no contact /************************************************************************ history stringWithFormat em",
+   "out": " \"no contact\" followed by \"************************************************************************ history stringWithFormat em\". This phrase seems incomplete and lacks context, making it"
+  },
+  {
+   "ctx": " no contact /************************************************************************ history beg em running statement equal per stringWithFormat went",
+   "out": " \"no contact\" \n\nStep 1: Identify the key words\nThe key words in this text are \"no contact\".\n\nStep 2"
+  },
+  {
+   "ctx": " no contact /************************************************************************ history simplify em",
+   "out": " \"no contact\" followed by \"**************************************************************************\" and then \"history simplify em\". This phrase seems incomplete or"
+  }
+ ],
+ "attention": {
+  "n_sig": 3,
+  "auc_sum": 1.0,
+  "best_layer": 2,
+  "auc_best": 1.0
+ }
+}

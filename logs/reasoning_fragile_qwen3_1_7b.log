@@ -1,0 +1,69 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:02<00:02,  2.55s/it]Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.32s/it]Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.20s/it]
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<00:31,  9.90it/s]Loading weights:   1%|          | 2/311 [00:00<00:40,  7.60it/s]Loading weights:  12%|█▏        | 37/311 [00:00<00:02, 133.06it/s]Loading weights:  23%|██▎       | 71/311 [00:00<00:01, 201.21it/s]Loading weights:  33%|███▎      | 104/311 [00:00<00:00, 238.75it/s]Loading weights:  44%|████▍     | 137/311 [00:00<00:00, 264.39it/s]Loading weights:  54%|█████▍    | 169/311 [00:00<00:00, 281.30it/s]Loading weights:  65%|██████▍   | 202/311 [00:00<00:00, 290.48it/s]Loading weights:  76%|███████▌  | 235/311 [00:00<00:00, 298.23it/s]Loading weights:  86%|████████▌ | 266/311 [00:01<00:00, 300.17it/s]Loading weights:  95%|█████████▌| 297/311 [00:01<00:00, 297.65it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 250.02it/s]
+fragile sets from results/compact/fragility_qwen3_1_7b_compact.pt: 31 most fragile clean-looking tokens (fragility 1.00..1.00) vs 31 stable
+Qwen/Qwen3-1.7B: 31 glitch vs 31 healthy, cuda:0
+  glitch: ["'다고'", "' widać'", "' 방법'", "'ޤ'", "' יכול'", "' או'"]
+  healthy: ["' tolerated'", "'夬'", "' adidas'", "' rallied'", "' Hundreds'", "' natürlich'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      2.620      2.833  -0.213 |   0.0708   0.0641
+     2 |      2.964      3.255  -0.291 |   0.0795   0.0669
+     4 |      2.155      2.272  -0.117 |   0.0246   0.0146
+     8 |      2.818      2.639   0.179 |   0.0170   0.0060
+
+  distinct scripts in output : glitch 1.13  healthy 1.03
+  token-repetition rate      : glitch 0.052  healthy 0.052
+  reproduced the seed token  : glitch 0.000  healthy 0.032   (exact id)
+  seed string in output      : glitch 0.000  healthy 0.032   (any segmentation)
+
+  --- sample generations (completion) ---
+  [GLITCH] '다고' -> ' is used in the following way: it'
+  [GLITCH] ' widać' -> ' is used in Polish to mean "to'
+  [GLITCH] ' 방법' -> ' is used in the Korean language to mean'
+  [HEALTHY] ' tolerated' -> ' is used in the passage to mean what'
+  [HEALTHY] '夬' -> ' is a Chinese character that means "to'
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.674      0.587   0.087 |   0.0910   0.0003
+     2 |      0.297      0.525  -0.228 |   0.1258   0.0005
+     4 |      0.217      0.052   0.165 |   0.0057   0.0008
+     8 |      0.350      0.691  -0.341 |   0.0121   0.0009
+    16 |      0.371      0.369   0.002 |   0.0042   0.0010
+    32 |      0.316      0.472  -0.156 |   0.0007   0.0020
+    64 |      0.464      0.229   0.236 |   0.0020   0.0011
+   128 |      0.264      0.515  -0.251 |   0.0022   0.0005
+   192 |      0.503      0.386   0.117 |   0.0017   0.0025
+   255 |      0.332      0.467  -0.135 |   0.0031   0.0020
+
+  distinct scripts in output : glitch 1.71  healthy 1.29
+  token-repetition rate      : glitch 0.533  healthy 0.541
+  reproduced the seed token  : glitch 0.387  healthy 0.516   (exact id)
+  seed string in output      : glitch 0.839  healthy 0.968   (any segmentation)
+
+  --- sample generations (reasoning) ---
+  [GLITCH] '다고' -> ' The user wrote "\\ud55c\\ub2e4\\uace0" which is a Korean phrase meaning "according to" or "as stated." They might be asking for a translation or explanation of this phrase. \\n\\nIf'
+  [GLITCH] ' widać' -> ' The user wrote " wida\\u0107" which is Polish for "visible" or "seeable." But the context is unclear. If they\'re asking about something visible, like a phenomenon, o'
+  [GLITCH] ' 방법' -> ' The user wrote "\\ubc29\\ubc95" which means "method" in Korean. But the context is unclear. Are they asking for a method to do something specific? For example, a method to'
+  [HEALTHY] ' tolerated' -> ' The phrase "tolerated" can have different meanings depending on the context. Here are a few possible interpretations:\\n\\n1. **Tolerated in a legal or formal sens'
+  [HEALTHY] '夬' -> ' The character "\\u592c" is a Chinese character, and it has a specific meaning. In the context of the question, it might be part of a larger text or a specific phrase'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   +0.179
+  entropy gap, reasoning   @step8   -0.341
+  entropy gap, reasoning   @step255 -0.135
+  glitch chain alignment,  step1 -> step255   0.0910 -> 0.0031
+  healthy chain alignment, step1 -> step255   0.0003 -> 0.0020
+
+saved -> results/reasoning_fragile_qwen3_1_7b.json

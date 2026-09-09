@@ -1,0 +1,83 @@
+{
+ "stages": [
+  "Qwen/Qwen2.5-1.5B",
+  "Qwen/Qwen2.5-1.5B-Instruct"
+ ],
+ "coverage": [
+  {
+   "transition": "1.5B -> Instruct",
+   "zero_rows": 0,
+   "frac": 0.0,
+   "median_resid": 0.016100868582725525
+  }
+ ],
+ "damage": [
+  {
+   "stage": "Qwen/Qwen2.5-1.5B",
+   "n_bad": 407,
+   "mean_lp": -2.2597107887268066,
+   "new": 0,
+   "healed": 0
+  },
+  {
+   "stage": "Qwen/Qwen2.5-1.5B-Instruct",
+   "n_bad": 757,
+   "mean_lp": -1.9220656156539917,
+   "new": 356,
+   "healed": 6
+  }
+ ],
+ "n_newly_glitched": 100,
+ "examples": [
+  "\ufffd\ufffd\u53d6",
+  "\ufffd\u59cb\u5316",
+  "\tTokenNameIdentifier",
+  "\ufffd",
+  "\ufffd",
+  "\ud871\ude2f",
+  "\u3658",
+  "\ud845\udc13",
+  "\u0e17\u0e35\u0e48",
+  "\u0e23\u0e4c",
+  "\u0e2a\u0e34",
+  "\u0e23\u0e48\u0e27",
+  "\u0e2a\u0e34\u0e17",
+  "\u0e04\u0e23\u0e31\u0e1a",
+  "\u0e2a\u0e34\u0e19"
+ ],
+ "rank_based": [
+  {
+   "stage": "Qwen/Qwen2.5-1.5B",
+   "overlap": 407,
+   "new": 0,
+   "jaccard": 1.0
+  },
+  {
+   "stage": "Qwen/Qwen2.5-1.5B-Instruct",
+   "overlap": 330,
+   "new": 100,
+   "jaccard": 0.650887573964497
+  }
+ ],
+ "newly_base_rank_median": 487,
+ "newly_beyond_5x": 0.0,
+ "threshold_rank": 407,
+ "n_probed": 40000,
+ "newly_examples": [
+  "\ufffd\ufffd\u53d6",
+  "\ufffd\u59cb\u5316",
+  "\tTokenNameIdentifier",
+  "\ufffd",
+  "\ufffd",
+  "\ud871\ude2f",
+  "\u3658",
+  "\ud845\udc13",
+  "\u0e17\u0e35\u0e48",
+  "\u0e23\u0e4c",
+  "\u0e2a\u0e34",
+  "\u0e23\u0e48\u0e27",
+  "\u0e2a\u0e34\u0e17",
+  "\u0e04\u0e23\u0e31\u0e1a",
+  "\u0e2a\u0e34\u0e19"
+ ]
+}

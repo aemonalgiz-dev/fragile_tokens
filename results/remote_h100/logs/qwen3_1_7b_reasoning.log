@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   1%|          | 2/311 [00:00<00:21, 14.69it/s]Loading weights:  26%|██▋       | 82/311 [00:00<00:00, 409.06it/s]Loading weights:  52%|█████▏    | 163/311 [00:00<00:00, 575.75it/s]Loading weights:  79%|███████▉  | 246/311 [00:00<00:00, 661.97it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 590.00it/s]
+label-free sets from results/fragility_qwen3_1_7b.pt: worst-32 by single probe (lp -19.00..-16.86) vs 32 clean
+Qwen/Qwen3-1.7B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["'.currentTarge", "'.r'", "'格會員'", "'𝇗'", '"\'#"', "'.y'"]
+  healthy: ["' דברים'", "' fatally'", "' Colon'", "' majority'", "' output'", "' farewell'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      1.376      3.060  -1.685 |   0.4491   0.0597
+     2 |      1.571      3.276  -1.704 |   0.4489   0.0125
+     4 |      0.954      2.310  -1.356 |   0.4370   0.0209
+     8 |      0.403      2.308  -1.905 |   0.2543   0.0021
+
+  distinct scripts in output : glitch 1.00  healthy 1.03
+  token-repetition rate      : glitch 0.266  healthy 0.055
+  reproduced the seed token  : glitch 0.000  healthy 0.031
+
+  --- sample generations (completion) ---
+  [GLITCH] '.currentTarget' -> ' is not a valid property of the element'
+  [GLITCH] '.r' -> 'am is a 4-letter word.'
+  [GLITCH] '格會員' -> ' is a term used in the context of'
+  [HEALTHY] ' דברים' -> ' is a Hebrew word that means "things'
+  [HEALTHY] ' fatally' -> ' is used in the following sentence. '
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.091      0.194  -0.103 |   0.4862   0.0051
+     2 |      0.012      0.021  -0.009 |   0.4463   0.0030
+     4 |      0.106      0.123  -0.017 |   0.5539   0.0057
+     8 |      0.057      0.917  -0.860 |   0.5880   0.0038
+    16 |      0.096      0.676  -0.581 |   0.5944   0.0023
+    32 |      0.026      0.626  -0.600 |   0.6147   0.0045
+    64 |      0.781      0.695   0.086 |   0.0133   0.0020
+   128 |      0.558      0.512   0.047 |   0.2715   0.0064
+   192 |      0.577      0.420   0.157 |   0.0084   0.0023
+   255 |      0.523      0.524  -0.001 |   0.0195   0.0028
+
+  distinct scripts in output : glitch 1.00  healthy 1.16
+  token-repetition rate      : glitch 0.587  healthy 0.516
+  reproduced the seed token  : glitch 0.000  healthy 0.469
+
+  --- sample generations (reasoning) ---
+  [GLITCH] '.currentTarget' -> ' The user is asking about ".target" in JavaScript. I need to explain what it is and how it\'s used.\\n\\nFirst, I remember that in JavaScript, the "this" keyword ref'
+  [GLITCH] '.r' -> ' The user wrote ".r" which is a single character. I need to figure out what they\'re asking for. Maybe they want to know what that character represents or what i'
+  [GLITCH] '格會員' -> ' The user wrote "</think>\\n\\n</think>\\n\\nIt seems like you might have made a typo or there\'s a formatting issue. Could you please clarify what you\'re asking? Are yo'
+  [HEALTHY] ' דברים' -> ' The user wrote "things" in Hebrew, which is "\\u05d3\\u05d1\\u05e8\\u05d9\\u05dd" (davarim). But the user might be referring to "things" in a more general sense, like "things" in the sense '
+  [HEALTHY] ' fatally' -> ' The user wrote "fatally" in the query. I need to understand what they\'re asking. Maybe they want to know the meaning of the word "fatally" or how to use it cor'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   -1.905
+  entropy gap, reasoning   @step8   -0.860
+  entropy gap, reasoning   @step255 -0.001
+  glitch chain alignment,  step1 -> step255   0.4862 -> 0.0195
+  healthy chain alignment, step1 -> step255   0.0051 -> 0.0028
+
+saved -> results/reasoning_qwen3_1_7b.json

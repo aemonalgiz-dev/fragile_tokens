@@ -1,0 +1,17 @@
+#### 1. pre-flight: FP8 smoke on Qwen/Qwen3-0.6B-FP8  (15:31:31)
+   smoke exit 0
+saved -> results/smoke_fp8.json, results/smoke_fp8.pt
+#### 2. Qwen2.5-7B-Instruct control rung, N_TOK=8400  (15:33:57)
+Terminated
+   control rung exit 143  (16:02:35)
+#### 3. Qwen2.5-72B: re-score slice at batch 1, then leftovers  (16:02:35)
+   rescore exit 0  (16:13:47)
+fail/pass agreement per cell 0.9960;  fragility corr stored vs rescored 0.9996
+    fragile: mean fragility stored 0.791  rescored 0.789
+      clean: mean fragility stored 0.000  rescored 0.000
+  reference: mean fragility stored 1.000  rescored 1.000
+   greedy specimens exit 1  (16:18:24)
+   reasoning v2 exit 0  (16:41:29)
+#### 4. Qwen3-235B-A22B-FP8 rung, N_TOK=8400  (16:41:44)
+   235B rung exit 0  (16:45:56)
+RUNG4 SCRIPT DONE Mon Sep  7 16:45:56 UTC 2026

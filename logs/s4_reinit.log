@@ -1,0 +1,33 @@
+resumed from runs/s4/branch_256.pt at step 256
+arm=reinit  params=23.2M  vocab=16384  device=cuda
+  reinit: 2185 rows adjusted (true count < 100)
+  step    500  loss  5.582    0.4 min
+  step   1000  loss  5.017    1.1 min
+  step   1500  loss  4.765    1.9 min
+  step   2000  loss  4.596    2.8 min
+  step   2500  loss  4.436    3.6 min
+  step   3000  loss  4.299    4.4 min
+  step   3500  loss  4.194    5.1 min
+  step   4000  loss  4.115    5.9 min
+  step   4500  loss  4.059    6.6 min
+  step   5000  loss  3.988    7.4 min
+  step   5500  loss  3.961    8.2 min
+  step   6000  loss  3.915    8.9 min
+  step   6500  loss  3.878    9.7 min
+  step   7000  loss  3.829   10.5 min
+  step   7500  loss  3.814   11.3 min
+  step   8000  loss  3.769   12.1 min
+  step   8500  loss  3.735   12.9 min
+  step   9000  loss  3.734   13.7 min
+  step   9500  loss  3.698   14.5 min
+  step  10000  loss  3.681   15.3 min
+  step  10500  loss  3.657   16.1 min
+  step  11000  loss  3.653   16.9 min
+  step  11500  loss  3.627   17.7 min
+  step  12000  loss  3.611   18.5 min
+  step  12500  loss  3.600   19.3 min
+  step  13000  loss  3.597   20.0 min
+  step  13500  loss  3.600   20.8 min
+
+arm=reinit  val loss 3.6375  (21.7 min)
+saved -> runs/s4/reinit

@@ -1,0 +1,43 @@
+allenai/OLMo-1B-hf: 13 checkpoints
+   step 1000      step1000-tokens4B
+   step 2000      step2000-tokens8B
+   step 3000      step3000-tokens12B
+   step 5000      step5000-tokens20B
+   step 10000     step10000-tokens41B
+   step 20000     step20000-tokens83B
+   step 40000     step40000-tokens167B
+   step 80000     step80000-tokens335B
+   step 117850    step117850-tokens494B
+   step 330000    step330000-tokens1383B
+   step 480000    step480000-tokens2012B
+   step 640000    step640000-tokens2683B
+   step 738020    step738020-tokens3094B
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 5598.22it/s]
+  step 1000      |W| 1.0210 centered 1.0202 delta 0.00000 hub_max 60
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4396.87it/s]
+  step 2000      |W| 1.0761 centered 1.0747 delta 0.20123 hub_max 67
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 5030.10it/s]
+  step 3000      |W| 1.1223 centered 1.1205 delta 0.14944 hub_max 66
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4590.73it/s]
+  step 5000      |W| 1.1844 centered 1.1822 delta 0.18725 hub_max 67
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 5170.08it/s]
+  step 10000     |W| 1.2799 centered 1.2765 delta 0.27059 hub_max 58
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4689.62it/s]
+  step 20000     |W| 1.3974 centered 1.3925 delta 0.31570 hub_max 49
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4642.49it/s]
+  step 40000     |W| 1.5503 centered 1.5426 delta 0.39008 hub_max 48
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4738.52it/s]
+  step 80000     |W| 1.7474 centered 1.7346 delta 0.47969 hub_max 49
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4457.87it/s]
+  step 117850    |W| 1.8771 centered 1.8603 delta 0.33138 hub_max 47
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 5024.08it/s]
+  step 330000    |W| 2.2440 centered 2.2135 delta 0.81575 hub_max 52
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4497.17it/s]
+  step 480000    |W| 2.3371 centered 2.3011 delta 0.29823 hub_max 53
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4719.74it/s]
+  step 640000    |W| 2.3706 centered 2.3320 delta 0.15635 hub_max 58
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights: 100%|██████████| 113/113 [00:00<00:00, 4339.54it/s]
+  step 738020    |W| 2.3785 centered 2.3394 delta 0.05564 hub_max 59
+
+saved -> results/traj_olmo1b.pt  shape (13, 50304)

@@ -1,0 +1,83 @@
+{
+ "model": "Qwen/Qwen3.5-0.8B",
+ "model_info": {
+  "model": "Qwen/Qwen3.5-0.8B",
+  "commit": null,
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "num_layers": 24,
+  "hidden_size": 1024,
+  "vocab_size": 248320,
+  "tie_word_embeddings": true,
+  "architecture": "?",
+  "quantized": false,
+  "tokenizer_class": "Qwen2Tokenizer"
+ },
+ "N": 30,
+ "C": 1,
+ "lens": [
+  8
+ ],
+ "fail_thr": -0.5,
+ "n_clean_look": 3,
+ "shares": {
+  "logprob": {
+   "token": 1.0,
+   "context": 0.0,
+   "interaction": 0.0
+  },
+  "fail": {
+   "token": 1.0,
+   "context": 0.0,
+   "interaction": 0.0
+  },
+  "clean_logprob": {
+   "token": 1.0,
+   "context": 0.0,
+   "interaction": 0.0
+  }
+ },
+ "frag_summary": {
+  "random": {
+   "mean": 0.06666666666666667,
+   "ge10": 0.06666666666666667,
+   "ge25": 0.06666666666666667
+  },
+  "glitch": {
+   "mean": NaN,
+   "ge10": NaN,
+   "ge25": NaN
+  },
+  "clean_looking": {
+   "mean": 0.0,
+   "ge10": 0.0,
+   "ge25": 0.0
+  }
+ },
+ "fail_by_K": {
+  "8": 0.0
+ },
+ "ctx_hostility": [
+  0.06666666666666667
+ ],
+ "top_fragile_clean": [
+  {
+   "tok": " blamed",
+   "id": 33936,
+   "single": -0.09557805955410004,
+   "frag": 0.0
+  },
+  {
+   "tok": " repost",
+   "id": 90936,
+   "single": -0.0594913512468338,
+   "frag": 0.0
+  },
+  {
+   "tok": " rer",
+   "id": 46930,
+   "single": -0.0422307625412941,
+   "frag": 0.0
+  }
+ ]
+}

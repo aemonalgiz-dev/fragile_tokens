@@ -1,0 +1,154 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "single_healthy": 0.5753191489361702,
+ "single_glitch": 0.03619909502262444,
+ "rows": [
+  {
+   "n": 1,
+   "exact": 1.0,
+   "conf_wrong": 0.0,
+   "entropy": 0.9266075486959889,
+   "unreach": 0.0,
+   "resegment": 0.0
+  },
+  {
+   "n": 2,
+   "exact": 0.864,
+   "conf_wrong": 0.012,
+   "entropy": 1.0618400527868652,
+   "unreach": 0.052,
+   "resegment": 0.052
+  },
+  {
+   "n": 3,
+   "exact": 0.78,
+   "conf_wrong": 0.048,
+   "entropy": 1.1113765188036486,
+   "unreach": 0.08,
+   "resegment": 0.076
+  },
+  {
+   "n": 4,
+   "exact": 0.728,
+   "conf_wrong": 0.056,
+   "entropy": 1.2808154527600855,
+   "unreach": 0.096,
+   "resegment": 0.092
+  },
+  {
+   "n": 6,
+   "exact": 0.704,
+   "conf_wrong": 0.048,
+   "entropy": 1.282851107724011,
+   "unreach": 0.176,
+   "resegment": 0.16
+  },
+  {
+   "n": 8,
+   "exact": 0.648,
+   "conf_wrong": 0.048,
+   "entropy": 1.2842611663341523,
+   "unreach": 0.236,
+   "resegment": 0.216
+  }
+ ],
+ "pred": [
+  {
+   "n": 2,
+   "n_fail": 34,
+   "unreach": 0.4699074074074074,
+   "resegment": 0.4699074074074074,
+   "charlen": 0.7502042483660131
+  },
+  {
+   "n": 3,
+   "n_fail": 55,
+   "unreach": 0.5209324009324009,
+   "resegment": 0.5212121212121212,
+   "charlen": 0.5934265734265735
+  },
+  {
+   "n": 4,
+   "n_fail": 68,
+   "unreach": 0.5072317388493859,
+   "resegment": 0.5075145442792501,
+   "charlen": 0.5811651583710408
+  },
+  {
+   "n": 6,
+   "n_fail": 74,
+   "unreach": 0.5499846437346437,
+   "resegment": 0.5495239557739557,
+   "charlen": 0.5963605651105651
+  },
+  {
+   "n": 8,
+   "n_fail": 88,
+   "unreach": 0.4943532547699214,
+   "resegment": 0.4911616161616162,
+   "charlen": 0.6300154320987654
+  }
+ ],
+ "failures": [
+  {
+   "want": "ColumnsMode years20what thingsweakSelfICollectionViewToSelector",
+   "got": "ColumnsMode years20what things weakSelfICollectionView Selector",
+   "entropy": 2.51072359085083,
+   "unreach": 0
+  },
+  {
+   "want": " provides14BeginInit again sees \ubc18\ud658 most ask",
+   "got": " provides14eginner sees \ubc18\ud658 most ask",
+   "entropy": 1.4077157974243164,
+   "unreach": 0
+  },
+  {
+   "want": " second just FStar11 ageuringdireccionys",
+   "got": " second just FStar11 ageuringdirecions",
+   "entropy": 0.6809850931167603,
+   "unreach": 0
+  },
+  {
+   "want": "ize.valorListItemText lesbisk paramInt What); -",
+   "got": " iz.ez.valoremTextListon",
+   "entropy": 4.099837779998779,
+   "unreach": 0
+  },
+  {
+   "want": " being women towardits forCell eventdata things due",
+   "got": " being women towardits forCell eventdata things",
+   "entropy": 0.7310761213302612,
+   "unreach": 0
+  },
+  {
+   "want": " veryOperationContract_vue matter@endif productService new mind",
+   "got": " veryOperationContract_vue matter @}endofsection productService new mind",
+   "entropy": 2.2759690284729004,
+   "unreach": 0
+  },
+  {
+   "want": "@ResponseBodyHis possible DialogInterfacese about asked how",
+   "got": " His possible DialogInterfacese about asked how",
+   "entropy": 0.8616302609443665,
+   "unreach": 1
+  },
+  {
+   "want": "sendKeys game made A19 MessageBoxIcon dataGridViewCellStyle was",
+   "got": " sendKeys game made A19 ICON SYMBOL dataGridViewCellStyle was",
+   "entropy": 1.1661871671676636,
+   "unreach": 0
+  },
+  {
+   "want": "_IMETHOD thoughSetBranch DonprobanteOperationContract GenerationType dataSnapshot",
+   "got": " VOERDOR thoughSetBranch DonprobanteOperationConcierto Generacion",
+   "entropy": 4.44385290145874,
+   "unreach": 0
+  },
+  {
+   "want": " never sideVrequeteconvertView after There show",
+   "got": " never sideVrequetevisoLd after There show",
+   "entropy": 1.76629638671875,
+   "unreach": 0
+  }
+ ]
+}

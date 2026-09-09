@@ -1,0 +1,19 @@
+=== pythia69  03:33 ===
+    exit=0 -> results/traj_pythia6.9b.pt
+/dev/vda1       497G   38G  459G   8% /
+=== olmo1b  03:46 ===
+    exit=0 -> results/traj_olmo1b.pt
+/dev/vda1       497G   38G  459G   8% /
+=== olmo2_1b  03:49 ===
+    exit=0 -> results/traj_olmo2_1b.pt
+/dev/vda1       497G   38G  459G   8% /
+=== olmoe  03:54 ===
+    exit=0 -> results/traj_olmoe.pt
+/dev/vda1       497G   38G  459G   8% /
+=== olmo2_7b  03:59 ===
+    exit=0 -> results/traj_olmo2_7b.pt
+/dev/vda1       497G   38G  459G   8% /
+=== pythia410  04:07 ===
+    exit=0 -> results/traj_pythia410m.pt
+/dev/vda1       497G   38G  459G   8% /
+FAMILIES COMPLETE Sat Sep  5 04:10:19 UTC 2026

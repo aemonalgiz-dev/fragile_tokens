@@ -1,0 +1,66 @@
+Current Python version 3.10 is below the recommended 3.11 version. It is recommended to upgrade to Python 3.11 or higher for the best experience.
+  qwen4_exp QSA indexer: exact fast path for key lengths <= budget
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 131 files:   0%|          | 0/131 [00:00<?, ?it/s]Fetching 131 files: 100%|██████████| 131/131 [00:00<00:00, 3141.53it/s]
+Loading weights:   0%|          | 0/1263 [00:00<?, ?it/s]Loading weights:   4%|▎         | 45/1263 [00:00<00:13, 93.42it/s]Loading weights:   5%|▌         | 64/1263 [00:02<00:51, 23.16it/s]Loading weights:  11%|█         | 133/1263 [00:02<00:18, 62.10it/s]Loading weights:  13%|█▎        | 159/1263 [00:02<00:18, 59.85it/s]Loading weights:  15%|█▍        | 185/1263 [00:03<00:18, 58.30it/s]Loading weights:  16%|█▌        | 202/1263 [00:03<00:20, 52.08it/s]Loading weights:  19%|█▉        | 237/1263 [00:04<00:17, 58.68it/s]Loading weights:  21%|██        | 263/1263 [00:04<00:17, 58.34it/s]Loading weights:  23%|██▎       | 289/1263 [00:05<00:16, 58.04it/s]Loading weights:  24%|██▍       | 306/1263 [00:05<00:18, 52.54it/s]Loading weights:  27%|██▋       | 341/1263 [00:06<00:15, 59.50it/s]Loading weights:  29%|██▉       | 367/1263 [00:06<00:15, 59.06it/s]Loading weights:  31%|███       | 393/1263 [00:07<00:14, 58.56it/s]Loading weights:  32%|███▏      | 410/1263 [00:07<00:16, 53.05it/s]Loading weights:  35%|███▌      | 445/1263 [00:07<00:13, 59.61it/s]Loading weights:  37%|███▋      | 471/1263 [00:08<00:13, 58.99it/s]Loading weights:  39%|███▉      | 497/1263 [00:08<00:13, 58.38it/s]Loading weights:  41%|████      | 514/1263 [00:09<00:14, 52.66it/s]Loading weights:  43%|████▎     | 549/1263 [00:09<00:12, 59.38it/s]Loading weights:  46%|████▌     | 575/1263 [00:10<00:11, 58.67it/s]Loading weights:  48%|████▊     | 601/1263 [00:10<00:11, 58.65it/s]Loading weights:  49%|████▉     | 618/1263 [00:11<00:12, 53.15it/s]Loading weights:  52%|█████▏    | 653/1263 [00:11<00:10, 59.94it/s]Loading weights:  54%|█████▍    | 679/1263 [00:12<00:09, 59.39it/s]Loading weights:  56%|█████▌    | 705/1263 [00:12<00:09, 58.89it/s]Loading weights:  57%|█████▋    | 722/1263 [00:12<00:10, 53.01it/s]Loading weights:  60%|█████▉    | 757/1263 [00:13<00:08, 59.73it/s]Loading weights:  62%|██████▏   | 783/1263 [00:13<00:08, 59.00it/s]Loading weights:  64%|██████▍   | 809/1263 [00:14<00:07, 58.45it/s]Loading weights:  65%|██████▌   | 826/1263 [00:14<00:08, 52.89it/s]Loading weights:  68%|██████▊   | 861/1263 [00:15<00:06, 59.67it/s]Loading weights:  70%|███████   | 887/1263 [00:15<00:06, 59.09it/s]Loading weights:  72%|███████▏  | 913/1263 [00:16<00:05, 58.53it/s]Loading weights:  74%|███████▎  | 930/1263 [00:16<00:06, 52.68it/s]Loading weights:  76%|███████▋  | 965/1263 [00:17<00:05, 59.44it/s]Loading weights:  78%|███████▊  | 991/1263 [00:17<00:04, 58.81it/s]Loading weights:  81%|████████  | 1017/1263 [00:17<00:04, 58.36it/s]Loading weights:  82%|████████▏ | 1034/1263 [00:18<00:04, 52.78it/s]Loading weights:  85%|████████▍ | 1069/1263 [00:18<00:03, 59.57it/s]Loading weights:  87%|████████▋ | 1095/1263 [00:19<00:02, 58.45it/s]Loading weights:  89%|████████▉ | 1121/1263 [00:19<00:02, 57.24it/s]Loading weights:  90%|█████████ | 1138/1263 [00:20<00:02, 50.92it/s]Loading weights:  93%|█████████▎| 1173/1263 [00:20<00:01, 57.74it/s]Loading weights:  95%|█████████▍| 1199/1263 [00:21<00:01, 57.39it/s]Loading weights:  97%|█████████▋| 1225/1263 [00:21<00:00, 57.56it/s]Loading weights:  98%|█████████▊| 1242/1263 [00:22<00:00, 52.18it/s]Loading weights: 100%|██████████| 1263/1263 [00:22<00:00, 57.18it/s]
+[transformers] [1mQwen4ExpForCausalLM LOAD REPORT[0m from: Qwen/Qwen3.8-Flash-Next-FP8
+Key                                                           | Status     |  | 
+--------------------------------------------------------------+------------+--+-
+model.layers.1.ple.ple_embedding.ngram_embedding.weight_scale | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[transformers] This FP8 model spans multiple CUDA devices in one process; routing its FP8 linear and experts layers through Triton/grouped_mm instead of DeepGEMM (DeepGEMM's cached kernels are bound to a single CUDA context and corrupt across devices). Run tensor/expert parallel (one device per process) to use the faster DeepGEMM path.
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files: 100%|██████████| 8/8 [00:00<00:00, 2032.49it/s]
+  fp8 embedding model.layers.1.ple.ple_embedding.ngram_embedding: lookup rescaled by 0.0001993 to torch.bfloat16
+  no label file (); running label-free, no glitch reference class
+  token sample extended 4200 -> 8400 (first 4200 ids unchanged)
+Qwen/Qwen3.8-Flash-Next-FP8: 8400 random/entity tokens (0 added from None) + 0 verified glitch = 8400
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 2128.30it/s]
+  filler pool: 1925 clean common words
+  context bank: 24 contexts, lengths [8, 16, 32, 64] x 6, random interior slot
+  standard single probe: 3483/8400 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+    context 1/24  K=8  slot=1  mean lp -0.033  fail rate 0.009
+    context 9/24  K=16  slot=7  mean lp -0.028  fail rate 0.007
+    context 17/24  K=32  slot=3  mean lp -0.027  fail rate 0.007
+/home/ubuntu/glitch/src/cut/fragility.py:274: RuntimeWarning: Mean of empty slice.
+  "frag_summary": {nm: {"mean": float(frag[m].mean()),
+/home/ubuntu/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/glitch/src/cut/fragility.py:275: RuntimeWarning: Mean of empty slice.
+  "ge10": float((frag[m] >= 0.1).mean()),
+/home/ubuntu/glitch/src/cut/fragility.py:276: RuntimeWarning: Mean of empty slice.
+  "ge25": float((frag[m] >= 0.25).mean())}
+
+==============================================================================
+VARIANCE DECOMPOSITION of copy logprob:  token + context + token x context
+==============================================================================
+               all tokens, logprob:  token 0.959   context 0.000   interaction 0.041
+        all tokens, fail indicator:  token 0.766   context 0.000   interaction 0.234
+     clean-looking tokens, logprob:  token 0.407   context 0.001   interaction 0.592
+
+==============================================================================
+FRAGILITY  frag(t) = fraction of 24 contexts with slot lp < -0.5
+==============================================================================
+             all random tokens (n=8400): mean frag 0.007   frag>=0.10: 0.010   frag>=0.25: 0.008   frag==0: 0.981
+   verified glitch (reference): (none)
+   clean-looking random tokens (n=3483): mean frag 0.001   frag>=0.10: 0.002   frag>=0.25: 0.001   frag==0: 0.995
+
+  context hostility (fraction of tokens failing): min 0.005  median 0.007  max 0.009
+  clean-looking fail rate by context length: K=8: 0.001  K=16: 0.001  K=32: 0.001  K=64: 0.001
+
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+           ' ilmaisia'  single -0.082  frag 0.96  mean lp -1.175   worst: lp -4.62 in ...' continue ex rel [ ilmaisia]  filename'
+             ' επίσης'  single -0.072  frag 0.38  mean lp -0.462   worst: lp -2.27 in ...' last down figure [ επίσης]  is distance los'
+           ' kokemuks'  single -0.075  frag 0.33  mean lp -0.397   worst: lp -1.10 in ...' last down figure [ kokemuks]  is distance los'
+               ' унич'  single -0.004  frag 0.33  mean lp -0.622   worst: lp -2.97 in ...' ing [ унич]  contain job handle'
+      ' prostituerade'  single -0.006  frag 0.21  mean lp -0.303   worst: lp -2.05 in ...' remove such trade [ prostituerade]  or short send'
+       ' требованиями'  single -0.024  frag 0.21  mean lp -0.391   worst: lp -3.71 in ...' ing [ требованиями]  contain job handle'
+       ' competências'  single -0.015  frag 0.12  mean lp -0.181   worst: lp -0.64 in ...' cult comment addition [ competências]  structure edge bo'
+          ' ungkapnya'  single -0.011  frag 0.12  mean lp -0.177   worst: lp -0.63 in ...' nature column between [ ungkapnya]  drug high plan'
+         ' следующего'  single -0.015  frag 0.08  mean lp -0.130   worst: lp -1.36 in ...' der age former [ следующего]  government pie positive'
+               ' сиро'  single -0.014  frag 0.04  mean lp -0.068   worst: lp -0.84 in ...' ing [ сиро]  contain job handle'
+           ' проблеми'  single -0.020  frag 0.04  mean lp -0.174   worst: lp -3.58 in ...' ing [ проблеми]  contain job handle'
+              ' stwor'  single -0.017  frag 0.04  mean lp -0.081   worst: lp -0.59 in ...' together vot want [ stwor]  obj news music'
+
+saved -> results/fragility_qwen38_flash.json, results/fragility_qwen38_flash.pt

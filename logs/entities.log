@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+code identifiers collected: 11572
+code entities by token count: 2: 220, 3: 220, 4: 220, 5: 220, 6: 220
+proper nouns kept (2-8 tokens): 155 of 160
+entities: 1255; distinct constituent tokens: 2065
+saved -> results/entities.json

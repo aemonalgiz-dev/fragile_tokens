@@ -1,0 +1,83 @@
+{
+ "stages": [
+  "Qwen/Qwen2.5-7B",
+  "Qwen/Qwen2.5-7B-Instruct"
+ ],
+ "coverage": [
+  {
+   "transition": "7B -> Instruct",
+   "zero_rows": 7688,
+   "frac": 0.05055765993265993,
+   "median_resid": 0.01424221508204937
+  }
+ ],
+ "damage": [
+  {
+   "stage": "Qwen/Qwen2.5-7B",
+   "n_bad": 772,
+   "mean_lp": -1.85042142868042,
+   "new": 0,
+   "healed": 0
+  },
+  {
+   "stage": "Qwen/Qwen2.5-7B-Instruct",
+   "n_bad": 2311,
+   "mean_lp": -3.1670987606048584,
+   "new": 1556,
+   "healed": 17
+  }
+ ],
+ "n_newly_glitched": 21,
+ "examples": [
+  ".doc",
+  "_VEC",
+  "useRal",
+  "\ufffd",
+  "\ufffd",
+  "\ud85a\udf5c",
+  "\ud86a\ude30",
+  "\ud86e\udf7c",
+  "\ud859\udc8d",
+  "\ub231",
+  "\ufc34",
+  "\uaff1",
+  "\ud236",
+  "\uc125",
+  "\ufce5"
+ ],
+ "rank_based": [
+  {
+   "stage": "Qwen/Qwen2.5-7B",
+   "overlap": 772,
+   "new": 0,
+   "jaccard": 1.0
+  },
+  {
+   "stage": "Qwen/Qwen2.5-7B-Instruct",
+   "overlap": 407,
+   "new": 21,
+   "jaccard": 0.5132408575031526
+  }
+ ],
+ "newly_base_rank_median": 900,
+ "newly_beyond_5x": 0.0,
+ "threshold_rank": 772,
+ "n_probed": 40000,
+ "newly_examples": [
+  ".doc",
+  "_VEC",
+  "useRal",
+  "\ufffd",
+  "\ufffd",
+  "\ud85a\udf5c",
+  "\ud86a\ude30",
+  "\ud86e\udf7c",
+  "\ud859\udc8d",
+  "\ub231",
+  "\ufc34",
+  "\uaff1",
+  "\ud236",
+  "\uc125",
+  "\ufce5"
+ ]
+}

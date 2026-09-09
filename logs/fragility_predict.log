@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2098 tokens x 48 contexts; clean-looking non-glitch: 873; fragile (frag_test >= 0.1): 13  (base rate 0.015)
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   7%|▋         | 25/355 [00:00<00:01, 214.53it/s]Loading weights:  15%|█▌        | 54/355 [00:00<00:01, 244.59it/s]Loading weights:  23%|██▎       | 80/355 [00:00<00:01, 223.70it/s]Loading weights:  32%|███▏      | 113/355 [00:00<00:00, 242.86it/s]Loading weights:  41%|████      | 146/355 [00:00<00:00, 258.79it/s]Loading weights:  48%|████▊     | 172/355 [00:00<00:00, 255.64it/s]Loading weights:  57%|█████▋    | 202/355 [00:00<00:00, 260.34it/s]Loading weights:  65%|██████▌   | 232/355 [00:00<00:00, 267.72it/s]Loading weights:  73%|███████▎  | 259/355 [00:01<00:00, 243.62it/s]Loading weights:  82%|████████▏ | 291/355 [00:01<00:00, 250.56it/s]Loading weights:  91%|█████████ | 322/355 [00:01<00:00, 260.23it/s]Loading weights: 100%|██████████| 355/355 [00:01<00:00, 259.36it/s]
+
+====================================================================================
+PER-FEATURE:  predicting fragile (frag_test >= 0.10) among clean-looking tokens
+====================================================================================
+       tier |                    feature | spearman |    AUC |          95% CI
+------------------------------------------------------------------------------------
+    surface |              id (baseline) |   -0.521 |  0.386 | [0.234, 0.548]
+    surface |         n_chars (baseline) |   -0.008 |  0.455 | [0.258, 0.648]
+    surface |   leading_space (baseline) |   +0.825 |  0.508 | [0.504, 0.512]
+    surface |           alpha (baseline) |   +0.841 |  0.502 | [0.500, 0.505]
+    surface |           ascii (baseline) |   +0.832 |  0.351 | [0.214, 0.469]
+     static |                    norm_in |   -0.351 |  0.562 | [0.422, 0.716]
+     static |                   norm_out |   -0.208 |  0.467 | [0.287, 0.664]
+     static |                   cdist_in |   -0.349 |  0.559 | [0.417, 0.714]
+     static |                  cdist_out |   -0.059 |  0.752 | [0.569, 0.899] *
+     static |                     nn_cos |   +0.244 |  0.290 | [0.165, 0.452]
+     static |              knn10_density |   +0.288 |  0.307 | [0.188, 0.463]
+     static |                  inout_cos |   +0.015 |  0.275 | [0.174, 0.383]
+     static |                    dp_self |   -0.070 |  0.755 | [0.649, 0.847] *
+     static |              dp_competitor |   -0.240 |  0.551 | [0.393, 0.705]
+     static |                  dp_margin |   +0.158 |  0.333 | [0.175, 0.507]
+     static |                 glitch_dir |   +0.447 |  0.355 | [0.235, 0.507]
+    dynamic |            text_spread_mid |   +0.228 |  0.128 | [0.058, 0.211]
+    dynamic |           text_spread_last |   +0.133 |  0.119 | [0.044, 0.219]
+    dynamic |           copy_spread_last |   +0.083 |  0.122 | [0.035, 0.255]
+    dynamic |    identity_retention_text |   +0.003 |  0.708 | [0.488, 0.895]
+    dynamic |    identity_retention_copy |   +0.086 |  0.672 | [0.462, 0.854]
+    dynamic |     identity_retention_min |   +0.061 |  0.411 | [0.201, 0.638]
+    dynamic |             text_norm_mean |   +0.049 |  0.857 | [0.696, 0.963] *
+  behaviour |                   mu_train |   -0.033 |  0.996 | [0.991, 0.999] *
+  behaviour |                 frag_train |   +0.886 |  0.996 | [0.989, 1.000] *
+
+====================================================================================
+CROSS-VALIDATED LOGISTIC (5-fold, out-of-fold AUC) by tier
+====================================================================================
+                surface only: AUC 0.768  [0.619, 0.901]
+             static geometry: AUC 0.845  [0.669, 0.961]
+            static + surface: AUC 0.814  [0.628, 0.955]
+        dynamic (train half): AUC 0.934  [0.884, 0.979]
+            static + dynamic: AUC 0.857  [0.685, 0.970]
+    behavioural (train half): AUC 0.994  [0.987, 1.000]
+                  everything: AUC 0.986  [0.966, 0.999]
+
+====================================================================================
+CELL LEVEL: predicting fail(t,c) on test contexts among clean-looking tokens
+====================================================================================
+  cells: 10488  fail rate 0.0067
+                                token frag (train): AUC 0.940
+                  context hostility (other tokens): AUC 0.559
+              cos(E_in[t], mean E_in[ctx])  static: AUC 0.720
+       identity retention in THIS context  dynamic: AUC 0.340
+  CV logistic: main effects only 0.942 | + static similarity 0.930 | + dynamic retention 0.940
+
+====================================================================================
+PRE-REGISTERED VERDICT
+====================================================================================
+  best surface-baseline single-feature AUC: 0.508;  surface-only CV AUC 0.768
+         static geometry: CV AUC 0.845 [0.669,0.961]  -> PASS
+    dynamic (train half): CV AUC 0.934 [0.884,0.979]  -> PASS
+        static + dynamic: CV AUC 0.857 [0.685,0.970]  -> PASS
+  behavioural (train half) for reference: 0.994
+
+saved -> results/fragility_predict.json

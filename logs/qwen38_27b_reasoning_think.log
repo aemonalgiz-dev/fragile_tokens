@@ -1,0 +1,71 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Fetching 18 files: 100%|██████████| 18/18 [00:00<00:00, 898.39it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<11:18,  1.25it/s]Loading weights:   1%|▏         | 12/851 [00:00<00:51, 16.37it/s]Loading weights:   3%|▎         | 23/851 [00:01<00:26, 31.44it/s]Loading weights:   4%|▎         | 30/851 [00:01<00:24, 33.02it/s]Loading weights:   5%|▍         | 41/851 [00:01<00:18, 44.67it/s]Loading weights:   6%|▌         | 48/851 [00:01<00:21, 36.79it/s]Loading weights:   7%|▋         | 62/851 [00:01<00:14, 54.54it/s]Loading weights:   8%|▊         | 70/851 [00:01<00:15, 48.86it/s]Loading weights:   9%|▉         | 80/851 [00:02<00:13, 56.16it/s]Loading weights:  10%|█         | 88/851 [00:02<00:13, 58.57it/s]Loading weights:  11%|█         | 95/851 [00:02<00:13, 54.24it/s]Loading weights:  12%|█▏        | 102/851 [00:02<00:16, 46.10it/s]Loading weights:  13%|█▎        | 114/851 [00:02<00:12, 57.97it/s]Loading weights:  14%|█▍        | 121/851 [00:02<00:13, 53.04it/s]Loading weights:  16%|█▌        | 133/851 [00:03<00:11, 63.17it/s]Loading weights:  16%|█▋        | 140/851 [00:03<00:11, 63.20it/s]Loading weights:  17%|█▋        | 147/851 [00:03<00:11, 61.36it/s]Loading weights:  18%|█▊        | 154/851 [00:03<00:15, 45.44it/s]Loading weights:  20%|█▉        | 166/851 [00:03<00:11, 60.05it/s]Loading weights:  20%|██        | 174/851 [00:03<00:12, 52.76it/s]Loading weights:  22%|██▏       | 186/851 [00:03<00:10, 62.73it/s]Loading weights:  23%|██▎       | 194/851 [00:04<00:10, 64.57it/s]Loading weights:  24%|██▎       | 202/851 [00:04<00:12, 51.64it/s]Loading weights:  24%|██▍       | 208/851 [00:04<00:13, 48.03it/s]Loading weights:  26%|██▌       | 218/851 [00:04<00:10, 58.50it/s]Loading weights:  27%|██▋       | 226/851 [00:04<00:10, 57.05it/s]Loading weights:  28%|██▊       | 236/851 [00:04<00:09, 65.09it/s]Loading weights:  29%|██▊       | 244/851 [00:05<00:10, 56.43it/s]Loading weights:  29%|██▉       | 251/851 [00:05<00:11, 50.85it/s]Loading weights:  30%|███       | 258/851 [00:05<00:11, 53.88it/s]Loading weights:  31%|███       | 264/851 [00:05<00:11, 51.21it/s]Loading weights:  32%|███▏      | 271/851 [00:05<00:10, 55.05it/s]Loading weights:  33%|███▎      | 278/851 [00:05<00:10, 54.71it/s]Loading weights:  34%|███▍      | 288/851 [00:05<00:08, 62.99it/s]Loading weights:  35%|███▍      | 295/851 [00:05<00:10, 52.62it/s]Loading weights:  36%|███▌      | 306/851 [00:06<00:08, 61.27it/s]Loading weights:  37%|███▋      | 313/851 [00:06<00:11, 45.16it/s]Loading weights:  38%|███▊      | 324/851 [00:06<00:09, 57.15it/s]Loading weights:  39%|███▉      | 332/851 [00:06<00:09, 56.36it/s]Loading weights:  40%|████      | 341/851 [00:06<00:08, 58.78it/s]Loading weights:  41%|████      | 348/851 [00:06<00:09, 52.78it/s]Loading weights:  42%|████▏     | 359/851 [00:07<00:08, 61.16it/s]Loading weights:  43%|████▎     | 366/851 [00:07<00:10, 45.37it/s]Loading weights:  45%|████▍     | 380/851 [00:07<00:08, 53.06it/s]Loading weights:  46%|████▌     | 388/851 [00:07<00:08, 57.87it/s]Loading weights:  47%|████▋     | 398/851 [00:07<00:08, 52.56it/s]Loading weights:  48%|████▊     | 412/851 [00:07<00:06, 66.69it/s]Loading weights:  49%|████▉     | 420/851 [00:08<00:08, 53.02it/s]Loading weights:  51%|█████     | 432/851 [00:08<00:06, 62.35it/s]Loading weights:  52%|█████▏    | 440/851 [00:08<00:07, 56.38it/s]Loading weights:  53%|█████▎    | 451/851 [00:08<00:06, 57.32it/s]Loading weights:  54%|█████▍    | 461/851 [00:08<00:06, 63.07it/s]Loading weights:  55%|█████▍    | 468/851 [00:09<00:07, 54.58it/s]Loading weights:  56%|█████▌    | 474/851 [00:09<00:07, 49.63it/s]Loading weights:  57%|█████▋    | 486/851 [00:09<00:06, 58.64it/s]Loading weights:  58%|█████▊    | 493/851 [00:09<00:06, 52.94it/s]Loading weights:  59%|█████▉    | 504/851 [00:09<00:05, 61.36it/s]Loading weights:  60%|██████    | 511/851 [00:09<00:05, 58.65it/s]Loading weights:  61%|██████    | 518/851 [00:09<00:05, 60.23it/s]Loading weights:  62%|██████▏   | 525/851 [00:10<00:07, 44.46it/s]Loading weights:  63%|██████▎   | 538/851 [00:10<00:05, 60.71it/s]Loading weights:  64%|██████▍   | 546/851 [00:10<00:05, 52.51it/s]Loading weights:  65%|██████▍   | 553/851 [00:10<00:05, 52.59it/s]Loading weights:  66%|██████▌   | 559/851 [00:10<00:05, 53.10it/s]Loading weights:  67%|██████▋   | 569/851 [00:10<00:04, 59.88it/s]Loading weights:  68%|██████▊   | 576/851 [00:11<00:05, 51.85it/s]Loading weights:  69%|██████▊   | 584/851 [00:11<00:04, 55.14it/s]Loading weights:  70%|███████   | 596/851 [00:11<00:03, 65.27it/s]Loading weights:  71%|███████   | 603/851 [00:11<00:03, 63.79it/s]Loading weights:  72%|███████▏  | 610/851 [00:11<00:04, 55.80it/s]Loading weights:  73%|███████▎  | 621/851 [00:11<00:03, 66.66it/s]Loading weights:  74%|███████▍  | 629/851 [00:11<00:04, 53.06it/s]Loading weights:  75%|███████▍  | 636/851 [00:12<00:04, 53.12it/s]Loading weights:  76%|███████▌  | 646/851 [00:12<00:03, 60.30it/s]Loading weights:  77%|███████▋  | 653/851 [00:12<00:03, 55.24it/s]Loading weights:  78%|███████▊  | 661/851 [00:12<00:03, 57.46it/s]Loading weights:  79%|███████▉  | 671/851 [00:12<00:02, 67.28it/s]Loading weights:  80%|███████▉  | 679/851 [00:12<00:03, 51.85it/s]Loading weights:  81%|████████  | 686/851 [00:12<00:03, 49.95it/s]Loading weights:  82%|████████▏ | 698/851 [00:13<00:02, 61.49it/s]Loading weights:  83%|████████▎ | 705/851 [00:13<00:02, 52.99it/s]Loading weights:  84%|████████▍ | 716/851 [00:13<00:02, 61.41it/s]Loading weights:  85%|████████▍ | 723/851 [00:13<00:02, 61.04it/s]Loading weights:  86%|████████▌ | 730/851 [00:13<00:02, 59.93it/s]Loading weights:  87%|████████▋ | 737/851 [00:13<00:02, 44.44it/s]Loading weights:  88%|████████▊ | 751/851 [00:14<00:01, 60.05it/s]Loading weights:  89%|████████▉ | 758/851 [00:14<00:01, 52.41it/s]Loading weights:  90%|█████████ | 769/851 [00:14<00:01, 54.34it/s]Loading weights:  92%|█████████▏| 780/851 [00:14<00:01, 63.11it/s]Loading weights:  92%|█████████▏| 787/851 [00:14<00:01, 54.10it/s]Loading weights:  93%|█████████▎| 793/851 [00:14<00:01, 49.55it/s]Loading weights:  94%|█████████▍| 804/851 [00:14<00:00, 61.74it/s]Loading weights:  95%|█████████▌| 811/851 [00:15<00:00, 50.71it/s]Loading weights:  97%|█████████▋| 822/851 [00:15<00:00, 59.55it/s]Loading weights:  97%|█████████▋| 829/851 [00:15<00:00, 59.44it/s]Loading weights:  98%|█████████▊| 836/851 [00:15<00:00, 60.50it/s]Loading weights:  99%|█████████▉| 843/851 [00:15<00:00, 43.22it/s]Loading weights: 100%|██████████| 851/851 [00:15<00:00, 53.54it/s]
+label-free sets from results/fragility_qwen38_27b.pt: worst-32 by single probe (lp -25.07..-11.05) vs 32 clean
+Qwen/Qwen3.8-27B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["' ForCanBeConv", "'echslungs'", "' szexf'", "' Несмотр'", "' долгове'", "'<|im_start|>'"]
+  healthy: ["' 취임'", "' अव'", "' purchaser'", "' oz'", "' plot'", "' etabl'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      5.886      3.472   2.413 |   0.0110   0.0168
+     2 |      4.466      3.300   1.166 |   0.0131   0.0135
+     4 |      3.624      2.113   1.511 |   0.0019   0.0051
+     8 |      2.134      1.667   0.466 |   0.0018   0.0025
+
+  distinct scripts in output : glitch 1.03  healthy 1.19
+  token-repetition rate      : glitch 0.055  healthy 0.016
+  reproduced the seed token  : glitch 0.000  healthy 0.000   (exact id)
+  seed string in output      : glitch 0.000  healthy 0.000   (any segmentation)
+
+  --- sample generations (completion) ---
+  [GLITCH] ' ForCanBeConverted' -> '\\u8868\\u793a\\u81ea\\u5df1\\n\\n\\u5728\\u4e2d\\u6587\\u91cc\\uff0c\\u201c\\u8868\\u793a\\u201d'
+  [GLITCH] 'echslungs' -> ' are the most common type of word in'
+  [GLITCH] ' szexf' -> ' is a Japanese word that means "to'
+  [HEALTHY] ' 취임' -> ' (chwiim) means "to'
+  [HEALTHY] ' अव' -> '\\u0927 (Avadh) is derived from'
+
+==========================================================================
+REGIME: reasoning   (512 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.907      0.908  -0.001 |   0.0092   0.0024
+     2 |      0.264      0.244   0.021 |   0.0073   0.0053
+     4 |      1.559      1.803  -0.244 |   0.0124   0.0371
+     8 |      1.494      0.580   0.914 |   0.0034   0.0028
+    16 |      1.103      0.727   0.377 |   0.0024   0.0013
+    32 |      0.753      0.814  -0.061 |   0.0007   0.0007
+    64 |      0.836      0.582   0.255 |   0.0005   0.0002
+   128 |      0.662      0.504   0.158 |   0.0010   0.0007
+   192 |      0.556      0.581  -0.024 |   0.0008   0.0007
+   255 |      0.388      0.647  -0.258 |   0.0003   0.0002
+   383 |      0.582      0.539   0.042 |   0.0004   0.0004
+   511 |      0.523      0.392   0.131 |   0.0005   0.0006
+
+  distinct scripts in output : glitch 1.34  healthy 1.41
+  token-repetition rate      : glitch 0.574  healthy 0.546
+  reproduced the seed token  : glitch 0.188  healthy 0.531   (exact id)
+  seed string in output      : glitch 0.688  healthy 1.000   (any segmentation)
+
+  --- sample generations (reasoning) ---
+  [GLITCH] ' ForCanBeConverted' -> ' The user is asking about "the meaning of life" \\u2014 one of the most fundamental philosophical questions.\\n\\nThis is a deep, open-ended question. There\'s no single c'
+  [GLITCH] 'echslungs' -> ' The user has sent a single word: "arnings".\\n\\nThis is not a complete word in English. Let me consider what this could be:\\n\\n1. It could be a typo or incomplete w'
+  [GLITCH] ' szexf' -> ' The user has sent a single character: \\u89da.\\n\\nThis is a Chinese character. Let me analyze it:\\n- \\u89da (g\\u016b) - This is a character that refers to an ancient Chinese wine'
+  [HEALTHY] ' 취임' -> ' The user has written "\\ucde8\\uc784" which is a Korean word. Let me analyze what this means and what the user might be asking.\\n\\n"\\ucde8\\uc784" (chwi-im) is a Korean word that means'
+  [HEALTHY] ' अव' -> ' The user has written "\\u0905\\u0935" which appears to be in Devanagari script. Let me consider what this could mean:\\n\\n1. "\\u0905\\u0935" (ava) - This is a Sanskrit/Hindi word. It ca'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   +0.466
+  entropy gap, reasoning   @step8   +0.914
+  entropy gap, reasoning   @step511 +0.131
+  glitch chain alignment,  step1 -> step511   0.0092 -> 0.0005
+  healthy chain alignment, step1 -> step511   0.0024 -> 0.0006
+
+saved -> results/reasoning_qwen38_27b_think.json

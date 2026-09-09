@@ -1,0 +1,87 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<00:44,  6.95it/s]Loading weights:  26%|██▌       | 81/311 [00:00<00:00, 397.60it/s]Loading weights:  51%|█████     | 158/311 [00:00<00:00, 545.68it/s]Loading weights:  76%|███████▌  | 236/311 [00:00<00:00, 624.63it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 567.02it/s]
+61 fragile clean-looking tokens, 20 glitch tokens
+                    '다고' frag 0.88  modes: substitution, substitution, substitution, correct
+                ' widać' frag 0.83  modes: substitution, substitution, substitution, correct
+                   ' 방법' frag 0.75  modes: substitution, substitution, substitution, correct
+                    ' �' frag 0.67  modes: deletion, deletion, deletion, correct
+                     'ޤ' frag 0.58  modes: deletion, substitution, substitution, correct
+                 ' יכול' frag 0.58  modes: substitution, correct, substitution, correct
+                   ' או' frag 0.58  modes: substitution, deletion, substitution, correct
+                    ' �' frag 0.54  modes: deletion, deletion, deletion, correct
+              ' Marshal' frag 0.46  modes: substitution, substitution, substitution, correct
+                 ' יודע' frag 0.46  modes: substitution, correct, substitution, correct
+                  '続きを読' frag 0.42  modes: deletion, deletion, deletion, correct
+                 ' både' frag 0.38  modes: substitution, substitution, substitution, correct
+                  ' לכל' frag 0.33  modes: substitution, substitution, correct, correct
+                     'ो' frag 0.33  modes: substitution, deletion, substitution, correct
+                 ' Dịch' frag 0.33  modes: substitution, substitution, substitution, correct
+                     '뿍' frag 0.29  modes: substitution, deletion, correct, correct
+                    ' �' frag 0.21  modes: deletion, deletion, correct, correct
+                     '랫' frag 0.21  modes: deletion, deletion, deletion, correct
+                  'ثلاث' frag 0.21  modes: substitution, substitution, substitution, correct
+                  ' אית' frag 0.21  modes: substitution, correct, correct, correct
+                    ' ש' frag 0.21  modes: substitution, substitution, substitution, correct
+                ' Sorry' frag 0.21  modes: substitution, substitution, substitution, correct
+                 ' الآن' frag 0.17  modes: substitution, substitution, correct, correct
+                ' המשחק' frag 0.17  modes: substitution, correct, correct, correct
+                 ' بأنه' frag 0.17  modes: correct, correct, correct, correct
+      ' PropertyChanged' frag 0.17  modes: substitution, substitution, substitution, correct
+             ' naprawdę' frag 0.12  modes: substitution, correct, correct, correct
+                 ' رائع' frag 0.12  modes: substitution, correct, correct, correct
+               ' وغيرها' frag 0.12  modes: substitution, correct, correct, correct
+                ' Adapt' frag 0.12  modes: substitution, substitution, correct, correct
+          ' getResource' frag 0.12  modes: substitution, substitution, correct, correct
+                  ' пот' frag 0.12  modes: substitution, substitution, substitution, correct
+                     '٫' frag 0.12  modes: substitution, substitution, correct, correct
+  '/********************************************************************************' frag 0.12  modes: substitution, substitution, correct, correct
+                ' sagte' frag 0.12  modes: substitution, correct, correct, correct
+                     '�' frag 0.12  modes: deletion, correct, correct, correct
+                     '槚' frag 0.12  modes: substitution, substitution, deletion, correct
+                    ' �' frag 0.12  modes: deletion, deletion, deletion, correct
+             ' NotFound' frag 0.12  modes: substitution, correct, correct, correct
+                     '�' frag 0.12  modes: deletion, correct, correct, correct
+               ' DIRECT' frag 0.08  modes: substitution, substitution, correct, correct
+            ' dataTable' frag 0.08  modes: substitution, substitution, correct, correct
+                    'صة' frag 0.08  modes: substitution, correct, correct, correct
+                     '뇰' frag 0.08  modes: deletion, correct, correct, correct
+                     '෴' frag 0.08  modes: deletion, substitution, correct, correct
+                 ' سريع' frag 0.08  modes: correct, correct, correct, correct
+                 ' חוות' frag 0.08  modes: correct, correct, correct, correct
+             ' Gameplay' frag 0.08  modes: correct, correct, correct, correct
+                 ' phẩm' frag 0.08  modes: truncation, correct, correct, correct
+            ' TableName' frag 0.08  modes: substitution, correct, correct, correct
+           ' Formatting' frag 0.08  modes: substitution, substitution, correct, correct
+             ' Semantic' frag 0.08  modes: substitution, correct, correct, correct
+                    ' 시' frag 0.08  modes: substitution, correct, correct, correct
+                    'ết' frag 0.08  modes: substitution, correct, correct, correct
+        ' correctamente' frag 0.08  modes: substitution, substitution, correct, correct
+                     '漻' frag 0.08  modes: substitution, substitution, correct, correct
+                  ' дан' frag 0.08  modes: correct, correct, correct, correct
+                    ' �' frag 0.08  modes: deletion, correct, correct, correct
+                     '𝘥' frag 0.08  modes: correct, correct, correct, correct
+            ' startDate' frag 0.08  modes: substitution, substitution, correct, correct
+                ' דברים' frag 0.08  modes: correct, correct, correct, correct
+        '.currentTarget' frag 0.00  modes: correct, correct, correct, correct
+                    '.r' frag 0.00  modes: correct, correct, correct, correct
+                   '格會員' frag 1.00  modes: deletion, deletion, substitution, substitution
+                     '𝇗' frag 1.00  modes: deletion, deletion, deletion, substitution
+                    "'#" frag 0.00  modes: correct, correct, correct, correct
+                    '.y' frag 0.00  modes: correct, correct, correct, correct
+                   '��取' frag 1.00  modes: deletion, deletion, deletion, deletion
+                     '웛' frag 1.00  modes: deletion, deletion, deletion, substitution
+                  'เน็ต' frag 1.00  modes: deletion, deletion, deletion, substitution
+                     '獵' frag 1.00  modes: deletion, deletion, deletion, substitution
+                  'ห่าง' frag 1.00  modes: deletion, deletion, deletion, substitution
+                  ' مِن' frag 1.00  modes: deletion, deletion, deletion, substitution
+                'ไม่รู้' frag 1.00  modes: deletion, deletion, deletion, substitution
+                   'พ่อ' frag 1.00  modes: deletion, deletion, deletion, substitution
+                  'เต็ม' frag 1.00  modes: deletion, deletion, deletion, substitution
+              'สนับสนุน' frag 1.00  modes: deletion, deletion, deletion, substitution
+                 'ต่างๆ' frag 1.00  modes: deletion, deletion, deletion, substitution
+              'แก้ปัญหา' frag 1.00  modes: deletion, deletion, deletion, substitution
+                'รองรับ' frag 1.00  modes: deletion, deletion, deletion, substitution
+                     '裸' frag 1.00  modes: deletion, deletion, deletion, substitution
+
+324 specimen records -> results/specimens_qwen3_1_7b_greedy.jsonl
+markdown -> docs/specimens_qwen3_1_7b_greedy.md

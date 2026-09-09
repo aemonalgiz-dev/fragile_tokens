@@ -1,0 +1,42 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  15%|█▌        | 54/355 [00:00<00:00, 499.10it/s]Loading weights:  29%|██▉       | 104/355 [00:00<00:00, 449.11it/s]Loading weights:  42%|████▏     | 150/355 [00:00<00:00, 448.82it/s]Loading weights:  55%|█████▍    | 195/355 [00:00<00:00, 431.73it/s]Loading weights:  67%|██████▋   | 239/355 [00:00<00:00, 423.28it/s]Loading weights:  79%|███████▉  | 282/355 [00:00<00:00, 418.32it/s]Loading weights:  91%|█████████▏| 324/355 [00:00<00:00, 407.32it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 435.38it/s]
+only 2 FDR-significant pairs; running top-40 by I as EXPLORATORY (cannot confirm anything)
+40 pairs, 3 on the repetition diagonal, exploratory
+225 reasoning prompts...
+
+==========================================================================
+REASONING-MODE CONFIRMATION  (survivors vs matched-partner controls)
+==========================================================================
+                           |  survivor | matched ctrl
+------------------------------------------------------
+    failure (strict match) |     0.863 |        0.588
+failure (case/punct-insens.) |     0.688 |        0.450   <- primary
+              substitution |     0.263 |        0.175
+
+  paired difference, failure     : +0.237  95% CI [+0.100, +0.369]   *
+  paired difference, substitution: +0.087  95% CI [-0.013, +0.194]
+
+  PRE-REGISTERED: screen transfers to reasoning-mode behaviour: False
+  (exploratory: nothing survived FDR, so this cannot confirm anything)
+
+  sample survivor failures:
+    ctx ' no contact /************************************************************************ history <| em'
+    -> ' "no contact" followed by "history <| em". This phrase seems incomplete or fragmented, as it lacks context'
+    ctx ' no contact /************************************************************************ history beg em running statement equal per <| went'
+    -> ' "no contact" \n\nStep 1: Break down the sentence into its components.\n- "no contact" is a simple, straightforward command'
+    ctx ' no contact /************************************************************************ history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nice or lack working une crit occ meet operator words announc acc mean percent fr note veh program changes taken worth moving le opt area leave add days door av la figure show having dispatch resources prec less pow behind war indic know ens both track help ver allow several cv mix completely evidence requ gold value remember move currently quick tour wer child character una comple company sent hard middle intern zu field prote product end coun nation done grand load term skin driver void easily install sup goal up federal necess db null finally games /************************************************************************ time'
+    -> ' "no contact / ** history beg em running statement equal per gen went pred loc sched sol tf interest sk now law saying deliver associated issue that var deb myself additional death population stat nic'
+    ctx ' no contact carbohydr history estava em'
+    -> ' "no contact carbohydrate history estava em"\n\nStep 1: Break down the text into individual words.\n- "'
+    ctx ' no contact carbohydr history beg em running statement equal per estava went'
+    -> ' "No contact carbohydrate history beg em running statement equal per está nada."\n\nStep 1: Break down the text into smaller parts for easier understanding'
+    ctx ' no contact /************************************************************************ history stringWithFormat em'
+    -> ' "no contact" followed by "************************************************************************ history stringWithFormat em". This phrase seems incomplete and lacks context, making it'
+
+==========================================================================
+INDUCTION ATTENTION on the repetition diagonal (d=8, 2nd -> 1st)
+==========================================================================
+  mean attention j->i: significant 0.0464 vs not 0.0251
+  summed over layers AUC 1.000; best layer 2 AUC 1.000
+
+saved -> results/interaction_confirm_mixed.json

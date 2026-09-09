@@ -1,0 +1,5 @@
+72B loaded; pre-downloading 235B  Sun Sep  6 21:07:08 UTC 2026
+235B download exit 0  Sun Sep  6 21:07:44 UTC 2026  241G
+MoE FP8 smoke exit 0  Sun Sep  6 21:12:56 UTC 2026
+saved -> results/smoke_fp8_moe.json, results/smoke_fp8_moe.pt
+DEFERRED DONE Sun Sep  6 21:13:01 UTC 2026

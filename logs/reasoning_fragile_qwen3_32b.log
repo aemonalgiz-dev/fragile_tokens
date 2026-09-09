@@ -1,0 +1,68 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<02:18,  5.10it/s]Loading weights:   0%|          | 2/707 [00:00<03:06,  3.79it/s]Loading weights:   1%|          | 5/707 [00:00<01:15,  9.33it/s]Loading weights:   2%|▏         | 14/707 [00:00<00:24, 28.78it/s]Loading weights:   3%|▎         | 19/707 [00:00<00:25, 26.62it/s]Loading weights:   4%|▎         | 26/707 [00:01<00:19, 34.26it/s]Loading weights:   4%|▍         | 31/707 [00:01<00:21, 31.77it/s]Loading weights:   5%|▌         | 37/707 [00:01<00:17, 37.57it/s]Loading weights:   6%|▌         | 42/707 [00:01<00:21, 30.41it/s]Loading weights:   7%|▋         | 50/707 [00:01<00:17, 38.43it/s]Loading weights:   8%|▊         | 59/707 [00:01<00:13, 47.71it/s]Loading weights:   9%|▉         | 65/707 [00:02<00:14, 43.80it/s]Loading weights:  10%|▉         | 70/707 [00:02<00:15, 40.85it/s]Loading weights:  11%|█         | 76/707 [00:02<00:14, 44.77it/s]Loading weights:  11%|█▏        | 81/707 [00:02<00:13, 45.35it/s]Loading weights:  12%|█▏        | 86/707 [00:02<00:15, 40.94it/s]Loading weights:  13%|█▎        | 92/707 [00:02<00:14, 43.27it/s]Loading weights:  14%|█▎        | 97/707 [00:02<00:15, 40.04it/s]Loading weights:  14%|█▍        | 102/707 [00:02<00:15, 39.86it/s]Loading weights:  15%|█▌        | 107/707 [00:03<00:15, 38.21it/s]Loading weights:  16%|█▌        | 114/707 [00:03<00:13, 43.92it/s]Loading weights:  17%|█▋        | 119/707 [00:03<00:15, 38.54it/s]Loading weights:  18%|█▊        | 124/707 [00:03<00:15, 37.88it/s]Loading weights:  18%|█▊        | 130/707 [00:03<00:13, 42.71it/s]Loading weights:  19%|█▉        | 136/707 [00:03<00:12, 46.81it/s]Loading weights:  20%|█▉        | 141/707 [00:03<00:16, 33.56it/s]Loading weights:  21%|██        | 146/707 [00:04<00:15, 36.54it/s]Loading weights:  22%|██▏       | 158/707 [00:04<00:10, 52.78it/s]Loading weights:  23%|██▎       | 164/707 [00:04<00:11, 47.40it/s]Loading weights:  24%|██▍       | 170/707 [00:04<00:12, 43.22it/s]Loading weights:  25%|██▍       | 175/707 [00:04<00:12, 42.40it/s]Loading weights:  26%|██▌       | 181/707 [00:04<00:12, 42.74it/s]Loading weights:  26%|██▋       | 186/707 [00:04<00:11, 43.68it/s]Loading weights:  27%|██▋       | 191/707 [00:05<00:15, 33.94it/s]Loading weights:  29%|██▊       | 202/707 [00:05<00:13, 37.20it/s]Loading weights:  30%|███       | 213/707 [00:05<00:09, 49.69it/s]Loading weights:  31%|███       | 219/707 [00:05<00:13, 35.09it/s]Loading weights:  33%|███▎      | 234/707 [00:05<00:09, 51.01it/s]Loading weights:  34%|███▍      | 241/707 [00:06<00:09, 47.88it/s]Loading weights:  35%|███▍      | 247/707 [00:06<00:10, 44.32it/s]Loading weights:  36%|███▌      | 253/707 [00:06<00:09, 47.28it/s]Loading weights:  37%|███▋      | 259/707 [00:06<00:11, 39.45it/s]Loading weights:  38%|███▊      | 267/707 [00:06<00:09, 44.52it/s]Loading weights:  38%|███▊      | 272/707 [00:06<00:10, 40.86it/s]Loading weights:  39%|███▉      | 279/707 [00:07<00:09, 45.11it/s]Loading weights:  40%|████      | 284/707 [00:07<00:10, 41.29it/s]Loading weights:  41%|████      | 289/707 [00:07<00:10, 40.32it/s]Loading weights:  42%|████▏     | 294/707 [00:07<00:11, 36.39it/s]Loading weights:  43%|████▎     | 302/707 [00:07<00:09, 41.09it/s]Loading weights:  43%|████▎     | 307/707 [00:07<00:09, 43.00it/s]Loading weights:  44%|████▍     | 313/707 [00:07<00:09, 41.94it/s]Loading weights:  45%|████▍     | 318/707 [00:08<00:08, 43.62it/s]Loading weights:  46%|████▌     | 323/707 [00:08<00:08, 44.23it/s]Loading weights:  46%|████▋     | 328/707 [00:08<00:09, 39.78it/s]Loading weights:  47%|████▋     | 334/707 [00:08<00:08, 41.96it/s]Loading weights:  48%|████▊     | 339/707 [00:08<00:09, 37.13it/s]Loading weights:  49%|████▊     | 344/707 [00:08<00:09, 36.97it/s]Loading weights:  50%|████▉     | 353/707 [00:08<00:07, 47.76it/s]Loading weights:  51%|█████     | 359/707 [00:09<00:08, 39.35it/s]Loading weights:  52%|█████▏    | 367/707 [00:09<00:07, 45.59it/s]Loading weights:  53%|█████▎    | 372/707 [00:09<00:08, 41.10it/s]Loading weights:  53%|█████▎    | 378/707 [00:09<00:07, 43.48it/s]Loading weights:  54%|█████▍    | 383/707 [00:09<00:08, 39.72it/s]Loading weights:  55%|█████▌    | 389/707 [00:09<00:07, 41.76it/s]Loading weights:  56%|█████▌    | 394/707 [00:09<00:08, 38.48it/s]Loading weights:  57%|█████▋    | 400/707 [00:10<00:07, 40.47it/s]Loading weights:  57%|█████▋    | 405/707 [00:10<00:08, 37.55it/s]Loading weights:  58%|█████▊    | 411/707 [00:10<00:07, 39.90it/s]Loading weights:  59%|█████▉    | 416/707 [00:10<00:07, 37.14it/s]Loading weights:  60%|█████▉    | 422/707 [00:10<00:07, 40.55it/s]Loading weights:  60%|██████    | 427/707 [00:10<00:07, 36.10it/s]Loading weights:  61%|██████    | 431/707 [00:10<00:09, 30.09it/s]Loading weights:  63%|██████▎   | 444/707 [00:11<00:05, 46.98it/s]Loading weights:  64%|██████▎   | 450/707 [00:11<00:05, 42.84it/s]Loading weights:  64%|██████▍   | 455/707 [00:11<00:05, 43.62it/s]Loading weights:  65%|██████▌   | 460/707 [00:11<00:06, 40.22it/s]Loading weights:  66%|██████▌   | 465/707 [00:11<00:06, 39.92it/s]Loading weights:  66%|██████▋   | 470/707 [00:11<00:06, 37.46it/s]Loading weights:  67%|██████▋   | 477/707 [00:11<00:05, 42.11it/s]Loading weights:  68%|██████▊   | 482/707 [00:12<00:05, 38.83it/s]Loading weights:  69%|██████▉   | 488/707 [00:12<00:05, 41.57it/s]Loading weights:  70%|██████▉   | 493/707 [00:12<00:05, 38.39it/s]Loading weights:  70%|███████   | 498/707 [00:12<00:05, 38.55it/s]Loading weights:  71%|███████   | 502/707 [00:12<00:05, 34.59it/s]Loading weights:  72%|███████▏  | 510/707 [00:12<00:04, 42.27it/s]Loading weights:  73%|███████▎  | 515/707 [00:12<00:04, 39.27it/s]Loading weights:  74%|███████▎  | 521/707 [00:13<00:04, 41.38it/s]Loading weights:  74%|███████▍  | 526/707 [00:13<00:04, 38.37it/s]Loading weights:  75%|███████▌  | 532/707 [00:13<00:04, 40.70it/s]Loading weights:  76%|███████▌  | 537/707 [00:13<00:04, 38.27it/s]Loading weights:  77%|███████▋  | 543/707 [00:13<00:03, 42.26it/s]Loading weights:  78%|███████▊  | 548/707 [00:13<00:04, 38.43it/s]Loading weights:  78%|███████▊  | 554/707 [00:13<00:03, 41.67it/s]Loading weights:  79%|███████▉  | 559/707 [00:14<00:03, 38.52it/s]Loading weights:  80%|███████▉  | 565/707 [00:14<00:03, 41.32it/s]Loading weights:  81%|████████  | 570/707 [00:14<00:03, 38.18it/s]Loading weights:  81%|████████▏ | 576/707 [00:14<00:04, 31.57it/s]Loading weights:  83%|████████▎ | 586/707 [00:14<00:02, 42.27it/s]Loading weights:  84%|████████▎ | 591/707 [00:14<00:02, 39.09it/s]Loading weights:  85%|████████▍ | 598/707 [00:15<00:02, 43.81it/s]Loading weights:  85%|████████▌ | 603/707 [00:15<00:02, 40.09it/s]Loading weights:  86%|████████▌ | 608/707 [00:15<00:02, 39.63it/s]Loading weights:  87%|████████▋ | 613/707 [00:15<00:02, 36.85it/s]Loading weights:  88%|████████▊ | 620/707 [00:15<00:02, 42.69it/s]Loading weights:  88%|████████▊ | 625/707 [00:15<00:02, 37.76it/s]Loading weights:  89%|████████▉ | 629/707 [00:15<00:02, 34.44it/s]Loading weights:  90%|█████████ | 637/707 [00:16<00:01, 44.33it/s]Loading weights:  91%|█████████ | 642/707 [00:16<00:01, 45.01it/s]Loading weights:  92%|█████████▏| 647/707 [00:16<00:01, 38.86it/s]Loading weights:  92%|█████████▏| 652/707 [00:16<00:01, 38.32it/s]Loading weights:  93%|█████████▎| 659/707 [00:16<00:01, 45.62it/s]Loading weights:  94%|█████████▍| 665/707 [00:16<00:00, 42.47it/s]Loading weights:  95%|█████████▍| 670/707 [00:16<00:00, 44.21it/s]Loading weights:  96%|█████████▌| 676/707 [00:16<00:00, 42.57it/s]Loading weights:  96%|█████████▋| 681/707 [00:17<00:00, 41.10it/s]Loading weights:  97%|█████████▋| 687/707 [00:17<00:00, 41.07it/s]Loading weights:  98%|█████████▊| 692/707 [00:17<00:00, 39.98it/s]Loading weights:  99%|█████████▊| 698/707 [00:17<00:00, 39.75it/s]Loading weights:  99%|█████████▉| 703/707 [00:17<00:00, 41.85it/s]Loading weights: 100%|██████████| 707/707 [00:17<00:00, 40.05it/s]
+fragile sets from results/compact/fragility_qwen3_32b_compact.pt: 14 most fragile clean-looking tokens (fragility 1.00..1.00) vs 14 stable
+Qwen/Qwen3-32B: 14 glitch vs 14 healthy, cuda:0
+  glitch: ["' след'", "' והת'", "'ཀ'", "'자는'", "' realtà'", "'بدو'"]
+  healthy: ["' og'", "' Cursor'", "' сред'", "' música'", "' fontWithName", "' Sorry'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      3.462      3.115   0.347 |   0.0044   0.0124
+     2 |      2.730      3.555  -0.825 |   0.0056   0.0102
+     4 |      1.872      3.040  -1.168 |   0.0052   0.0080
+     8 |      2.139      2.644  -0.505 |   0.0032   0.0017
+
+  distinct scripts in output : glitch 1.50  healthy 1.07
+  token-repetition rate      : glitch 0.018  healthy 0.018
+  reproduced the seed token  : glitch 0.000  healthy 0.000   (exact id)
+  seed string in output      : glitch 0.000  healthy 0.000   (any segmentation)
+
+  --- sample generations (completion) ---
+  [GLITCH] ' след' -> '\\u0441\\u0442\\u0432\\u0438\\u0435 (sledstviye)'
+  [GLITCH] ' והת' -> '\\u05e4\\u05dc\\u05dc (vayitpallel'
+  [GLITCH] 'ཀ' -> '\\u0f7c\\u0f44\\u0f0b is a transliteration'
+  [HEALTHY] ' og' -> 'anesson is derived from the name of'
+  [HEALTHY] ' Cursor' -> ' is derived from the Latin word meaning what'
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      2.045      2.391  -0.346 |   0.0344   0.0290
+     2 |      2.397      2.151   0.246 |   0.0079   0.0212
+     4 |      0.780      0.614   0.166 |   0.0174   0.0036
+     8 |      0.569      1.326  -0.757 |   0.0102   0.0100
+    16 |      0.627      1.253  -0.626 |   0.0020   0.0086
+    32 |      0.414      1.263  -0.848 |   0.0081   0.0027
+    64 |      0.687      0.721  -0.034 |   0.0049   0.0020
+   128 |      0.449      0.283   0.166 |   0.0024   0.0022
+   192 |      0.817      0.264   0.553 |   0.0132   0.0075
+   255 |      1.022      0.803   0.219 |   0.0045   0.0026
+
+  distinct scripts in output : glitch 1.79  healthy 1.07
+  token-repetition rate      : glitch 0.463  healthy 0.458
+  reproduced the seed token  : glitch 0.571  healthy 0.500   (exact id)
+  seed string in output      : glitch 0.929  healthy 0.929   (any segmentation)
+
+  --- sample generations (reasoning) ---
+  [GLITCH] ' след' -> ' I need to understand what the user is asking for. The message "\\u0441\\u043b\\u0435\\u0434" is Russian for "next" or "follow". It seems like the user might be continuing a conversati'
+  [GLITCH] ' והת' -> ' The text "\\u05d4\\u05ea" appears to be incomplete or cut off. It could be the beginning of a Hebrew word or phrase, but without more context, it\'s difficult to determine '
+  [GLITCH] 'ཀ' -> ' The character "\\u0f40" is the first letter of the Tibetan alphabet, representing a voiceless velar plosive sound. It\'s an important character in the Tibetan writing'
+  [HEALTHY] ' og' -> ' The word "og" is a preposition in several languages, including Norwegian, Danish, and Swedish, where it means "and". In English, the equivalent preposition is '
+  [HEALTHY] ' Cursor' -> ' The term "Cursor" can refer to different concepts depending on the context. I\'ll consider the most common interpretations:\\n\\n1. **Computer Cursor**: This is the'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   -0.505
+  entropy gap, reasoning   @step8   -0.757
+  entropy gap, reasoning   @step255 +0.219
+  glitch chain alignment,  step1 -> step255   0.0344 -> 0.0045
+  healthy chain alignment, step1 -> step255   0.0290 -> 0.0026
+
+saved -> results/reasoning_fragile_qwen3_32b.json

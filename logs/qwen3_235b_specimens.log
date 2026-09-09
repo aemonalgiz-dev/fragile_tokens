@@ -1,0 +1,108 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/1601 [00:00<?, ?it/s]Loading weights:   2%|▏         | 38/1601 [00:00<00:18, 86.00it/s]Loading weights:   3%|▎         | 55/1601 [00:00<00:24, 62.57it/s]Loading weights:   4%|▍         | 72/1601 [00:01<00:28, 54.18it/s]Loading weights:   6%|▌         | 89/1601 [00:01<00:30, 50.26it/s]Loading weights:   7%|▋         | 106/1601 [00:01<00:30, 48.24it/s]Loading weights:   8%|▊         | 123/1601 [00:02<00:31, 47.10it/s]Loading weights:   9%|▊         | 140/1601 [00:02<00:31, 46.37it/s]Loading weights:  10%|▉         | 157/1601 [00:03<00:31, 45.62it/s]Loading weights:  11%|█         | 174/1601 [00:03<00:31, 45.12it/s]Loading weights:  12%|█▏        | 191/1601 [00:03<00:31, 44.73it/s]Loading weights:  13%|█▎        | 208/1601 [00:04<00:31, 44.70it/s]Loading weights:  14%|█▍        | 225/1601 [00:04<00:30, 44.75it/s]Loading weights:  15%|█▌        | 242/1601 [00:05<00:30, 44.59it/s]Loading weights:  16%|█▌        | 259/1601 [00:05<00:30, 44.59it/s]Loading weights:  17%|█▋        | 276/1601 [00:05<00:29, 44.60it/s]Loading weights:  18%|█▊        | 293/1601 [00:06<00:29, 44.60it/s]Loading weights:  19%|█▉        | 310/1601 [00:06<00:28, 44.59it/s]Loading weights:  20%|██        | 327/1601 [00:06<00:28, 44.70it/s]Loading weights:  21%|██▏       | 344/1601 [00:07<00:28, 44.71it/s]Loading weights:  23%|██▎       | 361/1601 [00:07<00:27, 44.74it/s]Loading weights:  24%|██▎       | 378/1601 [00:08<00:27, 44.57it/s]Loading weights:  25%|██▍       | 395/1601 [00:08<00:27, 44.66it/s]Loading weights:  26%|██▌       | 412/1601 [00:08<00:26, 44.64it/s]Loading weights:  27%|██▋       | 429/1601 [00:09<00:26, 44.74it/s]Loading weights:  28%|██▊       | 446/1601 [00:09<00:25, 44.56it/s]Loading weights:  29%|██▉       | 463/1601 [00:10<00:25, 44.56it/s]Loading weights:  30%|██▉       | 480/1601 [00:10<00:25, 44.64it/s]Loading weights:  31%|███       | 497/1601 [00:10<00:24, 44.67it/s]Loading weights:  32%|███▏      | 514/1601 [00:11<00:24, 44.71it/s]Loading weights:  33%|███▎      | 531/1601 [00:11<00:23, 44.67it/s]Loading weights:  34%|███▍      | 548/1601 [00:11<00:23, 44.32it/s]Loading weights:  35%|███▌      | 565/1601 [00:12<00:23, 44.57it/s]Loading weights:  36%|███▋      | 582/1601 [00:12<00:22, 44.57it/s]Loading weights:  37%|███▋      | 599/1601 [00:13<00:22, 44.79it/s]Loading weights:  38%|███▊      | 616/1601 [00:13<00:22, 44.66it/s]Loading weights:  40%|███▉      | 633/1601 [00:13<00:21, 44.63it/s]Loading weights:  41%|████      | 650/1601 [00:14<00:21, 44.62it/s]Loading weights:  42%|████▏     | 667/1601 [00:14<00:20, 44.73it/s]Loading weights:  43%|████▎     | 684/1601 [00:14<00:20, 44.69it/s]Loading weights:  44%|████▍     | 701/1601 [00:15<00:20, 44.81it/s]Loading weights:  45%|████▍     | 718/1601 [00:15<00:19, 44.72it/s]Loading weights:  46%|████▌     | 735/1601 [00:16<00:19, 44.79it/s]Loading weights:  47%|████▋     | 752/1601 [00:16<00:18, 44.77it/s]Loading weights:  48%|████▊     | 769/1601 [00:16<00:18, 44.78it/s]Loading weights:  49%|████▉     | 786/1601 [00:17<00:18, 44.88it/s]Loading weights:  50%|█████     | 803/1601 [00:17<00:17, 44.73it/s]Loading weights:  51%|█████     | 820/1601 [00:17<00:17, 44.71it/s]Loading weights:  52%|█████▏    | 837/1601 [00:18<00:17, 44.79it/s]Loading weights:  53%|█████▎    | 854/1601 [00:18<00:16, 44.82it/s]Loading weights:  54%|█████▍    | 871/1601 [00:19<00:16, 44.69it/s]Loading weights:  55%|█████▌    | 888/1601 [00:19<00:15, 44.77it/s]Loading weights:  57%|█████▋    | 905/1601 [00:19<00:15, 44.81it/s]Loading weights:  58%|█████▊    | 922/1601 [00:20<00:15, 44.90it/s]Loading weights:  59%|█████▊    | 939/1601 [00:20<00:14, 45.00it/s]Loading weights:  60%|█████▉    | 956/1601 [00:21<00:14, 45.00it/s]Loading weights:  61%|██████    | 973/1601 [00:21<00:13, 45.01it/s]Loading weights:  62%|██████▏   | 990/1601 [00:21<00:13, 45.00it/s]Loading weights:  63%|██████▎   | 1007/1601 [00:22<00:13, 44.90it/s]Loading weights:  64%|██████▍   | 1024/1601 [00:22<00:12, 44.87it/s]Loading weights:  65%|██████▌   | 1041/1601 [00:22<00:12, 44.85it/s]Loading weights:  66%|██████▌   | 1058/1601 [00:23<00:12, 44.82it/s]Loading weights:  67%|██████▋   | 1075/1601 [00:23<00:11, 44.64it/s]Loading weights:  68%|██████▊   | 1092/1601 [00:24<00:11, 44.73it/s]Loading weights:  69%|██████▉   | 1109/1601 [00:24<00:10, 44.84it/s]Loading weights:  70%|███████   | 1126/1601 [00:24<00:10, 44.89it/s]Loading weights:  71%|███████▏  | 1143/1601 [00:25<00:10, 44.83it/s]Loading weights:  72%|███████▏  | 1160/1601 [00:25<00:09, 44.91it/s]Loading weights:  74%|███████▎  | 1177/1601 [00:25<00:09, 44.88it/s]Loading weights:  75%|███████▍  | 1194/1601 [00:26<00:09, 44.86it/s]Loading weights:  76%|███████▌  | 1211/1601 [00:26<00:08, 44.98it/s]Loading weights:  77%|███████▋  | 1228/1601 [00:27<00:08, 44.80it/s]Loading weights:  78%|███████▊  | 1245/1601 [00:27<00:07, 44.91it/s]Loading weights:  79%|███████▉  | 1262/1601 [00:27<00:07, 45.01it/s]Loading weights:  80%|███████▉  | 1279/1601 [00:28<00:07, 45.11it/s]Loading weights:  81%|████████  | 1296/1601 [00:28<00:06, 45.30it/s]Loading weights:  82%|████████▏ | 1313/1601 [00:28<00:06, 45.33it/s]Loading weights:  83%|████████▎ | 1330/1601 [00:29<00:05, 45.26it/s]Loading weights:  84%|████████▍ | 1347/1601 [00:29<00:05, 45.22it/s]Loading weights:  85%|████████▌ | 1364/1601 [00:30<00:05, 45.26it/s]Loading weights:  86%|████████▋ | 1381/1601 [00:30<00:04, 45.25it/s]Loading weights:  87%|████████▋ | 1398/1601 [00:30<00:04, 45.10it/s]Loading weights:  88%|████████▊ | 1415/1601 [00:31<00:04, 45.18it/s]Loading weights:  89%|████████▉ | 1432/1601 [00:31<00:03, 45.06it/s]Loading weights:  91%|█████████ | 1449/1601 [00:31<00:03, 45.16it/s]Loading weights:  92%|█████████▏| 1466/1601 [00:32<00:02, 45.09it/s]Loading weights:  93%|█████████▎| 1483/1601 [00:32<00:02, 45.03it/s]Loading weights:  94%|█████████▎| 1500/1601 [00:33<00:02, 45.08it/s]Loading weights:  95%|█████████▍| 1517/1601 [00:33<00:01, 45.05it/s]Loading weights:  96%|█████████▌| 1534/1601 [00:33<00:01, 44.75it/s]Loading weights:  97%|█████████▋| 1551/1601 [00:34<00:01, 44.73it/s]Loading weights:  98%|█████████▊| 1568/1601 [00:34<00:00, 44.51it/s]Loading weights:  99%|█████████▉| 1585/1601 [00:35<00:00, 44.11it/s]Loading weights: 100%|██████████| 1601/1601 [00:35<00:00, 45.68it/s]
+[transformers] This FP8 model spans multiple CUDA devices in one process; routing its FP8 linear and experts layers through Triton/grouped_mm instead of DeepGEMM (DeepGEMM's cached kernels are bound to a single CUDA context and corrupt across devices). Run tensor/expert parallel (one device per process) to use the faster DeepGEMM path.
+80 fragile clean-looking tokens, 20 glitch tokens
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 2347.72it/s]
+                     'ཧ' frag 1.00  modes: deletion, deletion, deletion, substitution
+                     'ঙ' frag 1.00  modes: deletion, deletion, deletion, correct
+                     '🚆' frag 1.00  modes: deletion, deletion, substitution, substitution
+                     'ལ' frag 1.00  modes: deletion, deletion, substitution, correct
+                     'ම' frag 1.00  modes: deletion, substitution, deletion, substitution
+                  ' לתת' frag 1.00  modes: substitution, deletion, substitution, correct
+                  ' והת' frag 1.00  modes: substitution, substitution, substitution, correct
+                     '렇' frag 1.00  modes: deletion, deletion, deletion, substitution
+                     '𝕒' frag 1.00  modes: deletion, deletion, deletion, deletion
+                     '펙' frag 1.00  modes: deletion, deletion, deletion, correct
+                     '윽' frag 1.00  modes: deletion, deletion, substitution, substitution
+                     '僔' frag 1.00  modes: deletion, deletion, substitution, correct
+                   'بدو' frag 1.00  modes: substitution, substitution, deletion, substitution
+                  'شهور' frag 1.00  modes: substitution, substitution, substitution, correct
+                'احتجاج' frag 1.00  modes: substitution, substitution, deletion, deletion
+                   'חוץ' frag 1.00  modes: deletion, deletion, deletion, substitution
+                   'גות' frag 1.00  modes: deletion, deletion, deletion, substitution
+                     '镘' frag 1.00  modes: deletion, deletion, substitution, correct
+                     '嗐' frag 0.96  modes: deletion, deletion, substitution, correct
+                   'בחר' frag 0.96  modes: substitution, substitution, deletion, correct
+              'работать' frag 0.96  modes: substitution, deletion, substitution, correct
+                   'سبة' frag 0.96  modes: substitution, substitution, substitution, correct
+                     'ம' frag 0.96  modes: substitution, deletion, deletion, deletion
+                     '앉' frag 0.96  modes: deletion, deletion, deletion, correct
+                   'נסה' frag 0.96  modes: deletion, substitution, substitution, correct
+                  ' באו' frag 0.96  modes: deletion, deletion, deletion, correct
+                 ' כולו' frag 0.96  modes: deletion, deletion, substitution, correct
+              ' рассмат' frag 0.96  modes: deletion, substitution, substitution, correct
+                   'שוק' frag 0.96  modes: deletion, substitution, deletion, correct
+                     '댁' frag 0.96  modes: deletion, deletion, deletion, correct
+                  'дачи' frag 0.96  modes: deletion, substitution, deletion, correct
+                  ' כשה' frag 0.96  modes: deletion, substitution, substitution, correct
+                     '𝙰' frag 0.96  modes: deletion, deletion, deletion, correct
+                    'בי' frag 0.96  modes: deletion, substitution, deletion, correct
+                     'ត' frag 0.96  modes: deletion, deletion, deletion, correct
+                     '镅' frag 0.92  modes: deletion, deletion, deletion, correct
+                     '狴' frag 0.92  modes: deletion, deletion, deletion, correct
+                     'ﺭ' frag 0.92  modes: deletion, deletion, deletion, correct
+                     '骀' frag 0.92  modes: substitution, deletion, deletion, correct
+                     '🤜' frag 0.92  modes: deletion, deletion, deletion, correct
+                     '𝗦' frag 0.92  modes: deletion, deletion, deletion, correct
+                     '崚' frag 0.92  modes: deletion, deletion, deletion, correct
+                     '暅' frag 0.92  modes: deletion, deletion, deletion, correct
+                 'интер' frag 0.92  modes: substitution, substitution, substitution, correct
+                  'عراق' frag 0.92  modes: substitution, deletion, substitution, correct
+               'ことができます' frag 0.92  modes: substitution, deletion, substitution, correct
+               ' להעביר' frag 0.92  modes: substitution, substitution, substitution, correct
+                     'ἤ' frag 0.92  modes: deletion, deletion, substitution, correct
+                     '栟' frag 0.92  modes: deletion, deletion, deletion, correct
+                    'عا' frag 0.88  modes: substitution, substitution, deletion, correct
+                  'иона' frag 0.88  modes: deletion, substitution, substitution, correct
+                  'عظيم' frag 0.88  modes: substitution, substitution, deletion, correct
+                     '跏' frag 0.88  modes: deletion, deletion, deletion, correct
+                     '趔' frag 0.88  modes: substitution, deletion, deletion, correct
+                  '点了点头' frag 0.88  modes: substitution, deletion, deletion, correct
+                    '使え' frag 0.88  modes: substitution, substitution, substitution, correct
+                     'ܠ' frag 0.88  modes: deletion, deletion, deletion, correct
+                     '읽' frag 0.88  modes: deletion, deletion, substitution, correct
+                     'ཀ' frag 0.88  modes: deletion, deletion, deletion, correct
+                 ' אליו' frag 0.88  modes: deletion, substitution, substitution, correct
+                 ' всег' frag 0.88  modes: deletion, substitution, substitution, correct
+                     '藟' frag 0.88  modes: deletion, deletion, deletion, correct
+                     'ഏ' frag 0.88  modes: deletion, deletion, deletion, correct
+                     'ར' frag 0.88  modes: deletion, deletion, deletion, correct
+                     '⧫' frag 0.88  modes: deletion, deletion, deletion, correct
+                   'بيض' frag 0.88  modes: deletion, substitution, deletion, correct
+                     '杷' frag 0.88  modes: deletion, deletion, deletion, correct
+       ' MetroFramework' frag 0.88  modes: deletion, substitution, substitution, correct
+               ' האוויר' frag 0.83  modes: deletion, substitution, substitution, correct
+                     '馃' frag 0.83  modes: deletion, deletion, deletion, correct
+                     '졌' frag 0.83  modes: deletion, deletion, substitution, correct
+                    '當您' frag 0.83  modes: substitution, substitution, deletion, correct
+                     '媸' frag 0.83  modes: deletion, deletion, deletion, correct
+                     'ܥ' frag 0.83  modes: deletion, deletion, deletion, correct
+                     '荽' frag 0.83  modes: deletion, deletion, deletion, correct
+                     'ർ' frag 0.83  modes: deletion, deletion, deletion, correct
+                     '柙' frag 0.83  modes: deletion, deletion, deletion, correct
+                     '怄' frag 0.79  modes: deletion, deletion, deletion, correct
+                     '螗' frag 0.79  modes: deletion, deletion, deletion, correct
+                     'త' frag 0.79  modes: deletion, deletion, deletion, correct
+                'larınd' frag 1.00  modes: substitution, deletion, substitution, correct
+                     '吏' frag 1.00  modes: deletion, substitution, deletion, substitution
+                     '𝄹' frag 1.00  modes: deletion, deletion, deletion, deletion
+               'พื้นที่' frag 1.00  modes: deletion, substitution, deletion, substitution
+               'ได้ง่าย' frag 1.00  modes: deletion, deletion, deletion, deletion
+               'กระเป๋า' frag 1.00  modes: deletion, deletion, deletion, substitution
+                     '燐' frag 1.00  modes: deletion, deletion, deletion, substitution
+               'สนับสนุ' frag 1.00  modes: deletion, substitution, deletion, substitution
+               'มากขึ้น' frag 1.00  modes: substitution, deletion, deletion, substitution
+                   '��取' frag 1.00  modes: deletion, deletion, deletion, substitution
+                'ארגוני' frag 1.00  modes: deletion, deletion, deletion, substitution
+                  'הבנה' frag 1.00  modes: deletion, substitution, substitution, substitution
+              ' สิงหาคม' frag 1.00  modes: deletion, deletion, deletion, substitution
+              'ความเป็น' frag 1.00  modes: substitution, deletion, deletion, substitution
+                   'แม้' frag 1.00  modes: deletion, deletion, substitution, substitution
+                     '量' frag 1.00  modes: deletion, deletion, deletion, substitution
+               'กิจกรรม' frag 1.00  modes: deletion, deletion, deletion, substitution
+                 'มักจะ' frag 1.00  modes: deletion, deletion, deletion, substitution
+              'แก้ปัญหา' frag 1.00  modes: deletion, deletion, deletion, deletion
+               'น้ำหนัก' frag 1.00  modes: deletion, substitution, deletion, substitution
+
+400 specimen records -> results/specimens_qwen3_235b.jsonl
+markdown -> docs/specimens_qwen3_235b.md

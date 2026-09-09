@@ -1,0 +1,22 @@
+arm=baseline   decoy=' or'
+  corr(uplift, log count) = +0.243   (raw logprob was +0.405 -- lower is better, the prior is gone)
+
+  corr(entropy, log count) = -0.225
+
+DOSE-RESPONSE: true training frequency vs behavioural damage
+      true count |      n | median entropy |  median uplift
+--------------------------------------------------------------
+               0 |    648 |          7.231 |          0.597
+             1-9 |    604 |          7.118 |          0.586
+           10-99 |    840 |          6.347 |          0.503
+         100-999 |   2616 |          4.941 |          0.466
+       1000-9999 |   9890 |          4.750 |          0.788
+     10000-99999 |   1372 |          5.120 |          0.854
+100000-999999999999 |     95 |          5.826 |          0.492
+
+  doomed  (count<100,  >=2ch): n= 2092  median uplift +0.562
+  healthy (count>=10k, >=2ch): n= 1467  median uplift +0.837
+  uplift separation : +0.275 nats
+  ENTROPY separation: +1.808 nats  (doomed 6.963 vs healthy 5.155)
+
+val loss 3.6364   saved -> runs/s2/baseline/

@@ -1,0 +1,21 @@
+=== amber  13:42 ===
+    exit=0
+-> early-half mean residual ratio 0.573   (non-whitespace only 0.575)
+/dev/vda1       497G   60G  438G  12% /
+=== pile  13:50 ===
+    exit=0
+-> early-half mean residual ratio 0.846   (non-whitespace only 0.864)
+/dev/vda1       497G   60G  438G  12% /
+=== c4  13:53 ===
+    exit=0
+-> early-half mean residual ratio 0.614   (non-whitespace only 0.633)
+/dev/vda1       497G   63G  434G  13% /
+=== fineweb  13:57 ===
+    exit=0
+-> early-half mean residual ratio 0.628   (non-whitespace only 0.649)
+/dev/vda1       497G   66G  431G  14% /
+=== refinedweb  14:00 ===
+    exit=0
+-> early-half mean residual ratio 0.715   (non-whitespace only 0.736)
+/dev/vda1       497G   69G  428G  14% /
+FAMILY2 COMPLETE Sat Sep  5 14:03:27 UTC 2026

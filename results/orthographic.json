@@ -1,0 +1,18 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "n": 4000,
+ "fail_rate": 0.2115,
+ "auc": {
+  "is_word": 0.14700384216972406,
+  "alpha": 0.21889049291604643,
+  "len": 0.5309980122055973,
+  "suffix_of": 0.4313472628850602,
+  "prefix_of": 0.32198896369351987,
+  "n_completions": 0.32828458290047086,
+  "completable_fragment": 0.5454726708251445
+ },
+ "n_scored": 695,
+ "contains_token": 0.2014388489208633,
+ "exact_completion": 0.11223021582733812,
+ "is_real_word": 0.48776978417266187
+}

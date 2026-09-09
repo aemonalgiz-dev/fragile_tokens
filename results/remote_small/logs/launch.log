@@ -1,0 +1,11 @@
+#### 1. Qwen3-32B: re-score slice at batch 1  (16:16:37)
+   rescore exit 0  (16:22:11)
+fail/pass agreement per cell 0.9990;  fragility corr stored vs rescored 0.9999
+    fragile: mean fragility stored 0.325  rescored 0.325
+      clean: mean fragility stored 0.000  rescored 0.000
+  reference: mean fragility stored 1.000  rescored 1.000
+#### 2. Qwen2.5-7B-Instruct control rung, N_TOK=8400  (16:22:11)
+   control rung exit 0  (16:30:01)
+#### 3. Qwen3-32B fresh rung (tag qwen3_32b_r2), N_TOK=8400  (16:30:01)
+   32B rerun exit 0  (18:28:52)
+SMALL NODE DONE Mon Sep  7 18:28:52 UTC 2026

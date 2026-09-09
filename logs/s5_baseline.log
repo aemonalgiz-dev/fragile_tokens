@@ -1,0 +1,33 @@
+arm=baseline  params=23.2M  vocab=16384  device=cuda
+  step      0  loss  9.775    0.0 min
+  saved branch checkpoint at step 256
+  step    500  loss  5.599    0.4 min
+  step   1000  loss  5.031    0.8 min
+  step   1500  loss  4.762    1.2 min
+  step   2000  loss  4.603    1.7 min
+  step   2500  loss  4.443    2.1 min
+  step   3000  loss  4.286    2.5 min
+  step   3500  loss  4.201    2.9 min
+  step   4000  loss  4.117    3.3 min
+  step   4500  loss  4.049    3.7 min
+  step   5000  loss  3.998    4.1 min
+  step   5500  loss  3.956    4.6 min
+  step   6000  loss  3.910    5.0 min
+  step   6500  loss  3.885    5.4 min
+  step   7000  loss  3.832    5.8 min
+  step   7500  loss  3.804    6.2 min
+  step   8000  loss  3.794    6.6 min
+  step   8500  loss  3.761    7.0 min
+  step   9000  loss  3.738    7.4 min
+  step   9500  loss  3.709    7.8 min
+  step  10000  loss  3.672    8.3 min
+  step  10500  loss  3.672    8.7 min
+  step  11000  loss  3.656    9.1 min
+  step  11500  loss  3.645    9.5 min
+  step  12000  loss  3.630    9.9 min
+  step  12500  loss  3.615   10.3 min
+  step  13000  loss  3.597   10.8 min
+  step  13500  loss  3.587   11.3 min
+
+arm=baseline  val loss 3.6444  (11.7 min)
+saved -> runs/s5/baseline

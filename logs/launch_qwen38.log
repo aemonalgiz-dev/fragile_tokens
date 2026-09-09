@@ -1,0 +1,7 @@
+#### Qwen3.8-27B rung, N_TOK=8400, prompt framing = chat  (22:22:28)
+   27B rung exit 0  (01:45:53)
+#### probes  (01:45:53)
+   task_probe exit 0  (01:49:14)
+   agent_probe exit 0  (01:58:53)
+   agent_probe thinking exit 0  (02:29:14)
+QWEN38 CHAT DONE Tue Sep  8 02:29:14 UTC 2026

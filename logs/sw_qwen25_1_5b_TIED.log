@@ -1,0 +1,58 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  52%|█████▏    | 177/338 [00:00<00:00, 1754.10it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1801.57it/s]
+Qwen/Qwen2.5-1.5B: V=151936 tied=True probe=40000 |E_in| 1.0158
+  copy probe...
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 147/338 [00:00<00:00, 1457.26it/s]Loading weights:  93%|█████████▎| 316/338 [00:00<00:00, 1585.28it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1606.16it/s]
+Qwen/Qwen2.5-1.5B-Instruct: V=151936 tied=True probe=40000 |E_in| 1.0126
+  copy probe...
+
+==============================================================================
+1. COVERAGE -- how much of the vocabulary does each stage actually touch?
+==============================================================================
+                        transition | zero-resid rows |    frac | median resid
+------------------------------------------------------------------------------
+                  1.5B -> Instruct |               0 |  0.0000 |    1.610e-02
+
+==============================================================================
+2. DAMAGE -- glitch sets per stage, defined by the copy probe
+==============================================================================
+threshold = base-model 1.0th pct of copy-logprob = -12.051
+                             stage | n below thr |   mean lp | new vs base |  healed
+----------------------------------------------------------------------------------
+                 Qwen/Qwen2.5-1.5B |         407 |    -2.260 |           0 |       0
+        Qwen/Qwen2.5-1.5B-Instruct |         757 |    -1.922 |         356 |       6
+
+rank-based (worst 1.0% WITHIN each stage, shift-invariant):
+                             stage | overlap w/ base |    new |  jaccard
+------------------------------------------------------------------------
+                 Qwen/Qwen2.5-1.5B |             407 |      0 |    1.000
+        Qwen/Qwen2.5-1.5B-Instruct |             330 |    100 |    0.651
+
+  rank-based newly-glitched examples: ["'��取'", "'�始化'", "'\\tTokenNameIden", "'�'", "'�'", "'𬘯'", "'㙘'", "'𡐓'", "'ที่'", "'ร์'", "'สิ'", "'ร่ว'", "'สิท'", "'ครับ'", "'สิน'"]
+
+  base-model rank of the 100 newly-glitched (threshold at rank 407, vocab 40000):
+    median 487   quartiles 462/580   max 770
+    beyond 2x the threshold rank: 0.000
+    beyond 5x the threshold rank: 0.000
+    beyond 10x the threshold rank: 0.000
+  final-model rank of the 77 healed: median 569, beyond 5x threshold 0.013
+
+tokens healthy at base but below threshold after post-training: 100
+  examples: ["'��取'", "'�始化'", "'\\tTokenNameIden", "'�'", "'�'", "'𬘯'", "'㙘'", "'𡐓'", "'ที่'", "'ร์'", "'สิ'", "'ร่ว'", "'สิท'", "'ครับ'", "'สิน'"]
+
+==============================================================================
+3. DOES POST-TRAINING GRADIENT SPARSITY PREDICT THE DAMAGE?
+AUC of (low token-specific residual during post-training) vs (degraded)
+==============================================================================
+                         predictor |  AUC vs newly-glitched |  spearman vs delta lp
+----------------------------------------------------------------------------------
+         total post-train residual |                  0.010 |                -0.027
+                 base copy-logprob |                  0.988 |                -0.241
+             residual, non-ws only |                  0.010 |                -0.023
+
+CONTROL: how much do glitch rows move during post-training at all?
+                        transition | total ratio | resid ratio
+--------------------------------------------------------------
+                  1.5B -> Instruct |       4.852 |       2.834
+
+saved -> results/sw_qwen25_1_5b_TIED.json

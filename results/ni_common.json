@@ -1,0 +1,154 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "single_healthy": 0.9241666666666667,
+ "single_glitch": 0.03619909502262444,
+ "rows": [
+  {
+   "n": 1,
+   "exact": 1.0,
+   "conf_wrong": 0.0,
+   "entropy": 0.2922763431083877,
+   "unreach": 0.0,
+   "resegment": 0.0
+  },
+  {
+   "n": 2,
+   "exact": 0.976,
+   "conf_wrong": 0.0,
+   "entropy": 0.19138127254496795,
+   "unreach": 0.044,
+   "resegment": 0.044
+  },
+  {
+   "n": 3,
+   "exact": 0.948,
+   "conf_wrong": 0.008,
+   "entropy": 0.2196352054271847,
+   "unreach": 0.1,
+   "resegment": 0.092
+  },
+  {
+   "n": 4,
+   "exact": 0.916,
+   "conf_wrong": 0.0,
+   "entropy": 0.218175105410628,
+   "unreach": 0.148,
+   "resegment": 0.136
+  },
+  {
+   "n": 6,
+   "exact": 0.908,
+   "conf_wrong": 0.008,
+   "entropy": 0.16326195390708745,
+   "unreach": 0.264,
+   "resegment": 0.24
+  },
+  {
+   "n": 8,
+   "exact": 0.892,
+   "conf_wrong": 0.004,
+   "entropy": 0.15903824615105985,
+   "unreach": 0.296,
+   "resegment": 0.252
+  }
+ ],
+ "pred": [
+  {
+   "n": 2,
+   "n_fail": 6,
+   "unreach": 0.4774590163934426,
+   "resegment": 0.4774590163934426,
+   "charlen": 0.475068306010929
+  },
+  {
+   "n": 3,
+   "n_fail": 13,
+   "unreach": 0.5759493670886076,
+   "resegment": 0.5731905225576112,
+   "charlen": 0.4847452125933139
+  },
+  {
+   "n": 4,
+   "n_fail": 21,
+   "unreach": 0.5284882511956748,
+   "resegment": 0.5297359118319817,
+   "charlen": 0.4959451029320025
+  },
+  {
+   "n": 6,
+   "n_fail": 23,
+   "unreach": 0.5314116069718444,
+   "resegment": 0.5354338249377514,
+   "charlen": 0.44292281172189235
+  },
+  {
+   "n": 8,
+   "n_fail": 27,
+   "unreach": 0.513702042850025,
+   "resegment": 0.5040690915130377,
+   "charlen": 0.5446769639594752
+  }
+ ],
+ "failures": [
+  {
+   "want": " HE\tassert soon felliced route Model ptr",
+   "got": " HE assert soon fellisced route Model ptr",
+   "entropy": 0.9569483399391174,
+   "unreach": 1
+  },
+  {
+   "want": "la\tassertmaxturnpositatioEach launched",
+   "got": " la_assertmaxturnpositatioEach launched",
+   "entropy": 0.21752814948558807,
+   "unreach": 0
+  },
+  {
+   "want": " coverage electric ONbsp temperatureosiserm presence",
+   "got": " coverage electric ONbsp temperatureer presence",
+   "entropy": 0.6868066787719727,
+   "unreach": 0
+  },
+  {
+   "want": " according reflectlegateToStringtract idea\tchar units",
+   "got": " reflectlegateToStringtract idea char units",
+   "entropy": 0.5907050371170044,
+   "unreach": 0
+  },
+  {
+   "want": " decision according components canvas indu Jewcountryevent",
+   "got": " decision components canvas indu Jewcountryevent",
+   "entropy": 0.1539837270975113,
+   "unreach": 0
+  },
+  {
+   "want": "\tlocal discover will CO Head ey remoz",
+   "got": " local discover will CO Head remoz",
+   "entropy": 0.22744342684745789,
+   "unreach": 0
+  },
+  {
+   "want": "retchuthru systoken couldndirake",
+   "got": " retchuthru systokendirake",
+   "entropy": 0.11466289311647415,
+   "unreach": 2
+  },
+  {
+   "want": " tempID loading clostractyp custom involved",
+   "got": " tempID loading closcontractyp custom involved",
+   "entropy": 0.28966885805130005,
+   "unreach": 1
+  },
+  {
+   "want": " av\tvirtualSaveri influichtatch June",
+   "got": " av_virtualSaveri influichtatch June",
+   "entropy": 0.5363394021987915,
+   "unreach": 1
+  },
+  {
+   "want": " justify lines violSomelafirm usersrt",
+   "got": " justify lines violSomeLaRm users",
+   "entropy": 1.7134900093078613,
+   "unreach": 2
+  }
+ ]
+}

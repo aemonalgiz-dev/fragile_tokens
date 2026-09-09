@@ -1,0 +1,67 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:03<00:03,  3.22s/it]Fetching 2 files: 100%|██████████| 2/2 [00:08<00:00,  4.38s/it]Fetching 2 files: 100%|██████████| 2/2 [00:08<00:00,  4.21s/it]
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<00:44,  6.96it/s]Loading weights:  26%|██▌       | 81/311 [00:00<00:00, 398.44it/s]Loading weights:  51%|█████     | 159/311 [00:00<00:00, 543.05it/s]Loading weights:  77%|███████▋  | 241/311 [00:00<00:00, 641.96it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 572.56it/s]
+label-free sets from results/fragility_qwen3_1_7b.pt: worst-32 by single probe (lp -19.00..-16.86) vs 32 clean
+Qwen/Qwen3-1.7B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["'.currentTarge", "'.r'", "'格會員'", "'.y'", "'웛'", "'เน็ต'"]
+  healthy: ["' hà'", "' 参数'", "' Rol'", "' majority'", "' output'", "' già'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      1.137      2.668  -1.531 |   0.5694   0.0344
+     2 |      1.574      2.855  -1.280 |   0.5681   0.0139
+     4 |      0.927      2.111  -1.184 |   0.5387   0.0071
+     8 |      0.258      3.108  -2.850 |   0.4201   0.0089
+
+  distinct scripts in output : glitch 1.00  healthy 1.03
+  token-repetition rate      : glitch 0.301  healthy 0.031
+  reproduced the seed token  : glitch 0.000  healthy 0.000
+
+  --- sample generations (completion) ---
+  [GLITCH] '.currentTarget' -> ' is not a valid property of the element'
+  [GLITCH] '.r' -> 'am is a 4-letter word.'
+  [GLITCH] '格會員' -> ' is a term used in the context of'
+  [HEALTHY] ' hà' -> 'm is used in Vietnamese to mean "'
+  [HEALTHY] ' 参数' -> ' is used in Chinese to mean "parameters'
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.636      0.543   0.093 |   0.6814   0.0838
+     2 |      0.061      0.481  -0.420 |   0.7037   0.0376
+     4 |      0.055      0.060  -0.005 |   0.6403   0.0008
+     8 |      0.096      0.540  -0.444 |   0.0597   0.0009
+    16 |      0.434      0.235   0.199 |   0.0612   0.0060
+    32 |      0.071      0.399  -0.328 |   0.0521   0.0018
+    64 |      0.044      0.312  -0.268 |   0.0858   0.0023
+   128 |      0.358      0.212   0.146 |   0.0306   0.0012
+   192 |      0.061      0.237  -0.177 |   0.0225   0.0020
+   255 |      0.038      0.326  -0.288 |   0.0346   0.0029
+
+  distinct scripts in output : glitch 1.00  healthy 1.16
+  token-repetition rate      : glitch 0.592  healthy 0.535
+  reproduced the seed token  : glitch 0.000  healthy 0.438
+
+  --- sample generations (reasoning) ---
+  [GLITCH] '.currentTarget' -> " You mentioned `@this` in the context of JavaScript, but it's not a standard syntax in JavaScript. Let me clarify:\\n\\nIn JavaScript, `this` refers to the object i"
+  [GLITCH] '.r' -> ' The user wrote ".r" which is a common abbreviation for "request" in many contexts, such as in networking or programming. However, without more context, it\'s ha'
+  [GLITCH] '格會員' -> ' The user wrote "</think>\\n\\nThe phrase "</think>\\n\\nThe phrase " is incomplete or contains an error. It appears to be a fragment or a typo. If you have a specific '
+  [HEALTHY] ' hà' -> ' The user wrote "h\\xe0" which is a Vietnamese word meaning "how" or "what." But they might be looking for a response in Vietnamese. If that\'s the case, I should re'
+  [HEALTHY] ' 参数' -> ' The user mentioned "\\u53c2\\u6570" which is Chinese for "parameters." In programming, parameters are the values passed to a function or method when it\'s called. However, '
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   -2.850
+  entropy gap, reasoning   @step8   -0.444
+  entropy gap, reasoning   @step255 -0.288
+  glitch chain alignment,  step1 -> step255   0.6814 -> 0.0346
+  healthy chain alignment, step1 -> step255   0.0838 -> 0.0029
+
+saved -> results/reasoning_qwen3_1_7b_v2.json

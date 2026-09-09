@@ -1,0 +1,65 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 52/355 [00:00<00:00, 519.78it/s]Loading weights:  29%|██▉       | 104/355 [00:00<00:00, 427.95it/s]Loading weights:  42%|████▏     | 148/355 [00:00<00:00, 427.34it/s]Loading weights:  54%|█████▍    | 192/355 [00:00<00:00, 431.39it/s]Loading weights:  66%|██████▋   | 236/355 [00:00<00:00, 418.16it/s]Loading weights:  79%|███████▊  | 279/355 [00:00<00:00, 407.36it/s]Loading weights:  90%|█████████ | 320/355 [00:00<00:00, 402.89it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 426.73it/s]
+allenai/OLMo-2-1124-7B-Instruct: 32 glitch vs 32 healthy, cuda
+  glitch: ["'.XtraLayout'", '\'")){\\r\\n\'', "' Hexatrigesim", "'雅黑'", "' didn'", "'.AddModelErro"]
+  healthy: ["' woman'", "' life'", "' rumpe'", "' start'", "' actually'", "' way'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      4.326      3.757   0.569 |   0.0246   0.0033
+     2 |      3.443      3.312   0.131 |   0.0067   0.0017
+     4 |      2.315      2.596  -0.281 |   0.0004   0.0005
+     8 |      1.899      2.128  -0.229 |   0.0002   0.0003
+
+  distinct scripts in output : glitch 1.00  healthy 1.03
+  token-repetition rate      : glitch 0.020  healthy 0.031
+  reproduced the seed token  : glitch 0.000  healthy 0.000
+
+  --- sample generations (completion) ---
+  [GLITCH] '.XtraLayout' -> ' is a portmanteau of "'
+  [GLITCH] '")){\r\n' -> '    // do something with the word\\r\\n'
+  [GLITCH] ' Hexatrigesimal' -> ' is a portmanteau of "'
+  [HEALTHY] ' woman' -> ' comes from the Old English w\\u012bf'
+  [HEALTHY] ' life' -> ' is used in many different ways, both'
+
+==========================================================================
+REGIME: reasoning   (256 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      3.323      3.247   0.076 |   0.0158   0.0173
+     2 |      0.499      0.458   0.041 |   0.0021   0.0148
+     4 |      2.760      0.927   1.833 |   0.0068   0.0037
+     8 |      1.791      1.518   0.273 |   0.0008   0.0008
+    16 |      1.246      1.046   0.200 |   0.0002   0.0002
+    32 |      1.255      0.894   0.361 |   0.0003   0.0003
+    64 |      0.948      0.930   0.018 |   0.0002   0.0002
+   128 |      0.871      0.791   0.080 |   0.0002   0.0001
+   192 |      0.978      1.067  -0.089 |   0.0001   0.0001
+   255 |      0.854      1.142  -0.288 |   0.0001   0.0002
+
+  distinct scripts in output : glitch 1.06  healthy 1.03
+  token-repetition rate      : glitch 0.482  healthy 0.480
+  reproduced the seed token  : glitch 0.000  healthy 0.531
+
+  --- sample generations (reasoning) ---
+  [GLITCH] '.XtraLayout' -> ' The token "layui" refers to a lightweight, modular, and flexible JavaScript framework primarily used for building web interfaces. It is designed to simplify th'
+  [GLITCH] '")){\r\n' -> " The token you've provided, `){`, is a closing curly brace (`}`) in programming syntax. In many programming languages, curly braces are used to denote the begin"
+  [GLITCH] ' Hexatrigesimal' -> ' The token "Calculus" refers to a branch of mathematics that deals with the study of change, motion, and accumulation. It involves the concepts of limits, deriv'
+  [HEALTHY] ' woman' -> ' The token "woman" is a noun in the English language. Here\'s a step-by-step explanation:\\n\\n1. **Token Identification**: The token "woman" is a written or printed'
+  [HEALTHY] ' life' -> ' The token "life" is a concept that has been extensively explored across various disciplines, including philosophy, biology, psychology, and linguistics. Here\'s'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   -0.229
+  entropy gap, reasoning   @step8   +0.273
+  entropy gap, reasoning   @step255 -0.288
+  glitch chain alignment,  step1 -> step255   0.0158 -> 0.0001
+  healthy chain alignment, step1 -> step255   0.0173 -> 0.0002
+
+saved -> results/reasoning_drift.json

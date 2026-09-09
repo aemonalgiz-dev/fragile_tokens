@@ -1,0 +1,59 @@
+Current Python version 3.10 is below the recommended 3.11 version. It is recommended to upgrade to Python 3.11 or higher for the best experience.
+  qwen4_exp QSA indexer: exact fast path for key lengths <= budget
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 131 files:   0%|          | 0/131 [00:00<?, ?it/s]Fetching 131 files: 100%|██████████| 131/131 [00:00<00:00, 3022.41it/s]
+Loading weights:   0%|          | 0/1263 [00:00<?, ?it/s]Loading weights:   4%|▎         | 45/1263 [00:00<00:12, 101.31it/s]Loading weights:   5%|▌         | 64/1263 [00:02<00:57, 20.99it/s] Loading weights:  11%|█         | 133/1263 [00:02<00:20, 54.07it/s]Loading weights:  13%|█▎        | 159/1263 [00:03<00:20, 54.91it/s]Loading weights:  15%|█▍        | 185/1263 [00:03<00:19, 55.74it/s]Loading weights:  16%|█▌        | 202/1263 [00:04<00:20, 51.39it/s]Loading weights:  19%|█▉        | 237/1263 [00:04<00:17, 58.40it/s]Loading weights:  21%|██        | 263/1263 [00:05<00:17, 58.27it/s]Loading weights:  23%|██▎       | 289/1263 [00:05<00:16, 57.95it/s]Loading weights:  24%|██▍       | 306/1263 [00:05<00:18, 52.56it/s]Loading weights:  27%|██▋       | 341/1263 [00:06<00:15, 59.34it/s]Loading weights:  29%|██▉       | 367/1263 [00:06<00:15, 58.76it/s]Loading weights:  31%|███       | 393/1263 [00:07<00:14, 58.27it/s]Loading weights:  32%|███▏      | 410/1263 [00:07<00:16, 52.60it/s]Loading weights:  35%|███▌      | 445/1263 [00:08<00:13, 59.33it/s]Loading weights:  37%|███▋      | 471/1263 [00:08<00:13, 58.90it/s]Loading weights:  39%|███▉      | 497/1263 [00:09<00:13, 58.34it/s]Loading weights:  41%|████      | 514/1263 [00:09<00:14, 52.61it/s]Loading weights:  43%|████▎     | 549/1263 [00:10<00:12, 59.25it/s]Loading weights:  46%|████▌     | 575/1263 [00:10<00:11, 58.62it/s]Loading weights:  48%|████▊     | 601/1263 [00:10<00:11, 58.44it/s]Loading weights:  49%|████▉     | 618/1263 [00:11<00:12, 53.03it/s]Loading weights:  52%|█████▏    | 653/1263 [00:11<00:10, 59.83it/s]Loading weights:  54%|█████▍    | 679/1263 [00:12<00:09, 59.34it/s]Loading weights:  56%|█████▌    | 705/1263 [00:12<00:09, 58.94it/s]Loading weights:  57%|█████▋    | 722/1263 [00:13<00:10, 53.16it/s]Loading weights:  60%|█████▉    | 757/1263 [00:13<00:08, 59.86it/s]Loading weights:  62%|██████▏   | 783/1263 [00:14<00:08, 59.27it/s]Loading weights:  64%|██████▍   | 809/1263 [00:14<00:07, 58.53it/s]Loading weights:  65%|██████▌   | 826/1263 [00:14<00:08, 52.80it/s]Loading weights:  68%|██████▊   | 861/1263 [00:15<00:06, 59.55it/s]Loading weights:  70%|███████   | 887/1263 [00:15<00:06, 58.76it/s]Loading weights:  72%|███████▏  | 913/1263 [00:16<00:05, 58.39it/s]Loading weights:  74%|███████▎  | 930/1263 [00:16<00:06, 52.83it/s]Loading weights:  76%|███████▋  | 965/1263 [00:17<00:04, 59.85it/s]Loading weights:  78%|███████▊  | 991/1263 [00:17<00:04, 59.22it/s]Loading weights:  81%|████████  | 1017/1263 [00:18<00:04, 58.83it/s]Loading weights:  82%|████████▏ | 1034/1263 [00:18<00:04, 52.93it/s]Loading weights:  85%|████████▍ | 1069/1263 [00:19<00:03, 59.82it/s]Loading weights:  87%|████████▋ | 1095/1263 [00:19<00:02, 59.20it/s]Loading weights:  89%|████████▉ | 1121/1263 [00:19<00:02, 58.70it/s]Loading weights:  90%|█████████ | 1138/1263 [00:20<00:02, 52.84it/s]Loading weights:  93%|█████████▎| 1173/1263 [00:20<00:01, 60.05it/s]Loading weights:  95%|█████████▍| 1199/1263 [00:21<00:01, 59.63it/s]Loading weights:  97%|█████████▋| 1225/1263 [00:21<00:00, 58.90it/s]Loading weights:  98%|█████████▊| 1242/1263 [00:22<00:00, 53.16it/s]Loading weights: 100%|██████████| 1263/1263 [00:22<00:00, 56.91it/s]
+[transformers] [1mQwen4ExpForCausalLM LOAD REPORT[0m from: Qwen/Qwen3.8-Flash-Next-FP8
+Key                                                           | Status     |  | 
+--------------------------------------------------------------+------------+--+-
+model.layers.1.ple.ple_embedding.ngram_embedding.weight_scale | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[transformers] This FP8 model spans multiple CUDA devices in one process; routing its FP8 linear and experts layers through Triton/grouped_mm instead of DeepGEMM (DeepGEMM's cached kernels are bound to a single CUDA context and corrupt across devices). Run tensor/expert parallel (one device per process) to use the faster DeepGEMM path.
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files: 100%|██████████| 8/8 [00:00<00:00, 1642.41it/s]
+  fp8 embedding model.layers.1.ple.ple_embedding.ngram_embedding: lookup rescaled by 0.0001993 to torch.bfloat16
+19 fragile clean-looking tokens, 20 glitch tokens
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 1984.83it/s]
+             ' przedsta' frag 1.00  modes: substitution, substitution, correct, correct
+             ' ilmaisia' frag 0.96  modes: substitution, correct, correct, correct
+                ' szüks' frag 0.92  modes: substitution, substitution, correct, correct
+               ' bakeca' frag 0.58  modes: correct, correct, correct, correct
+                ' 웹사이트가' frag 0.46  modes: substitution, truncation, correct, correct
+               ' επίσης' frag 0.38  modes: substitution, substitution, substitution, correct
+             ' kokemuks' frag 0.33  modes: correct, correct, correct, correct
+                 ' унич' frag 0.33  modes: correct, substitution, correct, correct
+                ' étudi' frag 0.29  modes: substitution, substitution, substitution, correct
+        ' prostituerade' frag 0.21  modes: substitution, substitution, correct, correct
+               ' poprze' frag 0.21  modes: correct, truncation, correct, correct
+         ' требованиями' frag 0.21  modes: substitution, substitution, correct, correct
+                  'ρεις' frag 0.17  modes: substitution, substitution, correct, correct
+         ' competências' frag 0.12  modes: substitution, correct, substitution, correct
+            ' ungkapnya' frag 0.12  modes: correct, correct, correct, correct
+                 ' 가능성이' frag 0.08  modes: correct, correct, correct, correct
+           ' следующего' frag 0.08  modes: correct, substitution, correct, correct
+                    'ිය' frag 0.08  modes: correct, correct, correct, correct
+                ' întâm' frag 0.08  modes: correct, correct, correct, correct
+                ' szexf' frag 1.00  modes: deletion, deletion, deletion, deletion
+    ' ForCanBeConverted' frag 1.00  modes: deletion, deletion, deletion, substitution
+                 'чнике' frag 1.00  modes: substitution, substitution, substitution, correct
+             'echslungs' frag 1.00  modes: substitution, substitution, substitution, substitution
+               'полномо' frag 1.00  modes: substitution, substitution, substitution, substitution
+                 'хотво' frag 1.00  modes: substitution, substitution, substitution, substitution
+            'ejahteraan' frag 1.00  modes: substitution, substitution, substitution, substitution
+                  'átku' frag 0.00  modes: correct, correct, correct, correct
+                     '�' frag 1.00  modes: deletion, deletion, deletion, deletion
+                '_watch' frag 0.00  modes: correct, correct, correct, correct
+                  '/api' frag 0.00  modes: correct, correct, correct, correct
+               '_flight' frag 0.00  modes: correct, correct, correct, correct
+                '_inode' frag 0.00  modes: correct, correct, correct, correct
+            '_challenge' frag 0.00  modes: correct, correct, correct, correct
+              'elleicht' frag 0.38  modes: correct, correct, correct, correct
+                    '{n' frag 0.00  modes: correct, correct, correct, correct
+              '_outline' frag 0.00  modes: correct, correct, correct, correct
+                '/utils' frag 0.00  modes: correct, correct, correct, correct
+       ' โรงแรมบรรยากาศ' frag 1.00  modes: substitution, substitution, substitution, substitution
+               '_THRESH' frag 0.00  modes: correct, correct, correct, correct
+
+156 specimen records -> results/specimens_qwen38_flash_greedy.jsonl
+markdown -> docs/specimens_qwen38_flash_greedy.md

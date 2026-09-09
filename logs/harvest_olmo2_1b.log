@@ -1,0 +1,56 @@
+allenai/OLMo-2-0425-1B: 13 checkpoints
+   step 0         stage1-step0-tokens0B
+   step 300       stage1-step300-tokens1B
+   step 10000     stage1-step10000-tokens21B
+   step 20000     stage1-step20000-tokens42B
+   step 30000     stage1-step30000-tokens63B
+   step 50000     stage1-step50000-tokens105B
+   step 100000    stage1-step100000-tokens210B
+   step 200000    stage1-step200000-tokens420B
+   step 400000    stage1-step400000-tokens839B
+   step 800000    stage1-step800000-tokens1678B
+   step 1200000   stage1-step1200000-tokens2517B
+   step 1600000   stage1-step1600000-tokens3356B
+   step 1907359   stage1-step1907359-tokens4001B
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:06<00:06,  6.54s/it]Fetching 2 files: 100%|██████████| 2/2 [00:13<00:00,  6.96s/it]Fetching 2 files: 100%|██████████| 2/2 [00:13<00:00,  6.90s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 5285.03it/s]
+  step 0         |W| 0.8929 centered 0.8929 delta 0.00000 hub_max 26
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:04<00:04,  4.07s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.78s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.53s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4748.11it/s]
+  step 300       |W| 0.8973 centered 0.8937 delta 0.10148 hub_max 62
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:04<00:04,  4.55s/it]Fetching 2 files: 100%|██████████| 2/2 [00:12<00:00,  6.65s/it]Fetching 2 files: 100%|██████████| 2/2 [00:12<00:00,  6.34s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4779.76it/s]
+  step 10000     |W| 1.5543 centered 1.3008 delta 1.56875 hub_max 5076
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:04<00:04,  4.06s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.85s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.58s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4834.11it/s]
+  step 20000     |W| 1.7913 centered 1.4764 delta 0.96280 hub_max 4476
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:04<00:04,  4.64s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.79s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.77s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4735.89it/s]
+  step 30000     |W| 1.8903 centered 1.5569 delta 0.83657 hub_max 3596
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:04<00:04,  4.38s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  5.08s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.98s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4733.89it/s]
+  step 50000     |W| 1.9394 centered 1.6151 delta 1.06979 hub_max 3573
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:03<00:03,  3.87s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  5.09s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.91s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 7353.10it/s]
+  step 100000    |W| 1.8758 centered 1.6233 delta 1.37953 hub_max 7369
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:04<00:04,  4.16s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.90s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.64s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4724.98it/s]
+  step 200000    |W| 1.8278 centered 1.6225 delta 1.51135 hub_max 9608
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:03<00:03,  4.00s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  5.04s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.89s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4745.65it/s]
+  step 400000    |W| 1.8159 centered 1.5888 delta 1.69413 hub_max 12624
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:03<00:03,  3.97s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.85s/it]Fetching 2 files: 100%|██████████| 2/2 [00:11<00:00,  5.57s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4933.24it/s]
+  step 800000    |W| 1.7075 centered 1.4621 delta 1.74947 hub_max 9116
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:03<00:03,  4.00s/it]Fetching 2 files: 100%|██████████| 2/2 [00:12<00:00,  6.48s/it]Fetching 2 files: 100%|██████████| 2/2 [00:12<00:00,  6.11s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4787.38it/s]
+  step 1200000   |W| 1.5459 centered 1.2622 delta 1.46946 hub_max 12657
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:04<00:04,  4.10s/it]Fetching 2 files: 100%|██████████| 2/2 [00:18<00:00, 10.15s/it]Fetching 2 files: 100%|██████████| 2/2 [00:18<00:00,  9.24s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4863.17it/s]
+  step 1600000   |W| 1.3237 centered 1.0281 delta 1.29209 hub_max 11438
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:03<00:03,  3.94s/it]Fetching 2 files: 100%|██████████| 2/2 [00:08<00:00,  4.49s/it]Fetching 2 files: 100%|██████████| 2/2 [00:08<00:00,  4.41s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 4715.87it/s]
+  step 1907359   |W| 1.1624 centered 0.8622 delta 0.95796 hub_max 12018
+
+saved -> results/traj_olmo2_1b.pt  shape (13, 100352)

@@ -1,0 +1,155 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "n_swap": 200,
+ "copy": {
+  "UNREACHABLE (a,b)": -3.782859737036542,
+  "REACHABLE (b,a)": -4.724007325314075
+ },
+ "interact": {
+  "UNREACHABLE (a,b)": 3.125085968259336,
+  "REACHABLE (b,a)": 2.183938379981804
+ },
+ "paired_copy_delta": 0.9411475882775323,
+ "paired_copy_ci": [
+  0.6067081269109919,
+  1.259169464766844
+ ],
+ "frac_unreachable_worse": 0.335,
+ "behaviour": {
+  "UNREACHABLE (a,b)": {
+   "derail": 1.0,
+   "entropy": 1.104597104638815,
+   "repeat": 0.4494140625,
+   "scripts": 0.985
+  },
+  "REACHABLE (b,a)": {
+   "derail": 1.0,
+   "entropy": 1.1181800648570062,
+   "repeat": 0.4498046875,
+   "scripts": 1.005
+  }
+ },
+ "paired_entropy_delta": -0.013582960218191147,
+ "worst": [
+  {
+   "a": "ance",
+   "b": "led",
+   "ids": [
+    685,
+    839
+   ],
+   "delta": -5.9956016181604355,
+   "gen": " lights are used to illuminate the area around a stage during a performance. The term \"ancelled\" is not a standard English word, and it appears to be a misspelling of \"candle.\" However, without additional context, it is difficult to determine the intended meaning. If the intended word is indeed \"can"
+  },
+  {
+   "a": ".",
+   "b": ".codigo",
+   "ids": [
+    13,
+    69355
+   ],
+   "delta": -5.7654625456780195,
+   "gen": "\n\nHere are some options to consider:\n\n1. **Literal Interpretation**: The text \".codigo\" could be interpreted as a placeholder or instruction indicating the need for a specific code or identifier. This interpretation suggests that the text is incomplete or requires additional context to be fully unde"
+  },
+  {
+   "a": "_estado",
+   "b": "not",
+   "ids": [
+    63164,
+    1962
+   ],
+   "delta": -4.86492905439809,
+   "gen": "ificadas_  _en_  _informes_  _de_  _procesos_  _legales_  _y_  _derecho_  _civil_  _de_  _los_  _vecinos_.  \nHere are the possible answers to the clue: _estados notificadas_, _informes de procesos legales y derecho civil de los vecinos_.  What is the meaning of the text? The text is describing the n"
+  },
+  {
+   "a": ":",
+   "b": ".DropTable",
+   "ids": [
+    25,
+    59726
+   ],
+   "delta": -4.61753255315125,
+   "gen": "('users')\n```\n\nThis command is used to delete the table named 'users' from the database. It's a straightforward operation that can be crucial in managing database schemas and ensuring optimal performance by removing unnecessary data.\n\n### Understanding DropTable\n\n- **Purpose**: The primary purpose o"
+  },
+  {
+   "a": ";?></",
+   "b": "(numero",
+   "ids": [
+    41112,
+    91278
+   ],
+   "delta": -4.340718507766724,
+   "gen": ") ;;<\n\nHere are some options for interpreting this text:\n\n1. **Literal interpretation**: The text is a sequence of characters with no inherent meaning or structure. It is simply a string of symbols.\n\n2. **Programming interpretation**: In a programming context, this text could be interpreted as a str"
+  },
+  {
+   "a": "(errorMessage",
+   "b": "to",
+   "ids": [
+    71230,
+    998
+   ],
+   "delta": -3.778354159090668,
+   "gen": "string) \"Error: The file you are trying to access does not exist.\"\n\nI want to extract the \"Error\" part from this string. How can I do this in Python?\n\nHere is a simple way to do it using the `split()` method:\n\n```python\ntext = \"Error: The file you are trying to access does not exist.\"\nerror_part = t"
+  },
+  {
+   "a": ".",
+   "b": "His",
+   "ids": [
+    13,
+    16366
+   ],
+   "delta": -3.7490247040987015,
+   "gen": " mother was a devout Christian and his father was a freethinker. He was baptized in the Anglican Church but later became an atheist. He attended a Church of England primary school but later was educated at a secular state school. He was confirmed in the Church of England but later rejected Christian"
+  },
+  {
+   "a": "_estado",
+   "b": "localctx",
+   "ids": [
+    63164,
+    55574
+   ],
+   "delta": -3.7101631090044975,
+   "gen": " = new _ContextState(); \n  _state = _estado; \n  _localctx = _estado; \n\nThis code snippet is part of a larger program written in C#. It appears to be initializing two variables, _state and _localctx, with values from another variable, _estado.\n\nHere's a breakdown of what each line does:\n\n1. `_estado`"
+  },
+  {
+   "a": "_lista",
+   "b": "dataGridView",
+   "ids": [
+    77486,
+    77588
+   ],
+   "delta": -3.6784014124423265,
+   "gen": " = _dataGridView.DataSource;_\n\nThis code snippet is part of a larger method in a C# Windows Forms application. The _dataGridView variable is a DataGridView control on a form. The purpose of this code is to temporarily store the current data source of the DataGridView control so that it can be restor"
+  },
+  {
+   "a": "\u2019.",
+   "b": ".\"",
+   "ids": [
+    24535,
+    1210
+   ],
+   "delta": -3.6458848230540752,
+   "gen": "The first thing you should know about me is that I am a writer. Writing is my passion, my escape, my therapy. It\u2019s how I process the world around me and make sense of it all. I\u2019ve been writing since I was a child, pouring my thoughts and emotions onto paper. Over the years, I\u2019ve honed my craft, lear"
+  },
+  {
+   "a": ".getCmp",
+   "b": "ons",
+   "ids": [
+    75271,
+    2439
+   ],
+   "delta": -3.3480071518570185,
+   "gen": "idering the impact of climate change on our planet, it is crucial to adopt sustainable practices. One effective way to reduce carbon emissions is by transitioning to renewable energy sources. Solar and wind energy are two prominent examples of renewable energy that can significantly decrease our rel"
+  },
+  {
+   "a": ".setStroke",
+   "b": "toolStrip",
+   "ids": [
+    93389,
+    66639
+   ],
+   "delta": -3.0493533611297607,
+   "gen": "Color(Color.RED)\n    .setFillColor(Color.BLUE)\n    .drawRectangle(50, 50, 100, 100);\n\nThis code snippet is written in Java and uses the Processing library to draw shapes on a canvas. Here's a breakdown of what each line does:\n\n1. `.setStrokeColor(Color.RED)`: Sets the color of the outline (stroke) o"
+  }
+ ]
+}

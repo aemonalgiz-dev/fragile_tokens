@@ -1,0 +1,141 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "N": 64,
+ "n_sig": 1,
+ "features": {
+  "cos_in": {
+   "spearman": 0.05311408190727639,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "cross_ab": {
+   "spearman": 0.0776709179048048,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "cross_ba": {
+   "spearman": -0.06883666944756003,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "cross_max": {
+   "spearman": 0.006861177927899368,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "norm_min (baseline)": {
+   "spearman": 0.05864969737489247,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "norm_max (baseline)": {
+   "spearman": -0.005831138479717497,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "id_min (baseline)": {
+   "spearman": -0.04060953892562823,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "id_max (baseline)": {
+   "spearman": 0.04472497110501544,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "R_copy_i_mid": {
+   "spearman": 0.018203909839604765,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "R_copy_j_mid": {
+   "spearman": 0.08000861326648973,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "R_text_j_mid": {
+   "spearman": 0.07936352155238355,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "R_copy_i_last": {
+   "spearman": -0.030170497039077464,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "R_copy_j_last": {
+   "spearman": 0.05445840750384208,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "R_text_j_last": {
+   "spearman": 0.04310634958606299,
+   "auc": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  }
+ },
+ "by_band": {
+  "short": {
+   "R": 6,
+   "mean_R": 0.050134916113512146,
+   "spearman": -0.0689744648395665,
+   "auc": NaN
+  },
+  "mid": {
+   "R": 4,
+   "mean_R": 0.008853645370681845,
+   "spearman": -0.05296677817041785,
+   "auc": NaN
+  },
+  "long": {
+   "R": 4,
+   "mean_R": 0.0049170879794964715,
+   "spearman": 0.12984898401403855,
+   "auc": NaN
+  }
+ },
+ "baseline_auc": 0.5,
+ "winners": []
+}

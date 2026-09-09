@@ -1,0 +1,72 @@
+/home/ubuntu/venv/lib/python3.10/site-packages/huggingface_hub/constants.py:299: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+8400 tokens x 24 contexts; clean-looking non-glitch: 3326; fragile (frag_test >= 0.1): 154  (base rate 0.046)
+
+====================================================================================
+PER-FEATURE:  predicting fragile (frag_test >= 0.10) among clean-looking tokens
+====================================================================================
+       tier |                    feature | spearman |    AUC |          95% CI
+------------------------------------------------------------------------------------
+    surface |              id (baseline) |   -0.318 |  0.145 | [0.120, 0.172]
+    surface |         n_chars (baseline) |   -0.092 |  0.771 | [0.723, 0.816] *
+    surface |   leading_space (baseline) |   -0.314 |  0.761 | [0.721, 0.798] *
+    surface |           alpha (baseline) |   -0.323 |  0.536 | [0.514, 0.561]
+    surface |           ascii (baseline) |   -0.153 |  0.860 | [0.840, 0.879] *
+     static |                    norm_in |   +0.196 |  0.164 | [0.128, 0.208]
+     static |                   norm_out |   -0.094 |  0.464 | [0.410, 0.519]
+     static |                   cdist_in |   +0.196 |  0.165 | [0.128, 0.208]
+     static |                  cdist_out |   -0.065 |  0.520 | [0.466, 0.575]
+     static |                     nn_cos |   +0.049 |  0.364 | [0.324, 0.406]
+     static |              knn10_density |   +0.083 |  0.450 | [0.411, 0.492]
+     static |                  inout_cos |   +0.040 |  0.373 | [0.331, 0.419]
+     static |                    dp_self |   +0.049 |  0.354 | [0.318, 0.395]
+     static |              dp_competitor |   +0.128 |  0.170 | [0.135, 0.210]
+     static |                  dp_margin |   -0.017 |  0.278 | [0.242, 0.321]
+     static |                 glitch_dir |   +0.032 |  0.616 | [0.576, 0.652]
+    dynamic |            text_spread_mid |   +0.046 |  0.101 | [0.082, 0.122]
+    dynamic |           text_spread_last |   +0.072 |  0.475 | [0.428, 0.522]
+    dynamic |           copy_spread_last |   +0.053 |  0.831 | [0.797, 0.864] *
+    dynamic |    identity_retention_text |   +0.158 |  0.783 | [0.743, 0.822] *
+    dynamic |    identity_retention_copy |   +0.201 |  0.438 | [0.384, 0.493]
+    dynamic |     identity_retention_min |   +0.191 |  0.380 | [0.327, 0.434]
+    dynamic |             text_norm_mean |   -0.069 |  0.853 | [0.824, 0.882] *
+  behaviour |                   mu_train |   -0.046 |  0.991 | [0.988, 0.994] *
+  behaviour |                 frag_train |   +0.870 |  0.976 | [0.961, 0.989] *
+
+====================================================================================
+CROSS-VALIDATED LOGISTIC (5-fold, out-of-fold AUC) by tier
+====================================================================================
+                surface only: AUC 0.900  [0.879, 0.918]
+             static geometry: AUC 0.843  [0.805, 0.878]
+            static + surface: AUC 0.927  [0.906, 0.946]
+        dynamic (train half): AUC 0.921  [0.901, 0.938]
+            static + dynamic: AUC 0.931  [0.912, 0.948]
+    behavioural (train half): AUC 0.978  [0.963, 0.990]
+                  everything: AUC 0.977  [0.965, 0.987]
+
+  paired bootstrap, improvement over 'surface only':
+           static geometry: -0.057  95% CI [-0.095, -0.025]
+      dynamic (train half): +0.021  95% CI [+0.003, +0.040]   *
+          static + dynamic: +0.031  95% CI [+0.014, +0.049]   *
+
+====================================================================================
+CELL LEVEL: predicting fail(t,c) on test contexts among clean-looking tokens
+====================================================================================
+  cells: 19956  fail rate 0.0205
+                                token frag (train): AUC 0.957
+                  context hostility (other tokens): AUC 0.648
+              cos(E_in[t], mean E_in[ctx])  static: AUC 0.707
+       identity retention in THIS context  dynamic: AUC 0.762
+  CV logistic: main effects only 0.954 | + static similarity 0.958 | + dynamic retention 0.956
+
+====================================================================================
+PRE-REGISTERED VERDICT
+====================================================================================
+  best surface-baseline single-feature AUC: 0.860;  surface-only CV AUC 0.900
+         static geometry: CV AUC 0.843 [0.805,0.878]  -> fail
+    dynamic (train half): CV AUC 0.921 [0.901,0.938]  -> PASS
+        static + dynamic: CV AUC 0.931 [0.912,0.948]  -> PASS
+  behavioural (train half) for reference: 0.978
+
+saved -> results/fragility_predict_qwen25_72b.json

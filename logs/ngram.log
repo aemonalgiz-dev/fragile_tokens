@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   8%|▊         | 27/355 [00:00<00:01, 248.52it/s]Loading weights:  21%|██▏       | 76/355 [00:00<00:00, 379.65it/s]Loading weights:  34%|███▍      | 120/355 [00:00<00:00, 394.04it/s]Loading weights:  45%|████▌     | 160/355 [00:00<00:00, 393.85it/s]Loading weights:  57%|█████▋    | 202/355 [00:00<00:00, 400.16it/s]Loading weights:  70%|██████▉   | 247/355 [00:00<00:00, 412.20it/s]Loading weights:  81%|████████▏ | 289/355 [00:00<00:00, 386.46it/s]Loading weights:  96%|█████████▌| 340/355 [00:00<00:00, 410.39it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 401.34it/s]
+allenai/OLMo-2-1124-7B-Instruct: healthy pool 2350, cuda
+sampled 4867 random healthy pairs ->
+  order-swap usable (one direction unreachable): 200
+  both directions reachable                    : 200
+  both directions unreachable                  : 10
+
+==============================================================================
+ORDER-SWAP TEST -- identical token pairs, only the adjacency differs
+==============================================================================
+           condition |  copy lp/tok |  interaction
+----------------------------------------------------
+   UNREACHABLE (a,b) |      -3.7829 |       3.1251
+     REACHABLE (b,a) |      -4.7240 |       2.1839
+
+paired difference (unreachable - reachable): +0.9411
+  bootstrap 95% CI [+0.6067, +1.2592]
+  pairs where unreachable is worse: 0.335
+
+==============================================================================
+DERAILMENT AND REGIME  (short = 8 new tokens, long = 128)
+==============================================================================
+           condition | derail ok |  entropy |  repeat | scripts
+--------------------------------------------------------------
+   UNREACHABLE (a,b) |     1.000 |    1.105 |   0.449 |    0.98
+     REACHABLE (b,a) |     1.000 |    1.118 |   0.450 |    1.00
+
+paired entropy difference: -0.0136  95% CI [-0.0604, +0.0346]
+task-answer rate: unreachable 1.000 vs reachable 1.000
+
+==============================================================================
+MOST DAMAGED UNREACHABLE PAIRS (by paired copy difference)
+==============================================================================
+            'ance' + 'led'            d=-5.996  ids=(685,839)
+      -> ' lights are used to illuminate the area around a stage during a performance. The term "ancelled" is not a stan'
+               '.' + '.codigo'        d=-5.765  ids=(13,69355)
+      -> '\n\nHere are some options to consider:\n\n1. **Literal Interpretation**: The text ".codigo" could be interpreted a'
+         '_estado' + 'not'            d=-4.865  ids=(63164,1962)
+      -> 'ificadas_  _en_  _informes_  _de_  _procesos_  _legales_  _y_  _derecho_  _civil_  _de_  _los_  _vecinos_.  \nH'
+               ':' + '.DropTable'     d=-4.618  ids=(25,59726)
+      -> "('users')\n```\n\nThis command is used to delete the table named 'users' from the database. It's a straightforwar"
+           ';?></' + '(numero'        d=-4.341  ids=(41112,91278)
+      -> ') ;;<\n\nHere are some options for interpreting this text:\n\n1. **Literal interpretation**: The text is a sequenc'
+   '(errorMessage' + 'to'             d=-3.778  ids=(71230,998)
+      -> 'string) "Error: The file you are trying to access does not exist."\n\nI want to extract the "Error" part from th'
+               '.' + 'His'            d=-3.749  ids=(13,16366)
+      -> ' mother was a devout Christian and his father was a freethinker. He was baptized in the Anglican Church but la'
+         '_estado' + 'localctx'       d=-3.710  ids=(63164,55574)
+      -> ' = new _ContextState(); \n  _state = _estado; \n  _localctx = _estado; \n\nThis code snippet is part of a larger p'
+          '_lista' + 'dataGridView'   d=-3.678  ids=(77486,77588)
+      -> ' = _dataGridView.DataSource;_\n\nThis code snippet is part of a larger method in a C# Windows Forms application.'
+              '’.' + '."'             d=-3.646  ids=(24535,1210)
+      -> 'The first thing you should know about me is that I am a writer. Writing is my passion, my escape, my therapy. '
+         '.getCmp' + 'ons'            d=-3.348  ids=(75271,2439)
+      -> 'idering the impact of climate change on our planet, it is crucial to adopt sustainable practices. One effectiv'
+      '.setStroke' + 'toolStrip'      d=-3.049  ids=(93389,66639)
+      -> 'Color(Color.RED)\n    .setFillColor(Color.BLUE)\n    .drawRectangle(50, 50, 100, 100);\n\nThis code snippet is wri'
+
+saved -> results/ngram_glitch.json

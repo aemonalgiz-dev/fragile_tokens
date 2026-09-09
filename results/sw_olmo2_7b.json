@@ -1,0 +1,123 @@
+{
+ "stages": [
+  "allenai/OLMo-2-1124-7B",
+  "allenai/OLMo-2-1124-7B-SFT",
+  "allenai/OLMo-2-1124-7B-DPO",
+  "allenai/OLMo-2-1124-7B-Instruct"
+ ],
+ "coverage": [
+  {
+   "transition": "7B -> SFT",
+   "zero_rows": 0,
+   "frac": 0.0,
+   "median_resid": 0.08510898053646088
+  },
+  {
+   "transition": "SFT -> DPO",
+   "zero_rows": 2769,
+   "frac": 0.027592873086734693,
+   "median_resid": 0.00065713154617697
+  },
+  {
+   "transition": "DPO -> Instruct",
+   "zero_rows": 23139,
+   "frac": 0.23057836415816327,
+   "median_resid": 0.00017414540343452245
+  }
+ ],
+ "damage": [
+  {
+   "stage": "allenai/OLMo-2-1124-7B",
+   "n_bad": 400,
+   "mean_lp": -1.7192493677139282,
+   "new": 0,
+   "healed": 0
+  },
+  {
+   "stage": "allenai/OLMo-2-1124-7B-SFT",
+   "n_bad": 1330,
+   "mean_lp": -2.5936012268066406,
+   "new": 1001,
+   "healed": 71
+  },
+  {
+   "stage": "allenai/OLMo-2-1124-7B-DPO",
+   "n_bad": 3424,
+   "mean_lp": -3.441340684890747,
+   "new": 3065,
+   "healed": 41
+  },
+  {
+   "stage": "allenai/OLMo-2-1124-7B-Instruct",
+   "n_bad": 4453,
+   "mean_lp": -3.7834367752075195,
+   "new": 4087,
+   "healed": 34
+  }
+ ],
+ "n_newly_glitched": 242,
+ "examples": [
+  "\\",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  ".t",
+  ".S",
+  ".l",
+  ".L",
+  ".M",
+  ":\n\n",
+  ".B",
+  ".to",
+  ".pro",
+  ".on",
+  "\\u"
+ ],
+ "rank_based": [
+  {
+   "stage": "allenai/OLMo-2-1124-7B",
+   "overlap": 400,
+   "new": 0,
+   "jaccard": 1.0
+  },
+  {
+   "stage": "allenai/OLMo-2-1124-7B-SFT",
+   "overlap": 220,
+   "new": 180,
+   "jaccard": 0.3793103448275862
+  },
+  {
+   "stage": "allenai/OLMo-2-1124-7B-DPO",
+   "overlap": 170,
+   "new": 230,
+   "jaccard": 0.2698412698412698
+  },
+  {
+   "stage": "allenai/OLMo-2-1124-7B-Instruct",
+   "overlap": 158,
+   "new": 242,
+   "jaccard": 0.24610591900311526
+  }
+ ],
+ "newly_base_rank_median": 1901,
+ "newly_beyond_5x": 0.4793388429752066,
+ "threshold_rank": 400,
+ "n_probed": 40000,
+ "newly_examples": [
+  "\\",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  ".t",
+  ".S",
+  ".l",
+  ".L",
+  ".M",
+  ":\n\n",
+  ".B",
+  ".to",
+  ".pro",
+  ".on",
+  "\\u"
+ ]
+}

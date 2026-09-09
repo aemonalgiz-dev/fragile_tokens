@@ -1,0 +1,73 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:13<00:13, 13.89s/it]Fetching 2 files: 100%|██████████| 2/2 [00:26<00:00, 13.30s/it]Fetching 2 files: 100%|██████████| 2/2 [00:26<00:00, 13.39s/it]
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:  50%|████▉     | 89/179 [00:00<00:00, 859.23it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 1051.45it/s]
+allenai/OLMo-2-0425-1B: V=100352 tied=False probe=100352 |E_in| 10.6527
+  copy probe...
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:  44%|████▎     | 78/179 [00:00<00:00, 760.15it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 1020.45it/s]
+allenai/OLMo-2-0425-1B-SFT: V=100352 tied=False probe=100352 |E_in| 9.8247
+  copy probe...
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:  44%|████▎     | 78/179 [00:00<00:00, 743.13it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 1020.61it/s]
+allenai/OLMo-2-0425-1B-DPO: V=100352 tied=False probe=100352 |E_in| 9.8247
+  copy probe...
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:  42%|████▏     | 76/179 [00:00<00:00, 753.11it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 991.20it/s]
+allenai/OLMo-2-0425-1B-Instruct: V=100352 tied=False probe=100352 |E_in| 9.8247
+  copy probe...
+
+==============================================================================
+1. COVERAGE -- how much of the vocabulary does each stage actually touch?
+==============================================================================
+                        transition | zero-resid rows |    frac | median resid
+------------------------------------------------------------------------------
+                         1B -> SFT |               2 |  0.0000 |    1.439e+01
+                        SFT -> DPO |            2696 |  0.0269 |    1.411e-03
+                   DPO -> Instruct |            1683 |  0.0168 |    3.621e-04
+
+==============================================================================
+2. DAMAGE -- glitch sets per stage, defined by the copy probe
+==============================================================================
+threshold = base-model 1.0th pct of copy-logprob = -14.308
+                             stage | n below thr |   mean lp | new vs base |  healed
+----------------------------------------------------------------------------------
+            allenai/OLMo-2-0425-1B |        1004 |    -3.704 |           0 |       0
+        allenai/OLMo-2-0425-1B-SFT |         523 |    -3.013 |         178 |     659
+        allenai/OLMo-2-0425-1B-DPO |         763 |    -3.353 |         401 |     642
+   allenai/OLMo-2-0425-1B-Instruct |         924 |    -3.600 |         522 |     602
+
+rank-based (worst 1.0% WITHIN each stage, shift-invariant):
+                             stage | overlap w/ base |    new |  jaccard
+------------------------------------------------------------------------
+            allenai/OLMo-2-0425-1B |            1004 |      0 |    1.000
+        allenai/OLMo-2-0425-1B-SFT |             461 |    543 |    0.298
+        allenai/OLMo-2-0425-1B-DPO |             419 |    585 |    0.264
+   allenai/OLMo-2-0425-1B-Instruct |             418 |    586 |    0.263
+
+  rank-based newly-glitched examples: ["'{\\r\\n'", "'.Add'", "'\\tthis'", "'\\tString'", "'ccording'", "'\\tswitch'", "'\\tvirtual'", "'\\tget'", "'/**************", "'ESSAGE'", "'(){\\r\\n'", "'*/\\r\\n'", "'=>{\\n'", "'\\\\Request'", "'spNet'"]
+
+  base-model rank of the 586 newly-glitched (threshold at rank 1004, vocab 100352):
+    median 6032   quartiles 2602/13942   max 63473
+    beyond 2x the threshold rank: 0.821
+    beyond 5x the threshold rank: 0.548
+    beyond 10x the threshold rank: 0.336
+  final-model rank of the 586 healed: median 4008, beyond 5x threshold 0.428
+
+tokens healthy at base but below threshold after post-training: 586
+  examples: ["'{\\r\\n'", "'.Add'", "'\\tthis'", "'\\tString'", "'ccording'", "'\\tswitch'", "'\\tvirtual'", "'\\tget'", "'/**************", "'ESSAGE'", "'(){\\r\\n'", "'*/\\r\\n'", "'=>{\\n'", "'\\\\Request'", "'spNet'"]
+
+==============================================================================
+3. DOES POST-TRAINING GRADIENT SPARSITY PREDICT THE DAMAGE?
+AUC of (low token-specific residual during post-training) vs (degraded)
+==============================================================================
+                         predictor |  AUC vs newly-glitched |  spearman vs delta lp
+----------------------------------------------------------------------------------
+         total post-train residual |                  0.728 |                 0.034
+                 base copy-logprob |                  0.892 |                -0.251
+             residual, non-ws only |                  0.727 |                 0.033
+
+CONTROL: how much do glitch rows move during post-training at all?
+                        transition | total ratio | resid ratio
+--------------------------------------------------------------
+                         1B -> SFT |       0.656 |       0.659
+                        SFT -> DPO |       0.354 |       0.354
+                   DPO -> Instruct |       0.343 |       0.343
+
+saved -> results/sw_olmo2_1b.json

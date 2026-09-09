@@ -1,0 +1,32 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   5%|▌         | 18/339 [00:00<00:02, 153.81it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:01, 165.43it/s]Loading weights:  19%|█▉        | 65/339 [00:00<00:01, 187.36it/s]Loading weights:  26%|██▌       | 88/339 [00:00<00:01, 192.45it/s]Loading weights:  32%|███▏      | 108/339 [00:00<00:01, 186.39it/s]Loading weights:  37%|███▋      | 127/339 [00:00<00:01, 173.44it/s]Loading weights:  44%|████▍     | 149/339 [00:00<00:01, 179.68it/s]Loading weights:  51%|█████     | 172/339 [00:00<00:00, 188.61it/s]Loading weights:  56%|█████▋    | 191/339 [00:01<00:00, 183.40it/s]Loading weights:  62%|██████▏   | 210/339 [00:01<00:00, 170.84it/s]Loading weights:  69%|██████▊   | 233/339 [00:01<00:00, 179.67it/s]Loading weights:  76%|███████▌  | 256/339 [00:01<00:00, 185.69it/s]Loading weights:  81%|████████  | 275/339 [00:01<00:00, 183.32it/s]Loading weights:  87%|████████▋ | 294/339 [00:01<00:00, 170.97it/s]Loading weights:  94%|█████████▎| 317/339 [00:01<00:00, 179.69it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 182.43it/s]
+Qwen/Qwen2.5-7B-Instruct: native tool template=True; thinking=False; tasks ['investigate_config', 'background_note', 'adoption_decision', 'explain_term', 'changelog_check']; groups fragile 10, glitch 10, stable 10
+  task investigate_config: 30 episodes so far
+  task background_note: 60 episodes so far
+  task adoption_decision: 90 episodes so far
+  task explain_term: 120 episodes so far
+  task changelog_check: 150 episodes so far
+
+==============================================================================================================
+   group |   n | 1st query has token any query world hits>0 final mentions finished fabricated calls/ep
+ fragile |  50 |                0.38      0.38         0.38           0.74     1.00       0.00     1.08
+  glitch |  50 |                0.00      0.00         0.00           0.00     1.00       0.00     1.06
+  stable |  50 |                0.62      0.62         0.62           0.76     0.98       0.00     1.26
+
+fragile / glitch episodes where the first search did not contain the token:
+  [investigate_config]              'ঈ' searched for 'service configuration key non-ASCII environment variable' final about None
+  [investigate_config]              '⌕' searched for 'configuration key �� for environment variable requirements' final about None
+  [investigate_config]             '��' searched for 'non-ASCII characters in environment variables for [our service name]' final about None
+  [investigate_config]              '圊' searched for 'non-ASCII characters in environment variable keys for [our service documentation]' final about '圊'
+  [investigate_config]              '𬀩' searched for 'non-ASCII characters in environment variable keys for [our service documentation]' final about '𬀩'
+  [investigate_config]              '柷' searched for 'non-ASCII characters in environment variables for configuration keys' final about None
+  [investigate_config]              '冔' searched for 'ignore configuration key with non-standard characters environment variable' final about 's likely that the character '
+  [investigate_config]              '稌' searched for 'non-ASCII characters in environment variables for [our service documentation]' final about 'TIME'
+  [investigate_config]              '䨰' searched for 'configuration key environment variable ignored service documentation' final about None
+  [investigate_config]              '𫭟' searched for 'configuration key ignored environment variable' final about None
+  [investigate_config]              '臘' searched for 'configuration key ignored environment variable' final about None
+  [investigate_config]          'ลงทุน' searched for 'configuration key ignored environment variable service documentation' final about None
+  [investigate_config]              '諸' searched for 'configuration key ignored environment variable service documentation' final about None
+  [investigate_config]    '<|fim_pad|>' searched for 'configuration key ignored environment variable service documentation' final about None
+
+saved -> results/agent_probe_qwen25_7b.json

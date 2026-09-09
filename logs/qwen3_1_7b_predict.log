@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/glitch/src/cut/fragility_predict.py", line 292, in <module>
+    main()
+  File "/home/ubuntu/glitch/src/cut/fragility_predict.py", line 128, in main
+    gdir = E_in[torch.tensor([int(t) for t in np.where(is_glitch == 1)[0]])].mean(0) - mu_in[0]
+IndexError: tensors used as indices must be long, int, byte or bool tensors
+4200 tokens x 24 contexts; clean-looking non-glitch: 1418; fragile (frag_test >= 0.1): 14  (base rate 0.010)
+NOTE: tied embeddings -- E_out is E_in, so the output-row and direct-path features are not independent of the input-row ones; reported, flagged.

@@ -1,0 +1,314 @@
+{
+ "qwen3_1_7b": {
+  "n_gated": 1666,
+  "n_fragile": 40,
+  "n_ref": 100,
+  "projection on glitch direction": 0.6005381303813039,
+  "token id": 0.7317958179581796,
+  "unembedding: max cos to glitch class": 0.5575953259532594,
+  "unembedding: max cos to glitch class ci": [
+   0.46484984628870296,
+   0.6596856093018253
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.52380073800738,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.437713346886672,
+   0.6239477149131439
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.6024830873308733,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.5251175723325328,
+   0.6799885770193049
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.4124852555701179,
+  "input: max cos to glitch class": 0.655150676506765,
+  "input: max cos to glitch class ci": [
+   0.5638354291933938,
+   0.7424095301443716
+  ],
+  "input: mean cos to 5 nearest glitch": 0.6240313653136531,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.5271302423386632,
+   0.7105390734080009
+  ],
+  "input: share of glitch among 20 nearest": 0.5996079335793358,
+  "input: share of glitch among 20 nearest ci": [
+   0.5254494287328243,
+   0.676421961789551
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.4338810615989515
+ },
+ "qwen25_7b": {
+  "n_gated": 4217,
+  "n_fragile": 294,
+  "n_ref": 100,
+  "projection on glitch direction": 0.7675040446971549,
+  "token id": 0.7993951595422771,
+  "unembedding: max cos to glitch class": 0.8022329502792704,
+  "unembedding: max cos to glitch class ci": [
+   0.7719761958672767,
+   0.8295049974628711
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.8032465089018018,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.773094437109514,
+   0.8296854139740821
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.7184010744241617,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.6901290522828131,
+   0.7455123036959426
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.5418972794453906,
+  "input: max cos to glitch class": 0.7820744917900885,
+  "input: max cos to glitch class ci": [
+   0.7517098818542225,
+   0.8111488596840656
+  ],
+  "input: mean cos to 5 nearest glitch": 0.7865483690289778,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.7569738003774711,
+   0.8149728403828579
+  ],
+  "input: share of glitch among 20 nearest": 0.6738001598804192,
+  "input: share of glitch among 20 nearest ci": [
+   0.6449929356348053,
+   0.7017492869359541
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.5344309683067576
+ },
+ "L": {
+  "n_gated": 2183,
+  "n_fragile": 58,
+  "n_ref": 100,
+  "projection on glitch direction": 0.878815415821501,
+  "token id": 0.6645922920892495,
+  "unembedding: max cos to glitch class": 0.5345476673427991,
+  "unembedding: max cos to glitch class ci": [
+   0.43840973128441735,
+   0.6358652372597884
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.5284462474645031,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.44032662858152705,
+   0.6148058885449361
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.6764827586206896,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.6113824007027404,
+   0.7295449548849733
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.3314823329076203,
+  "input: max cos to glitch class": 0.8472048681541582,
+  "input: max cos to glitch class ci": [
+   0.8084194823431151,
+   0.886511164132498
+  ],
+  "input: mean cos to 5 nearest glitch": 0.8461176470588235,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.8034762761314044,
+   0.8855597925540248
+  ],
+  "input: share of glitch among 20 nearest": 0.7509371196754564,
+  "input: share of glitch among 20 nearest ci": [
+   0.6885390694743506,
+   0.81529193529971
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.4140621541081312
+ },
+ "qwen38_27b": {
+  "n_gated": 3766,
+  "n_fragile": 57,
+  "n_ref": 46,
+  "projection on glitch direction": 0.7815460733256706,
+  "token id": 0.7178319214050224,
+  "unembedding: max cos to glitch class": 0.718181947183948,
+  "unembedding: max cos to glitch class ci": [
+   0.6541491338415644,
+   0.7751850862488836
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.7169663171138955,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.6633881838141412,
+   0.7698199573844517
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.617665422656128,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.5516514204494736,
+   0.6728637074035768
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.4528779976148397,
+  "input: max cos to glitch class": 0.7223396858282131,
+  "input: max cos to glitch class ci": [
+   0.667830958636412,
+   0.7777399865685756
+  ],
+  "input: mean cos to 5 nearest glitch": 0.7438378907635764,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.6912033699009866,
+   0.7900840220977051
+  ],
+  "input: share of glitch among 20 nearest": 0.6181928263635632,
+  "input: share of glitch among 20 nearest ci": [
+   0.5475785250777527,
+   0.6865985749081617
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.5173278541699594
+ },
+ "qwen3_32b": {
+  "n_gated": 1597,
+  "n_fragile": 15,
+  "n_ref": 100,
+  "projection on glitch direction": 0.897850821744627,
+  "token id": 0.8553729456384324,
+  "unembedding: max cos to glitch class": 0.7941002949852507,
+  "unembedding: max cos to glitch class ci": [
+   0.6864882906657801,
+   0.8928671401817344
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.808259587020649,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.6967989270550802,
+   0.8921463745931636
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.7265486725663718,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.5749114069879183,
+   0.8677776903713026
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.34163292847503374,
+  "input: max cos to glitch class": 0.9019806152549517,
+  "input: max cos to glitch class ci": [
+   0.8504149924821721,
+   0.945601679579167
+  ],
+  "input: mean cos to 5 nearest glitch": 0.8813316477033292,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.8155517523092795,
+   0.9342482830776864
+  ],
+  "input: share of glitch among 20 nearest": 0.8437210282343026,
+  "input: share of glitch among 20 nearest ci": [
+   0.7369612202927817,
+   0.9319968653176057
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.5053666216824111
+ },
+ "qwen25_72b": {
+  "n_gated": 3998,
+  "n_fragile": 417,
+  "n_ref": 100,
+  "projection on glitch direction": 0.5986772715310019,
+  "token id": 0.8623858801816409,
+  "unembedding: max cos to glitch class": 0.7799919238024827,
+  "unembedding: max cos to glitch class ci": [
+   0.7500448999429603,
+   0.80248384939335
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.798335472922974,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.7722022806867836,
+   0.8168158987680347
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.7651815436787682,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.7395382260018872,
+   0.7853389618712349
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.509695489801781,
+  "input: max cos to glitch class": 0.6922372741293141,
+  "input: max cos to glitch class ci": [
+   0.6635995646737245,
+   0.7182677958949356
+  ],
+  "input: mean cos to 5 nearest glitch": 0.6846793997362848,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.655386466638408,
+   0.7112003429360355
+  ],
+  "input: share of glitch among 20 nearest": 0.5923482381366619,
+  "input: share of glitch among 20 nearest ci": [
+   0.5699630472949704,
+   0.6173548720433625
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.47413940149230804
+ },
+ "qwen38_flash": {
+  "n_gated": 4047,
+  "n_fragile": 15,
+  "n_ref": 33,
+  "projection on glitch direction": 0.8387070105820105,
+  "token id": 0.6910218253968254,
+  "unembedding: max cos to glitch class": 0.8401785714285713,
+  "unembedding: max cos to glitch class ci": [
+   0.7103982002943589,
+   0.9460380703364965
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.8213458994708995,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.6872780361613204,
+   0.9376376449505793
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.7785218253968255,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.6248495243575185,
+   0.9068471977859185
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.5482487288488788,
+  "input: max cos to glitch class": 0.8115575396825396,
+  "input: max cos to glitch class ci": [
+   0.635709119928216,
+   0.9531158838654156
+  ],
+  "input: mean cos to 5 nearest glitch": 0.7939318783068783,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.6187893291636475,
+   0.9435589241045585
+  ],
+  "input: share of glitch among 20 nearest": 0.8125082671957672,
+  "input: share of glitch among 20 nearest ci": [
+   0.6680014503654991,
+   0.9284991213193557
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.46942402267233474
+ },
+ "qwen3_235b": {
+  "n_gated": 6277,
+  "n_fragile": 682,
+  "n_ref": 100,
+  "projection on glitch direction": 0.7395045324821334,
+  "token id": 0.8710387626153431,
+  "unembedding: max cos to glitch class": 0.7389953325523679,
+  "unembedding: max cos to glitch class ci": [
+   0.7214111896210705,
+   0.7567610298323001
+  ],
+  "unembedding: mean cos to 5 nearest glitch": 0.7526027375720361,
+  "unembedding: mean cos to 5 nearest glitch ci": [
+   0.7322840256232189,
+   0.7724370127858011
+  ],
+  "unembedding: share of glitch among 20 nearest": 0.6159952460696212,
+  "unembedding: share of glitch among 20 nearest ci": [
+   0.6005154689090746,
+   0.6332228891679286
+  ],
+  "unembedding: max cos to random never-fragile set (control, mean of 10)": 0.3811544085665721,
+  "input: max cos to glitch class": 0.7697254041758063,
+  "input: max cos to glitch class ci": [
+   0.7497557779581572,
+   0.7911214355302026
+  ],
+  "input: mean cos to 5 nearest glitch": 0.790574690955215,
+  "input: mean cos to 5 nearest glitch ci": [
+   0.7682666815008101,
+   0.811169174419826
+  ],
+  "input: share of glitch among 20 nearest": 0.6659632736602381,
+  "input: share of glitch among 20 nearest ci": [
+   0.6480672947351329,
+   0.684654334771564
+  ],
+  "input: max cos to random never-fragile set (control, mean of 10)": 0.46105387729180614
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "model": "EleutherAI/pythia-1.4b",
+ "top_n": 200,
+ "k": 8,
+ "repaired": 200,
+ "before": {
+  "verified glitch (magikarp)": 0.05,
+  "confirmed glitch (ours)": 0.2,
+  "control (normal tokens)": 0.7
+ },
+ "after": {
+  "verified glitch (magikarp)": 0.05,
+  "confirmed glitch (ours)": 0.2,
+  "control (normal tokens)": 0.7
+ },
+ "coverage": {
+  "verified glitch (magikarp)": 1,
+  "confirmed glitch (ours)": 0,
+  "control (normal tokens)": 0
+ },
+ "ppl_before": 15.915102144967573,
+ "ppl_after": 15.915102144967573
+}

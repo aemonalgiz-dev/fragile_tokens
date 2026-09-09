@@ -1,0 +1,86 @@
+#### 1. pre-flight: FP8 smoke on Qwen/Qwen3-0.6B-FP8  (15:31:31)
+   smoke exit 0
+#### 2. Qwen2.5-7B-Instruct control rung, N_TOK=8400  (15:33:57)
+#### qwen25_7b  (Qwen/Qwen2.5-7B-Instruct)  thinking=0 screen=0 flags='' N_TOK=8400
+== qwen25_7b_fragility  (15:33:57)
+   exit 0  (15:49:26)
+== qwen25_7b_compact  (15:49:26)
+   exit 0  (15:49:30)
+== qwen25_7b_gate  (15:49:30)
+   exit 0  (15:49:34)
+== qwen25_7b_predict  (15:49:34)
+   exit 0  (15:52:40)
+== qwen25_7b_predict_greedy  (15:52:40)
+   exit 0  (15:56:22)
+== qwen25_7b_reasoning  (15:56:22)
+   control rung exit 143  (16:02:35)
+#### 3. Qwen2.5-72B: re-score slice at batch 1, then leftovers  (16:02:35)
+   rescore exit 0  (16:13:47)
+   greedy specimens exit 1  (16:18:24)
+   reasoning v2 exit 0  (16:41:29)
+#### 4. Qwen3-235B-A22B-FP8 rung, N_TOK=8400  (16:41:44)
+#### qwen3_235b  (Qwen/Qwen3-235B-A22B-FP8)  thinking=1 screen=1 flags='' N_TOK=8400
+== qwen3_235b_fragility  (16:41:44)
+   exit 1  (16:45:56)
+ALL DONE Mon Sep  7 16:45:56 UTC 2026
+   235B rung exit 0  (16:45:56)
+RUNG4 SCRIPT DONE Mon Sep  7 16:45:56 UTC 2026
+#### 4b. Qwen3-235B-A22B-FP8 rung, N_TOK=8400, cards free  (18:50:55)
+#### qwen3_235b  (Qwen/Qwen3-235B-A22B-FP8)  thinking=1 screen=1 flags='' N_TOK=8400
+== qwen3_235b_fragility  (18:50:55)
+   exit 0  (21:18:57)
+== qwen3_235b_compact  (21:18:57)
+   exit 0  (21:19:02)
+== qwen3_235b_gate  (21:19:02)
+   exit 0  (21:19:06)
+== qwen3_235b_predict  (21:19:06)
+   exit 0  (21:23:35)
+== qwen3_235b_predict_greedy  (21:23:35)
+   exit 0  (21:28:56)
+== qwen3_235b_reasoning  (21:28:56)
+#### 235B: generation stages skipped (FP8 MoE generation ~7 s/token); interaction screen only  (22:36:02)
+   screen finished (23:15:59); exists: results/interaction_screen_qwen3_235b.json
+   235B specimens (no continuation) exit 0  (23:19:54)
+   235B greedy specimens (no continuation) exit 0  (23:23:32)
+RUNG4B DONE Mon Sep  7 23:23:32 UTC 2026
+#### 7. Qwen3.8-Flash-Next-FP8 rung, N_TOK=8400, chat framing, teacher-forced stages only  (23:25:13)
+#### qwen38_flash  (Qwen/Qwen3.8-Flash-Next-FP8)  thinking=0 screen=0 flags='' N_TOK=8400
+== qwen38_flash_fragility  (23:25:13)
+   exit 1  (23:30:36)
+ALL DONE Mon Sep  7 23:30:36 UTC 2026
+   Flash-Next rung exit 0  (23:30:36)
+QWEN38 FLASH DONE Mon Sep  7 23:30:36 UTC 2026
+#### 7b. Qwen3.8-Flash-Next-FP8 rung (v4, 56GiB/card cap), N_TOK=8400, chat framing, teacher-forced only  (23:36:52)
+#### qwen38_flash  (Qwen/Qwen3.8-Flash-Next-FP8)  thinking=0 screen=0 flags='' N_TOK=8400
+== qwen38_flash_fragility  (23:36:52)
+   exit 1  (23:40:07)
+ALL DONE Mon Sep  7 23:40:07 UTC 2026
+   Flash-Next rung exit 0  (23:40:07)
+QWEN38 FLASH DONE2 Mon Sep  7 23:40:08 UTC 2026
+#### 7c. Qwen3.8-Flash-Next-FP8 rung (v5, 56GiB/card cap + fp8 embedding rescale), N_TOK=8400, chat framing, teacher-forced only  (23:43:55)
+#### qwen38_flash  (Qwen/Qwen3.8-Flash-Next-FP8)  thinking=0 screen=0 flags='' N_TOK=8400
+== qwen38_flash_fragility  (23:43:55)
+   v5 killed at 00:27:18: filler pool never finished (QSA indexer python loop)
+#### 7d. Qwen3.8-Flash-Next-FP8 rung (v6, 56GiB/card cap + fp8 embedding rescale + indexer fast path), N_TOK=8400, chat framing, teacher-forced only  (00:27:19)
+#### qwen38_flash  (Qwen/Qwen3.8-Flash-Next-FP8)  thinking=0 screen=0 flags='' N_TOK=8400
+== qwen38_flash_fragility  (00:27:19)
+   exit 0  (01:45:39)
+== qwen38_flash_compact  (01:45:39)
+   exit 0  (01:45:44)
+== qwen38_flash_gate  (01:45:44)
+   exit 0  (01:45:49)
+== qwen38_flash_predict  (01:45:49)
+   exit 0  (01:45:56)
+== qwen38_flash_predict_greedy  (01:45:56)
+   exit 0  (01:49:34)
+== qwen38_flash: generation stages skipped (SKIP_GEN=1)
+ALL DONE Tue Sep  8 01:49:34 UTC 2026
+   Flash-Next rung exit 0  (01:49:34)
+  qwen4_exp QSA indexer: exact fast path for key lengths <= budget
+  fp8 embedding model.layers.1.ple.ple_embedding.ngram_embedding: lookup rescaled by 0.0001993 to torch.bfloat16
+  filler pool: 1925 clean common words
+  standard single probe: 3483/8400 tokens look clean (lp > -0.1); glitch tokens looking clean: 0
+  most fragile CLEAN-LOOKING tokens (pass the single probe, fail in context):
+   specimens (no continuation) exit 0  (01:52:43)
+   greedy specimens (no continuation) exit 0  (01:55:57)
+QWEN38 FLASH DONE4 Tue Sep  8 01:55:57 UTC 2026

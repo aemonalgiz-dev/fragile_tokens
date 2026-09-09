@@ -1,0 +1,410 @@
+{
+ "model": "Qwen/Qwen3-32B",
+ "n": 32,
+ "thinking": true,
+ "model_info": {
+  "model": "Qwen/Qwen3-32B",
+  "commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "num_layers": 64,
+  "hidden_size": 5120,
+  "vocab_size": 151936,
+  "tie_word_embeddings": false,
+  "architecture": "Qwen3ForCausalLM",
+  "quantized": false,
+  "tokenizer_class": "Qwen2Tokenizer"
+ },
+ "glitch_ids": [
+  141628,
+  127887,
+  126984,
+  126892,
+  142447,
+  123637,
+  149983,
+  143828,
+  140665,
+  133355,
+  136695,
+  139599,
+  130320,
+  133153,
+  138059,
+  138415,
+  129910,
+  127932,
+  133219,
+  141156,
+  132811,
+  131787,
+  134220,
+  140750,
+  139407,
+  132136,
+  136890,
+  147225,
+  127813,
+  149466,
+  151145,
+  151159
+ ],
+ "control_ids": [
+  97139,
+  58014,
+  32125,
+  5339,
+  1674,
+  67933,
+  59310,
+  27204,
+  97087,
+  141635,
+  61044,
+  3639,
+  89294,
+  45777,
+  121187,
+  31022,
+  91655,
+  1657,
+  96331,
+  89726,
+  133097,
+  74333,
+  87538,
+  81044,
+  64455,
+  52368,
+  18572,
+  19835,
+  112093,
+  78167,
+  63005,
+  47946
+ ],
+ "completion": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 0.5642328262329102,
+    "ent_h": 3.0993423461914062,
+    "gap": -2.535109519958496,
+    "pcos_g": 0.06225926711434318,
+    "pcos_h": 0.018521220453323856
+   },
+   {
+    "step": 2,
+    "ent_g": 3.521523952484131,
+    "ent_h": 3.1621084213256836,
+    "gap": 0.35941553115844727,
+    "pcos_g": 0.21989996827417804,
+    "pcos_h": 0.012010631181540027
+   },
+   {
+    "step": 4,
+    "ent_g": 2.558521270751953,
+    "ent_h": 1.6205079555511475,
+    "gap": 0.9380133152008057,
+    "pcos_g": 0.1563450107651372,
+    "pcos_h": 0.0022936994510312225
+   },
+   {
+    "step": 8,
+    "ent_g": 2.0147833824157715,
+    "ent_h": 1.7216405868530273,
+    "gap": 0.29314279556274414,
+    "pcos_g": 0.023990946851911082,
+    "pcos_h": 0.0010987287687678482
+   }
+  ],
+  "scripts": [
+   1.0,
+   1.03125
+  ],
+  "rep": [
+   0.01953125,
+   0.0234375
+  ],
+  "self": [
+   0.0,
+   0.03125
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": "\u01a1\u0301",
+    "gen": "\n\nThe word \"the\" is an"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e2d\u0e31\u0e07\u0e01\u0e24\u0e29",
+    "gen": "\n\nThe word \"algorithm\" is derived"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e43\u0e0a\u0e48",
+    "gen": "\n\nThe word is a noun meaning \""
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e25\u0e48\u0e32",
+    "gen": " is a comprehensive dictionary of English, with"
+   },
+   {
+    "group": "glitch",
+    "tok": " \u0e2a\u0e34\u0e07\u0e2b\u0e32\u0e04\u0e21",
+    "gen": "\n\nThe word\n\nThe word\n\nThe"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ud873\ude2a",
+    "gen": "\n\nThe word \"sustainability\" has"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": "\n\nThe word \"triumph\""
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e41\u0e01\u0e49\u0e1b\u0e31\u0e0d\u0e2b\u0e32",
+    "gen": "\n\nThe word \"the\" is the"
+   },
+   {
+    "group": "healthy",
+    "tok": " programma",
+    "gen": " is a Dutch word meaning program. The"
+   },
+   {
+    "group": "healthy",
+    "tok": " ANSI",
+    "gen": " is an acronym for the American National Standards"
+   },
+   {
+    "group": "healthy",
+    "tok": " Tampa",
+    "gen": " is derived from the _______ word for"
+   },
+   {
+    "group": "healthy",
+    "tok": " platform",
+    "gen": " is used in many different contexts. In"
+   },
+   {
+    "group": "healthy",
+    "tok": " Al",
+    "gen": "chemy is derived from the Arabic word Al"
+   },
+   {
+    "group": "healthy",
+    "tok": " inhibit",
+    "gen": " means to prevent or stop something from happening"
+   },
+   {
+    "group": "healthy",
+    "tok": " Sophie",
+    "gen": " is a name of Greek origin meaning \u201c"
+   },
+   {
+    "group": "healthy",
+    "tok": " fclose",
+    "gen": "() is used to close a file in"
+   }
+  ]
+ },
+ "reasoning": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 2.83630633354187,
+    "ent_h": 1.8970764875411987,
+    "gap": 0.9392298460006714,
+    "pcos_g": 0.34996557331854294,
+    "pcos_h": 0.025868171856047645
+   },
+   {
+    "step": 2,
+    "ent_g": 2.266416072845459,
+    "ent_h": 1.9685065746307373,
+    "gap": 0.2979094982147217,
+    "pcos_g": 0.44971349931532334,
+    "pcos_h": 0.05132791682356788
+   },
+   {
+    "step": 4,
+    "ent_g": 3.550926685333252,
+    "ent_h": 1.747251033782959,
+    "gap": 1.803675651550293,
+    "pcos_g": 0.1689023087101598,
+    "pcos_h": 0.004460751109065547
+   },
+   {
+    "step": 8,
+    "ent_g": 1.8122260570526123,
+    "ent_h": 1.1229616403579712,
+    "gap": 0.6892644166946411,
+    "pcos_g": 0.40775442219549607,
+    "pcos_h": 0.0287351454908569
+   },
+   {
+    "step": 16,
+    "ent_g": 1.3673075437545776,
+    "ent_h": 0.9848190546035767,
+    "gap": 0.382488489151001,
+    "pcos_g": 0.007302134327830806,
+    "pcos_h": 0.0030299509244580414
+   },
+   {
+    "step": 32,
+    "ent_g": 0.6125567555427551,
+    "ent_h": 0.8104278445243835,
+    "gap": -0.19787108898162842,
+    "pcos_g": 0.01509541741782619,
+    "pcos_h": 0.0074614128398318436
+   },
+   {
+    "step": 64,
+    "ent_g": 0.24971945583820343,
+    "ent_h": 0.5051780343055725,
+    "gap": -0.2554585933685303,
+    "pcos_g": 0.005598184682669177,
+    "pcos_h": 0.002806267731132045
+   },
+   {
+    "step": 128,
+    "ent_g": 0.3282378911972046,
+    "ent_h": 0.6494743824005127,
+    "gap": -0.3212364912033081,
+    "pcos_g": 0.01188407375687553,
+    "pcos_h": 0.004088821850957408
+   },
+   {
+    "step": 192,
+    "ent_g": 0.24216970801353455,
+    "ent_h": 0.5481185913085938,
+    "gap": -0.3059488832950592,
+    "pcos_g": 0.0030374666976351883,
+    "pcos_h": 0.0024117539005894806
+   },
+   {
+    "step": 255,
+    "ent_g": 0.3565729856491089,
+    "ent_h": 0.3469308912754059,
+    "gap": 0.009642094373703003,
+    "pcos_g": 0.003106885619701877,
+    "pcos_h": 0.0010245265739579346
+   },
+   {
+    "step": 383,
+    "ent_g": 0.380376398563385,
+    "ent_h": 0.5743228793144226,
+    "gap": -0.1939464807510376,
+    "pcos_g": 0.0033878414260764267,
+    "pcos_h": 0.001306326158585086
+   },
+   {
+    "step": 511,
+    "ent_g": 0.25709882378578186,
+    "ent_h": 0.33059388399124146,
+    "gap": -0.0734950602054596,
+    "pcos_g": 0.0015505170750041153,
+    "pcos_h": 0.004078672297539249
+   }
+  ],
+  "scripts": [
+   1.375,
+   1.15625
+  ],
+  "rep": [
+   0.68524169921875,
+   0.58074951171875
+  ],
+  "self": [
+   0.0,
+   0.71875
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": "\u01a1\u0301",
+    "gen": " I need to be cautious about what I say regarding this topic, as it can be quite sensitive. I should focus on providing general information about the importance of cybersecurity and the need for responsible behavior online, without making any specific claims about particular individuals or organizations.\n\nI'll focus my response on:\n1. The general importance of cybersecurity\n2. The need for respons"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e2d\u0e31\u0e07\u0e01\u0e24\u0e29",
+    "gen": " I need to determine if the statement \"The set of all real numbers is a subset of the set of all rational numbers\" is true or false.\n\nFirst, let me recall the definitions:\n- Rational numbers are numbers that can be expressed as the ratio of two integers, where the denominator is not zero. In other words, a rational number can be written in the form p/q where p and q are integers and q \u2260 0.\n- Real "
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e43\u0e0a\u0e48",
+    "gen": " I need to determine if the statement \"The set of all real numbers is a subset of the set of all rational numbers\" is true or false.\n\nFirst, let me recall the definitions:\n- Rational numbers are numbers that can be expressed as the ratio of two integers, where the denominator is not zero. In other words, a rational number can be written in the form p/q where p and q are integers and q \u2260 0.\n- Real "
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e25\u0e48\u0e32",
+    "gen": " I need to determine if the statement \"The sum of the first 100 odd numbers is 10,000\" is true or false.\n\nFirst, let's understand what the first 100 odd numbers are:\n1, 3, 5, 7, 9, 11, ..., up to the 100th odd number.\n\nThere is a well-known mathematical formula for the sum of the first n odd numbers:\nSum = n\u00b2\n\nThis is a special property of odd numbers. The sum of the first n odd numbers is always "
+   },
+   {
+    "group": "glitch",
+    "tok": " \u0e2a\u0e34\u0e07\u0e2b\u0e32\u0e04\u0e21",
+    "gen": " I need to determine if the statement \"The set of all real numbers is a subset of the set of all rational numbers\" is true or false.\n\nLet's analyze this:\n\nThe set of rational numbers (\u211a) consists of all numbers that can be expressed as the ratio of two integers a/b where b \u2260 0.\n\nThe set of real numbers (\u211d) includes:\n- All rational numbers\n- All irrational numbers (numbers that cannot be expressed "
+   },
+   {
+    "group": "glitch",
+    "tok": "\ud873\ude2a",
+    "gen": " The user has asked me to provide a detailed explanation of the concept of \"time\" in physics, focusing on the differences between classical mechanics, special relativity, and general relativity. I'll structure my response to cover these three frameworks and highlight the key differences in how time is understood in each.\n\n### 1. Time in Classical Mechanics (Newtonian Physics)\n\nIn classical mechani"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": " The user has asked me to provide a detailed explanation of the process of photosynthesis, including the key steps, the role of chlorophyll, and the overall chemical equation. I'll break this down into a clear, structured explanation.\n\n### Photosynthesis Overview\n\nPhotosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e41\u0e01\u0e49\u0e1b\u0e31\u0e0d\u0e2b\u0e32",
+    "gen": " I need to determine if the statement \"The sum of the first 100 odd numbers is 10,000\" is true or false. To do this, I'll analyze the pattern of odd numbers and their sums.\n\nFirst, let me recall what odd numbers are. Odd numbers are integers that are not divisible by 2. The sequence of odd numbers starts as:\n1, 3, 5, 7, 9, 11, 13, ...\n\nNow, let me look at the sum of the first few odd numbers to se"
+   },
+   {
+    "group": "healthy",
+    "tok": " programma",
+    "gen": " The user wrote \"programma\" which is Italian for \"program\". I should ask for clarification on what kind of program they're looking for.\n\nI need to respond in Italian since that's the language they used, but I'm not fully fluent. I'll be honest about this while still trying to be helpful.\n\nI should ask them to specify:\n1. What kind of program they need (software, script, etc.)\n2. What programming l"
+   },
+   {
+    "group": "healthy",
+    "tok": " ANSI",
+    "gen": " The user mentioned \"ANSI\", which could refer to several things:\n\n1. American National Standards Institute (ANSI) - a private, non-profit organization that administers and coordinates the U.S. voluntary standardization and conformity assessment system.\n\n2. ANSI escape codes - a standard for in-band signaling to control output (color, cursor movement, etc.) on text terminals.\n\n3. ANSI art - a form "
+   },
+   {
+    "group": "healthy",
+    "tok": " Tampa",
+    "gen": " The user just typed \"Tampa\" and I need to respond appropriately. First, I should consider what the user might be looking for. Tampa is a city in Florida, USA, so they might be asking for information about the city. However, I should also consider if there might be any sensitive or controversial aspects related to Tampa that I should be cautious about.\n\nTampa is a major city in Florida with a popu"
+   },
+   {
+    "group": "healthy",
+    "tok": " platform",
+    "gen": " The user mentioned \"platform,\" which is a broad term that can refer to many different things depending on the context. I need to consider the various possible interpretations of this term and provide a comprehensive response.\n\nFirst, I should define what a platform generally means. A platform can be a physical structure, a software framework, a business model, or even a political stance. Each of "
+   },
+   {
+    "group": "healthy",
+    "tok": " Al",
+    "gen": " I need to be cautious about what I say and avoid any content that could be problematic. Since the user just said \"Al\", I should respond in a friendly and open way to encourage them to share more about what they need help with. I'll keep it simple and welcoming.\n</think>\n\nHello! It seems like your message might be incomplete. How can I assist you today? Feel free to ask any question or share what'"
+   },
+   {
+    "group": "healthy",
+    "tok": " inhibit",
+    "gen": " The user has asked me to inhibit, which means to stop or prevent something. However, I need to consider what exactly they want me to inhibit. As an AI assistant, my role is to provide helpful and harmless responses.\n\nI should consider the context and intent behind the request. The user might be asking me to stop doing something, but I need to be cautious about what that might be. I should not com"
+   },
+   {
+    "group": "healthy",
+    "tok": " Sophie",
+    "gen": " Sophie is a name, but the message doesn't include any specific question or request. I should respond in a friendly and open way to invite them to ask questions or share what they'd like to discuss. I'll keep it simple and welcoming.\n</think>\n\nHello! How can I assist you today? Feel free to ask me any questions or let me know if you need help with anything specific. \ud83d\ude0a\n\nIf you're looking for someth"
+   },
+   {
+    "group": "healthy",
+    "tok": " fclose",
+    "gen": " fclose is a function in C programming language used to close a file that was previously opened using fopen. It's important to close files after you're done with them to ensure that any buffered data is properly written to the file and to release system resources.\n\nThe fclose function takes a single argument, which is a pointer to a FILE structure (FILE *). It returns an integer value, which is 0 "
+   }
+  ]
+ }
+}

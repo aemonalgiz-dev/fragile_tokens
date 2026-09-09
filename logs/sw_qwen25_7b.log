@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:18<00:54, 18.25s/it]Fetching 4 files:  75%|███████▌  | 3/4 [00:21<00:05,  5.76s/it]Fetching 4 files: 100%|██████████| 4/4 [00:24<00:00,  4.87s/it]Fetching 4 files: 100%|██████████| 4/4 [00:24<00:00,  6.05s/it]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   9%|▉         | 30/339 [00:00<00:01, 284.59it/s]Loading weights:  24%|██▎       | 80/339 [00:00<00:00, 407.46it/s]Loading weights:  37%|███▋      | 124/339 [00:00<00:00, 396.62it/s]Loading weights:  51%|█████▏    | 174/339 [00:00<00:00, 421.05it/s]Loading weights:  65%|██████▌   | 222/339 [00:00<00:00, 432.59it/s]Loading weights:  79%|███████▉  | 269/339 [00:00<00:00, 427.87it/s]Loading weights:  94%|█████████▎| 317/339 [00:00<00:00, 436.61it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 438.08it/s]
+Qwen/Qwen2.5-7B: V=152064 tied=False probe=40000 |E_in| 0.7915
+  copy probe...
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:07<00:23,  7.75s/it]Fetching 4 files:  50%|█████     | 2/4 [00:08<00:07,  3.72s/it]Fetching 4 files: 100%|██████████| 4/4 [00:10<00:00,  1.97s/it]Fetching 4 files: 100%|██████████| 4/4 [00:10<00:00,  2.63s/it]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:49,  6.78it/s]Loading weights:  18%|█▊        | 60/339 [00:00<00:00, 293.71it/s]Loading weights:  31%|███▏      | 106/339 [00:00<00:00, 336.48it/s]Loading weights:  44%|████▍     | 149/339 [00:00<00:00, 368.42it/s]Loading weights:  61%|██████▏   | 208/339 [00:00<00:00, 423.53it/s]Loading weights:  76%|███████▌  | 256/339 [00:00<00:00, 434.26it/s]Loading weights:  90%|████████▉ | 305/339 [00:00<00:00, 422.64it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 397.53it/s]
+Qwen/Qwen2.5-7B-Instruct: V=152064 tied=False probe=40000 |E_in| 0.7907
+  copy probe...
+
+==============================================================================
+1. COVERAGE -- how much of the vocabulary does each stage actually touch?
+==============================================================================
+                        transition | zero-resid rows |    frac | median resid
+------------------------------------------------------------------------------
+                    7B -> Instruct |            7688 |  0.0506 |    1.424e-02
+
+==============================================================================
+2. DAMAGE -- glitch sets per stage, defined by the copy probe
+==============================================================================
+threshold = base-model 1.0th pct of copy-logprob = -11.601
+                             stage | n below thr |   mean lp | new vs base |  healed
+----------------------------------------------------------------------------------
+                   Qwen/Qwen2.5-7B |         772 |    -1.850 |           0 |       0
+          Qwen/Qwen2.5-7B-Instruct |        2311 |    -3.167 |        1556 |      17
+
+rank-based (worst 1.0% WITHIN each stage, shift-invariant):
+                             stage | overlap w/ base |    new |  jaccard
+------------------------------------------------------------------------
+                   Qwen/Qwen2.5-7B |             772 |      0 |    1.000
+          Qwen/Qwen2.5-7B-Instruct |             407 |     21 |    0.513
+
+  rank-based newly-glitched examples: ["'.doc'", "'_VEC'", "'useRal'", "'�'", "'�'", "'𦭜'", "'𪨰'", "'𫭼'", "'𦒍'", "'눱'", "'ﰴ'", "'꿱'", "'툶'", "'섥'", "'ﳥ'"]
+
+  base-model rank of the 21 newly-glitched (threshold at rank 772, vocab 40000):
+    median 900   quartiles 834/999   max 1519
+    beyond 2x the threshold rank: 0.000
+    beyond 5x the threshold rank: 0.000
+    beyond 10x the threshold rank: 0.000
+  final-model rank of the 365 healed: median 610, beyond 5x threshold 0.019
+
+tokens healthy at base but below threshold after post-training: 21
+  examples: ["'.doc'", "'_VEC'", "'useRal'", "'�'", "'�'", "'𦭜'", "'𪨰'", "'𫭼'", "'𦒍'", "'눱'", "'ﰴ'", "'꿱'", "'툶'", "'섥'", "'ﳥ'"]
+
+==============================================================================
+3. DOES POST-TRAINING GRADIENT SPARSITY PREDICT THE DAMAGE?
+AUC of (low token-specific residual during post-training) vs (degraded)
+==============================================================================
+                         predictor |  AUC vs newly-glitched |  spearman vs delta lp
+----------------------------------------------------------------------------------
+         total post-train residual |                  0.925 |                 0.126
+                 base copy-logprob |                  0.977 |                 0.322
+             residual, non-ws only |                  0.927 |                 0.121
+
+CONTROL: how much do glitch rows move during post-training at all?
+                        transition | total ratio | resid ratio
+--------------------------------------------------------------
+                    7B -> Instruct |       0.030 |       0.030
+
+saved -> results/sw_qwen25_7b.json

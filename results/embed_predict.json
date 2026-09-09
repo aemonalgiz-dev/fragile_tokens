@@ -1,0 +1,161 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "n_probe": 4000,
+ "fail_rate": 0.2115,
+ "auc_single": {
+  "copy margin (direct path)": 0.5462231531576099,
+  "best competitor score": 0.4308030929241415,
+  "self score": 0.6256125659787339,
+  "row norm (baseline)": 0.5813065625698014,
+  "dist to centroid (baseline)": 0.5785484228815223,
+  "nearest-nbr cos (baseline)": 0.36000309562250493
+ },
+ "sub_top1": 0.0028776978417266188,
+ "sub_top5": 0.0057553956834532375,
+ "n_scored": 695,
+ "examples": [
+  {
+   "tok": "\ufffd",
+   "emitted": "\u0233",
+   "predicted": [
+    "adata",
+    "arium",
+    "caf"
+   ]
+  },
+  {
+   "tok": "ction",
+   "emitted": "tion",
+   "predicted": [
+    "olas",
+    "_sn",
+    "Leonardo"
+   ]
+  },
+  {
+   "tok": "*/",
+   "emitted": "/*",
+   "predicted": [
+    "ailer",
+    "rk",
+    "endon"
+   ]
+  },
+  {
+   "tok": "ience",
+   "emitted": "science",
+   "predicted": [
+    "yro",
+    "croll",
+    "andest"
+   ]
+  },
+  {
+   "tok": ".Add",
+   "emitted": ".",
+   "predicted": [
+    "LAG",
+    "\u0430\u0440\u0430\u043c",
+    "erna"
+   ]
+  },
+  {
+   "tok": "osition",
+   "emitted": "position",
+   "predicted": [
+    "Produto",
+    "nel",
+    "contador"
+   ]
+  },
+  {
+   "tok": "++)",
+   "emitted": "))",
+   "predicted": [
+    "contador",
+    "<!--",
+    "foto"
+   ]
+  },
+  {
+   "tok": "ension",
+   "emitted": "tension",
+   "predicted": [
+    "midd",
+    "CKER",
+    "hed"
+   ]
+  },
+  {
+   "tok": "plement",
+   "emitted": "supplement",
+   "predicted": [
+    "al",
+    "contador",
+    "nat"
+   ]
+  },
+  {
+   "tok": "erver",
+   "emitted": "ever",
+   "predicted": [
+    "Sey",
+    "leet",
+    "_DIS"
+   ]
+  },
+  {
+   "tok": "structor",
+   "emitted": "instructor",
+   "predicted": [
+    "uum",
+    "lero",
+    "RK"
+   ]
+  },
+  {
+   "tok": "'),\n",
+   "emitted": "('apple pie is good', '",
+   "predicted": [
+    "\u00d7",
+    "*</",
+    "yeni"
+   ]
+  },
+  {
+   "tok": "istance",
+   "emitted": "distance",
+   "predicted": [
+    "enas",
+    "iol",
+    "Pret"
+   ]
+  },
+  {
+   "tok": "ensions",
+   "emitted": "extensions",
+   "predicted": [
+    "esso",
+    "CKER",
+    "berry"
+   ]
+  },
+  {
+   "tok": " $(",
+   "emitted": "(",
+   "predicted": [
+    "Thumbnail",
+    "pga",
+    "AGR"
+   ]
+  }
+ ],
+ "seq_fail_rate": 0.14666666666666667,
+ "auc_seq": {
+  "max cross-excitation": 0.5025745738636364,
+  "min margin in sequence": 0.4557883522727273,
+  "mean margin in sequence": 0.49573863636363635,
+  "min row norm (baseline)": 0.6003639914772727,
+  "max nn-cos (baseline)": 0.48051313920454547
+ }
+}

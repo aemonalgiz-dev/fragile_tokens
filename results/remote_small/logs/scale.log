@@ -1,0 +1,44 @@
+#### 1. Qwen3-32B: re-score slice at batch 1  (16:16:37)
+   rescore exit 0  (16:22:11)
+fail/pass agreement per cell 0.9990;  fragility corr stored vs rescored 0.9999
+    fragile: mean fragility stored 0.325  rescored 0.325
+      clean: mean fragility stored 0.000  rescored 0.000
+  reference: mean fragility stored 1.000  rescored 1.000
+#### 2. Qwen2.5-7B-Instruct control rung, N_TOK=8400  (16:22:11)
+#### qwen25_7b  (Qwen/Qwen2.5-7B-Instruct)  thinking=0 screen=0 flags='' N_TOK=8400
+== qwen25_7b_fragility already done
+== qwen25_7b_compact already done
+== qwen25_7b_gate already done
+== qwen25_7b_predict already done
+== qwen25_7b_predict_greedy already done
+== qwen25_7b_reasoning  (16:22:11)
+   exit 0  (16:27:46)
+== qwen25_7b_specimens  (16:27:46)
+   exit 1  (16:28:55)
+== qwen25_7b_specimens_greedy  (16:28:55)
+   exit 1  (16:29:59)
+ALL DONE Mon Sep  7 16:30:01 UTC 2026
+   control rung exit 0  (16:30:01)
+#### 3. Qwen3-32B fresh rung (tag qwen3_32b_r2), N_TOK=8400  (16:30:01)
+#### qwen3_32b_r2  (Qwen/Qwen3-32B)  thinking=1 screen=0 flags='' N_TOK=8400
+== qwen3_32b_r2_fragility  (16:30:01)
+   exit 0  (17:39:32)
+== qwen3_32b_r2_compact  (17:39:32)
+   exit 0  (17:39:39)
+== qwen3_32b_r2_gate  (17:39:39)
+   exit 0  (17:39:45)
+== qwen3_32b_r2_predict  (17:39:45)
+   exit 0  (17:39:52)
+== qwen3_32b_r2_predict_greedy  (17:39:52)
+   exit 0  (17:42:23)
+== qwen3_32b_r2_reasoning  (17:42:23)
+   exit 0  (17:57:19)
+== qwen3_32b_r2_reasoning_think  (17:57:19)
+   exit 0  (18:25:01)
+== qwen3_32b_r2_specimens  (18:25:01)
+   exit 0  (18:26:10)
+== qwen3_32b_r2_specimens_greedy  (18:26:10)
+   exit 0  (18:28:44)
+ALL DONE Mon Sep  7 18:28:52 UTC 2026
+   32B rerun exit 0  (18:28:52)
+SMALL NODE DONE Mon Sep  7 18:28:52 UTC 2026

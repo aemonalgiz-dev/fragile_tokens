@@ -1,0 +1,41 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:23<00:47, 23.83s/it]Fetching 3 files:  67%|██████▋   | 2/3 [00:34<00:16, 16.28s/it]Fetching 3 files: 100%|██████████| 3/3 [00:36<00:00,  9.71s/it]Fetching 3 files: 100%|██████████| 3/3 [00:36<00:00, 12.24s/it]
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   7%|▋         | 26/355 [00:00<00:01, 223.07it/s]Loading weights:  14%|█▍        | 49/355 [00:00<00:01, 204.72it/s]Loading weights:  20%|██        | 71/355 [00:00<00:01, 202.73it/s]Loading weights:  26%|██▌       | 92/355 [00:00<00:01, 201.06it/s]Loading weights:  32%|███▏      | 113/355 [00:00<00:01, 200.12it/s]Loading weights:  38%|███▊      | 134/355 [00:00<00:01, 190.55it/s]Loading weights:  43%|████▎     | 154/355 [00:00<00:01, 193.35it/s]Loading weights:  49%|████▉     | 174/355 [00:00<00:00, 186.51it/s]Loading weights:  54%|█████▍    | 193/355 [00:00<00:00, 184.76it/s]Loading weights:  60%|██████    | 213/355 [00:01<00:00, 185.08it/s]Loading weights:  66%|██████▌   | 234/355 [00:01<00:00, 187.78it/s]Loading weights:  71%|███████▏  | 253/355 [00:01<00:00, 186.74it/s]Loading weights:  77%|███████▋  | 272/355 [00:01<00:00, 184.32it/s]Loading weights:  82%|████████▏ | 291/355 [00:01<00:00, 182.84it/s]Loading weights:  88%|████████▊ | 312/355 [00:01<00:00, 185.34it/s]Loading weights:  94%|█████████▍| 333/355 [00:01<00:00, 185.07it/s]Loading weights: 100%|█████████▉| 354/355 [00:01<00:00, 189.81it/s]Loading weights: 100%|██████████| 355/355 [00:01<00:00, 190.93it/s]
+allenai/OLMo-2-1124-7B-Instruct: tasks ['code_name', 'quote_title', 'list_item', 'fix_spelling', 'summarize']; groups fragile 10, glitch 10, stable 10; thinking=False
+   fragile: ' according', ' diferentes', ' который', ' fatto', ' NSLocalizedString', ' ChatColor', ' nær', ' MaterialPageRoute', ' única', ' stør'
+    glitch: ' PodsDummy', '<|fim_prefix|>', '<|im_end|>', ' ForCanBeConvertedToForeach', 'useRal', ')paren', '.SuppressLint', 'addPreferredGap', '<|extra_id_0|>', '.ContentAlignment'
+    stable: ' Luigi', ' Spells', ' Elections', ' Southwest', ' generations', ' No', ' x', 'cards', ' subsequ', ' Nov'
+  task code_name: 30 generations so far
+  task quote_title: 60 generations so far
+  task list_item: 90 generations so far
+  task fix_spelling: 120 generations so far
+  task summarize: 150 generations so far
+
+================================================================================================
+   group |   n | token string in output  exact id  task done H first step
+ fragile |  50 |                  0.580     0.440      0.960         0.76
+  glitch |  50 |                  0.000     0.000      1.000         1.54
+  stable |  50 |                  0.920     0.680      1.000         0.43
+
+by task (token string in output):
+      code_name: fragile 0.60  glitch 0.00  stable 1.00
+    quote_title: fragile 1.00  glitch 0.00  stable 1.00
+      list_item: fragile 0.60  glitch 0.00  stable 0.90
+   fix_spelling: fragile 0.10  glitch 0.00  stable 0.80
+      summarize: fragile 0.60  glitch 0.00  stable 0.90
+
+sample: fragile tokens that did not come back
+  [   code_name]   ' according' -> readback 'sum_list': '```python\ndef sum_list(numbers):\n    return sum(numbers)\n```'
+  [   code_name]     ' который' -> readback None: 'котор(sum_list) -> sum(sum_list)'
+  [   code_name]         ' nær' -> readback 'næm': '```python\ndef næm(numbers):\n    return sum(numbers)\n```'
+  [   code_name]       ' única' -> readback None: 'unica = sum([num for num in lista])'
+  [   list_item]     ' который' -> readback 'борт': 'борт'
+  [   list_item] ' NSLocalizedString' -> readback 'LocalizableString': 'LocalizableString'
+  [   list_item] ' MaterialPageRoute' -> readback 'PageRoute': 'PageRoute'
+  [   list_item]       ' única' -> readback 'unica': 'unica'
+  [fix_spelling]   ' according' -> readback 'correct': 'We agreed to file the correct form before Friday.'
+  [fix_spelling]  ' diferentes' -> readback 'diferent': 'We agreed to file the diferent forms before Friday.'
+  [fix_spelling]     ' который' -> readback 'correct': 'We agreed to file the correct form before Friday.'
+  [fix_spelling]       ' fatto' -> readback 'facto': 'We agreed to file the "facto" form before Friday.'
+
+saved -> results/task_probe_olmo2_7b.json

@@ -1,0 +1,67 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:34<01:09, 34.66s/it]Fetching 3 files:  67%|██████▋   | 2/3 [00:37<00:16, 16.01s/it]Fetching 3 files: 100%|██████████| 3/3 [00:38<00:00,  8.94s/it]Fetching 3 files: 100%|██████████| 3/3 [00:38<00:00, 12.72s/it]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  15%|█▌        | 45/291 [00:00<00:00, 444.90it/s]Loading weights:  31%|███       | 90/291 [00:00<00:00, 404.80it/s]Loading weights:  45%|████▌     | 131/291 [00:00<00:00, 376.14it/s]Loading weights:  58%|█████▊    | 169/291 [00:00<00:00, 365.33it/s]Loading weights:  71%|███████   | 206/291 [00:00<00:00, 349.94it/s]Loading weights:  84%|████████▍ | 245/291 [00:00<00:00, 354.33it/s]Loading weights:  97%|█████████▋| 281/291 [00:00<00:00, 347.72it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 369.82it/s]
+LLM360/Amber: V=32000 tied=False probe=32000 |E_in| 1.7205
+  copy probe...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  11%|█         | 31/291 [00:00<00:00, 291.83it/s]Loading weights:  24%|██▎       | 69/291 [00:00<00:00, 342.28it/s]Loading weights:  37%|███▋      | 108/291 [00:00<00:00, 338.64it/s]Loading weights:  51%|█████     | 148/291 [00:00<00:00, 360.19it/s]Loading weights:  64%|██████▎   | 185/291 [00:00<00:00, 341.60it/s]Loading weights:  76%|███████▌  | 220/291 [00:00<00:00, 332.21it/s]Loading weights:  88%|████████▊ | 256/291 [00:00<00:00, 330.64it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 344.95it/s]
+LLM360/AmberChat: V=32000 tied=False probe=32000 |E_in| 1.7110
+  copy probe...
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:11<00:22, 11.12s/it]Fetching 3 files:  67%|██████▋   | 2/3 [00:13<00:05,  5.85s/it]Fetching 3 files: 100%|██████████| 3/3 [00:13<00:00,  3.33s/it]Fetching 3 files: 100%|██████████| 3/3 [00:13<00:00,  4.54s/it]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  11%|█         | 31/291 [00:00<00:00, 288.48it/s]Loading weights:  22%|██▏       | 65/291 [00:00<00:00, 313.13it/s]Loading weights:  34%|███▎      | 98/291 [00:00<00:00, 320.52it/s]Loading weights:  45%|████▌     | 132/291 [00:00<00:00, 310.31it/s]Loading weights:  60%|██████    | 176/291 [00:00<00:00, 354.87it/s]Loading weights:  75%|███████▍  | 217/291 [00:00<00:00, 371.16it/s]Loading weights:  88%|████████▊ | 255/291 [00:00<00:00, 359.25it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 346.36it/s]
+LLM360/AmberSafe: V=32000 tied=False probe=32000 |E_in| 1.7242
+  copy probe...
+
+==============================================================================
+1. COVERAGE -- how much of the vocabulary does each stage actually touch?
+==============================================================================
+                        transition | zero-resid rows |    frac | median resid
+------------------------------------------------------------------------------
+  LLM360/Amber -> LLM360/AmberChat |               1 |  0.0000 |    8.250e-02
+LLM360/AmberChat -> LLM360/AmberSafe |               1 |  0.0000 |    8.566e-02
+
+==============================================================================
+2. DAMAGE -- glitch sets per stage, defined by the copy probe
+==============================================================================
+threshold = base-model 1.0th pct of copy-logprob = -7.280
+                             stage | n below thr |   mean lp | new vs base |  healed
+----------------------------------------------------------------------------------
+                      LLM360/Amber |         320 |    -0.698 |           0 |       0
+                  LLM360/AmberChat |         446 |    -1.258 |         154 |      28
+                  LLM360/AmberSafe |         964 |    -1.963 |         657 |      13
+
+rank-based (worst 1.0% WITHIN each stage, shift-invariant):
+                             stage | overlap w/ base |    new |  jaccard
+------------------------------------------------------------------------
+                      LLM360/Amber |             320 |      0 |    1.000
+                  LLM360/AmberChat |             262 |     58 |    0.693
+                  LLM360/AmberSafe |             242 |     78 |    0.608
+
+  rank-based newly-glitched examples: ["'ource'", "'ackage'", "'){'", "'icture'", "'irl'", "'bernate'", "'ensional'", "'ugins'", "'педи'", "'enschapp'", "'ynomial'", "'plements'", "'liament'", "'бур'", "')}{'"]
+
+  base-model rank of the 78 newly-glitched (threshold at rank 320, vocab 32000):
+    median 656   quartiles 435/1118   max 18681
+    beyond 2x the threshold rank: 0.526
+    beyond 5x the threshold rank: 0.154
+    beyond 10x the threshold rank: 0.026
+  final-model rank of the 78 healed: median 485, beyond 5x threshold 0.090
+
+tokens healthy at base but below threshold after post-training: 78
+  examples: ["'ource'", "'ackage'", "'){'", "'icture'", "'irl'", "'bernate'", "'ensional'", "'ugins'", "'педи'", "'enschapp'", "'ynomial'", "'plements'", "'liament'", "'бур'", "')}{'"]
+
+==============================================================================
+3. DOES POST-TRAINING GRADIENT SPARSITY PREDICT THE DAMAGE?
+AUC of (low token-specific residual during post-training) vs (degraded)
+==============================================================================
+                         predictor |  AUC vs newly-glitched |  spearman vs delta lp
+----------------------------------------------------------------------------------
+         total post-train residual |                  0.618 |                 0.060
+                 base copy-logprob |                  0.964 |                 0.376
+             residual, non-ws only |                  0.618 |                 0.060
+
+CONTROL: how much do glitch rows move during post-training at all?
+                        transition | total ratio | resid ratio
+--------------------------------------------------------------
+  LLM360/Amber -> LLM360/AmberChat |       0.550 |       0.550
+LLM360/AmberChat -> LLM360/AmberSafe |       0.574 |       0.575
+
+saved -> results/sw_amber.json

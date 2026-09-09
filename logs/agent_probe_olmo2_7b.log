@@ -1,0 +1,32 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   7%|▋         | 26/355 [00:00<00:01, 253.69it/s]Loading weights:  15%|█▍        | 52/355 [00:00<00:01, 167.21it/s]Loading weights:  23%|██▎       | 82/355 [00:00<00:01, 210.47it/s]Loading weights:  30%|██▉       | 106/355 [00:00<00:01, 207.20it/s]Loading weights:  36%|███▌      | 128/355 [00:00<00:01, 199.23it/s]Loading weights:  42%|████▏     | 149/355 [00:00<00:01, 188.94it/s]Loading weights:  48%|████▊     | 169/355 [00:00<00:00, 187.54it/s]Loading weights:  54%|█████▍    | 191/355 [00:00<00:00, 191.49it/s]Loading weights:  60%|█████▉    | 212/355 [00:01<00:00, 192.38it/s]Loading weights:  65%|██████▌   | 232/355 [00:01<00:00, 192.68it/s]Loading weights:  71%|███████   | 252/355 [00:01<00:00, 185.83it/s]Loading weights:  76%|███████▋  | 271/355 [00:01<00:00, 181.17it/s]Loading weights:  82%|████████▏ | 291/355 [00:01<00:00, 180.99it/s]Loading weights:  88%|████████▊ | 312/355 [00:01<00:00, 183.72it/s]Loading weights:  94%|█████████▍| 333/355 [00:01<00:00, 184.29it/s]Loading weights: 100%|█████████▉| 354/355 [00:01<00:00, 189.30it/s]Loading weights: 100%|██████████| 355/355 [00:01<00:00, 190.98it/s]
+allenai/OLMo-2-1124-7B-Instruct: native tool template=False; thinking=False; tasks ['investigate_config', 'background_note', 'adoption_decision', 'explain_term', 'changelog_check']; groups fragile 10, glitch 10, stable 10
+  task investigate_config: 30 episodes so far
+  task background_note: 60 episodes so far
+  task adoption_decision: 90 episodes so far
+  task explain_term: 120 episodes so far
+  task changelog_check: 150 episodes so far
+
+==============================================================================================================
+   group |   n | 1st query has token any query world hits>0 final mentions finished fabricated calls/ep
+ fragile |  50 |                0.32      0.34         0.34           0.40     1.00       0.02     1.78
+  glitch |  50 |                0.00      0.00         0.00           0.00     1.00       0.00     1.92
+  stable |  50 |                0.46      0.46         0.46           0.80     1.00       0.00     1.86
+
+fragile / glitch episodes where the first search did not contain the token:
+  [investigate_config]     ' according' searched for 'configuration key ignored environment variable' final about 's presence and usage.\n\nFirst, let'
+  [investigate_config]    ' diferentes' searched for 'configuration key ignored'              final about 'diferentes'
+  [investigate_config]       ' который' searched for 'configuration key ignored by environment variable' final about 'КОТОР'
+  [investigate_config]         ' fatto' searched for 'configuration key FATO ignored'         final about 'FATO'
+  [investigate_config]           ' nær' searched for 'configuration key ignored'              final about 'NER'
+  [investigate_config] ' MaterialPageRoute' searched for 'Flutter Dart configuration environment variable' final about 'PageRoute'
+  [investigate_config]         ' única' searched for 'una configuration key being ignored'    final about 'UNICA'
+  [investigate_config]          ' stør' searched for 'configuration key ignored'              final about 'echo $STOR'
+  [investigate_config]     ' PodsDummy' searched for 'Android configuration key'              final about ' Producto'
+  [investigate_config] '<|fim_prefix|>' searched for 'configuration key ignored'              final about 'print(os.getenv('
+  [investigate_config]     '<|im_end|>' searched for 'configuration key ignored'              final about 'he'
+  [investigate_config]         'useRal' searched for 'configuration key ignored'              final about 'os.environ'
+  [investigate_config]         ')paren' searched for 'configuration key ignored'              final about 'Parenthood'
+  [investigate_config]  '.SuppressLint' searched for "Configuration key 'SuppressLint' ignored" final about 'SuppressLint'
+
+saved -> results/agent_probe_olmo2_7b.json

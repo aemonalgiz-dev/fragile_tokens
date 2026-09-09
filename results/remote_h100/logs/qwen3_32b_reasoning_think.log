@@ -1,0 +1,68 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<04:17,  2.75it/s]Loading weights:   1%|▏         | 10/707 [00:00<00:25, 27.00it/s]Loading weights:   2%|▏         | 16/707 [00:00<00:21, 32.46it/s]Loading weights:   3%|▎         | 23/707 [00:00<00:16, 40.39it/s]Loading weights:   4%|▍         | 29/707 [00:00<00:17, 39.24it/s]Loading weights:   5%|▌         | 37/707 [00:01<00:14, 46.54it/s]Loading weights:   6%|▌         | 43/707 [00:01<00:13, 49.04it/s]Loading weights:   7%|▋         | 49/707 [00:01<00:14, 45.03it/s]Loading weights:   8%|▊         | 54/707 [00:01<00:14, 45.42it/s]Loading weights:   8%|▊         | 60/707 [00:01<00:13, 46.78it/s]Loading weights:   9%|▉         | 66/707 [00:01<00:12, 50.17it/s]Loading weights:  10%|█         | 72/707 [00:01<00:14, 43.50it/s]Loading weights:  11%|█▏        | 80/707 [00:01<00:12, 49.57it/s]Loading weights:  12%|█▏        | 86/707 [00:02<00:12, 47.80it/s]Loading weights:  13%|█▎        | 93/707 [00:02<00:13, 46.89it/s]Loading weights:  14%|█▍        | 98/707 [00:02<00:12, 47.60it/s]Loading weights:  15%|█▍        | 104/707 [00:02<00:13, 45.80it/s]Loading weights:  16%|█▌        | 111/707 [00:02<00:12, 49.29it/s]Loading weights:  17%|█▋        | 117/707 [00:02<00:12, 46.03it/s]Loading weights:  18%|█▊        | 125/707 [00:02<00:10, 53.13it/s]Loading weights:  19%|█▊        | 131/707 [00:02<00:12, 46.94it/s]Loading weights:  19%|█▉        | 137/707 [00:03<00:11, 47.54it/s]Loading weights:  20%|██        | 144/707 [00:03<00:11, 50.58it/s]Loading weights:  21%|██        | 150/707 [00:03<00:12, 46.05it/s]Loading weights:  22%|██▏       | 158/707 [00:03<00:12, 44.07it/s]Loading weights:  24%|██▍       | 169/707 [00:03<00:09, 55.26it/s]Loading weights:  25%|██▍       | 175/707 [00:03<00:10, 48.59it/s]Loading weights:  26%|██▌       | 181/707 [00:04<00:11, 47.32it/s]Loading weights:  27%|██▋       | 188/707 [00:04<00:10, 50.10it/s]Loading weights:  27%|██▋       | 194/707 [00:04<00:11, 45.94it/s]Loading weights:  28%|██▊       | 201/707 [00:04<00:09, 50.87it/s]Loading weights:  29%|██▉       | 207/707 [00:04<00:10, 47.61it/s]Loading weights:  30%|███       | 214/707 [00:04<00:10, 47.66it/s]Loading weights:  31%|███       | 219/707 [00:04<00:10, 45.86it/s]Loading weights:  32%|███▏      | 224/707 [00:04<00:11, 43.67it/s]Loading weights:  33%|███▎      | 232/707 [00:05<00:09, 51.65it/s]Loading weights:  34%|███▎      | 238/707 [00:05<00:10, 44.16it/s]Loading weights:  35%|███▍      | 247/707 [00:05<00:09, 46.73it/s]Loading weights:  36%|███▌      | 252/707 [00:05<00:10, 45.44it/s]Loading weights:  37%|███▋      | 259/707 [00:05<00:09, 45.25it/s]Loading weights:  38%|███▊      | 268/707 [00:05<00:08, 52.45it/s]Loading weights:  39%|███▉      | 274/707 [00:05<00:08, 54.02it/s]Loading weights:  40%|███▉      | 280/707 [00:06<00:08, 48.46it/s]Loading weights:  41%|████      | 287/707 [00:06<00:08, 51.79it/s]Loading weights:  41%|████▏     | 293/707 [00:06<00:09, 45.68it/s]Loading weights:  43%|████▎     | 301/707 [00:06<00:07, 50.78it/s]Loading weights:  43%|████▎     | 307/707 [00:06<00:07, 52.63it/s]Loading weights:  44%|████▍     | 313/707 [00:06<00:08, 46.64it/s]Loading weights:  45%|████▌     | 320/707 [00:06<00:07, 51.11it/s]Loading weights:  46%|████▌     | 326/707 [00:07<00:09, 42.27it/s]Loading weights:  47%|████▋     | 335/707 [00:07<00:07, 48.78it/s]Loading weights:  48%|████▊     | 342/707 [00:07<00:07, 51.56it/s]Loading weights:  49%|████▉     | 348/707 [00:07<00:07, 47.45it/s]Loading weights:  50%|█████     | 357/707 [00:07<00:06, 53.42it/s]Loading weights:  51%|█████▏    | 364/707 [00:07<00:06, 54.57it/s]Loading weights:  52%|█████▏    | 370/707 [00:07<00:06, 49.66it/s]Loading weights:  53%|█████▎    | 378/707 [00:08<00:06, 54.50it/s]Loading weights:  54%|█████▍    | 384/707 [00:08<00:06, 49.65it/s]Loading weights:  55%|█████▌    | 390/707 [00:08<00:06, 46.16it/s]Loading weights:  56%|█████▌    | 397/707 [00:08<00:06, 49.61it/s]Loading weights:  57%|█████▋    | 403/707 [00:08<00:06, 45.18it/s]Loading weights:  58%|█████▊    | 410/707 [00:08<00:06, 48.58it/s]Loading weights:  59%|█████▉    | 416/707 [00:08<00:05, 50.02it/s]Loading weights:  60%|█████▉    | 422/707 [00:08<00:05, 49.85it/s]Loading weights:  61%|██████    | 428/707 [00:09<00:05, 47.55it/s]Loading weights:  61%|██████    | 433/707 [00:09<00:06, 44.01it/s]Loading weights:  62%|██████▏   | 440/707 [00:09<00:05, 48.10it/s]Loading weights:  63%|██████▎   | 445/707 [00:09<00:05, 46.34it/s]Loading weights:  64%|██████▎   | 450/707 [00:09<00:05, 44.81it/s]Loading weights:  64%|██████▍   | 456/707 [00:09<00:05, 46.88it/s]Loading weights:  65%|██████▌   | 463/707 [00:09<00:04, 52.74it/s]Loading weights:  66%|██████▋   | 469/707 [00:09<00:05, 43.49it/s]Loading weights:  67%|██████▋   | 477/707 [00:10<00:05, 44.89it/s]Loading weights:  69%|██████▊   | 485/707 [00:10<00:04, 50.42it/s]Loading weights:  69%|██████▉   | 491/707 [00:10<00:04, 45.89it/s]Loading weights:  71%|███████   | 499/707 [00:10<00:04, 46.02it/s]Loading weights:  72%|███████▏  | 510/707 [00:10<00:03, 55.56it/s]Loading weights:  73%|███████▎  | 516/707 [00:10<00:04, 47.19it/s]Loading weights:  74%|███████▍  | 523/707 [00:11<00:04, 45.63it/s]Loading weights:  75%|███████▌  | 531/707 [00:11<00:03, 50.29it/s]Loading weights:  76%|███████▌  | 538/707 [00:11<00:03, 50.50it/s]Loading weights:  77%|███████▋  | 544/707 [00:11<00:03, 47.35it/s]Loading weights:  78%|███████▊  | 554/707 [00:11<00:02, 53.02it/s]Loading weights:  79%|███████▉  | 560/707 [00:11<00:03, 47.30it/s]Loading weights:  80%|███████▉  | 565/707 [00:11<00:03, 44.98it/s]Loading weights:  81%|████████▏ | 576/707 [00:12<00:02, 54.52it/s]Loading weights:  82%|████████▏ | 582/707 [00:12<00:02, 55.25it/s]Loading weights:  83%|████████▎ | 589/707 [00:12<00:02, 56.04it/s]Loading weights:  85%|████████▍ | 599/707 [00:12<00:02, 53.24it/s]Loading weights:  86%|████████▋ | 610/707 [00:12<00:01, 59.93it/s]Loading weights:  88%|████████▊ | 621/707 [00:12<00:01, 64.94it/s]Loading weights:  89%|████████▉ | 628/707 [00:12<00:01, 64.94it/s]Loading weights:  90%|████████▉ | 635/707 [00:13<00:01, 60.52it/s]Loading weights:  91%|█████████ | 643/707 [00:13<00:00, 64.92it/s]Loading weights:  92%|█████████▏| 650/707 [00:13<00:00, 65.39it/s]Loading weights:  93%|█████████▎| 657/707 [00:13<00:00, 56.91it/s]Loading weights:  94%|█████████▍| 665/707 [00:13<00:00, 62.10it/s]Loading weights:  95%|█████████▌| 675/707 [00:13<00:00, 70.11it/s]Loading weights:  97%|█████████▋| 683/707 [00:13<00:00, 64.79it/s]Loading weights:  98%|█████████▊| 690/707 [00:13<00:00, 60.60it/s]Loading weights:  99%|█████████▊| 698/707 [00:14<00:00, 61.63it/s]Loading weights: 100%|██████████| 707/707 [00:14<00:00, 49.94it/s]
+label-free sets from results/fragility_qwen3_32b.pt: worst-32 by single probe (lp -20.98..-17.13) vs 32 clean
+Qwen/Qwen3-32B: 32 glitch vs 32 healthy, cuda:0
+  glitch: ["'ớ'", "'อังกฤษ'", "'ใช่'", "'ล่า'", "' สิงหาคม'", "'𬸪'"]
+  healthy: ["' programma'", "' ANSI'", "' Tampa'", "' platform'", "' Al'", "' inhibit'"]
+
+==========================================================================
+REGIME: completion   (8 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      0.564      3.099  -2.535 |   0.0623   0.0185
+     2 |      3.522      3.162   0.359 |   0.2199   0.0120
+     4 |      2.559      1.621   0.938 |   0.1563   0.0023
+     8 |      2.015      1.722   0.293 |   0.0240   0.0011
+
+  distinct scripts in output : glitch 1.00  healthy 1.03
+  token-repetition rate      : glitch 0.020  healthy 0.023
+  reproduced the seed token  : glitch 0.000  healthy 0.031
+
+  --- sample generations (completion) ---
+  [GLITCH] 'ớ' -> '\\n\\nThe word "the" is an'
+  [GLITCH] 'อังกฤษ' -> '\\n\\nThe word "algorithm" is derived'
+  [GLITCH] 'ใช่' -> '\\n\\nThe word is a noun meaning "'
+  [HEALTHY] ' programma' -> ' is a Dutch word meaning program. The'
+  [HEALTHY] ' ANSI' -> ' is an acronym for the American National Standards'
+
+==========================================================================
+REGIME: reasoning   (512 generated tokens)
+==========================================================================
+  step | entropy gl entropy he     gap |  pcos gl  pcos he
+------------------------------------------------------------
+     1 |      2.836      1.897   0.939 |   0.3500   0.0259
+     2 |      2.266      1.969   0.298 |   0.4497   0.0513
+     4 |      3.551      1.747   1.804 |   0.1689   0.0045
+     8 |      1.812      1.123   0.689 |   0.4078   0.0287
+    16 |      1.367      0.985   0.382 |   0.0073   0.0030
+    32 |      0.613      0.810  -0.198 |   0.0151   0.0075
+    64 |      0.250      0.505  -0.255 |   0.0056   0.0028
+   128 |      0.328      0.649  -0.321 |   0.0119   0.0041
+   192 |      0.242      0.548  -0.306 |   0.0030   0.0024
+   255 |      0.357      0.347   0.010 |   0.0031   0.0010
+   383 |      0.380      0.574  -0.194 |   0.0034   0.0013
+   511 |      0.257      0.331  -0.073 |   0.0016   0.0041
+
+  distinct scripts in output : glitch 1.38  healthy 1.16
+  token-repetition rate      : glitch 0.685  healthy 0.581
+  reproduced the seed token  : glitch 0.000  healthy 0.719
+
+  --- sample generations (reasoning) ---
+  [GLITCH] 'ớ' -> ' I need to be cautious about what I say regarding this topic, as it can be quite sensitive. I should focus on providing general information about the importance'
+  [GLITCH] 'อังกฤษ' -> ' I need to determine if the statement "The set of all real numbers is a subset of the set of all rational numbers" is true or false.\\n\\nFirst, let me recall the d'
+  [GLITCH] 'ใช่' -> ' I need to determine if the statement "The set of all real numbers is a subset of the set of all rational numbers" is true or false.\\n\\nFirst, let me recall the d'
+  [HEALTHY] ' programma' -> ' The user wrote "programma" which is Italian for "program". I should ask for clarification on what kind of program they\'re looking for.\\n\\nI need to respond in It'
+  [HEALTHY] ' ANSI' -> ' The user mentioned "ANSI", which could refer to several things:\\n\\n1. American National Standards Institute (ANSI) - a private, non-profit organization that admi'
+
+==========================================================================
+MASKING TEST: does the glitch/healthy gap grow from completion to
+reasoning, and does the glitch group converge as the chain runs?
+==========================================================================
+  entropy gap, completion  @step8   +0.293
+  entropy gap, reasoning   @step8   +0.689
+  entropy gap, reasoning   @step511 -0.073
+  glitch chain alignment,  step1 -> step511   0.3500 -> 0.0016
+  healthy chain alignment, step1 -> step511   0.0259 -> 0.0041
+
+saved -> results/reasoning_qwen3_32b_think.json

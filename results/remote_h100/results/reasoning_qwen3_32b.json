@@ -1,0 +1,394 @@
+{
+ "model": "Qwen/Qwen3-32B",
+ "n": 32,
+ "thinking": false,
+ "model_info": {
+  "model": "Qwen/Qwen3-32B",
+  "commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "num_layers": 64,
+  "hidden_size": 5120,
+  "vocab_size": 151936,
+  "tie_word_embeddings": false,
+  "architecture": "Qwen3ForCausalLM",
+  "quantized": false,
+  "tokenizer_class": "Qwen2Tokenizer"
+ },
+ "glitch_ids": [
+  141628,
+  127887,
+  126984,
+  126892,
+  142447,
+  123637,
+  149983,
+  143828,
+  140665,
+  133355,
+  136695,
+  139599,
+  130320,
+  133153,
+  138059,
+  138415,
+  129910,
+  127932,
+  133219,
+  141156,
+  132811,
+  131787,
+  134220,
+  140750,
+  139407,
+  132136,
+  136890,
+  147225,
+  127813,
+  149466,
+  151145,
+  151159
+ ],
+ "control_ids": [
+  97139,
+  58014,
+  32125,
+  5339,
+  1674,
+  67933,
+  59310,
+  27204,
+  97087,
+  141635,
+  61044,
+  3639,
+  89294,
+  45777,
+  121187,
+  31022,
+  91655,
+  1657,
+  96331,
+  89726,
+  133097,
+  74333,
+  87538,
+  81044,
+  64455,
+  52368,
+  18572,
+  19835,
+  112093,
+  78167,
+  63005,
+  47946
+ ],
+ "completion": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 0.5784152746200562,
+    "ent_h": 3.0982344150543213,
+    "gap": -2.5198192596435547,
+    "pcos_g": 0.06286789573008014,
+    "pcos_h": 0.01840191337490274
+   },
+   {
+    "step": 2,
+    "ent_g": 3.5227255821228027,
+    "ent_h": 3.1691718101501465,
+    "gap": 0.35355377197265625,
+    "pcos_g": 0.22035840249830677,
+    "pcos_h": 0.01198456346267654
+   },
+   {
+    "step": 4,
+    "ent_g": 2.5506539344787598,
+    "ent_h": 1.6243999004364014,
+    "gap": 0.9262540340423584,
+    "pcos_g": 0.15665932840877964,
+    "pcos_h": 0.0022852411794085647
+   },
+   {
+    "step": 8,
+    "ent_g": 2.0190908908843994,
+    "ent_h": 1.7310194969177246,
+    "gap": 0.2880713939666748,
+    "pcos_g": 0.023939656123759284,
+    "pcos_h": 0.0010679560082574036
+   }
+  ],
+  "scripts": [
+   1.0,
+   1.03125
+  ],
+  "rep": [
+   0.01953125,
+   0.0234375
+  ],
+  "self": [
+   0.0,
+   0.03125
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": "\u01a1\u0301",
+    "gen": "\n\nThe word \"the\" is an"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e2d\u0e31\u0e07\u0e01\u0e24\u0e29",
+    "gen": "\n\nThe word \"algorithm\" is derived"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e43\u0e0a\u0e48",
+    "gen": "\n\nThe word is a noun meaning \""
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e25\u0e48\u0e32",
+    "gen": " is a comprehensive dictionary of English, with"
+   },
+   {
+    "group": "glitch",
+    "tok": " \u0e2a\u0e34\u0e07\u0e2b\u0e32\u0e04\u0e21",
+    "gen": "\n\nThe word\n\nThe word\n\nThe"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ud873\ude2a",
+    "gen": "\n\nThe word \"sustainability\" has"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": "\n\nThe word \"triumph\""
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e41\u0e01\u0e49\u0e1b\u0e31\u0e0d\u0e2b\u0e32",
+    "gen": "\n\nThe word \"the\" is the"
+   },
+   {
+    "group": "healthy",
+    "tok": " programma",
+    "gen": " is a Dutch word meaning program. The"
+   },
+   {
+    "group": "healthy",
+    "tok": " ANSI",
+    "gen": " is an acronym for the American National Standards"
+   },
+   {
+    "group": "healthy",
+    "tok": " Tampa",
+    "gen": " is derived from the _______ word for"
+   },
+   {
+    "group": "healthy",
+    "tok": " platform",
+    "gen": " is used in many different contexts. In"
+   },
+   {
+    "group": "healthy",
+    "tok": " Al",
+    "gen": "chemy is derived from the Arabic word Al"
+   },
+   {
+    "group": "healthy",
+    "tok": " inhibit",
+    "gen": " means to prevent or stop something from happening"
+   },
+   {
+    "group": "healthy",
+    "tok": " Sophie",
+    "gen": " is a name of Greek origin meaning \u201c"
+   },
+   {
+    "group": "healthy",
+    "tok": " fclose",
+    "gen": "() is used to close a file in"
+   }
+  ]
+ },
+ "reasoning": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 3.241347312927246,
+    "ent_h": 2.1674118041992188,
+    "gap": 1.0739355087280273,
+    "pcos_g": 0.19625270462805225,
+    "pcos_h": 0.02216739396774961
+   },
+   {
+    "step": 2,
+    "ent_g": 4.096090316772461,
+    "ent_h": 1.9387881755828857,
+    "gap": 2.157302141189575,
+    "pcos_g": 0.2610115567522664,
+    "pcos_h": 0.007974374138059154
+   },
+   {
+    "step": 4,
+    "ent_g": 1.7550876140594482,
+    "ent_h": 0.7041832208633423,
+    "gap": 1.050904393196106,
+    "pcos_g": 0.17990499831015064,
+    "pcos_h": 0.003160807334126964
+   },
+   {
+    "step": 8,
+    "ent_g": 0.637482225894928,
+    "ent_h": 0.7878199219703674,
+    "gap": -0.15033769607543945,
+    "pcos_g": 0.21981461442285968,
+    "pcos_h": 0.00862714558118774
+   },
+   {
+    "step": 16,
+    "ent_g": 1.1697295904159546,
+    "ent_h": 1.008117914199829,
+    "gap": 0.1616116762161255,
+    "pcos_g": 0.02293942778581573,
+    "pcos_h": 0.0038379477637429382
+   },
+   {
+    "step": 32,
+    "ent_g": 0.3987279534339905,
+    "ent_h": 0.6560227870941162,
+    "gap": -0.25729483366012573,
+    "pcos_g": 0.038026571303846374,
+    "pcos_h": 0.0012670615988392975
+   },
+   {
+    "step": 64,
+    "ent_g": 0.2654103636741638,
+    "ent_h": 0.5215082764625549,
+    "gap": -0.2560979127883911,
+    "pcos_g": 0.009430297680439487,
+    "pcos_h": 0.0018418683039565231
+   },
+   {
+    "step": 128,
+    "ent_g": 0.46634531021118164,
+    "ent_h": 0.7266865968704224,
+    "gap": -0.2603412866592407,
+    "pcos_g": 0.017592383578660026,
+    "pcos_h": 0.000791245170177951
+   },
+   {
+    "step": 192,
+    "ent_g": 0.1627318263053894,
+    "ent_h": 0.4671667516231537,
+    "gap": -0.3044349253177643,
+    "pcos_g": 0.023856356770040527,
+    "pcos_h": 0.0029546236919779922
+   },
+   {
+    "step": 255,
+    "ent_g": 0.266835480928421,
+    "ent_h": 0.7141579389572144,
+    "gap": -0.44732245802879333,
+    "pcos_g": 0.003964268632473483,
+    "pcos_h": 0.0023883087860961105
+   }
+  ],
+  "scripts": [
+   1.03125,
+   1.125
+  ],
+  "rep": [
+   0.6622314453125,
+   0.45068359375
+  ],
+  "self": [
+   0.0,
+   0.5625
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": "\u01a1\u0301",
+    "gen": " The question is asking for the value of $ \\cos(\\theta) $ given that $ \\cos(2\\theta) = \\frac{1}{3} $.\n\n### Step 1: Use the double angle identity\nWe know the identity:\n$$\n\\cos(2\\theta) = 2\\cos^2(\\theta) - 1\n$$\n\nWe are given:\n$$\n\\cos(2\\theta) = \\frac{1}{3}\n$$\n\nSubstitute into the identity:\n$$\n\\frac{1}{3} = 2\\cos^2(\\theta) - 1\n$$\n\n### Step 2: Solve for $ \\cos^2(\\theta) $\n$$\n\\frac{1}{3} + 1 = 2\\cos^2("
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e2d\u0e31\u0e07\u0e01\u0e24\u0e29",
+    "gen": " The question is asking for the value of $ \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\cdots $, which is an infinite geometric series.\n\n---\n\n### Step 1: Identify the first term and common ratio\n\nThis is a geometric series where:\n\n- The first term $ a = \\frac{1}{2} $\n- The common ratio $ r = \\frac{1}{2} $\n\n---\n\n### Step 2: Use the formula for the sum of an infinite geometric series\n\nT"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e43\u0e0a\u0e48",
+    "gen": " The problem is to find the value of the expression:\n\n$$\n\\frac{1}{1 + \\frac{1}{2 + \\frac{1}{3 + \\frac{1}{4 + \\frac{1}{5}}}}}\n$$\n\nWe'll evaluate this from the **innermost** part of the expression and work our way **outward**. This is a **continued fraction**, and we'll simplify it step by step.\n\n---\n\n### Step 1: Evaluate the innermost fraction\n\nStart with the innermost expression:\n\n$$\n\\frac{1}{5}\n$"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e25\u0e48\u0e32",
+    "gen": " The question is asking for the value of $ \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\cdots $, which is an infinite geometric series.\n\n---\n\n### Step 1: Identify the first term and common ratio\n\nThis is a geometric series where:\n\n- The first term $ a = \\frac{1}{2} $\n- The common ratio $ r = \\frac{1}{2} $\n\n---\n\n### Step 2: Use the formula for the sum of an infinite geometric series\n\nT"
+   },
+   {
+    "group": "glitch",
+    "tok": " \u0e2a\u0e34\u0e07\u0e2b\u0e32\u0e04\u0e21",
+    "gen": " The question is asking for the value of $ \\cos(\\theta) $, given that $ \\theta $ is the angle between the vectors $ \\vec{a} = (1, 2, 3) $ and $ \\vec{b} = (4, 5, 6) $.\n\n---\n\n### Step 1: Use the dot product formula\n\nThe cosine of the angle $ \\theta $ between two vectors $ \\vec{a} $ and $ \\vec{b} $ is given by:\n\n$$\n\\cos(\\theta) = \\frac{\\vec{a} \\cdot \\vec{b}}{\\|\\vec{a}\\| \\|\\vec{b}\\|}\n$$\n\n---\n\n### Step"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ud873\ude2a",
+    "gen": " The question is asking for the value of the expression:\n\n$$\n\\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{4}\\right)\\cdots\\left(1 - \\frac{1}{50}\\right)\n$$\n\n---\n\n### Step 1: Simplify each term\n\nEach term in the product is of the form:\n\n$$\n1 - \\frac{1}{n} = \\frac{n - 1}{n}\n$$\n\nSo the entire product becomes:\n\n$$\n\\left(\\frac{1}{2}\\right)\\left(\\frac{2}{3}\\right)\\left(\\frac{"
+   },
+   {
+    "group": "glitch",
+    "tok": "\uc6db",
+    "gen": " The question is asking for the value of the expression:\n\n$$\n\\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{4}\\right)\\cdots\\left(1 - \\frac{1}{50}\\right)\n$$\n\nFirst, let's simplify each term in the product:\n- $1 - \\frac{1}{2} = \\frac{1}{2}$\n- $1 - \\frac{1}{3} = \\frac{2}{3}$\n- $1 - \\frac{1}{4} = \\frac{3}{4}$\n- ...\n- $1 - \\frac{1}{50} = \\frac{49}{50}$\n\nSo the expression bec"
+   },
+   {
+    "group": "glitch",
+    "tok": "\u0e41\u0e01\u0e49\u0e1b\u0e31\u0e0d\u0e2b\u0e32",
+    "gen": " The question is asking for the value of $ \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\cdots $, which is an infinite geometric series.\n\n---\n\n### Step 1: Identify the first term and common ratio\n\nThis is a geometric series where:\n\n- The **first term** $ a = \\frac{1}{2} $\n- The **common ratio** $ r = \\frac{1}{2} $\n\n---\n\n### Step 2: Use the formula for the sum of an infinite geometric s"
+   },
+   {
+    "group": "healthy",
+    "tok": " programma",
+    "gen": " You've written \"programma\" which is Italian for \"program\" or \"programme\". However, you haven't specified what kind of program you're looking for or what it should do.\n\nCould you please clarify:\n1. What programming language you want the program to be in?\n2. What specific task or functionality you want the program to perform?\n3. Any specific requirements or constraints?\n\nThis will help me provide a"
+   },
+   {
+    "group": "healthy",
+    "tok": " ANSI",
+    "gen": " The term \"ANSI\" can refer to different things depending on the context:\n\n1. **American National Standards Institute (ANSI)** - This is a private, non-profit organization that administers and coordinates the U.S. voluntary standardization and conformity assessment system. It's not a government agency but works closely with government and industry.\n\n2. **ANSI escape codes** - In computing, these ar"
+   },
+   {
+    "group": "healthy",
+    "tok": " Tampa",
+    "gen": " The user mentioned \"Tampa,\" which is a city in Florida, USA. I should consider various aspects of Tampa to provide a comprehensive response.\n\nFirst, I'll recall that Tampa is known for its vibrant downtown area, the Riverwalk, and proximity to the Gulf of Mexico. It's a major city in Florida with a growing population and economy. The city has a rich history, including its role in the cigar indust"
+   },
+   {
+    "group": "healthy",
+    "tok": " platform",
+    "gen": " I need to be clear about my position and the platform I belong to. I am Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I was created and trained by Alibaba Cloud's Tongyi Lab, and I have no relation to any other platforms or companies. If you have any questions or need assistance, I will do my best to help. Is there anything I can assist you with"
+   },
+   {
+    "group": "healthy",
+    "tok": " Al",
+    "gen": " The prompt is just \"Al\", which is very brief. I should consider different possible interpretations:\n\n1. It could be a typo or incomplete message\n2. It might be the beginning of a name (like Albert, Alexander, etc.)\n3. It could be referring to artificial intelligence (AI)\n4. It might be a reference to aluminum (Al is the chemical symbol)\n5. It could be short for Alabama (AL is the state abbreviati"
+   },
+   {
+    "group": "healthy",
+    "tok": " inhibit",
+    "gen": " The term \"inhibit\" can have different meanings depending on context. Could you please clarify what you're referring to? For example:\n\n1. **Biological/Neurological**: Inhibiting a process or function in the body or brain.\n2. **Psychological**: Inhibiting behavior or emotions (e.g., social inhibition).\n3. **Technical/Engineering**: Inhibiting a system, reaction, or process.\n4. **General Usage**: Pr"
+   },
+   {
+    "group": "healthy",
+    "tok": " Sophie",
+    "gen": " Sophie is a name that appears in many different contexts. It could refer to:\n\n1. Sophie (given name) - A French and English name meaning \"wisdom\"\n2. Sophie Scholl - A German student and anti-Nazi activist\n3. Sophie's World - A philosophical novel by Jostein Gaarder\n4. Sophie (robot) - A humanoid robot developed by Bina48\n5. Sophie (TV character) - From various TV shows like \"The Suite Life on Dec"
+   },
+   {
+    "group": "healthy",
+    "tok": " fclose",
+    "gen": " The `fclose` function is used to close a file that was previously opened using `fopen`. It's important to close files after you're done with them to ensure that all data is properly written and system resources are freed.\n\nHere's a basic example of how to use `fclose` in C:\n\n```c\n#include <stdio.h>\n\nint main() {\n    FILE *file = fopen(\"example.txt\", \"w\");\n    if (file == NULL) {\n        perror(\"E"
+   }
+  ]
+ }
+}

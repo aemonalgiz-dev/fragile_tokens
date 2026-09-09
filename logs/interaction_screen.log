@@ -1,0 +1,90 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 49/355 [00:00<00:00, 477.79it/s]Loading weights:  27%|██▋       | 97/355 [00:00<00:00, 470.15it/s]Loading weights:  41%|████      | 145/355 [00:00<00:00, 440.09it/s]Loading weights:  54%|█████▎    | 190/355 [00:00<00:00, 432.00it/s]Loading weights:  66%|██████▌   | 234/355 [00:00<00:00, 415.51it/s]Loading weights:  78%|███████▊  | 278/355 [00:00<00:00, 413.95it/s]Loading weights:  91%|█████████ | 322/355 [00:00<00:00, 414.53it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 431.66it/s]
+allenai/OLMo-2-1124-7B-Instruct: 600 candidates -> single-token reproduction filter...
+  individually clean: 482/600; pool N=64
+  sample: ["'40'", "'Size'", "'.println'", "'chema'", "' views'", "'otos'", "' pars'", "'Blue'"]
+  filler: 1985 clean common words -> 3 sequences of 132
+  F1 starts:  cache very mem player needed sum history command
+  positive-control glitch tokens: ["'.sulake'", "'NewUrlParser'", '"\']))\\r\\n"']
+  replicates R=14 (distances [2, 4, 8, 16, 32, 64, 128] x 2 fillers), cells 63014
+  scoring replicate 1/14  d=2 filler=0  (4501 cells)
+  scoring replicate 2/14  d=2 filler=1  (4501 cells)
+  scoring replicate 3/14  d=4 filler=0  (4501 cells)
+  scoring replicate 4/14  d=4 filler=1  (4501 cells)
+  scoring replicate 5/14  d=8 filler=0  (4501 cells)
+  scoring replicate 6/14  d=8 filler=1  (4501 cells)
+  scoring replicate 7/14  d=16 filler=0  (4501 cells)
+  scoring replicate 8/14  d=16 filler=1  (4501 cells)
+  scoring replicate 9/14  d=32 filler=0  (4501 cells)
+  scoring replicate 10/14  d=32 filler=1  (4501 cells)
+  scoring replicate 11/14  d=64 filler=0  (4501 cells)
+  scoring replicate 12/14  d=64 filler=1  (4501 cells)
+  scoring replicate 13/14  d=128 filler=0  (4501 cells)
+  scoring replicate 14/14  d=128 filler=1  (4501 cells)
+
+==============================================================================
+SCORER SANITY -- positive control (slot-position copy logprob)
+==============================================================================
+  clean pool singles: S10 -0.020  S01 -0.016   controls S00 -0.000 (replicate sd 0.000)
+  glitch          '.sulake': S10 -4.989   S01 -6.523
+  glitch     'NewUrlParser': S10 -2.912   S01 -2.626
+  glitch         "']))\r\n": S10 -6.229   S01 -6.001
+  -> positive controls fall >2 sd below the clean pool: True
+
+  simulating matched no-interaction datasets for the verdict threshold...
+
+==============================================================================
+INTERACTION SCREEN  (pooled over all replicates)
+==============================================================================
+  pool N=64, replicates R=14, control pairs 3, permutations 1000
+  corr(control-based I, additive residual): 0.913
+  I off-diagonal: mean +0.0022  sd 0.0168    diagonal (repetition): mean +0.0066  sd 0.0149
+  median cell noise sd 0.0046 logprob
+
+  BH-FDR q=0.05: 1 significant off-diagonal of 4032, 0 diagonal of 64
+  matched-null simulations (20): rejections [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 3, 3, 3, 3, 4, 4, 4, 4, 5]  -> 95th pct 4
+  family-wise: max|z| 29.056 vs 95% threshold 28.779   p = 0.035
+  power (recovery of an injected effect, 5 sims each): 1.0x noise -> 0.2  1.5x noise -> 0.6  2.0x noise -> 1.0  3.0x noise -> 1.0
+
+  repetition diagonal as a group: mean z +0.863, mean I +0.0066, permutation p 0.000
+
+==============================================================================
+INTERACTION BY DISTANCE
+==============================================================================
+    d | I off-diag mean       sd | I repetition mean       sd | filler agreement
+----------------------------------------------------------------------------------
+    2 |         -0.0007   0.0609 |           +0.0049   0.0323 |            0.077
+    4 |         +0.0036   0.0321 |           +0.0032   0.0358 |            0.060
+    8 |         +0.0001   0.0257 |           +0.0007   0.0123 |            0.146
+   16 |         +0.0021   0.0173 |           +0.0043   0.0193 |            0.059
+   32 |         +0.0021   0.0125 |           +0.0033   0.0270 |            0.204
+   64 |         +0.0026   0.0195 |           +0.0113   0.0393 |            0.103
+  128 |         +0.0055   0.0254 |           +0.0183   0.0442 |            0.244
+
+  banded tests (each band its own permutation null):
+  band |   R | sig off | sig diag |  fwer p
+----------------------------------------------
+ short |   6 |       1 |        0 |   0.024
+   mid |   4 |       0 |        0 |   0.194
+  long |   4 |       1 |        0 |   0.000
+
+==============================================================================
+PRE-REGISTERED VERDICT
+==============================================================================
+  NO detectable non-contiguous interaction at this power:
+    significant pairs 1 vs matched-null 95th pct 4;  family-wise p 0.035
+    power: effects of [2.0, 3.0]x cell noise (0.005 logprob) would have been recovered
+
+  most negative I (pair worse than its parts):
+          'Python' @i + 'AppBundle'    @j  I=-0.2438  p_adj=0.384  worst d=128
+       ' Patriots' @i + '.Ver'         @j  I=-0.1960  p_adj=0.590  worst d=2
+            '.Ver' @i + 'Sentence'     @j  I=-0.1707  p_adj=0.590  worst d=8
+            '.Ver' @i + ' broadly'     @j  I=-0.1423  p_adj=0.590  worst d=2
+        ' Garrett' @i + '.Ver'         @j  I=-0.1387  p_adj=0.590  worst d=8
+          'callee' @i + ' Garrett'     @j  I=-0.1334  p_adj=0.590  worst d=2
+            'ilon' @i + ' Garrett'     @j  I=-0.1261  p_adj=0.286  worst d=2
+            'ilon' @i + ' Patriots'    @j  I=-0.1252  p_adj=0.286  worst d=2
+          ' brisk' @i + '_cum'         @j  I=-0.1185  p_adj=0.037 *  worst d=2
+            '.Ver' @i + ' mildly'      @j  I=-0.1158  p_adj=0.590  worst d=2
+
+saved -> results/interaction_screen.json, results/interaction_screen.pt

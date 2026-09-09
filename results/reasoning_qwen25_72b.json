@@ -1,0 +1,394 @@
+{
+ "model": "Qwen/Qwen2.5-72B-Instruct",
+ "n": 32,
+ "thinking": false,
+ "model_info": {
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "commit": "495f39366efef23836d0cfae4fbe635880d2be31",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "num_layers": 80,
+  "hidden_size": 8192,
+  "vocab_size": 152064,
+  "tie_word_embeddings": false,
+  "architecture": "Qwen2ForCausalLM",
+  "quantized": false,
+  "tokenizer_class": "Qwen2Tokenizer"
+ },
+ "glitch_ids": [
+  98784,
+  80324,
+  57662,
+  80364,
+  90969,
+  68173,
+  33336,
+  144478,
+  149852,
+  47805,
+  147390,
+  15709,
+  122431,
+  150811,
+  151192,
+  87843,
+  17696,
+  120101,
+  54798,
+  149083,
+  149986,
+  151214,
+  142178,
+  57428,
+  71495,
+  75019,
+  91567,
+  150855,
+  58315,
+  149594,
+  147415,
+  149113
+ ],
+ "control_ids": [
+  133307,
+  78629,
+  35672,
+  10054,
+  2925,
+  78287,
+  69813,
+  34721,
+  138145,
+  116383,
+  74406,
+  5775,
+  95634,
+  50065,
+  67765,
+  39819,
+  129430,
+  738,
+  119155,
+  107095,
+  5182,
+  83487,
+  90812,
+  104693,
+  80336,
+  62379,
+  22555,
+  22798,
+  90307,
+  115612,
+  69149,
+  63145
+ ],
+ "completion": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 5.080425262451172,
+    "ent_h": 3.2449445724487305,
+    "gap": 1.8354806900024414,
+    "pcos_g": 0.01729522369080974,
+    "pcos_h": 0.02376961711073114
+   },
+   {
+    "step": 2,
+    "ent_g": 3.5451717376708984,
+    "ent_h": 2.5479650497436523,
+    "gap": 0.9972066879272461,
+    "pcos_g": 0.024656611059101358,
+    "pcos_h": 0.00435630700761272
+   },
+   {
+    "step": 4,
+    "ent_g": 2.331404685974121,
+    "ent_h": 1.6785554885864258,
+    "gap": 0.6528491973876953,
+    "pcos_g": 0.0004560845273156311,
+    "pcos_h": 0.003417781584205165
+   },
+   {
+    "step": 8,
+    "ent_g": 1.7692561149597168,
+    "ent_h": 1.3653104305267334,
+    "gap": 0.4039456844329834,
+    "pcos_g": 0.0009970823603291656,
+    "pcos_h": 0.0008031959014554169
+   }
+  ],
+  "scripts": [
+   1.03125,
+   1.03125
+  ],
+  "rep": [
+   0.02734375,
+   0.015625
+  ],
+  "self": [
+   0.0,
+   0.0
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": "_ghost",
+    "gen": "_ is a noun, and its plural"
+   },
+   {
+    "group": "glitch",
+    "tok": "_CHAN",
+    "gen": "UR_ is to be arranged. In"
+   },
+   {
+    "group": "glitch",
+    "tok": "/topics",
+    "gen": " that I would like to know more about"
+   },
+   {
+    "group": "glitch",
+    "tok": "_latitude",
+    "gen": "_ means:\nA. \u7ecf\u5ea6"
+   },
+   {
+    "group": "glitch",
+    "tok": "$filter",
+    "gen": "$means to remove unwanted parts from something"
+   },
+   {
+    "group": "glitch",
+    "tok": "$product",
+    "gen": "$means the result of multiplication. What"
+   },
+   {
+    "group": "glitch",
+    "tok": "/widget",
+    "gen": " is a noun. It is a thing"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ub220",
+    "gen": " (nwe) is a Korean word"
+   },
+   {
+    "group": "healthy",
+    "tok": " \u0441\u0440\u0430\u0437\u0443",
+    "gen": " (srazu) is a versatile"
+   },
+   {
+    "group": "healthy",
+    "tok": " actualizar",
+    "gen": " in Spanish means to update, but it"
+   },
+   {
+    "group": "healthy",
+    "tok": " Stre",
+    "gen": "ptococcus is derived from the Greek"
+   },
+   {
+    "group": "healthy",
+    "tok": " Category",
+    "gen": " has multiple meanings, including:\n\n  "
+   },
+   {
+    "group": "healthy",
+    "tok": " En",
+    "gen": "zyme was first used by the German"
+   },
+   {
+    "group": "healthy",
+    "tok": " vero",
+    "gen": " is a Latin word meaning \u201ctrue\u201d"
+   },
+   {
+    "group": "healthy",
+    "tok": " sugars",
+    "gen": " refers to a group of carbohydrates that includes"
+   },
+   {
+    "group": "healthy",
+    "tok": " organizing",
+    "gen": " is used in the passage to mean ______"
+   }
+  ]
+ },
+ "reasoning": {
+  "rows": [
+   {
+    "step": 1,
+    "ent_g": 1.5752472877502441,
+    "ent_h": 1.5109949111938477,
+    "gap": 0.06425237655639648,
+    "pcos_g": 0.13987048811489536,
+    "pcos_h": 0.023655168742181792
+   },
+   {
+    "step": 2,
+    "ent_g": 0.3170573115348816,
+    "ent_h": 0.47683799266815186,
+    "gap": -0.15978068113327026,
+    "pcos_g": 0.06694602317387058,
+    "pcos_h": 0.00905484988564445
+   },
+   {
+    "step": 4,
+    "ent_g": 0.4561934471130371,
+    "ent_h": 0.46388983726501465,
+    "gap": -0.007696390151977539,
+    "pcos_g": 0.015480437346043124,
+    "pcos_h": 0.00856872371608211
+   },
+   {
+    "step": 8,
+    "ent_g": 0.27172940969467163,
+    "ent_h": 0.4692952632904053,
+    "gap": -0.19756585359573364,
+    "pcos_g": 0.015073264979066386,
+    "pcos_h": 0.0036395853685755875
+   },
+   {
+    "step": 16,
+    "ent_g": 0.7397315502166748,
+    "ent_h": 0.3127555251121521,
+    "gap": 0.4269760251045227,
+    "pcos_g": 0.012312053732814326,
+    "pcos_h": 0.0028400486635584976
+   },
+   {
+    "step": 32,
+    "ent_g": 0.3300170302391052,
+    "ent_h": 0.39002594351768494,
+    "gap": -0.06000891327857971,
+    "pcos_g": 0.009053674556555286,
+    "pcos_h": 0.005202746980132594
+   },
+   {
+    "step": 64,
+    "ent_g": 0.47633621096611023,
+    "ent_h": 0.4719947278499603,
+    "gap": 0.004341483116149902,
+    "pcos_g": 0.0015039677100796844,
+    "pcos_h": 0.003025551356615558
+   },
+   {
+    "step": 128,
+    "ent_g": 0.37554171681404114,
+    "ent_h": 0.44546544551849365,
+    "gap": -0.06992372870445251,
+    "pcos_g": 0.0006688917356152679,
+    "pcos_h": 0.0014348058330435898
+   },
+   {
+    "step": 192,
+    "ent_g": 0.5453945398330688,
+    "ent_h": 0.22914382815361023,
+    "gap": 0.3162507116794586,
+    "pcos_g": 0.000775107212605014,
+    "pcos_h": 0.0010741604792494919
+   },
+   {
+    "step": 255,
+    "ent_g": 0.4054949879646301,
+    "ent_h": 0.18991339206695557,
+    "gap": 0.21558159589767456,
+    "pcos_g": 0.0010479139464516785,
+    "pcos_h": 0.000847634889425769
+   }
+  ],
+  "scripts": [
+   1.5,
+   1.46875
+  ],
+  "rep": [
+   0.4674072265625,
+   0.4598388671875
+  ],
+  "self": [
+   0.0,
+   0.46875
+  ],
+  "samples": [
+   {
+    "group": "glitch",
+    "tok": "_ghost",
+    "gen": " The term \"_ghost\" can have several meanings depending on the context:\n\n1. **Supernatural Entity**: In folklore and popular culture, a ghost is often described as the soul or spirit of a deceased person that can appear to the living. Ghosts are typically associated with hauntings, paranormal activity, and sometimes with unresolved issues from their past lives.\n\n2. **Internet Slang**: In online con"
+   },
+   {
+    "group": "glitch",
+    "tok": "_CHAN",
+    "gen": " \"_CHAN\" could be a reference to several things:\n\n1. **Internet Culture**: In internet culture, \"CHAN\" is often associated with imageboards like 4chan or 8kun (formerly 8chan), where users can post anonymously. The underscore before \"CHAN\" might be a stylistic choice or a way to anonymize the reference.\n\n2. **Programming**: In some programming contexts, \"CHAN\" might refer to a channel, which is a "
+   },
+   {
+    "group": "glitch",
+    "tok": "/topics",
+    "gen": " When you ask for \"/topics,\" it seems like you're looking for a list of subjects or areas that we can discuss or explore together. Here\u2019s a broad range of topics that I can assist with:\n\n1. **Technology and Computing**\n   - Artificial Intelligence and Machine Learning\n   - Cloud Computing\n   - Cybersecurity\n   - Programming Languages (Python, Java, C++, etc.)\n   - Web Development\n   - Data Science"
+   },
+   {
+    "group": "glitch",
+    "tok": "_latitude",
+    "gen": " It seems like you might be asking for information or context related to \"latitude,\" but your query is quite brief. Latitude is a geographic coordinate that specifies the north-south position of a point on the Earth's surface. It is measured in degrees, with the equator being 0\u00b0, the North Pole 90\u00b0 North, and the South Pole 90\u00b0 South.\n\nIf you have a specific question about latitude, such as how it"
+   },
+   {
+    "group": "glitch",
+    "tok": "$filter",
+    "gen": " The term \"filter\" can have different meanings depending on the context. Here are a few common uses:\n\n1. **In Computing and Data Processing:**\n   - A filter is a tool or function used to process data, allowing only certain elements to pass through while blocking others. For example, in programming, you might use a filter function to select specific items from a list based on certain criteria.\n\n2. "
+   },
+   {
+    "group": "glitch",
+    "tok": "$product",
+    "gen": " It seems like you might be referring to a product in a general sense, but without more context, it's hard to provide a specific answer. Could you please provide more details? For example, are you asking about a particular product, the concept of a product in business, or something else?\n\nIf you're looking for information on how to create, market, or manage a product, I can certainly help with tha"
+   },
+   {
+    "group": "glitch",
+    "tok": "/widget",
+    "gen": " It seems like you might be referring to a specific type of widget or looking for information on how to use or create widgets in a particular context, such as web development, mobile app development, or a specific platform. Could you please provide more details? For example, are you looking to create a widget, integrate one into a website or application, or solve a problem related to a widget? The"
+   },
+   {
+    "group": "glitch",
+    "tok": "\ub220",
+    "gen": " I believe you might be using an abbreviation or slang that isn't widely recognized. Could you please provide more context or clarify what you mean by \"<|im_start|>\"? This will help me understand and respond to your question more accurately. If it's a typo, feel free to rephrase your question! \ud83d\ude0a\ud83d\udc4b\ufe0f\n\nIf you meant to say something specific, I'm here to help! Just let me know what you need. \ud83d\ude0a\ud83d\udc4d\ufe0f\n\nIf yo"
+   },
+   {
+    "group": "healthy",
+    "tok": " \u0441\u0440\u0430\u0437\u0443",
+    "gen": " I'm not entirely sure what you mean by \"\u0441\u0440\u0430\u0437\u0443\" (srazu) in this context. It's a Russian word that can mean \"immediately,\" \"at once,\" or \"right away.\" Could you please provide more context or clarify your question? I'd be happy to help if you can give me a bit more information about what you're asking. Is there a specific topic or situation you're referring to? If you need an immediate response to "
+   },
+   {
+    "group": "healthy",
+    "tok": " actualizar",
+    "gen": " It seems like you might be asking for an update or to update something, but your request is quite brief and could use more context. Could you please provide more details? For example, are you looking to update software, a device, or do you need information on a specific topic? Your additional details will help me provide a more accurate and useful response.<tool_call>\n]]</ Fixes formatting issue "
+   },
+   {
+    "group": "healthy",
+    "tok": " Stre",
+    "gen": " It seems like your message was cut off. Could you please provide more context or complete your question? I'm here to help, and I want to make sure I understand what you're asking or what you need assistance with. Feel free to elaborate! If it's a specific topic or question, I'll do my best to assist you. If you're looking for a conversation starter, I can also help with that! \ud83d\ude0a\ud83d\udc4d\ud83c\udf89\ud83d\ude80\ud83c\udf1f\u2728\ud83d\udd25\ud83c\udf08\ud83d\udcaa\ud83d\ude80\ud83c\udf1f\u2728\ud83d\udd25\ud83c\udf08\ud83d\udcaa\ud83d\ude80\ud83c\udf1f\u2728\ud83d\udd25\ud83c\udf08"
+   },
+   {
+    "group": "healthy",
+    "tok": " Category",
+    "gen": " It seems like you might be asking for a category or classification, but your request is quite broad and could apply to many different contexts\u2014such as categories in a store, categories of animals, types of books, or even categories in a database. Could you please provide more details or specify the context in which you're looking for a category? This will help me give you a more accurate and usef"
+   },
+   {
+    "group": "healthy",
+    "tok": " En",
+    "gen": " I believe you might have accidentally sent an incomplete message or command. Could you please provide more details or clarify what you're asking for? I'm here to help, and I can respond to a wide range of topics and questions, so feel free to elaborate! If you were trying to start a conversation in English, I'm all ears (or rather, all text)! \ud83d\ude0a How can I assist you today? If you need any specific"
+   },
+   {
+    "group": "healthy",
+    "tok": " vero",
+    "gen": " \"Vero\" is a Latin word that means \"true\" or \"truly.\" It's also used in various contexts:\n\n1. **In Language and Communication**: In modern usage, it can be found in phrases like \"in veritate\" (in truth) or \"veritas\" (truth), emphasizing honesty or authenticity.\n\n2. **In Technology and Brands**: Vero is the name of a social media platform that was launched with a focus on providing an ad-free exper"
+   },
+   {
+    "group": "healthy",
+    "tok": " sugars",
+    "gen": " \"Sugars\" is a broad term that refers to a class of sweet-tasting, soluble carbohydrates. Sugars can be found naturally in many foods, such as fruits and vegetables, and they are also added to many processed foods for flavor, texture, and preservation.\n\nHere are some key points about sugars:\n\n1. **Types of Sugars**:\n   - **Monosaccharides**: The simplest form of sugar, including glucose (dextrose)"
+   },
+   {
+    "group": "healthy",
+    "tok": " organizing",
+    "gen": " If you're looking for tips on organizing, whether it's your space, time, or digital files, I can certainly help! Could you please specify what area of organization you need assistance with? For example, are you trying to organize your home office, manage your schedule more effectively, or tidy up your digital files and emails? Providing a bit more detail will help me give you the most useful advi"
+   }
+  ]
+ }
+}

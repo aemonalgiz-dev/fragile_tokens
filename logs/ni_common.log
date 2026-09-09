@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   9%|▉         | 32/355 [00:00<00:01, 319.88it/s]Loading weights:  23%|██▎       | 81/355 [00:00<00:00, 414.03it/s]Loading weights:  35%|███▍      | 124/355 [00:00<00:00, 414.95it/s]Loading weights:  47%|████▋     | 166/355 [00:00<00:00, 412.21it/s]Loading weights:  59%|█████▊    | 208/355 [00:00<00:00, 391.82it/s]Loading weights:  71%|███████   | 251/355 [00:00<00:00, 387.24it/s]Loading weights:  83%|████████▎ | 296/355 [00:00<00:00, 402.71it/s]Loading weights:  96%|█████████▌| 340/355 [00:00<00:00, 410.72it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 411.03it/s]
+allenai/OLMo-2-1124-7B-Instruct: healthy pool 2400, verified glitch 442, cuda
+single healthy tokens reproduced exactly: 0.924
+single verified-glitch tokens reproduced : 0.036
+pool restricted to individually-reproducible tokens: 2218
+
+==============================================================================
+Q1  REPRODUCTION vs SEQUENCE LENGTH (all members individually clean)
+==============================================================================
+  n |   exact | conf-wrong |  entropy | mean unreach adj
+------------------------------------------------------------
+  1 |   1.000 |      0.000 |    0.292 |             0.00
+  2 |   0.976 |      0.000 |    0.191 |             0.04
+  3 |   0.948 |      0.008 |    0.220 |             0.10
+  4 |   0.916 |      0.000 |    0.218 |             0.15
+  6 |   0.908 |      0.008 |    0.163 |             0.26
+  8 |   0.892 |      0.004 |    0.159 |             0.30
+
+==============================================================================
+Q2  IS FAILURE PREDICTABLE WITHOUT RUNNING THE MODEL?
+AUC for predicting reproduction FAILURE, within each n
+==============================================================================
+  n | n_fail | unreach adj | re-segments | seq char len
+--------------------------------------------------------
+  1 |      0 | (degenerate)
+  2 |      6 |       0.477 |       0.477 |        0.475
+  3 |     13 |       0.576 |       0.573 |        0.485
+  4 |     21 |       0.528 |       0.530 |        0.496
+  6 |     23 |       0.531 |       0.535 |        0.443
+  8 |     27 |       0.514 |       0.504 |        0.545
+
+==============================================================================
+Q3  WHAT DOES FAILURE LOOK LIKE? (n=8)
+==============================================================================
+  want ' HE\tassert soon felliced route Model ptr'
+  got  ' HE assert soon fellisced route Model ptr'   H=0.96 unreach=1
+  want 'la\tassertmaxturnpositatioEach launched'
+  got  ' la_assertmaxturnpositatioEach launched'   H=0.22 unreach=0
+  want ' coverage electric ONbsp temperatureosiserm presence'
+  got  ' coverage electric ONbsp temperatureer presence'   H=0.69 unreach=0
+  want ' according reflectlegateToStringtract idea\tchar units'
+  got  ' reflectlegateToStringtract idea char units'   H=0.59 unreach=0
+  want ' decision according components canvas indu Jewcountryevent'
+  got  ' decision components canvas indu Jewcountryevent'   H=0.15 unreach=0
+  want '\tlocal discover will CO Head ey remoz'
+  got  ' local discover will CO Head remoz'   H=0.23 unreach=0
+  want 'retchuthru systoken couldndirake'
+  got  ' retchuthru systokendirake'   H=0.11 unreach=2
+  want ' tempID loading clostractyp custom involved'
+  got  ' tempID loading closcontractyp custom involved'   H=0.29 unreach=1
+  want ' av\tvirtualSaveri influichtatch June'
+  got  ' av_virtualSaveri influichtatch June'   H=0.54 unreach=1
+  want ' justify lines violSomelafirm usersrt'
+  got  ' justify lines violSomeLaRm users'   H=1.71 unreach=2
+  OK   ' citiz tough Eachischeideos essay publishesome'
+  OK   'methodsectmmean friendshrdenSql'
+  OK   ' detailedails Pr conferenceWhyreenauthorceed'
+
+saved -> results/ni_common.json
