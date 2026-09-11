@@ -1,0 +1,4735 @@
+{
+ "tag": "phi4",
+ "repo": "microsoft/phi-4",
+ "tied": false,
+ "vocab": 100352,
+ "table": [
+  100352,
+  5120
+ ],
+ "static_reference_rows": 88,
+ "reserved_tokens": [
+  "<|dummy_0|>",
+  "<|dummy_1|>",
+  "<|dummy_2|>",
+  "<|dummy_3|>",
+  "<|dummy_4|>",
+  "<|dummy_5|>",
+  "<|dummy_6|>",
+  "<|dummy_7|>",
+  "<|dummy_8|>",
+  "<|dummy_9|>",
+  "<|dummy_10|>",
+  "<|dummy_11|>",
+  "<|dummy_12|>",
+  "<|dummy_13|>",
+  "<|dummy_14|>",
+  "<|dummy_15|>",
+  "<|dummy_16|>",
+  "<|dummy_17|>",
+  "<|dummy_18|>",
+  "<|dummy_19|>"
+ ],
+ "created_utc": "2026-09-11T16:09:29+00:00",
+ "scores_file": "results/predictions/phi4_scores.npz",
+ "scores_sha256": "9f166975124766fe74ef99fd27f07e56d9cda77873318e8c350d0c0562a8359b",
+ "hypotheses": [
+  "H1 prox_static: on the Lambda random sample, fragile vs stable (clean alone), token-id-stratified AUC >= 0.60",
+  "H2 lid: same test, token-id-stratified AUC >= 0.60",
+  "H3 crowd_max within ordinary English words: fragile vs stable AUC >= 0.60",
+  "H4 each method's top-300 predicted-fragile set has a fragile rate >= 2x the random sample's",
+  "Only models with >= 5 static-reference rows are eligible for H1."
+ ],
+ "top_predicted_fragile": {
+  "prox_static": [
+   {
+    "id": 89472,
+    "token": "useRalative",
+    "score": 0.9731,
+    "nearest": "<|dummy_74|>"
+   },
+   {
+    "id": 89471,
+    "token": "useRal",
+    "score": 0.9655,
+    "nearest": "<|endofprompt|>"
+   },
+   {
+    "id": 47072,
+    "token": "webElementX",
+    "score": 0.8902,
+    "nearest": "<|dummy_24|>"
+   },
+   {
+    "id": 80369,
+    "token": " ForCanBeConverted",
+    "score": 0.8872,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 80370,
+    "token": " ForCanBeConvertedToF",
+    "score": 0.8704,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 85069,
+    "token": "PostalCodesNL",
+    "score": 0.812,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 99944,
+    "token": " davidjl",
+    "score": 0.7978,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 81259,
+    "token": "artisanlib",
+    "score": 0.7137,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 79740,
+    "token": " Hexatrigesimal",
+    "score": 0.6443,
+    "nearest": " hexatrigesimal"
+   },
+   {
+    "id": 91198,
+    "token": "externalActionCode",
+    "score": 0.6246,
+    "nearest": "useRal"
+   },
+   {
+    "id": 79423,
+    "token": " thuisontvangst",
+    "score": 0.6225,
+    "nearest": " kutje"
+   },
+   {
+    "id": 89473,
+    "token": "useRalativeImagePath",
+    "score": 0.6109,
+    "nearest": "webElementProperties"
+   },
+   {
+    "id": 96334,
+    "token": ".bunifuFlatButton",
+    "score": 0.6094,
+    "nearest": "useRal"
+   },
+   {
+    "id": 47073,
+    "token": "webElementXpaths",
+    "score": 0.5877,
+    "nearest": "useRalativeImagePath"
+   },
+   {
+    "id": 89475,
+    "token": "elementGuidId",
+    "score": 0.58,
+    "nearest": "webElementProperties"
+   },
+   {
+    "id": 95656,
+    "token": ".DataGridViewContentAlignment",
+    "score": 0.5662,
+    "nearest": ".DataGridViewColumnHeadersHeightSizeMode"
+   },
+   {
+    "id": 70912,
+    "token": ".PictureBoxSizeMode",
+    "score": 0.558,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 33786,
+    "token": "webElementProperties",
+    "score": 0.5562,
+    "nearest": "useRalativeImagePath"
+   },
+   {
+    "id": 73303,
+    "token": ".DataGridViewColumnHeadersHeightSizeMode",
+    "score": 0.5545,
+    "nearest": ".DataGridViewContentAlignment"
+   },
+   {
+    "id": 96037,
+    "token": ".DataGridViewTriState",
+    "score": 0.5503,
+    "nearest": ".DataGridViewContentAlignment"
+   },
+   {
+    "id": 89443,
+    "token": " kutje",
+    "score": 0.5491,
+    "nearest": " neuken"
+   },
+   {
+    "id": 85965,
+    "token": " datingsider",
+    "score": 0.5474,
+    "nearest": " datingside"
+   },
+   {
+    "id": 43587,
+    "token": "atrigesimal",
+    "score": 0.5465,
+    "nearest": " Hexatrigesimal"
+   },
+   {
+    "id": 71227,
+    "token": " FINSEQ",
+    "score": 0.54,
+    "nearest": " +#+#+#+"
+   },
+   {
+    "id": 93905,
+    "token": " QtAws",
+    "score": 0.5323,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 81325,
+    "token": ".bindingNavigatorMove",
+    "score": 0.5319,
+    "nearest": ".bindingNavigator"
+   },
+   {
+    "id": 71337,
+    "token": "+lsi",
+    "score": 0.5308,
+    "nearest": "drFc"
+   },
+   {
+    "id": 70316,
+    "token": "erusform",
+    "score": 0.516,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 71366,
+    "token": "drFc",
+    "score": 0.5153,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 89917,
+    "token": " porrf",
+    "score": 0.5109,
+    "nearest": " dejting"
+   },
+   {
+    "id": 72104,
+    "token": " dejtings",
+    "score": 0.5093,
+    "nearest": " dejtingsaj"
+   },
+   {
+    "id": 40270,
+    "token": "wcsstore",
+    "score": 0.5063,
+    "nearest": "useRal"
+   },
+   {
+    "id": 89232,
+    "token": ".Disclaimer",
+    "score": 0.5057,
+    "nearest": "<|dummy_19|>"
+   },
+   {
+    "id": 81705,
+    "token": " dejtingsaj",
+    "score": 0.4994,
+    "nearest": " dejtings"
+   },
+   {
+    "id": 92078,
+    "token": " jylland",
+    "score": 0.4988,
+    "nearest": " århus"
+   },
+   {
+    "id": 59066,
+    "token": " hexatrigesimal",
+    "score": 0.4956,
+    "nearest": " Hexatrigesimal"
+   },
+   {
+    "id": 71819,
+    "token": "numerusform",
+    "score": 0.4947,
+    "nearest": "extracomment"
+   },
+   {
+    "id": 57361,
+    "token": "_REALTYPE",
+    "score": 0.4932,
+    "nearest": "useRal"
+   },
+   {
+    "id": 34956,
+    "token": " +#+#+#+",
+    "score": 0.4905,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 90412,
+    "token": "selectorMethod",
+    "score": 0.4896,
+    "nearest": "useRalativeImagePath"
+   },
+   {
+    "id": 72745,
+    "token": " XBOOLE",
+    "score": 0.4883,
+    "nearest": " FINSEQ"
+   },
+   {
+    "id": 41459,
+    "token": "rigesimal",
+    "score": 0.4881,
+    "nearest": "atrigesimal"
+   },
+   {
+    "id": 47598,
+    "token": "NdEx",
+    "score": 0.4807,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 80612,
+    "token": "MethodBeat",
+    "score": 0.4791,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 88136,
+    "token": "...\n\n\n\n\n\n",
+    "score": 0.4776,
+    "nearest": "!\n\n\n\n\n\n"
+   },
+   {
+    "id": 94394,
+    "token": ".DataGridViewAutoSize",
+    "score": 0.4774,
+    "nearest": ".DataGridViewColumnHeadersHeightSizeMode"
+   },
+   {
+    "id": 85751,
+    "token": "ãeste",
+    "score": 0.4734,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 96081,
+    "token": " dejting",
+    "score": 0.4732,
+    "nearest": " dejtingsaj"
+   },
+   {
+    "id": 84043,
+    "token": ".LayoutControlItem",
+    "score": 0.4688,
+    "nearest": ".layoutControlItem"
+   },
+   {
+    "id": 83846,
+    "token": " GCBO",
+    "score": 0.4661,
+    "nearest": " GUIDATA"
+   },
+   {
+    "id": 94141,
+    "token": ".XRTableCell",
+    "score": 0.4654,
+    "nearest": ".XRLabel"
+   },
+   {
+    "id": 76613,
+    "token": "extracomment",
+    "score": 0.4638,
+    "nearest": "numerusform"
+   },
+   {
+    "id": 99168,
+    "token": "SmartyHeaderCode",
+    "score": 0.4636,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 84993,
+    "token": "rPid",
+    "score": 0.463,
+    "nearest": "sPid"
+   },
+   {
+    "id": 59590,
+    "token": "IntoConstraints",
+    "score": 0.4629,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 57057,
+    "token": "!\n\n\n\n\n\n",
+    "score": 0.4605,
+    "nearest": "...\n\n\n\n\n\n"
+   },
+   {
+    "id": 70224,
+    "token": " århus",
+    "score": 0.4605,
+    "nearest": " jylland"
+   },
+   {
+    "id": 81303,
+    "token": " hieronta",
+    "score": 0.4587,
+    "nearest": " massasje"
+   },
+   {
+    "id": 77135,
+    "token": " datingside",
+    "score": 0.458,
+    "nearest": " datingsider"
+   },
+   {
+    "id": 66195,
+    "token": ".FormStartPosition",
+    "score": 0.455,
+    "nearest": ".PictureBoxSizeMode"
+   },
+   {
+    "id": 81885,
+    "token": "ketøy",
+    "score": 0.4531,
+    "nearest": "useRal"
+   },
+   {
+    "id": 25803,
+    "token": "yalty",
+    "score": 0.4525,
+    "nearest": "useRal"
+   },
+   {
+    "id": 86645,
+    "token": ".\n\n\n\n\n\n\n\n\n\n\n\n",
+    "score": 0.4492,
+    "nearest": ".\n\n\n\n\n\n\n\n\n\n"
+   },
+   {
+    "id": 13765,
+    "token": "TRGL",
+    "score": 0.4482,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 26009,
+    "token": "methodVisitor",
+    "score": 0.4475,
+    "nearest": "selectorMethod"
+   },
+   {
+    "id": 45180,
+    "token": " københavn",
+    "score": 0.4466,
+    "nearest": " århus"
+   },
+   {
+    "id": 58508,
+    "token": ":-------------</",
+    "score": 0.4462,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 94807,
+    "token": " RTBU",
+    "score": 0.4415,
+    "nearest": " RTAL"
+   },
+   {
+    "id": 96611,
+    "token": "RGBO",
+    "score": 0.4401,
+    "nearest": "TRGL"
+   },
+   {
+    "id": 32383,
+    "token": " neuken",
+    "score": 0.439,
+    "nearest": " kutje"
+   },
+   {
+    "id": 61145,
+    "token": " councill",
+    "score": 0.439,
+    "nearest": " taxp"
+   },
+   {
+    "id": 73018,
+    "token": " StreamLazy",
+    "score": 0.4384,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 75987,
+    "token": " odense",
+    "score": 0.4378,
+    "nearest": " århus"
+   },
+   {
+    "id": 71390,
+    "token": " PodsDummy",
+    "score": 0.4361,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 89541,
+    "token": ".Guna",
+    "score": 0.436,
+    "nearest": ".bunifuFlatButton"
+   },
+   {
+    "id": 70336,
+    "token": " spep",
+    "score": 0.4358,
+    "nearest": " knull"
+   },
+   {
+    "id": 62176,
+    "token": "ERRQ",
+    "score": 0.4341,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 99503,
+    "token": " frække",
+    "score": 0.4332,
+    "nearest": " erotiske"
+   },
+   {
+    "id": 84879,
+    "token": "mPid",
+    "score": 0.4313,
+    "nearest": "sPid"
+   },
+   {
+    "id": 60107,
+    "token": ".awtextra",
+    "score": 0.4308,
+    "nearest": "useRal"
+   },
+   {
+    "id": 7798,
+    "token": "ERCHANTABILITY",
+    "score": 0.4277,
+    "nearest": " +#+#+#+"
+   },
+   {
+    "id": 98797,
+    "token": "APolynomial",
+    "score": 0.4266,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 31270,
+    "token": " massasje",
+    "score": 0.4251,
+    "nearest": " eskorte"
+   },
+   {
+    "id": 97784,
+    "token": " JSBracketAccess",
+    "score": 0.4238,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 71927,
+    "token": " guiActive",
+    "score": 0.4237,
+    "nearest": " dataGridViewTextBoxColumn"
+   },
+   {
+    "id": 23839,
+    "token": " taxp",
+    "score": 0.4208,
+    "nearest": " councill"
+   },
+   {
+    "id": 77666,
+    "token": "okableCall",
+    "score": 0.419,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 85071,
+    "token": "$PostalCodesNL",
+    "score": 0.4186,
+    "nearest": "�"
+   },
+   {
+    "id": 81998,
+    "token": "ablytyped",
+    "score": 0.4184,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 84915,
+    "token": "sPid",
+    "score": 0.4181,
+    "nearest": "mPid"
+   },
+   {
+    "id": 95430,
+    "token": " filmpjes",
+    "score": 0.4166,
+    "nearest": " neuken"
+   },
+   {
+    "id": 64676,
+    "token": ".AbsoluteConstraints",
+    "score": 0.4159,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 86415,
+    "token": "BundleOrNil",
+    "score": 0.4153,
+    "nearest": "ibBundleOrNil"
+   },
+   {
+    "id": 72129,
+    "token": " DERP",
+    "score": 0.4146,
+    "nearest": " BCHP"
+   },
+   {
+    "id": 59901,
+    "token": " principalColumn",
+    "score": 0.4135,
+    "nearest": " principalTable"
+   },
+   {
+    "id": 96165,
+    "token": " HinderedRotor",
+    "score": 0.4127,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 67750,
+    "token": "_typeDefinitionSize",
+    "score": 0.411,
+    "nearest": "_FieldOffsetTable"
+   },
+   {
+    "id": 90490,
+    "token": "ibBundleOrNil",
+    "score": 0.4109,
+    "nearest": "BundleOrNil"
+   },
+   {
+    "id": 43823,
+    "token": " prostituerade",
+    "score": 0.4108,
+    "nearest": " prostituerte"
+   },
+   {
+    "id": 51717,
+    "token": " prostituerte",
+    "score": 0.4108,
+    "nearest": " prostituerade"
+   },
+   {
+    "id": 95525,
+    "token": " dataGridViewTextBoxColumn",
+    "score": 0.4096,
+    "nearest": " DataGridViewCellStyle"
+   },
+   {
+    "id": 20803,
+    "token": "VRTX",
+    "score": 0.4082,
+    "nearest": "TRGL"
+   },
+   {
+    "id": 53355,
+    "token": "igrationBuilder",
+    "score": 0.4081,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 96737,
+    "token": "departureday",
+    "score": 0.4076,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 65507,
+    "token": "apgolly",
+    "score": 0.4075,
+    "nearest": "useRal"
+   },
+   {
+    "id": 39267,
+    "token": " eskorte",
+    "score": 0.4066,
+    "nearest": " massasje"
+   },
+   {
+    "id": 91543,
+    "token": " iNdEx",
+    "score": 0.4062,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 48640,
+    "token": "brakk",
+    "score": 0.406,
+    "nearest": "jejer"
+   },
+   {
+    "id": 74300,
+    "token": "['<{",
+    "score": 0.4044,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 83203,
+    "token": ".SetKeyName",
+    "score": 0.4032,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 98715,
+    "token": ".XRLabel",
+    "score": 0.403,
+    "nearest": ".XRTableCell"
+   },
+   {
+    "id": 79826,
+    "token": " BCHP",
+    "score": 0.402,
+    "nearest": " RTAL"
+   },
+   {
+    "id": 92488,
+    "token": " GUIDATA",
+    "score": 0.4008,
+    "nearest": " GCBO"
+   },
+   {
+    "id": 34957,
+    "token": " +#+#+#+#+#+",
+    "score": 0.3989,
+    "nearest": " +#+#+#+"
+   },
+   {
+    "id": 69790,
+    "token": ".metroLabel",
+    "score": 0.3989,
+    "nearest": ".bunifu"
+   },
+   {
+    "id": 84655,
+    "token": " ***!\n",
+    "score": 0.3973,
+    "nearest": " !***"
+   },
+   {
+    "id": 77260,
+    "token": " RTAL",
+    "score": 0.3959,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 87049,
+    "token": " knull",
+    "score": 0.3954,
+    "nearest": " neuken"
+   },
+   {
+    "id": 91916,
+    "token": "SOEVER",
+    "score": 0.3946,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 47174,
+    "token": " bryster",
+    "score": 0.3921,
+    "nearest": " frække"
+   },
+   {
+    "id": 97100,
+    "token": ".barDockControl",
+    "score": 0.3912,
+    "nearest": ".bindingNavigator"
+   },
+   {
+    "id": 90292,
+    "token": " danmark",
+    "score": 0.3912,
+    "nearest": " norge"
+   },
+   {
+    "id": 84904,
+    "token": "gMaps",
+    "score": 0.3893,
+    "nearest": "mPid"
+   },
+   {
+    "id": 50611,
+    "token": "VMLINUX",
+    "score": 0.3892,
+    "nearest": "LIBINT"
+   },
+   {
+    "id": 88685,
+    "token": ".ComboBoxStyle",
+    "score": 0.3889,
+    "nearest": ".DockStyle"
+   },
+   {
+    "id": 76944,
+    "token": " aalborg",
+    "score": 0.3886,
+    "nearest": " odense"
+   },
+   {
+    "id": 66978,
+    "token": " thaimassage",
+    "score": 0.3879,
+    "nearest": " datingside"
+   },
+   {
+    "id": 88941,
+    "token": " invokingState",
+    "score": 0.3878,
+    "nearest": " dataGridViewTextBoxColumn"
+   },
+   {
+    "id": 73016,
+    "token": " EnumerableStream",
+    "score": 0.3855,
+    "nearest": " ReferentialAction"
+   },
+   {
+    "id": 91508,
+    "token": " :\n\n\n\n",
+    "score": 0.3854,
+    "nearest": ":\n\n\n\n\n\n"
+   },
+   {
+    "id": 80157,
+    "token": " SubLObject",
+    "score": 0.3853,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 43053,
+    "token": ".layoutControlItem",
+    "score": 0.3849,
+    "nearest": ".layoutControl"
+   },
+   {
+    "id": 73329,
+    "token": "…\n\n\n\n",
+    "score": 0.3847,
+    "nearest": "…\n\n\n"
+   },
+   {
+    "id": 58944,
+    "token": "/Subthreshold",
+    "score": 0.383,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 96865,
+    "token": "\tiNdEx",
+    "score": 0.3828,
+    "nearest": " iNdEx"
+   },
+   {
+    "id": 57769,
+    "token": "LIBINT",
+    "score": 0.3822,
+    "nearest": "VMLINUX"
+   },
+   {
+    "id": 59870,
+    "token": " ReferentialAction",
+    "score": 0.3812,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 59591,
+    "token": "AutoresizingMaskIntoConstraints",
+    "score": 0.3809,
+    "nearest": "IntoConstraints"
+   },
+   {
+    "id": 54309,
+    "token": "ontvangst",
+    "score": 0.3807,
+    "nearest": "jejer"
+   },
+   {
+    "id": 54725,
+    "token": "fragistics",
+    "score": 0.3802,
+    "nearest": "useRal"
+   },
+   {
+    "id": 97581,
+    "token": " JSName",
+    "score": 0.3789,
+    "nearest": " JSBracketAccess"
+   },
+   {
+    "id": 44832,
+    "token": " nettsteder",
+    "score": 0.3788,
+    "nearest": " datingside"
+   },
+   {
+    "id": 68664,
+    "token": "?\n\n\n\n\n\n",
+    "score": 0.3768,
+    "nearest": "!\n\n\n\n\n\n"
+   },
+   {
+    "id": 89496,
+    "token": "_FieldOffsetTable",
+    "score": 0.3767,
+    "nearest": "_typeDefinitionSize"
+   },
+   {
+    "id": 9844,
+    "token": "utowired",
+    "score": 0.3763,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 90900,
+    "token": " ⓘ",
+    "score": 0.3762,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 96656,
+    "token": "methodPointerType",
+    "score": 0.3744,
+    "nearest": "quotelev"
+   },
+   {
+    "id": 84780,
+    "token": "wjgl",
+    "score": 0.3735,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 67022,
+    "token": " norge",
+    "score": 0.3718,
+    "nearest": " danmark"
+   },
+   {
+    "id": 93600,
+    "token": " kInstruction",
+    "score": 0.3716,
+    "nearest": " HinderedRotor"
+   },
+   {
+    "id": 50174,
+    "token": "PlainOldData",
+    "score": 0.3712,
+    "nearest": "Intialized"
+   },
+   {
+    "id": 94047,
+    "token": "jspb",
+    "score": 0.3702,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 66325,
+    "token": "♪\n\n",
+    "score": 0.3696,
+    "nearest": "・・・\n\n"
+   },
+   {
+    "id": 68421,
+    "token": " Bunifu",
+    "score": 0.3692,
+    "nearest": " DataGridViewCellStyle"
+   },
+   {
+    "id": 83315,
+    "token": "richTextPanel",
+    "score": 0.3678,
+    "nearest": "adaptiveStyles"
+   },
+   {
+    "id": 66757,
+    "token": "wingConstants",
+    "score": 0.3675,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 52362,
+    "token": "SpecWarn",
+    "score": 0.3673,
+    "nearest": "useRal"
+   },
+   {
+    "id": 68953,
+    "token": " nakne",
+    "score": 0.3673,
+    "nearest": " prostituerte"
+   },
+   {
+    "id": 31960,
+    "token": "quotelev",
+    "score": 0.367,
+    "nearest": "gMaps"
+   },
+   {
+    "id": 73007,
+    "token": " tjejer",
+    "score": 0.3661,
+    "nearest": " dejting"
+   },
+   {
+    "id": 57846,
+    "token": "~-~-",
+    "score": 0.3659,
+    "nearest": "~-~-~-~-"
+   },
+   {
+    "id": 51345,
+    "token": ")paren",
+    "score": 0.3656,
+    "nearest": "(paren"
+   },
+   {
+    "id": 97923,
+    "token": "OMUX",
+    "score": 0.3656,
+    "nearest": "drFc"
+   },
+   {
+    "id": 73517,
+    "token": "DonaldTrump",
+    "score": 0.3654,
+    "nearest": "<|dummy_28|>"
+   },
+   {
+    "id": 66753,
+    "token": " erotiske",
+    "score": 0.3649,
+    "nearest": " erotisk"
+   },
+   {
+    "id": 45684,
+    "token": " sourceMapping",
+    "score": 0.3636,
+    "nearest": " sourceMappingURL"
+   },
+   {
+    "id": 61458,
+    "token": "NICALL",
+    "score": 0.3633,
+    "nearest": "CALLTYPE"
+   },
+   {
+    "id": 92656,
+    "token": " lesbisk",
+    "score": 0.3629,
+    "nearest": " erotiske"
+   },
+   {
+    "id": 98472,
+    "token": ".Butter",
+    "score": 0.3627,
+    "nearest": ".Disclaimer"
+   },
+   {
+    "id": 86547,
+    "token": " \"\"\"\",\n",
+    "score": 0.362,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 60809,
+    "token": ".guna",
+    "score": 0.362,
+    "nearest": ".sulake"
+   },
+   {
+    "id": 29138,
+    "token": " )\n\n\n\n\n\n\n\n",
+    "score": 0.3616,
+    "nearest": " )\n\n\n"
+   },
+   {
+    "id": 70260,
+    "token": " UIStoryboardSegue",
+    "score": 0.3616,
+    "nearest": " PodsDummy"
+   },
+   {
+    "id": 94053,
+    "token": "YLeaf",
+    "score": 0.3613,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 80464,
+    "token": " __________________\n\n",
+    "score": 0.3608,
+    "nearest": " __________________"
+   },
+   {
+    "id": 99874,
+    "token": " MessageLookup",
+    "score": 0.3606,
+    "nearest": " ReferentialAction"
+   },
+   {
+    "id": 13681,
+    "token": " volunte",
+    "score": 0.3593,
+    "nearest": " councill"
+   },
+   {
+    "id": 40785,
+    "token": "♀♀",
+    "score": 0.3591,
+    "nearest": "♀♀♀♀"
+   },
+   {
+    "id": 46705,
+    "token": ".bindingNavigator",
+    "score": 0.3586,
+    "nearest": ".bindingNavigatorMove"
+   },
+   {
+    "id": 95153,
+    "token": " overposting",
+    "score": 0.3555,
+    "nearest": " taxp"
+   },
+   {
+    "id": 58032,
+    "token": "jejer",
+    "score": 0.3545,
+    "nearest": "brakk"
+   },
+   {
+    "id": 91107,
+    "token": "~-~-~-~-",
+    "score": 0.3543,
+    "nearest": "~-~-"
+   },
+   {
+    "id": 100199,
+    "token": " GNUNET",
+    "score": 0.3541,
+    "nearest": " JSGlobal"
+   },
+   {
+    "id": 49453,
+    "token": "EDIATEK",
+    "score": 0.3502,
+    "nearest": "THOOK"
+   },
+   {
+    "id": 76363,
+    "token": " DataGridViewCellStyle",
+    "score": 0.3492,
+    "nearest": " Bunifu"
+   },
+   {
+    "id": 81761,
+    "token": "vinfos",
+    "score": 0.3477,
+    "nearest": "useRal"
+   },
+   {
+    "id": 57473,
+    "token": ":initComponents",
+    "score": 0.347,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 59839,
+    "token": "ConstraintMaker",
+    "score": 0.3456,
+    "nearest": "MASConstraintMaker"
+   },
+   {
+    "id": 49576,
+    "token": " newcom",
+    "score": 0.3455,
+    "nearest": " taxp"
+   },
+   {
+    "id": 14686,
+    "token": "spNet",
+    "score": 0.3448,
+    "nearest": "sPid"
+   },
+   {
+    "id": 92103,
+    "token": "NavigatorMove",
+    "score": 0.3447,
+    "nearest": "Intialized"
+   },
+   {
+    "id": 80371,
+    "token": " ForCanBeConvertedToForeach",
+    "score": 0.3444,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 84174,
+    "token": "stashop",
+    "score": 0.3444,
+    "nearest": "yalty"
+   },
+   {
+    "id": 50325,
+    "token": "adaptiveStyles",
+    "score": 0.344,
+    "nearest": "styleType"
+   },
+   {
+    "id": 80408,
+    "token": "=BitConverter",
+    "score": 0.344,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 61207,
+    "token": "latesAutoresizingMaskIntoConstraints",
+    "score": 0.3439,
+    "nearest": "useRal"
+   },
+   {
+    "id": 67705,
+    "token": "_typeDefinition",
+    "score": 0.3435,
+    "nearest": "_REALTYPE"
+   },
+   {
+    "id": 86802,
+    "token": " RouteServiceProvider",
+    "score": 0.3435,
+    "nearest": " RTAL"
+   },
+   {
+    "id": 72607,
+    "token": "DECREF",
+    "score": 0.343,
+    "nearest": "LIBINT"
+   },
+   {
+    "id": 57050,
+    "token": "aimassage",
+    "score": 0.342,
+    "nearest": "jejer"
+   },
+   {
+    "id": 66235,
+    "token": "CppTypeDefinition",
+    "score": 0.3418,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 83878,
+    "token": ".EditorButton",
+    "score": 0.3417,
+    "nearest": ".CustomButton"
+   },
+   {
+    "id": 60403,
+    "token": "/epl",
+    "score": 0.3414,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 76714,
+    "token": "/DTD",
+    "score": 0.3406,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 45192,
+    "token": "-Semit",
+    "score": 0.34,
+    "nearest": "-Semitic"
+   },
+   {
+    "id": 87257,
+    "token": " safezone",
+    "score": 0.3394,
+    "nearest": " newcom"
+   },
+   {
+    "id": 90737,
+    "token": "HomeAs",
+    "score": 0.3374,
+    "nearest": "Intialized"
+   },
+   {
+    "id": 88039,
+    "token": "♀♀♀♀",
+    "score": 0.3371,
+    "nearest": "♀♀"
+   },
+   {
+    "id": 47219,
+    "token": "HeadersHeightSizeMode",
+    "score": 0.3367,
+    "nearest": "HeadersHeight"
+   },
+   {
+    "id": 57820,
+    "token": "SCII",
+    "score": 0.3365,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 88023,
+    "token": "/ayushman",
+    "score": 0.3363,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 57722,
+    "token": " ;;=",
+    "score": 0.3352,
+    "nearest": "\tRTLR"
+   },
+   {
+    "id": 86393,
+    "token": " PropelException",
+    "score": 0.3346,
+    "nearest": " EnumerableStream"
+   },
+   {
+    "id": 73628,
+    "token": " amatør",
+    "score": 0.3342,
+    "nearest": " erotiske"
+   },
+   {
+    "id": 43944,
+    "token": "orThunk",
+    "score": 0.3341,
+    "nearest": "useRal"
+   },
+   {
+    "id": 14030,
+    "token": "VisualStyleBackColor",
+    "score": 0.334,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 77961,
+    "token": "_Pods",
+    "score": 0.3336,
+    "nearest": "_Parms"
+   },
+   {
+    "id": 90426,
+    "token": "ibNameOrNil",
+    "score": 0.3328,
+    "nearest": "ibBundleOrNil"
+   },
+   {
+    "id": 60837,
+    "token": ".Bunifu",
+    "score": 0.3322,
+    "nearest": ".bunifu"
+   },
+   {
+    "id": 69679,
+    "token": "/settingsdialog",
+    "score": 0.3315,
+    "nearest": "/contentassist"
+   },
+   {
+    "id": 56225,
+    "token": ".sulake",
+    "score": 0.3307,
+    "nearest": ".guna"
+   },
+   {
+    "id": 84234,
+    "token": " !***",
+    "score": 0.3304,
+    "nearest": " GNUNET"
+   },
+   {
+    "id": 54421,
+    "token": "(MigrationBuilder",
+    "score": 0.33,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 59751,
+    "token": " principalTable",
+    "score": 0.3298,
+    "nearest": " principalColumn"
+   },
+   {
+    "id": 41373,
+    "token": "NetBar",
+    "score": 0.3292,
+    "nearest": "HomeAs"
+   },
+   {
+    "id": 16640,
+    "token": "#+#+",
+    "score": 0.329,
+    "nearest": " +#+#+#+"
+   },
+   {
+    "id": 72295,
+    "token": " sexle",
+    "score": 0.3288,
+    "nearest": " thaimassage"
+   },
+   {
+    "id": 38352,
+    "token": " maneu",
+    "score": 0.3281,
+    "nearest": " maneuver"
+   },
+   {
+    "id": 99680,
+    "token": " rumpe",
+    "score": 0.3274,
+    "nearest": " bryster"
+   },
+   {
+    "id": 80864,
+    "token": "GMEM",
+    "score": 0.3267,
+    "nearest": "TRGL"
+   },
+   {
+    "id": 70784,
+    "token": "Japgolly",
+    "score": 0.3267,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 40703,
+    "token": ".ComponentResourceManager",
+    "score": 0.3265,
+    "nearest": ".ISupportInitialize"
+   },
+   {
+    "id": 94835,
+    "token": " JSGlobal",
+    "score": 0.3264,
+    "nearest": " JSName"
+   },
+   {
+    "id": 70062,
+    "token": " NSCoder",
+    "score": 0.3264,
+    "nearest": " UIStoryboardSegue"
+   },
+   {
+    "id": 30851,
+    "token": "ollectors",
+    "score": 0.3261,
+    "nearest": "yalty"
+   },
+   {
+    "id": 15751,
+    "token": " guarante",
+    "score": 0.3258,
+    "nearest": " guarantee"
+   },
+   {
+    "id": 97887,
+    "token": " YYS",
+    "score": 0.3243,
+    "nearest": " Bunifu"
+   },
+   {
+    "id": 86714,
+    "token": " noveller",
+    "score": 0.3242,
+    "nearest": " erotiske"
+   },
+   {
+    "id": 51809,
+    "token": " MEDIATEK",
+    "score": 0.3242,
+    "nearest": " RTAL"
+   },
+   {
+    "id": 27539,
+    "token": " dataGridViewCellStyle",
+    "score": 0.3239,
+    "nearest": " DataGridViewCellStyle"
+   },
+   {
+    "id": 66174,
+    "token": ".didReceiveMemoryWarning",
+    "score": 0.3234,
+    "nearest": ".viewDidLoad"
+   },
+   {
+    "id": 67444,
+    "token": "CppTypeDefinitionSizes",
+    "score": 0.3231,
+    "nearest": "CppGuid"
+   },
+   {
+    "id": 74010,
+    "token": ".debugLine",
+    "score": 0.3229,
+    "nearest": ".labelX"
+   },
+   {
+    "id": 50485,
+    "token": "-Javadoc",
+    "score": 0.3227,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 76371,
+    "token": "LANGADM",
+    "score": 0.3221,
+    "nearest": "LIBINT"
+   },
+   {
+    "id": 23957,
+    "token": " [-]:",
+    "score": 0.3217,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 95998,
+    "token": "*angstrom",
+    "score": 0.3204,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 68530,
+    "token": "corlib",
+    "score": 0.3204,
+    "nearest": "gMaps"
+   },
+   {
+    "id": 59040,
+    "token": "oreferrer",
+    "score": 0.3204,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 82670,
+    "token": "EPHIR",
+    "score": 0.3202,
+    "nearest": "ERSHEY"
+   },
+   {
+    "id": 75654,
+    "token": "mpjes",
+    "score": 0.3192,
+    "nearest": "jejer"
+   },
+   {
+    "id": 99202,
+    "token": "(statearr",
+    "score": 0.3187,
+    "nearest": "useRal"
+   },
+   {
+    "id": 90343,
+    "token": " wireType",
+    "score": 0.318,
+    "nearest": " sourceMapping"
+   },
+   {
+    "id": 83961,
+    "token": "togroup",
+    "score": 0.3176,
+    "nearest": "groupon"
+   },
+   {
+    "id": 96328,
+    "token": " uranus",
+    "score": 0.317,
+    "nearest": " norge"
+   },
+   {
+    "id": 49589,
+    "token": "taboola",
+    "score": 0.317,
+    "nearest": "groupon"
+   },
+   {
+    "id": 79602,
+    "token": ".maxcdn",
+    "score": 0.3157,
+    "nearest": ".guna"
+   },
+   {
+    "id": 75631,
+    "token": "软雅黑",
+    "score": 0.3151,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 60074,
+    "token": "MASConstraintMaker",
+    "score": 0.315,
+    "nearest": "ConstraintMaker"
+   },
+   {
+    "id": 48134,
+    "token": ".xrTableCell",
+    "score": 0.315,
+    "nearest": ".xrLabel"
+   },
+   {
+    "id": 51486,
+    "token": ".DataGridViewCellStyle",
+    "score": 0.3149,
+    "nearest": ".DataGridViewContentAlignment"
+   },
+   {
+    "id": 88678,
+    "token": " RTVF",
+    "score": 0.3148,
+    "nearest": " RTAL"
+   },
+   {
+    "id": 99488,
+    "token": " <\",",
+    "score": 0.3138,
+    "nearest": " >\","
+   },
+   {
+    "id": 40088,
+    "token": " erotisk",
+    "score": 0.3138,
+    "nearest": " erotiske"
+   },
+   {
+    "id": 48310,
+    "token": " showc",
+    "score": 0.3137,
+    "nearest": " newcom"
+   },
+   {
+    "id": 93304,
+    "token": "VertexUvs",
+    "score": 0.3134,
+    "nearest": "EmptyEntries"
+   },
+   {
+    "id": 85147,
+    "token": "Ubergraph",
+    "score": 0.3134,
+    "nearest": "HomeAs"
+   },
+   {
+    "id": 96444,
+    "token": "%%*/",
+    "score": 0.3133,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 87551,
+    "token": "CppGuid",
+    "score": 0.3129,
+    "nearest": "CppCodeGenWriteBarrier"
+   },
+   {
+    "id": 31577,
+    "token": "jspx",
+    "score": 0.3125,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 97702,
+    "token": " IDEOGRAPH",
+    "score": 0.3123,
+    "nearest": " GUIDATA"
+   },
+   {
+    "id": 91296,
+    "token": "CppI",
+    "score": 0.3122,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 97299,
+    "token": "_OscInitStruct",
+    "score": 0.3121,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 69809,
+    "token": " JsonRequest",
+    "score": 0.3111,
+    "nearest": " Bunifu"
+   },
+   {
+    "id": 71664,
+    "token": "\tNdrFc",
+    "score": 0.3107,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 99243,
+    "token": " AssemblyFileVersion",
+    "score": 0.3106,
+    "nearest": " AssemblyVersion"
+   },
+   {
+    "id": 71455,
+    "token": "imachinery",
+    "score": 0.3097,
+    "nearest": "apgolly"
+   },
+   {
+    "id": 9867,
+    "token": "umbn",
+    "score": 0.3096,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 35273,
+    "token": " ########.",
+    "score": 0.3093,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 92519,
+    "token": "ERSHEY",
+    "score": 0.3091,
+    "nearest": "EDIATEK"
+   },
+   {
+    "id": 82836,
+    "token": "Intialized",
+    "score": 0.3088,
+    "nearest": "GuidId"
+   },
+   {
+    "id": 71014,
+    "token": "groupon",
+    "score": 0.3088,
+    "nearest": "gMaps"
+   },
+   {
+    "id": 37176,
+    "token": ".bunifu",
+    "score": 0.3086,
+    "nearest": ".flowLayoutPanel"
+   },
+   {
+    "id": 13526,
+    "token": " +#+",
+    "score": 0.3084,
+    "nearest": " +#+#+#+#+#+"
+   },
+   {
+    "id": 41899,
+    "token": " SimpleName",
+    "score": 0.3076,
+    "nearest": " JSName"
+   },
+   {
+    "id": 31642,
+    "token": " EXEMPLARY",
+    "score": 0.3071,
+    "nearest": " JSBracketAccess"
+   },
+   {
+    "id": 94226,
+    "token": "/contentassist",
+    "score": 0.3069,
+    "nearest": "/settingsdialog"
+   },
+   {
+    "id": 58643,
+    "token": " jadx",
+    "score": 0.3066,
+    "nearest": " Bunifu"
+   },
+   {
+    "id": 21145,
+    "token": " #+#",
+    "score": 0.3065,
+    "nearest": " +#+"
+   },
+   {
+    "id": 39659,
+    "token": "queueReusableCell",
+    "score": 0.306,
+    "nearest": "queueReusable"
+   },
+   {
+    "id": 38285,
+    "token": "queueReusable",
+    "score": 0.3059,
+    "nearest": "queueReusableCell"
+   },
+   {
+    "id": 26284,
+    "token": "INFRINGEMENT",
+    "score": 0.3057,
+    "nearest": "BOOLE"
+   },
+   {
+    "id": 92963,
+    "token": "InTheDocument",
+    "score": 0.3056,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 30923,
+    "token": "ernetes",
+    "score": 0.3053,
+    "nearest": "erusform"
+   },
+   {
+    "id": 13027,
+    "token": ".ISupportInitialize",
+    "score": 0.3048,
+    "nearest": ".ComponentResourceManager"
+   },
+   {
+    "id": 33533,
+    "token": " ragaz",
+    "score": 0.3039,
+    "nearest": " rumpe"
+   },
+   {
+    "id": 73408,
+    "token": ".ColumnStyle",
+    "score": 0.3038,
+    "nearest": ".RowStyle"
+   },
+   {
+    "id": 90824,
+    "token": "/Peak",
+    "score": 0.3037,
+    "nearest": " Peak"
+   },
+   {
+    "id": 51106,
+    "token": "AJOR",
+    "score": 0.3027,
+    "nearest": "+lsi"
+   },
+   {
+    "id": 43408,
+    "token": ".DotNetBar",
+    "score": 0.3022,
+    "nearest": "useRalative"
+   }
+  ],
+  "lid": [
+   {
+    "id": 73517,
+    "token": "DonaldTrump",
+    "score": 21936.541,
+    "nearest": "<|dummy_28|>"
+   },
+   {
+    "id": 38584,
+    "token": "-NLS",
+    "score": 21283.1133,
+    "nearest": "<|dummy_31|>"
+   },
+   {
+    "id": 85071,
+    "token": "$PostalCodesNL",
+    "score": 20234.9258,
+    "nearest": "�"
+   },
+   {
+    "id": 64676,
+    "token": ".AbsoluteConstraints",
+    "score": 15338.498,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 91916,
+    "token": "SOEVER",
+    "score": 14469.5977,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 66757,
+    "token": "wingConstants",
+    "score": 13018.3506,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 52362,
+    "token": "SpecWarn",
+    "score": 10173.25,
+    "nearest": "useRal"
+   },
+   {
+    "id": 45192,
+    "token": "-Semit",
+    "score": 9829.6396,
+    "nearest": "-Semitic"
+   },
+   {
+    "id": 47072,
+    "token": "webElementX",
+    "score": 9787.3232,
+    "nearest": "<|dummy_24|>"
+   },
+   {
+    "id": 55287,
+    "token": "-offsetof",
+    "score": 8851.3711,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 89232,
+    "token": ".Disclaimer",
+    "score": 8305.7881,
+    "nearest": "<|dummy_19|>"
+   },
+   {
+    "id": 92617,
+    "token": "(grammarAccess",
+    "score": 7669.7695,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 77033,
+    "token": ".newaxis",
+    "score": 7355.2715,
+    "nearest": "unsqueeze"
+   },
+   {
+    "id": 23230,
+    "token": "paredStatement",
+    "score": 6289.1919,
+    "nearest": "useRal"
+   },
+   {
+    "id": 99118,
+    "token": "-Cds",
+    "score": 5802.4639,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 90697,
+    "token": "lassian",
+    "score": 5801.9629,
+    "nearest": "useRal"
+   },
+   {
+    "id": 88023,
+    "token": "/ayushman",
+    "score": 5053.5825,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 74570,
+    "token": "~\":\"",
+    "score": 4877.751,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 77988,
+    "token": "/******/\n",
+    "score": 4826.3872,
+    "nearest": "useRal"
+   },
+   {
+    "id": 89471,
+    "token": "useRal",
+    "score": 4774.7256,
+    "nearest": "<|endofprompt|>"
+   },
+   {
+    "id": 95168,
+    "token": "ckill",
+    "score": 4711.3379,
+    "nearest": "useRal"
+   },
+   {
+    "id": 95773,
+    "token": "-INFRINGEMENT",
+    "score": 4596.5015,
+    "nearest": "INFRINGEMENT"
+   },
+   {
+    "id": 58944,
+    "token": "/Subthreshold",
+    "score": 4446.6167,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 9844,
+    "token": "utowired",
+    "score": 4365.8896,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 65871,
+    "token": "formedURLException",
+    "score": 4151.2764,
+    "nearest": "useRal"
+   },
+   {
+    "id": 77802,
+    "token": "/testify",
+    "score": 4043.4102,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 53343,
+    "token": "htaking",
+    "score": 4041.0938,
+    "nearest": "useRal"
+   },
+   {
+    "id": 80408,
+    "token": "=BitConverter",
+    "score": 3934.9607,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 50485,
+    "token": "-Javadoc",
+    "score": 3819.8088,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 62300,
+    "token": ".`|`\n",
+    "score": 3776.0576,
+    "nearest": "useRal"
+   },
+   {
+    "id": 58775,
+    "token": "_DIPSETTING",
+    "score": 3715.448,
+    "nearest": "useRal"
+   },
+   {
+    "id": 96737,
+    "token": "departureday",
+    "score": 3678.7134,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 89472,
+    "token": "useRalative",
+    "score": 3654.7986,
+    "nearest": "<|dummy_74|>"
+   },
+   {
+    "id": 43408,
+    "token": ".DotNetBar",
+    "score": 3487.833,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 69961,
+    "token": "CHKERRQ",
+    "score": 3455.6465,
+    "nearest": "useRal"
+   },
+   {
+    "id": 70912,
+    "token": ".PictureBoxSizeMode",
+    "score": 3450.1262,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 40270,
+    "token": "wcsstore",
+    "score": 3347.4072,
+    "nearest": "useRal"
+   },
+   {
+    "id": 97299,
+    "token": "_OscInitStruct",
+    "score": 3341.8398,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 20513,
+    "token": "itempty",
+    "score": 3259.3433,
+    "nearest": "useRal"
+   },
+   {
+    "id": 77666,
+    "token": "okableCall",
+    "score": 3078.2393,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 93634,
+    "token": "_HERSHEY",
+    "score": 2785.311,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 35673,
+    "token": ".ComponentPlacement",
+    "score": 2773.8987,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 99699,
+    "token": "ichick",
+    "score": 2767.1301,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 54421,
+    "token": "(MigrationBuilder",
+    "score": 2728.5481,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 78593,
+    "token": "ISyntaxException",
+    "score": 2671.1384,
+    "nearest": "useRal"
+   },
+   {
+    "id": 99726,
+    "token": ".MustCompile",
+    "score": 2585.4937,
+    "nearest": ".Must"
+   },
+   {
+    "id": 66235,
+    "token": "CppTypeDefinition",
+    "score": 2582.0903,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 92135,
+    "token": "(dllexport",
+    "score": 2569.5562,
+    "nearest": "useRal"
+   },
+   {
+    "id": 54725,
+    "token": "fragistics",
+    "score": 2497.594,
+    "nearest": "useRal"
+   },
+   {
+    "id": 94664,
+    "token": ".ContextCompat",
+    "score": 2412.7146,
+    "nearest": ".getSystemService"
+   },
+   {
+    "id": 61207,
+    "token": "latesAutoresizingMaskIntoConstraints",
+    "score": 2343.6067,
+    "nearest": "useRal"
+   },
+   {
+    "id": 61013,
+    "token": ".StylePriority",
+    "score": 2290.239,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 38718,
+    "token": ".configureTestingModule",
+    "score": 2259.4167,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 49594,
+    "token": "bstract",
+    "score": 2256.6924,
+    "nearest": "useRal"
+   },
+   {
+    "id": 85751,
+    "token": "ãeste",
+    "score": 2204.8943,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 97859,
+    "token": "(UIAlertAction",
+    "score": 2126.844,
+    "nearest": " UIAlertAction"
+   },
+   {
+    "id": 29481,
+    "token": "GLIGENCE",
+    "score": 2061.9885,
+    "nearest": " NEGLIGENCE"
+   },
+   {
+    "id": 61670,
+    "token": "ottesville",
+    "score": 2043.7303,
+    "nearest": "useRal"
+   },
+   {
+    "id": 95446,
+    "token": "URLOPT",
+    "score": 2002.6414,
+    "nearest": "useRal"
+   },
+   {
+    "id": 40729,
+    "token": "\tTokenName",
+    "score": 1987.0656,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 81761,
+    "token": "vinfos",
+    "score": 1958.2941,
+    "nearest": "useRal"
+   },
+   {
+    "id": 87686,
+    "token": "ckså",
+    "score": 1927.62,
+    "nearest": "useRal"
+   },
+   {
+    "id": 98694,
+    "token": "acemark",
+    "score": 1914.0205,
+    "nearest": "useRal"
+   },
+   {
+    "id": 33761,
+    "token": ".UndefOr",
+    "score": 1846.0282,
+    "nearest": "\tOptional"
+   },
+   {
+    "id": 84655,
+    "token": " ***!\n",
+    "score": 1815.3195,
+    "nearest": " !***"
+   },
+   {
+    "id": 84174,
+    "token": "stashop",
+    "score": 1744.8329,
+    "nearest": "yalty"
+   },
+   {
+    "id": 67705,
+    "token": "_typeDefinition",
+    "score": 1710.7584,
+    "nearest": "_REALTYPE"
+   },
+   {
+    "id": 96913,
+    "token": ".UltraWin",
+    "score": 1689.4373,
+    "nearest": "useRal"
+   },
+   {
+    "id": 95998,
+    "token": "*angstrom",
+    "score": 1660.2273,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 84944,
+    "token": "(HaveOccurred",
+    "score": 1648.866,
+    "nearest": "(Have"
+   },
+   {
+    "id": 84118,
+    "token": "hower",
+    "score": 1598.3324,
+    "nearest": "hou"
+   },
+   {
+    "id": 57010,
+    "token": "Slinky",
+    "score": 1596.6855,
+    "nearest": "VRTX"
+   },
+   {
+    "id": 25092,
+    "token": "/stdc",
+    "score": 1579.4916,
+    "nearest": "/std"
+   },
+   {
+    "id": 60107,
+    "token": ".awtextra",
+    "score": 1537.402,
+    "nearest": "useRal"
+   },
+   {
+    "id": 83203,
+    "token": ".SetKeyName",
+    "score": 1523.9172,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 5702,
+    "token": "lluminate",
+    "score": 1516.3307,
+    "nearest": "useRal"
+   },
+   {
+    "id": 47817,
+    "token": ":semicolon",
+    "score": 1503.3384,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 78157,
+    "token": "(Have",
+    "score": 1488.5894,
+    "nearest": "Have"
+   },
+   {
+    "id": 80612,
+    "token": "MethodBeat",
+    "score": 1436.2682,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 58508,
+    "token": ":-------------</",
+    "score": 1429.2629,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 6210,
+    "token": "ityEngine",
+    "score": 1415.1948,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 45098,
+    "token": "compileComponents",
+    "score": 1405.3105,
+    "nearest": "useRal"
+   },
+   {
+    "id": 63576,
+    "token": "/fwlink",
+    "score": 1404.2845,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 60869,
+    "token": "racuse",
+    "score": 1358.764,
+    "nearest": "useRal"
+   },
+   {
+    "id": 81885,
+    "token": "ketøy",
+    "score": 1358.2806,
+    "nearest": "useRal"
+   },
+   {
+    "id": 51840,
+    "token": "$IFn",
+    "score": 1358.0548,
+    "nearest": "$arity"
+   },
+   {
+    "id": 97896,
+    "token": "_kses",
+    "score": 1353.5519,
+    "nearest": "_SANITIZE"
+   },
+   {
+    "id": 97558,
+    "token": "JSGlobalScope",
+    "score": 1334.2903,
+    "nearest": "useRal"
+   },
+   {
+    "id": 59590,
+    "token": "IntoConstraints",
+    "score": 1197.9838,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 72304,
+    "token": ".SpringBootTest",
+    "score": 1165.1166,
+    "nearest": "BootTest"
+   },
+   {
+    "id": 70784,
+    "token": "Japgolly",
+    "score": 1163.296,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 57046,
+    "token": "isicing",
+    "score": 1117.8749,
+    "nearest": "useRal"
+   },
+   {
+    "id": 57473,
+    "token": ":initComponents",
+    "score": 1108.9592,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 76403,
+    "token": "shaled",
+    "score": 1101.6755,
+    "nearest": "useRal"
+   },
+   {
+    "id": 99273,
+    "token": ".StObject",
+    "score": 1100.6995,
+    "nearest": ".String"
+   },
+   {
+    "id": 75654,
+    "token": "mpjes",
+    "score": 1080.2087,
+    "nearest": "jejer"
+   },
+   {
+    "id": 88443,
+    "token": "_QMARK",
+    "score": 1075.4143,
+    "nearest": "_EDEFAULT"
+   },
+   {
+    "id": 94484,
+    "token": "olleyError",
+    "score": 1067.9119,
+    "nearest": "useRal"
+   },
+   {
+    "id": 65507,
+    "token": "apgolly",
+    "score": 1063.4081,
+    "nearest": "useRal"
+   },
+   {
+    "id": 38516,
+    "token": "ratulations",
+    "score": 1053.533,
+    "nearest": "useRal"
+   },
+   {
+    "id": 45657,
+    "token": "-urlencoded",
+    "score": 1046.6965,
+    "nearest": "-url"
+   },
+   {
+    "id": 71069,
+    "token": "aigned",
+    "score": 1012.0413,
+    "nearest": "aign"
+   },
+   {
+    "id": 76402,
+    "token": "_softc",
+    "score": 964.7139,
+    "nearest": "_drvdata"
+   },
+   {
+    "id": 98000,
+    "token": ".Cdecl",
+    "score": 964.5211,
+    "nearest": ".Std"
+   },
+   {
+    "id": 77989,
+    "token": " \\<^",
+    "score": 963.2728,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 35273,
+    "token": " ########.",
+    "score": 952.5073,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 61599,
+    "token": "ɵ",
+    "score": 945.7972,
+    "nearest": "�"
+   },
+   {
+    "id": 94053,
+    "token": "YLeaf",
+    "score": 941.5999,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 91198,
+    "token": "externalActionCode",
+    "score": 939.93,
+    "nearest": "useRal"
+   },
+   {
+    "id": 62498,
+    "token": "astreet",
+    "score": 933.0703,
+    "nearest": ".street"
+   },
+   {
+    "id": 84289,
+    "token": "icrous",
+    "score": 897.3201,
+    "nearest": " ludicrous"
+   },
+   {
+    "id": 57361,
+    "token": "_REALTYPE",
+    "score": 887.7981,
+    "nearest": "useRal"
+   },
+   {
+    "id": 46535,
+    "token": "FromNib",
+    "score": 866.9796,
+    "nearest": "Nib"
+   },
+   {
+    "id": 77499,
+    "token": "\\FrameworkBundle",
+    "score": 863.7297,
+    "nearest": "webElementX"
+   },
+   {
+    "id": 71114,
+    "token": "DownLatch",
+    "score": 862.4887,
+    "nearest": "DownList"
+   },
+   {
+    "id": 72502,
+    "token": ".AllowGet",
+    "score": 858.8213,
+    "nearest": " JsonRequestBehavior"
+   },
+   {
+    "id": 90900,
+    "token": " ⓘ",
+    "score": 854.7309,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 32312,
+    "token": "vetica",
+    "score": 845.591,
+    "nearest": " Helvetica"
+   },
+   {
+    "id": 82670,
+    "token": "EPHIR",
+    "score": 843.0843,
+    "nearest": "ERSHEY"
+   },
+   {
+    "id": 70729,
+    "token": "tableFuture",
+    "score": 829.479,
+    "nearest": "useRal"
+   },
+   {
+    "id": 82000,
+    "token": ".scalablytyped",
+    "score": 826.6699,
+    "nearest": ".scalajs"
+   },
+   {
+    "id": 64237,
+    "token": "_makeConstraints",
+    "score": 817.2639,
+    "nearest": "_equalTo"
+   },
+   {
+    "id": 60788,
+    "token": " AppleWebKit",
+    "score": 816.9841,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 98797,
+    "token": "APolynomial",
+    "score": 803.7448,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 61458,
+    "token": "NICALL",
+    "score": 799.3145,
+    "nearest": "CALLTYPE"
+   },
+   {
+    "id": 60673,
+    "token": "ystatechange",
+    "score": 794.868,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 85069,
+    "token": "PostalCodesNL",
+    "score": 791.6675,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 68708,
+    "token": "querque",
+    "score": 783.7103,
+    "nearest": "quer"
+   },
+   {
+    "id": 95107,
+    "token": "ideographic",
+    "score": 779.8805,
+    "nearest": "IDEO"
+   },
+   {
+    "id": 76421,
+    "token": "angepicker",
+    "score": 775.4189,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 99168,
+    "token": "SmartyHeaderCode",
+    "score": 765.8665,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 80464,
+    "token": " __________________\n\n",
+    "score": 754.5442,
+    "nearest": " __________________"
+   },
+   {
+    "id": 51345,
+    "token": ")paren",
+    "score": 748.4627,
+    "nearest": "(paren"
+   },
+   {
+    "id": 34251,
+    "token": "nerRadius",
+    "score": 746.0813,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 57722,
+    "token": " ;;=",
+    "score": 726.3712,
+    "nearest": "\tRTLR"
+   },
+   {
+    "id": 3426,
+    "token": "amework",
+    "score": 718.6172,
+    "nearest": "ramework"
+   },
+   {
+    "id": 25803,
+    "token": "yalty",
+    "score": 710.8743,
+    "nearest": "useRal"
+   },
+   {
+    "id": 24503,
+    "token": "OLEAN",
+    "score": 699.8475,
+    "nearest": "olean"
+   },
+   {
+    "id": 95153,
+    "token": " overposting",
+    "score": 688.9835,
+    "nearest": " taxp"
+   },
+   {
+    "id": 59591,
+    "token": "AutoresizingMaskIntoConstraints",
+    "score": 681.7463,
+    "nearest": "IntoConstraints"
+   },
+   {
+    "id": 99202,
+    "token": "(statearr",
+    "score": 681.3182,
+    "nearest": "useRal"
+   },
+   {
+    "id": 97852,
+    "token": "ivicrm",
+    "score": 678.8667,
+    "nearest": "wjgl"
+   },
+   {
+    "id": 93179,
+    "token": "_emlrt",
+    "score": 675.8989,
+    "nearest": "_FieldOffsetTable"
+   },
+   {
+    "id": 20313,
+    "token": "edback",
+    "score": 668.9296,
+    "nearest": "feedback"
+   },
+   {
+    "id": 97884,
+    "token": "§Ã",
+    "score": 667.4188,
+    "nearest": "£o"
+   },
+   {
+    "id": 69219,
+    "token": ".ModelAdmin",
+    "score": 640.2231,
+    "nearest": ".ModelForm"
+   },
+   {
+    "id": 24057,
+    "token": "ocommerce",
+    "score": 637.3755,
+    "nearest": "-commerce"
+   },
+   {
+    "id": 96145,
+    "token": "JEXEC",
+    "score": 630.7114,
+    "nearest": "LANGADM"
+   },
+   {
+    "id": 74836,
+    "token": "upakan",
+    "score": 628.0586,
+    "nearest": "upa"
+   },
+   {
+    "id": 82124,
+    "token": "NewUrlParser",
+    "score": 614.2163,
+    "nearest": " useNewUrlParser"
+   },
+   {
+    "id": 42659,
+    "token": "anyahu",
+    "score": 602.971,
+    "nearest": " Netanyahu"
+   },
+   {
+    "id": 91393,
+    "token": "isify",
+    "score": 602.9178,
+    "nearest": "isy"
+   },
+   {
+    "id": 88102,
+    "token": "anooga",
+    "score": 594.4671,
+    "nearest": " Chattanooga"
+   },
+   {
+    "id": 73420,
+    "token": "erdale",
+    "score": 593.1349,
+    "nearest": "erdem"
+   },
+   {
+    "id": 65279,
+    "token": "AnimationsModule",
+    "score": 591.2399,
+    "nearest": " BrowserAnimationsModule"
+   },
+   {
+    "id": 43072,
+    "token": "paRepository",
+    "score": 571.9579,
+    "nearest": " JpaRepository"
+   },
+   {
+    "id": 33087,
+    "token": "aukee",
+    "score": 569.7545,
+    "nearest": "waukee"
+   },
+   {
+    "id": 50055,
+    "token": "vtColor",
+    "score": 568.6412,
+    "nearest": "vt"
+   },
+   {
+    "id": 54366,
+    "token": "/XMLSchema",
+    "score": 556.597,
+    "nearest": "/DTD"
+   },
+   {
+    "id": 45783,
+    "token": "AndFeel",
+    "score": 552.2008,
+    "nearest": "HomeAs"
+   },
+   {
+    "id": 24820,
+    "token": ".twimg",
+    "score": 541.4864,
+    "nearest": ".maxcdn"
+   },
+   {
+    "id": 98170,
+    "token": ".StretchImage",
+    "score": 536.4714,
+    "nearest": ".PictureBoxSizeMode"
+   },
+   {
+    "id": 50299,
+    "token": "itbart",
+    "score": 512.9673,
+    "nearest": " Breitbart"
+   },
+   {
+    "id": 41459,
+    "token": "rigesimal",
+    "score": 507.6166,
+    "nearest": "atrigesimal"
+   },
+   {
+    "id": 49453,
+    "token": "EDIATEK",
+    "score": 497.4262,
+    "nearest": "THOOK"
+   },
+   {
+    "id": 79740,
+    "token": " Hexatrigesimal",
+    "score": 482.615,
+    "nearest": " hexatrigesimal"
+   },
+   {
+    "id": 96334,
+    "token": ".bunifuFlatButton",
+    "score": 481.2245,
+    "nearest": "useRal"
+   },
+   {
+    "id": 52381,
+    "token": "uptools",
+    "score": 469.2664,
+    "nearest": " setuptools"
+   },
+   {
+    "id": 88123,
+    "token": "\\ActiveForm",
+    "score": 461.7793,
+    "nearest": " ActiveForm"
+   },
+   {
+    "id": 93877,
+    "token": "ẩu",
+    "score": 459.9975,
+    "nearest": "ẩ"
+   },
+   {
+    "id": 91817,
+    "token": "(InitializedTypeInfo",
+    "score": 455.3764,
+    "nearest": "(method"
+   },
+   {
+    "id": 24111,
+    "token": "VersionUID",
+    "score": 452.3653,
+    "nearest": "UsageId"
+   },
+   {
+    "id": 46617,
+    "token": "oredProcedure",
+    "score": 449.9064,
+    "nearest": "paredStatement"
+   },
+   {
+    "id": 20642,
+    "token": "achuset",
+    "score": 444.9577,
+    "nearest": "achusetts"
+   },
+   {
+    "id": 95130,
+    "token": "tplib",
+    "score": 444.505,
+    "nearest": "tpl"
+   },
+   {
+    "id": 76371,
+    "token": "LANGADM",
+    "score": 441.9316,
+    "nearest": "LIBINT"
+   },
+   {
+    "id": 71455,
+    "token": "imachinery",
+    "score": 439.7608,
+    "nearest": "apgolly"
+   },
+   {
+    "id": 43944,
+    "token": "orThunk",
+    "score": 434.6689,
+    "nearest": "useRal"
+   },
+   {
+    "id": 73228,
+    "token": "_InternalArray",
+    "score": 434.4437,
+    "nearest": "_typeDefinitionSize"
+   },
+   {
+    "id": 9695,
+    "token": "unately",
+    "score": 433.8079,
+    "nearest": "unate"
+   },
+   {
+    "id": 52343,
+    "token": "\\htdocs",
+    "score": 422.6874,
+    "nearest": "htdocs"
+   },
+   {
+    "id": 81643,
+    "token": "bedPane",
+    "score": 408.5509,
+    "nearest": "Pane"
+   },
+   {
+    "id": 96037,
+    "token": ".DataGridViewTriState",
+    "score": 407.9683,
+    "nearest": ".DataGridViewContentAlignment"
+   },
+   {
+    "id": 82556,
+    "token": " animateWithDuration",
+    "score": 403.0063,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 72129,
+    "token": " DERP",
+    "score": 395.673,
+    "nearest": " BCHP"
+   },
+   {
+    "id": 14514,
+    "token": "TEGER",
+    "score": 392.6616,
+    "nearest": "INTEGER"
+   },
+   {
+    "id": 85325,
+    "token": ".AddModelError",
+    "score": 388.8933,
+    "nearest": "addError"
+   },
+   {
+    "id": 75631,
+    "token": "软雅黑",
+    "score": 386.4903,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 92963,
+    "token": "InTheDocument",
+    "score": 385.7473,
+    "nearest": "useRalative"
+   },
+   {
+    "id": 81712,
+    "token": "efeller",
+    "score": 384.9817,
+    "nearest": " Rockefeller"
+   },
+   {
+    "id": 75127,
+    "token": "iationException",
+    "score": 381.0363,
+    "nearest": "iation"
+   },
+   {
+    "id": 91337,
+    "token": "!*\\\n",
+    "score": 377.7687,
+    "nearest": " ***!\n"
+   },
+   {
+    "id": 14030,
+    "token": "VisualStyleBackColor",
+    "score": 375.7115,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 79911,
+    "token": "eniable",
+    "score": 371.8606,
+    "nearest": "oubtedly"
+   },
+   {
+    "id": 72825,
+    "token": "ycopg",
+    "score": 368.4547,
+    "nearest": " psycopg"
+   },
+   {
+    "id": 100110,
+    "token": "(describing",
+    "score": 366.9923,
+    "nearest": " describing"
+   },
+   {
+    "id": 75413,
+    "token": "HasForeignKey",
+    "score": 363.6942,
+    "nearest": "HasMaxLength"
+   },
+   {
+    "id": 94524,
+    "token": "bersome",
+    "score": 363.6414,
+    "nearest": " cumbersome"
+   },
+   {
+    "id": 23957,
+    "token": " [-]:",
+    "score": 360.1315,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 98448,
+    "token": "(ExpectedConditions",
+    "score": 358.5799,
+    "nearest": "(Expected"
+   },
+   {
+    "id": 76539,
+    "token": ".FromResult",
+    "score": 353.1621,
+    "nearest": ".Completed"
+   },
+   {
+    "id": 57904,
+    "token": "ixedReality",
+    "score": 351.5316,
+    "nearest": " ForCanBeConvertedToF"
+   },
+   {
+    "id": 72150,
+    "token": "camatan",
+    "score": 351.5248,
+    "nearest": "urahan"
+   },
+   {
+    "id": 96758,
+    "token": "RequiredMixin",
+    "score": 349.8952,
+    "nearest": "_required"
+   },
+   {
+    "id": 52211,
+    "token": "rowsable",
+    "score": 349.7351,
+    "nearest": "Browsable"
+   },
+   {
+    "id": 72108,
+    "token": ".MockMvc",
+    "score": 347.757,
+    "nearest": ".Mock"
+   },
+   {
+    "id": 59071,
+    "token": "entialAction",
+    "score": 345.8514,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 73744,
+    "token": "/apimachinery",
+    "score": 344.8976,
+    "nearest": "/client"
+   },
+   {
+    "id": 61590,
+    "token": "argout",
+    "score": 344.0901,
+    "nearest": "argin"
+   },
+   {
+    "id": 77717,
+    "token": "ValueGenerationStrategy",
+    "score": 343.7759,
+    "nearest": "GenerationStrategy"
+   },
+   {
+    "id": 30851,
+    "token": "ollectors",
+    "score": 342.0547,
+    "nearest": "yalty"
+   },
+   {
+    "id": 94492,
+    "token": "ModelCreating",
+    "score": 335.8438,
+    "nearest": " modelBuilder"
+   },
+   {
+    "id": 26009,
+    "token": "methodVisitor",
+    "score": 335.2012,
+    "nearest": "selectorMethod"
+   },
+   {
+    "id": 96015,
+    "token": " queryInterface",
+    "score": 333.7649,
+    "nearest": " sourceMapping"
+   },
+   {
+    "id": 82306,
+    "token": ".rmtree",
+    "score": 333.4196,
+    "nearest": ".unlink"
+   },
+   {
+    "id": 68860,
+    "token": "unprocessable",
+    "score": 333.0388,
+    "nearest": "processable"
+   },
+   {
+    "id": 58405,
+    "token": "reesome",
+    "score": 333.0063,
+    "nearest": " threesome"
+   },
+   {
+    "id": 45794,
+    "token": ">tagger",
+    "score": 332.5093,
+    "nearest": ">xpath"
+   },
+   {
+    "id": 80481,
+    "token": "nothrow",
+    "score": 326.899,
+    "nearest": " noexcept"
+   },
+   {
+    "id": 86207,
+    "token": "aterangepicker",
+    "score": 325.8125,
+    "nearest": "angepicker"
+   },
+   {
+    "id": 39659,
+    "token": "queueReusableCell",
+    "score": 325.624,
+    "nearest": "queueReusable"
+   },
+   {
+    "id": 64109,
+    "token": "urovision",
+    "score": 324.0233,
+    "nearest": "uro"
+   },
+   {
+    "id": 66195,
+    "token": ".FormStartPosition",
+    "score": 319.5165,
+    "nearest": ".PictureBoxSizeMode"
+   },
+   {
+    "id": 55337,
+    "token": "Winvalid",
+    "score": 317.9987,
+    "nearest": "mPid"
+   },
+   {
+    "id": 96560,
+    "token": "ColumnsMode",
+    "score": 313.9153,
+    "nearest": " Columns"
+   },
+   {
+    "id": 75261,
+    "token": "lbrakk",
+    "score": 312.8616,
+    "nearest": "rbrakk"
+   },
+   {
+    "id": 94141,
+    "token": ".XRTableCell",
+    "score": 311.7316,
+    "nearest": ".XRLabel"
+   },
+   {
+    "id": 51408,
+    "token": "ForgeryToken",
+    "score": 310.2775,
+    "nearest": "AntiForgeryToken"
+   },
+   {
+    "id": 77961,
+    "token": "_Pods",
+    "score": 304.6373,
+    "nearest": "_Parms"
+   },
+   {
+    "id": 30166,
+    "token": "',['../",
+    "score": 300.3789,
+    "nearest": "',['"
+   },
+   {
+    "id": 79927,
+    "token": "MFLOAT",
+    "score": 297.4091,
+    "nearest": "MM"
+   },
+   {
+    "id": 75184,
+    "token": "rbrakk",
+    "score": 297.2917,
+    "nearest": "rparr"
+   },
+   {
+    "id": 58481,
+    "token": "ashtra",
+    "score": 297.1345,
+    "nearest": "ashire"
+   },
+   {
+    "id": 86189,
+    "token": " Teuchos",
+    "score": 296.351,
+    "nearest": " TBranch"
+   },
+   {
+    "id": 95997,
+    "token": "/WebAPI",
+    "score": 294.8216,
+    "nearest": "/Web"
+   },
+   {
+    "id": 40703,
+    "token": ".ComponentResourceManager",
+    "score": 294.3685,
+    "nearest": ".ISupportInitialize"
+   },
+   {
+    "id": 92861,
+    "token": "PEndPoint",
+    "score": 291.0318,
+    "nearest": "PEnd"
+   },
+   {
+    "id": 67278,
+    "token": "weetalert",
+    "score": 290.586,
+    "nearest": "/sweetalert"
+   },
+   {
+    "id": 83315,
+    "token": "richTextPanel",
+    "score": 286.386,
+    "nearest": "adaptiveStyles"
+   },
+   {
+    "id": 75520,
+    "token": " NUITKA",
+    "score": 282.993,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 81741,
+    "token": "\\OptionsResolver",
+    "score": 280.6425,
+    "nearest": "OptionsResolver"
+   },
+   {
+    "id": 97656,
+    "token": "apeake",
+    "score": 275.0544,
+    "nearest": "ape"
+   },
+   {
+    "id": 95656,
+    "token": ".DataGridViewContentAlignment",
+    "score": 274.8814,
+    "nearest": ".DataGridViewColumnHeadersHeightSizeMode"
+   },
+   {
+    "id": 91630,
+    "token": "MeshPro",
+    "score": 274.0525,
+    "nearest": "Mesh"
+   },
+   {
+    "id": 96384,
+    "token": " seedu",
+    "score": 273.9503,
+    "nearest": " jadx"
+   },
+   {
+    "id": 99185,
+    "token": ".setPrototypeOf",
+    "score": 270.822,
+    "nearest": ".defineProperty"
+   },
+   {
+    "id": 82996,
+    "token": ".WebServlet",
+    "score": 269.9064,
+    "nearest": ".HttpServlet"
+   },
+   {
+    "id": 50881,
+    "token": "ineTransform",
+    "score": 266.3767,
+    "nearest": "INE"
+   },
+   {
+    "id": 38285,
+    "token": "queueReusable",
+    "score": 266.1213,
+    "nearest": "queueReusableCell"
+   },
+   {
+    "id": 98100,
+    "token": "(stypy",
+    "score": 264.6948,
+    "nearest": "(grammarAccess"
+   },
+   {
+    "id": 71262,
+    "token": "-lfs",
+    "score": 263.9025,
+    "nearest": "-lnd"
+   },
+   {
+    "id": 59849,
+    "token": "extAlignment",
+    "score": 263.2508,
+    "nearest": "yntaxException"
+   },
+   {
+    "id": 51985,
+    "token": "ReuseIdentifier",
+    "score": 261.8673,
+    "nearest": " reuseIdentifier"
+   },
+   {
+    "id": 97477,
+    "token": " springfox",
+    "score": 261.1365,
+    "nearest": " SpringApplication"
+   },
+   {
+    "id": 98282,
+    "token": ".getExternalStorage",
+    "score": 260.1998,
+    "nearest": ".getExternal"
+   },
+   {
+    "id": 77132,
+    "token": "bedtls",
+    "score": 259.7657,
+    "nearest": " mbedtls"
+   },
+   {
+    "id": 72053,
+    "token": "/copyleft",
+    "score": 259.6208,
+    "nearest": "/licenses"
+   },
+   {
+    "id": 43556,
+    "token": "UpInside",
+    "score": 258.8282,
+    "nearest": "TouchUpInside"
+   },
+   {
+    "id": 42968,
+    "token": "\tNullCheck",
+    "score": 257.9393,
+    "nearest": "()->"
+   },
+   {
+    "id": 60623,
+    "token": "timeofday",
+    "score": 255.4346,
+    "nearest": "ofday"
+   },
+   {
+    "id": 86415,
+    "token": "BundleOrNil",
+    "score": 254.3903,
+    "nearest": "ibBundleOrNil"
+   },
+   {
+    "id": 76271,
+    "token": "\tNdrFcShort",
+    "score": 252.515,
+    "nearest": "\tNdrFc"
+   },
+   {
+    "id": 39877,
+    "token": "recated",
+    "score": 251.2856,
+    "nearest": "precated"
+   },
+   {
+    "id": 93821,
+    "token": "UsingEncoding",
+    "score": 249.351,
+    "nearest": "StringEncoding"
+   },
+   {
+    "id": 25292,
+    "token": " Affero",
+    "score": 248.8092,
+    "nearest": " AssemblyFileVersion"
+   },
+   {
+    "id": 94823,
+    "token": "textTheme",
+    "score": 245.8837,
+    "nearest": "styleType"
+   },
+   {
+    "id": 73146,
+    "token": "olulu",
+    "score": 245.2009,
+    "nearest": " Honolulu"
+   },
+   {
+    "id": 29233,
+    "token": "-wsj",
+    "score": 242.0125,
+    "nearest": "-lnd"
+   },
+   {
+    "id": 57050,
+    "token": "aimassage",
+    "score": 241.824,
+    "nearest": "jejer"
+   },
+   {
+    "id": 95664,
+    "token": "ETweet",
+    "score": 241.7256,
+    "nearest": "ETwitter"
+   },
+   {
+    "id": 30172,
+    "token": "outedEventArgs",
+    "score": 239.8848,
+    "nearest": "outed"
+   },
+   {
+    "id": 59852,
+    "token": "ulerAngles",
+    "score": 236.3082,
+    "nearest": "uler"
+   },
+   {
+    "id": 64893,
+    "token": "orianCalendar",
+    "score": 235.6938,
+    "nearest": "orian"
+   },
+   {
+    "id": 52246,
+    "token": " /*#__",
+    "score": 235.6819,
+    "nearest": " wireType"
+   },
+   {
+    "id": 61145,
+    "token": " councill",
+    "score": 234.3756,
+    "nearest": " taxp"
+   },
+   {
+    "id": 50174,
+    "token": "PlainOldData",
+    "score": 232.8536,
+    "nearest": "Intialized"
+   },
+   {
+    "id": 33493,
+    "token": ".bootstrapcdn",
+    "score": 232.5786,
+    "nearest": ".maxcdn"
+   },
+   {
+    "id": 94964,
+    "token": "aylight",
+    "score": 232.2632,
+    "nearest": " daylight"
+   },
+   {
+    "id": 97542,
+    "token": "/filepath",
+    "score": 229.8712,
+    "nearest": " filepath"
+   },
+   {
+    "id": 28553,
+    "token": "asterxml",
+    "score": 227.4609,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 24441,
+    "token": "_setopt",
+    "score": 227.2026,
+    "nearest": "URLOPT"
+   },
+   {
+    "id": 74498,
+    "token": "ryfall",
+    "score": 225.9901,
+    "nearest": "apgolly"
+   },
+   {
+    "id": 76463,
+    "token": "ForSegue",
+    "score": 224.4729,
+    "nearest": "StoryboardSegue"
+   },
+   {
+    "id": 72704,
+    "token": " noreferrer",
+    "score": 224.2585,
+    "nearest": "oreferrer"
+   },
+   {
+    "id": 90490,
+    "token": "ibBundleOrNil",
+    "score": 223.8045,
+    "nearest": "BundleOrNil"
+   },
+   {
+    "id": 58643,
+    "token": " jadx",
+    "score": 223.2935,
+    "nearest": " Bunifu"
+   },
+   {
+    "id": 63320,
+    "token": "ubishi",
+    "score": 221.8383,
+    "nearest": " Mitsubishi"
+   },
+   {
+    "id": 81259,
+    "token": "artisanlib",
+    "score": 221.8164,
+    "nearest": " ForCanBeConverted"
+   },
+   {
+    "id": 55351,
+    "token": "iteDatabase",
+    "score": 221.8114,
+    "nearest": "ite"
+   },
+   {
+    "id": 71819,
+    "token": "numerusform",
+    "score": 221.108,
+    "nearest": "extracomment"
+   },
+   {
+    "id": 82078,
+    "token": "-alist",
+    "score": 219.9689,
+    "nearest": " alist"
+   },
+   {
+    "id": 87474,
+    "token": "無しさん",
+    "score": 219.5033,
+    "nearest": "無"
+   },
+   {
+    "id": 58928,
+    "token": ":UIControlEventTouchUpInside",
+    "score": 219.1508,
+    "nearest": ":UIControlStateNormal"
+   },
+   {
+    "id": 54853,
+    "token": "ETwitter",
+    "score": 219.0656,
+    "nearest": "ETweet"
+   },
+   {
+    "id": 80012,
+    "token": "OnUiThread",
+    "score": 219.0122,
+    "nearest": "UiThread"
+   },
+   {
+    "id": 33838,
+    "token": "atLng",
+    "score": 218.3449,
+    "nearest": " LatLng"
+   },
+   {
+    "id": 94576,
+    "token": "ycastle",
+    "score": 217.2637,
+    "nearest": "yalty"
+   },
+   {
+    "id": 77879,
+    "token": "_IMETHOD",
+    "score": 215.4151,
+    "nearest": "_REALTYPE"
+   },
+   {
+    "id": 90308,
+    "token": "ống",
+    "score": 214.8686,
+    "nearest": "ữ"
+   },
+   {
+    "id": 23636,
+    "token": "ukkit",
+    "score": 214.057,
+    "nearest": " Bukkit"
+   }
+  ],
+  "crowd_max_ordinary": [
+   {
+    "id": 18654,
+    "token": " Micro",
+    "score": 0.9137,
+    "nearest": "Micro"
+   },
+   {
+    "id": 33832,
+    "token": " Hyper",
+    "score": 0.9116,
+    "nearest": "Hyper"
+   },
+   {
+    "id": 5348,
+    "token": " Black",
+    "score": 0.9094,
+    "nearest": "Black"
+   },
+   {
+    "id": 26486,
+    "token": " Ground",
+    "score": 0.9082,
+    "nearest": "Ground"
+   },
+   {
+    "id": 28479,
+    "token": " Physical",
+    "score": 0.9071,
+    "nearest": "Physical"
+   },
+   {
+    "id": 40090,
+    "token": " Pressure",
+    "score": 0.9056,
+    "nearest": "Pressure"
+   },
+   {
+    "id": 19758,
+    "token": " Personal",
+    "score": 0.9053,
+    "nearest": "Personal"
+   },
+   {
+    "id": 20671,
+    "token": " Blood",
+    "score": 0.9052,
+    "nearest": "Blood"
+   },
+   {
+    "id": 27162,
+    "token": " Heat",
+    "score": 0.9035,
+    "nearest": "Heat"
+   },
+   {
+    "id": 18317,
+    "token": " Plant",
+    "score": 0.9034,
+    "nearest": "Plant"
+   },
+   {
+    "id": 29422,
+    "token": " Urban",
+    "score": 0.9029,
+    "nearest": "Urban"
+   },
+   {
+    "id": 59794,
+    "token": " Neutral",
+    "score": 0.9028,
+    "nearest": "Neutral"
+   },
+   {
+    "id": 5929,
+    "token": " White",
+    "score": 0.9021,
+    "nearest": "White"
+   },
+   {
+    "id": 8868,
+    "token": " Blue",
+    "score": 0.9014,
+    "nearest": "Blue"
+   },
+   {
+    "id": 14434,
+    "token": " Digital",
+    "score": 0.9013,
+    "nearest": "Digital"
+   },
+   {
+    "id": 23591,
+    "token": " Early",
+    "score": 0.9012,
+    "nearest": "Early"
+   },
+   {
+    "id": 50372,
+    "token": " Parallel",
+    "score": 0.9011,
+    "nearest": "Parallel"
+   },
+   {
+    "id": 21304,
+    "token": " Performance",
+    "score": 0.901,
+    "nearest": "Performance"
+   },
+   {
+    "id": 27766,
+    "token": " Technical",
+    "score": 0.9004,
+    "nearest": "Technical"
+   },
+   {
+    "id": 7327,
+    "token": " International",
+    "score": 0.9003,
+    "nearest": "International"
+   },
+   {
+    "id": 5165,
+    "token": " National",
+    "score": 0.8999,
+    "nearest": "National"
+   },
+   {
+    "id": 20459,
+    "token": " Mas",
+    "score": 0.8997,
+    "nearest": "Mas"
+   },
+   {
+    "id": 10690,
+    "token": " Brown",
+    "score": 0.8994,
+    "nearest": "Brown"
+   },
+   {
+    "id": 8976,
+    "token": " Real",
+    "score": 0.8993,
+    "nearest": "Real"
+   },
+   {
+    "id": 30260,
+    "token": " Fresh",
+    "score": 0.8993,
+    "nearest": "Fresh"
+   },
+   {
+    "id": 18766,
+    "token": " Modern",
+    "score": 0.8989,
+    "nearest": "Modern"
+   },
+   {
+    "id": 37957,
+    "token": " Feedback",
+    "score": 0.8986,
+    "nearest": "Feedback"
+   },
+   {
+    "id": 20796,
+    "token": " Visual",
+    "score": 0.8985,
+    "nearest": "Visual"
+   },
+   {
+    "id": 70067,
+    "token": " Continuous",
+    "score": 0.8983,
+    "nearest": "Continuous"
+   },
+   {
+    "id": 27233,
+    "token": " Flex",
+    "score": 0.8982,
+    "nearest": "Flex"
+   },
+   {
+    "id": 31946,
+    "token": " Balance",
+    "score": 0.8981,
+    "nearest": "Balance"
+   },
+   {
+    "id": 26572,
+    "token": " Period",
+    "score": 0.8981,
+    "nearest": "Period"
+   },
+   {
+    "id": 10441,
+    "token": " Material",
+    "score": 0.8979,
+    "nearest": "Material"
+   },
+   {
+    "id": 11291,
+    "token": " Peter",
+    "score": 0.8978,
+    "nearest": "Peter"
+   },
+   {
+    "id": 24078,
+    "token": " Transfer",
+    "score": 0.8977,
+    "nearest": "Transfer"
+   },
+   {
+    "id": 51803,
+    "token": " Monitoring",
+    "score": 0.8975,
+    "nearest": "Monitoring"
+   },
+   {
+    "id": 28943,
+    "token": " Commercial",
+    "score": 0.8973,
+    "nearest": "Commercial"
+   },
+   {
+    "id": 25705,
+    "token": " Legal",
+    "score": 0.8972,
+    "nearest": "Legal"
+   },
+   {
+    "id": 44634,
+    "token": " Secondary",
+    "score": 0.8969,
+    "nearest": "Secondary"
+   },
+   {
+    "id": 28993,
+    "token": " Overall",
+    "score": 0.8968,
+    "nearest": "Overall"
+   },
+   {
+    "id": 15957,
+    "token": " Chapter",
+    "score": 0.8968,
+    "nearest": "Chapter"
+   },
+   {
+    "id": 35761,
+    "token": " Critical",
+    "score": 0.8968,
+    "nearest": "Critical"
+   },
+   {
+    "id": 14077,
+    "token": " Again",
+    "score": 0.8966,
+    "nearest": "Again"
+   },
+   {
+    "id": 9323,
+    "token": " Union",
+    "score": 0.8965,
+    "nearest": "Union"
+   },
+   {
+    "id": 31966,
+    "token": " Communication",
+    "score": 0.8964,
+    "nearest": "Communication"
+   },
+   {
+    "id": 10425,
+    "token": " Lord",
+    "score": 0.8964,
+    "nearest": "Lord"
+   },
+   {
+    "id": 22037,
+    "token": " Nature",
+    "score": 0.8962,
+    "nearest": "Nature"
+   },
+   {
+    "id": 18955,
+    "token": " Natural",
+    "score": 0.8953,
+    "nearest": "Natural"
+   },
+   {
+    "id": 7957,
+    "token": " James",
+    "score": 0.8952,
+    "nearest": "James"
+   },
+   {
+    "id": 18288,
+    "token": " Golden",
+    "score": 0.8952,
+    "nearest": "Golden"
+   },
+   {
+    "id": 16923,
+    "token": " Weight",
+    "score": 0.8952,
+    "nearest": "Weight"
+   },
+   {
+    "id": 16543,
+    "token": " Training",
+    "score": 0.8951,
+    "nearest": "Training"
+   },
+   {
+    "id": 7445,
+    "token": " Super",
+    "score": 0.895,
+    "nearest": "Super"
+   },
+   {
+    "id": 22208,
+    "token": " Carbon",
+    "score": 0.8948,
+    "nearest": "Carbon"
+   },
+   {
+    "id": 32499,
+    "token": " Prior",
+    "score": 0.8945,
+    "nearest": "Prior"
+   },
+   {
+    "id": 31941,
+    "token": " Dry",
+    "score": 0.8944,
+    "nearest": "Dry"
+   },
+   {
+    "id": 20880,
+    "token": " Volume",
+    "score": 0.8943,
+    "nearest": "Volume"
+   },
+   {
+    "id": 19220,
+    "token": " Safety",
+    "score": 0.8942,
+    "nearest": "Safety"
+   },
+   {
+    "id": 15466,
+    "token": " Joseph",
+    "score": 0.894,
+    "nearest": "Joseph"
+   },
+   {
+    "id": 28673,
+    "token": " Phase",
+    "score": 0.8938,
+    "nearest": "Phase"
+   }
+  ],
+  "prox_static_ordinary": [
+   {
+    "id": 91543,
+    "token": " iNdEx",
+    "score": 0.4062,
+    "nearest": " davidjl"
+   },
+   {
+    "id": 96328,
+    "token": " uranus",
+    "score": 0.317,
+    "nearest": " norge"
+   },
+   {
+    "id": 31642,
+    "token": " EXEMPLARY",
+    "score": 0.3071,
+    "nearest": " JSBracketAccess"
+   },
+   {
+    "id": 31669,
+    "token": " INTERRUPTION",
+    "score": 0.2754,
+    "nearest": " interruption"
+   },
+   {
+    "id": 92992,
+    "token": " WHATSOEVER",
+    "score": 0.2598,
+    "nearest": " whatsoever"
+   },
+   {
+    "id": 28515,
+    "token": " CONSEQUENTIAL",
+    "score": 0.251,
+    "nearest": " EXEMPLARY"
+   },
+   {
+    "id": 30482,
+    "token": " POSSIBILITY",
+    "score": 0.2389,
+    "nearest": " possibility"
+   },
+   {
+    "id": 29570,
+    "token": " DEALINGS",
+    "score": 0.2373,
+    "nearest": " dealings"
+   },
+   {
+    "id": 17842,
+    "token": " LIABLE",
+    "score": 0.2232,
+    "nearest": " liable"
+   },
+   {
+    "id": 29653,
+    "token": " INCIDENTAL",
+    "score": 0.2159,
+    "nearest": " incidental"
+   },
+   {
+    "id": 31432,
+    "token": " PROCUREMENT",
+    "score": 0.2124,
+    "nearest": " procurement"
+   },
+   {
+    "id": 29324,
+    "token": " PROFITS",
+    "score": 0.2057,
+    "nearest": " profits"
+   },
+   {
+    "id": 91894,
+    "token": " SHARES",
+    "score": 0.2,
+    "nearest": " Shares"
+   },
+   {
+    "id": 31477,
+    "token": " CAUSED",
+    "score": 0.1954,
+    "nearest": " caused"
+   },
+   {
+    "id": 96046,
+    "token": " GOODMAN",
+    "score": 0.1945,
+    "nearest": " Goodman"
+   },
+   {
+    "id": 86697,
+    "token": " Bbw",
+    "score": 0.193,
+    "nearest": " Shemale"
+   },
+   {
+    "id": 30421,
+    "token": " ADVISED",
+    "score": 0.1927,
+    "nearest": " advised"
+   },
+   {
+    "id": 29648,
+    "token": " NEGLIGENCE",
+    "score": 0.1851,
+    "nearest": " negligence"
+   },
+   {
+    "id": 77276,
+    "token": " RECEIVER",
+    "score": 0.171,
+    "nearest": " Receiver"
+   },
+   {
+    "id": 4855,
+    "token": " WARRANT",
+    "score": 0.1674,
+    "nearest": " warrant"
+   },
+   {
+    "id": 88401,
+    "token": " OVERRIDE",
+    "score": 0.1633,
+    "nearest": " Override"
+   },
+   {
+    "id": 22487,
+    "token": " CONTRIBUTORS",
+    "score": 0.1611,
+    "nearest": " Contributors"
+   },
+   {
+    "id": 93190,
+    "token": " stockholm",
+    "score": 0.1609,
+    "nearest": " Stockholm"
+   },
+   {
+    "id": 13163,
+    "token": " IMPLIED",
+    "score": 0.1562,
+    "nearest": "IMPLIED"
+   },
+   {
+    "id": 8400,
+    "token": " WARRANTY",
+    "score": 0.1553,
+    "nearest": " Warranty"
+   },
+   {
+    "id": 21269,
+    "token": " HOLDERS",
+    "score": 0.154,
+    "nearest": " holders"
+   },
+   {
+    "id": 18008,
+    "token": " ARISING",
+    "score": 0.1496,
+    "nearest": " arising"
+   },
+   {
+    "id": 29267,
+    "token": " INCIDENT",
+    "score": 0.1466,
+    "nearest": " Incident"
+   },
+   {
+    "id": 31630,
+    "token": " SUBSTITUTE",
+    "score": 0.1437,
+    "nearest": " Substitute"
+   },
+   {
+    "id": 7877,
+    "token": " FITNESS",
+    "score": 0.1418,
+    "nearest": " Fitness"
+   },
+   {
+    "id": 97577,
+    "token": " GANG",
+    "score": 0.1411,
+    "nearest": " Gang"
+   },
+   {
+    "id": 42665,
+    "token": " COOKIE",
+    "score": 0.1404,
+    "nearest": " Cookie"
+   },
+   {
+    "id": 16932,
+    "token": " PROVIDED",
+    "score": 0.1374,
+    "nearest": " Provided"
+   },
+   {
+    "id": 70500,
+    "token": " OMIT",
+    "score": 0.1374,
+    "nearest": " omit"
+   },
+   {
+    "id": 18562,
+    "token": " OTHERWISE",
+    "score": 0.1362,
+    "nearest": "otherwise"
+   },
+   {
+    "id": 95681,
+    "token": " DISPATCH",
+    "score": 0.1351,
+    "nearest": " Dispatch"
+   },
+   {
+    "id": 48944,
+    "token": " SPELL",
+    "score": 0.133,
+    "nearest": " Spell"
+   },
+   {
+    "id": 77551,
+    "token": " INCLUDED",
+    "score": 0.1328,
+    "nearest": " Included"
+   },
+   {
+    "id": 74305,
+    "token": " PACKET",
+    "score": 0.1289,
+    "nearest": " Packet"
+   },
+   {
+    "id": 61793,
+    "token": " HOLDER",
+    "score": 0.1274,
+    "nearest": " Holder"
+   },
+   {
+    "id": 29304,
+    "token": " DAMAGE",
+    "score": 0.1271,
+    "nearest": " Damage"
+   },
+   {
+    "id": 87344,
+    "token": " Lumpur",
+    "score": 0.1265,
+    "nearest": " Kuala"
+   },
+   {
+    "id": 68382,
+    "token": " SENSOR",
+    "score": 0.1255,
+    "nearest": " Sensor"
+   },
+   {
+    "id": 16908,
+    "token": " DAMAGES",
+    "score": 0.1252,
+    "nearest": " damages"
+   },
+   {
+    "id": 100191,
+    "token": " HEAP",
+    "score": 0.1248,
+    "nearest": " Heap"
+   },
+   {
+    "id": 86923,
+    "token": " Busty",
+    "score": 0.1246,
+    "nearest": " busty"
+   },
+   {
+    "id": 95023,
+    "token": " TRANSACTION",
+    "score": 0.1245,
+    "nearest": " Transaction"
+   },
+   {
+    "id": 89975,
+    "token": " RECEIVE",
+    "score": 0.124,
+    "nearest": " Receive"
+   },
+   {
+    "id": 84290,
+    "token": " MOUSE",
+    "score": 0.1238,
+    "nearest": " Mouse"
+   },
+   {
+    "id": 88326,
+    "token": " AXIS",
+    "score": 0.1226,
+    "nearest": " Axis"
+   },
+   {
+    "id": 98339,
+    "token": " QUEUE",
+    "score": 0.1199,
+    "nearest": "QUEUE"
+   },
+   {
+    "id": 18114,
+    "token": " WHETHER",
+    "score": 0.1189,
+    "nearest": "whether"
+   },
+   {
+    "id": 93142,
+    "token": " Hentai",
+    "score": 0.1186,
+    "nearest": " hentai"
+   },
+   {
+    "id": 74971,
+    "token": " ENTITY",
+    "score": 0.1183,
+    "nearest": " Entity"
+   },
+   {
+    "id": 88418,
+    "token": " SHIPPING",
+    "score": 0.1179,
+    "nearest": " Shipping"
+   },
+   {
+    "id": 96922,
+    "token": " PIXEL",
+    "score": 0.1178,
+    "nearest": " Pixel"
+   },
+   {
+    "id": 94362,
+    "token": " FEATURES",
+    "score": 0.1176,
+    "nearest": " Features"
+   },
+   {
+    "id": 78565,
+    "token": " ITEMS",
+    "score": 0.1173,
+    "nearest": " Items"
+   },
+   {
+    "id": 11643,
+    "token": " BASIS",
+    "score": 0.1169,
+    "nearest": " Basis"
+   },
+   {
+    "id": 85911,
+    "token": " ATTRIBUTE",
+    "score": 0.1147,
+    "nearest": "ATTRIBUTE"
+   }
+  ],
+  "lid_ordinary": [
+   {
+    "id": 99805,
+    "token": " Hess",
+    "score": 168.6696,
+    "nearest": " Hass"
+   },
+   {
+    "id": 95062,
+    "token": " fastball",
+    "score": 166.512,
+    "nearest": " pitch"
+   },
+   {
+    "id": 43982,
+    "token": " Wade",
+    "score": 150.7894,
+    "nearest": " WA"
+   },
+   {
+    "id": 92368,
+    "token": " Vance",
+    "score": 141.3526,
+    "nearest": " Vega"
+   },
+   {
+    "id": 86212,
+    "token": " Nunes",
+    "score": 139.79,
+    "nearest": " Oliveira"
+   },
+   {
+    "id": 95175,
+    "token": " Sheila",
+    "score": 138.9116,
+    "nearest": " Sonia"
+   },
+   {
+    "id": 46656,
+    "token": " Kane",
+    "score": 138.8748,
+    "nearest": " Kan"
+   },
+   {
+    "id": 92992,
+    "token": " WHATSOEVER",
+    "score": 136.598,
+    "nearest": " whatsoever"
+   },
+   {
+    "id": 84522,
+    "token": " Reaper",
+    "score": 130.8121,
+    "nearest": "-Re"
+   },
+   {
+    "id": 58196,
+    "token": " Lair",
+    "score": 130.496,
+    "nearest": " Bair"
+   },
+   {
+    "id": 78255,
+    "token": " Lauderdale",
+    "score": 127.3181,
+    "nearest": " Laud"
+   },
+   {
+    "id": 74962,
+    "token": " Bates",
+    "score": 121.4757,
+    "nearest": " Barton"
+   },
+   {
+    "id": 84813,
+    "token": " Yates",
+    "score": 118.3472,
+    "nearest": " yogurt"
+   },
+   {
+    "id": 86556,
+    "token": " Peyton",
+    "score": 118.2903,
+    "nearest": " Pey"
+   },
+   {
+    "id": 85431,
+    "token": " Gould",
+    "score": 117.9067,
+    "nearest": "ould"
+   },
+   {
+    "id": 77460,
+    "token": " Marilyn",
+    "score": 116.323,
+    "nearest": " Dorothy"
+   },
+   {
+    "id": 40340,
+    "token": " Kerry",
+    "score": 115.2757,
+    "nearest": " Kerr"
+   },
+   {
+    "id": 86463,
+    "token": " Rudd",
+    "score": 114.9556,
+    "nearest": " Rud"
+   },
+   {
+    "id": 95466,
+    "token": " Ingram",
+    "score": 113.9441,
+    "nearest": "イン"
+   },
+   {
+    "id": 90134,
+    "token": " Brenda",
+    "score": 113.6274,
+    "nearest": " Teresa"
+   },
+   {
+    "id": 62732,
+    "token": " Nolan",
+    "score": 113.3488,
+    "nearest": " Nathan"
+   },
+   {
+    "id": 82936,
+    "token": " Heidi",
+    "score": 113.2098,
+    "nearest": " Heather"
+   },
+   {
+    "id": 97108,
+    "token": " Herrera",
+    "score": 113.1482,
+    "nearest": " Hernandez"
+   },
+   {
+    "id": 83421,
+    "token": " Rory",
+    "score": 112.6628,
+    "nearest": " Conor"
+   },
+   {
+    "id": 96966,
+    "token": " Eaton",
+    "score": 112.2912,
+    "nearest": " Euler"
+   },
+   {
+    "id": 67188,
+    "token": " Cain",
+    "score": 111.7885,
+    "nearest": " Caleb"
+   },
+   {
+    "id": 98475,
+    "token": " Gong",
+    "score": 111.2359,
+    "nearest": " Dong"
+   },
+   {
+    "id": 81764,
+    "token": " Stanton",
+    "score": 111.1381,
+    "nearest": " Stokes"
+   },
+   {
+    "id": 83758,
+    "token": " Lester",
+    "score": 110.8893,
+    "nearest": " Leslie"
+   },
+   {
+    "id": 97279,
+    "token": " Howell",
+    "score": 110.7013,
+    "nearest": " Howe"
+   },
+   {
+    "id": 84883,
+    "token": " Lal",
+    "score": 110.0548,
+    "nearest": " Lar"
+   },
+   {
+    "id": 95746,
+    "token": " Trafford",
+    "score": 109.3573,
+    "nearest": " Manchester"
+   },
+   {
+    "id": 69054,
+    "token": " Yong",
+    "score": 108.2088,
+    "nearest": " Yang"
+   },
+   {
+    "id": 71940,
+    "token": " Buffy",
+    "score": 106.1686,
+    "nearest": " buff"
+   },
+   {
+    "id": 73418,
+    "token": " kettle",
+    "score": 106.0298,
+    "nearest": "\tk"
+   },
+   {
+    "id": 45677,
+    "token": " Henderson",
+    "score": 105.5721,
+    "nearest": " hend"
+   },
+   {
+    "id": 94611,
+    "token": " Seymour",
+    "score": 104.6271,
+    "nearest": " Sey"
+   },
+   {
+    "id": 55731,
+    "token": " Zelda",
+    "score": 104.3274,
+    "nearest": " Zoe"
+   },
+   {
+    "id": 80623,
+    "token": " Laurie",
+    "score": 103.8633,
+    "nearest": " Lori"
+   },
+   {
+    "id": 83666,
+    "token": " Dillon",
+    "score": 103.8245,
+    "nearest": "illon"
+   },
+   {
+    "id": 73922,
+    "token": " binge",
+    "score": 103.1288,
+    "nearest": " spree"
+   },
+   {
+    "id": 84124,
+    "token": " Bryce",
+    "score": 102.545,
+    "nearest": " Bry"
+   },
+   {
+    "id": 70599,
+    "token": " gilt",
+    "score": 101.7933,
+    "nearest": " geld"
+   },
+   {
+    "id": 55676,
+    "token": " Wendy",
+    "score": 101.5522,
+    "nearest": " Linda"
+   },
+   {
+    "id": 67961,
+    "token": " Leah",
+    "score": 101.3834,
+    "nearest": " Rachel"
+   },
+   {
+    "id": 60295,
+    "token": " Kerr",
+    "score": 100.8801,
+    "nearest": " Kerry"
+   },
+   {
+    "id": 53468,
+    "token": " Rochester",
+    "score": 100.6817,
+    "nearest": " Syracuse"
+   },
+   {
+    "id": 57555,
+    "token": " Windsor",
+    "score": 99.9916,
+    "nearest": " Wimbledon"
+   },
+   {
+    "id": 39347,
+    "token": " yarn",
+    "score": 98.6071,
+    "nearest": " wool"
+   },
+   {
+    "id": 92219,
+    "token": " Sawyer",
+    "score": 98.5654,
+    "nearest": " Saw"
+   },
+   {
+    "id": 75329,
+    "token": " muzzle",
+    "score": 97.6586,
+    "nearest": "uzzle"
+   },
+   {
+    "id": 56054,
+    "token": " Albany",
+    "score": 97.1806,
+    "nearest": " Alban"
+   },
+   {
+    "id": 61808,
+    "token": " stint",
+    "score": 97.1388,
+    "nearest": " tenure"
+   },
+   {
+    "id": 87926,
+    "token": " Dover",
+    "score": 96.5541,
+    "nearest": " Portsmouth"
+   },
+   {
+    "id": 83868,
+    "token": " dab",
+    "score": 96.4666,
+    "nearest": " dap"
+   },
+   {
+    "id": 84230,
+    "token": " Bale",
+    "score": 96.23,
+    "nearest": " Hale"
+   },
+   {
+    "id": 84403,
+    "token": " baseman",
+    "score": 94.9633,
+    "nearest": "\tbase"
+   },
+   {
+    "id": 82612,
+    "token": " racket",
+    "score": 94.5061,
+    "nearest": " rac"
+   },
+   {
+    "id": 89000,
+    "token": " Rao",
+    "score": 94.3001,
+    "nearest": " Zhao"
+   },
+   {
+    "id": 80831,
+    "token": " Shapiro",
+    "score": 94.1629,
+    "nearest": "apiro"
+   }
+  ]
+ }
+}

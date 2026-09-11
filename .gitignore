@@ -34,3 +34,6 @@ arxiv/main.log
 arxiv/main.out
 arxiv/main.xdv
 arxiv/body_pre.md
+
+outdated_results/*.pt
+outdated_results/*.npz

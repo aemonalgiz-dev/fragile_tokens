@@ -40,7 +40,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from .ngram_identify import reproduce
-from .stagewise import copy_logprob_ids
+from .copyprompt import copy_logprob_ids
 from .interaction_screen import common_word_ids, FEWSHOT
 from .loadmodel import add_model_args, load_from_args, describe
 from .copyprompt import copy_prompt_parts

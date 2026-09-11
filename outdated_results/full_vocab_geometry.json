@@ -1,0 +1,372 @@
+[
+ {
+  "model": "Qwen2.5-7B",
+  "reference": "label-free (fails alone and in >=90% of contexts)",
+  "n_ref": 566,
+  "results": {
+   "token_id": {
+    "all_raw": 0.8154880952380953,
+    "all_strat": NaN,
+    "ord_raw": 0.6477672781174727,
+    "ord_strat": NaN
+   },
+   "norm": {
+    "all_raw": 0.4847482993197279,
+    "all_strat": 0.5075736774665934,
+    "ord_raw": 0.5546136742634797,
+    "ord_strat": 0.5523490868534783
+   },
+   "proximity": {
+    "all_raw": 0.8219209313392639,
+    "all_strat": 0.728880635759163,
+    "ord_raw": 0.6640263199806213,
+    "ord_strat": 0.6550954868150991
+   },
+   "crowd_max": {
+    "all_raw": 0.3057933673469388,
+    "all_strat": 0.4612735676368296,
+    "ord_raw": 0.6146933481563832,
+    "ord_strat": 0.73943956503555
+   },
+   "crowd_k": {
+    "all_raw": 0.34458333333333335,
+    "all_strat": 0.4834111294160718,
+    "ord_raw": 0.5180655919955531,
+    "ord_strat": 0.6552349086853478
+   },
+   "lid": {
+    "all_raw": 0.756574809551239,
+    "all_strat": 0.635571114727097,
+    "ord_raw": 0.48249027132987976,
+    "ord_strat": 0.36037920781230887
+   },
+   "h0": {
+    "all_raw": 0.4635952380952381,
+    "all_strat": 0.4202590151931173,
+    "ord_raw": 0.5282564387622753,
+    "ord_strat": 0.4576885543008504
+   },
+   "h1": {
+    "all_raw": 0.36356972789115644,
+    "all_strat": 0.3599441698700348,
+    "ord_raw": 0.5375671669445988,
+    "ord_strat": 0.5109438170918723
+   },
+   "casevar": {
+    "all_raw": 0.5120175269025066,
+    "all_strat": 0.5720361509835195,
+    "ord_raw": 0.5569727891156463,
+    "ord_strat": 0.7160249150622876
+   }
+  },
+  "examples": [
+   {
+    "word": "Translate",
+    "frag": 0.2916666666666667,
+    "pct": {
+     "proximity": 0.45395590142671854,
+     "crowd_max": 65.43450064850843,
+     "crowd_k": 77.5616083009079,
+     "lid": 26.070038910505836,
+     "h0": 56.54993514915694,
+     "h1": 4.020752269779507,
+     "casevar": 58.65800865800866
+    },
+    "variant": "'Translate' cos 0.667 (neighbour #1)",
+    "nearest": "'Translate' 0.67, ' translate' 0.65, 'translate' 0.57, ' translating' 0.55, ' translated' 0.53, ' translation' 0.53"
+   },
+   {
+    "word": "Replay",
+    "frag": 0.2916666666666667,
+    "pct": {
+     "proximity": 37.48378728923476,
+     "crowd_max": 43.3852140077821,
+     "crowd_k": 11.089494163424124,
+     "lid": 81.90661478599222,
+     "h0": 84.63035019455253,
+     "h1": 79.89623865110246,
+     "casevar": 36.03896103896104
+    },
+    "variant": "' replay' cos 0.567 (neighbour #1)",
+    "nearest": "' replay' 0.57, ' repl' 0.21, '\u56de' 0.20, ' Playback' 0.18, ' Replica' 0.15, 'Re' 0.15"
+   },
+   {
+    "word": "Accordingly",
+    "frag": 0.2916666666666667,
+    "pct": {
+     "proximity": 14.656290531776913,
+     "crowd_max": 66.92607003891051,
+     "crowd_k": 42.088197146562905,
+     "lid": 68.74189364461738,
+     "h0": 4.474708171206226,
+     "h1": 90.40207522697796,
+     "casevar": 60.17316017316017
+    },
+    "variant": "' accordingly' cos 0.673 (neighbour #1)",
+    "nearest": "' accordingly' 0.67, ' Consequently' 0.42, ' Therefore' 0.36, ' consequently' 0.34, '\u76f8\u5e94' 0.34, ' accordance' 0.32"
+   },
+   {
+    "word": "Starter",
+    "frag": 0.20833333333333334,
+    "pct": {
+     "proximity": 92.47730220492866,
+     "crowd_max": 56.874189364461735,
+     "crowd_k": 33.00907911802854,
+     "lid": 60.76523994811932,
+     "h0": 73.41115434500648,
+     "h1": 55.90142671854734,
+     "casevar": 50.0
+    },
+    "variant": "' starter' cos 0.630 (neighbour #1)",
+    "nearest": "' starter' 0.63, 'starter' 0.46, ' starters' 0.40, '\u555f' 0.23, ' Starting' 0.20, 'START' 0.20"
+   },
+   {
+    "word": "Presenter",
+    "frag": 0.20833333333333334,
+    "pct": {
+     "proximity": 96.10894941634241,
+     "crowd_max": 33.00907911802854,
+     "crowd_k": 28.59922178988327,
+     "lid": 69.45525291828794,
+     "h0": 74.57846952010377,
+     "h1": 3.826199740596628,
+     "casevar": 25.865800865800868
+    },
+    "variant": "' presenter' cos 0.513 (neighbour #1)",
+    "nearest": "' presenter' 0.51, 'Presenter' 0.45, ' Presentation' 0.31, ' Presented' 0.28, ' presenting' 0.28, ' apresent' 0.25"
+   },
+   {
+    "word": "Passage",
+    "frag": 0.20833333333333334,
+    "pct": {
+     "proximity": 96.10894941634241,
+     "crowd_max": 56.874189364461735,
+     "crowd_k": 35.34370946822309,
+     "lid": 62.71076523994812,
+     "h0": 62.06225680933852,
+     "h1": 60.505836575875485,
+     "casevar": 50.0
+    },
+    "variant": "' passage' cos 0.630 (neighbour #1)",
+    "nearest": "' passage' 0.63, ' passages' 0.49, ' Passing' 0.30, 'Pass' 0.29, ' PASS' 0.26, '_pass' 0.26"
+   },
+   {
+    "word": "User",
+    "frag": 0.16666666666666666,
+    "pct": {
+     "proximity": 56.22568093385214,
+     "crowd_max": 90.40207522697796,
+     "crowd_k": 94.09857328145266,
+     "lid": 12.710765239948119,
+     "h0": 31.387808041504538,
+     "h1": 18.41763942931258,
+     "casevar": 86.68831168831169
+    },
+    "variant": "' user' cos 0.771 (neighbour #1)",
+    "nearest": "' user' 0.77, 'User' 0.75, '_user' 0.72, 'user' 0.61, ' USER' 0.60, '\u7528\u6237' 0.60"
+   },
+   {
+    "word": "Obviously",
+    "frag": 0.16666666666666666,
+    "pct": {
+     "proximity": 89.75356679636835,
+     "crowd_max": 96.56290531776914,
+     "crowd_k": 82.36057068741894,
+     "lid": 26.005188067444877,
+     "h0": 5.966277561608301,
+     "h1": 78.0804150453956,
+     "casevar": 95.23809523809524
+    },
+    "variant": "'Obviously' cos 0.806 (neighbour #1)",
+    "nearest": "'Obviously' 0.81, ' obviously' 0.77, ' obvious' 0.58, '\u663e\u7136' 0.48, ' Clearly' 0.45, 'Clearly' 0.39"
+   },
+   {
+    "word": "Typically",
+    "frag": 0.16666666666666666,
+    "pct": {
+     "proximity": 53.63164721141375,
+     "crowd_max": 96.36835278858625,
+     "crowd_k": 83.78728923476005,
+     "lid": 26.523994811932557,
+     "h0": 22.827496757457848,
+     "h1": 96.43320363164722,
+     "casevar": 95.02164502164503
+    },
+    "variant": "' typically' cos 0.804 (neighbour #1)",
+    "nearest": "' typically' 0.80, 'typically' 0.70, 'Typ' 0.59, ' typical' 0.52, ' Usually' 0.52, '\u901a\u5e38' 0.51"
+   },
+   {
+    "word": "Printing",
+    "frag": 0.125,
+    "pct": {
+     "proximity": 22.243839169909208,
+     "crowd_max": 71.20622568093385,
+     "crowd_k": 66.21271076523995,
+     "lid": 33.592736705577174,
+     "h0": 63.42412451361868,
+     "h1": 15.88845654993515,
+     "casevar": 63.85281385281385
+    },
+    "variant": "' printing' cos 0.691 (neighbour #1)",
+    "nearest": "' printing' 0.69, 'Printing' 0.64, 'printing' 0.50, '\u5370\u5237' 0.45, ' printers' 0.41, '\u6253\u5370' 0.41"
+   },
+   {
+    "word": "Yourself",
+    "frag": 0.125,
+    "pct": {
+     "proximity": 91.05058365758755,
+     "crowd_max": 59.98702983138781,
+     "crowd_k": 51.16731517509728,
+     "lid": 40.14267185473411,
+     "h0": 58.49546044098573,
+     "h1": 97.66536964980544,
+     "casevar": 52.489177489177486
+    },
+    "variant": "' yourself' cos 0.642 (neighbour #1)",
+    "nearest": "' yourself' 0.64, ' yourselves' 0.47, '\u81ea\u5df1' 0.41, ' oneself' 0.41, ' ourselves' 0.40, ' herself' 0.37"
+   },
+   {
+    "word": "Replies",
+    "frag": 0.125,
+    "pct": {
+     "proximity": 98.18417639429313,
+     "crowd_max": 11.219195849546043,
+     "crowd_k": 15.75875486381323,
+     "lid": 83.59273670557717,
+     "h0": 71.72503242542153,
+     "h1": 12.77561608300908,
+     "casevar": 6.2770562770562774
+    },
+    "variant": "' replies' cos 0.359 (neighbour #1)",
+    "nearest": "' replies' 0.36, ' Reply' 0.34, 'Reply' 0.26, 'reply' 0.26, '-reply' 0.25, ' replied' 0.24"
+   },
+   {
+    "word": "Invent",
+    "frag": 0.125,
+    "pct": {
+     "proximity": 89.36446173800259,
+     "crowd_max": 50.843060959792474,
+     "crowd_k": 52.46433203631647,
+     "lid": 30.4798962386511,
+     "h0": 77.36705577172503,
+     "h1": 67.76913099870298,
+     "casevar": 44.913419913419915
+    },
+    "variant": "' invent' cos 0.602 (neighbour #1)",
+    "nearest": "' invent' 0.60, ' inventor' 0.50, '\u53d1\u660e' 0.44, ' invention' 0.42, ' invented' 0.39, ' inventions' 0.37"
+   },
+   {
+    "word": "Naming",
+    "frag": 0.125,
+    "pct": {
+     "proximity": 91.89364461738002,
+     "crowd_max": 61.478599221789885,
+     "crowd_k": 51.750972762645915,
+     "lid": 52.78858625162127,
+     "h0": 52.65888456549935,
+     "h1": 71.01167315175097,
+     "casevar": 54.54545454545455
+    },
+    "variant": "'Naming' cos 0.648 (neighbour #1)",
+    "nearest": "'Naming' 0.65, ' naming' 0.63, '\u547d\u540d' 0.43, ' Named' 0.32, ' renaming' 0.31, ' Names' 0.28"
+   }
+  ],
+  "nn1_variant_fragile": 1.0,
+  "nn1_variant_stable": 0.7965367965367965
+ },
+ {
+  "model": "OLMo-2-7B",
+  "reference": "Magikarp-verified",
+  "n_ref": 442,
+  "results": {
+   "token_id": {
+    "all_raw": 0.6659396551724138,
+    "all_strat": NaN,
+    "ord_raw": 0.0467328370554177,
+    "ord_strat": NaN
+   },
+   "norm": {
+    "all_raw": 0.3948706896551724,
+    "all_strat": 0.39126450824679293,
+    "ord_raw": 0.413151364764268,
+    "ord_strat": NaN
+   },
+   "proximity": {
+    "all_raw": 0.5014827847480774,
+    "all_strat": 0.501038487996535,
+    "ord_raw": 0.9772539138793945,
+    "ord_strat": NaN
+   },
+   "crowd_max": {
+    "all_raw": 0.22795689655172413,
+    "all_strat": 0.2919975565058033,
+    "ord_raw": 0.9553349875930521,
+    "ord_strat": NaN
+   },
+   "crowd_k": {
+    "all_raw": 0.27391379310344827,
+    "all_strat": 0.3433720219914478,
+    "ord_raw": 0.9177005789909015,
+    "ord_strat": NaN
+   },
+   "lid": {
+    "all_raw": 0.7903707027435303,
+    "all_strat": 0.747342696853287,
+    "ord_raw": 0.24937964975833893,
+    "ord_strat": NaN
+   },
+   "h0": {
+    "all_raw": 0.49610344827586206,
+    "all_strat": 0.4592547342700061,
+    "ord_raw": 0.09801488833746898,
+    "ord_strat": NaN
+   },
+   "h1": {
+    "all_raw": 0.3468965517241379,
+    "all_strat": 0.3431276725717776,
+    "ord_raw": 0.07030603804797353,
+    "ord_strat": NaN
+   },
+   "casevar": {
+    "all_raw": 0.30938609842719433,
+    "all_strat": 0.3645690834473324,
+    "ord_raw": 0.9312320916905444,
+    "ord_strat": NaN
+   }
+  },
+  "examples": [
+   {
+    "word": "according",
+    "frag": 0.9166666666666666,
+    "pct": {
+     "proximity": 97.43589743589743,
+     "crowd_max": 95.6989247311828,
+     "crowd_k": 94.21009098428453,
+     "lid": 20.181968569065344,
+     "h0": 16.129032258064516,
+     "h1": 1.2406947890818858,
+     "casevar": 93.26647564469914
+    },
+    "variant": "' According' cos 0.799 (neighbour #1)",
+    "nearest": "' According' 0.80, 'according' 0.79, 'According' 0.74, ' accordance' 0.55, ' selon' 0.42, 'ccording' 0.40"
+   },
+   {
+    "word": "due",
+    "frag": 0.4166666666666667,
+    "pct": {
+     "proximity": 98.01488833746899,
+     "crowd_max": 95.36807278742762,
+     "crowd_k": 89.33002481389578,
+     "lid": 29.69396195202647,
+     "h0": 3.4739454094292803,
+     "h1": 12.820512820512821,
+     "casevar": 92.97994269340974
+    },
+    "variant": "' Due' cos 0.797 (neighbour #1)",
+    "nearest": "' Due' 0.80, 'due' 0.75, 'Due' 0.74, ' because' 0.46, ' owing' 0.45, '_due' 0.42"
+   }
+  ],
+  "nn1_variant_fragile": 1.0,
+  "nn1_variant_stable": 0.8252148997134671
+ }
+]

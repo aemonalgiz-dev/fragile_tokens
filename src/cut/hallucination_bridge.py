@@ -41,7 +41,7 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from .analyze_trajectory import auc
+from .stats import auc
 from .fragility_predict import logistic_cv, boot_auc, spearman
 
 CODE_TMPL = ("Write exactly one line of Python that imports or calls `{e}`. "

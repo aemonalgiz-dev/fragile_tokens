@@ -1,0 +1,83 @@
+[
+ {
+  "model": "allenai/OLMo-2-1124-7B-Instruct",
+  "n_damaged": 0,
+  "n": 12288,
+  "clean_filler_lp": -0.003259,
+  "gap": 0.0,
+  "slot_lp": -0.026,
+  "copy_pos0_lp": -0.4494
+ },
+ {
+  "model": "allenai/OLMo-2-1124-7B-Instruct",
+  "n_damaged": 1,
+  "n": 24576,
+  "clean_filler_lp": -0.004682,
+  "gap": -0.001423,
+  "slot_lp": -0.1627,
+  "copy_pos0_lp": -0.5219
+ },
+ {
+  "model": "allenai/OLMo-2-1124-7B-Instruct",
+  "n_damaged": 2,
+  "n": 12288,
+  "clean_filler_lp": -0.006176,
+  "gap": -0.002918,
+  "slot_lp": -0.2985,
+  "copy_pos0_lp": -0.5226
+ },
+ {
+  "model": "Qwen/Qwen3-32B",
+  "n_damaged": 0,
+  "n": 1452,
+  "clean_filler_lp": -0.002859,
+  "gap": 0.0,
+  "slot_lp": -0.0135,
+  "copy_pos0_lp": -0.1966
+ },
+ {
+  "model": "Qwen/Qwen3-32B",
+  "n_damaged": 1,
+  "n": 6336,
+  "clean_filler_lp": -0.003076,
+  "gap": -0.000217,
+  "slot_lp": -0.0474,
+  "copy_pos0_lp": -0.22
+ },
+ {
+  "model": "Qwen/Qwen3-32B",
+  "n_damaged": 2,
+  "n": 6912,
+  "clean_filler_lp": -0.003316,
+  "gap": -0.000457,
+  "slot_lp": -0.0761,
+  "copy_pos0_lp": -0.234
+ },
+ {
+  "model": "Qwen/Qwen3-235B-A22B-FP8",
+  "n_damaged": 0,
+  "n": 6912,
+  "clean_filler_lp": -0.000447,
+  "gap": 0.0,
+  "slot_lp": -0.064,
+  "copy_pos0_lp": -0.0341
+ },
+ {
+  "model": "Qwen/Qwen3-235B-A22B-FP8",
+  "n_damaged": 1,
+  "n": 13824,
+  "clean_filler_lp": -0.000709,
+  "gap": -0.000262,
+  "slot_lp": -0.6521,
+  "copy_pos0_lp": -0.0372
+ },
+ {
+  "model": "Qwen/Qwen3-235B-A22B-FP8",
+  "n_damaged": 2,
+  "n": 6912,
+  "clean_filler_lp": -0.000719,
+  "gap": -0.000272,
+  "slot_lp": -1.2464,
+  "copy_pos0_lp": -0.0391
+ }
+]

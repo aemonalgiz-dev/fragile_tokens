@@ -1,7 +1,26 @@
-"""Dependency-light stats: paired bootstrap CI, Welch's t, and the permutation /
+"""Dependency-light stats: rank AUC, paired bootstrap CI, Welch's t, and the permutation /
 FDR machinery for the non-contiguous interaction screen."""
 from __future__ import annotations
 import numpy as np
+
+
+def auc(scores: np.ndarray, labels: np.ndarray) -> float:
+    """Mann-Whitney U / rank-based AUC with average ranks for ties. labels: 1 = positive class."""
+    order = scores.argsort()
+    ranks = np.empty(len(scores), float)
+    ranks[order] = np.arange(1, len(scores) + 1)
+    s = scores[order]
+    i = 0
+    while i < len(s):
+        j = i
+        while j + 1 < len(s) and s[j + 1] == s[i]:
+            j += 1
+        if j > i:
+            ranks[order[i:j + 1]] = ranks[order[i:j + 1]].mean()
+        i = j + 1
+    n1 = labels.sum()
+    n0 = len(labels) - n1
+    return float((ranks[labels == 1].sum() - n1 * (n1 + 1) / 2) / (n1 * n0))
 
 
 def paired_boot(x, y, n=10000, seed=0, stat="mean"):

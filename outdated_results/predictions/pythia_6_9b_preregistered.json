@@ -1,0 +1,4714 @@
+{
+ "tag": "pythia_6_9b",
+ "repo": "EleutherAI/pythia-6.9b",
+ "tied": false,
+ "vocab": 50277,
+ "table": [
+  50432,
+  4096
+ ],
+ "static_reference_rows": 155,
+ "reserved_tokens": [],
+ "created_utc": "2026-09-11T15:56:27+00:00",
+ "scores_file": "results/predictions/pythia_6_9b_scores.npz",
+ "scores_sha256": "d3ca9e09daf760b166fbece926d9fe415c5251922a0c56c0e8cb96d2564ee59d",
+ "hypotheses": [
+  "H1 prox_static: on the Lambda random sample, fragile vs stable (clean alone), token-id-stratified AUC >= 0.60",
+  "H2 lid: same test, token-id-stratified AUC >= 0.60",
+  "H3 crowd_max within ordinary English words: fragile vs stable AUC >= 0.60",
+  "H4 each method's top-300 predicted-fragile set has a fragile rate >= 2x the random sample's",
+  "Only models with >= 5 static-reference rows are eligible for H1."
+ ],
+ "top_predicted_fragile": {
+  "prox_static": [
+   {
+    "id": 15479,
+    "token": " taxp",
+    "score": 0.2316,
+    "nearest": " researc"
+   },
+   {
+    "id": 26868,
+    "token": "ÃÂÃÂÃÂÃÂ",
+    "score": 0.2239,
+    "nearest": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+   },
+   {
+    "id": 14798,
+    "token": " affidav",
+    "score": 0.2225,
+    "nearest": " researc"
+   },
+   {
+    "id": 37402,
+    "token": "imonit",
+    "score": 0.2198,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 27655,
+    "token": " $[]$",
+    "score": 0.2167,
+    "nearest": "[]$"
+   },
+   {
+    "id": 23063,
+    "token": " careg",
+    "score": 0.2161,
+    "nearest": " researc"
+   },
+   {
+    "id": 41606,
+    "token": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
+    "score": 0.2151,
+    "nearest": "ÃÂÃÂÃÂÃÂ"
+   },
+   {
+    "id": 26362,
+    "token": " {¶",
+    "score": 0.2143,
+    "nearest": " \n "
+   },
+   {
+    "id": 28696,
+    "token": "FFIRMED",
+    "score": 0.2115,
+    "nearest": "<|padding|>"
+   },
+   {
+    "id": 16990,
+    "token": "ÃÂ",
+    "score": 0.2099,
+    "nearest": "ÃÂÃÂ"
+   },
+   {
+    "id": 7440,
+    "token": " researc",
+    "score": 0.2084,
+    "nearest": " practition"
+   },
+   {
+    "id": 15236,
+    "token": " biomark",
+    "score": 0.2081,
+    "nearest": " researc"
+   },
+   {
+    "id": 17030,
+    "token": "ÃÂÃÂ",
+    "score": 0.2077,
+    "nearest": "ÃÂ"
+   },
+   {
+    "id": 30356,
+    "token": "marined",
+    "score": 0.2064,
+    "nearest": "medsc"
+   },
+   {
+    "id": 22066,
+    "token": " resemb",
+    "score": 0.2064,
+    "nearest": " remn"
+   },
+   {
+    "id": 21852,
+    "token": " earthqu",
+    "score": 0.2063,
+    "nearest": " tradem"
+   },
+   {
+    "id": 18112,
+    "token": " practition",
+    "score": 0.2026,
+    "nearest": " researc"
+   },
+   {
+    "id": 12370,
+    "token": "ICENSE",
+    "score": 0.2012,
+    "nearest": "ORAND"
+   },
+   {
+    "id": 8827,
+    "token": "rsfs",
+    "score": 0.201,
+    "nearest": "widet"
+   },
+   {
+    "id": 8865,
+    "token": "idemargin",
+    "score": 0.201,
+    "nearest": "imonit"
+   },
+   {
+    "id": 13236,
+    "token": " teasp",
+    "score": 0.2002,
+    "nearest": " earthqu"
+   },
+   {
+    "id": 39743,
+    "token": "14514500",
+    "score": 0.1993,
+    "nearest": "1451450014514500"
+   },
+   {
+    "id": 20033,
+    "token": " tradem",
+    "score": 0.1974,
+    "nearest": " earthqu"
+   },
+   {
+    "id": 37087,
+    "token": "medsc",
+    "score": 0.1973,
+    "nearest": "marined"
+   },
+   {
+    "id": 27092,
+    "token": " glimp",
+    "score": 0.1949,
+    "nearest": " specim"
+   },
+   {
+    "id": 39922,
+    "token": "1451450014514500",
+    "score": 0.1923,
+    "nearest": "14514500"
+   },
+   {
+    "id": 26384,
+    "token": " remn",
+    "score": 0.1922,
+    "nearest": " resemb"
+   },
+   {
+    "id": 10248,
+    "token": " specim",
+    "score": 0.1921,
+    "nearest": " researc"
+   },
+   {
+    "id": 6761,
+    "token": "ortunately",
+    "score": 0.1907,
+    "nearest": "acebook"
+   },
+   {
+    "id": 41557,
+    "token": "PtrFromString",
+    "score": 0.1831,
+    "nearest": "\n                        "
+   },
+   {
+    "id": 16658,
+    "token": "tocol",
+    "score": 0.1818,
+    "nearest": "marined"
+   },
+   {
+    "id": 29910,
+    "token": " counc",
+    "score": 0.1809,
+    "nearest": " practition"
+   },
+   {
+    "id": 22394,
+    "token": " cryptocur",
+    "score": 0.18,
+    "nearest": " researc"
+   },
+   {
+    "id": 6767,
+    "token": "widet",
+    "score": 0.1786,
+    "nearest": "rsfs"
+   },
+   {
+    "id": 27618,
+    "token": "[]$",
+    "score": 0.1774,
+    "nearest": " $[]$"
+   },
+   {
+    "id": 16793,
+    "token": " entreprene",
+    "score": 0.176,
+    "nearest": " practition"
+   },
+   {
+    "id": 20637,
+    "token": " supernat",
+    "score": 0.1759,
+    "nearest": " specim"
+   },
+   {
+    "id": 12253,
+    "token": " questionna",
+    "score": 0.1753,
+    "nearest": " affidav"
+   },
+   {
+    "id": 38438,
+    "token": "ORAND",
+    "score": 0.1725,
+    "nearest": "ICENSE"
+   },
+   {
+    "id": 22514,
+    "token": " Leban",
+    "score": 0.1722,
+    "nearest": " earthqu"
+   },
+   {
+    "id": 33835,
+    "token": "doibase",
+    "score": 0.1717,
+    "nearest": " \n "
+   },
+   {
+    "id": 19650,
+    "token": "izontal",
+    "score": 0.171,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 35539,
+    "token": "NdEx",
+    "score": 0.1706,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 49169,
+    "token": "GLIGENCE",
+    "score": 0.1701,
+    "nearest": "CHANTABILITY"
+   },
+   {
+    "id": 30031,
+    "token": "ViewById",
+    "score": 0.1682,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 20386,
+    "token": "CHANTABILITY",
+    "score": 0.1624,
+    "nearest": "GLIGENCE"
+   },
+   {
+    "id": 43978,
+    "token": "ciparum",
+    "score": 0.1624,
+    "nearest": "uginosa"
+   },
+   {
+    "id": 39740,
+    "token": "visiae",
+    "score": 0.1618,
+    "nearest": "uginosa"
+   },
+   {
+    "id": 7702,
+    "token": " encoun",
+    "score": 0.1605,
+    "nearest": " encounter"
+   },
+   {
+    "id": 6599,
+    "token": "icrosoft",
+    "score": 0.1591,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 10365,
+    "token": " embod",
+    "score": 0.1577,
+    "nearest": " embodiment"
+   },
+   {
+    "id": 19250,
+    "token": "PDATE",
+    "score": 0.1575,
+    "nearest": "ICENSE"
+   },
+   {
+    "id": 11278,
+    "token": "estinal",
+    "score": 0.1568,
+    "nearest": "imonit"
+   },
+   {
+    "id": 45330,
+    "token": "ETHERTYPE",
+    "score": 0.1563,
+    "nearest": "NFTA"
+   },
+   {
+    "id": 40251,
+    "token": "chrane",
+    "score": 0.1555,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 42010,
+    "token": " BytePtrFromString",
+    "score": 0.1548,
+    "nearest": " errnoErr"
+   },
+   {
+    "id": 29304,
+    "token": "uvant",
+    "score": 0.1548,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 2481,
+    "token": "aintiff",
+    "score": 0.1531,
+    "nearest": "plaintiff"
+   },
+   {
+    "id": 28328,
+    "token": "idopsis",
+    "score": 0.1529,
+    "nearest": "icrosoft"
+   },
+   {
+    "id": 6211,
+    "token": " citiz",
+    "score": 0.1517,
+    "nearest": " citizen"
+   },
+   {
+    "id": 48628,
+    "token": " doxor",
+    "score": 0.1513,
+    "nearest": " doxorubicin"
+   },
+   {
+    "id": 32034,
+    "token": "enment",
+    "score": 0.1492,
+    "nearest": "EMENT"
+   },
+   {
+    "id": 6145,
+    "token": "acebook",
+    "score": 0.1486,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 37294,
+    "token": "íses",
+    "score": 0.1479,
+    "nearest": "ís"
+   },
+   {
+    "id": 5273,
+    "token": "sembly",
+    "score": 0.1464,
+    "nearest": "assembly"
+   },
+   {
+    "id": 36530,
+    "token": "uginosa",
+    "score": 0.1455,
+    "nearest": "ciparum"
+   },
+   {
+    "id": 39283,
+    "token": "AtA",
+    "score": 0.1443,
+    "nearest": "NdEx"
+   },
+   {
+    "id": 44580,
+    "token": "ERTYPE",
+    "score": 0.1419,
+    "nearest": "ERS"
+   },
+   {
+    "id": 45659,
+    "token": " Spacewatch",
+    "score": 0.1407,
+    "nearest": " LINEAR"
+   },
+   {
+    "id": 16882,
+    "token": "havior",
+    "score": 0.1401,
+    "nearest": "haviour"
+   },
+   {
+    "id": 14529,
+    "token": "scious",
+    "score": 0.1396,
+    "nearest": "conscious"
+   },
+   {
+    "id": 40494,
+    "token": "bersome",
+    "score": 0.1396,
+    "nearest": " cumbersome"
+   },
+   {
+    "id": 6094,
+    "token": " behavi",
+    "score": 0.1395,
+    "nearest": " behaviour"
+   },
+   {
+    "id": 20214,
+    "token": "––––",
+    "score": 0.1395,
+    "nearest": "––"
+   },
+   {
+    "id": 39083,
+    "token": "\"}](#",
+    "score": 0.1393,
+    "nearest": "*](#"
+   },
+   {
+    "id": 22596,
+    "token": " opio",
+    "score": 0.1382,
+    "nearest": " opioids"
+   },
+   {
+    "id": 17505,
+    "token": "gorithm",
+    "score": 0.1359,
+    "nearest": "gorithms"
+   },
+   {
+    "id": 39586,
+    "token": "}{~",
+    "score": 0.1356,
+    "nearest": "}~"
+   },
+   {
+    "id": 23996,
+    "token": "utative",
+    "score": 0.1356,
+    "nearest": "utation"
+   },
+   {
+    "id": 37570,
+    "token": " 0000000000000000000000000000000000",
+    "score": 0.1355,
+    "nearest": " {¶"
+   },
+   {
+    "id": 15876,
+    "token": "binant",
+    "score": 0.1337,
+    "nearest": "ycin"
+   },
+   {
+    "id": 44988,
+    "token": "NFTA",
+    "score": 0.1305,
+    "nearest": "ETHERTYPE"
+   },
+   {
+    "id": 47167,
+    "token": "IGENCE",
+    "score": 0.1303,
+    "nearest": "IG"
+   },
+   {
+    "id": 10900,
+    "token": " occas",
+    "score": 0.1301,
+    "nearest": "occ"
+   },
+   {
+    "id": 6608,
+    "token": "opyright",
+    "score": 0.1293,
+    "nearest": "copyright"
+   },
+   {
+    "id": 31977,
+    "token": "herichia",
+    "score": 0.1292,
+    "nearest": "heric"
+   },
+   {
+    "id": 35613,
+    "token": " /*!",
+    "score": 0.1291,
+    "nearest": " /**"
+   },
+   {
+    "id": 28855,
+    "token": "aukee",
+    "score": 0.129,
+    "nearest": "waukee"
+   },
+   {
+    "id": 35088,
+    "token": "...\\...\\",
+    "score": 0.1288,
+    "nearest": "...\\"
+   },
+   {
+    "id": 39267,
+    "token": "omitempty",
+    "score": 0.1284,
+    "nearest": " tradem"
+   },
+   {
+    "id": 36658,
+    "token": "debted",
+    "score": 0.1275,
+    "nearest": " indebted"
+   },
+   {
+    "id": 37990,
+    "token": "ferroni",
+    "score": 0.1264,
+    "nearest": "litaxel"
+   },
+   {
+    "id": 32419,
+    "token": "uitary",
+    "score": 0.1263,
+    "nearest": " pituitary"
+   },
+   {
+    "id": 12635,
+    "token": "ariju",
+    "score": 0.125,
+    "nearest": "arijuana"
+   },
+   {
+    "id": 47312,
+    "token": "iNdEx",
+    "score": 0.125,
+    "nearest": "NdEx"
+   },
+   {
+    "id": 42769,
+    "token": "ypse",
+    "score": 0.125,
+    "nearest": "phia"
+   },
+   {
+    "id": 44595,
+    "token": "TIOC",
+    "score": 0.1245,
+    "nearest": "SIOC"
+   },
+   {
+    "id": 47863,
+    "token": "hatic",
+    "score": 0.1238,
+    "nearest": "izontal"
+   },
+   {
+    "id": 39972,
+    "token": "imester",
+    "score": 0.1232,
+    "nearest": " trimester"
+   },
+   {
+    "id": 34575,
+    "token": " 00000000000000000000000000000000",
+    "score": 0.1228,
+    "nearest": " 00000000"
+   },
+   {
+    "id": 44737,
+    "token": "litaxel",
+    "score": 0.1224,
+    "nearest": "platin"
+   },
+   {
+    "id": 45609,
+    "token": "zitter",
+    "score": 0.1224,
+    "nearest": "lemn"
+   },
+   {
+    "id": 13530,
+    "token": "parison",
+    "score": 0.1221,
+    "nearest": "comparison"
+   },
+   {
+    "id": 38632,
+    "token": "ubicin",
+    "score": 0.1221,
+    "nearest": "ub"
+   },
+   {
+    "id": 28031,
+    "token": "aeda",
+    "score": 0.1219,
+    "nearest": "1451450014514500"
+   },
+   {
+    "id": 23484,
+    "token": "chemia",
+    "score": 0.1219,
+    "nearest": " ischemia"
+   },
+   {
+    "id": 38560,
+    "token": "ORANDUM",
+    "score": 0.1216,
+    "nearest": "orandum"
+   },
+   {
+    "id": 40739,
+    "token": "SIOC",
+    "score": 0.1216,
+    "nearest": "TIOC"
+   },
+   {
+    "id": 21551,
+    "token": "arlier",
+    "score": 0.1216,
+    "nearest": "phia"
+   },
+   {
+    "id": 19003,
+    "token": "ncia",
+    "score": 0.1215,
+    "nearest": "nc"
+   },
+   {
+    "id": 32194,
+    "token": " assertEquals",
+    "score": 0.1215,
+    "nearest": "assertEquals"
+   },
+   {
+    "id": 20796,
+    "token": " oun",
+    "score": 0.1215,
+    "nearest": " answ"
+   },
+   {
+    "id": 46119,
+    "token": "ESULT",
+    "score": 0.1215,
+    "nearest": "RESULT"
+   },
+   {
+    "id": 48963,
+    "token": ")|$(",
+    "score": 0.1211,
+    "nearest": ")'"
+   },
+   {
+    "id": 34106,
+    "token": "ontally",
+    "score": 0.1206,
+    "nearest": "ontal"
+   },
+   {
+    "id": 18643,
+    "token": "ALSE",
+    "score": 0.1201,
+    "nearest": "alse"
+   },
+   {
+    "id": 4043,
+    "token": "ournal",
+    "score": 0.1199,
+    "nearest": "Journal"
+   },
+   {
+    "id": 38623,
+    "token": " CONTRIBUTORS",
+    "score": 0.1199,
+    "nearest": " CONTRIBUT"
+   },
+   {
+    "id": 33689,
+    "token": "comings",
+    "score": 0.1195,
+    "nearest": "coming"
+   },
+   {
+    "id": 5855,
+    "token": " weap",
+    "score": 0.1195,
+    "nearest": " advertis"
+   },
+   {
+    "id": 14740,
+    "token": "mpty",
+    "score": 0.1194,
+    "nearest": " Empty"
+   },
+   {
+    "id": 18249,
+    "token": " reluct",
+    "score": 0.1193,
+    "nearest": " reluctance"
+   },
+   {
+    "id": 43227,
+    "token": " HOLDERS",
+    "score": 0.1191,
+    "nearest": " holders"
+   },
+   {
+    "id": 39729,
+    "token": "anmar",
+    "score": 0.1189,
+    "nearest": "stery"
+   },
+   {
+    "id": 37898,
+    "token": "uilt",
+    "score": 0.1184,
+    "nearest": "uild"
+   },
+   {
+    "id": 8867,
+    "token": "oddsidemargin",
+    "score": 0.1182,
+    "nearest": "idemargin"
+   },
+   {
+    "id": 46068,
+    "token": "SEQUENTIAL",
+    "score": 0.1182,
+    "nearest": "SEQU"
+   },
+   {
+    "id": 16709,
+    "token": "bsite",
+    "score": 0.1177,
+    "nearest": "bsy"
+   },
+   {
+    "id": 10055,
+    "token": "iscussion",
+    "score": 0.117,
+    "nearest": "iscuss"
+   },
+   {
+    "id": 37532,
+    "token": "ISPR",
+    "score": 0.1168,
+    "nearest": "ISP"
+   },
+   {
+    "id": 34319,
+    "token": " CURIAM",
+    "score": 0.1165,
+    "nearest": " curiam"
+   },
+   {
+    "id": 2671,
+    "token": "vironment",
+    "score": 0.1164,
+    "nearest": "vironments"
+   },
+   {
+    "id": 49709,
+    "token": "ampsia",
+    "score": 0.1163,
+    "nearest": "amation"
+   },
+   {
+    "id": 177,
+    "token": "\u0000",
+    "score": 0.1162,
+    "nearest": "\u0002"
+   },
+   {
+    "id": 36640,
+    "token": "anyahu",
+    "score": 0.116,
+    "nearest": "flix"
+   },
+   {
+    "id": 20030,
+    "token": "cticut",
+    "score": 0.1158,
+    "nearest": "achusetts"
+   },
+   {
+    "id": 32137,
+    "token": "CUIT",
+    "score": 0.1157,
+    "nearest": "CU"
+   },
+   {
+    "id": 2928,
+    "token": " answ",
+    "score": 0.1157,
+    "nearest": " advertis"
+   },
+   {
+    "id": 32756,
+    "token": "izumab",
+    "score": 0.1154,
+    "nearest": "umab"
+   },
+   {
+    "id": 26051,
+    "token": "YRIGHT",
+    "score": 0.1149,
+    "nearest": "opyright"
+   },
+   {
+    "id": 10803,
+    "token": "monary",
+    "score": 0.1148,
+    "nearest": "ulmonary"
+   },
+   {
+    "id": 16420,
+    "token": "rowser",
+    "score": 0.1146,
+    "nearest": " Browser"
+   },
+   {
+    "id": 42395,
+    "token": "renthood",
+    "score": 0.1146,
+    "nearest": "thood"
+   },
+   {
+    "id": 48763,
+    "token": "eLife",
+    "score": 0.1145,
+    "nearest": "unreadable"
+   },
+   {
+    "id": 43187,
+    "token": "cibly",
+    "score": 0.1144,
+    "nearest": "cible"
+   },
+   {
+    "id": 45424,
+    "token": "uximab",
+    "score": 0.1143,
+    "nearest": "UX"
+   },
+   {
+    "id": 29589,
+    "token": "blockList",
+    "score": 0.1142,
+    "nearest": "BLOCK"
+   },
+   {
+    "id": 37046,
+    "token": "+-+-",
+    "score": 0.1139,
+    "nearest": "+-"
+   },
+   {
+    "id": 34745,
+    "token": " LIABLE",
+    "score": 0.1138,
+    "nearest": " liable"
+   },
+   {
+    "id": 22322,
+    "token": "unnumbered",
+    "score": 0.1134,
+    "nearest": "unreadable"
+   },
+   {
+    "id": 9641,
+    "token": "inical",
+    "score": 0.1132,
+    "nearest": "eday"
+   },
+   {
+    "id": 35594,
+    "token": "phrine",
+    "score": 0.1132,
+    "nearest": "pher"
+   },
+   {
+    "id": 45951,
+    "token": "Inflater",
+    "score": 0.1132,
+    "nearest": "Infl"
+   },
+   {
+    "id": 27971,
+    "token": "veolar",
+    "score": 0.1131,
+    "nearest": " alveolar"
+   },
+   {
+    "id": 22617,
+    "token": "pshire",
+    "score": 0.1131,
+    "nearest": "swick"
+   },
+   {
+    "id": 3278,
+    "token": "icense",
+    "score": 0.113,
+    "nearest": "ICENSE"
+   },
+   {
+    "id": 27008,
+    "token": "angered",
+    "score": 0.1129,
+    "nearest": " endangered"
+   },
+   {
+    "id": 8809,
+    "token": "amss",
+    "score": 0.1128,
+    "nearest": "bsy"
+   },
+   {
+    "id": 49793,
+    "token": "-€",
+    "score": 0.1123,
+    "nearest": " €"
+   },
+   {
+    "id": 15238,
+    "token": "****,",
+    "score": 0.1122,
+    "nearest": "****"
+   },
+   {
+    "id": 33935,
+    "token": "gester",
+    "score": 0.1121,
+    "nearest": "gesterone"
+   },
+   {
+    "id": 42447,
+    "token": "ycler",
+    "score": 0.112,
+    "nearest": "ycle"
+   },
+   {
+    "id": 24857,
+    "token": "arcoma",
+    "score": 0.112,
+    "nearest": " sarcoma"
+   },
+   {
+    "id": 24972,
+    "token": "rendum",
+    "score": 0.1119,
+    "nearest": "rend"
+   },
+   {
+    "id": 10025,
+    "token": "ruptcy",
+    "score": 0.1118,
+    "nearest": "rupt"
+   },
+   {
+    "id": 22834,
+    "token": "thood",
+    "score": 0.1116,
+    "nearest": "renthood"
+   },
+   {
+    "id": 19976,
+    "token": "ETHOD",
+    "score": 0.1116,
+    "nearest": "ethod"
+   },
+   {
+    "id": 22702,
+    "token": " errnoErr",
+    "score": 0.1115,
+    "nearest": " BytePtrFromString"
+   },
+   {
+    "id": 20377,
+    "token": "yscall",
+    "score": 0.1114,
+    "nearest": "ys"
+   },
+   {
+    "id": 38784,
+    "token": "bestos",
+    "score": 0.1111,
+    "nearest": " asbestos"
+   },
+   {
+    "id": 46975,
+    "token": "veis",
+    "score": 0.1108,
+    "nearest": "vel"
+   },
+   {
+    "id": 48201,
+    "token": "=\"'$(",
+    "score": 0.1105,
+    "nearest": "=\"$("
+   },
+   {
+    "id": 44369,
+    "token": "ActivityThread",
+    "score": 0.1105,
+    "nearest": "AndroidRuntime"
+   },
+   {
+    "id": 35320,
+    "token": "ydrates",
+    "score": 0.1105,
+    "nearest": "ydrate"
+   },
+   {
+    "id": 38921,
+    "token": " cref",
+    "score": 0.1104,
+    "nearest": " HREF"
+   },
+   {
+    "id": 29332,
+    "token": "lemn",
+    "score": 0.1102,
+    "nearest": "vereign"
+   },
+   {
+    "id": 31236,
+    "token": " triglycer",
+    "score": 0.11,
+    "nearest": " triglyceride"
+   },
+   {
+    "id": 18487,
+    "token": "ktop",
+    "score": 0.1098,
+    "nearest": "phia"
+   },
+   {
+    "id": 14948,
+    "token": "sembled",
+    "score": 0.1098,
+    "nearest": "sembling"
+   },
+   {
+    "id": 7502,
+    "token": "nesday",
+    "score": 0.1095,
+    "nearest": "ursday"
+   },
+   {
+    "id": 29229,
+    "token": "ithmic",
+    "score": 0.1095,
+    "nearest": "ithm"
+   },
+   {
+    "id": 42673,
+    "token": "terness",
+    "score": 0.1095,
+    "nearest": "terest"
+   },
+   {
+    "id": 27153,
+    "token": "innati",
+    "score": 0.1093,
+    "nearest": "cticut"
+   },
+   {
+    "id": 29321,
+    "token": " HREF",
+    "score": 0.1092,
+    "nearest": " href"
+   },
+   {
+    "id": 49505,
+    "token": " NEGLIGENCE",
+    "score": 0.1088,
+    "nearest": " TORT"
+   },
+   {
+    "id": 42878,
+    "token": "ichlet",
+    "score": 0.1088,
+    "nearest": " Dirichlet"
+   },
+   {
+    "id": 49249,
+    "token": " BGCOLOR",
+    "score": 0.1087,
+    "nearest": " bgcolor"
+   },
+   {
+    "id": 1958,
+    "token": "ividual",
+    "score": 0.1085,
+    "nearest": "individual"
+   },
+   {
+    "id": 25862,
+    "token": "FFIR",
+    "score": 0.1085,
+    "nearest": "cknow"
+   },
+   {
+    "id": 29945,
+    "token": "enchymal",
+    "score": 0.1084,
+    "nearest": "ench"
+   },
+   {
+    "id": 33446,
+    "token": "levard",
+    "score": 0.1084,
+    "nearest": "lev"
+   },
+   {
+    "id": 7927,
+    "token": "helial",
+    "score": 0.1084,
+    "nearest": "hel"
+   },
+   {
+    "id": 48108,
+    "token": "aliana",
+    "score": 0.1084,
+    "nearest": "alian"
+   },
+   {
+    "id": 44228,
+    "token": "ipeg",
+    "score": 0.1083,
+    "nearest": "ipe"
+   },
+   {
+    "id": 49595,
+    "token": "ymoon",
+    "score": 0.1082,
+    "nearest": "ym"
+   },
+   {
+    "id": 6063,
+    "token": " cryst",
+    "score": 0.1081,
+    "nearest": " neighb"
+   },
+   {
+    "id": 36699,
+    "token": "aucoma",
+    "score": 0.1079,
+    "nearest": " glaucoma"
+   },
+   {
+    "id": 46121,
+    "token": "GRect",
+    "score": 0.1078,
+    "nearest": "GF"
+   },
+   {
+    "id": 42418,
+    "token": "ductory",
+    "score": 0.1077,
+    "nearest": " introductory"
+   },
+   {
+    "id": 41446,
+    "token": "Syscall",
+    "score": 0.1074,
+    "nearest": " Syscall"
+   },
+   {
+    "id": 14860,
+    "token": "eenth",
+    "score": 0.1074,
+    "nearest": "een"
+   },
+   {
+    "id": 30491,
+    "token": "OMNI",
+    "score": 0.1073,
+    "nearest": "OMN"
+   },
+   {
+    "id": 183,
+    "token": "\u0006",
+    "score": 0.1073,
+    "nearest": "\u0004"
+   },
+   {
+    "id": 47823,
+    "token": " INDIRECT",
+    "score": 0.1072,
+    "nearest": " indirect"
+   },
+   {
+    "id": 35206,
+    "token": "imbab",
+    "score": 0.1072,
+    "nearest": "imbabwe"
+   },
+   {
+    "id": 31522,
+    "token": " ⁢",
+    "score": 0.1071,
+    "nearest": "�"
+   },
+   {
+    "id": 47446,
+    "token": "*](#",
+    "score": 0.1071,
+    "nearest": "**](#"
+   },
+   {
+    "id": 36426,
+    "token": "mable",
+    "score": 0.1068,
+    "nearest": "ABLE"
+   },
+   {
+    "id": 48150,
+    "token": "htaking",
+    "score": 0.1067,
+    "nearest": "hetized"
+   },
+   {
+    "id": 9926,
+    "token": "perties",
+    "score": 0.1067,
+    "nearest": "perty"
+   },
+   {
+    "id": 5655,
+    "token": "bolds",
+    "score": 0.1066,
+    "nearest": "bold"
+   },
+   {
+    "id": 49080,
+    "token": " PROFITS",
+    "score": 0.1064,
+    "nearest": " profits"
+   },
+   {
+    "id": 28632,
+    "token": "iversal",
+    "score": 0.1064,
+    "nearest": "Universal"
+   },
+   {
+    "id": 19865,
+    "token": "pendicular",
+    "score": 0.1062,
+    "nearest": "itoneal"
+   },
+   {
+    "id": 19426,
+    "token": "riors",
+    "score": 0.1062,
+    "nearest": "rior"
+   },
+   {
+    "id": 49405,
+    "token": "ésident",
+    "score": 0.1062,
+    "nearest": "äsident"
+   },
+   {
+    "id": 48765,
+    "token": "IPPROTO",
+    "score": 0.1062,
+    "nearest": "ETHERTYPE"
+   },
+   {
+    "id": 39234,
+    "token": "uckland",
+    "score": 0.1061,
+    "nearest": " Auckland"
+   },
+   {
+    "id": 46153,
+    "token": "idegger",
+    "score": 0.106,
+    "nearest": "isenberg"
+   },
+   {
+    "id": 31772,
+    "token": "ableness",
+    "score": 0.106,
+    "nearest": "ability"
+   },
+   {
+    "id": 33645,
+    "token": "verages",
+    "score": 0.106,
+    "nearest": " averages"
+   },
+   {
+    "id": 50243,
+    "token": "bilt",
+    "score": 0.106,
+    "nearest": "bil"
+   },
+   {
+    "id": 49038,
+    "token": "zbollah",
+    "score": 0.106,
+    "nearest": " Lebanese"
+   },
+   {
+    "id": 22168,
+    "token": "tainment",
+    "score": 0.1058,
+    "nearest": " entertainment"
+   },
+   {
+    "id": 8179,
+    "token": "ftware",
+    "score": 0.1056,
+    "nearest": "FTWARE"
+   },
+   {
+    "id": 10767,
+    "token": "iratory",
+    "score": 0.1056,
+    "nearest": "piratory"
+   },
+   {
+    "id": 46738,
+    "token": "atchewan",
+    "score": 0.1055,
+    "nearest": "esota"
+   },
+   {
+    "id": 38052,
+    "token": "ödinger",
+    "score": 0.1052,
+    "nearest": "uginosa"
+   },
+   {
+    "id": 32531,
+    "token": "formatics",
+    "score": 0.1052,
+    "nearest": "informatics"
+   },
+   {
+    "id": 45702,
+    "token": "atinib",
+    "score": 0.1052,
+    "nearest": "oxifen"
+   },
+   {
+    "id": 22912,
+    "token": "denly",
+    "score": 0.1051,
+    "nearest": "den"
+   },
+   {
+    "id": 18151,
+    "token": "poons",
+    "score": 0.1051,
+    "nearest": "poon"
+   },
+   {
+    "id": 45098,
+    "token": "printStackTrace",
+    "score": 0.1051,
+    "nearest": "println"
+   },
+   {
+    "id": 25401,
+    "token": "pancy",
+    "score": 0.1051,
+    "nearest": "parison"
+   },
+   {
+    "id": 15294,
+    "token": "rifug",
+    "score": 0.105,
+    "nearest": "rif"
+   },
+   {
+    "id": 25230,
+    "token": "thening",
+    "score": 0.105,
+    "nearest": "then"
+   },
+   {
+    "id": 2365,
+    "token": "gether",
+    "score": 0.1049,
+    "nearest": "together"
+   },
+   {
+    "id": 37736,
+    "token": "itrile",
+    "score": 0.1049,
+    "nearest": "onitrile"
+   },
+   {
+    "id": 41743,
+    "token": "zerba",
+    "score": 0.1047,
+    "nearest": "uckland"
+   },
+   {
+    "id": 21895,
+    "token": " predecess",
+    "score": 0.1046,
+    "nearest": " predecessors"
+   },
+   {
+    "id": 33606,
+    "token": "ceral",
+    "score": 0.1046,
+    "nearest": "cer"
+   },
+   {
+    "id": 36802,
+    "token": "InstanceState",
+    "score": 0.1044,
+    "nearest": "Instance"
+   },
+   {
+    "id": 8321,
+    "token": " disappe",
+    "score": 0.1043,
+    "nearest": " neighb"
+   },
+   {
+    "id": 38072,
+    "token": "hdad",
+    "score": 0.1043,
+    "nearest": "tawa"
+   },
+   {
+    "id": 45839,
+    "token": "OLOR",
+    "score": 0.1042,
+    "nearest": "olor"
+   },
+   {
+    "id": 46712,
+    "token": "rolet",
+    "score": 0.1042,
+    "nearest": "riber"
+   },
+   {
+    "id": 14198,
+    "token": " Palestin",
+    "score": 0.1041,
+    "nearest": " Palest"
+   },
+   {
+    "id": 41722,
+    "token": "hetized",
+    "score": 0.1041,
+    "nearest": "het"
+   },
+   {
+    "id": 27045,
+    "token": " Syscall",
+    "score": 0.104,
+    "nearest": " syscall"
+   },
+   {
+    "id": 34682,
+    "token": " Redistributions",
+    "score": 0.1039,
+    "nearest": "     "
+   },
+   {
+    "id": 3421,
+    "token": "ccording",
+    "score": 0.1038,
+    "nearest": " advertis"
+   },
+   {
+    "id": 47748,
+    "token": "olymers",
+    "score": 0.1038,
+    "nearest": "olymer"
+   },
+   {
+    "id": 27448,
+    "token": "ertained",
+    "score": 0.1037,
+    "nearest": "ertain"
+   },
+   {
+    "id": 16201,
+    "token": "icipants",
+    "score": 0.1036,
+    "nearest": " Participants"
+   },
+   {
+    "id": 38173,
+    "token": "ClCompile",
+    "score": 0.1035,
+    "nearest": "ItemGroup"
+   },
+   {
+    "id": 50040,
+    "token": "schild",
+    "score": 0.1034,
+    "nearest": "child"
+   },
+   {
+    "id": 35386,
+    "token": "Rptr",
+    "score": 0.1034,
+    "nearest": " Rptr"
+   },
+   {
+    "id": 15536,
+    "token": " photograp",
+    "score": 0.1034,
+    "nearest": " orche"
+   },
+   {
+    "id": 24579,
+    "token": "ritory",
+    "score": 0.1033,
+    "nearest": "rit"
+   },
+   {
+    "id": 45509,
+    "token": "\"}^",
+    "score": 0.1032,
+    "nearest": "**^"
+   },
+   {
+    "id": 43830,
+    "token": "MBOL",
+    "score": 0.1031,
+    "nearest": "symbol"
+   },
+   {
+    "id": 18031,
+    "token": ":\"){",
+    "score": 0.1031,
+    "nearest": ":\")"
+   },
+   {
+    "id": 28797,
+    "token": "raviolet",
+    "score": 0.1031,
+    "nearest": " ultraviolet"
+   },
+   {
+    "id": 38486,
+    "token": "heries",
+    "score": 0.1031,
+    "nearest": "hers"
+   },
+   {
+    "id": 12179,
+    "token": "Xiv",
+    "score": 0.103,
+    "nearest": "xiv"
+   },
+   {
+    "id": 45486,
+    "token": "chrotron",
+    "score": 0.103,
+    "nearest": "chro"
+   },
+   {
+    "id": 22131,
+    "token": "arettes",
+    "score": 0.103,
+    "nearest": "arette"
+   },
+   {
+    "id": 18313,
+    "token": "anean",
+    "score": 0.103,
+    "nearest": "aneous"
+   },
+   {
+    "id": 23413,
+    "token": "chemic",
+    "score": 0.1029,
+    "nearest": "chemy"
+   },
+   {
+    "id": 40706,
+    "token": " Telesc",
+    "score": 0.1029,
+    "nearest": " telescopes"
+   },
+   {
+    "id": 14886,
+    "token": " discharg",
+    "score": 0.1029,
+    "nearest": " discharges"
+   },
+   {
+    "id": 47583,
+    "token": "genstein",
+    "score": 0.1029,
+    "nearest": "gen"
+   },
+   {
+    "id": 25028,
+    "token": "ernate",
+    "score": 0.1028,
+    "nearest": "itars"
+   },
+   {
+    "id": 20080,
+    "token": "izoph",
+    "score": 0.1027,
+    "nearest": "izophren"
+   },
+   {
+    "id": 24002,
+    "token": "bserver",
+    "score": 0.1027,
+    "nearest": "bsite"
+   },
+   {
+    "id": 19940,
+    "token": "urities",
+    "score": 0.1025,
+    "nearest": "urity"
+   },
+   {
+    "id": 8299,
+    "token": "theless",
+    "score": 0.1024,
+    "nearest": "etheless"
+   },
+   {
+    "id": 38060,
+    "token": "oxacin",
+    "score": 0.1024,
+    "nearest": "oxin"
+   },
+   {
+    "id": 7023,
+    "token": "aturday",
+    "score": 0.1023,
+    "nearest": "uesday"
+   },
+   {
+    "id": 40869,
+    "token": "plicial",
+    "score": 0.1023,
+    "nearest": " simplicial"
+   },
+   {
+    "id": 49219,
+    "token": "urane",
+    "score": 0.1023,
+    "nearest": "uran"
+   },
+   {
+    "id": 44277,
+    "token": "80211",
+    "score": 0.1021,
+    "nearest": "802"
+   },
+   {
+    "id": 42584,
+    "token": "moil",
+    "score": 0.1019,
+    "nearest": "munition"
+   },
+   {
+    "id": 32637,
+    "token": "creas",
+    "score": 0.1019,
+    "nearest": "cre"
+   },
+   {
+    "id": 16034,
+    "token": "vereign",
+    "score": 0.1019,
+    "nearest": " sovereign"
+   },
+   {
+    "id": 37816,
+    "token": " Gmb",
+    "score": 0.1018,
+    "nearest": " GmbH"
+   },
+   {
+    "id": 31074,
+    "token": "idable",
+    "score": 0.1018,
+    "nearest": "mable"
+   },
+   {
+    "id": 18530,
+    "token": "FTWARE",
+    "score": 0.1017,
+    "nearest": " SOFTWARE"
+   },
+   {
+    "id": 48128,
+    "token": " CONSEQUENTIAL",
+    "score": 0.1017,
+    "nearest": " INCIDENT"
+   },
+   {
+    "id": 11698,
+    "token": "aceut",
+    "score": 0.1017,
+    "nearest": "aceutics"
+   },
+   {
+    "id": 22069,
+    "token": "plitudes",
+    "score": 0.1017,
+    "nearest": "orphous"
+   },
+   {
+    "id": 49093,
+    "token": "ionage",
+    "score": 0.1016,
+    "nearest": " spying"
+   },
+   {
+    "id": 41795,
+    "token": "monton",
+    "score": 0.1016,
+    "nearest": "inburgh"
+   },
+   {
+    "id": 37030,
+    "token": "romycin",
+    "score": 0.1014,
+    "nearest": "romy"
+   },
+   {
+    "id": 44129,
+    "token": "ioxidants",
+    "score": 0.1014,
+    "nearest": "ioxid"
+   },
+   {
+    "id": 45561,
+    "token": " Aires",
+    "score": 0.1013,
+    "nearest": " Rica"
+   },
+   {
+    "id": 25391,
+    "token": "iferase",
+    "score": 0.1012,
+    "nearest": " luciferase"
+   },
+   {
+    "id": 27467,
+    "token": "ctin",
+    "score": 0.1012,
+    "nearest": "ct"
+   },
+   {
+    "id": 46404,
+    "token": "empre",
+    "score": 0.1012,
+    "nearest": "lemn"
+   },
+   {
+    "id": 16718,
+    "token": "ndef",
+    "score": 0.1012,
+    "nearest": "def"
+   }
+  ],
+  "lid": [
+   {
+    "id": 28696,
+    "token": "FFIRMED",
+    "score": 332.1888,
+    "nearest": "<|padding|>"
+   },
+   {
+    "id": 43738,
+    "token": "iorari",
+    "score": 314.3204,
+    "nearest": "innati"
+   },
+   {
+    "id": 35643,
+    "token": "ウ",
+    "score": 310.9678,
+    "nearest": "ム"
+   },
+   {
+    "id": 37438,
+    "token": "batim",
+    "score": 300.4741,
+    "nearest": "cerpt"
+   },
+   {
+    "id": 30850,
+    "token": "oietic",
+    "score": 300.0241,
+    "nearest": "opoietic"
+   },
+   {
+    "id": 47863,
+    "token": "hatic",
+    "score": 295.8637,
+    "nearest": "izontal"
+   },
+   {
+    "id": 8867,
+    "token": "oddsidemargin",
+    "score": 289.2269,
+    "nearest": "idemargin"
+   },
+   {
+    "id": 38052,
+    "token": "ödinger",
+    "score": 285.8914,
+    "nearest": "uginosa"
+   },
+   {
+    "id": 46359,
+    "token": "aupt",
+    "score": 271.4086,
+    "nearest": "主"
+   },
+   {
+    "id": 15876,
+    "token": "binant",
+    "score": 268.525,
+    "nearest": "ycin"
+   },
+   {
+    "id": 39267,
+    "token": "omitempty",
+    "score": 268.3346,
+    "nearest": " tradem"
+   },
+   {
+    "id": 46102,
+    "token": "ushima",
+    "score": 267.0057,
+    "nearest": "asaki"
+   },
+   {
+    "id": 41423,
+    "token": "prus",
+    "score": 264.6279,
+    "nearest": "ifornia"
+   },
+   {
+    "id": 46404,
+    "token": "empre",
+    "score": 262.5612,
+    "nearest": "lemn"
+   },
+   {
+    "id": 36320,
+    "token": "\u001b[",
+    "score": 259.0424,
+    "nearest": " ♪"
+   },
+   {
+    "id": 48201,
+    "token": "=\"'$(",
+    "score": 256.5876,
+    "nearest": "=\"$("
+   },
+   {
+    "id": 42584,
+    "token": "moil",
+    "score": 255.7324,
+    "nearest": "munition"
+   },
+   {
+    "id": 48150,
+    "token": "htaking",
+    "score": 255.1334,
+    "nearest": "hetized"
+   },
+   {
+    "id": 33499,
+    "token": "器",
+    "score": 252.3889,
+    "nearest": " equipment"
+   },
+   {
+    "id": 30031,
+    "token": "ViewById",
+    "score": 251.8,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 41557,
+    "token": "PtrFromString",
+    "score": 249.4966,
+    "nearest": "\n                        "
+   },
+   {
+    "id": 12559,
+    "token": "ар",
+    "score": 241.5921,
+    "nearest": "ор"
+   },
+   {
+    "id": 33835,
+    "token": "doibase",
+    "score": 238.0213,
+    "nearest": " \n "
+   },
+   {
+    "id": 38324,
+    "token": "agland",
+    "score": 235.6095,
+    "nearest": "agm"
+   },
+   {
+    "id": 48227,
+    "token": "etheus",
+    "score": 232.1133,
+    "nearest": "ethe"
+   },
+   {
+    "id": 23515,
+    "token": "alion",
+    "score": 231.5288,
+    "nearest": "alin"
+   },
+   {
+    "id": 43145,
+    "token": "hljs",
+    "score": 231.0608,
+    "nearest": "highlight"
+   },
+   {
+    "id": 46924,
+    "token": "obbsee",
+    "score": 227.3988,
+    "nearest": "pshire"
+   },
+   {
+    "id": 37570,
+    "token": " 0000000000000000000000000000000000",
+    "score": 226.8779,
+    "nearest": " {¶"
+   },
+   {
+    "id": 45487,
+    "token": "ayson",
+    "score": 224.8286,
+    "nearest": "ays"
+   },
+   {
+    "id": 37402,
+    "token": "imonit",
+    "score": 222.3195,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 50024,
+    "token": "javase",
+    "score": 220.9505,
+    "nearest": "java"
+   },
+   {
+    "id": 39740,
+    "token": "visiae",
+    "score": 217.5146,
+    "nearest": "uginosa"
+   },
+   {
+    "id": 32445,
+    "token": "еб",
+    "score": 217.4579,
+    "nearest": "еп"
+   },
+   {
+    "id": 44562,
+    "token": " ос",
+    "score": 216.971,
+    "nearest": "ос"
+   },
+   {
+    "id": 42486,
+    "token": " Tate",
+    "score": 216.2188,
+    "nearest": " Bates"
+   },
+   {
+    "id": 28855,
+    "token": "aukee",
+    "score": 213.7885,
+    "nearest": "waukee"
+   },
+   {
+    "id": 38072,
+    "token": "hdad",
+    "score": 212.8271,
+    "nearest": "tawa"
+   },
+   {
+    "id": 29818,
+    "token": "GTH",
+    "score": 211.7258,
+    "nearest": "GLE"
+   },
+   {
+    "id": 36820,
+    "token": "持",
+    "score": 211.273,
+    "nearest": " persistence"
+   },
+   {
+    "id": 39684,
+    "token": "iazza",
+    "score": 210.1947,
+    "nearest": "ia"
+   },
+   {
+    "id": 21551,
+    "token": "arlier",
+    "score": 208.7668,
+    "nearest": "phia"
+   },
+   {
+    "id": 43542,
+    "token": " Morse",
+    "score": 208.3282,
+    "nearest": "orse"
+   },
+   {
+    "id": 29304,
+    "token": "uvant",
+    "score": 208.1842,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 47583,
+    "token": "genstein",
+    "score": 207.8514,
+    "nearest": "gen"
+   },
+   {
+    "id": 49696,
+    "token": "TypeDef",
+    "score": 205.7687,
+    "nearest": "IRQHandler"
+   },
+   {
+    "id": 17286,
+    "token": "imore",
+    "score": 205.3164,
+    "nearest": "omore"
+   },
+   {
+    "id": 42691,
+    "token": "jcmm",
+    "score": 204.2064,
+    "nearest": "RSOS"
+   },
+   {
+    "id": 37913,
+    "token": "chitz",
+    "score": 203.9642,
+    "nearest": "chro"
+   },
+   {
+    "id": 44369,
+    "token": "ActivityThread",
+    "score": 202.8137,
+    "nearest": "AndroidRuntime"
+   },
+   {
+    "id": 47798,
+    "token": "enties",
+    "score": 201.5861,
+    "nearest": "idth"
+   },
+   {
+    "id": 35112,
+    "token": " Pradesh",
+    "score": 201.457,
+    "nearest": " Punjab"
+   },
+   {
+    "id": 47434,
+    "token": "ナ",
+    "score": 200.863,
+    "nearest": "ニ"
+   },
+   {
+    "id": 40494,
+    "token": "bersome",
+    "score": 200.6503,
+    "nearest": " cumbersome"
+   },
+   {
+    "id": 42928,
+    "token": " Compton",
+    "score": 200.416,
+    "nearest": "Com"
+   },
+   {
+    "id": 41330,
+    "token": "fefefe",
+    "score": 197.5518,
+    "nearest": "fefe"
+   },
+   {
+    "id": 37294,
+    "token": "íses",
+    "score": 194.5026,
+    "nearest": "ís"
+   },
+   {
+    "id": 37722,
+    "token": "inberg",
+    "score": 194.1224,
+    "nearest": "berg"
+   },
+   {
+    "id": 33488,
+    "token": "geois",
+    "score": 192.8545,
+    "nearest": "geo"
+   },
+   {
+    "id": 48075,
+    "token": "oughton",
+    "score": 192.1286,
+    "nearest": "ought"
+   },
+   {
+    "id": 34682,
+    "token": " Redistributions",
+    "score": 191.4297,
+    "nearest": "     "
+   },
+   {
+    "id": 46929,
+    "token": "eredith",
+    "score": 190.7778,
+    "nearest": "arijuana"
+   },
+   {
+    "id": 32166,
+    "token": "バ",
+    "score": 189.8289,
+    "nearest": "パ"
+   },
+   {
+    "id": 27937,
+    "token": "取",
+    "score": 188.3255,
+    "nearest": "得"
+   },
+   {
+    "id": 34179,
+    "token": "制",
+    "score": 188.0009,
+    "nearest": "control"
+   },
+   {
+    "id": 11256,
+    "token": "он",
+    "score": 186.9508,
+    "nearest": "о"
+   },
+   {
+    "id": 20971,
+    "token": " mast",
+    "score": 185.4999,
+    "nearest": " mammary"
+   },
+   {
+    "id": 49948,
+    "token": "ikawa",
+    "score": 185.1471,
+    "nearest": "imoto"
+   },
+   {
+    "id": 43644,
+    "token": "srep",
+    "score": 185.0921,
+    "nearest": "RSOS"
+   },
+   {
+    "id": 40251,
+    "token": "chrane",
+    "score": 183.0938,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 37990,
+    "token": "ferroni",
+    "score": 182.8815,
+    "nearest": "litaxel"
+   },
+   {
+    "id": 22617,
+    "token": "pshire",
+    "score": 182.5555,
+    "nearest": "swick"
+   },
+   {
+    "id": 44570,
+    "token": " Kem",
+    "score": 182.3226,
+    "nearest": " K"
+   },
+   {
+    "id": 38960,
+    "token": "herty",
+    "score": 181.9237,
+    "nearest": "hton"
+   },
+   {
+    "id": 36937,
+    "token": "ộ",
+    "score": 180.8797,
+    "nearest": "ố"
+   },
+   {
+    "id": 46649,
+    "token": "ズ",
+    "score": 180.7594,
+    "nearest": "スト"
+   },
+   {
+    "id": 31229,
+    "token": "マ",
+    "score": 179.886,
+    "nearest": "メ"
+   },
+   {
+    "id": 32137,
+    "token": "CUIT",
+    "score": 179.5217,
+    "nearest": "CU"
+   },
+   {
+    "id": 35539,
+    "token": "NdEx",
+    "score": 179.4289,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 49804,
+    "token": "frey",
+    "score": 178.6444,
+    "nearest": "fred"
+   },
+   {
+    "id": 43136,
+    "token": "息",
+    "score": 178.6293,
+    "nearest": "daughter"
+   },
+   {
+    "id": 13682,
+    "token": "イ",
+    "score": 178.4067,
+    "nearest": "イン"
+   },
+   {
+    "id": 28820,
+    "token": "oppel",
+    "score": 178.3444,
+    "nearest": "ippi"
+   },
+   {
+    "id": 47833,
+    "token": " Kum",
+    "score": 178.2849,
+    "nearest": " Kumar"
+   },
+   {
+    "id": 49853,
+    "token": " см",
+    "score": 177.9083,
+    "nearest": " пос"
+   },
+   {
+    "id": 10161,
+    "token": "ор",
+    "score": 177.5829,
+    "nearest": "or"
+   },
+   {
+    "id": 23605,
+    "token": "obuf",
+    "score": 176.3306,
+    "nearest": "emale"
+   },
+   {
+    "id": 31393,
+    "token": "afka",
+    "score": 175.3844,
+    "nearest": "adoop"
+   },
+   {
+    "id": 46119,
+    "token": "ESULT",
+    "score": 174.0724,
+    "nearest": "RESULT"
+   },
+   {
+    "id": 37088,
+    "token": "ấ",
+    "score": 173.9478,
+    "nearest": "ư"
+   },
+   {
+    "id": 31895,
+    "token": "場",
+    "score": 173.7502,
+    "nearest": "�"
+   },
+   {
+    "id": 9641,
+    "token": "inical",
+    "score": 173.7001,
+    "nearest": "eday"
+   },
+   {
+    "id": 26051,
+    "token": "YRIGHT",
+    "score": 173.3909,
+    "nearest": "opyright"
+   },
+   {
+    "id": 46712,
+    "token": "rolet",
+    "score": 173.2538,
+    "nearest": "riber"
+   },
+   {
+    "id": 19739,
+    "token": "opard",
+    "score": 172.9817,
+    "nearest": "op"
+   },
+   {
+    "id": 45075,
+    "token": "glich",
+    "score": 172.6161,
+    "nearest": "g"
+   },
+   {
+    "id": 40857,
+    "token": "thren",
+    "score": 172.177,
+    "nearest": " brethren"
+   },
+   {
+    "id": 47577,
+    "token": "hower",
+    "score": 171.6629,
+    "nearest": "how"
+   },
+   {
+    "id": 15809,
+    "token": "ahoma",
+    "score": 171.4815,
+    "nearest": "cticut"
+   },
+   {
+    "id": 25856,
+    "token": " Kyle",
+    "score": 171.454,
+    "nearest": "K"
+   },
+   {
+    "id": 44320,
+    "token": "ascus",
+    "score": 171.1516,
+    "nearest": "hdad"
+   },
+   {
+    "id": 39283,
+    "token": "AtA",
+    "score": 170.7919,
+    "nearest": "NdEx"
+   },
+   {
+    "id": 31678,
+    "token": " Wade",
+    "score": 169.3354,
+    "nearest": "W"
+   },
+   {
+    "id": 25391,
+    "token": "iferase",
+    "score": 169.0991,
+    "nearest": " luciferase"
+   },
+   {
+    "id": 43218,
+    "token": "иб",
+    "score": 168.2959,
+    "nearest": "иг"
+   },
+   {
+    "id": 43978,
+    "token": "ciparum",
+    "score": 168.2623,
+    "nearest": "uginosa"
+   },
+   {
+    "id": 28328,
+    "token": "idopsis",
+    "score": 168.1897,
+    "nearest": "icrosoft"
+   },
+   {
+    "id": 23366,
+    "token": "件",
+    "score": 167.8934,
+    "nearest": "个"
+   },
+   {
+    "id": 39178,
+    "token": "нач",
+    "score": 165.952,
+    "nearest": "раз"
+   },
+   {
+    "id": 45813,
+    "token": "odend",
+    "score": 165.4759,
+    "nearest": "oden"
+   },
+   {
+    "id": 42769,
+    "token": "ypse",
+    "score": 165.1821,
+    "nearest": "phia"
+   },
+   {
+    "id": 34816,
+    "token": "ย",
+    "score": 163.89,
+    "nearest": "ด"
+   },
+   {
+    "id": 47802,
+    "token": "aucoup",
+    "score": 163.7273,
+    "nearest": "much"
+   },
+   {
+    "id": 27968,
+    "token": " х",
+    "score": 163.68,
+    "nearest": "х"
+   },
+   {
+    "id": 45832,
+    "token": " Kod",
+    "score": 163.2268,
+    "nearest": " Kad"
+   },
+   {
+    "id": 47052,
+    "token": "orgetown",
+    "score": 163.2191,
+    "nearest": "orget"
+   },
+   {
+    "id": 47442,
+    "token": " Gert",
+    "score": 162.1215,
+    "nearest": " Edith"
+   },
+   {
+    "id": 49760,
+    "token": "IRQHandler",
+    "score": 162.0445,
+    "nearest": "IRQ"
+   },
+   {
+    "id": 40352,
+    "token": "ニ",
+    "score": 161.8283,
+    "nearest": "ナ"
+   },
+   {
+    "id": 37038,
+    "token": "imuth",
+    "score": 161.6762,
+    "nearest": "ovember"
+   },
+   {
+    "id": 18487,
+    "token": "ktop",
+    "score": 161.4835,
+    "nearest": "phia"
+   },
+   {
+    "id": 44649,
+    "token": "ビ",
+    "score": 161.4222,
+    "nearest": "ブ"
+   },
+   {
+    "id": 10881,
+    "token": "abeth",
+    "score": 160.8001,
+    "nearest": "beth"
+   },
+   {
+    "id": 29620,
+    "token": "ز",
+    "score": 160.6101,
+    "nearest": "ظ"
+   },
+   {
+    "id": 35916,
+    "token": "AndroidRuntime",
+    "score": 160.5898,
+    "nearest": "ActivityThread"
+   },
+   {
+    "id": 40289,
+    "token": " Doyle",
+    "score": 160.4967,
+    "nearest": "oyle"
+   },
+   {
+    "id": 33135,
+    "token": " Koch",
+    "score": 160.3694,
+    "nearest": " Koh"
+   },
+   {
+    "id": 10849,
+    "token": "untime",
+    "score": 160.0418,
+    "nearest": " runtime"
+   },
+   {
+    "id": 31173,
+    "token": "サ",
+    "score": 159.5763,
+    "nearest": " services"
+   },
+   {
+    "id": 46585,
+    "token": "terbury",
+    "score": 158.9311,
+    "nearest": "uckland"
+   },
+   {
+    "id": 43728,
+    "token": "duino",
+    "score": 158.4277,
+    "nearest": "du"
+   },
+   {
+    "id": 47170,
+    "token": "ơ",
+    "score": 158.4197,
+    "nearest": "ế"
+   },
+   {
+    "id": 32034,
+    "token": "enment",
+    "score": 158.2599,
+    "nearest": "EMENT"
+   },
+   {
+    "id": 34783,
+    "token": "furt",
+    "score": 157.9941,
+    "nearest": "fur"
+   },
+   {
+    "id": 29342,
+    "token": " pyl",
+    "score": 157.9654,
+    "nearest": " pylori"
+   },
+   {
+    "id": 44750,
+    "token": "aughlin",
+    "score": 157.939,
+    "nearest": "augh"
+   },
+   {
+    "id": 41595,
+    "token": "udeau",
+    "score": 157.5649,
+    "nearest": " Trudeau"
+   },
+   {
+    "id": 45714,
+    "token": " Hogan",
+    "score": 157.3807,
+    "nearest": "ogan"
+   },
+   {
+    "id": 18113,
+    "token": "loat",
+    "score": 157.1326,
+    "nearest": "emale"
+   },
+   {
+    "id": 27365,
+    "token": "alry",
+    "score": 157.1089,
+    "nearest": "alc"
+   },
+   {
+    "id": 44842,
+    "token": " Holt",
+    "score": 156.9847,
+    "nearest": " Hoffman"
+   },
+   {
+    "id": 42878,
+    "token": "ichlet",
+    "score": 156.9653,
+    "nearest": " Dirichlet"
+   },
+   {
+    "id": 48629,
+    "token": "iphatic",
+    "score": 156.4422,
+    "nearest": " aromatic"
+   },
+   {
+    "id": 45180,
+    "token": " -*-",
+    "score": 155.9543,
+    "nearest": " ================================================================"
+   },
+   {
+    "id": 3556,
+    "token": "haps",
+    "score": 155.8557,
+    "nearest": "umably"
+   },
+   {
+    "id": 28779,
+    "token": "カ",
+    "score": 155.8141,
+    "nearest": " CAR"
+   },
+   {
+    "id": 45530,
+    "token": " Osw",
+    "score": 155.7035,
+    "nearest": " Os"
+   },
+   {
+    "id": 34573,
+    "token": "rinos",
+    "score": 155.3511,
+    "nearest": "rists"
+   },
+   {
+    "id": 43860,
+    "token": "afers",
+    "score": 155.042,
+    "nearest": "itars"
+   },
+   {
+    "id": 11520,
+    "token": "izabeth",
+    "score": 154.4809,
+    "nearest": "eday"
+   },
+   {
+    "id": 20012,
+    "token": "者",
+    "score": 154.2375,
+    "nearest": "ers"
+   },
+   {
+    "id": 38921,
+    "token": " cref",
+    "score": 154.1742,
+    "nearest": " HREF"
+   },
+   {
+    "id": 27963,
+    "token": "xmm",
+    "score": 154.043,
+    "nearest": "xor"
+   },
+   {
+    "id": 8009,
+    "token": "dule",
+    "score": 153.9957,
+    "nearest": "emale"
+   },
+   {
+    "id": 47294,
+    "token": "apine",
+    "score": 153.7195,
+    "nearest": "etine"
+   },
+   {
+    "id": 20561,
+    "token": "liography",
+    "score": 153.5616,
+    "nearest": "lio"
+   },
+   {
+    "id": 41710,
+    "token": "agher",
+    "score": 153.5487,
+    "nearest": "agh"
+   },
+   {
+    "id": 31602,
+    "token": "ذ",
+    "score": 153.545,
+    "nearest": "نا"
+   },
+   {
+    "id": 26546,
+    "token": " пер",
+    "score": 153.0733,
+    "nearest": " first"
+   },
+   {
+    "id": 20885,
+    "token": "lotte",
+    "score": 153.0405,
+    "nearest": "loe"
+   },
+   {
+    "id": 31295,
+    "token": "onectin",
+    "score": 152.3048,
+    "nearest": "irubin"
+   },
+   {
+    "id": 4091,
+    "token": "yond",
+    "score": 152.2156,
+    "nearest": "yon"
+   },
+   {
+    "id": 43898,
+    "token": " Dion",
+    "score": 152.1895,
+    "nearest": " Bac"
+   },
+   {
+    "id": 47943,
+    "token": "roelectric",
+    "score": 152.0447,
+    "nearest": "romagnetic"
+   },
+   {
+    "id": 42907,
+    "token": "iazep",
+    "score": 152.029,
+    "nearest": "iaz"
+   },
+   {
+    "id": 38173,
+    "token": "ClCompile",
+    "score": 151.8789,
+    "nearest": "ItemGroup"
+   },
+   {
+    "id": 45757,
+    "token": "unnable",
+    "score": 151.381,
+    "nearest": "enderer"
+   },
+   {
+    "id": 41276,
+    "token": " ozone",
+    "score": 150.9718,
+    "nearest": " oxygen"
+   },
+   {
+    "id": 41158,
+    "token": " Cly",
+    "score": 150.7815,
+    "nearest": " Cyn"
+   },
+   {
+    "id": 30521,
+    "token": " Mend",
+    "score": 150.6819,
+    "nearest": "M"
+   },
+   {
+    "id": 48718,
+    "token": " Nell",
+    "score": 150.5437,
+    "nearest": " Jenn"
+   },
+   {
+    "id": 11278,
+    "token": "estinal",
+    "score": 150.4561,
+    "nearest": "imonit"
+   },
+   {
+    "id": 43985,
+    "token": " pleth",
+    "score": 150.3978,
+    "nearest": "ple"
+   },
+   {
+    "id": 16205,
+    "token": "ад",
+    "score": 149.9662,
+    "nearest": "уж"
+   },
+   {
+    "id": 39518,
+    "token": "ordial",
+    "score": 149.8256,
+    "nearest": " primordial"
+   },
+   {
+    "id": 50095,
+    "token": "afx",
+    "score": 149.5209,
+    "nearest": "Af"
+   },
+   {
+    "id": 19250,
+    "token": "PDATE",
+    "score": 149.2279,
+    "nearest": "ICENSE"
+   },
+   {
+    "id": 37424,
+    "token": "ث",
+    "score": 148.9291,
+    "nearest": "�"
+   },
+   {
+    "id": 50011,
+    "token": "غ",
+    "score": 148.7213,
+    "nearest": "ج"
+   },
+   {
+    "id": 42828,
+    "token": " Kang",
+    "score": 148.6127,
+    "nearest": " k"
+   },
+   {
+    "id": 30110,
+    "token": "ạ",
+    "score": 148.4132,
+    "nearest": "�"
+   },
+   {
+    "id": 42412,
+    "token": "disambiguation",
+    "score": 148.1867,
+    "nearest": "ambiguation"
+   },
+   {
+    "id": 33330,
+    "token": " Crawford",
+    "score": 148.0961,
+    "nearest": " Craw"
+   },
+   {
+    "id": 28656,
+    "token": "テ",
+    "score": 147.9661,
+    "nearest": " TE"
+   },
+   {
+    "id": 16210,
+    "token": "herry",
+    "score": 147.7586,
+    "nearest": " Sher"
+   },
+   {
+    "id": 30205,
+    "token": "othal",
+    "score": 147.7519,
+    "nearest": " hypothal"
+   },
+   {
+    "id": 23227,
+    "token": "ư",
+    "score": 147.6208,
+    "nearest": "ư�"
+   },
+   {
+    "id": 46831,
+    "token": " Nolan",
+    "score": 147.608,
+    "nearest": " Snyder"
+   },
+   {
+    "id": 42833,
+    "token": "irubin",
+    "score": 147.4401,
+    "nearest": "ir"
+   },
+   {
+    "id": 45796,
+    "token": " dib",
+    "score": 147.3661,
+    "nearest": " trib"
+   },
+   {
+    "id": 17694,
+    "token": "ラ",
+    "score": 147.3545,
+    "nearest": "ロ"
+   },
+   {
+    "id": 48763,
+    "token": "eLife",
+    "score": 147.0551,
+    "nearest": "unreadable"
+   },
+   {
+    "id": 17473,
+    "token": "enix",
+    "score": 147.0203,
+    "nearest": "enic"
+   },
+   {
+    "id": 41738,
+    "token": "ocene",
+    "score": 146.9449,
+    "nearest": "ocese"
+   },
+   {
+    "id": 42425,
+    "token": "cumin",
+    "score": 146.854,
+    "nearest": "atonin"
+   },
+   {
+    "id": 42901,
+    "token": "уп",
+    "score": 146.7795,
+    "nearest": "ук"
+   },
+   {
+    "id": 44348,
+    "token": "ipore",
+    "score": 145.8336,
+    "nearest": "iplex"
+   },
+   {
+    "id": 35542,
+    "token": " Ish",
+    "score": 145.7755,
+    "nearest": " Iz"
+   },
+   {
+    "id": 41653,
+    "token": "ifax",
+    "score": 145.5095,
+    "nearest": "fax"
+   },
+   {
+    "id": 34608,
+    "token": "USY",
+    "score": 145.3214,
+    "nearest": " busy"
+   },
+   {
+    "id": 16845,
+    "token": "น",
+    "score": 144.9641,
+    "nearest": "ห"
+   },
+   {
+    "id": 47842,
+    "token": "hemer",
+    "score": 144.9309,
+    "nearest": "hem"
+   },
+   {
+    "id": 48017,
+    "token": "ircon",
+    "score": 144.7011,
+    "nearest": " ceramic"
+   },
+   {
+    "id": 45659,
+    "token": " Spacewatch",
+    "score": 144.2299,
+    "nearest": " LINEAR"
+   },
+   {
+    "id": 27449,
+    "token": "cester",
+    "score": 144.1965,
+    "nearest": "chester"
+   },
+   {
+    "id": 38370,
+    "token": " Bruno",
+    "score": 144.1631,
+    "nearest": " Brun"
+   },
+   {
+    "id": 38187,
+    "token": "asone",
+    "score": 144.1455,
+    "nearest": "asome"
+   },
+   {
+    "id": 40030,
+    "token": "hurst",
+    "score": 143.9842,
+    "nearest": "hur"
+   },
+   {
+    "id": 39859,
+    "token": "起",
+    "score": 143.8036,
+    "nearest": " start"
+   },
+   {
+    "id": 8865,
+    "token": "idemargin",
+    "score": 143.402,
+    "nearest": "imonit"
+   },
+   {
+    "id": 45882,
+    "token": "放",
+    "score": 143.0455,
+    "nearest": " aired"
+   },
+   {
+    "id": 44580,
+    "token": "ERTYPE",
+    "score": 142.8754,
+    "nearest": "ERS"
+   },
+   {
+    "id": 42800,
+    "token": "reira",
+    "score": 142.7112,
+    "nearest": "rera"
+   },
+   {
+    "id": 49249,
+    "token": " BGCOLOR",
+    "score": 142.2994,
+    "nearest": " bgcolor"
+   },
+   {
+    "id": 29929,
+    "token": " пред",
+    "score": 142.2736,
+    "nearest": " pred"
+   },
+   {
+    "id": 45802,
+    "token": " Lok",
+    "score": 142.1811,
+    "nearest": " Pak"
+   },
+   {
+    "id": 22834,
+    "token": "thood",
+    "score": 141.939,
+    "nearest": "renthood"
+   },
+   {
+    "id": 25401,
+    "token": "pancy",
+    "score": 141.9223,
+    "nearest": "parison"
+   },
+   {
+    "id": 49798,
+    "token": "ρχ",
+    "score": 141.5807,
+    "nearest": "ργ"
+   },
+   {
+    "id": 45561,
+    "token": " Aires",
+    "score": 141.3542,
+    "nearest": " Rica"
+   },
+   {
+    "id": 42197,
+    "token": " sedentary",
+    "score": 141.1857,
+    "nearest": " inactive"
+   },
+   {
+    "id": 33742,
+    "token": "inho",
+    "score": 140.8135,
+    "nearest": "inus"
+   },
+   {
+    "id": 44511,
+    "token": " Gould",
+    "score": 140.7688,
+    "nearest": "ould"
+   },
+   {
+    "id": 48120,
+    "token": "ujah",
+    "score": 140.2574,
+    "nearest": "uj"
+   },
+   {
+    "id": 19650,
+    "token": "izontal",
+    "score": 139.9677,
+    "nearest": "ortunately"
+   },
+   {
+    "id": 37714,
+    "token": " antican",
+    "score": 139.8319,
+    "nearest": " polynom"
+   },
+   {
+    "id": 41421,
+    "token": "amura",
+    "score": 139.6222,
+    "nearest": "amoto"
+   },
+   {
+    "id": 44200,
+    "token": "orget",
+    "score": 139.6103,
+    "nearest": "orgetown"
+   },
+   {
+    "id": 33276,
+    "token": " Bryant",
+    "score": 139.4469,
+    "nearest": " Bryan"
+   },
+   {
+    "id": 38155,
+    "token": "向",
+    "score": 139.4263,
+    "nearest": " toward"
+   },
+   {
+    "id": 36801,
+    "token": "amacare",
+    "score": 137.7278,
+    "nearest": " Obamacare"
+   },
+   {
+    "id": 17021,
+    "token": "リ",
+    "score": 137.4923,
+    "nearest": "ル"
+   },
+   {
+    "id": 45578,
+    "token": "дел",
+    "score": 137.3858,
+    "nearest": "д"
+   },
+   {
+    "id": 41097,
+    "token": " Hicks",
+    "score": 137.3409,
+    "nearest": " Hernandez"
+   },
+   {
+    "id": 47218,
+    "token": "ofty",
+    "score": 137.0209,
+    "nearest": "fty"
+   },
+   {
+    "id": 32951,
+    "token": " им",
+    "score": 137.0112,
+    "nearest": " im"
+   },
+   {
+    "id": 32362,
+    "token": "ampton",
+    "score": 136.819,
+    "nearest": "ham"
+   },
+   {
+    "id": 43461,
+    "token": "иг",
+    "score": 136.7045,
+    "nearest": "иб"
+   },
+   {
+    "id": 36640,
+    "token": "anyahu",
+    "score": 136.5553,
+    "nearest": "flix"
+   },
+   {
+    "id": 44899,
+    "token": "気",
+    "score": 136.1842,
+    "nearest": "�"
+   },
+   {
+    "id": 35113,
+    "token": "ľ",
+    "score": 136.1413,
+    "nearest": "ň"
+   },
+   {
+    "id": 24860,
+    "token": "ест",
+    "score": 135.5139,
+    "nearest": "ес"
+   },
+   {
+    "id": 7451,
+    "token": "olean",
+    "score": 135.4884,
+    "nearest": "ole"
+   },
+   {
+    "id": 48545,
+    "token": " Cody",
+    "score": 135.2803,
+    "nearest": " Brandon"
+   },
+   {
+    "id": 44450,
+    "token": "amais",
+    "score": 135.227,
+    "nearest": "amac"
+   },
+   {
+    "id": 50243,
+    "token": "bilt",
+    "score": 135.1854,
+    "nearest": "bil"
+   },
+   {
+    "id": 41833,
+    "token": " Niss",
+    "score": 135.0557,
+    "nearest": " Nissan"
+   },
+   {
+    "id": 36778,
+    "token": "进",
+    "score": 134.8478,
+    "nearest": "�"
+   },
+   {
+    "id": 7697,
+    "token": "enance",
+    "score": 134.75,
+    "nearest": "inence"
+   },
+   {
+    "id": 8809,
+    "token": "amss",
+    "score": 134.4496,
+    "nearest": "bsy"
+   },
+   {
+    "id": 39127,
+    "token": "swick",
+    "score": 134.4425,
+    "nearest": "swer"
+   },
+   {
+    "id": 39972,
+    "token": "imester",
+    "score": 134.4311,
+    "nearest": " trimester"
+   },
+   {
+    "id": 26878,
+    "token": " Spencer",
+    "score": 134.1505,
+    "nearest": " Sp"
+   },
+   {
+    "id": 40769,
+    "token": " зап",
+    "score": 134.1359,
+    "nearest": " ск"
+   },
+   {
+    "id": 19754,
+    "token": "avery",
+    "score": 133.9206,
+    "nearest": "everal"
+   },
+   {
+    "id": 38736,
+    "token": "databind",
+    "score": 133.8444,
+    "nearest": "core"
+   },
+   {
+    "id": 40313,
+    "token": "inished",
+    "score": 133.838,
+    "nearest": " diminished"
+   },
+   {
+    "id": 43354,
+    "token": " Bates",
+    "score": 133.8012,
+    "nearest": " Stevens"
+   },
+   {
+    "id": 42155,
+    "token": "mime",
+    "score": 133.4769,
+    "nearest": "ime"
+   },
+   {
+    "id": 3873,
+    "token": "pril",
+    "score": 133.4395,
+    "nearest": "ovember"
+   },
+   {
+    "id": 45226,
+    "token": " Weaver",
+    "score": 133.3159,
+    "nearest": " Weiss"
+   },
+   {
+    "id": 48033,
+    "token": "usterity",
+    "score": 133.1284,
+    "nearest": "uster"
+   },
+   {
+    "id": 11519,
+    "token": "endix",
+    "score": 133.1168,
+    "nearest": "amboo"
+   },
+   {
+    "id": 47104,
+    "token": "asek",
+    "score": 133.114,
+    "nearest": "ASE"
+   },
+   {
+    "id": 46975,
+    "token": "veis",
+    "score": 133.092,
+    "nearest": "vel"
+   },
+   {
+    "id": 16017,
+    "token": "ouver",
+    "score": 133.0055,
+    "nearest": "ou"
+   },
+   {
+    "id": 42170,
+    "token": "요",
+    "score": 132.993,
+    "nearest": "です"
+   },
+   {
+    "id": 43745,
+    "token": "zilla",
+    "score": 132.7487,
+    "nearest": "z"
+   },
+   {
+    "id": 44599,
+    "token": "lickr",
+    "score": 132.7407,
+    "nearest": "photos"
+   },
+   {
+    "id": 26003,
+    "token": "コ",
+    "score": 132.5666,
+    "nearest": " ком"
+   },
+   {
+    "id": 39488,
+    "token": " prow",
+    "score": 132.5201,
+    "nearest": " abilities"
+   },
+   {
+    "id": 19696,
+    "token": "chaft",
+    "score": 132.2198,
+    "nearest": "chap"
+   },
+   {
+    "id": 17318,
+    "token": "smallcaps",
+    "score": 131.9211,
+    "nearest": "ul"
+   },
+   {
+    "id": 19205,
+    "token": "adesh",
+    "score": 131.7669,
+    "nearest": "ades"
+   },
+   {
+    "id": 21638,
+    "token": " Terry",
+    "score": 131.5058,
+    "nearest": "T"
+   },
+   {
+    "id": 29984,
+    "token": "anor",
+    "score": 131.1694,
+    "nearest": "anos"
+   },
+   {
+    "id": 38371,
+    "token": "asaki",
+    "score": 131.1394,
+    "nearest": "amoto"
+   },
+   {
+    "id": 33721,
+    "token": "iotensin",
+    "score": 130.9973,
+    "nearest": " angiotensin"
+   },
+   {
+    "id": 41664,
+    "token": " Ler",
+    "score": 130.9037,
+    "nearest": " Lor"
+   },
+   {
+    "id": 40820,
+    "token": "ierno",
+    "score": 130.5604,
+    "nearest": "ier"
+   },
+   {
+    "id": 13591,
+    "token": " Kong",
+    "score": 130.4989,
+    "nearest": " Kon"
+   },
+   {
+    "id": 41971,
+    "token": "enko",
+    "score": 130.4138,
+    "nearest": "en"
+   },
+   {
+    "id": 49536,
+    "token": " Sutton",
+    "score": 130.3474,
+    "nearest": "utton"
+   },
+   {
+    "id": 31813,
+    "token": "orporated",
+    "score": 130.3044,
+    "nearest": "orpor"
+   },
+   {
+    "id": 23039,
+    "token": "้",
+    "score": 130.2864,
+    "nearest": "่"
+   },
+   {
+    "id": 47364,
+    "token": "ceq",
+    "score": 130.1873,
+    "nearest": "cex"
+   },
+   {
+    "id": 32130,
+    "token": "据",
+    "score": 129.995,
+    "nearest": "�"
+   },
+   {
+    "id": 44532,
+    "token": "рав",
+    "score": 129.9859,
+    "nearest": "ред"
+   },
+   {
+    "id": 45004,
+    "token": " Benson",
+    "score": 129.9704,
+    "nearest": " Olson"
+   },
+   {
+    "id": 41165,
+    "token": " quarant",
+    "score": 129.7628,
+    "nearest": " pandemic"
+   },
+   {
+    "id": 49854,
+    "token": "hler",
+    "score": 129.3898,
+    "nearest": "hl"
+   },
+   {
+    "id": 41213,
+    "token": "ovanni",
+    "score": 129.3691,
+    "nearest": "usep"
+   },
+   {
+    "id": 33313,
+    "token": " Carson",
+    "score": 128.9378,
+    "nearest": "arson"
+   },
+   {
+    "id": 40407,
+    "token": " Kub",
+    "score": 128.8754,
+    "nearest": " Kab"
+   },
+   {
+    "id": 31682,
+    "token": " ц",
+    "score": 128.5632,
+    "nearest": "ц"
+   },
+   {
+    "id": 28807,
+    "token": "xton",
+    "score": 127.976,
+    "nearest": "xt"
+   },
+   {
+    "id": 48648,
+    "token": " Janeiro",
+    "score": 127.7495,
+    "nearest": "Jan"
+   },
+   {
+    "id": 49761,
+    "token": "taire",
+    "score": 127.5847,
+    "nearest": "ta"
+   },
+   {
+    "id": 36270,
+    "token": "imab",
+    "score": 127.5601,
+    "nearest": "umab"
+   },
+   {
+    "id": 34319,
+    "token": " CURIAM",
+    "score": 127.4393,
+    "nearest": " curiam"
+   }
+  ],
+  "crowd_max_ordinary": [
+   {
+    "id": 17837,
+    "token": " nevertheless",
+    "score": 0.8987,
+    "nearest": " nonetheless"
+   },
+   {
+    "id": 23188,
+    "token": " nonetheless",
+    "score": 0.8987,
+    "nearest": " nevertheless"
+   },
+   {
+    "id": 5418,
+    "token": " Black",
+    "score": 0.8539,
+    "nearest": "Black"
+   },
+   {
+    "id": 28279,
+    "token": " afterward",
+    "score": 0.8533,
+    "nearest": " afterwards"
+   },
+   {
+    "id": 16906,
+    "token": " afterwards",
+    "score": 0.8533,
+    "nearest": " afterward"
+   },
+   {
+    "id": 6295,
+    "token": " Both",
+    "score": 0.8497,
+    "nearest": "Both"
+   },
+   {
+    "id": 4404,
+    "token": " towards",
+    "score": 0.8495,
+    "nearest": " toward"
+   },
+   {
+    "id": 2584,
+    "token": " toward",
+    "score": 0.8495,
+    "nearest": " towards"
+   },
+   {
+    "id": 7160,
+    "token": " Their",
+    "score": 0.8476,
+    "nearest": "Their"
+   },
+   {
+    "id": 6610,
+    "token": " Finally",
+    "score": 0.847,
+    "nearest": "Finally"
+   },
+   {
+    "id": 8035,
+    "token": " Another",
+    "score": 0.846,
+    "nearest": "Another"
+   },
+   {
+    "id": 7243,
+    "token": " Once",
+    "score": 0.8454,
+    "nearest": "Once"
+   },
+   {
+    "id": 7820,
+    "token": " Instead",
+    "score": 0.8439,
+    "nearest": "Instead"
+   },
+   {
+    "id": 5219,
+    "token": " White",
+    "score": 0.8435,
+    "nearest": "White"
+   },
+   {
+    "id": 6115,
+    "token": " Green",
+    "score": 0.8425,
+    "nearest": "Green"
+   },
+   {
+    "id": 1583,
+    "token": " They",
+    "score": 0.8423,
+    "nearest": "They"
+   },
+   {
+    "id": 6827,
+    "token": " Mrs",
+    "score": 0.8397,
+    "nearest": "Mrs"
+   },
+   {
+    "id": 5490,
+    "token": " James",
+    "score": 0.8387,
+    "nearest": "James"
+   },
+   {
+    "id": 3808,
+    "token": " Some",
+    "score": 0.8378,
+    "nearest": "Some"
+   },
+   {
+    "id": 28277,
+    "token": " seldom",
+    "score": 0.8377,
+    "nearest": " rarely"
+   },
+   {
+    "id": 11766,
+    "token": " rarely",
+    "score": 0.8377,
+    "nearest": " seldom"
+   },
+   {
+    "id": 9240,
+    "token": " Those",
+    "score": 0.836,
+    "nearest": "Those"
+   },
+   {
+    "id": 4058,
+    "token": " Her",
+    "score": 0.8356,
+    "nearest": "Her"
+   },
+   {
+    "id": 9110,
+    "token": " Yet",
+    "score": 0.8353,
+    "nearest": "Yet"
+   },
+   {
+    "id": 6408,
+    "token": " During",
+    "score": 0.8348,
+    "nearest": "During"
+   },
+   {
+    "id": 2732,
+    "token": " After",
+    "score": 0.8346,
+    "nearest": "After"
+   },
+   {
+    "id": 3824,
+    "token": " Our",
+    "score": 0.8334,
+    "nearest": "Our"
+   },
+   {
+    "id": 3257,
+    "token": " defendant",
+    "score": 0.8327,
+    "nearest": "defendant"
+   },
+   {
+    "id": 2635,
+    "token": " Then",
+    "score": 0.8325,
+    "nearest": "Then"
+   },
+   {
+    "id": 3032,
+    "token": " His",
+    "score": 0.8313,
+    "nearest": "His"
+   },
+   {
+    "id": 10205,
+    "token": " Water",
+    "score": 0.8302,
+    "nearest": "Water"
+   },
+   {
+    "id": 6086,
+    "token": " George",
+    "score": 0.8297,
+    "nearest": "George"
+   },
+   {
+    "id": 8801,
+    "token": " Human",
+    "score": 0.829,
+    "nearest": "Human"
+   },
+   {
+    "id": 10049,
+    "token": " Van",
+    "score": 0.8287,
+    "nearest": "Van"
+   },
+   {
+    "id": 1941,
+    "token": " evidence",
+    "score": 0.8285,
+    "nearest": "evidence"
+   },
+   {
+    "id": 8167,
+    "token": " Defendant",
+    "score": 0.8283,
+    "nearest": "Defendant"
+   },
+   {
+    "id": 1707,
+    "token": " There",
+    "score": 0.8282,
+    "nearest": "There"
+   },
+   {
+    "id": 5595,
+    "token": " Most",
+    "score": 0.8276,
+    "nearest": "Most"
+   },
+   {
+    "id": 1500,
+    "token": " She",
+    "score": 0.8275,
+    "nearest": "She"
+   },
+   {
+    "id": 4923,
+    "token": " Because",
+    "score": 0.8274,
+    "nearest": "Because"
+   },
+   {
+    "id": 3729,
+    "token": " North",
+    "score": 0.8273,
+    "nearest": "North"
+   },
+   {
+    "id": 12761,
+    "token": " Micro",
+    "score": 0.8273,
+    "nearest": "Micro"
+   },
+   {
+    "id": 7902,
+    "token": " Johnson",
+    "score": 0.8265,
+    "nearest": "Johnson"
+   },
+   {
+    "id": 13098,
+    "token": " anybody",
+    "score": 0.8264,
+    "nearest": " anyone"
+   },
+   {
+    "id": 3780,
+    "token": " anyone",
+    "score": 0.8264,
+    "nearest": " anybody"
+   },
+   {
+    "id": 3340,
+    "token": " especially",
+    "score": 0.826,
+    "nearest": "especially"
+   },
+   {
+    "id": 6000,
+    "token": " Every",
+    "score": 0.8259,
+    "nearest": "Every"
+   },
+   {
+    "id": 14125,
+    "token": " belongs",
+    "score": 0.8253,
+    "nearest": " belong"
+   },
+   {
+    "id": 5663,
+    "token": " belong",
+    "score": 0.8253,
+    "nearest": " belongs"
+   },
+   {
+    "id": 7195,
+    "token": " Thomas",
+    "score": 0.8253,
+    "nearest": "Thomas"
+   },
+   {
+    "id": 5041,
+    "token": " Washington",
+    "score": 0.8248,
+    "nearest": "Washington"
+   },
+   {
+    "id": 1690,
+    "token": " including",
+    "score": 0.8246,
+    "nearest": "including"
+   },
+   {
+    "id": 6166,
+    "token": " Under",
+    "score": 0.8245,
+    "nearest": "Under"
+   },
+   {
+    "id": 6911,
+    "token": " Robert",
+    "score": 0.8243,
+    "nearest": "Robert"
+   },
+   {
+    "id": 3900,
+    "token": " While",
+    "score": 0.824,
+    "nearest": "While"
+   },
+   {
+    "id": 3954,
+    "token": " Now",
+    "score": 0.8237,
+    "nearest": "Now"
+   },
+   {
+    "id": 2656,
+    "token": " God",
+    "score": 0.8228,
+    "nearest": "God"
+   },
+   {
+    "id": 7147,
+    "token": " versus",
+    "score": 0.8224,
+    "nearest": " vs"
+   },
+   {
+    "id": 4794,
+    "token": " According",
+    "score": 0.8222,
+    "nearest": "According"
+   },
+   {
+    "id": 6222,
+    "token": " profile",
+    "score": 0.8219,
+    "nearest": " profiles"
+   }
+  ],
+  "prox_static_ordinary": [
+   {
+    "id": 38623,
+    "token": " CONTRIBUTORS",
+    "score": 0.1199,
+    "nearest": " CONTRIBUT"
+   },
+   {
+    "id": 43227,
+    "token": " HOLDERS",
+    "score": 0.1191,
+    "nearest": " holders"
+   },
+   {
+    "id": 34745,
+    "token": " LIABLE",
+    "score": 0.1138,
+    "nearest": " liable"
+   },
+   {
+    "id": 49505,
+    "token": " NEGLIGENCE",
+    "score": 0.1088,
+    "nearest": " TORT"
+   },
+   {
+    "id": 47823,
+    "token": " INDIRECT",
+    "score": 0.1072,
+    "nearest": " indirect"
+   },
+   {
+    "id": 49080,
+    "token": " PROFITS",
+    "score": 0.1064,
+    "nearest": " profits"
+   },
+   {
+    "id": 48128,
+    "token": " CONSEQUENTIAL",
+    "score": 0.1017,
+    "nearest": " INCIDENT"
+   },
+   {
+    "id": 45561,
+    "token": " Aires",
+    "score": 0.1013,
+    "nearest": " Rica"
+   },
+   {
+    "id": 24730,
+    "token": " APPEALS",
+    "score": 0.101,
+    "nearest": " Appeals"
+   },
+   {
+    "id": 48980,
+    "token": " LINEAR",
+    "score": 0.0996,
+    "nearest": " Linear"
+   },
+   {
+    "id": 20396,
+    "token": " GENERATED",
+    "score": 0.0986,
+    "nearest": " Generated"
+   },
+   {
+    "id": 50155,
+    "token": " Parenthood",
+    "score": 0.0964,
+    "nearest": " Parents"
+   },
+   {
+    "id": 20524,
+    "token": " FITNESS",
+    "score": 0.0959,
+    "nearest": " fitness"
+   },
+   {
+    "id": 25900,
+    "token": " IMPLIED",
+    "score": 0.0959,
+    "nearest": " implied"
+   },
+   {
+    "id": 23181,
+    "token": " WARRANTY",
+    "score": 0.0955,
+    "nearest": " warranty"
+   },
+   {
+    "id": 35112,
+    "token": " Pradesh",
+    "score": 0.0952,
+    "nearest": " Punjab"
+   },
+   {
+    "id": 49457,
+    "token": " HOWEVER",
+    "score": 0.0933,
+    "nearest": "however"
+   },
+   {
+    "id": 32984,
+    "token": " CIRCUIT",
+    "score": 0.0927,
+    "nearest": " Circuit"
+   },
+   {
+    "id": 31642,
+    "token": " Lanka",
+    "score": 0.0925,
+    "nearest": " Sri"
+   },
+   {
+    "id": 34568,
+    "token": " ASSERT",
+    "score": 0.0924,
+    "nearest": " Assert"
+   },
+   {
+    "id": 42699,
+    "token": " Caption",
+    "score": 0.0908,
+    "nearest": " caption"
+   },
+   {
+    "id": 47945,
+    "token": " Aviv",
+    "score": 0.0906,
+    "nearest": " Israelis"
+   },
+   {
+    "id": 34915,
+    "token": " TORT",
+    "score": 0.0901,
+    "nearest": " Tort"
+   },
+   {
+    "id": 23440,
+    "token": " BASIS",
+    "score": 0.09,
+    "nearest": " basis"
+   },
+   {
+    "id": 47528,
+    "token": " STRICT",
+    "score": 0.0895,
+    "nearest": " strict"
+   },
+   {
+    "id": 30619,
+    "token": " GOOGLE",
+    "score": 0.0892,
+    "nearest": "Google"
+   },
+   {
+    "id": 34984,
+    "token": " ARISING",
+    "score": 0.0886,
+    "nearest": " arising"
+   },
+   {
+    "id": 47138,
+    "token": " Scotia",
+    "score": 0.088,
+    "nearest": " Scot"
+   },
+   {
+    "id": 49466,
+    "token": " INCIDENT",
+    "score": 0.088,
+    "nearest": " incident"
+   },
+   {
+    "id": 47144,
+    "token": " GOODS",
+    "score": 0.0878,
+    "nearest": " goods"
+   },
+   {
+    "id": 44422,
+    "token": " CURL",
+    "score": 0.0876,
+    "nearest": " curl"
+   },
+   {
+    "id": 42518,
+    "token": " Rica",
+    "score": 0.0873,
+    "nearest": " Rico"
+   },
+   {
+    "id": 48648,
+    "token": " Janeiro",
+    "score": 0.087,
+    "nearest": "Jan"
+   },
+   {
+    "id": 35497,
+    "token": " OTHERWISE",
+    "score": 0.0851,
+    "nearest": "otherwise"
+   },
+   {
+    "id": 34665,
+    "token": " Interests",
+    "score": 0.085,
+    "nearest": " interests"
+   },
+   {
+    "id": 49044,
+    "token": " METHODS",
+    "score": 0.0837,
+    "nearest": " Methods"
+   },
+   {
+    "id": 44138,
+    "token": " YORK",
+    "score": 0.0829,
+    "nearest": " York"
+   },
+   {
+    "id": 32024,
+    "token": " DAMAGES",
+    "score": 0.0824,
+    "nearest": " DAMAGE"
+   },
+   {
+    "id": 49334,
+    "token": " DAMAGE",
+    "score": 0.0822,
+    "nearest": " Damage"
+   },
+   {
+    "id": 43623,
+    "token": " Paso",
+    "score": 0.0822,
+    "nearest": "Pas"
+   },
+   {
+    "id": 33278,
+    "token": " PROVIDED",
+    "score": 0.0816,
+    "nearest": " PROVID"
+   },
+   {
+    "id": 33052,
+    "token": " keV",
+    "score": 0.0813,
+    "nearest": "keV"
+   },
+   {
+    "id": 50045,
+    "token": " Disorder",
+    "score": 0.0811,
+    "nearest": " disorder"
+   },
+   {
+    "id": 11567,
+    "token": " WARRANT",
+    "score": 0.0809,
+    "nearest": " CURI"
+   },
+   {
+    "id": 34928,
+    "token": " DISTRICT",
+    "score": 0.0809,
+    "nearest": " District"
+   },
+   {
+    "id": 49566,
+    "token": " Disorders",
+    "score": 0.0804,
+    "nearest": " disorders"
+   },
+   {
+    "id": 45907,
+    "token": " Rapids",
+    "score": 0.0804,
+    "nearest": " Falls"
+   },
+   {
+    "id": 22231,
+    "token": " CONDITION",
+    "score": 0.0802,
+    "nearest": " CONDITIONS"
+   },
+   {
+    "id": 27255,
+    "token": " LIABILITY",
+    "score": 0.0801,
+    "nearest": " liability"
+   },
+   {
+    "id": 40342,
+    "token": " alia",
+    "score": 0.0794,
+    "nearest": "alia"
+   },
+   {
+    "id": 45104,
+    "token": " LOSS",
+    "score": 0.0786,
+    "nearest": " Loss"
+   },
+   {
+    "id": 45732,
+    "token": " fide",
+    "score": 0.0785,
+    "nearest": " facie"
+   },
+   {
+    "id": 18746,
+    "token": " STATES",
+    "score": 0.0784,
+    "nearest": " States"
+   },
+   {
+    "id": 22998,
+    "token": " CONDITIONS",
+    "score": 0.0783,
+    "nearest": " CONDITION"
+   },
+   {
+    "id": 48020,
+    "token": " Abuse",
+    "score": 0.0783,
+    "nearest": " abuse"
+   },
+   {
+    "id": 38536,
+    "token": " Questionnaire",
+    "score": 0.0782,
+    "nearest": " questionnaire"
+   },
+   {
+    "id": 20103,
+    "token": " PURPOSE",
+    "score": 0.0779,
+    "nearest": " Purpose"
+   },
+   {
+    "id": 46063,
+    "token": " AMERICA",
+    "score": 0.0775,
+    "nearest": " America"
+   },
+   {
+    "id": 23236,
+    "token": " footballers",
+    "score": 0.0773,
+    "nearest": " footballer"
+   },
+   {
+    "id": 35852,
+    "token": " Diseases",
+    "score": 0.0771,
+    "nearest": " diseases"
+   }
+  ],
+  "lid_ordinary": [
+   {
+    "id": 42486,
+    "token": " Tate",
+    "score": 216.2188,
+    "nearest": " Bates"
+   },
+   {
+    "id": 43542,
+    "token": " Morse",
+    "score": 208.3282,
+    "nearest": "orse"
+   },
+   {
+    "id": 35112,
+    "token": " Pradesh",
+    "score": 201.457,
+    "nearest": " Punjab"
+   },
+   {
+    "id": 42928,
+    "token": " Compton",
+    "score": 200.416,
+    "nearest": "Com"
+   },
+   {
+    "id": 20971,
+    "token": " mast",
+    "score": 185.4999,
+    "nearest": " mammary"
+   },
+   {
+    "id": 25856,
+    "token": " Kyle",
+    "score": 171.454,
+    "nearest": "K"
+   },
+   {
+    "id": 31678,
+    "token": " Wade",
+    "score": 169.3354,
+    "nearest": "W"
+   },
+   {
+    "id": 40289,
+    "token": " Doyle",
+    "score": 160.4967,
+    "nearest": "oyle"
+   },
+   {
+    "id": 33135,
+    "token": " Koch",
+    "score": 160.3694,
+    "nearest": " Koh"
+   },
+   {
+    "id": 45714,
+    "token": " Hogan",
+    "score": 157.3807,
+    "nearest": "ogan"
+   },
+   {
+    "id": 44842,
+    "token": " Holt",
+    "score": 156.9847,
+    "nearest": " Hoffman"
+   },
+   {
+    "id": 43898,
+    "token": " Dion",
+    "score": 152.1895,
+    "nearest": " Bac"
+   },
+   {
+    "id": 41276,
+    "token": " ozone",
+    "score": 150.9718,
+    "nearest": " oxygen"
+   },
+   {
+    "id": 30521,
+    "token": " Mend",
+    "score": 150.6819,
+    "nearest": "M"
+   },
+   {
+    "id": 48718,
+    "token": " Nell",
+    "score": 150.5437,
+    "nearest": " Jenn"
+   },
+   {
+    "id": 42828,
+    "token": " Kang",
+    "score": 148.6127,
+    "nearest": " k"
+   },
+   {
+    "id": 33330,
+    "token": " Crawford",
+    "score": 148.0961,
+    "nearest": " Craw"
+   },
+   {
+    "id": 46831,
+    "token": " Nolan",
+    "score": 147.608,
+    "nearest": " Snyder"
+   },
+   {
+    "id": 35542,
+    "token": " Ish",
+    "score": 145.7755,
+    "nearest": " Iz"
+   },
+   {
+    "id": 38370,
+    "token": " Bruno",
+    "score": 144.1631,
+    "nearest": " Brun"
+   },
+   {
+    "id": 45802,
+    "token": " Lok",
+    "score": 142.1811,
+    "nearest": " Pak"
+   },
+   {
+    "id": 45561,
+    "token": " Aires",
+    "score": 141.3542,
+    "nearest": " Rica"
+   },
+   {
+    "id": 42197,
+    "token": " sedentary",
+    "score": 141.1857,
+    "nearest": " inactive"
+   },
+   {
+    "id": 44511,
+    "token": " Gould",
+    "score": 140.7688,
+    "nearest": "ould"
+   },
+   {
+    "id": 33276,
+    "token": " Bryant",
+    "score": 139.4469,
+    "nearest": " Bryan"
+   },
+   {
+    "id": 41097,
+    "token": " Hicks",
+    "score": 137.3409,
+    "nearest": " Hernandez"
+   },
+   {
+    "id": 48545,
+    "token": " Cody",
+    "score": 135.2803,
+    "nearest": " Brandon"
+   },
+   {
+    "id": 26878,
+    "token": " Spencer",
+    "score": 134.1505,
+    "nearest": " Sp"
+   },
+   {
+    "id": 43354,
+    "token": " Bates",
+    "score": 133.8012,
+    "nearest": " Stevens"
+   },
+   {
+    "id": 45226,
+    "token": " Weaver",
+    "score": 133.3159,
+    "nearest": " Weiss"
+   },
+   {
+    "id": 21638,
+    "token": " Terry",
+    "score": 131.5058,
+    "nearest": "T"
+   },
+   {
+    "id": 13591,
+    "token": " Kong",
+    "score": 130.4989,
+    "nearest": " Kon"
+   },
+   {
+    "id": 49536,
+    "token": " Sutton",
+    "score": 130.3474,
+    "nearest": "utton"
+   },
+   {
+    "id": 45004,
+    "token": " Benson",
+    "score": 129.9704,
+    "nearest": " Olson"
+   },
+   {
+    "id": 33313,
+    "token": " Carson",
+    "score": 128.9378,
+    "nearest": "arson"
+   },
+   {
+    "id": 48648,
+    "token": " Janeiro",
+    "score": 127.7495,
+    "nearest": "Jan"
+   },
+   {
+    "id": 36533,
+    "token": " Rex",
+    "score": 126.1107,
+    "nearest": "rex"
+   },
+   {
+    "id": 47858,
+    "token": " Taj",
+    "score": 122.7227,
+    "nearest": " Raj"
+   },
+   {
+    "id": 29134,
+    "token": " tread",
+    "score": 121.2691,
+    "nearest": " footsteps"
+   },
+   {
+    "id": 28230,
+    "token": " Roth",
+    "score": 120.8726,
+    "nearest": " Rosen"
+   },
+   {
+    "id": 47172,
+    "token": " Wick",
+    "score": 120.854,
+    "nearest": "wick"
+   },
+   {
+    "id": 45503,
+    "token": " Bella",
+    "score": 120.5489,
+    "nearest": " Belle"
+   },
+   {
+    "id": 40019,
+    "token": " Hale",
+    "score": 120.3845,
+    "nearest": " Hal"
+   },
+   {
+    "id": 11136,
+    "token": " behalf",
+    "score": 119.9075,
+    "nearest": " favor"
+   },
+   {
+    "id": 49265,
+    "token": " dab",
+    "score": 119.8611,
+    "nearest": " dipped"
+   },
+   {
+    "id": 46511,
+    "token": " Gunn",
+    "score": 119.8021,
+    "nearest": " Gun"
+   },
+   {
+    "id": 35463,
+    "token": " Lance",
+    "score": 119.354,
+    "nearest": " Lily"
+   },
+   {
+    "id": 35798,
+    "token": " Brock",
+    "score": 119.1971,
+    "nearest": " Bro"
+   },
+   {
+    "id": 33381,
+    "token": " tart",
+    "score": 119.1015,
+    "nearest": " sour"
+   },
+   {
+    "id": 45572,
+    "token": " Brennan",
+    "score": 118.6452,
+    "nearest": " Bren"
+   },
+   {
+    "id": 48733,
+    "token": " stump",
+    "score": 117.671,
+    "nearest": " stub"
+   },
+   {
+    "id": 47572,
+    "token": " Dix",
+    "score": 117.6437,
+    "nearest": " Dixon"
+   },
+   {
+    "id": 25062,
+    "token": " Karen",
+    "score": 117.5939,
+    "nearest": " Kathy"
+   },
+   {
+    "id": 48877,
+    "token": " Lal",
+    "score": 116.5125,
+    "nearest": " Lil"
+   },
+   {
+    "id": 35318,
+    "token": " Huff",
+    "score": 115.2314,
+    "nearest": " Buzz"
+   },
+   {
+    "id": 49771,
+    "token": " Leone",
+    "score": 115.1253,
+    "nearest": "Le"
+   },
+   {
+    "id": 35262,
+    "token": " Sophie",
+    "score": 115.0694,
+    "nearest": " Soph"
+   },
+   {
+    "id": 40793,
+    "token": " Mae",
+    "score": 114.9704,
+    "nearest": " Sue"
+   },
+   {
+    "id": 30864,
+    "token": " Drew",
+    "score": 114.6802,
+    "nearest": "drew"
+   },
+   {
+    "id": 44642,
+    "token": " Jedi",
+    "score": 113.8721,
+    "nearest": " Batman"
+   }
+  ]
+ }
+}

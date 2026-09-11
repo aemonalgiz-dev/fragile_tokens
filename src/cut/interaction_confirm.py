@@ -32,7 +32,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from .stats import paired_boot
-from .analyze_trajectory import auc
+from .stats import auc
 from .copyprompt import copy_prompt_parts
 
 

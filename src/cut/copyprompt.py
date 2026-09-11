@@ -47,3 +47,30 @@ def copy_prompt_parts(tok, raw_head, demos):
     if c.strip():                       # the template appended something after the copy; keep it out
         b = b  # nothing to do: the copy span must be last, so we drop `c` deliberately
     return e(a), [], e(b)
+
+
+FEWSHOT = [" apple pie is good", " the quick brown fox"]
+
+
+def copy_logprob_ids(model, tok, dev, ids, batch=48):
+    """Teacher-forced log-probability of copying each listed token back under the single-token
+    probe (the token alone as text and as copy), in the active framing. Takes an explicit id list
+    so large vocabularies can be subsampled."""
+    import torch
+
+    def enc(s):
+        return tok(s, add_special_tokens=False)["input_ids"]
+    head = enc("Repeat the text exactly.\n")
+    for a in FEWSHOT:
+        head += enc("Text:") + enc(a) + enc("\nCopy:") + enc(a) + enc("\n")
+    head, pre_t, pre_c = copy_prompt_parts(tok, head, FEWSHOT)
+    out = []
+    with torch.no_grad():
+        for s in range(0, len(ids), batch):
+            ch = ids[s:s + batch]
+            seqs = [head + pre_t + [int(t)] + pre_c + [int(t)] for t in ch]
+            x = torch.tensor(seqs, device=dev)
+            logits = model(input_ids=x).logits[:, :-1, :].float()
+            lp = torch.log_softmax(logits, -1).gather(-1, x[:, 1:].unsqueeze(-1)).squeeze(-1)
+            out.append(lp[:, -1].cpu())
+    return torch.cat(out).numpy()

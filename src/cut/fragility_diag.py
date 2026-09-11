@@ -19,7 +19,7 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from .analyze_trajectory import auc
+from .stats import auc
 
 
 def main():

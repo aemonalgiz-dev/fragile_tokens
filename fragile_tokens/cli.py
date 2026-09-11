@@ -207,6 +207,10 @@ def build_parser() -> argparse.ArgumentParser:
     g.add_argument("--top", type=int, default=200)
     g.add_argument("--trust-remote-code", action="store_true")
     g.set_defaults(func=cmd_geometry)
+
+    from .agent_runner import add_agent_subcommand
+
+    add_agent_subcommand(sub)
     return p
 
 

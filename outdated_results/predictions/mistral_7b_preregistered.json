@@ -1,0 +1,4735 @@
+{
+ "tag": "mistral_7b",
+ "repo": "mistralai/Mistral-7B-Instruct-v0.3",
+ "tied": false,
+ "vocab": 32768,
+ "table": [
+  32768,
+  4096
+ ],
+ "static_reference_rows": 761,
+ "reserved_tokens": [
+  "[control_8]",
+  "[control_9]",
+  "[control_10]",
+  "[control_11]",
+  "[control_12]",
+  "[control_13]",
+  "[control_14]",
+  "[control_15]",
+  "[control_16]",
+  "[control_17]",
+  "[control_18]",
+  "[control_19]",
+  "[control_20]",
+  "[control_21]",
+  "[control_22]",
+  "[control_23]",
+  "[control_24]",
+  "[control_25]",
+  "[control_26]",
+  "[control_27]"
+ ],
+ "created_utc": "2026-09-11T15:48:59+00:00",
+ "scores_file": "results/predictions/mistral_7b_scores.npz",
+ "scores_sha256": "d90171733ad9da3154a257b6990225de872f652bcc162410e69d4c5ae51502c2",
+ "hypotheses": [
+  "H1 prox_static: on the Lambda random sample, fragile vs stable (clean alone), token-id-stratified AUC >= 0.60",
+  "H2 lid: same test, token-id-stratified AUC >= 0.60",
+  "H3 crowd_max within ordinary English words: fragile vs stable AUC >= 0.60",
+  "H4 each method's top-300 predicted-fragile set has a fragile rate >= 2x the random sample's",
+  "Only models with >= 5 static-reference rows are eligible for H1."
+ ],
+ "top_predicted_fragile": {
+  "prox_static": [
+   {
+    "id": 790,
+    "token": "\u0013",
+    "score": 1.0,
+    "nearest": ":"
+   },
+   {
+    "id": 796,
+    "token": "\u0019",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 883,
+    "token": "p",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 772,
+    "token": "\u0001",
+    "score": 1.0,
+    "nearest": ">"
+   },
+   {
+    "id": 889,
+    "token": "v",
+    "score": 1.0,
+    "nearest": "^"
+   },
+   {
+    "id": 890,
+    "token": "w",
+    "score": 1.0,
+    "nearest": "v"
+   },
+   {
+    "id": 888,
+    "token": "u",
+    "score": 1.0,
+    "nearest": "g"
+   },
+   {
+    "id": 797,
+    "token": "\u001a",
+    "score": 1.0,
+    "nearest": ":"
+   },
+   {
+    "id": 839,
+    "token": "D",
+    "score": 1.0,
+    "nearest": "n"
+   },
+   {
+    "id": 807,
+    "token": "$",
+    "score": 1.0,
+    "nearest": "T"
+   },
+   {
+    "id": 826,
+    "token": "7",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 837,
+    "token": "B",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 897,
+    "token": "~",
+    "score": 1.0,
+    "nearest": "["
+   },
+   {
+    "id": 825,
+    "token": "6",
+    "score": 1.0,
+    "nearest": "("
+   },
+   {
+    "id": 896,
+    "token": "}",
+    "score": 1.0,
+    "nearest": "g"
+   },
+   {
+    "id": 886,
+    "token": "s",
+    "score": 1.0,
+    "nearest": "Q"
+   },
+   {
+    "id": 849,
+    "token": "N",
+    "score": 1.0,
+    "nearest": "b"
+   },
+   {
+    "id": 851,
+    "token": "P",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 833,
+    "token": ">",
+    "score": 1.0,
+    "nearest": "@"
+   },
+   {
+    "id": 776,
+    "token": "\u0005",
+    "score": 1.0,
+    "nearest": "o"
+   },
+   {
+    "id": 866,
+    "token": "_",
+    "score": 1.0,
+    "nearest": "s"
+   },
+   {
+    "id": 864,
+    "token": "]",
+    "score": 1.0,
+    "nearest": "("
+   },
+   {
+    "id": 863,
+    "token": "\\",
+    "score": 1.0,
+    "nearest": "^"
+   },
+   {
+    "id": 862,
+    "token": "[",
+    "score": 1.0,
+    "nearest": "~"
+   },
+   {
+    "id": 829,
+    "token": ":",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 845,
+    "token": "J",
+    "score": 1.0,
+    "nearest": "u"
+   },
+   {
+    "id": 852,
+    "token": "Q",
+    "score": 1.0,
+    "nearest": "s"
+   },
+   {
+    "id": 830,
+    "token": ";",
+    "score": 1.0,
+    "nearest": "g"
+   },
+   {
+    "id": 843,
+    "token": "H",
+    "score": 1.0,
+    "nearest": "[control_74]"
+   },
+   {
+    "id": 788,
+    "token": "\u0011",
+    "score": 1.0,
+    "nearest": "N"
+   },
+   {
+    "id": 778,
+    "token": "\u0007",
+    "score": 1.0,
+    "nearest": ">"
+   },
+   {
+    "id": 841,
+    "token": "F",
+    "score": 1.0,
+    "nearest": "T"
+   },
+   {
+    "id": 811,
+    "token": "(",
+    "score": 1.0,
+    "nearest": "h"
+   },
+   {
+    "id": 812,
+    "token": ")",
+    "score": 1.0,
+    "nearest": ""
+   },
+   {
+    "id": 813,
+    "token": "*",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 792,
+    "token": "\u0015",
+    "score": 1.0,
+    "nearest": "f"
+   },
+   {
+    "id": 787,
+    "token": "\u0010",
+    "score": 1.0,
+    "nearest": ">"
+   },
+   {
+    "id": 815,
+    "token": ",",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 816,
+    "token": "-",
+    "score": 1.0,
+    "nearest": "]"
+   },
+   {
+    "id": 859,
+    "token": "X",
+    "score": 1.0,
+    "nearest": "p"
+   },
+   {
+    "id": 869,
+    "token": "b",
+    "score": 1.0,
+    "nearest": "\u0010"
+   },
+   {
+    "id": 798,
+    "token": "\u001b",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 877,
+    "token": "j",
+    "score": 1.0,
+    "nearest": "s"
+   },
+   {
+    "id": 880,
+    "token": "m",
+    "score": 1.0,
+    "nearest": "i"
+   },
+   {
+    "id": 823,
+    "token": "4",
+    "score": 1.0,
+    "nearest": "["
+   },
+   {
+    "id": 870,
+    "token": "c",
+    "score": 1.0,
+    "nearest": "s"
+   },
+   {
+    "id": 868,
+    "token": "a",
+    "score": 1.0,
+    "nearest": "{"
+   },
+   {
+    "id": 805,
+    "token": "\"",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 834,
+    "token": "?",
+    "score": 1.0,
+    "nearest": "f"
+   },
+   {
+    "id": 846,
+    "token": "K",
+    "score": 1.0,
+    "nearest": "_"
+   },
+   {
+    "id": 832,
+    "token": "=",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 831,
+    "token": "<",
+    "score": 1.0,
+    "nearest": "6"
+   },
+   {
+    "id": 809,
+    "token": "&",
+    "score": 1.0,
+    "nearest": "y"
+   },
+   {
+    "id": 810,
+    "token": "'",
+    "score": 1.0,
+    "nearest": "\\"
+   },
+   {
+    "id": 840,
+    "token": "E",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 838,
+    "token": "C",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 898,
+    "token": "",
+    "score": 1.0,
+    "nearest": "g"
+   },
+   {
+    "id": 865,
+    "token": "^",
+    "score": 1.0,
+    "nearest": "\\"
+   },
+   {
+    "id": 860,
+    "token": "Y",
+    "score": 1.0,
+    "nearest": "g"
+   },
+   {
+    "id": 827,
+    "token": "8",
+    "score": 1.0,
+    "nearest": "\u0005"
+   },
+   {
+    "id": 844,
+    "token": "I",
+    "score": 1.0,
+    "nearest": "\u0001"
+   },
+   {
+    "id": 806,
+    "token": "#",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 842,
+    "token": "G",
+    "score": 1.0,
+    "nearest": "X"
+   },
+   {
+    "id": 828,
+    "token": "9",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 817,
+    "token": ".",
+    "score": 1.0,
+    "nearest": "\u0010"
+   },
+   {
+    "id": 814,
+    "token": "+",
+    "score": 1.0,
+    "nearest": "~"
+   },
+   {
+    "id": 793,
+    "token": "\u0016",
+    "score": 1.0,
+    "nearest": ""
+   },
+   {
+    "id": 786,
+    "token": "\u000f",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 794,
+    "token": "\u0017",
+    "score": 1.0,
+    "nearest": "o"
+   },
+   {
+    "id": 791,
+    "token": "\u0014",
+    "score": 1.0,
+    "nearest": ">"
+   },
+   {
+    "id": 836,
+    "token": "A",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 818,
+    "token": "/",
+    "score": 1.0,
+    "nearest": "@"
+   },
+   {
+    "id": 876,
+    "token": "i",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 858,
+    "token": "W",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 878,
+    "token": "k",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 879,
+    "token": "l",
+    "score": 1.0,
+    "nearest": "]"
+   },
+   {
+    "id": 881,
+    "token": "n",
+    "score": 1.0,
+    "nearest": ","
+   },
+   {
+    "id": 872,
+    "token": "e",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 873,
+    "token": "f",
+    "score": 1.0,
+    "nearest": "@"
+   },
+   {
+    "id": 857,
+    "token": "V",
+    "score": 1.0,
+    "nearest": "k"
+   },
+   {
+    "id": 819,
+    "token": "0",
+    "score": 1.0,
+    "nearest": "^"
+   },
+   {
+    "id": 820,
+    "token": "1",
+    "score": 1.0,
+    "nearest": "_"
+   },
+   {
+    "id": 821,
+    "token": "2",
+    "score": 1.0,
+    "nearest": "p"
+   },
+   {
+    "id": 854,
+    "token": "S",
+    "score": 1.0,
+    "nearest": "\u0017"
+   },
+   {
+    "id": 824,
+    "token": "5",
+    "score": 1.0,
+    "nearest": "s"
+   },
+   {
+    "id": 882,
+    "token": "o",
+    "score": 1.0,
+    "nearest": "\u0005"
+   },
+   {
+    "id": 855,
+    "token": "T",
+    "score": 1.0,
+    "nearest": "$"
+   },
+   {
+    "id": 874,
+    "token": "g",
+    "score": 1.0,
+    "nearest": ""
+   },
+   {
+    "id": 804,
+    "token": "!",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 775,
+    "token": "\u0004",
+    "score": 1.0,
+    "nearest": "n"
+   },
+   {
+    "id": 773,
+    "token": "\u0002",
+    "score": 1.0,
+    "nearest": ":"
+   },
+   {
+    "id": 774,
+    "token": "\u0003",
+    "score": 1.0,
+    "nearest": "6"
+   },
+   {
+    "id": 885,
+    "token": "r",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 808,
+    "token": "%",
+    "score": 1.0,
+    "nearest": "\\"
+   },
+   {
+    "id": 894,
+    "token": "{",
+    "score": 1.0,
+    "nearest": "a"
+   },
+   {
+    "id": 891,
+    "token": "x",
+    "score": 1.0,
+    "nearest": "@"
+   },
+   {
+    "id": 871,
+    "token": "d",
+    "score": 1.0,
+    "nearest": "j"
+   },
+   {
+    "id": 835,
+    "token": "@",
+    "score": 1.0,
+    "nearest": "v"
+   },
+   {
+    "id": 875,
+    "token": "h",
+    "score": 1.0,
+    "nearest": "("
+   },
+   {
+    "id": 853,
+    "token": "R",
+    "score": 1.0,
+    "nearest": ""
+   },
+   {
+    "id": 893,
+    "token": "z",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 822,
+    "token": "3",
+    "score": 1.0,
+    "nearest": "y"
+   },
+   {
+    "id": 789,
+    "token": "\u0012",
+    "score": 1.0,
+    "nearest": "u"
+   },
+   {
+    "id": 795,
+    "token": "\u0018",
+    "score": 1.0,
+    "nearest": "3"
+   },
+   {
+    "id": 856,
+    "token": "U",
+    "score": 1.0,
+    "nearest": "\b"
+   },
+   {
+    "id": 892,
+    "token": "y",
+    "score": 1.0,
+    "nearest": "3"
+   },
+   {
+    "id": 884,
+    "token": "q",
+    "score": 1.0,
+    "nearest": "U"
+   },
+   {
+    "id": 887,
+    "token": "t",
+    "score": 1.0,
+    "nearest": "\u001b"
+   },
+   {
+    "id": 848,
+    "token": "M",
+    "score": 1.0,
+    "nearest": "\u0016"
+   },
+   {
+    "id": 847,
+    "token": "L",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 850,
+    "token": "O",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 895,
+    "token": "|",
+    "score": 1.0,
+    "nearest": "3"
+   },
+   {
+    "id": 777,
+    "token": "\u0006",
+    "score": 1.0,
+    "nearest": "y"
+   },
+   {
+    "id": 785,
+    "token": "\u000e",
+    "score": 1.0,
+    "nearest": "i"
+   },
+   {
+    "id": 779,
+    "token": "\b",
+    "score": 1.0,
+    "nearest": "y"
+   },
+   {
+    "id": 867,
+    "token": "`",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 861,
+    "token": "Z",
+    "score": 1.0,
+    "nearest": "y"
+   },
+   {
+    "id": 32506,
+    "token": "",
+    "score": 1.0,
+    "nearest": "�"
+   },
+   {
+    "id": 21186,
+    "token": "/**\r",
+    "score": 0.9999,
+    "nearest": "�"
+   },
+   {
+    "id": 27404,
+    "token": "});\r",
+    "score": 0.9998,
+    "nearest": "\u000e"
+   },
+   {
+    "id": 19527,
+    "token": "';\r",
+    "score": 0.9997,
+    "nearest": "\u0006"
+   },
+   {
+    "id": 26851,
+    "token": "//\r",
+    "score": 0.9997,
+    "nearest": "]"
+   },
+   {
+    "id": 27160,
+    "token": "});\r",
+    "score": 0.9997,
+    "nearest": "$"
+   },
+   {
+    "id": 27175,
+    "token": "};\r",
+    "score": 0.9995,
+    "nearest": "});\r"
+   },
+   {
+    "id": 8376,
+    "token": "*/\r",
+    "score": 0.9993,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 23907,
+    "token": "};\r",
+    "score": 0.9993,
+    "nearest": "});\r"
+   },
+   {
+    "id": 28939,
+    "token": "]);\r",
+    "score": 0.9991,
+    "nearest": "I"
+   },
+   {
+    "id": 26601,
+    "token": ">?[<",
+    "score": 0.9989,
+    "nearest": "�"
+   },
+   {
+    "id": 12961,
+    "token": ");\r",
+    "score": 0.9988,
+    "nearest": "});\r"
+   },
+   {
+    "id": 10591,
+    "token": "*/\r",
+    "score": 0.9988,
+    "nearest": "t"
+   },
+   {
+    "id": 15824,
+    "token": "());\r",
+    "score": 0.9987,
+    "nearest": "U"
+   },
+   {
+    "id": 21460,
+    "token": "},\r",
+    "score": 0.9983,
+    "nearest": "};\r"
+   },
+   {
+    "id": 11046,
+    "token": "',\r",
+    "score": 0.9976,
+    "nearest": "';\r"
+   },
+   {
+    "id": 15524,
+    "token": "/**\r",
+    "score": 0.9974,
+    "nearest": "�"
+   },
+   {
+    "id": 18463,
+    "token": "},\r",
+    "score": 0.9971,
+    "nearest": "};\r"
+   },
+   {
+    "id": 18823,
+    "token": "){\r",
+    "score": 0.9965,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 12648,
+    "token": "\";\r",
+    "score": 0.9962,
+    "nearest": "';\r"
+   },
+   {
+    "id": 17711,
+    "token": "');\r",
+    "score": 0.9956,
+    "nearest": "';\r"
+   },
+   {
+    "id": 31697,
+    "token": "᥀",
+    "score": 0.995,
+    "nearest": ""
+   },
+   {
+    "id": 15748,
+    "token": "\">\r",
+    "score": 0.9932,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 11709,
+    "token": "));\r",
+    "score": 0.9888,
+    "nearest": "]);\r"
+   },
+   {
+    "id": 15188,
+    "token": "];\r",
+    "score": 0.9879,
+    "nearest": "]);\r"
+   },
+   {
+    "id": 11707,
+    "token": "\",\r",
+    "score": 0.9817,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 7681,
+    "token": "\");\r",
+    "score": 0.9803,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 22954,
+    "token": "')\r",
+    "score": 0.973,
+    "nearest": "');\r"
+   },
+   {
+    "id": 26668,
+    "token": "iNdEx",
+    "score": 0.9723,
+    "nearest": "/"
+   },
+   {
+    "id": 5188,
+    "token": "();\r",
+    "score": 0.9627,
+    "nearest": "());\r"
+   },
+   {
+    "id": 20016,
+    "token": "NdEx",
+    "score": 0.9623,
+    "nearest": "\u0018"
+   },
+   {
+    "id": 4194,
+    "token": "}\r",
+    "score": 0.9527,
+    "nearest": "};\r"
+   },
+   {
+    "id": 27599,
+    "token": "febbra",
+    "score": 0.9472,
+    "nearest": ":"
+   },
+   {
+    "id": 24254,
+    "token": "),\r",
+    "score": 0.9317,
+    "nearest": "',\r"
+   },
+   {
+    "id": 5209,
+    "token": "{\r",
+    "score": 0.9252,
+    "nearest": "){\r"
+   },
+   {
+    "id": 32621,
+    "token": "⇽",
+    "score": 0.9248,
+    "nearest": "᥀"
+   },
+   {
+    "id": 10730,
+    "token": "()\r",
+    "score": 0.9171,
+    "nearest": "();\r"
+   },
+   {
+    "id": 28224,
+    "token": ":%.*]]",
+    "score": 0.9003,
+    "nearest": "]);\r"
+   },
+   {
+    "id": 3287,
+    "token": "}\r",
+    "score": 0.8968,
+    "nearest": "},\r"
+   },
+   {
+    "id": 2737,
+    "token": "{\r",
+    "score": 0.8922,
+    "nearest": "{\r"
+   },
+   {
+    "id": 18102,
+    "token": "(\r",
+    "score": 0.8773,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 15387,
+    "token": ")\r",
+    "score": 0.8718,
+    "nearest": "),\r"
+   },
+   {
+    "id": 2529,
+    "token": ");\r",
+    "score": 0.8716,
+    "nearest": "\");\r"
+   },
+   {
+    "id": 31181,
+    "token": "⌁",
+    "score": 0.8676,
+    "nearest": "᥀"
+   },
+   {
+    "id": 17717,
+    "token": "\")\r",
+    "score": 0.8573,
+    "nearest": "\");\r"
+   },
+   {
+    "id": 16409,
+    "token": "uitgen",
+    "score": 0.8553,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 28500,
+    "token": "'\r",
+    "score": 0.847,
+    "nearest": "')\r"
+   },
+   {
+    "id": 32413,
+    "token": "≯",
+    "score": 0.8363,
+    "nearest": "≮"
+   },
+   {
+    "id": 32424,
+    "token": "≮",
+    "score": 0.8287,
+    "nearest": "≯"
+   },
+   {
+    "id": 17492,
+    "token": "tagHelper",
+    "score": 0.8019,
+    "nearest": "};\r"
+   },
+   {
+    "id": 19695,
+    "token": "ederbörd",
+    "score": 0.7977,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 15436,
+    "token": "))\r",
+    "score": 0.7935,
+    "nearest": "));\r"
+   },
+   {
+    "id": 17540,
+    "token": ":%.*",
+    "score": 0.7882,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 31581,
+    "token": "︙",
+    "score": 0.7714,
+    "nearest": "᥀"
+   },
+   {
+    "id": 29361,
+    "token": "pgfscope",
+    "score": 0.7681,
+    "nearest": "};\r"
+   },
+   {
+    "id": 28033,
+    "token": "SDValue",
+    "score": 0.7673,
+    "nearest": "};\r"
+   },
+   {
+    "id": 16648,
+    "token": ">:]<",
+    "score": 0.7663,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 13846,
+    "token": "ERCHANTABILITY",
+    "score": 0.7577,
+    "nearest": "});\r"
+   },
+   {
+    "id": 16268,
+    "token": "itempty",
+    "score": 0.7573,
+    "nearest": "*/\r"
+   },
+   {
+    "id": 31947,
+    "token": "┈",
+    "score": 0.7518,
+    "nearest": "⇽"
+   },
+   {
+    "id": 16507,
+    "token": "beginnetje",
+    "score": 0.7476,
+    "nearest": "*/\r"
+   },
+   {
+    "id": 30702,
+    "token": "⣿",
+    "score": 0.7414,
+    "nearest": "\u001d"
+   },
+   {
+    "id": 11533,
+    "token": "pgfqpoint",
+    "score": 0.7382,
+    "nearest": "){\r"
+   },
+   {
+    "id": 32700,
+    "token": "ҽ",
+    "score": 0.7291,
+    "nearest": "�"
+   },
+   {
+    "id": 16398,
+    "token": "odigd",
+    "score": 0.7279,
+    "nearest": "#"
+   },
+   {
+    "id": 13451,
+    "token": "pgfpathlineto",
+    "score": 0.7261,
+    "nearest": "};\r"
+   },
+   {
+    "id": 31665,
+    "token": "⠄",
+    "score": 0.7254,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32501,
+    "token": "ⵙ",
+    "score": 0.7223,
+    "nearest": ");\r"
+   },
+   {
+    "id": 11530,
+    "token": "qpoint",
+    "score": 0.7098,
+    "nearest": "};\r"
+   },
+   {
+    "id": 8709,
+    "token": "ICENSE",
+    "score": 0.707,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 27486,
+    "token": "eltemperaturen",
+    "score": 0.7007,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 26119,
+    "token": "__(/*!",
+    "score": 0.6878,
+    "nearest": "());\r"
+   },
+   {
+    "id": 31609,
+    "token": "\u0017",
+    "score": 0.6876,
+    "nearest": "\u0015"
+   },
+   {
+    "id": 32690,
+    "token": "ⵓ",
+    "score": 0.6874,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 24038,
+    "token": "ByComparator",
+    "score": 0.684,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 32211,
+    "token": "ⵏ",
+    "score": 0.6703,
+    "nearest": ");\r"
+   },
+   {
+    "id": 29141,
+    "token": "nederbörd",
+    "score": 0.6698,
+    "nearest": "//\r"
+   },
+   {
+    "id": 31443,
+    "token": "\u0015",
+    "score": 0.6678,
+    "nearest": "\u0017"
+   },
+   {
+    "id": 4453,
+    "token": ">\r",
+    "score": 0.6638,
+    "nearest": "\u000b"
+   },
+   {
+    "id": 31940,
+    "token": "┆",
+    "score": 0.6637,
+    "nearest": "┈"
+   },
+   {
+    "id": 14820,
+    "token": "Jahrhund",
+    "score": 0.6606,
+    "nearest": "',\r"
+   },
+   {
+    "id": 12138,
+    "token": "pgfpath",
+    "score": 0.6552,
+    "nearest": "};\r"
+   },
+   {
+    "id": 19534,
+    "token": "]\r",
+    "score": 0.6548,
+    "nearest": "}\r"
+   },
+   {
+    "id": 31751,
+    "token": "ڕ",
+    "score": 0.6541,
+    "nearest": "\u001d"
+   },
+   {
+    "id": 2039,
+    "token": ";\r",
+    "score": 0.6525,
+    "nearest": "();\r"
+   },
+   {
+    "id": 31703,
+    "token": "\u0016",
+    "score": 0.6464,
+    "nearest": "\u0017"
+   },
+   {
+    "id": 11935,
+    "token": "ityEngine",
+    "score": 0.6444,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 32609,
+    "token": "❒",
+    "score": 0.6423,
+    "nearest": "❍"
+   },
+   {
+    "id": 31221,
+    "token": "\u0013",
+    "score": 0.64,
+    "nearest": "\u0017"
+   },
+   {
+    "id": 23615,
+    "token": "omsnitt",
+    "score": 0.6391,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 31466,
+    "token": "\u000f",
+    "score": 0.6306,
+    "nearest": "\u000e"
+   },
+   {
+    "id": 25481,
+    "token": "vscale",
+    "score": 0.6279,
+    "nearest": ""
+   },
+   {
+    "id": 32663,
+    "token": "❍",
+    "score": 0.6224,
+    "nearest": "❒"
+   },
+   {
+    "id": 22644,
+    "token": "imeq",
+    "score": 0.6216,
+    "nearest": "\u001c"
+   },
+   {
+    "id": 32085,
+    "token": "ⵉ",
+    "score": 0.6192,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 31082,
+    "token": "\u0006",
+    "score": 0.6175,
+    "nearest": "\u0005"
+   },
+   {
+    "id": 31066,
+    "token": "\u0012",
+    "score": 0.6161,
+    "nearest": "\u0015"
+   },
+   {
+    "id": 32237,
+    "token": "ӏ",
+    "score": 0.6134,
+    "nearest": "Ӏ"
+   },
+   {
+    "id": 16476,
+    "token": "klikken",
+    "score": 0.6092,
+    "nearest": "());\r"
+   },
+   {
+    "id": 17449,
+    "token": "börd",
+    "score": 0.608,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 31285,
+    "token": "\u000e",
+    "score": 0.6074,
+    "nearest": "\u000f"
+   },
+   {
+    "id": 16715,
+    "token": "BPACK",
+    "score": 0.6048,
+    "nearest": "());\r"
+   },
+   {
+    "id": 12293,
+    "token": "\"\r",
+    "score": 0.6009,
+    "nearest": "'\r"
+   },
+   {
+    "id": 31489,
+    "token": "\u0014",
+    "score": 0.6004,
+    "nearest": "\u0015"
+   },
+   {
+    "id": 18547,
+    "token": "gepublice",
+    "score": 0.5983,
+    "nearest": "uitgen"
+   },
+   {
+    "id": 31325,
+    "token": "\u0011",
+    "score": 0.5972,
+    "nearest": "\u0012"
+   },
+   {
+    "id": 31318,
+    "token": "\u0005",
+    "score": 0.5926,
+    "nearest": "\u0006"
+   },
+   {
+    "id": 31492,
+    "token": "\u0004",
+    "score": 0.5923,
+    "nearest": "\u0006"
+   },
+   {
+    "id": 28200,
+    "token": "månaden",
+    "score": 0.5831,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32701,
+    "token": "ថ",
+    "score": 0.583,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32499,
+    "token": "Ӏ",
+    "score": 0.5764,
+    "nearest": "ӏ"
+   },
+   {
+    "id": 31458,
+    "token": "ێ",
+    "score": 0.573,
+    "nearest": "ڕ"
+   },
+   {
+    "id": 21179,
+    "token": "][<",
+    "score": 0.5681,
+    "nearest": ">:]<"
+   },
+   {
+    "id": 13897,
+    "token": "listade",
+    "score": 0.5657,
+    "nearest": "//\r"
+   },
+   {
+    "id": 28684,
+    "token": "Marcatori",
+    "score": 0.5619,
+    "nearest": "};\r"
+   },
+   {
+    "id": 31737,
+    "token": "\u0019",
+    "score": 0.5581,
+    "nearest": "\u0017"
+   },
+   {
+    "id": 13640,
+    "token": "underarter",
+    "score": 0.5488,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32669,
+    "token": "ញ",
+    "score": 0.5482,
+    "nearest": "());\r"
+   },
+   {
+    "id": 31731,
+    "token": "\u0007",
+    "score": 0.5478,
+    "nearest": "\u0006"
+   },
+   {
+    "id": 31635,
+    "token": "🟠",
+    "score": 0.5462,
+    "nearest": "🟡"
+   },
+   {
+    "id": 22167,
+    "token": "TagHelpers",
+    "score": 0.5455,
+    "nearest": "tagHelper"
+   },
+   {
+    "id": 26239,
+    "token": "+\\_\\",
+    "score": 0.5408,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 31422,
+    "token": "ⴰ",
+    "score": 0.5348,
+    "nearest": "ⵉ"
+   },
+   {
+    "id": 32717,
+    "token": "Ḩ",
+    "score": 0.5266,
+    "nearest": "᥀"
+   },
+   {
+    "id": 27375,
+    "token": "Arbitro",
+    "score": 0.5253,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32502,
+    "token": "丶",
+    "score": 0.5175,
+    "nearest": "\f"
+   },
+   {
+    "id": 16088,
+    "token": "/***/",
+    "score": 0.5118,
+    "nearest": "/******/"
+   },
+   {
+    "id": 32162,
+    "token": "ើ",
+    "score": 0.5093,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 31323,
+    "token": "\u0018",
+    "score": 0.509,
+    "nearest": "\u0017"
+   },
+   {
+    "id": 31538,
+    "token": "🟡",
+    "score": 0.507,
+    "nearest": "🟠"
+   },
+   {
+    "id": 32020,
+    "token": "ۆ",
+    "score": 0.5064,
+    "nearest": "ێ"
+   },
+   {
+    "id": 29859,
+    "token": "↘",
+    "score": 0.5044,
+    "nearest": "⇽"
+   },
+   {
+    "id": 19875,
+    "token": "pgfset",
+    "score": 0.5043,
+    "nearest": ");\r"
+   },
+   {
+    "id": 27338,
+    "token": "AtA",
+    "score": 0.5029,
+    "nearest": "NdEx"
+   },
+   {
+    "id": 17953,
+    "token": "ublice",
+    "score": 0.5025,
+    "nearest": ");\r"
+   },
+   {
+    "id": 13019,
+    "token": "ября",
+    "score": 0.5018,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 16506,
+    "token": "Geplaatst",
+    "score": 0.4993,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32404,
+    "token": "⬜",
+    "score": 0.494,
+    "nearest": "⬛"
+   },
+   {
+    "id": 27060,
+    "token": "emperaturen",
+    "score": 0.4934,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32681,
+    "token": "ḩ",
+    "score": 0.4926,
+    "nearest": "\u001d"
+   },
+   {
+    "id": 32032,
+    "token": "⬛",
+    "score": 0.4902,
+    "nearest": "⬜"
+   },
+   {
+    "id": 14435,
+    "token": "*\r",
+    "score": 0.4769,
+    "nearest": "'\r"
+   },
+   {
+    "id": 32633,
+    "token": "ٔ",
+    "score": 0.4753,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 31156,
+    "token": "\u0010",
+    "score": 0.4743,
+    "nearest": "\u000f"
+   },
+   {
+    "id": 32605,
+    "token": "ે",
+    "score": 0.473,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32594,
+    "token": "ಯ",
+    "score": 0.4691,
+    "nearest": "());\r"
+   },
+   {
+    "id": 14148,
+    "token": "referenties",
+    "score": 0.4673,
+    "nearest": "},\r"
+   },
+   {
+    "id": 13898,
+    "token": "aapt",
+    "score": 0.462,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 31430,
+    "token": "\u0003",
+    "score": 0.4615,
+    "nearest": "\u0004"
+   },
+   {
+    "id": 32672,
+    "token": "ນ",
+    "score": 0.4582,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32460,
+    "token": "ែ",
+    "score": 0.4556,
+    "nearest": "());\r"
+   },
+   {
+    "id": 32254,
+    "token": "્",
+    "score": 0.4545,
+    "nearest": "];\r"
+   },
+   {
+    "id": 31428,
+    "token": "☽",
+    "score": 0.4521,
+    "nearest": "❍"
+   },
+   {
+    "id": 24351,
+    "token": "CodeAttribute",
+    "score": 0.4514,
+    "nearest": ");\r"
+   },
+   {
+    "id": 23569,
+    "token": "crtc",
+    "score": 0.4511,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 32195,
+    "token": "ર",
+    "score": 0.4492,
+    "nearest": "ન"
+   },
+   {
+    "id": 21657,
+    "token": "TagHelper",
+    "score": 0.4451,
+    "nearest": "TagHelpers"
+   },
+   {
+    "id": 13350,
+    "token": "lineto",
+    "score": 0.4438,
+    "nearest": "\u001e"
+   },
+   {
+    "id": 17381,
+    "token": "CLUD",
+    "score": 0.4428,
+    "nearest": "){\r"
+   },
+   {
+    "id": 31868,
+    "token": "យ",
+    "score": 0.4422,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31658,
+    "token": "់",
+    "score": 0.442,
+    "nearest": "){\r"
+   },
+   {
+    "id": 16385,
+    "token": "netje",
+    "score": 0.4404,
+    "nearest": "',\r"
+   },
+   {
+    "id": 21664,
+    "token": "Станов",
+    "score": 0.4365,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32724,
+    "token": "ោ",
+    "score": 0.4361,
+    "nearest": "));\r"
+   },
+   {
+    "id": 32180,
+    "token": "វ",
+    "score": 0.4341,
+    "nearest": "));\r"
+   },
+   {
+    "id": 32571,
+    "token": "ណ",
+    "score": 0.4316,
+    "nearest": "());\r"
+   },
+   {
+    "id": 26699,
+    "token": "tcx",
+    "score": 0.4311,
+    "nearest": "NdEx"
+   },
+   {
+    "id": 32557,
+    "token": "ಗ",
+    "score": 0.4291,
+    "nearest": "ಯ"
+   },
+   {
+    "id": 32617,
+    "token": "ತ",
+    "score": 0.4286,
+    "nearest": "త"
+   },
+   {
+    "id": 32416,
+    "token": "ಲ",
+    "score": 0.4281,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 16420,
+    "token": "voegen",
+    "score": 0.4273,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32505,
+    "token": "የ",
+    "score": 0.4272,
+    "nearest": "አ"
+   },
+   {
+    "id": 29281,
+    "token": "dentry",
+    "score": 0.4259,
+    "nearest": "];\r"
+   },
+   {
+    "id": 31319,
+    "token": "\u0002",
+    "score": 0.4246,
+    "nearest": "\u0003"
+   },
+   {
+    "id": 20018,
+    "token": "/******/",
+    "score": 0.4235,
+    "nearest": "/***/"
+   },
+   {
+    "id": 20277,
+    "token": "jsce",
+    "score": 0.4208,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32734,
+    "token": "ಂ",
+    "score": 0.4204,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 32006,
+    "token": "ដ",
+    "score": 0.4192,
+    "nearest": ");\r"
+   },
+   {
+    "id": 17292,
+    "token": "WEBPACK",
+    "score": 0.4188,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32147,
+    "token": "អ",
+    "score": 0.4186,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 25821,
+    "token": "__[\"",
+    "score": 0.4135,
+    "nearest": "));\r"
+   },
+   {
+    "id": 31800,
+    "token": "ច",
+    "score": 0.4126,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31758,
+    "token": "়",
+    "score": 0.4109,
+    "nearest": "',\r"
+   }
+  ],
+  "lid": [
+   {
+    "id": 838,
+    "token": "C",
+    "score": 1000000000.0,
+    "nearest": "�"
+   },
+   {
+    "id": 843,
+    "token": "H",
+    "score": 1000000000.0,
+    "nearest": "[control_74]"
+   },
+   {
+    "id": 833,
+    "token": ">",
+    "score": 1000000000.0,
+    "nearest": "@"
+   },
+   {
+    "id": 815,
+    "token": ",",
+    "score": 1000000000.0,
+    "nearest": "�"
+   },
+   {
+    "id": 811,
+    "token": "(",
+    "score": 1000000000.0,
+    "nearest": "h"
+   },
+   {
+    "id": 835,
+    "token": "@",
+    "score": 1000000000.0,
+    "nearest": "v"
+   },
+   {
+    "id": 787,
+    "token": "\u0010",
+    "score": 1000000000.0,
+    "nearest": ">"
+   },
+   {
+    "id": 874,
+    "token": "g",
+    "score": 1000000000.0,
+    "nearest": ""
+   },
+   {
+    "id": 16398,
+    "token": "odigd",
+    "score": 276708.3125,
+    "nearest": "#"
+   },
+   {
+    "id": 13846,
+    "token": "ERCHANTABILITY",
+    "score": 105414.8672,
+    "nearest": "});\r"
+   },
+   {
+    "id": 26668,
+    "token": "iNdEx",
+    "score": 103228.6172,
+    "nearest": "/"
+   },
+   {
+    "id": 27599,
+    "token": "febbra",
+    "score": 95325.8047,
+    "nearest": ":"
+   },
+   {
+    "id": 20016,
+    "token": "NdEx",
+    "score": 64190.5977,
+    "nearest": "\u0018"
+   },
+   {
+    "id": 16268,
+    "token": "itempty",
+    "score": 63757.168,
+    "nearest": "*/\r"
+   },
+   {
+    "id": 19695,
+    "token": "ederbörd",
+    "score": 52864.8555,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 11935,
+    "token": "ityEngine",
+    "score": 45789.125,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 28939,
+    "token": "]);\r",
+    "score": 38335.3711,
+    "nearest": "I"
+   },
+   {
+    "id": 16409,
+    "token": "uitgen",
+    "score": 37612.6797,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 27486,
+    "token": "eltemperaturen",
+    "score": 29480.5234,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 23615,
+    "token": "omsnitt",
+    "score": 24351.3047,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 29361,
+    "token": "pgfscope",
+    "score": 22093.6191,
+    "nearest": "};\r"
+   },
+   {
+    "id": 29141,
+    "token": "nederbörd",
+    "score": 21211.7793,
+    "nearest": "//\r"
+   },
+   {
+    "id": 26601,
+    "token": ">?[<",
+    "score": 15894.6699,
+    "nearest": "�"
+   },
+   {
+    "id": 15524,
+    "token": "/**\r",
+    "score": 15372.0693,
+    "nearest": "�"
+   },
+   {
+    "id": 16507,
+    "token": "beginnetje",
+    "score": 14208.835,
+    "nearest": "*/\r"
+   },
+   {
+    "id": 31627,
+    "token": "ศ",
+    "score": 12770.1904,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 15824,
+    "token": "());\r",
+    "score": 12410.9258,
+    "nearest": "U"
+   },
+   {
+    "id": 10591,
+    "token": "*/\r",
+    "score": 11939.8994,
+    "nearest": "t"
+   },
+   {
+    "id": 24038,
+    "token": "ByComparator",
+    "score": 11348.4746,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 17449,
+    "token": "börd",
+    "score": 10558.9971,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 13897,
+    "token": "listade",
+    "score": 10032.4756,
+    "nearest": "//\r"
+   },
+   {
+    "id": 18143,
+    "token": "версите",
+    "score": 9701.2412,
+    "nearest": "');\r"
+   },
+   {
+    "id": 32569,
+    "token": "շ",
+    "score": 9585.4717,
+    "nearest": "');\r"
+   },
+   {
+    "id": 11530,
+    "token": "qpoint",
+    "score": 9380.1113,
+    "nearest": "};\r"
+   },
+   {
+    "id": 27375,
+    "token": "Arbitro",
+    "score": 9306.8164,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32140,
+    "token": "庄",
+    "score": 8880.5215,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32571,
+    "token": "ណ",
+    "score": 8501.9512,
+    "nearest": "());\r"
+   },
+   {
+    "id": 31697,
+    "token": "᥀",
+    "score": 8329.085,
+    "nearest": ""
+   },
+   {
+    "id": 31541,
+    "token": "း",
+    "score": 7983.272,
+    "nearest": "᥀"
+   },
+   {
+    "id": 11533,
+    "token": "pgfqpoint",
+    "score": 7837.2017,
+    "nearest": "){\r"
+   },
+   {
+    "id": 14820,
+    "token": "Jahrhund",
+    "score": 7634.6465,
+    "nearest": "',\r"
+   },
+   {
+    "id": 17492,
+    "token": "tagHelper",
+    "score": 7127.1782,
+    "nearest": "};\r"
+   },
+   {
+    "id": 32518,
+    "token": "桃",
+    "score": 7032.2065,
+    "nearest": "){\r"
+   },
+   {
+    "id": 29013,
+    "token": "éal",
+    "score": 6977.1772,
+    "nearest": "[TOOL_CALLS]"
+   },
+   {
+    "id": 17953,
+    "token": "ublice",
+    "score": 6791.979,
+    "nearest": ");\r"
+   },
+   {
+    "id": 27160,
+    "token": "});\r",
+    "score": 6658.2764,
+    "nearest": "$"
+   },
+   {
+    "id": 31979,
+    "token": "ึ",
+    "score": 6508.0356,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 31630,
+    "token": "ზ",
+    "score": 6487.2095,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 26119,
+    "token": "__(/*!",
+    "score": 6327.0698,
+    "nearest": "());\r"
+   },
+   {
+    "id": 26851,
+    "token": "//\r",
+    "score": 6325.9209,
+    "nearest": "]"
+   },
+   {
+    "id": 13640,
+    "token": "underarter",
+    "score": 6320.6162,
+    "nearest": ");\r"
+   },
+   {
+    "id": 15748,
+    "token": "\">\r",
+    "score": 6147.8418,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 31759,
+    "token": "ც",
+    "score": 6145.9136,
+    "nearest": "());\r"
+   },
+   {
+    "id": 32605,
+    "token": "ે",
+    "score": 6106.1528,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32058,
+    "token": "ા",
+    "score": 6031.6201,
+    "nearest": "*/\r"
+   },
+   {
+    "id": 31621,
+    "token": "ာ",
+    "score": 5977.3242,
+    "nearest": "},\r"
+   },
+   {
+    "id": 8709,
+    "token": "ICENSE",
+    "score": 5624.7925,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 25962,
+    "token": "hado",
+    "score": 5618.0708,
+    "nearest": "},\r"
+   },
+   {
+    "id": 15874,
+    "token": "THOD",
+    "score": 5352.7524,
+    "nearest": "},\r"
+   },
+   {
+    "id": 29870,
+    "token": "ɵ",
+    "score": 5276.8447,
+    "nearest": "());\r"
+   },
+   {
+    "id": 31786,
+    "token": "駅",
+    "score": 5208.312,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 19597,
+    "token": "bitro",
+    "score": 5081.9268,
+    "nearest": "};\r"
+   },
+   {
+    "id": 16476,
+    "token": "klikken",
+    "score": 4954.4229,
+    "nearest": "());\r"
+   },
+   {
+    "id": 30223,
+    "token": "ە",
+    "score": 4911.5962,
+    "nearest": ");\r"
+   },
+   {
+    "id": 28200,
+    "token": "månaden",
+    "score": 4857.9365,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32524,
+    "token": "炮",
+    "score": 4783.6162,
+    "nearest": ");\r"
+   },
+   {
+    "id": 26848,
+    "token": "boldmath",
+    "score": 4746.2461,
+    "nearest": "){\r"
+   },
+   {
+    "id": 14148,
+    "token": "referenties",
+    "score": 4661.2407,
+    "nearest": "},\r"
+   },
+   {
+    "id": 21664,
+    "token": "Станов",
+    "score": 4646.688,
+    "nearest": "},\r"
+   },
+   {
+    "id": 26395,
+    "token": "CREF",
+    "score": 4615.0234,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32662,
+    "token": "ฌ",
+    "score": 4572.5327,
+    "nearest": ">?[<"
+   },
+   {
+    "id": 10297,
+    "token": "ncia",
+    "score": 4552.4897,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31882,
+    "token": "ژ",
+    "score": 4536.6318,
+    "nearest": "];\r"
+   },
+   {
+    "id": 16166,
+    "token": "вня",
+    "score": 4490.6152,
+    "nearest": "]);\r"
+   },
+   {
+    "id": 21803,
+    "token": "taient",
+    "score": 4484.7319,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 19159,
+    "token": "wohner",
+    "score": 4466.105,
+    "nearest": "',\r"
+   },
+   {
+    "id": 29325,
+    "token": "referto",
+    "score": 4463.7612,
+    "nearest": "},\r"
+   },
+   {
+    "id": 13451,
+    "token": "pgfpathlineto",
+    "score": 4459.6377,
+    "nearest": "};\r"
+   },
+   {
+    "id": 21018,
+    "token": "ellschaft",
+    "score": 4459.1313,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 5208,
+    "token": "teger",
+    "score": 4445.6162,
+    "nearest": "',\r"
+   },
+   {
+    "id": 31602,
+    "token": "լ",
+    "score": 4407.2041,
+    "nearest": ");\r"
+   },
+   {
+    "id": 16420,
+    "token": "voegen",
+    "score": 4355.1929,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32638,
+    "token": "ǀ",
+    "score": 4333.8638,
+    "nearest": "},\r"
+   },
+   {
+    "id": 13350,
+    "token": "lineto",
+    "score": 4244.8442,
+    "nearest": "\u001e"
+   },
+   {
+    "id": 18092,
+    "token": "ationToken",
+    "score": 4197.2041,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32211,
+    "token": "ⵏ",
+    "score": 4136.3384,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32341,
+    "token": "萨",
+    "score": 4113.3418,
+    "nearest": "᥀"
+   },
+   {
+    "id": 21186,
+    "token": "/**\r",
+    "score": 4021.8523,
+    "nearest": "�"
+   },
+   {
+    "id": 26855,
+    "token": "ölker",
+    "score": 4015.2302,
+    "nearest": "},\r"
+   },
+   {
+    "id": 20277,
+    "token": "jsce",
+    "score": 3990.7878,
+    "nearest": ");\r"
+   },
+   {
+    "id": 16506,
+    "token": "Geplaatst",
+    "score": 3983.1069,
+    "nearest": "},\r"
+   },
+   {
+    "id": 25626,
+    "token": "inand",
+    "score": 3982.3354,
+    "nearest": "());\r"
+   },
+   {
+    "id": 23151,
+    "token": "vma",
+    "score": 3948.0076,
+    "nearest": "};\r"
+   },
+   {
+    "id": 30910,
+    "token": "⚭",
+    "score": 3939.572,
+    "nearest": "},\r"
+   },
+   {
+    "id": 30810,
+    "token": "ェ",
+    "score": 3923.0642,
+    "nearest": "];\r"
+   },
+   {
+    "id": 27843,
+    "token": "íses",
+    "score": 3896.0493,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32695,
+    "token": "苗",
+    "score": 3889.8911,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 32501,
+    "token": "ⵙ",
+    "score": 3840.356,
+    "nearest": ");\r"
+   },
+   {
+    "id": 13019,
+    "token": "ября",
+    "score": 3838.2532,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 31311,
+    "token": "▬",
+    "score": 3806.1353,
+    "nearest": "↘"
+   },
+   {
+    "id": 4040,
+    "token": "atform",
+    "score": 3793.3391,
+    "nearest": "}\r"
+   },
+   {
+    "id": 10477,
+    "token": "tó",
+    "score": 3779.6096,
+    "nearest": "᥀"
+   },
+   {
+    "id": 19608,
+    "token": "iejsc",
+    "score": 3725.3391,
+    "nearest": "',\r"
+   },
+   {
+    "id": 18824,
+    "token": "mero",
+    "score": 3712.8215,
+    "nearest": "');\r"
+   },
+   {
+    "id": 28264,
+    "token": "олові",
+    "score": 3680.7686,
+    "nearest": "},\r"
+   },
+   {
+    "id": 19805,
+    "token": "öß",
+    "score": 3659.1841,
+    "nearest": "];\r"
+   },
+   {
+    "id": 32052,
+    "token": "င",
+    "score": 3641.9138,
+    "nearest": "];\r"
+   },
+   {
+    "id": 32541,
+    "token": "ѐ",
+    "score": 3635.7334,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31732,
+    "token": "ល",
+    "score": 3584.1052,
+    "nearest": "]);\r"
+   },
+   {
+    "id": 17402,
+    "token": "CLUDING",
+    "score": 3513.9336,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 18051,
+    "token": "glied",
+    "score": 3505.4004,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 31450,
+    "token": "郎",
+    "score": 3499.0149,
+    "nearest": "));\r"
+   },
+   {
+    "id": 21249,
+    "token": "imore",
+    "score": 3464.2278,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 25344,
+    "token": "äude",
+    "score": 3463.5229,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 31837,
+    "token": "ள",
+    "score": 3451.0227,
+    "nearest": "[TOOL_CALLS]"
+   },
+   {
+    "id": 24049,
+    "token": "AMETER",
+    "score": 3450.2305,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 28836,
+    "token": "äst",
+    "score": 3436.0847,
+    "nearest": "\",\r"
+   },
+   {
+    "id": 27100,
+    "token": "министратив",
+    "score": 3427.4656,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 32716,
+    "token": "ǝ",
+    "score": 3403.2256,
+    "nearest": "},\r"
+   },
+   {
+    "id": 24947,
+    "token": "febr",
+    "score": 3402.1521,
+    "nearest": "},\r"
+   },
+   {
+    "id": 5245,
+    "token": "opyright",
+    "score": 3396.3459,
+    "nearest": "){\r"
+   },
+   {
+    "id": 32356,
+    "token": "拳",
+    "score": 3377.2339,
+    "nearest": "[TOOL_CALLS]"
+   },
+   {
+    "id": 14126,
+    "token": "noten",
+    "score": 3350.2905,
+    "nearest": "\");\r"
+   },
+   {
+    "id": 31920,
+    "token": "ေ",
+    "score": 3295.6885,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 31758,
+    "token": "়",
+    "score": 3271.1821,
+    "nearest": "',\r"
+   },
+   {
+    "id": 22881,
+    "token": "insn",
+    "score": 3254.6399,
+    "nearest": "));\r"
+   },
+   {
+    "id": 11298,
+    "token": "franç",
+    "score": 3252.4648,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32289,
+    "token": "灣",
+    "score": 3217.4541,
+    "nearest": "},\r"
+   },
+   {
+    "id": 22644,
+    "token": "imeq",
+    "score": 3180.3704,
+    "nearest": "\u001c"
+   },
+   {
+    "id": 18823,
+    "token": "){\r",
+    "score": 3158.2307,
+    "nearest": "/**\r"
+   },
+   {
+    "id": 32735,
+    "token": "げ",
+    "score": 3147.9668,
+    "nearest": "᥀"
+   },
+   {
+    "id": 28033,
+    "token": "SDValue",
+    "score": 3130.8323,
+    "nearest": "};\r"
+   },
+   {
+    "id": 26674,
+    "token": "egründ",
+    "score": 3116.0703,
+    "nearest": "\");\r"
+   },
+   {
+    "id": 17292,
+    "token": "WEBPACK",
+    "score": 3099.4275,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32384,
+    "token": "າ",
+    "score": 3097.073,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 18870,
+    "token": "agma",
+    "score": 3060.6143,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32208,
+    "token": "ց",
+    "score": 3052.6851,
+    "nearest": "());\r"
+   },
+   {
+    "id": 28886,
+    "token": "adrat",
+    "score": 3038.863,
+    "nearest": "adr"
+   },
+   {
+    "id": 31632,
+    "token": "藤",
+    "score": 3029.1663,
+    "nearest": "葛"
+   },
+   {
+    "id": 13898,
+    "token": "aapt",
+    "score": 3029.1509,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 28224,
+    "token": ":%.*]]",
+    "score": 3009.3738,
+    "nearest": "]);\r"
+   },
+   {
+    "id": 32061,
+    "token": "բ",
+    "score": 2996.4495,
+    "nearest": "᥀"
+   },
+   {
+    "id": 13430,
+    "token": "ntil",
+    "score": 2970.6643,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32649,
+    "token": "պ",
+    "score": 2948.4072,
+    "nearest": "',\r"
+   },
+   {
+    "id": 32326,
+    "token": "ང",
+    "score": 2935.531,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 32209,
+    "token": "ូ",
+    "score": 2931.3135,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32225,
+    "token": "绍",
+    "score": 2923.4094,
+    "nearest": "];\r"
+   },
+   {
+    "id": 31068,
+    "token": "შ",
+    "score": 2920.3064,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 31705,
+    "token": "წ",
+    "score": 2916.4448,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32672,
+    "token": "ນ",
+    "score": 2915.5234,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32073,
+    "token": "գ",
+    "score": 2893.3398,
+    "nearest": "));\r"
+   },
+   {
+    "id": 26351,
+    "token": "netdev",
+    "score": 2880.6545,
+    "nearest": "));\r"
+   },
+   {
+    "id": 19527,
+    "token": "';\r",
+    "score": 2859.51,
+    "nearest": "\u0006"
+   },
+   {
+    "id": 32329,
+    "token": "ུ",
+    "score": 2851.8896,
+    "nearest": "){\r"
+   },
+   {
+    "id": 10062,
+    "token": "бря",
+    "score": 2849.468,
+    "nearest": "бри"
+   },
+   {
+    "id": 25430,
+    "token": "rezent",
+    "score": 2840.4148,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 32254,
+    "token": "્",
+    "score": 2819.854,
+    "nearest": "];\r"
+   },
+   {
+    "id": 27585,
+    "token": "ficie",
+    "score": 2813.4702,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 31438,
+    "token": "宁",
+    "score": 2807.1333,
+    "nearest": "\",\r"
+   },
+   {
+    "id": 8522,
+    "token": "imary",
+    "score": 2787.8445,
+    "nearest": "));\r"
+   },
+   {
+    "id": 32343,
+    "token": "ʏ",
+    "score": 2786.3181,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 22968,
+    "token": "jours",
+    "score": 2784.7322,
+    "nearest": "},\r"
+   },
+   {
+    "id": 4101,
+    "token": "ironment",
+    "score": 2779.8,
+    "nearest": "},\r"
+   },
+   {
+    "id": 30763,
+    "token": "រ",
+    "score": 2776.0535,
+    "nearest": "){\r"
+   },
+   {
+    "id": 32550,
+    "token": "ǫ",
+    "score": 2761.1421,
+    "nearest": "[TOOL_CALLS]"
+   },
+   {
+    "id": 32333,
+    "token": "ղ",
+    "score": 2759.1885,
+    "nearest": "){\r"
+   },
+   {
+    "id": 30598,
+    "token": "ვ",
+    "score": 2757.8508,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31807,
+    "token": "ׁ",
+    "score": 2749.8879,
+    "nearest": "());\r"
+   },
+   {
+    "id": 27404,
+    "token": "});\r",
+    "score": 2743.0767,
+    "nearest": "\u000e"
+   },
+   {
+    "id": 16715,
+    "token": "BPACK",
+    "score": 2725.5247,
+    "nearest": "());\r"
+   },
+   {
+    "id": 32019,
+    "token": "ំ",
+    "score": 2706.5581,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 5619,
+    "token": "tocol",
+    "score": 2704.3391,
+    "nearest": "){\r"
+   },
+   {
+    "id": 17300,
+    "token": "MBOL",
+    "score": 2703.4163,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32258,
+    "token": "溪",
+    "score": 2697.7952,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32690,
+    "token": "ⵓ",
+    "score": 2683.0596,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 32655,
+    "token": "ြ",
+    "score": 2683.0188,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32086,
+    "token": "릭",
+    "score": 2667.9375,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 32752,
+    "token": "糊",
+    "score": 2646.9502,
+    "nearest": "));\r"
+   },
+   {
+    "id": 22353,
+    "token": "orsz",
+    "score": 2640.4185,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32001,
+    "token": "ỏ",
+    "score": 2633.4626,
+    "nearest": "ằ"
+   },
+   {
+    "id": 13378,
+    "token": "utenant",
+    "score": 2630.2761,
+    "nearest": "();\r"
+   },
+   {
+    "id": 32683,
+    "token": "饰",
+    "score": 2628.8738,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 32232,
+    "token": "ძ",
+    "score": 2594.9976,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 30615,
+    "token": "ា",
+    "score": 2591.9248,
+    "nearest": "};\r"
+   },
+   {
+    "id": 16385,
+    "token": "netje",
+    "score": 2589.51,
+    "nearest": "',\r"
+   },
+   {
+    "id": 31613,
+    "token": "ិ",
+    "score": 2580.0508,
+    "nearest": "',\r"
+   },
+   {
+    "id": 31527,
+    "token": "\u001a",
+    "score": 2579.3809,
+    "nearest": "));\r"
+   },
+   {
+    "id": 6666,
+    "token": "dule",
+    "score": 2568.9255,
+    "nearest": "\f"
+   },
+   {
+    "id": 28630,
+    "token": "getOperand",
+    "score": 2551.0581,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32057,
+    "token": "ք",
+    "score": 2546.7529,
+    "nearest": "')\r"
+   },
+   {
+    "id": 28684,
+    "token": "Marcatori",
+    "score": 2542.6675,
+    "nearest": "};\r"
+   },
+   {
+    "id": 31665,
+    "token": "⠄",
+    "score": 2507.9983,
+    "nearest": "᥀"
+   },
+   {
+    "id": 24351,
+    "token": "CodeAttribute",
+    "score": 2502.1184,
+    "nearest": ");\r"
+   },
+   {
+    "id": 22852,
+    "token": ">{@",
+    "score": 2491.9729,
+    "nearest": "NdEx"
+   },
+   {
+    "id": 21002,
+    "token": "cido",
+    "score": 2483.3513,
+    "nearest": "hado"
+   },
+   {
+    "id": 27120,
+    "token": "спубли",
+    "score": 2454.1726,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 22670,
+    "token": "ześ",
+    "score": 2449.353,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31533,
+    "token": "ង",
+    "score": 2444.907,
+    "nearest": "};\r"
+   },
+   {
+    "id": 25769,
+    "token": "naio",
+    "score": 2417.9822,
+    "nearest": "febbra"
+   },
+   {
+    "id": 32085,
+    "token": "ⵉ",
+    "score": 2401.7483,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 28245,
+    "token": "lemagne",
+    "score": 2399.8948,
+    "nearest": "[TOOL_CALLS]"
+   },
+   {
+    "id": 22988,
+    "token": "нва",
+    "score": 2392.0149,
+    "nearest": "\",\r"
+   },
+   {
+    "id": 13969,
+    "token": "äter",
+    "score": 2388.0515,
+    "nearest": "},\r"
+   },
+   {
+    "id": 23446,
+    "token": "hemal",
+    "score": 2381.7017,
+    "nearest": "];\r"
+   },
+   {
+    "id": 19875,
+    "token": "pgfset",
+    "score": 2368.3369,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32581,
+    "token": "岡",
+    "score": 2367.8403,
+    "nearest": "᥀"
+   },
+   {
+    "id": 23118,
+    "token": "насеље",
+    "score": 2364.645,
+    "nearest": "\",\r"
+   },
+   {
+    "id": 31118,
+    "token": "ѣ",
+    "score": 2357.7124,
+    "nearest": "){\r"
+   },
+   {
+    "id": 32039,
+    "token": "泉",
+    "score": 2350.3013,
+    "nearest": "Springs"
+   },
+   {
+    "id": 32615,
+    "token": "ན",
+    "score": 2338.6423,
+    "nearest": "},\r"
+   },
+   {
+    "id": 16290,
+    "token": "iembre",
+    "score": 2326.3584,
+    "nearest": "');\r"
+   },
+   {
+    "id": 18568,
+    "token": "trm",
+    "score": 2311.9546,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32053,
+    "token": "튼",
+    "score": 2305.9602,
+    "nearest": "());\r"
+   },
+   {
+    "id": 31755,
+    "token": "ု",
+    "score": 2303.3989,
+    "nearest": "));\r"
+   },
+   {
+    "id": 31015,
+    "token": "်",
+    "score": 2295.9402,
+    "nearest": "];\r"
+   },
+   {
+    "id": 31032,
+    "token": "ម",
+    "score": 2293.2964,
+    "nearest": "){\r"
+   },
+   {
+    "id": 32626,
+    "token": "ེ",
+    "score": 2276.667,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 31289,
+    "token": "տ",
+    "score": 2276.4363,
+    "nearest": "}\r"
+   },
+   {
+    "id": 26557,
+    "token": "Autow",
+    "score": 2263.8857,
+    "nearest": "');\r"
+   },
+   {
+    "id": 32361,
+    "token": "陵",
+    "score": 2261.4553,
+    "nearest": "\");\r"
+   },
+   {
+    "id": 24280,
+    "token": "smithy",
+    "score": 2257.353,
+    "nearest": ");\r"
+   },
+   {
+    "id": 30986,
+    "token": "გ",
+    "score": 2256.2029,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 19275,
+    "token": "undial",
+    "score": 2238.8696,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31228,
+    "token": "ត",
+    "score": 2238.3748,
+    "nearest": "},\r"
+   },
+   {
+    "id": 5771,
+    "token": "thous",
+    "score": 2219.1262,
+    "nearest": "},\r"
+   },
+   {
+    "id": 17614,
+    "token": "IMPORTED",
+    "score": 2180.9102,
+    "nearest": "\";\r"
+   },
+   {
+    "id": 10431,
+    "token": "laug",
+    "score": 2176.3735,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32476,
+    "token": "စ",
+    "score": 2175.3826,
+    "nearest": "သ"
+   },
+   {
+    "id": 32016,
+    "token": "斗",
+    "score": 2170.0557,
+    "nearest": "{\r"
+   },
+   {
+    "id": 24274,
+    "token": "ipage",
+    "score": 2169.4636,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 32381,
+    "token": "励",
+    "score": 2160.3628,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 32164,
+    "token": "េ",
+    "score": 2159.29,
+    "nearest": ");\r"
+   },
+   {
+    "id": 32717,
+    "token": "Ḩ",
+    "score": 2157.2808,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32416,
+    "token": "ಲ",
+    "score": 2153.0876,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 31059,
+    "token": "ւ",
+    "score": 2149.3755,
+    "nearest": "){\r"
+   },
+   {
+    "id": 26985,
+    "token": "ancellationToken",
+    "score": 2144.7473,
+    "nearest": "');\r"
+   },
+   {
+    "id": 32669,
+    "token": "ញ",
+    "score": 2142.9988,
+    "nearest": "());\r"
+   },
+   {
+    "id": 32311,
+    "token": "ជ",
+    "score": 2140.3508,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 32701,
+    "token": "ថ",
+    "score": 2122.719,
+    "nearest": "},\r"
+   },
+   {
+    "id": 20926,
+    "token": "évrier",
+    "score": 2119.1841,
+    "nearest": "');\r"
+   },
+   {
+    "id": 32724,
+    "token": "ោ",
+    "score": 2114.2598,
+    "nearest": "));\r"
+   },
+   {
+    "id": 31792,
+    "token": "▓",
+    "score": 2105.4626,
+    "nearest": "];\r"
+   },
+   {
+    "id": 22752,
+    "token": "GroupLayout",
+    "score": 2093.3547,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32125,
+    "token": "ұ",
+    "score": 2093.0156,
+    "nearest": ");\r"
+   },
+   {
+    "id": 31829,
+    "token": "ុ",
+    "score": 2091.0413,
+    "nearest": "},\r"
+   },
+   {
+    "id": 3634,
+    "token": "uilder",
+    "score": 2087.53,
+    "nearest": "\u000b"
+   },
+   {
+    "id": 27380,
+    "token": "impse",
+    "score": 2082.9219,
+    "nearest": "());\r"
+   },
+   {
+    "id": 31615,
+    "token": "ʷ",
+    "score": 2046.3466,
+    "nearest": "᥀"
+   },
+   {
+    "id": 31442,
+    "token": "ɲ",
+    "score": 2037.8414,
+    "nearest": "));\r"
+   },
+   {
+    "id": 8680,
+    "token": "HOUT",
+    "score": 2037.8267,
+    "nearest": "shout"
+   },
+   {
+    "id": 26597,
+    "token": "äß",
+    "score": 2033.5083,
+    "nearest": "\u001d"
+   },
+   {
+    "id": 31488,
+    "token": "康",
+    "score": 2028.1814,
+    "nearest": "),\r"
+   },
+   {
+    "id": 30676,
+    "token": "ợ",
+    "score": 2027.0402,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 15174,
+    "token": "FTWARE",
+    "score": 2026.9266,
+    "nearest": "},\r"
+   },
+   {
+    "id": 31915,
+    "token": "葛",
+    "score": 2017.9429,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 28842,
+    "token": "pfn",
+    "score": 2015.042,
+    "nearest": "},\r"
+   },
+   {
+    "id": 26121,
+    "token": "äsident",
+    "score": 2004.6135,
+    "nearest": "},\r"
+   },
+   {
+    "id": 22084,
+    "token": "ImGui",
+    "score": 1998.686,
+    "nearest": "\",\r"
+   },
+   {
+    "id": 30699,
+    "token": "ў",
+    "score": 1995.9874,
+    "nearest": "\",\r"
+   },
+   {
+    "id": 31899,
+    "token": "府",
+    "score": 1991.3136,
+    "nearest": "ⵓ"
+   },
+   {
+    "id": 5228,
+    "token": "ttp",
+    "score": 1989.8995,
+    "nearest": "\u000b"
+   },
+   {
+    "id": 24581,
+    "token": "dzie",
+    "score": 1980.8149,
+    "nearest": "dz"
+   },
+   {
+    "id": 31868,
+    "token": "យ",
+    "score": 1977.8326,
+    "nearest": "},\r"
+   },
+   {
+    "id": 19532,
+    "token": "cembre",
+    "score": 1973.307,
+    "nearest": "febbra"
+   },
+   {
+    "id": 21392,
+    "token": "ништво",
+    "score": 1964.2052,
+    "nearest": "){\r"
+   },
+   {
+    "id": 32621,
+    "token": "⇽",
+    "score": 1956.0815,
+    "nearest": "᥀"
+   },
+   {
+    "id": 32196,
+    "token": "ヴ",
+    "score": 1932.9512,
+    "nearest": "វ"
+   },
+   {
+    "id": 32181,
+    "token": "险",
+    "score": 1931.7106,
+    "nearest": "iNdEx"
+   },
+   {
+    "id": 31672,
+    "token": "ќ",
+    "score": 1926.1921,
+    "nearest": "));\r"
+   },
+   {
+    "id": 31648,
+    "token": "ფ",
+    "score": 1925.1532,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 18047,
+    "token": "uvud",
+    "score": 1919.7917,
+    "nearest": "));\r"
+   },
+   {
+    "id": 12138,
+    "token": "pgfpath",
+    "score": 1913.9452,
+    "nearest": "};\r"
+   },
+   {
+    "id": 32270,
+    "token": "թ",
+    "score": 1906.4124,
+    "nearest": "];\r"
+   },
+   {
+    "id": 32460,
+    "token": "ែ",
+    "score": 1886.3606,
+    "nearest": "());\r"
+   },
+   {
+    "id": 31445,
+    "token": "ẩ",
+    "score": 1885.7512,
+    "nearest": "\");\r"
+   },
+   {
+    "id": 32454,
+    "token": "崎",
+    "score": 1885.3094,
+    "nearest": "')\r"
+   },
+   {
+    "id": 24012,
+    "token": "zerw",
+    "score": 1874.0166,
+    "nearest": "}\r"
+   },
+   {
+    "id": 32239,
+    "token": "铺",
+    "score": 1869.9065,
+    "nearest": "\");\r"
+   },
+   {
+    "id": 20029,
+    "token": "ueto",
+    "score": 1869.4567,
+    "nearest": "᥀"
+   },
+   {
+    "id": 31741,
+    "token": "ទ",
+    "score": 1858.1152,
+    "nearest": "\",\r"
+   },
+   {
+    "id": 8313,
+    "token": "blic",
+    "score": 1850.4929,
+    "nearest": "();\r"
+   },
+   {
+    "id": 19721,
+    "token": "утбо",
+    "score": 1842.1599,
+    "nearest": "){\r"
+   },
+   {
+    "id": 31820,
+    "token": "ھ",
+    "score": 1841.0302,
+    "nearest": "ٹ"
+   },
+   {
+    "id": 25481,
+    "token": "vscale",
+    "score": 1836.5094,
+    "nearest": ""
+   },
+   {
+    "id": 32180,
+    "token": "វ",
+    "score": 1831.1287,
+    "nearest": "));\r"
+   },
+   {
+    "id": 32200,
+    "token": "県",
+    "score": 1830.1523,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 32033,
+    "token": "昌",
+    "score": 1823.6176,
+    "nearest": "));\r"
+   },
+   {
+    "id": 32747,
+    "token": "袁",
+    "score": 1815.4728,
+    "nearest": "));\r"
+   },
+   {
+    "id": 18991,
+    "token": "multicol",
+    "score": 1812.1936,
+    "nearest": "⣿"
+   },
+   {
+    "id": 14096,
+    "token": "oppon",
+    "score": 1806.583,
+    "nearest": "\u001d"
+   },
+   {
+    "id": 10768,
+    "token": "widet",
+    "score": 1797.3806,
+    "nearest": "\u000b"
+   },
+   {
+    "id": 3249,
+    "token": "olean",
+    "score": 1791.2141,
+    "nearest": "));\r"
+   },
+   {
+    "id": 24322,
+    "token": "anean",
+    "score": 1788.9185,
+    "nearest": "aneous"
+   },
+   {
+    "id": 26311,
+    "token": "pshire",
+    "score": 1784.0881,
+    "nearest": "];\r"
+   },
+   {
+    "id": 31712,
+    "token": "荐",
+    "score": 1782.978,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 31495,
+    "token": "戏",
+    "score": 1782.8948,
+    "nearest": "));\r"
+   },
+   {
+    "id": 32733,
+    "token": "램",
+    "score": 1775.1583,
+    "nearest": "},\r"
+   },
+   {
+    "id": 32594,
+    "token": "ಯ",
+    "score": 1764.6937,
+    "nearest": "());\r"
+   },
+   {
+    "id": 22539,
+    "token": "shaller",
+    "score": 1764.149,
+    "nearest": "\">\r"
+   },
+   {
+    "id": 25194,
+    "token": "ąz",
+    "score": 1754.0677,
+    "nearest": "NdEx"
+   }
+  ],
+  "crowd_max_ordinary": [
+   {
+    "id": 6360,
+    "token": "Yes",
+    "score": 0.8846,
+    "nearest": "Yes"
+   },
+   {
+    "id": 8741,
+    "token": "Custom",
+    "score": 0.8844,
+    "nearest": "Custom"
+   },
+   {
+    "id": 6481,
+    "token": "Once",
+    "score": 0.8843,
+    "nearest": "Once"
+   },
+   {
+    "id": 12298,
+    "token": "Short",
+    "score": 0.8813,
+    "nearest": "Short"
+   },
+   {
+    "id": 16001,
+    "token": "Double",
+    "score": 0.8767,
+    "nearest": "Double"
+   },
+   {
+    "id": 9955,
+    "token": "Non",
+    "score": 0.8762,
+    "nearest": "Non"
+   },
+   {
+    "id": 4403,
+    "token": "None",
+    "score": 0.8755,
+    "nearest": "None"
+   },
+   {
+    "id": 20190,
+    "token": "Comb",
+    "score": 0.8755,
+    "nearest": "Comb"
+   },
+   {
+    "id": 7373,
+    "token": "Under",
+    "score": 0.8743,
+    "nearest": "Under"
+   },
+   {
+    "id": 5083,
+    "token": "Why",
+    "score": 0.8732,
+    "nearest": "Why"
+   },
+   {
+    "id": 7595,
+    "token": "Bas",
+    "score": 0.8726,
+    "nearest": "Bas"
+   },
+   {
+    "id": 12210,
+    "token": "Try",
+    "score": 0.8723,
+    "nearest": "Try"
+   },
+   {
+    "id": 15740,
+    "token": "Deep",
+    "score": 0.872,
+    "nearest": "Deep"
+   },
+   {
+    "id": 6845,
+    "token": "Super",
+    "score": 0.8716,
+    "nearest": "Super"
+   },
+   {
+    "id": 13859,
+    "token": "Low",
+    "score": 0.8706,
+    "nearest": "Low"
+   },
+   {
+    "id": 15060,
+    "token": "Dead",
+    "score": 0.8699,
+    "nearest": "Dead"
+   },
+   {
+    "id": 6441,
+    "token": "White",
+    "score": 0.8691,
+    "nearest": "White"
+   },
+   {
+    "id": 11479,
+    "token": "Total",
+    "score": 0.8691,
+    "nearest": "Total"
+   },
+   {
+    "id": 19035,
+    "token": "Basic",
+    "score": 0.8689,
+    "nearest": "Basic"
+   },
+   {
+    "id": 24093,
+    "token": "Normal",
+    "score": 0.8678,
+    "nearest": "Normal"
+   },
+   {
+    "id": 8458,
+    "token": "Last",
+    "score": 0.8675,
+    "nearest": "Last"
+   },
+   {
+    "id": 13886,
+    "token": "Wait",
+    "score": 0.8675,
+    "nearest": "Wait"
+   },
+   {
+    "id": 9636,
+    "token": "Thanks",
+    "score": 0.8674,
+    "nearest": "Thanks"
+   },
+   {
+    "id": 8527,
+    "token": "Project",
+    "score": 0.8673,
+    "nearest": "Project"
+   },
+   {
+    "id": 7196,
+    "token": "Long",
+    "score": 0.8672,
+    "nearest": "Long"
+   },
+   {
+    "id": 25737,
+    "token": "Transfer",
+    "score": 0.8671,
+    "nearest": "Transfer"
+   },
+   {
+    "id": 9105,
+    "token": "Ret",
+    "score": 0.867,
+    "nearest": "Ret"
+   },
+   {
+    "id": 5545,
+    "token": "Black",
+    "score": 0.8665,
+    "nearest": "Black"
+   },
+   {
+    "id": 3247,
+    "token": "Then",
+    "score": 0.8664,
+    "nearest": "Then"
+   },
+   {
+    "id": 10502,
+    "token": "Bad",
+    "score": 0.866,
+    "nearest": "Bad"
+   },
+   {
+    "id": 8008,
+    "token": "Tim",
+    "score": 0.8659,
+    "nearest": "Tim"
+   },
+   {
+    "id": 6773,
+    "token": "Two",
+    "score": 0.8658,
+    "nearest": "Two"
+   },
+   {
+    "id": 6601,
+    "token": "Maybe",
+    "score": 0.8658,
+    "nearest": "Maybe"
+   },
+   {
+    "id": 6397,
+    "token": "Open",
+    "score": 0.8657,
+    "nearest": "Open"
+   },
+   {
+    "id": 9684,
+    "token": "Self",
+    "score": 0.8651,
+    "nearest": "Self"
+   },
+   {
+    "id": 6687,
+    "token": "Please",
+    "score": 0.8649,
+    "nearest": "Please"
+   },
+   {
+    "id": 13371,
+    "token": "Contact",
+    "score": 0.8649,
+    "nearest": "Contact"
+   },
+   {
+    "id": 10476,
+    "token": "Hard",
+    "score": 0.8648,
+    "nearest": "Hard"
+   },
+   {
+    "id": 10384,
+    "token": "Using",
+    "score": 0.8647,
+    "nearest": "Using"
+   },
+   {
+    "id": 9658,
+    "token": "Take",
+    "score": 0.8646,
+    "nearest": "Take"
+   },
+   {
+    "id": 15131,
+    "token": "Private",
+    "score": 0.8645,
+    "nearest": "Private"
+   },
+   {
+    "id": 11099,
+    "token": "Put",
+    "score": 0.8643,
+    "nearest": "Put"
+   },
+   {
+    "id": 19480,
+    "token": "Parent",
+    "score": 0.8642,
+    "nearest": "Parent"
+   },
+   {
+    "id": 7016,
+    "token": "Green",
+    "score": 0.8641,
+    "nearest": "Green"
+   },
+   {
+    "id": 8170,
+    "token": "Lat",
+    "score": 0.8638,
+    "nearest": "Lat"
+   },
+   {
+    "id": 6793,
+    "token": "Many",
+    "score": 0.8637,
+    "nearest": "Many"
+   },
+   {
+    "id": 10321,
+    "token": "Local",
+    "score": 0.8637,
+    "nearest": "Local"
+   },
+   {
+    "id": 11849,
+    "token": "Nothing",
+    "score": 0.8636,
+    "nearest": "Nothing"
+   },
+   {
+    "id": 25265,
+    "token": "Visual",
+    "score": 0.8634,
+    "nearest": "Visual"
+   },
+   {
+    "id": 18307,
+    "token": "Fast",
+    "score": 0.8633,
+    "nearest": "Fast"
+   },
+   {
+    "id": 15189,
+    "token": "Aud",
+    "score": 0.8633,
+    "nearest": "Aud"
+   },
+   {
+    "id": 8455,
+    "token": "Pan",
+    "score": 0.8627,
+    "nearest": "Pan"
+   },
+   {
+    "id": 6878,
+    "token": "True",
+    "score": 0.8627,
+    "nearest": "True"
+   },
+   {
+    "id": 17558,
+    "token": "Exp",
+    "score": 0.8624,
+    "nearest": "Exp"
+   },
+   {
+    "id": 8105,
+    "token": "Before",
+    "score": 0.8623,
+    "nearest": "Before"
+   },
+   {
+    "id": 10750,
+    "token": "Tri",
+    "score": 0.8621,
+    "nearest": "Tri"
+   },
+   {
+    "id": 5996,
+    "token": "Free",
+    "score": 0.8621,
+    "nearest": "Free"
+   },
+   {
+    "id": 29356,
+    "token": "Running",
+    "score": 0.862,
+    "nearest": "Running"
+   },
+   {
+    "id": 19085,
+    "token": "Multi",
+    "score": 0.8618,
+    "nearest": "Multi"
+   },
+   {
+    "id": 12587,
+    "token": "Ten",
+    "score": 0.8618,
+    "nearest": "Ten"
+   }
+  ],
+  "prox_static_ordinary": [
+   {
+    "id": 29176,
+    "token": "LIABLE",
+    "score": 0.2979,
+    "nearest": "LIABILITY"
+   },
+   {
+    "id": 21050,
+    "token": "IMPLIED",
+    "score": 0.2685,
+    "nearest": "WARRANTIES"
+   },
+   {
+    "id": 16441,
+    "token": "msm",
+    "score": 0.2429,
+    "nearest": "MSM"
+   },
+   {
+    "id": 29348,
+    "token": "ARISING",
+    "score": 0.2216,
+    "nearest": "IMPLIED"
+   },
+   {
+    "id": 27251,
+    "token": "DAMAGES",
+    "score": 0.219,
+    "nearest": "LIABILITY"
+   },
+   {
+    "id": 27791,
+    "token": "MODULE",
+    "score": 0.2084,
+    "nearest": "MODULE"
+   },
+   {
+    "id": 24261,
+    "token": "COPYRIGHT",
+    "score": 0.207,
+    "nearest": "Copyright"
+   },
+   {
+    "id": 21481,
+    "token": "EXPORT",
+    "score": 0.2044,
+    "nearest": "Export"
+   },
+   {
+    "id": 15659,
+    "token": "SOFTWARE",
+    "score": 0.2022,
+    "nearest": "Software"
+   },
+   {
+    "id": 22976,
+    "token": "LIABILITY",
+    "score": 0.1991,
+    "nearest": "liability"
+   },
+   {
+    "id": 15205,
+    "token": "WARRANTY",
+    "score": 0.1971,
+    "nearest": "WARRANTIES"
+   },
+   {
+    "id": 27333,
+    "token": "INCLUDING",
+    "score": 0.1969,
+    "nearest": "including"
+   },
+   {
+    "id": 13862,
+    "token": "PARTICULAR",
+    "score": 0.1954,
+    "nearest": "PARTIC"
+   },
+   {
+    "id": 28350,
+    "token": "pci",
+    "score": 0.1826,
+    "nearest": "PCI"
+   },
+   {
+    "id": 16993,
+    "token": "LICENSE",
+    "score": 0.182,
+    "nearest": "License"
+   },
+   {
+    "id": 27872,
+    "token": "PROVIDED",
+    "score": 0.1795,
+    "nearest": "PROVID"
+   },
+   {
+    "id": 13968,
+    "token": "FITNESS",
+    "score": 0.179,
+    "nearest": "fitness"
+   },
+   {
+    "id": 28479,
+    "token": "EXPRESS",
+    "score": 0.179,
+    "nearest": "Express"
+   },
+   {
+    "id": 12999,
+    "token": "CONDITIONS",
+    "score": 0.1752,
+    "nearest": "CONDITION"
+   },
+   {
+    "id": 25305,
+    "token": "Aires",
+    "score": 0.1728,
+    "nearest": "aires"
+   },
+   {
+    "id": 13027,
+    "token": "BASIS",
+    "score": 0.1703,
+    "nearest": "basis"
+   },
+   {
+    "id": 12784,
+    "token": "CONDITION",
+    "score": 0.1692,
+    "nearest": "Condition"
+   },
+   {
+    "id": 24895,
+    "token": "otto",
+    "score": 0.1692,
+    "nearest": "Otto"
+   },
+   {
+    "id": 15100,
+    "token": "SORT",
+    "score": 0.1683,
+    "nearest": "Sort"
+   },
+   {
+    "id": 28055,
+    "token": "SHALL",
+    "score": 0.1675,
+    "nearest": "shall"
+   },
+   {
+    "id": 19285,
+    "token": "COPY",
+    "score": 0.1635,
+    "nearest": "Copy"
+   },
+   {
+    "id": 27216,
+    "token": "CONTRACT",
+    "score": 0.1578,
+    "nearest": "Contract"
+   },
+   {
+    "id": 9060,
+    "token": "WITHOUT",
+    "score": 0.1533,
+    "nearest": "without"
+   },
+   {
+    "id": 21649,
+    "token": "LIMITED",
+    "score": 0.1436,
+    "nearest": "Limited"
+   },
+   {
+    "id": 9964,
+    "token": "ASSERT",
+    "score": 0.1407,
+    "nearest": "ASSERT"
+   },
+   {
+    "id": 26166,
+    "token": "tcp",
+    "score": 0.1404,
+    "nearest": "tcp"
+   },
+   {
+    "id": 11835,
+    "token": "KIND",
+    "score": 0.1402,
+    "nearest": "Kind"
+   },
+   {
+    "id": 8038,
+    "token": "EXPECT",
+    "score": 0.1335,
+    "nearest": "Expect"
+   },
+   {
+    "id": 14882,
+    "token": "cms",
+    "score": 0.1334,
+    "nearest": "cm"
+   },
+   {
+    "id": 17151,
+    "token": "ERROR",
+    "score": 0.1326,
+    "nearest": "ERROR"
+   },
+   {
+    "id": 29244,
+    "token": "Albums",
+    "score": 0.1293,
+    "nearest": "albums"
+   },
+   {
+    "id": 13646,
+    "token": "PURPOSE",
+    "score": 0.1277,
+    "nearest": "purpose"
+   },
+   {
+    "id": 12868,
+    "token": "ERR",
+    "score": 0.1258,
+    "nearest": "ERR"
+   },
+   {
+    "id": 17167,
+    "token": "CHAPTER",
+    "score": 0.1258,
+    "nearest": "Chapter"
+   },
+   {
+    "id": 17843,
+    "token": "usb",
+    "score": 0.1253,
+    "nearest": "USB"
+   },
+   {
+    "id": 27967,
+    "token": "NOTICE",
+    "score": 0.1238,
+    "nearest": "Notice"
+   },
+   {
+    "id": 27536,
+    "token": "Validate",
+    "score": 0.123,
+    "nearest": "Validate"
+   },
+   {
+    "id": 18639,
+    "token": "LIMIT",
+    "score": 0.122,
+    "nearest": "Limit"
+   },
+   {
+    "id": 18305,
+    "token": "DEFAULT",
+    "score": 0.1207,
+    "nearest": "DEFAULT"
+   },
+   {
+    "id": 21718,
+    "token": "Sql",
+    "score": 0.1201,
+    "nearest": "Sql"
+   },
+   {
+    "id": 28501,
+    "token": "ctrl",
+    "score": 0.1169,
+    "nearest": "ctrl"
+   },
+   {
+    "id": 24277,
+    "token": "PAGE",
+    "score": 0.1144,
+    "nearest": "PAGE"
+   },
+   {
+    "id": 29277,
+    "token": "ACTION",
+    "score": 0.1121,
+    "nearest": "ACTION"
+   },
+   {
+    "id": 26543,
+    "token": "TEXT",
+    "score": 0.112,
+    "nearest": "TEXT"
+   },
+   {
+    "id": 24173,
+    "token": "Votes",
+    "score": 0.1091,
+    "nearest": "votes"
+   },
+   {
+    "id": 23381,
+    "token": "uri",
+    "score": 0.1091,
+    "nearest": "URI"
+   },
+   {
+    "id": 27430,
+    "token": "Instance",
+    "score": 0.1061,
+    "nearest": "Instance"
+   },
+   {
+    "id": 17665,
+    "token": "OTHER",
+    "score": 0.1046,
+    "nearest": "Other"
+   },
+   {
+    "id": 12789,
+    "token": "cpu",
+    "score": 0.1043,
+    "nearest": "CPU"
+   },
+   {
+    "id": 28568,
+    "token": "blinked",
+    "score": 0.1042,
+    "nearest": "blink"
+   },
+   {
+    "id": 28340,
+    "token": "Observable",
+    "score": 0.1031,
+    "nearest": "Observ"
+   },
+   {
+    "id": 19461,
+    "token": "EVENT",
+    "score": 0.1027,
+    "nearest": "EVENT"
+   },
+   {
+    "id": 18691,
+    "token": "frances",
+    "score": 0.1023,
+    "nearest": "français"
+   },
+   {
+    "id": 11989,
+    "token": "FALSE",
+    "score": 0.1021,
+    "nearest": "FALSE"
+   },
+   {
+    "id": 25484,
+    "token": "Tensor",
+    "score": 0.1016,
+    "nearest": "Tensor"
+   }
+  ],
+  "lid_ordinary": [
+   {
+    "id": 25305,
+    "token": "Aires",
+    "score": 494.606,
+    "nearest": "aires"
+   },
+   {
+    "id": 29176,
+    "token": "LIABLE",
+    "score": 138.9405,
+    "nearest": "LIABILITY"
+   },
+   {
+    "id": 16640,
+    "token": "dil",
+    "score": 125.2145,
+    "nearest": "vig"
+   },
+   {
+    "id": 20988,
+    "token": "Karen",
+    "score": 99.5693,
+    "nearest": "Kath"
+   },
+   {
+    "id": 22494,
+    "token": "bout",
+    "score": 98.8252,
+    "nearest": "about"
+   },
+   {
+    "id": 16130,
+    "token": "tang",
+    "score": 97.6459,
+    "nearest": "concrete"
+   },
+   {
+    "id": 14303,
+    "token": "stir",
+    "score": 95.0133,
+    "nearest": "stim"
+   },
+   {
+    "id": 22950,
+    "token": "mou",
+    "score": 92.9098,
+    "nearest": "mouth"
+   },
+   {
+    "id": 18622,
+    "token": "stem",
+    "score": 91.6065,
+    "nearest": "STEM"
+   },
+   {
+    "id": 16558,
+    "token": "stake",
+    "score": 91.0595,
+    "nearest": "sigma"
+   },
+   {
+    "id": 26866,
+    "token": "wagon",
+    "score": 90.4137,
+    "nearest": "carriage"
+   },
+   {
+    "id": 25710,
+    "token": "rack",
+    "score": 85.8548,
+    "nearest": "rake"
+   },
+   {
+    "id": 17857,
+    "token": "tin",
+    "score": 82.8793,
+    "nearest": "alumin"
+   },
+   {
+    "id": 28432,
+    "token": "Nina",
+    "score": 80.1602,
+    "nearest": "Linda"
+   },
+   {
+    "id": 10560,
+    "token": "diss",
+    "score": 79.175,
+    "nearest": "dis"
+   },
+   {
+    "id": 25692,
+    "token": "Martha",
+    "score": 79.0061,
+    "nearest": "arth"
+   },
+   {
+    "id": 26504,
+    "token": "worm",
+    "score": 78.4793,
+    "nearest": "insect"
+   },
+   {
+    "id": 15181,
+    "token": "hack",
+    "score": 77.4914,
+    "nearest": "cyber"
+   },
+   {
+    "id": 25279,
+    "token": "dough",
+    "score": 77.4211,
+    "nearest": "DO"
+   },
+   {
+    "id": 27933,
+    "token": "slammed",
+    "score": 76.86,
+    "nearest": "crashed"
+   },
+   {
+    "id": 19671,
+    "token": "jog",
+    "score": 75.9991,
+    "nearest": "workout"
+   },
+   {
+    "id": 7177,
+    "token": "shut",
+    "score": 75.9147,
+    "nearest": "closed"
+   },
+   {
+    "id": 25241,
+    "token": "zak",
+    "score": 75.3943,
+    "nearest": "zam"
+   },
+   {
+    "id": 26169,
+    "token": "HIV",
+    "score": 74.9741,
+    "nearest": "LGBT"
+   },
+   {
+    "id": 23978,
+    "token": "streak",
+    "score": 74.8093,
+    "nearest": "reak"
+   },
+   {
+    "id": 22440,
+    "token": "wen",
+    "score": 74.4689,
+    "nearest": "wen"
+   },
+   {
+    "id": 21221,
+    "token": "pint",
+    "score": 72.0788,
+    "nearest": "beer"
+   },
+   {
+    "id": 13573,
+    "token": "pale",
+    "score": 70.9249,
+    "nearest": "white"
+   },
+   {
+    "id": 17811,
+    "token": "nun",
+    "score": 68.0471,
+    "nearest": "priest"
+   },
+   {
+    "id": 25042,
+    "token": "Bruno",
+    "score": 67.5565,
+    "nearest": "Brun"
+   },
+   {
+    "id": 19676,
+    "token": "Nancy",
+    "score": 67.2584,
+    "nearest": "ancy"
+   },
+   {
+    "id": 21778,
+    "token": "bail",
+    "score": 66.9822,
+    "nearest": "rescue"
+   },
+   {
+    "id": 18930,
+    "token": "Gary",
+    "score": 66.0658,
+    "nearest": "gamma"
+   },
+   {
+    "id": 22936,
+    "token": "dio",
+    "score": 65.2513,
+    "nearest": "DIO"
+   },
+   {
+    "id": 29017,
+    "token": "lust",
+    "score": 65.2402,
+    "nearest": "greed"
+   },
+   {
+    "id": 21875,
+    "token": "Fitz",
+    "score": 64.8697,
+    "nearest": "FIT"
+   },
+   {
+    "id": 29351,
+    "token": "groom",
+    "score": 64.8466,
+    "nearest": "bride"
+   },
+   {
+    "id": 28764,
+    "token": "Roberto",
+    "score": 64.7999,
+    "nearest": "Robert"
+   },
+   {
+    "id": 9252,
+    "token": "narrow",
+    "score": 64.5733,
+    "nearest": "broad"
+   },
+   {
+    "id": 27694,
+    "token": "Zach",
+    "score": 64.2817,
+    "nearest": "zeta"
+   },
+   {
+    "id": 28651,
+    "token": "clutch",
+    "score": 63.5924,
+    "nearest": "cluster"
+   },
+   {
+    "id": 11036,
+    "token": "tent",
+    "score": 63.2109,
+    "nearest": "camp"
+   },
+   {
+    "id": 16248,
+    "token": "Creek",
+    "score": 63.1485,
+    "nearest": "reek"
+   },
+   {
+    "id": 18325,
+    "token": "spare",
+    "score": 63.0796,
+    "nearest": "yield"
+   },
+   {
+    "id": 25117,
+    "token": "pied",
+    "score": 62.3097,
+    "nearest": "pie"
+   },
+   {
+    "id": 28297,
+    "token": "mast",
+    "score": 62.0992,
+    "nearest": "porn"
+   },
+   {
+    "id": 25256,
+    "token": "tier",
+    "score": 61.8214,
+    "nearest": "level"
+   },
+   {
+    "id": 25496,
+    "token": "Diana",
+    "score": 61.7533,
+    "nearest": "dia"
+   },
+   {
+    "id": 26118,
+    "token": "Maurice",
+    "score": 61.596,
+    "nearest": "Maur"
+   },
+   {
+    "id": 17945,
+    "token": "Eli",
+    "score": 61.2786,
+    "nearest": "Ell"
+   },
+   {
+    "id": 29272,
+    "token": "Ned",
+    "score": 61.2518,
+    "nearest": "ned"
+   },
+   {
+    "id": 23371,
+    "token": "Watson",
+    "score": 61.2209,
+    "nearest": "wat"
+   },
+   {
+    "id": 10629,
+    "token": "reform",
+    "score": 61.0224,
+    "nearest": "Re"
+   },
+   {
+    "id": 9428,
+    "token": "twice",
+    "score": 60.9095,
+    "nearest": "repeatedly"
+   },
+   {
+    "id": 22858,
+    "token": "rue",
+    "score": 60.7897,
+    "nearest": "regret"
+   },
+   {
+    "id": 28309,
+    "token": "exotic",
+    "score": 60.7543,
+    "nearest": "tropical"
+   },
+   {
+    "id": 10151,
+    "token": "Jones",
+    "score": 60.7385,
+    "nearest": "zones"
+   },
+   {
+    "id": 18694,
+    "token": "Prix",
+    "score": 60.6775,
+    "nearest": "Prize"
+   },
+   {
+    "id": 24357,
+    "token": "shy",
+    "score": 60.5512,
+    "nearest": "hes"
+   },
+   {
+    "id": 13625,
+    "token": "tap",
+    "score": 60.2961,
+    "nearest": "tape"
+   }
+  ]
+ }
+}

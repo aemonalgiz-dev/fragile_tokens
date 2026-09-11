@@ -199,7 +199,7 @@ def main():
     print("Q2  IS FAILURE PREDICTABLE WITHOUT RUNNING THE MODEL?")
     print("AUC for predicting reproduction FAILURE, within each n")
     print("=" * 78)
-    from src.cut.analyze_trajectory import auc
+    from src.cut.stats import auc
     print(f"{'n':>3} | {'n_fail':>6} | {'unreach adj':>11} | {'re-segments':>11} | "
           f"{'seq char len':>12}")
     print("-" * 56)

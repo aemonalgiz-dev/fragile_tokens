@@ -44,7 +44,7 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from .analyze_trajectory import auc
+from .stats import auc
 from .embed_predict import direct_path
 from .loadmodel import load_embeddings
 

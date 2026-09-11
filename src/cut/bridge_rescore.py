@@ -20,7 +20,7 @@ from __future__ import annotations
 import argparse, difflib, json, re
 import numpy as np
 
-from .analyze_trajectory import auc
+from .stats import auc
 
 ALIAS_OK = {"numpy": {"np", "numpy"}, "torch": {"torch"}, "transformers": {"transformers"}}
 

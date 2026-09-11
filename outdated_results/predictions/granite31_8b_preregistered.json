@@ -1,0 +1,2552 @@
+{
+ "tag": "granite31_8b",
+ "repo": "ibm-granite/granite-3.1-8b-instruct",
+ "tied": true,
+ "vocab": 49155,
+ "table": [
+  49155,
+  4096
+ ],
+ "static_reference_rows": 0,
+ "reserved_tokens": [],
+ "created_utc": "2026-09-11T15:50:15+00:00",
+ "scores_file": "results/predictions/granite31_8b_scores.npz",
+ "scores_sha256": "b6980dc13df91622a8471e69ba7878f9d20565dada74f3da73665810a055f03e",
+ "hypotheses": [
+  "H1 prox_static: on the Lambda random sample, fragile vs stable (clean alone), token-id-stratified AUC >= 0.60",
+  "H2 lid: same test, token-id-stratified AUC >= 0.60",
+  "H3 crowd_max within ordinary English words: fragile vs stable AUC >= 0.60",
+  "H4 each method's top-300 predicted-fragile set has a fragile rate >= 2x the random sample's",
+  "Only models with >= 5 static-reference rows are eligible for H1."
+ ],
+ "top_predicted_fragile": {
+  "prox_static": [],
+  "lid": [
+   {
+    "id": 20020,
+    "token": " VRType",
+    "score": 8976.7686,
+    "nearest": "umdolorsitamet"
+   },
+   {
+    "id": 18665,
+    "token": "CONSTFN",
+    "score": 8586.8682,
+    "nearest": "Integervelvel"
+   },
+   {
+    "id": 39429,
+    "token": " CNWVirtualMachineCommands",
+    "score": 7278.3379,
+    "nearest": "umdolorsitamet"
+   },
+   {
+    "id": 7014,
+    "token": "precated",
+    "score": 7217.5317,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 36487,
+    "token": " FOLDEF",
+    "score": 6385.4595,
+    "nearest": "bzZBl"
+   },
+   {
+    "id": 43129,
+    "token": "DedicatedCloud",
+    "score": 6337.3882,
+    "nearest": "LPADDING"
+   },
+   {
+    "id": 9323,
+    "token": "ssible",
+    "score": 6319.6909,
+    "nearest": " LNControlPoint"
+   },
+   {
+    "id": 44873,
+    "token": "wordcounts",
+    "score": 6111.8633,
+    "nearest": "<issue_comment>"
+   },
+   {
+    "id": 48917,
+    "token": "BindingEncoder",
+    "score": 6056.8628,
+    "nearest": "lcsSetup"
+   },
+   {
+    "id": 47272,
+    "token": "脆",
+    "score": 5895.4424,
+    "nearest": "acreditopunto"
+   },
+   {
+    "id": 23774,
+    "token": "postinc",
+    "score": 5754.8496,
+    "nearest": "cmpqp"
+   },
+   {
+    "id": 10903,
+    "token": "IndexQueryParserTests",
+    "score": 5751.7788,
+    "nearest": "reUIe"
+   },
+   {
+    "id": 29574,
+    "token": "VisualStyleBackColor",
+    "score": 5514.4634,
+    "nearest": "umdolorsitamet"
+   },
+   {
+    "id": 43355,
+    "token": "openliberty",
+    "score": 5514.0659,
+    "nearest": "<gh_stars>"
+   },
+   {
+    "id": 45938,
+    "token": "toISO",
+    "score": 5477.6895,
+    "nearest": "ÔòÉÔòÉ"
+   },
+   {
+    "id": 41547,
+    "token": "linkU",
+    "score": 5335.3252,
+    "nearest": "twngo"
+   },
+   {
+    "id": 27348,
+    "token": "idiomas",
+    "score": 5058.3149,
+    "nearest": "twngo"
+   },
+   {
+    "id": 37762,
+    "token": " BibleDownload",
+    "score": 5056.2598,
+    "nearest": "LPADDING"
+   },
+   {
+    "id": 44289,
+    "token": "INCEXPRS",
+    "score": 5008.5894,
+    "nearest": "getExecSqlList"
+   },
+   {
+    "id": 39333,
+    "token": "BulkMutate",
+    "score": 4975.9238,
+    "nearest": "SimulationProtos"
+   },
+   {
+    "id": 29699,
+    "token": " CNWSCreature",
+    "score": 4957.4307,
+    "nearest": "lcsSetup"
+   },
+   {
+    "id": 19126,
+    "token": "totime",
+    "score": 4827.9316,
+    "nearest": " ZrLogUtil"
+   },
+   {
+    "id": 33140,
+    "token": "thycotic",
+    "score": 4806.1719,
+    "nearest": "<commit_before>"
+   },
+   {
+    "id": 33418,
+    "token": " kInstruction",
+    "score": 4785.4692,
+    "nearest": "iPagoOrdenCompra"
+   },
+   {
+    "id": 46658,
+    "token": "DocFx",
+    "score": 4785.46,
+    "nearest": "<commit_after>"
+   },
+   {
+    "id": 45656,
+    "token": "GenericInst",
+    "score": 4713.0312,
+    "nearest": "lcsSetup"
+   },
+   {
+    "id": 39775,
+    "token": " auxIntToInt",
+    "score": 4576.0737,
+    "nearest": "callGoStackCheck"
+   },
+   {
+    "id": 40489,
+    "token": "BulkMutateJobService",
+    "score": 4519.0576,
+    "nearest": "getExecSqlList"
+   },
+   {
+    "id": 46351,
+    "token": "}/.",
+    "score": 4430.1299,
+    "nearest": "}/${"
+   },
+   {
+    "id": 33331,
+    "token": " chxj",
+    "score": 4412.3223,
+    "nearest": "lcsSetup"
+   },
+   {
+    "id": 40321,
+    "token": "NICALL",
+    "score": 4403.3867,
+    "nearest": "NUZLI"
+   },
+   {
+    "id": 42342,
+    "token": "losable",
+    "score": 4307.8545,
+    "nearest": "DetalleNotaCreditoPuntoVenta"
+   },
+   {
+    "id": 26118,
+    "token": "helpviewer",
+    "score": 4297.313,
+    "nearest": "callGoStackCheck"
+   },
+   {
+    "id": 37978,
+    "token": "henderit",
+    "score": 4238.2446,
+    "nearest": "üritüütsch"
+   },
+   {
+    "id": 31552,
+    "token": "{\",",
+    "score": 4238.2236,
+    "nearest": " a�"
+   },
+   {
+    "id": 46929,
+    "token": " crocksdb",
+    "score": 4228.064,
+    "nearest": "cfUOQOae"
+   },
+   {
+    "id": 13607,
+    "token": "apticPopulation",
+    "score": 4215.4854,
+    "nearest": "umdolorsitamet"
+   },
+   {
+    "id": 31874,
+    "token": "sideY",
+    "score": 4072.6123,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 35914,
+    "token": "noupdate",
+    "score": 4024.7068,
+    "nearest": "ClusterSimulationProtos"
+   },
+   {
+    "id": 46269,
+    "token": "BTESH",
+    "score": 4005.2842,
+    "nearest": "callGoStackCheck"
+   },
+   {
+    "id": 37189,
+    "token": " LNControlPoint",
+    "score": 3994.6589,
+    "nearest": "KPZFq"
+   },
+   {
+    "id": 36645,
+    "token": "lockm",
+    "score": 3989.4294,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 29945,
+    "token": "nameWithType",
+    "score": 3970.2202,
+    "nearest": " [💾]("
+   },
+   {
+    "id": 14696,
+    "token": " GLConstant",
+    "score": 3944.2786,
+    "nearest": "umdolorsitamet"
+   },
+   {
+    "id": 33899,
+    "token": " kZone",
+    "score": 3930.1421,
+    "nearest": " [💾]("
+   },
+   {
+    "id": 41383,
+    "token": "bankid",
+    "score": 3882.2444,
+    "nearest": " [💾]("
+   },
+   {
+    "id": 25771,
+    "token": "ReferenciaPersonal",
+    "score": 3840.677,
+    "nearest": "ldytsch"
+   },
+   {
+    "id": 40945,
+    "token": "refguide",
+    "score": 3821.3582,
+    "nearest": "ReferenciaPersonal"
+   },
+   {
+    "id": 43840,
+    "token": "adipiscingelit",
+    "score": 3820.1472,
+    "nearest": "ldytsch"
+   },
+   {
+    "id": 41587,
+    "token": " IKabs",
+    "score": 3819.7766,
+    "nearest": " [💾]("
+   },
+   {
+    "id": 44628,
+    "token": "lastCompletedBuild",
+    "score": 3767.6982,
+    "nearest": "classificationSet"
+   },
+   {
+    "id": 43821,
+    "token": "//--------------------------------------------------------------------------",
+    "score": 3730.1775,
+    "nearest": "classificationSet"
+   },
+   {
+    "id": 38472,
+    "token": "+-+-+-+-+-+-+-+-",
+    "score": 3729.9883,
+    "nearest": "strHomeaddressLive"
+   },
+   {
+    "id": 47363,
+    "token": "ToAuxInt",
+    "score": 3658.1082,
+    "nearest": "twngo"
+   },
+   {
+    "id": 21502,
+    "token": "fwlink",
+    "score": 3642.4392,
+    "nearest": "ClusCfg"
+   },
+   {
+    "id": 46458,
+    "token": "生命",
+    "score": 3639.2366,
+    "nearest": "strHomeaddress"
+   },
+   {
+    "id": 16231,
+    "token": "jshop",
+    "score": 3609.0444,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 35076,
+    "token": " CExo",
+    "score": 3580.7307,
+    "nearest": "detallenotacreditopunto"
+   },
+   {
+    "id": 33180,
+    "token": " Peaking",
+    "score": 3549.8293,
+    "nearest": "detallenotacreditopuntoventa"
+   },
+   {
+    "id": 44079,
+    "token": "opensuse",
+    "score": 3529.8621,
+    "nearest": " LNControlPoint"
+   },
+   {
+    "id": 44953,
+    "token": " BCMLTD",
+    "score": 3518.5872,
+    "nearest": " [💾]("
+   },
+   {
+    "id": 4103,
+    "token": "havior",
+    "score": 3488.7422,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 46566,
+    "token": "ustry",
+    "score": 3481.1089,
+    "nearest": "rLogUtil"
+   },
+   {
+    "id": 22572,
+    "token": "pertarget",
+    "score": 3460.1008,
+    "nearest": "DetalleFacturaProveedor"
+   },
+   {
+    "id": 30517,
+    "token": "MappingURL",
+    "score": 3454.6472,
+    "nearest": "cfUOQOae"
+   },
+   {
+    "id": 46180,
+    "token": " >();",
+    "score": 3450.2495,
+    "nearest": "DocSyntaxParser"
+   },
+   {
+    "id": 3683,
+    "token": "avascript",
+    "score": 3443.708,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 38196,
+    "token": "regtype",
+    "score": 3436.8977,
+    "nearest": "\",[$]"
+   },
+   {
+    "id": 23208,
+    "token": "IntOverflow",
+    "score": 3434.345,
+    "nearest": "iPagoOrdenCompra"
+   },
+   {
+    "id": 30404,
+    "token": "およ",
+    "score": 3425.2986,
+    "nearest": "<gh_stars>"
+   },
+   {
+    "id": 31916,
+    "token": "GLOBALS",
+    "score": 3406.75,
+    "nearest": "StatusPointer"
+   },
+   {
+    "id": 44593,
+    "token": "WriteField",
+    "score": 3403.5205,
+    "nearest": " outputStatusMessage"
+   },
+   {
+    "id": 48112,
+    "token": " InstantiateClassGenerator",
+    "score": 3335.8108,
+    "nearest": "Drealtime"
+   },
+   {
+    "id": 39795,
+    "token": "}{'",
+    "score": 3325.6392,
+    "nearest": " mstrmojo"
+   },
+   {
+    "id": 5777,
+    "token": "ubernetes",
+    "score": 3314.3921,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 40357,
+    "token": "看该",
+    "score": 3310.1785,
+    "nearest": "<gh_stars>"
+   },
+   {
+    "id": 41331,
+    "token": "tkown",
+    "score": 3288.4875,
+    "nearest": "zHjZQW"
+   },
+   {
+    "id": 36795,
+    "token": "GribCollection",
+    "score": 3274.928,
+    "nearest": " DartLib"
+   },
+   {
+    "id": 29421,
+    "token": "rLogUtil",
+    "score": 3210.9585,
+    "nearest": "vjHPpWa"
+   },
+   {
+    "id": 34447,
+    "token": "事务",
+    "score": 3209.8823,
+    "nearest": "esatterwhite"
+   },
+   {
+    "id": 36913,
+    "token": "CallableWrapper",
+    "score": 3161.4131,
+    "nearest": "AutoriPagoOrdenCompra"
+   },
+   {
+    "id": 23612,
+    "token": "enderror",
+    "score": 3149.4731,
+    "nearest": "ＯＯＯＯ"
+   },
+   {
+    "id": 33598,
+    "token": "kilda",
+    "score": 3143.4915,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 48688,
+    "token": "PyExc",
+    "score": 3136.3586,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 38110,
+    "token": "beamY",
+    "score": 3126.3879,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 44130,
+    "token": "PoliticaProducto",
+    "score": 3124.0171,
+    "nearest": "getExecSqlList"
+   },
+   {
+    "id": 28419,
+    "token": "ğer",
+    "score": 3122.2095,
+    "nearest": "ClusterSimulationProtos"
+   },
+   {
+    "id": 38704,
+    "token": "殊",
+    "score": 3120.3303,
+    "nearest": " mstrmojo"
+   },
+   {
+    "id": 36844,
+    "token": " мет",
+    "score": 3111.6013,
+    "nearest": " mstrmojo"
+   },
+   {
+    "id": 30235,
+    "token": " PYGLOW",
+    "score": 3108.3713,
+    "nearest": " PHYBOEH"
+   },
+   {
+    "id": 39593,
+    "token": "/);",
+    "score": 3063.9807,
+    "nearest": "zHjZQW"
+   },
+   {
+    "id": 44724,
+    "token": "்<",
+    "score": 3062.3037,
+    "nearest": "\",[$]"
+   },
+   {
+    "id": 34794,
+    "token": " ColumnVector",
+    "score": 3044.5549,
+    "nearest": "lcsSetup"
+   },
+   {
+    "id": 24193,
+    "token": "zmdi",
+    "score": 3036.665,
+    "nearest": "DoxyCompact"
+   },
+   {
+    "id": 15862,
+    "token": " tvg",
+    "score": 3034.0579,
+    "nearest": "DetalleFacturaProveedor"
+   },
+   {
+    "id": 42021,
+    "token": "\",\\",
+    "score": 3008.3145,
+    "nearest": " LNControlPoint"
+   },
+   {
+    "id": 9829,
+    "token": "avsop",
+    "score": 2996.8723,
+    "nearest": " DartLib"
+   },
+   {
+    "id": 27247,
+    "token": "обы",
+    "score": 2993.3445,
+    "nearest": "StatusPointer"
+   },
+   {
+    "id": 19174,
+    "token": "quantitativo",
+    "score": 2978.7871,
+    "nearest": "SERIALE"
+   },
+   {
+    "id": 42941,
+    "token": "emitInstruction",
+    "score": 2976.3843,
+    "nearest": "<issue_comment>"
+   },
+   {
+    "id": 28072,
+    "token": "tableblock",
+    "score": 2966.6848,
+    "nearest": "SMKTHBISA"
+   },
+   {
+    "id": 30347,
+    "token": "究",
+    "score": 2964.9636,
+    "nearest": " mstrmojo"
+   },
+   {
+    "id": 29816,
+    "token": " irule",
+    "score": 2964.8489,
+    "nearest": "Drealtime"
+   },
+   {
+    "id": 24584,
+    "token": "Truthy",
+    "score": 2951.3696,
+    "nearest": "matthamlin"
+   },
+   {
+    "id": 48030,
+    "token": " shlw",
+    "score": 2943.6975,
+    "nearest": "Drealtime"
+   },
+   {
+    "id": 48795,
+    "token": " помощью",
+    "score": 2941.9036,
+    "nearest": ">@[+"
+   },
+   {
+    "id": 31904,
+    "token": "hresult",
+    "score": 2933.1646,
+    "nearest": "StatusPointer"
+   },
+   {
+    "id": 13075,
+    "token": "sessment",
+    "score": 2923.0828,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 3916,
+    "token": "iteral",
+    "score": 2922.9822,
+    "nearest": "ReferenciaPersonal"
+   },
+   {
+    "id": 37445,
+    "token": "FRAMEBUFFER",
+    "score": 2919.4355,
+    "nearest": "NUZLI"
+   },
+   {
+    "id": 19974,
+    "token": "silon",
+    "score": 2911.5137,
+    "nearest": "softposit"
+   },
+   {
+    "id": 16515,
+    "token": "retty",
+    "score": 2908.905,
+    "nearest": "TipoProrrateoImpor"
+   },
+   {
+    "id": 46780,
+    "token": " outboundMarshaler",
+    "score": 2898.5762,
+    "nearest": ">@[+"
+   },
+   {
+    "id": 26530,
+    "token": " COLSPAN",
+    "score": 2897.5122,
+    "nearest": "ParamCaption"
+   },
+   {
+    "id": 27345,
+    "token": "chtml",
+    "score": 2890.0598,
+    "nearest": "allEmoji"
+   },
+   {
+    "id": 10743,
+    "token": "rastructure",
+    "score": 2886.8276,
+    "nearest": "Drealtime"
+   },
+   {
+    "id": 43615,
+    "token": "Dampening",
+    "score": 2883.116,
+    "nearest": "esatterwhite"
+   },
+   {
+    "id": 22126,
+    "token": " ]</",
+    "score": 2881.7688,
+    "nearest": "Baseldytsch"
+   },
+   {
+    "id": 43731,
+    "token": "orsitamet",
+    "score": 2877.6709,
+    "nearest": "getExecSqlList"
+   },
+   {
+    "id": 12602,
+    "token": "camatan",
+    "score": 2866.6707,
+    "nearest": "SMKTHBISA"
+   },
+   {
+    "id": 41166,
+    "token": "倒",
+    "score": 2863.1265,
+    "nearest": "acreditopunto"
+   },
+   {
+    "id": 25760,
+    "token": "BeatmapLevel",
+    "score": 2860.271,
+    "nearest": "LPADDING"
+   },
+   {
+    "id": 45095,
+    "token": "__$",
+    "score": 2852.8018,
+    "nearest": "PHPSandbox"
+   },
+   {
+    "id": 25268,
+    "token": "留",
+    "score": 2840.134,
+    "nearest": "Homeaddress"
+   },
+   {
+    "id": 34548,
+    "token": "HikariPool",
+    "score": 2838.6499,
+    "nearest": "ADynArray"
+   },
+   {
+    "id": 39311,
+    "token": "尝",
+    "score": 2823.4114,
+    "nearest": "NotaCreditoPuntoVenta"
+   },
+   {
+    "id": 41106,
+    "token": "mangledNameHash",
+    "score": 2814.4529,
+    "nearest": "callGoStackCheck"
+   },
+   {
+    "id": 38334,
+    "token": "FStar",
+    "score": 2799.7095,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 34618,
+    "token": "currentColor",
+    "score": 2794.8594,
+    "nearest": "allEmoji"
+   },
+   {
+    "id": 38038,
+    "token": "şağıdaki",
+    "score": 2794.407,
+    "nearest": " ZrLogUtil"
+   },
+   {
+    "id": 45909,
+    "token": "__(*",
+    "score": 2790.4731,
+    "nearest": "GribCollection"
+   },
+   {
+    "id": 20180,
+    "token": "译",
+    "score": 2786.8047,
+    "nearest": " PyNs"
+   },
+   {
+    "id": 33110,
+    "token": "套",
+    "score": 2769.3499,
+    "nearest": " FOLDEF"
+   },
+   {
+    "id": 23138,
+    "token": " GenInst",
+    "score": 2761.8875,
+    "nearest": "\",[$]"
+   },
+   {
+    "id": 5407,
+    "token": "iddleware",
+    "score": 2752.3223,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 20517,
+    "token": " endraw",
+    "score": 2746.3967,
+    "nearest": "NotaCreditoPunto"
+   },
+   {
+    "id": 39425,
+    "token": "MarshalToSizedBuffer",
+    "score": 2744.6357,
+    "nearest": "🔅🔅"
+   },
+   {
+    "id": 7501,
+    "token": "hicle",
+    "score": 2743.7756,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 36193,
+    "token": "estibulum",
+    "score": 2741.4778,
+    "nearest": " ZrLogUtil"
+   },
+   {
+    "id": 42619,
+    "token": "ICDCode",
+    "score": 2737.7661,
+    "nearest": "DetalleFacturaProveedor"
+   },
+   {
+    "id": 33884,
+    "token": "_[\"",
+    "score": 2729.0693,
+    "nearest": "sykesdev"
+   },
+   {
+    "id": 48082,
+    "token": "getValorProporcion",
+    "score": 2727.2397,
+    "nearest": "detallenotacreditopuntoventa"
+   },
+   {
+    "id": 44448,
+    "token": "HdfsServerProtos",
+    "score": 2725.7629,
+    "nearest": "SimulationProtos"
+   },
+   {
+    "id": 39317,
+    "token": " 해당",
+    "score": 2723.1228,
+    "nearest": " a�"
+   },
+   {
+    "id": 39476,
+    "token": "ười",
+    "score": 2718.2358,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 3023,
+    "token": "rowser",
+    "score": 2712.835,
+    "nearest": "ReferenciaPersonal"
+   },
+   {
+    "id": 17623,
+    "token": " CONSEQUENTIAL",
+    "score": 2710.7659,
+    "nearest": "ＯＯＯＯ"
+   },
+   {
+    "id": 35193,
+    "token": "apods",
+    "score": 2706.3865,
+    "nearest": " clEOA"
+   },
+   {
+    "id": 31330,
+    "token": "delivr",
+    "score": 2702.0962,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 44913,
+    "token": "multipliedBy",
+    "score": 2679.6418,
+    "nearest": ">@[+"
+   },
+   {
+    "id": 47355,
+    "token": "iaddr",
+    "score": 2654.4324,
+    "nearest": "PTcN"
+   },
+   {
+    "id": 36370,
+    "token": "oseconds",
+    "score": 2645.2869,
+    "nearest": "PHPSandbox"
+   },
+   {
+    "id": 10991,
+    "token": "lyphicon",
+    "score": 2645.0073,
+    "nearest": "ParamCaption"
+   },
+   {
+    "id": 19988,
+    "token": " ErrInvalid",
+    "score": 2641.613,
+    "nearest": "strHomeaddressLive"
+   },
+   {
+    "id": 20674,
+    "token": "thedocs",
+    "score": 2639.801,
+    "nearest": "matthamlin"
+   },
+   {
+    "id": 37811,
+    "token": "aspose",
+    "score": 2635.478,
+    "nearest": "NotaCreditoPunto"
+   },
+   {
+    "id": 7191,
+    "token": "mitive",
+    "score": 2627.5908,
+    "nearest": "Mmcsd"
+   },
+   {
+    "id": 46590,
+    "token": "ppdet",
+    "score": 2623.3035,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 8875,
+    "token": "locfile",
+    "score": 2621.3372,
+    "nearest": "ffijson"
+   },
+   {
+    "id": 8176,
+    "token": "功",
+    "score": 2617.1489,
+    "nearest": " GLConstant"
+   },
+   {
+    "id": 37065,
+    "token": "openapiv",
+    "score": 2616.7549,
+    "nearest": "detallenotacreditopuntoventa"
+   },
+   {
+    "id": 34976,
+    "token": "noversion",
+    "score": 2614.8018,
+    "nearest": "Newobject"
+   },
+   {
+    "id": 32959,
+    "token": "?,?,",
+    "score": 2614.3411,
+    "nearest": "detallenotacreditopuntoventa"
+   },
+   {
+    "id": 47767,
+    "token": "IsMutable",
+    "score": 2609.9131,
+    "nearest": "Baseldytsch"
+   },
+   {
+    "id": 41831,
+    "token": " gocheck",
+    "score": 2599.2185,
+    "nearest": "lcsSetup"
+   },
+   {
+    "id": 24569,
+    "token": "larak",
+    "score": 2596.4739,
+    "nearest": "orsitamet"
+   },
+   {
+    "id": 13545,
+    "token": "gitcommit",
+    "score": 2592.5955,
+    "nearest": "memItem"
+   },
+   {
+    "id": 23826,
+    "token": "继",
+    "score": 2591.1179,
+    "nearest": "SERIALE"
+   },
+   {
+    "id": 41487,
+    "token": "二十",
+    "score": 2580.8923,
+    "nearest": " clEOA"
+   },
+   {
+    "id": 36538,
+    "token": " knex",
+    "score": 2564.4971,
+    "nearest": " kZone"
+   },
+   {
+    "id": 5051,
+    "token": "redentials",
+    "score": 2560.8623,
+    "nearest": "ExperimentResultSet"
+   },
+   {
+    "id": 35664,
+    "token": "łąc",
+    "score": 2560.3755,
+    "nearest": "rLogUtil"
+   },
+   {
+    "id": 44229,
+    "token": " BufferedImage",
+    "score": 2560.1831,
+    "nearest": "dpiMode"
+   },
+   {
+    "id": 8950,
+    "token": "itecture",
+    "score": 2557.8755,
+    "nearest": "SchedulingSimulation"
+   },
+   {
+    "id": 35400,
+    "token": "GetPinnableReference",
+    "score": 2555.0498,
+    "nearest": "LPADDING"
+   },
+   {
+    "id": 27136,
+    "token": "codeph",
+    "score": 2541.8816,
+    "nearest": "PHPSandbox"
+   },
+   {
+    "id": 25197,
+    "token": "maphore",
+    "score": 2541.2107,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 46355,
+    "token": "RegisterM",
+    "score": 2536.7715,
+    "nearest": "MODRST"
+   },
+   {
+    "id": 37192,
+    "token": " halign",
+    "score": 2535.0991,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 35395,
+    "token": "ConvertF",
+    "score": 2526.5176,
+    "nearest": "cmpqp"
+   },
+   {
+    "id": 30853,
+    "token": "mapapi",
+    "score": 2520.6106,
+    "nearest": "rLogUtil"
+   },
+   {
+    "id": 44055,
+    "token": "skyring",
+    "score": 2520.1924,
+    "nearest": "ADynArray"
+   },
+   {
+    "id": 43302,
+    "token": "大家",
+    "score": 2518.7795,
+    "nearest": "playerDataArray"
+   },
+   {
+    "id": 40840,
+    "token": "StoreMessageInfo",
+    "score": 2514.7915,
+    "nearest": "ClusterSimulationProtos"
+   },
+   {
+    "id": 39446,
+    "token": " PythonQt",
+    "score": 2512.4663,
+    "nearest": "SMKTHBISA"
+   },
+   {
+    "id": 36848,
+    "token": " Reviewable",
+    "score": 2507.071,
+    "nearest": " RubyLint"
+   },
+   {
+    "id": 40320,
+    "token": " DartType",
+    "score": 2502.0205,
+    "nearest": " DartLib"
+   },
+   {
+    "id": 23441,
+    "token": " ArrowBox",
+    "score": 2501.0576,
+    "nearest": "DetalleNotaCreditoPuntoVenta"
+   },
+   {
+    "id": 46777,
+    "token": "anonfun",
+    "score": 2491.5015,
+    "nearest": "zHjZQW"
+   },
+   {
+    "id": 13418,
+    "token": " learnedat",
+    "score": 2490.1025,
+    "nearest": "twngo"
+   },
+   {
+    "id": 46425,
+    "token": " '{@",
+    "score": 2487.3291,
+    "nearest": "SERIALE"
+   },
+   {
+    "id": 33580,
+    "token": ">*</",
+    "score": 2485.1667,
+    "nearest": "AutoriPagoOrdenCompra"
+   },
+   {
+    "id": 32298,
+    "token": " lateinit",
+    "score": 2484.2219,
+    "nearest": "StatusPointer"
+   },
+   {
+    "id": 39750,
+    "token": "GeomFromText",
+    "score": 2477.5117,
+    "nearest": "sykesdev"
+   },
+   {
+    "id": 30688,
+    "token": "Urho",
+    "score": 2474.9697,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 41288,
+    "token": "deltaTime",
+    "score": 2474.7144,
+    "nearest": "dpiMode"
+   },
+   {
+    "id": 31017,
+    "token": "截",
+    "score": 2468.3892,
+    "nearest": "allEmoji"
+   },
+   {
+    "id": 15398,
+    "token": "己",
+    "score": 2466.0854,
+    "nearest": " CNWSCreature"
+   },
+   {
+    "id": 8730,
+    "token": "sktop",
+    "score": 2465.196,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 31093,
+    "token": "@$(",
+    "score": 2464.2244,
+    "nearest": "cmpqp"
+   },
+   {
+    "id": 46811,
+    "token": "VerbForm",
+    "score": 2463.6133,
+    "nearest": "üritüütsch"
+   },
+   {
+    "id": 30259,
+    "token": "BufferException",
+    "score": 2458.4209,
+    "nearest": "memItem"
+   },
+   {
+    "id": 37868,
+    "token": "leştir",
+    "score": 2457.6526,
+    "nearest": "PoliticaProducto"
+   },
+   {
+    "id": 40713,
+    "token": "getNumRelational",
+    "score": 2455.0339,
+    "nearest": "ÔòÉÔòÉ"
+   },
+   {
+    "id": 14056,
+    "token": "locfileid",
+    "score": 2451.1038,
+    "nearest": "🔅🔅"
+   },
+   {
+    "id": 36485,
+    "token": "шиб",
+    "score": 2448.9443,
+    "nearest": "strmojo"
+   },
+   {
+    "id": 44306,
+    "token": "coverflow",
+    "score": 2445.2671,
+    "nearest": "classificationSet"
+   },
+   {
+    "id": 49061,
+    "token": " сообщ",
+    "score": 2444.8616,
+    "nearest": " a�"
+   },
+   {
+    "id": 34998,
+    "token": "telstra",
+    "score": 2439.0452,
+    "nearest": "willyb"
+   },
+   {
+    "id": 28669,
+    "token": "shortsands",
+    "score": 2438.9783,
+    "nearest": "getExecSqlList"
+   },
+   {
+    "id": 11306,
+    "token": "FlowDirection",
+    "score": 2430.3706,
+    "nearest": "StatusPointer"
+   },
+   {
+    "id": 42644,
+    "token": "getEnableLog",
+    "score": 2428.1121,
+    "nearest": "LPADDING"
+   },
+   {
+    "id": 27463,
+    "token": "expData",
+    "score": 2426.8669,
+    "nearest": "ExperimentResultSet"
+   },
+   {
+    "id": 43201,
+    "token": "YLON",
+    "score": 2422.0713,
+    "nearest": "NUZLI"
+   },
+   {
+    "id": 47139,
+    "token": "}**",
+    "score": 2421.9675,
+    "nearest": "\";'}"
+   },
+   {
+    "id": 15951,
+    "token": ":\"-\"`",
+    "score": 2418.571,
+    "nearest": "\",[$]"
+   },
+   {
+    "id": 41771,
+    "token": "SAMPLER",
+    "score": 2417.9189,
+    "nearest": "classificationSet"
+   },
+   {
+    "id": 36428,
+    "token": "bibinfo",
+    "score": 2406.3909,
+    "nearest": "DoxyCompact"
+   },
+   {
+    "id": 14184,
+    "token": "udget",
+    "score": 2404.1724,
+    "nearest": " AsyncIClusCfg"
+   },
+   {
+    "id": 25838,
+    "token": " seedu",
+    "score": 2402.3076,
+    "nearest": " ZrLogUtil"
+   },
+   {
+    "id": 31822,
+    "token": "śli",
+    "score": 2394.2185,
+    "nearest": "strHomeaddressLive"
+   },
+   {
+    "id": 30660,
+    "token": "oprot",
+    "score": 2394.1458,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 43593,
+    "token": "yfilter",
+    "score": 2393.8572,
+    "nearest": ">@[+"
+   },
+   {
+    "id": 46066,
+    "token": " sgs",
+    "score": 2391.2336,
+    "nearest": "StatusPointer"
+   },
+   {
+    "id": 45796,
+    "token": "bgColor",
+    "score": 2390.6343,
+    "nearest": " GLConstant"
+   },
+   {
+    "id": 4932,
+    "token": "ertificate",
+    "score": 2389.2773,
+    "nearest": " clEOA"
+   },
+   {
+    "id": 47348,
+    "token": " NpcID",
+    "score": 2387.1973,
+    "nearest": " ZrLogUtil"
+   },
+   {
+    "id": 41120,
+    "token": " ?>>",
+    "score": 2385.0933,
+    "nearest": " ?>\">"
+   },
+   {
+    "id": 40049,
+    "token": "assertAlmost",
+    "score": 2384.0591,
+    "nearest": " AsyncIClusCfg"
+   },
+   {
+    "id": 45100,
+    "token": "assertContains",
+    "score": 2377.686,
+    "nearest": " postsynapticPopulation"
+   },
+   {
+    "id": 44857,
+    "token": "\">-</",
+    "score": 2377.3535,
+    "nearest": ">@[+"
+   },
+   {
+    "id": 26287,
+    "token": "ecall",
+    "score": 2374.2368,
+    "nearest": "allEmoji"
+   },
+   {
+    "id": 36500,
+    "token": "cryptocompare",
+    "score": 2367.3254,
+    "nearest": "softposit"
+   },
+   {
+    "id": 29295,
+    "token": "封",
+    "score": 2360.0005,
+    "nearest": "allEmoji"
+   },
+   {
+    "id": 39628,
+    "token": "\":\"/",
+    "score": 2359.7393,
+    "nearest": "ExperimentResultSet"
+   },
+   {
+    "id": 19559,
+    "token": "quelize",
+    "score": 2359.1172,
+    "nearest": "matthamlin"
+   },
+   {
+    "id": 7666,
+    "token": "enchmark",
+    "score": 2357.7419,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 36432,
+    "token": " SATELLITE",
+    "score": 2355.8025,
+    "nearest": "cmpqp"
+   },
+   {
+    "id": 42596,
+    "token": "AdventureWorksModel",
+    "score": 2353.5154,
+    "nearest": "ADynArray"
+   },
+   {
+    "id": 42524,
+    "token": "XDECREF",
+    "score": 2352.8931,
+    "nearest": "SERIALE"
+   },
+   {
+    "id": 19491,
+    "token": "ToProps",
+    "score": 2351.8667,
+    "nearest": "ProrrateoImpor"
+   },
+   {
+    "id": 23791,
+    "token": "MySQLParser",
+    "score": 2351.0918,
+    "nearest": "<issue_comment>"
+   },
+   {
+    "id": 19339,
+    "token": " CAUSED",
+    "score": 2351.0522,
+    "nearest": "ClusCfg"
+   },
+   {
+    "id": 44062,
+    "token": "*\");",
+    "score": 2349.0137,
+    "nearest": "cfUO"
+   },
+   {
+    "id": 32000,
+    "token": "toThrow",
+    "score": 2348.9771,
+    "nearest": "GOJT"
+   },
+   {
+    "id": 38269,
+    "token": "NavBarFont",
+    "score": 2341.8152,
+    "nearest": "cmpqp"
+   },
+   {
+    "id": 48079,
+    "token": " virtuális",
+    "score": 2333.1321,
+    "nearest": "<commit_after>"
+   },
+   {
+    "id": 39677,
+    "token": " executionInfo",
+    "score": 2333.022,
+    "nearest": "ExperimentEnv"
+   },
+   {
+    "id": 34378,
+    "token": " wnode",
+    "score": 2331.7068,
+    "nearest": "IClus"
+   },
+   {
+    "id": 44576,
+    "token": "iyouport",
+    "score": 2330.4846,
+    "nearest": "twngo"
+   },
+   {
+    "id": 48168,
+    "token": "optype",
+    "score": 2325.6382,
+    "nearest": "softposit"
+   },
+   {
+    "id": 40750,
+    "token": "WriteBarrier",
+    "score": 2315.896,
+    "nearest": "memItem"
+   },
+   {
+    "id": 36288,
+    "token": "uttify",
+    "score": 2312.0498,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 42055,
+    "token": "initelyTyped",
+    "score": 2311.7625,
+    "nearest": "TipoProrrateoImpor"
+   },
+   {
+    "id": 35397,
+    "token": "nableReference",
+    "score": 2307.4404,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 35606,
+    "token": "็",
+    "score": 2302.3628,
+    "nearest": "GOJT"
+   },
+   {
+    "id": 41174,
+    "token": " jSONScanner",
+    "score": 2300.5632,
+    "nearest": "classificationSet"
+   },
+   {
+    "id": 32823,
+    "token": "戏",
+    "score": 2298.0837,
+    "nearest": "icaProducto"
+   },
+   {
+    "id": 42561,
+    "token": "থ",
+    "score": 2292.3828,
+    "nearest": " a�"
+   },
+   {
+    "id": 44349,
+    "token": "Mmcsd",
+    "score": 2291.6609,
+    "nearest": "lcsSetup"
+   },
+   {
+    "id": 33059,
+    "token": " LGTM",
+    "score": 2290.4526,
+    "nearest": "ärndütsch"
+   },
+   {
+    "id": 41892,
+    "token": "CppCodeGenWriteBarrier",
+    "score": 2285.957,
+    "nearest": "zHjZQW"
+   },
+   {
+    "id": 35187,
+    "token": " ..@",
+    "score": 2284.8826,
+    "nearest": "classShapeBase"
+   },
+   {
+    "id": 27621,
+    "token": " safecall",
+    "score": 2277.1504,
+    "nearest": " DartLib"
+   },
+   {
+    "id": 44310,
+    "token": "buyed",
+    "score": 2275.2346,
+    "nearest": "detallenotacreditopuntoventa"
+   },
+   {
+    "id": 44090,
+    "token": " osu",
+    "score": 2271.4355,
+    "nearest": "GribCollection"
+   },
+   {
+    "id": 8042,
+    "token": "roadcast",
+    "score": 2267.3066,
+    "nearest": "sykesdev"
+   },
+   {
+    "id": 35592,
+    "token": " 따",
+    "score": 2261.2551,
+    "nearest": " PYGLOW"
+   },
+   {
+    "id": 43344,
+    "token": "kład",
+    "score": 2258.6094,
+    "nearest": " a�"
+   },
+   {
+    "id": 37562,
+    "token": "tość",
+    "score": 2258.4028,
+    "nearest": "AutoriPagoOrdenCompra"
+   },
+   {
+    "id": 39015,
+    "token": "FindConfig",
+    "score": 2255.5959,
+    "nearest": "iPagoOrdenCompra"
+   },
+   {
+    "id": 48070,
+    "token": "álat",
+    "score": 2253.4604,
+    "nearest": "cmpqp"
+   },
+   {
+    "id": 41617,
+    "token": "ATTRIB",
+    "score": 2251.5884,
+    "nearest": "ATTRIBUT"
+   },
+   {
+    "id": 47563,
+    "token": "setFullscreenMode",
+    "score": 2250.8708,
+    "nearest": "Drealtime"
+   },
+   {
+    "id": 46928,
+    "token": "getComponentId",
+    "score": 2250.0725,
+    "nearest": " ZrLogUtil"
+   },
+   {
+    "id": 47027,
+    "token": "seag",
+    "score": 2243.7927,
+    "nearest": " a�"
+   },
+   {
+    "id": 36064,
+    "token": " keyof",
+    "score": 2240.665,
+    "nearest": "rLogUtil"
+   },
+   {
+    "id": 38470,
+    "token": " auxInt",
+    "score": 2238.1421,
+    "nearest": "detallenotacreditopunto"
+   },
+   {
+    "id": 41839,
+    "token": "litsec",
+    "score": 2234.9392,
+    "nearest": "🔅🔅"
+   },
+   {
+    "id": 13332,
+    "token": "JSImport",
+    "score": 2234.2805,
+    "nearest": "ClusterSimulationProtos"
+   },
+   {
+    "id": 29833,
+    "token": " seguint",
+    "score": 2232.158,
+    "nearest": " LNControlPoint"
+   },
+   {
+    "id": 48618,
+    "token": "instancemethod",
+    "score": 2229.5076,
+    "nearest": "memItem"
+   },
+   {
+    "id": 47626,
+    "token": " 컨",
+    "score": 2227.7747,
+    "nearest": " clEOA"
+   },
+   {
+    "id": 16248,
+    "token": ":\\/\\/",
+    "score": 2224.7793,
+    "nearest": "adipiscingelit"
+   },
+   {
+    "id": 33923,
+    "token": "тобы",
+    "score": 2224.5198,
+    "nearest": "lyEnum"
+   },
+   {
+    "id": 34049,
+    "token": "izedBuffer",
+    "score": 2224.4492,
+    "nearest": "iPagoOrdenCompra"
+   },
+   {
+    "id": 36334,
+    "token": "hasiswa",
+    "score": 2222.0056,
+    "nearest": "ReferenciaPersonal"
+   },
+   {
+    "id": 36654,
+    "token": "nimiq",
+    "score": 2221.4199,
+    "nearest": "🔅🔅"
+   },
+   {
+    "id": 30080,
+    "token": "까",
+    "score": 2221.1306,
+    "nearest": " kZone"
+   },
+   {
+    "id": 17140,
+    "token": "kkit",
+    "score": 2220.1748,
+    "nearest": "TipoProrrateoImpor"
+   },
+   {
+    "id": 35255,
+    "token": "OURCE",
+    "score": 2218.8748,
+    "nearest": "NUZLI"
+   },
+   {
+    "id": 41294,
+    "token": "cocoapods",
+    "score": 2218.4556,
+    "nearest": "PHPSandbox"
+   },
+   {
+    "id": 42430,
+    "token": " argsLen",
+    "score": 2217.3721,
+    "nearest": " outputStatusMessage"
+   },
+   {
+    "id": 42778,
+    "token": " SimFlow",
+    "score": 2216.7446,
+    "nearest": " AsyncIClusCfg"
+   },
+   {
+    "id": 47994,
+    "token": "swiffy",
+    "score": 2216.5503,
+    "nearest": "allenotacreditopunto"
+   },
+   {
+    "id": 39103,
+    "token": " byteValue",
+    "score": 2214.8364,
+    "nearest": " learnedat"
+   },
+   {
+    "id": 19772,
+    "token": " kernelspec",
+    "score": 2213.835,
+    "nearest": "DetalleNotaCreditoPuntoVenta"
+   },
+   {
+    "id": 36687,
+    "token": "&&&&",
+    "score": 2212.4148,
+    "nearest": "NotaCreditoPuntoVenta"
+   },
+   {
+    "id": 18995,
+    "token": " %}</",
+    "score": 2207.7532,
+    "nearest": "}\\)</"
+   },
+   {
+    "id": 42226,
+    "token": "\\+:",
+    "score": 2206.1492,
+    "nearest": " [💾"
+   }
+  ],
+  "crowd_max_ordinary": [
+   {
+    "id": 7141,
+    "token": " But",
+    "score": 0.8818,
+    "nearest": "But"
+   },
+   {
+    "id": 20337,
+    "token": " She",
+    "score": 0.8806,
+    "nearest": "She"
+   },
+   {
+    "id": 9077,
+    "token": " Just",
+    "score": 0.8773,
+    "nearest": "Just"
+   },
+   {
+    "id": 17549,
+    "token": " Pat",
+    "score": 0.8762,
+    "nearest": "Pat"
+   },
+   {
+    "id": 21984,
+    "token": " Even",
+    "score": 0.8757,
+    "nearest": "Even"
+   },
+   {
+    "id": 19866,
+    "token": " Black",
+    "score": 0.875,
+    "nearest": "Black"
+   },
+   {
+    "id": 3367,
+    "token": " All",
+    "score": 0.8741,
+    "nearest": "All"
+   },
+   {
+    "id": 35307,
+    "token": " Due",
+    "score": 0.8734,
+    "nearest": "Due"
+   },
+   {
+    "id": 23730,
+    "token": " Both",
+    "score": 0.8732,
+    "nearest": "Both"
+   },
+   {
+    "id": 25324,
+    "token": " Finally",
+    "score": 0.8716,
+    "nearest": "Finally"
+   },
+   {
+    "id": 18305,
+    "token": " Our",
+    "score": 0.8715,
+    "nearest": "Our"
+   },
+   {
+    "id": 10451,
+    "token": " Sch",
+    "score": 0.8706,
+    "nearest": "Sch"
+   },
+   {
+    "id": 3136,
+    "token": " New",
+    "score": 0.8706,
+    "nearest": "New"
+   },
+   {
+    "id": 12495,
+    "token": " Non",
+    "score": 0.8694,
+    "nearest": "Non"
+   },
+   {
+    "id": 32690,
+    "token": " Never",
+    "score": 0.8692,
+    "nearest": "Never"
+   },
+   {
+    "id": 24788,
+    "token": " White",
+    "score": 0.8691,
+    "nearest": "White"
+   },
+   {
+    "id": 20107,
+    "token": " Under",
+    "score": 0.8684,
+    "nearest": "Under"
+   },
+   {
+    "id": 3182,
+    "token": " Not",
+    "score": 0.8678,
+    "nearest": "Not"
+   },
+   {
+    "id": 7766,
+    "token": " Then",
+    "score": 0.8672,
+    "nearest": "Then"
+   },
+   {
+    "id": 19525,
+    "token": " Most",
+    "score": 0.8671,
+    "nearest": "Most"
+   },
+   {
+    "id": 25090,
+    "token": " Har",
+    "score": 0.866,
+    "nearest": "Har"
+   },
+   {
+    "id": 15952,
+    "token": " Once",
+    "score": 0.8658,
+    "nearest": "Once"
+   },
+   {
+    "id": 18369,
+    "token": " Because",
+    "score": 0.8658,
+    "nearest": "Because"
+   },
+   {
+    "id": 12029,
+    "token": " Don",
+    "score": 0.8657,
+    "nearest": "Don"
+   },
+   {
+    "id": 8819,
+    "token": " First",
+    "score": 0.8656,
+    "nearest": "First"
+   },
+   {
+    "id": 8053,
+    "token": " That",
+    "score": 0.8644,
+    "nearest": "That"
+   },
+   {
+    "id": 22319,
+    "token": " Well",
+    "score": 0.8642,
+    "nearest": "Well"
+   },
+   {
+    "id": 11228,
+    "token": " They",
+    "score": 0.8641,
+    "nearest": "They"
+   },
+   {
+    "id": 27371,
+    "token": " Mean",
+    "score": 0.8639,
+    "nearest": "Mean"
+   },
+   {
+    "id": 7074,
+    "token": " Car",
+    "score": 0.8633,
+    "nearest": "Car"
+   },
+   {
+    "id": 886,
+    "token": " The",
+    "score": 0.863,
+    "nearest": "The"
+   },
+   {
+    "id": 31037,
+    "token": " Still",
+    "score": 0.863,
+    "nearest": "Still"
+   },
+   {
+    "id": 9723,
+    "token": " After",
+    "score": 0.8627,
+    "nearest": "After"
+   },
+   {
+    "id": 23083,
+    "token": " Sal",
+    "score": 0.8627,
+    "nearest": "Sal"
+   },
+   {
+    "id": 34473,
+    "token": " Gold",
+    "score": 0.8623,
+    "nearest": "Gold"
+   },
+   {
+    "id": 2616,
+    "token": " For",
+    "score": 0.8617,
+    "nearest": "For"
+   },
+   {
+    "id": 16041,
+    "token": " Super",
+    "score": 0.8617,
+    "nearest": "Super"
+   },
+   {
+    "id": 17640,
+    "token": " Every",
+    "score": 0.8616,
+    "nearest": "Every"
+   },
+   {
+    "id": 18379,
+    "token": " Sur",
+    "score": 0.8615,
+    "nearest": "Sur"
+   },
+   {
+    "id": 8359,
+    "token": " Mar",
+    "score": 0.8614,
+    "nearest": "Mar"
+   },
+   {
+    "id": 10100,
+    "token": " Yes",
+    "score": 0.8608,
+    "nearest": "Yes"
+   },
+   {
+    "id": 23864,
+    "token": " Many",
+    "score": 0.8606,
+    "nearest": "Many"
+   },
+   {
+    "id": 23371,
+    "token": " Pen",
+    "score": 0.8605,
+    "nearest": "Pen"
+   },
+   {
+    "id": 29325,
+    "token": " Mor",
+    "score": 0.8603,
+    "nearest": "Mor"
+   },
+   {
+    "id": 20764,
+    "token": " Hard",
+    "score": 0.86,
+    "nearest": "Hard"
+   },
+   {
+    "id": 8669,
+    "token": " Also",
+    "score": 0.8598,
+    "nearest": "Also"
+   },
+   {
+    "id": 20332,
+    "token": " Low",
+    "score": 0.8595,
+    "nearest": "Low"
+   },
+   {
+    "id": 26983,
+    "token": " Its",
+    "score": 0.8595,
+    "nearest": "Its"
+   },
+   {
+    "id": 4239,
+    "token": " And",
+    "score": 0.8592,
+    "nearest": "And"
+   },
+   {
+    "id": 24932,
+    "token": " Great",
+    "score": 0.8592,
+    "nearest": "Great"
+   },
+   {
+    "id": 19462,
+    "token": " Instead",
+    "score": 0.8589,
+    "nearest": "Instead"
+   },
+   {
+    "id": 28887,
+    "token": " Mal",
+    "score": 0.8584,
+    "nearest": "Mal"
+   },
+   {
+    "id": 8204,
+    "token": " These",
+    "score": 0.8583,
+    "nearest": "These"
+   },
+   {
+    "id": 11072,
+    "token": " Each",
+    "score": 0.8583,
+    "nearest": "Each"
+   },
+   {
+    "id": 2448,
+    "token": " You",
+    "score": 0.8582,
+    "nearest": "You"
+   },
+   {
+    "id": 36285,
+    "token": " Again",
+    "score": 0.8578,
+    "nearest": "Again"
+   },
+   {
+    "id": 11992,
+    "token": " Since",
+    "score": 0.8577,
+    "nearest": "Since"
+   },
+   {
+    "id": 26144,
+    "token": " Sam",
+    "score": 0.8575,
+    "nearest": "Sam"
+   },
+   {
+    "id": 25567,
+    "token": " Green",
+    "score": 0.8571,
+    "nearest": "Green"
+   },
+   {
+    "id": 20371,
+    "token": " Her",
+    "score": 0.8567,
+    "nearest": "Her"
+   }
+  ],
+  "prox_static_ordinary": [],
+  "lid_ordinary": [
+   {
+    "id": 33180,
+    "token": " Peaking",
+    "score": 3549.8293,
+    "nearest": "detallenotacreditopuntoventa"
+   },
+   {
+    "id": 17623,
+    "token": " CONSEQUENTIAL",
+    "score": 2710.7659,
+    "nearest": "ＯＯＯＯ"
+   },
+   {
+    "id": 36432,
+    "token": " SATELLITE",
+    "score": 2355.8025,
+    "nearest": "cmpqp"
+   },
+   {
+    "id": 19339,
+    "token": " CAUSED",
+    "score": 2351.0522,
+    "nearest": "ClusCfg"
+   },
+   {
+    "id": 44090,
+    "token": " osu",
+    "score": 2271.4355,
+    "nearest": "GribCollection"
+   },
+   {
+    "id": 17929,
+    "token": " PROFITS",
+    "score": 1609.0669,
+    "nearest": "OFzf"
+   },
+   {
+    "id": 14756,
+    "token": " DEALINGS",
+    "score": 1508.5654,
+    "nearest": " PYGLOW"
+   },
+   {
+    "id": 30071,
+    "token": " INDONESIA",
+    "score": 1461.616,
+    "nearest": "adipiscingelit"
+   },
+   {
+    "id": 20660,
+    "token": " dAtA",
+    "score": 1338.9663,
+    "nearest": " learnedat"
+   },
+   {
+    "id": 13341,
+    "token": " iNdEx",
+    "score": 1254.0872,
+    "nearest": " preCellId"
+   },
+   {
+    "id": 18710,
+    "token": " INCIDENTAL",
+    "score": 1227.856,
+    "nearest": "INCEXPRS"
+   },
+   {
+    "id": 19248,
+    "token": " EXEMPLARY",
+    "score": 1132.9038,
+    "nearest": " INCIDENTAL"
+   },
+   {
+    "id": 10478,
+    "token": " ARISING",
+    "score": 927.801,
+    "nearest": " ADVISED"
+   },
+   {
+    "id": 36111,
+    "token": " gaia",
+    "score": 713.9897,
+    "nearest": " Ga"
+   },
+   {
+    "id": 10390,
+    "token": " LIABLE",
+    "score": 536.9413,
+    "nearest": " ADVISED"
+   },
+   {
+    "id": 26204,
+    "token": " adams",
+    "score": 523.2854,
+    "nearest": "AdventureWorksModel"
+   },
+   {
+    "id": 45736,
+    "token": " MULTIPLIER",
+    "score": 486.1665,
+    "nearest": " MENTER"
+   },
+   {
+    "id": 13656,
+    "token": " CONTRIBUTORS",
+    "score": 344.0449,
+    "nearest": " Contributors"
+   },
+   {
+    "id": 18124,
+    "token": " NEGLIGENCE",
+    "score": 332.5938,
+    "nearest": " INTERRUPTION"
+   },
+   {
+    "id": 41595,
+    "token": " Npc",
+    "score": 281.2696,
+    "nearest": " Nbt"
+   },
+   {
+    "id": 39584,
+    "token": " COPYING",
+    "score": 242.6917,
+    "nearest": " copying"
+   },
+   {
+    "id": 11475,
+    "token": " HOLDERS",
+    "score": 231.8217,
+    "nearest": " HOLDER"
+   },
+   {
+    "id": 30079,
+    "token": " CRYPT",
+    "score": 227.3454,
+    "nearest": "CRYPT"
+   },
+   {
+    "id": 44456,
+    "token": " Ssh",
+    "score": 218.9538,
+    "nearest": "Ssh"
+   },
+   {
+    "id": 18737,
+    "token": " ADVISED",
+    "score": 218.1476,
+    "nearest": " ADIE"
+   },
+   {
+    "id": 19316,
+    "token": " INTERRUPTION",
+    "score": 156.3457,
+    "nearest": " PROCUREMENT"
+   },
+   {
+    "id": 47140,
+    "token": " tack",
+    "score": 142.2681,
+    "nearest": " addressing"
+   },
+   {
+    "id": 24787,
+    "token": " somehow",
+    "score": 136.4554,
+    "nearest": " the"
+   },
+   {
+    "id": 19244,
+    "token": " SUBSTITUTE",
+    "score": 134.8358,
+    "nearest": " Substitute"
+   },
+   {
+    "id": 18840,
+    "token": " POSSIBILITY",
+    "score": 131.286,
+    "nearest": " possibility"
+   },
+   {
+    "id": 38070,
+    "token": " rein",
+    "score": 128.4851,
+    "nearest": " re"
+   },
+   {
+    "id": 9007,
+    "token": " LIABILITY",
+    "score": 126.5069,
+    "nearest": "LIABILITY"
+   },
+   {
+    "id": 46882,
+    "token": " blow",
+    "score": 121.5267,
+    "nearest": " ble"
+   },
+   {
+    "id": 19237,
+    "token": " PROCUREMENT",
+    "score": 111.5702,
+    "nearest": " INTERRUPTION"
+   },
+   {
+    "id": 28536,
+    "token": " rare",
+    "score": 111.0845,
+    "nearest": " never"
+   },
+   {
+    "id": 45249,
+    "token": " edm",
+    "score": 106.6601,
+    "nearest": "edm"
+   },
+   {
+    "id": 41739,
+    "token": " thrust",
+    "score": 106.581,
+    "nearest": " thr"
+   },
+   {
+    "id": 48442,
+    "token": " sod",
+    "score": 106.3895,
+    "nearest": " som"
+   },
+   {
+    "id": 28543,
+    "token": " tend",
+    "score": 105.0288,
+    "nearest": " t"
+   },
+   {
+    "id": 31567,
+    "token": " enjoy",
+    "score": 104.7603,
+    "nearest": "joy"
+   },
+   {
+    "id": 39256,
+    "token": " jasmine",
+    "score": 98.6537,
+    "nearest": "jasmine"
+   },
+   {
+    "id": 29661,
+    "token": " oil",
+    "score": 95.5108,
+    "nearest": " lub"
+   },
+   {
+    "id": 10049,
+    "token": " DAMAGES",
+    "score": 94.0086,
+    "nearest": " DAMAGE"
+   },
+   {
+    "id": 45462,
+    "token": " surrounding",
+    "score": 93.4306,
+    "nearest": " nearby"
+   },
+   {
+    "id": 48309,
+    "token": " Teal",
+    "score": 91.709,
+    "nearest": "teal"
+   },
+   {
+    "id": 43133,
+    "token": " fear",
+    "score": 90.8949,
+    "nearest": "fe"
+   },
+   {
+    "id": 10433,
+    "token": " HOLDER",
+    "score": 90.6597,
+    "nearest": " HOLDERS"
+   },
+   {
+    "id": 37836,
+    "token": " comfort",
+    "score": 89.7357,
+    "nearest": "com"
+   },
+   {
+    "id": 21671,
+    "token": " lack",
+    "score": 88.6694,
+    "nearest": " absence"
+   },
+   {
+    "id": 45192,
+    "token": " metaData",
+    "score": 87.5908,
+    "nearest": "metaData"
+   },
+   {
+    "id": 48196,
+    "token": " FYI",
+    "score": 85.3954,
+    "nearest": "YI"
+   },
+   {
+    "id": 39098,
+    "token": " gst",
+    "score": 79.8809,
+    "nearest": "Gst"
+   },
+   {
+    "id": 48937,
+    "token": " bail",
+    "score": 77.1066,
+    "nearest": " rescue"
+   },
+   {
+    "id": 45882,
+    "token": " shortly",
+    "score": 76.64,
+    "nearest": " soon"
+   },
+   {
+    "id": 45518,
+    "token": " bland",
+    "score": 73.6464,
+    "nearest": " generic"
+   },
+   {
+    "id": 8113,
+    "token": " doing",
+    "score": 73.5839,
+    "nearest": " done"
+   },
+   {
+    "id": 17688,
+    "token": " anyway",
+    "score": 73.4268,
+    "nearest": "Any"
+   },
+   {
+    "id": 9339,
+    "token": " WARRANTY",
+    "score": 73.0125,
+    "nearest": " warranty"
+   },
+   {
+    "id": 28359,
+    "token": " overhead",
+    "score": 71.8159,
+    "nearest": " Over"
+   },
+   {
+    "id": 8461,
+    "token": " IMPLIED",
+    "score": 71.414,
+    "nearest": "IMPLIED"
+   }
+  ]
+ }
+}

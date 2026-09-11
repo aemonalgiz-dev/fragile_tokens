@@ -1,0 +1,65 @@
+[
+ {
+  "model": "Qwen3-1.7B",
+  "fragile_pct": 2.4,
+  "n_damaged": 172,
+  "exposure": 0.0951,
+  "exposure_null": 0.135,
+  "exposure_ratio": 0.7045,
+  "enrichment": 0.532
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "fragile_pct": 6.97,
+  "n_damaged": 860,
+  "exposure": 0.1048,
+  "exposure_null": 0.165,
+  "exposure_ratio": 0.635,
+  "enrichment": 0.328
+ },
+ {
+  "model": "Qwen3.8-27B",
+  "fragile_pct": 1.51,
+  "n_damaged": 103,
+  "exposure": 0.0573,
+  "exposure_null": 0.0654,
+  "exposure_ratio": 0.8752,
+  "enrichment": 1.045
+ },
+ {
+  "model": "Qwen3-32B",
+  "fragile_pct": 0.94,
+  "n_damaged": 197,
+  "exposure": 0.0584,
+  "exposure_null": 0.1019,
+  "exposure_ratio": 0.5733,
+  "enrichment": 0.385
+ },
+ {
+  "model": "Qwen2.5-72B",
+  "fragile_pct": 10.43,
+  "n_damaged": 998,
+  "exposure": 0.0694,
+  "exposure_null": 0.1229,
+  "exposure_ratio": 0.5642,
+  "enrichment": 0.419
+ },
+ {
+  "model": "Qwen3.8-Flash-Next",
+  "fragile_pct": 0.37,
+  "n_damaged": 48,
+  "exposure": 0.0515,
+  "exposure_null": 0.0757,
+  "exposure_ratio": 0.6799,
+  "enrichment": 0.662
+ },
+ {
+  "model": "Qwen3-235B",
+  "fragile_pct": 10.87,
+  "n_damaged": 1232,
+  "exposure": 0.1123,
+  "exposure_null": 0.1895,
+  "exposure_ratio": 0.5926,
+  "enrichment": 0.667
+ }
+]

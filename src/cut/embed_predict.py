@@ -48,7 +48,7 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from .analyze_trajectory import auc
+from .stats import auc
 from .ngram_identify import reproduce
 
 NORM_PATHS = ("model.norm", "gpt_neox.final_layer_norm", "transformer.ln_f",

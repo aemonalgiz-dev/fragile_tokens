@@ -34,7 +34,7 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from .analyze_trajectory import auc
+from .stats import auc
 from .embed_predict import final_norm_weight
 
 BANDS = {"short": (2, 4, 8), "mid": (16, 32), "long": (64, 128, 256, 512)}

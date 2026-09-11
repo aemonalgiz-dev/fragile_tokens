@@ -1,0 +1,72 @@
+[
+ {
+  "model": "Qwen3-1.7B",
+  "params_b": 1.7,
+  "fragile_pct": 2.4,
+  "n_fragile": 40,
+  "fragile_cos": 0.0115,
+  "stable_cos": 0.0052,
+  "ratio": 2.2,
+  "glitch_cos": 0.3901
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "params_b": 7.6,
+  "fragile_pct": 6.97,
+  "n_fragile": 294,
+  "fragile_cos": 0.0208,
+  "stable_cos": 0.0106,
+  "ratio": 1.966,
+  "glitch_cos": 0.2637
+ },
+ {
+  "model": "Qwen3.8-27B",
+  "params_b": 27.0,
+  "fragile_pct": 1.51,
+  "n_fragile": 57,
+  "fragile_cos": 0.0051,
+  "stable_cos": 0.0012,
+  "ratio": 4.195,
+  "glitch_cos": 0.1261
+ },
+ {
+  "model": "Qwen3-32B",
+  "params_b": 32.0,
+  "fragile_pct": 0.94,
+  "n_fragile": 15,
+  "fragile_cos": 0.003,
+  "stable_cos": 0.005,
+  "ratio": 0.612,
+  "glitch_cos": 0.254
+ },
+ {
+  "model": "Qwen2.5-72B",
+  "params_b": 72.0,
+  "fragile_pct": 10.43,
+  "n_fragile": 417,
+  "fragile_cos": 0.0131,
+  "stable_cos": 0.0038,
+  "ratio": 3.451,
+  "glitch_cos": 0.3014
+ },
+ {
+  "model": "Qwen3.8-Flash-Next",
+  "params_b": 175.0,
+  "fragile_pct": 0.37,
+  "n_fragile": 15,
+  "fragile_cos": 0.0386,
+  "stable_cos": -0.0,
+  "ratio": -1273.912,
+  "glitch_cos": 0.2805
+ },
+ {
+  "model": "Qwen3-235B",
+  "params_b": 235.0,
+  "fragile_pct": 10.87,
+  "n_fragile": 682,
+  "fragile_cos": 0.0041,
+  "stable_cos": 0.0008,
+  "ratio": 5.004,
+  "glitch_cos": 0.1018
+ }
+]
